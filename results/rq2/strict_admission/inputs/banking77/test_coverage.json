@@ -1,0 +1,19 @@
+{
+  "dataset": "banking77",
+  "candidate_pool_size": 3970,
+  "k_budget": 15,
+  "actual_selected": 15,
+  "train_covered": 3711,
+  "train_total": 4924,
+  "pairwise_max_float32": 0.8499060869216919,
+  "pairwise_max_float64": 0.8499062675610453,
+  "original_main_max_pairwise": 0.8975205734805247,
+  "test_covered": 1083,
+  "test_total": 1485,
+  "test_coverage_percent": 72.92929292929293,
+  "paper_full_portfolio_covered": 1109,
+  "paper_full_portfolio_percent": 74.68013468013469,
+  "delta_vs_paper_full_portfolio_pp": -1.7508417508417509,
+  "test_sha256": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461",
+  "freeze_sha256": "2d02fa810ccaf471afe7c61ae67501b19f9ff5970fb99c57fd4f37a39f5461f7"
+}

@@ -1,0 +1,110 @@
+{
+  "completed_slots": 15,
+  "slots": [
+    {
+      "slot": 1,
+      "archive": 18653,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 2,
+      "archive": 8906,
+      "considered": 258,
+      "ppl_and_local_eligible": 3,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 3,
+      "archive": 40686,
+      "considered": 258,
+      "ppl_and_local_eligible": 5,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 4,
+      "archive": 32484,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 5,
+      "archive": 48144,
+      "considered": 258,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 6,
+      "archive": 22223,
+      "considered": 257,
+      "ppl_and_local_eligible": 3,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 7,
+      "archive": 22461,
+      "considered": 258,
+      "ppl_and_local_eligible": 7,
+      "two_judge_accepted": 5
+    },
+    {
+      "slot": 8,
+      "archive": 42531,
+      "considered": 257,
+      "ppl_and_local_eligible": 20,
+      "two_judge_accepted": 5
+    },
+    {
+      "slot": 9,
+      "archive": 11124,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 10,
+      "archive": 39031,
+      "considered": 259,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 11,
+      "archive": 49789,
+      "considered": 259,
+      "ppl_and_local_eligible": 2,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 12,
+      "archive": 27042,
+      "considered": 259,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 13,
+      "archive": 40120,
+      "considered": 259,
+      "ppl_and_local_eligible": 6,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 14,
+      "archive": 32394,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 15,
+      "archive": 27069,
+      "considered": 257,
+      "ppl_and_local_eligible": 10,
+      "two_judge_accepted": 1
+    }
+  ]
+}

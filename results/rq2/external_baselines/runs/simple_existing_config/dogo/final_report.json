@@ -1,0 +1,126 @@
+{
+  "config": {
+    "comparison_mode": "simple",
+    "generation_cap_per_slot": 0,
+    "dataset": "dogo",
+    "representation": "delexed",
+    "encoder": "bge",
+    "k": 10,
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "allowed_domains": "airline, fast food, finance, insurance, media, or software support",
+    "local_readability_judge": true,
+    "api_http_timeout_s": 60,
+    "api_hard_timeout_s": 90,
+    "api_max_consecutive_failures": 3,
+    "domain_judges": [
+      "qwen_api",
+      "deepseek_api"
+    ],
+    "train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+    "target_sha256": "a046f8fc314a00ce933df26e16503555c9574b940b4438d957ab0dc8d717ecd1",
+    "seeds_sha256": "b19924914f874dbc9b13cb0d28c0991ddc310a7125f8304a12a012490ab4711d",
+    "api_config_sha256": "80ad81be615dc511887eb50c50fcfc5c995a73f7bc522421e62e0a533660dd68",
+    "model_dir": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+    "lm_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "threshold": 0.85,
+    "smoke_train_limit": 0,
+    "steps_per_slot": 32,
+    "beam_width": 50,
+    "positions_per_parent": 8,
+    "tokens_per_position": 4,
+    "max_words_per_step": 3,
+    "max_total_word_changes": 10,
+    "rewrites_per_api": 4,
+    "prompt_examples": 6,
+    "feedback_examples": 4,
+    "focus_size": 128,
+    "temperature": 0.02,
+    "align_weight": 0.1,
+    "max_ppl": 150.0,
+    "relative_ppl": 1.5,
+    "ppl_prefilter": 20,
+    "swap_passes": 4,
+    "batch_size": 64,
+    "seed": 42
+  },
+  "portfolio_source": "coordinate_beam",
+  "baseline_train_covered": 3111,
+  "selected": [
+    {
+      "text": "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",
+      "target_cosine": 0.9039751291275024,
+      "train_covered": 431,
+      "ppl": 40.788074991325246
+    },
+    {
+      "text": "Please send me my boarding pass for booking <BOOKING_ID_1>; my name is <PERSON_1>.",
+      "target_cosine": 0.9237430691719055,
+      "train_covered": 666,
+      "ppl": 94.29077708596853
+    },
+    {
+      "text": "I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>.",
+      "target_cosine": 0.9615108370780945,
+      "train_covered": 473,
+      "ppl": 77.29984982120259
+    },
+    {
+      "text": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+      "target_cosine": 0.9471762776374817,
+      "train_covered": 435,
+      "ppl": 34.424812218445716
+    },
+    {
+      "text": "Hi, this is <PERSON_1> and I'd like to request a new seat number for flight <BOOKING_ID_1>.",
+      "target_cosine": 0.932575523853302,
+      "train_covered": 594,
+      "ppl": 38.11403402768883
+    },
+    {
+      "text": "Could you please assist me in checking out the status of my case? The claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>.",
+      "target_cosine": 0.972841739654541,
+      "train_covered": 341,
+      "ppl": 20.684351753973072
+    },
+    {
+      "text": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+      "target_cosine": 0.9610071182250977,
+      "train_covered": 287,
+      "ppl": 24.8065263342816
+    },
+    {
+      "text": "I want to claim travel expenses; I'm <PERSON_1>.",
+      "target_cosine": 0.9655823707580566,
+      "train_covered": 193,
+      "ppl": 121.39930336058765
+    },
+    {
+      "text": "My card number is <CARD_NUMBER_1>, and I've recently moved to <STREET_ADDRESS_1>. Kindly update the info for my account.",
+      "target_cosine": 0.8129026293754578,
+      "train_covered": 297,
+      "ppl": 25.18036297161247
+    },
+    {
+      "text": "My account ends in <ACCOUNT_ID_LAST4_1>, and I'd like to update my address to <STREET_ADDRESS_1> please.",
+      "target_cosine": 0.9198104739189148,
+      "train_covered": 287,
+      "ppl": 71.74536579370279
+    }
+  ],
+  "metrics": {
+    "train": {
+      "covered": 3136,
+      "total": 3993,
+      "coverage": 0.7853744052091159
+    },
+    "test": {
+      "covered": 864,
+      "total": 1094,
+      "coverage": 0.7897623400365631
+    }
+  },
+  "heldout_loaded": true,
+  "note": "Final coverage is Test cosine-threshold union coverage. Train was used for optimization and selection; Test was opened only after freezing. This is not cache Top-1 or attack success.",
+  "final_coverage_split": "test",
+  "test_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc"
+}

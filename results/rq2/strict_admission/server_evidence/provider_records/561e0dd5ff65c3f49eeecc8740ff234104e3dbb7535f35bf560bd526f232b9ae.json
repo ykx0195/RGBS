@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-abae7459-36f6-96b0-98d8-ba81b9bf3b94",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I am sorry to hear that. Since I cannot access your account or perform actions, please take these immediate steps:\n\n1. **Freeze the Card:** Use your bank’s mobile app or website to lock the card instantly.\n2. **Report Lost/Stolen:** Call your bank’s customer service number (found on their website or the back of a replacement card) to report it and request a new one.\n3. **Monitor Transactions:** Check for any unauthorized activity and dispute charges if necessary.\n\nPlease do not share your full card number in public forums or with unverified parties.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876756,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 120,
+      "prompt_tokens": 102,
+      "total_tokens": 222,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 102
+      }
+    }
+  },
+  "answer": "I am sorry to hear that. Since I cannot access your account or perform actions, please take these immediate steps:\n\n1. **Freeze the Card:** Use your bank’s mobile app or website to lock the card instantly.\n2. **Report Lost/Stolen:** Call your bank’s customer service number (found on their website or the back of a replacement card) to report it and request a new one.\n3. **Monitor Transactions:** Check for any unauthorized activity and dispute charges if necessary.\n\nPlease do not share your full card number in public forums or with unverified parties.",
+  "created_utc_epoch": 1793876759.0551393
+}

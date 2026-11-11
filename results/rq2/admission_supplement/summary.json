@@ -1,0 +1,41 @@
+[
+  {
+    "dataset": "banking77",
+    "submitted": 15,
+    "admitted": 15,
+    "test_hits": 1083,
+    "test_total": 1485,
+    "coverage_pct": 72.92929292929293,
+    "coverage_ci95_low": 70.63973063973063,
+    "coverage_ci95_high": 75.15151515151514,
+    "max_pairwise_cosine": 0.8499062675610453,
+    "strict_pairwise_constraint": true,
+    "materialized_and_placeholder_agree": true
+  },
+  {
+    "dataset": "abcd",
+    "submitted": 5,
+    "admitted": 5,
+    "test_hits": 305,
+    "test_total": 476,
+    "coverage_pct": 64.07563025210085,
+    "coverage_ci95_low": 59.66386554621849,
+    "coverage_ci95_high": 68.4873949579832,
+    "max_pairwise_cosine": 0.8484501172374308,
+    "strict_pairwise_constraint": true,
+    "materialized_and_placeholder_agree": true
+  },
+  {
+    "dataset": "dogo",
+    "submitted": 10,
+    "admitted": 10,
+    "test_hits": 909,
+    "test_total": 1094,
+    "coverage_pct": 83.08957952468006,
+    "coverage_ci95_low": 80.80438756855575,
+    "coverage_ci95_high": 85.37477148080438,
+    "max_pairwise_cosine": 0.84705126551599,
+    "strict_pairwise_constraint": true,
+    "materialized_and_placeholder_agree": true
+  }
+]

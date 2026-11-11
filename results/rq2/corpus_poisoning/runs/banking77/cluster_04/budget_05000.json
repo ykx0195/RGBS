@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 5000,
+  "selected": {
+    "text": "my brief notable confused charge on transactions <ACCOUNT_NUMBER_1> ensuing elsewherebankily",
+    "full_cluster_mean_cosine": 0.8801799416542053,
+    "selected_at_iteration": 3720
+  },
+  "accepted_updates": 194,
+  "active_seconds": 459.1304251179099,
+  "heldout_loaded": false
+}

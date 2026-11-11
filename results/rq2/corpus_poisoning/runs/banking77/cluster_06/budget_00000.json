@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "Can you tell me why a transfer from account <ACCOUNT_NUMBER_1> might be declined?",
+    "full_cluster_mean_cosine": 0.8925755023956299,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006174817681312561,
+  "heldout_loaded": false
+}

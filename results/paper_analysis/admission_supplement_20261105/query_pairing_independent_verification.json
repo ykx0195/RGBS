@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "source_hashes_unchanged": true,
+  "datasets": [
+    {
+      "dataset": "banking77",
+      "queries_verified": 1485,
+      "original_hits": 233,
+      "deidentified_hits": 1083,
+      "same_per_query_results_float64": true,
+      "passed": true
+    },
+    {
+      "dataset": "abcd",
+      "queries_verified": 476,
+      "original_hits": 101,
+      "deidentified_hits": 305,
+      "same_per_query_results_float64": true,
+      "passed": true
+    },
+    {
+      "dataset": "dogo",
+      "queries_verified": 1094,
+      "original_hits": 235,
+      "deidentified_hits": 909,
+      "same_per_query_results_float64": true,
+      "passed": true
+    }
+  ],
+  "queries_verified": 3055,
+  "verify_script_sha256": "daaf62f7f461895d45c787c118ccab5363eef73fd65dadd748115f0763902d4d"
+}

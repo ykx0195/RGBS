@@ -1,0 +1,10 @@
+{
+  "max_abs_initial_embedding_delta": 1.7881393432617188e-07,
+  "initial_train_index": 2453,
+  "placeholder_count": {
+    "<ACCOUNT_NUMBER_1>": 1,
+    "<CREDIT_CARD_1>": 1
+  },
+  "cluster_queries": 576,
+  "heldout_loaded": false
+}

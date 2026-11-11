@@ -1,0 +1,18 @@
+{
+  "scope": "only new strict-pairwise portfolios, already sequentially admitted",
+  "fixed": "identical cache strings, vectors, order and budget; BGE encoder; cosine >=0.85",
+  "variable": "query-side original versus deidentified representation of the same Test records",
+  "original_condition": "offline counterfactual: encode original query without deidentification; keys stay deidentified",
+  "deidentified_condition": "offline score plus equality check against recorded real-service query outcomes",
+  "selection_or_generation": false,
+  "new_encoding": false,
+  "new_api_calls": 0,
+  "service_rerun": false,
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 20261105,
+    "interval": "95% paired record-level percentile bootstrap, same indices in both conditions",
+    "scope": "conditional on fixed keys and Test collection; excludes search and deployment variation"
+  },
+  "script_sha256": "f65092761ad931f4809bc452f371b19d24c7d28f5ec68d809eecc2728dc7232b"
+}

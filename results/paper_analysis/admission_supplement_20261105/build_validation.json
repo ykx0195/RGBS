@@ -1,0 +1,21 @@
+{
+  "compiled": true,
+  "pages": 14,
+  "new_table": "VI",
+  "new_table_page": 11,
+  "new_top1_paragraph_page": 12,
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "latex_warnings": false,
+  "table_snapshot_matches_inlined_main": true,
+  "table_values_match_source_csv": true,
+  "original_abstract_introduction_conclusion_unchanged": true,
+  "original_rq3_results_preserved": true,
+  "new_top1_counts_match_source": true,
+  "no_early_hit_column": true,
+  "backup": "C:\\Users\\ykx01\\Desktop\\ICDE_v1\\history\\before_admission_supplement_20261105_203430",
+  "main_sha256": "547ed11b613bb62a6d70ce73d13b51978267fe746511f06f0a7f880608087ac2",
+  "pdf_sha256": "c5f6efaa80e047d6e46f7ee1e6eecc7d2743c58a1a943bf35225025127c8cd8c",
+  "visual_review": "Affected pages rendered; final all-page contact sheet and affected pages inspected.",
+  "local_date": "2026-11-05T20:48:14.373915+08:00"
+}

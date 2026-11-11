@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 5000,
+  "selected": {
+    "text": "really - ill resfervable my pin though of <CREDIT_CARD_1> card thanks curious essentially option please",
+    "full_cluster_mean_cosine": 0.8912562727928162,
+    "selected_at_iteration": 4495
+  },
+  "accepted_updates": 225,
+  "active_seconds": 481.1902057155967,
+  "heldout_loaded": false
+}

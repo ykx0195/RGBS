@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-d9d0c014-bd27-9d79-9489-1ec69e54f839",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I cannot place orders or access personal contact information. To order a pizza, please use a food delivery app (such as Uber Eats, DoorDash, or Grubhub) or call the restaurant directly.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876769,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 42,
+      "prompt_tokens": 108,
+      "total_tokens": 150,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 108
+      }
+    }
+  },
+  "answer": "I cannot place orders or access personal contact information. To order a pizza, please use a food delivery app (such as Uber Eats, DoorDash, or Grubhub) or call the restaurant directly.",
+  "created_utc_epoch": 1793876769.9698706
+}

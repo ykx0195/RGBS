@@ -1,0 +1,35 @@
+{
+  "source": "C:\\Users\\ykx01\\Desktop\\results\\\u7eaf\u5411\u91cf\u5bf9\u6bd4\\\u4e94\u65b9\u6cd5_K\u4e0e\u9608\u503c\\metrics.csv",
+  "sha256": "653b33260d75a91282921872603f40c25637bbec70f014bd6732d1d9a9765728",
+  "metric": "Validation coverage",
+  "threshold": 0.85,
+  "representation": "deidentified",
+  "budgets": {
+    "banking77": 15,
+    "abcd": 5,
+    "multidogo": 10
+  },
+  "values": {
+    "greedy": [
+      68.0,
+      57.49999999999999,
+      79.25233644859813
+    ],
+    "kmeans": [
+      95.88571428571429,
+      89.375,
+      93.83177570093459
+    ],
+    "riemann": [
+      95.31428571428572,
+      91.66666666666666,
+      92.89719626168224
+    ],
+    "kmeans_riemann": [
+      97.02857142857142,
+      93.54166666666667,
+      96.07476635514018
+    ]
+  },
+  "test_values_preserved": true
+}

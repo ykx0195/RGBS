@@ -1,0 +1,13 @@
+{
+  "remote_archive_sha256": {
+    "metadata_bundle.tar.gz": "030f007b45500a5ce5d996ae84f68851c9d9651fd980f7fcd234496b96b91832",
+    "result_bundle.tar.gz": "74bc5aa3403a673382ad411ccbc8eafcb327344e221056e767a881f25faef137"
+  },
+  "archive_comparison": "all matched",
+  "remote_and_local_source_sha256": {
+    "prepare_presidio_variants.py": "72da1b7d472a99cecc459945dbf99ea64b714b9d69ca88ba5b9d3eb53ca685db",
+    "run_mechanism_presidio_gpu.py": "4c335eba922aa1320f9de5a05de7484f00a4afac9bc7f41987c66464e993aacd"
+  },
+  "embedding_files_validated": 720,
+  "max_norm_deviation": 1.1920928955078125e-07
+}

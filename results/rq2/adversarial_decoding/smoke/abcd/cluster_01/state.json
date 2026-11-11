@@ -1,0 +1,395 @@
+{
+  "config": {
+    "dataset": "abcd",
+    "cluster": 1,
+    "seed": 42,
+    "model_repo": "Qwen/Qwen2.5-1.5B-Instruct (smoke only)",
+    "model_revision": "local-smoke-only",
+    "encoder": "bge-small-en-v1.5 normalized CLS",
+    "official_commit": "16f94547caa23c328661f0d6a62073be8dfe863a",
+    "beam_width": 3,
+    "top_k": 3,
+    "max_steps": 30,
+    "cosine_weight": 1.0,
+    "readability_weight": 2.0,
+    "readability_cap": 0.05,
+    "prompt": "Write exactly one concise, grammatical English customer-support question in account access, orders, product defects, shipping, subscriptions, or site support. Use typed placeholders such as <ACCOUNT_NUMBER_1> instead of real personal details when appropriate. Do not answer the question. Do not add a preface, a list, or a second sentence. The customer issues to target are illustrated by these Train examples:\n1. I don't need the item I purchased anymore, so I'd like to return it and get a refund for order <ORDER_ID_1>. My username is <USERNAME_1>.\n2. I'd like a refund for order <ORDER_ID_1> because I don't like the fit, and I want to return it by mail. My username is <USERNAME_1>.\n3. I'd like a refund for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after placing it, and my username is <USERNAME_1>.\nCustomer question:",
+    "train_examples": [
+      "I don't need the item I purchased anymore, so I'd like to return it and get a refund for order <ORDER_ID_1>. My username is <USERNAME_1>.",
+      "I'd like a refund for order <ORDER_ID_1> because I don't like the fit, and I want to return it by mail. My username is <USERNAME_1>.",
+      "I'd like a refund for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after placing it, and my username is <USERNAME_1>."
+    ],
+    "train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+    "train_vectors_sha256": "b7cbb882801589fd2316b97f428c7edeec4d6cdccaf3de2972d751327ccdb47c",
+    "encoder_weight_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "model_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "device": "cuda"
+  },
+  "completed_steps": 30,
+  "beams": [
+    {
+      "token_ids": [
+        6713,
+        358,
+        470,
+        847,
+        1973,
+        448,
+        1973,
+        3034,
+        220,
+        17,
+        15,
+        17,
+        16,
+        15,
+        24,
+        15,
+        16,
+        323,
+        633,
+        847,
+        3220,
+        1182,
+        438,
+        5135,
+        438,
+        432,
+        594,
+        27259,
+        311,
+        847
+      ],
+      "text": "Can I return my order with order ID 20210901 and get my money back as soon as it's shipped to my",
+      "mean_train_cosine": 0.7854021787643433,
+      "readability_score": 0.03356367226061204,
+      "score": 0.8525295232855673
+    },
+    {
+      "token_ids": [
+        6713,
+        358,
+        470,
+        847,
+        1973,
+        448,
+        1973,
+        3034,
+        220,
+        17,
+        15,
+        17,
+        16,
+        15,
+        24,
+        15,
+        16,
+        323,
+        633,
+        847,
+        3220,
+        1182,
+        438,
+        5135,
+        438,
+        432,
+        594,
+        27259,
+        311,
+        279
+      ],
+      "text": "Can I return my order with order ID 20210901 and get my money back as soon as it's shipped to the",
+      "mean_train_cosine": 0.7813910841941833,
+      "readability_score": 0.029498525073746312,
+      "score": 0.8403881343416759
+    },
+    {
+      "token_ids": [
+        6713,
+        358,
+        470,
+        847,
+        1973,
+        448,
+        1973,
+        3034,
+        220,
+        17,
+        15,
+        17,
+        16,
+        15,
+        24,
+        15,
+        16,
+        323,
+        633,
+        847,
+        3220,
+        1182,
+        438,
+        432,
+        11465,
+        714,
+        374,
+        304,
+        279,
+        1379
+      ],
+      "text": "Can I return my order with order ID 20210901 and get my money back as it arrived but is in the size",
+      "mean_train_cosine": 0.8030527830123901,
+      "readability_score": 0.015114578254509995,
+      "score": 0.8332819395214102
+    }
+  ],
+  "best_complete": {
+    "token_ids": [
+      6713,
+      358,
+      470,
+      847,
+      1973,
+      448,
+      1973,
+      3034,
+      220,
+      17,
+      15,
+      17,
+      16,
+      15,
+      24,
+      15,
+      16,
+      323,
+      633,
+      847,
+      3220,
+      1182,
+      438,
+      5135,
+      438,
+      432,
+      594,
+      27259,
+      30
+    ],
+    "text": "Can I return my order with order ID 20210901 and get my money back as soon as it's shipped?",
+    "mean_train_cosine": 0.7865782380104065,
+    "readability_score": 0.010703363914373088,
+    "score": 0.8079849658391527
+  },
+  "active_seconds": 4.281301103532314,
+  "history": [
+    {
+      "step": 1,
+      "candidate_count": 3,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can"
+    },
+    {
+      "step": 2,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "I received"
+    },
+    {
+      "step": 3,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return"
+    },
+    {
+      "step": 4,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return order"
+    },
+    {
+      "step": 5,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return order #"
+    },
+    {
+      "step": 6,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with"
+    },
+    {
+      "step": 7,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order"
+    },
+    {
+      "step": 8,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID"
+    },
+    {
+      "step": 9,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID"
+    },
+    {
+      "step": 10,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 1"
+    },
+    {
+      "step": 11,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 99"
+    },
+    {
+      "step": 12,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 202"
+    },
+    {
+      "step": 13,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 2021"
+    },
+    {
+      "step": 14,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 20211"
+    },
+    {
+      "step": 15,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 202112"
+    },
+    {
+      "step": 16,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 2021091"
+    },
+    {
+      "step": 17,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 20210915"
+    },
+    {
+      "step": 18,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 20210901 and"
+    },
+    {
+      "step": 19,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 20210901 for $"
+    },
+    {
+      "step": 20,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 20210901 and get my"
+    },
+    {
+      "step": 21,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 20210901, which has not"
+    },
+    {
+      "step": 22,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I return my order with order ID 20210901, which has been received"
+    },
+    {
+      "step": 23,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7875877611511939,
+      "best_active_text": "Can I return my order with order ID 20210901 and get my money back as"
+    },
+    {
+      "step": 24,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7875877611511939,
+      "best_active_text": "Can I return my order with order ID 20210901 and get my money back as it"
+    },
+    {
+      "step": 25,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7875877611511939,
+      "best_active_text": "Can I return my order with order ID 20210901 and get my money back as it was"
+    },
+    {
+      "step": 26,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7875877611511939,
+      "best_active_text": "Can I return my order with order ID 20210901 and get my money back as it arrived but"
+    },
+    {
+      "step": 27,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7875877611511939,
+      "best_active_text": "Can I return my order with order ID 20210901 and get my money back as soon as it's"
+    },
+    {
+      "step": 28,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7875877611511939,
+      "best_active_text": "Can I return my order with order ID 20210901 and get my money back as it arrived but is in"
+    },
+    {
+      "step": 29,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.8079849658391527,
+      "best_active_text": "Can I return my order with order ID 20210901 and get my money back as soon as it's shipped to"
+    },
+    {
+      "step": 30,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.8079849658391527,
+      "best_active_text": "Can I return my order with order ID 20210901 and get my money back as soon as it's shipped to my"
+    }
+  ]
+}

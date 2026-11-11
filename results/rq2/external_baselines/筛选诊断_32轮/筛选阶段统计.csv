@@ -1,0 +1,5 @@
+method,dataset,archive,considered,ppl_and_local_eligible,two_judge_accepted,slots_reaching_local_cap20,raw_coverage,screened_coverage,screened_k
+gaslite_flu_32,abcd,157387,1291,5,4,0,0.6134453781512605,0.3697478991596639,4
+gaslite_flu_32,banking77,462657,3869,61,22,1,0.7481481481481481,0.5663299663299664,15
+gaslite_flu_32,dogo,274676,2578,9,7,0,0.8555758683729433,0.340036563071298,7
+gaslite_32,banking77,414987,3840,46,8,2,0.7811447811447811,0.25117845117845117,8

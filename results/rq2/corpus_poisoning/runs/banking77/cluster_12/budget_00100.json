@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "as <PERSON_1> details i'm vacated struggling authenticing updated addressced stupid id <CUSTOMER_ID_1> though",
+    "full_cluster_mean_cosine": 0.8313624262809753,
+    "selected_at_iteration": 86
+  },
+  "accepted_updates": 13,
+  "active_seconds": 11.023971274495125,
+  "heldout_loaded": false
+}

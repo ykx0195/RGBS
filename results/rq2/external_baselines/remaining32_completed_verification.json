@@ -1,0 +1,42 @@
+[
+  {
+    "path": "runs/gaslite_32/soft_threshold/banking77/final_report.json",
+    "checks": {
+      "n_iter_32": true,
+      "train_frozen_without_test": true,
+      "raw_selected_frozen": true,
+      "screened_selected_frozen": true,
+      "test_hash": true
+    }
+  },
+  {
+    "path": "runs/gaslite_flu_32/mean_cosine/banking77/final_report.json",
+    "checks": {
+      "n_iter_32": true,
+      "train_frozen_without_test": true,
+      "raw_selected_frozen": true,
+      "screened_selected_frozen": true,
+      "test_hash": true
+    }
+  },
+  {
+    "path": "runs/gaslite_flu_32/mean_cosine/dogo/final_report.json",
+    "checks": {
+      "n_iter_32": true,
+      "train_frozen_without_test": true,
+      "raw_selected_frozen": true,
+      "screened_selected_frozen": true,
+      "test_hash": true
+    }
+  },
+  {
+    "path": "runs/gaslite_flu_32/mean_cosine/abcd/final_report.json",
+    "checks": {
+      "n_iter_32": true,
+      "train_frozen_without_test": true,
+      "raw_selected_frozen": true,
+      "screened_selected_frozen": true,
+      "test_hash": true
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "ultimately credit card been lost, but i'm <PERSON_1> . please report tae from the cardname is <CARD_NUMBER_1> number",
+    "full_cluster_mean_cosine": 0.9022854566574097,
+    "selected_at_iteration": 62
+  },
+  "accepted_updates": 14,
+  "active_seconds": 10.095143057405949,
+  "heldout_loaded": false
+}

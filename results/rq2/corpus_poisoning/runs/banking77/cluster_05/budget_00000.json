@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+    "full_cluster_mean_cosine": 0.8524413108825684,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006751418113708496,
+  "heldout_loaded": false
+}

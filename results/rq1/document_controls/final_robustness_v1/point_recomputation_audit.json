@@ -1,0 +1,527 @@
+{
+  "compared_cells": 400,
+  "float32_boundary_differences": [
+    {
+      "domain": "healthcare",
+      "model": "minilm",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.001",
+      "net_rate_difference": 1.7783152241566957e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "minilm",
+      "pipeline": "gold_all",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.001",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241462874e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 5.33494567245274e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "typed_numbered",
+      "target": "0.001",
+      "net_rate_difference": 1.7783152241584305e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "delete",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241532263e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "star",
+      "target": "0.001",
+      "net_rate_difference": 1.7783152241566957e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241324096e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "typed_numbered",
+      "target": "0.001",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 3.5566304483203304e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "star",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "e5",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 3.5566304483064526e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "e5",
+      "pipeline": "presidio",
+      "method": "typed_numbered",
+      "target": "0.001",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "e5",
+      "pipeline": "presidio",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "bge",
+      "pipeline": "gold_all",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "bge",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "healthcare",
+      "model": "bge",
+      "pipeline": "presidio",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 1.7783152241601652e-06
+    },
+    {
+      "domain": "finance",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.001",
+      "net_rate_difference": 2.9926410955467136e-06
+    },
+    {
+      "domain": "finance",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "delete",
+      "target": "0.01",
+      "net_rate_difference": 2.992641095544979e-06
+    },
+    {
+      "domain": "finance",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 5.985282191089958e-06
+    },
+    {
+      "domain": "finance",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.001",
+      "net_rate_difference": 2.992641095544979e-06
+    },
+    {
+      "domain": "finance",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 2.992641095544979e-06
+    },
+    {
+      "domain": "finance",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "typed_numbered",
+      "target": "0.001",
+      "net_rate_difference": 5.985282191093427e-06
+    },
+    {
+      "domain": "finance",
+      "model": "e5",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 5.985282191089958e-06
+    },
+    {
+      "domain": "finance",
+      "model": "bge",
+      "pipeline": "gold_all",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 2.992641095544979e-06
+    },
+    {
+      "domain": "finance",
+      "model": "bge",
+      "pipeline": "gold_all",
+      "method": "star",
+      "target": "0.01",
+      "net_rate_difference": 2.992641095544979e-06
+    },
+    {
+      "domain": "finance",
+      "model": "bge",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 2.992641095544979e-06
+    },
+    {
+      "domain": "finance",
+      "model": "bge",
+      "pipeline": "presidio",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 2.9926410955484484e-06
+    },
+    {
+      "domain": "banking",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 2.059286868943966e-06
+    },
+    {
+      "domain": "banking",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "delete",
+      "target": "0.01",
+      "net_rate_difference": 2.0592868689578436e-06
+    },
+    {
+      "domain": "banking",
+      "model": "e5",
+      "pipeline": "presidio",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 2.0592868689509047e-06
+    },
+    {
+      "domain": "banking",
+      "model": "bge",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.001",
+      "net_rate_difference": 2.0592868689578436e-06
+    },
+    {
+      "domain": "banking",
+      "model": "bge",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.001",
+      "net_rate_difference": 2.0592868689578436e-06
+    },
+    {
+      "domain": "banking",
+      "model": "bge",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 2.0592868689717214e-06
+    },
+    {
+      "domain": "banking",
+      "model": "bge",
+      "pipeline": "presidio",
+      "method": "delete",
+      "target": "0.01",
+      "net_rate_difference": 2.059286868954374e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "minilm",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.001",
+      "net_rate_difference": 6.701837912022335e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "minilm",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 6.701837912126418e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "minilm",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 6.70183791198764e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "minilm",
+      "pipeline": "gold_all",
+      "method": "star",
+      "target": "0.01",
+      "net_rate_difference": 6.70183791198764e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "minilm",
+      "pipeline": "presidio",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 6.70183791198764e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "minilm",
+      "pipeline": "presidio",
+      "method": "delete",
+      "target": "0.001",
+      "net_rate_difference": 6.701837912031008e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 2.6807351648228117e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 1.340367582404467e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 1.340367582397528e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "gte",
+      "pipeline": "gold_all",
+      "method": "star",
+      "target": "0.01",
+      "net_rate_difference": 6.701837912057029e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 3.350918956007698e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "typed",
+      "target": "0.001",
+      "net_rate_difference": 6.701837912031008e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "delete",
+      "target": "0.01",
+      "net_rate_difference": 1.340367582404467e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "gte",
+      "pipeline": "presidio",
+      "method": "star",
+      "target": "0.01",
+      "net_rate_difference": 6.701837912022335e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.001",
+      "net_rate_difference": 6.701837912057029e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 1.3403675824252836e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.001",
+      "net_rate_difference": 6.70183791198764e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "typed_numbered",
+      "target": "0.01",
+      "net_rate_difference": 6.701837911848862e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "e5",
+      "pipeline": "gold_all",
+      "method": "star",
+      "target": "0.01",
+      "net_rate_difference": 6.701837912057029e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "e5",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 2.01055137361017e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "e5",
+      "pipeline": "presidio",
+      "method": "delete",
+      "target": "0.01",
+      "net_rate_difference": 1.340367582404467e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "bge",
+      "pipeline": "gold_all",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 1.340367582397528e-06
+    },
+    {
+      "domain": "insurance",
+      "model": "bge",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.001",
+      "net_rate_difference": 6.701837912022335e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "bge",
+      "pipeline": "gold_all",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 6.701837912057029e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "bge",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 6.70183791198764e-07
+    },
+    {
+      "domain": "insurance",
+      "model": "bge",
+      "pipeline": "presidio",
+      "method": "typed",
+      "target": "0.01",
+      "net_rate_difference": 6.701837912022335e-07
+    },
+    {
+      "domain": "legal",
+      "model": "minilm",
+      "pipeline": "presidio",
+      "method": "generic",
+      "target": "0.01",
+      "net_rate_difference": 7.795994418066665e-06
+    }
+  ],
+  "max_absolute_rate_difference": 7.795994418066665e-06,
+  "note": "Same stored embeddings, local BLAS recomputation of point estimates; direction unchanged."
+}

@@ -1,0 +1,238 @@
+{
+  "config": {
+    "dataset": "banking77",
+    "k": 15,
+    "threshold": 0.85,
+    "seed": 42,
+    "objective": "soft_threshold",
+    "official_commit": "8dc7646f1ac8cd68f38463df01578c74fff22795",
+    "n_iter": 32,
+    "n_grad": 50,
+    "k_candidates": 256,
+    "beam_candidates": 128,
+    "beam_width": 1,
+    "n_flip": 20,
+    "flu_alpha": 0,
+    "common_train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+    "common_seed_sha256": "8f1e068efed8587599bd65d0660085319256b21b0baa1c174b513485ec55cc55",
+    "quality_archive_cap_per_slot": 256,
+    "quality_accept_cap_per_slot": 20,
+    "quality": {
+      "ppl": 150,
+      "relative_ppl": 1.5,
+      "total_word_edits": 10,
+      "local_readability": true,
+      "two_api_scope_judges": true
+    },
+    "note": "Adapted whole-query interface and shared geometric initialization, not original paper ranking evaluation. Default no differentiable fluency; use Train-ranked archive screening."
+  },
+  "raw_selected": [
+    {
+      "text": "annoyed potentially fumblegling why the money from account <ACCOUNT_NUMBER_1> hasn appear t now transactionstively",
+      "ppl": null
+    },
+    {
+      "text": "none similarly alternatively perhaps miscellaneous charge covering my card transaction. tip weren it presumably to credit <ACCOUNT_NUMBER_1>?",
+      "ppl": null
+    },
+    {
+      "text": "alternatively it thinks i withdrew cash presumably roughly atm accountths i didn'outcome. can anyone issue me with card <CREDIT_CARD_1>?",
+      "ppl": null
+    },
+    {
+      "text": "because card <CREDIT_CARD_1> temporarily broken, please advice me.",
+      "ppl": null
+    },
+    {
+      "text": "unablearound somebody provide against ] transfer money doesnpel to anyway <ACCOUNT_NUMBER_1>?",
+      "ppl": null
+    },
+    {
+      "text": "please could handle me moreoverilly cancel something avail towards account <ACCOUNT_NUMBER_1> especially",
+      "ppl": null
+    },
+    {
+      "text": "guessing returning <ACCOUNT_NUMBER_1> concerning still declines payment wasn with card <CREDIT_CARD_1> ou waiting pl jways",
+      "ppl": null
+    },
+    {
+      "text": "since card <CREDIT_CARD_1> temporarily broken, please activate me.",
+      "ppl": null
+    },
+    {
+      "text": "previously card information somewhere seemed damn todsive. can you deliver wat eventualinate <ACCOUNT_NUMBER_1>?",
+      "ppl": null
+    },
+    {
+      "text": "aye dem transactions or rates misleading having given <ACCOUNT_NUMBER_1> somewhere",
+      "ppl": null
+    },
+    {
+      "text": "pleasegles me wondering about the transfer from account <ACCOUNT_NUMBER_1> seems't sent until.",
+      "ppl": null
+    },
+    {
+      "text": "bro hmm customersnio verification my id surrounding despite <ACCOUNT_NUMBER_1> bother",
+      "ppl": null
+    },
+    {
+      "text": "myself <STREET_ADDRESS_1> othersrsa i register received phones stolen needing said numbering for missed <ACCOUNT_NUMBER_1>",
+      "ppl": null
+    },
+    {
+      "text": "alt ; hopefully asking experimentinghering aiming temporarily wrong with the top - up from mine <ACCOUNT_NUMBER_1> despite available <CREDIT_CARD_1> nothing",
+      "ppl": null
+    },
+    {
+      "text": "reertlessly seated me situation regarding pin for having <CREDIT_CARD_1>, can anyone aids me nearby",
+      "ppl": null
+    }
+  ],
+  "screened_selected": [
+    {
+      "text": "Can you tell me why the transaction from account <ACCOUNT_NUMBER_1> hasn't gone through?",
+      "ppl": 41.669659872946646
+    },
+    {
+      "text": "can you tell me why the transaction from account <ACCOUNT_NUMBER_1> hasn't gone through?",
+      "ppl": 39.02183609785044
+    },
+    {
+      "text": "How do I reactivate my card for account <ACCOUNT_NUMBER_1>?",
+      "ppl": 86.94433924109666
+    },
+    {
+      "text": "how do i reactivate my card for account <ACCOUNT_NUMBER_1>?",
+      "ppl": 77.68017661913345
+    },
+    {
+      "text": "My card payment didn't go through. Can you explain why for account <ACCOUNT_NUMBER_1>?",
+      "ppl": 71.37323065632297
+    },
+    {
+      "text": "my card payment didn't go through. can you explain why for account <ACCOUNT_NUMBER_1>?",
+      "ppl": 54.448812893186485
+    },
+    {
+      "text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+      "ppl": 73.35901005814968
+    },
+    {
+      "text": "the cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+      "ppl": 65.95753309351637
+    }
+  ],
+  "quality_screen": [
+    {
+      "slot": 1,
+      "archive": 20647,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 2,
+      "archive": 5201,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 3,
+      "archive": 35233,
+      "considered": 256,
+      "ppl_and_local_eligible": 4,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 4,
+      "archive": 14183,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 5,
+      "archive": 28773,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 6,
+      "archive": 23607,
+      "considered": 256,
+      "ppl_and_local_eligible": 2,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 7,
+      "archive": 28960,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 8,
+      "archive": 42287,
+      "considered": 256,
+      "ppl_and_local_eligible": 20,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 9,
+      "archive": 10344,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 10,
+      "archive": 29108,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 11,
+      "archive": 40121,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 12,
+      "archive": 25361,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 13,
+      "archive": 33921,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 14,
+      "archive": 49733,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 15,
+      "archive": 27508,
+      "considered": 256,
+      "ppl_and_local_eligible": 20,
+      "two_judge_accepted": 2
+    }
+  ],
+  "screened_key_count": 8,
+  "heldout_loaded": false,
+  "train": {
+    "raw": 4057,
+    "screened": 1402
+  }
+}

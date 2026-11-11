@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "Could you tell me why the payment from account <ACCOUNT_NUMBER_1> using my card <CREDIT_CARD_1> was cancelled?",
+    "full_cluster_mean_cosine": 0.8463077545166016,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006307214498519897,
+  "heldout_loaded": false
+}

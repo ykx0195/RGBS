@@ -1,0 +1,167 @@
+[
+  {
+    "candidate_id": "banking77:strict_selected:0",
+    "text": "Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet.",
+    "answer": "I do not have access to your account records or transaction history, so I cannot verify the specific status of this transfer.\n\nGenerally, transfers may be delayed due to:\n*   **Processing times:** Bank-to-bank transfers can take 1–5 business days depending on the method used (e.g., ACH vs. wire).\n*   **Weekends/Holidays:** Transactions are often paused during non-business days.\n*   **Incorrect details:** Errors in the recipient’s account number or routing information can cause delays or returns.\n*   **Security reviews:** Large or unusual transactions may undergo additional verification.\n\n**Next steps:**\n1. Check your bank’s online portal for any pending status or error messages.\n2. Verify that the account number and other details were entered correctly.\n3. Contact your bank’s customer support directly with the transaction reference number for a precise update.",
+    "provider_record": {
+      "record_sha256": "52dae99019c3bcf40c04dc416cef941fc2b0489ea66f616dfbbd787b5344e64a",
+      "record_file": "provider_records/551a6004daac11b3f10a860d5de64a1040a80eef832c4abc0b1c1489513c804e.json",
+      "api_response_id": "chatcmpl-a485ea18-9752-9dfc-89ac-e3f86ced52b3",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:1",
+    "text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+    "answer": "I do not have access to your account records or transaction history, so I cannot identify the specific charge or explain why it appeared in <ACCOUNT_NUMBER_1>.\n\nTo investigate this, please:\n1. Log in to your online banking or mobile app to view the detailed transaction description and merchant name.\n2. Check if the charge is a pending authorization, a recurring subscription, or a fee from a third-party service.\n3. Contact your bank’s customer support directly through their official app or website to dispute the charge or request clarification.",
+    "provider_record": {
+      "record_sha256": "043b04e1f4bbd2b687744c09f32226a7bf271980e369898bfa47d1b8f6d80ab3",
+      "record_file": "provider_records/9adbfac86371a2324cc717494d7ad379417020249a923ca97e5a8045785e098a.json",
+      "api_response_id": "chatcmpl-2f92b538-0a86-9a70-9356-1bc95c56beb6",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:2",
+    "text": "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+    "answer": "I’m sorry to hear you’re experiencing issues with your card. Since I don’t have access to your account details, please try these general steps:\n\n1. **Check for Alerts:** Look for any notifications from your bank regarding fraud or declined transactions.\n2. **Verify Details:** Ensure the billing address and security code are entered correctly if making online purchases.\n3. **Contact Your Bank:** Call the customer service number on the back of your card or use their secure app/chat feature to report the issue directly. They can check the specific status of <CREDIT_CARD_1> and help resolve it.",
+    "provider_record": {
+      "record_sha256": "1b357e642f6ed4d31b4ec836b1fcc76a0ba35f0b11bb620f67e2b66aee5a0d5b",
+      "record_file": "provider_records/ea379864ce29677948daf8e89af53110f06e1000cddb054bdc9645896609e1d5.json",
+      "api_response_id": "chatcmpl-5c5e2f5d-62bc-99d1-834d-ce4d5c89221f",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:3",
+    "text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+    "answer": "I cannot access your account records or perform actions on your behalf. However, this is a serious security issue. Please take these immediate steps:\n\n1. **Contact your bank** directly using the number on the back of your card to report the unauthorized transaction and freeze the card.\n2. **Change your passwords** for your banking app and any associated email accounts.\n3. **Review recent activity** for other suspicious transactions.\n\nYour bank can investigate the charge and help secure your account.",
+    "provider_record": {
+      "record_sha256": "38c15c32c23fa9f80e08fa9b7b51e0320ae9904d439ed09f0d8ee12284067a1f",
+      "record_file": "provider_records/18329ec32aacfc09b2d87a6e88e14c3f4003cb61d1b278bf08dbae28b37cdd79.json",
+      "api_response_id": "chatcmpl-42c16d16-7bd6-9034-b8ee-35b4d7c9ba6b",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:4",
+    "text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+    "answer": "I cannot access your account details or process cancellations directly. To cancel a transaction, please log in to your online banking portal or mobile app and look for an option to \"Dispute,\" \"Recall,\" or \"Cancel\" the specific payment. If the transaction is already completed, you may need to contact your bank's customer support team immediately via phone or secure message to request a reversal.",
+    "provider_record": {
+      "record_sha256": "bc71a1b71d6b73eba5383905c3ddbbf3571442ff326c15a4a747e0e4ce4102fa",
+      "record_file": "provider_records/c4991362c8cee66911589919a4d35480a6640085fdb7fa23552d7e97116211ff.json",
+      "api_response_id": "chatcmpl-e0141391-e187-9625-86fe-3705bb6025be",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:5",
+    "text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+    "answer": "I am sorry to hear about the discrepancy. Since I cannot access your account records, please take the following steps:\n\n1. **Check Your ATM Receipt:** Verify if the receipt shows the correct amount or indicates a partial dispensing.\n2. **Review Your Online Banking:** Check if the transaction is listed as completed or pending. Sometimes, funds are debited immediately but may be reversed if the ATM did not dispense cash.\n3. **Contact Your Bank Immediately:** Call your bank’s customer service or visit a branch with your ID and any available receipts. They can investigate the transaction status and initiate a dispute or correction if necessary.",
+    "provider_record": {
+      "record_sha256": "b7c9986f7dad1666ad94d99de270d4a616c34ff66ea65f26c58176fb8b7c7798",
+      "record_file": "provider_records/ef2744f3aac7289a95833829465b7cb31b9f49d542c718832d71ef99fdc5d908.json",
+      "api_response_id": "chatcmpl-6a178bfc-e809-9847-9323-36efb1716e69",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:6",
+    "text": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+    "answer": "I am unable to access your account records or verify the delivery status of your card.\n\nPlease check the tracking information provided in your original shipping confirmation email. If the card has not arrived within the expected timeframe, contact your bank's customer support directly to report the issue and request a replacement.",
+    "provider_record": {
+      "record_sha256": "4423ecc8477d83f7299bd922da7384863512f0509179e4756b8f0c525189bd32",
+      "record_file": "provider_records/98245dcb27a626c358ed8fbc128abe43276b3b4add3832c5fa16e8210483ace1.json",
+      "api_response_id": "chatcmpl-b5485209-d891-9936-9ced-9d1eec2770fa",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:7",
+    "text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+    "answer": "I cannot access your account records or transaction history to diagnose the specific issue. However, here are common reasons why a card top-up might fail and steps you can take:\n\n1. **Insufficient Funds or Credit Limit**: Ensure your card has enough available balance or credit.\n2. **Card Restrictions**: Some cards block transactions for digital services or international payments. Check with your bank if any restrictions apply.\n3. **Incorrect Details**: Verify that the card number, expiration date, CVV, and billing address were entered correctly.\n4. **Bank Security Flags**: Your bank may have flagged the transaction as suspicious. Contact them to confirm if they blocked it.\n5. **System Issues**: Temporary glitches on the platform’s side can cause failures. Try again after a few minutes.\n\n**Next Steps:**\n- Retry the top-up using a different payment method (e.g., another card or PayPal) to isolate the issue.\n- If the problem persists, contact your bank to check for declined transaction codes.\n- Reach out to the platform’s customer support directly, providing the exact time of the attempt and any error messages received.",
+    "provider_record": {
+      "record_sha256": "673585f81c77621bc32b7dd9d9d19eaeeead03cc86e6542cadaf16b5b4685684",
+      "record_file": "provider_records/595ebb78f0aced97a6c5f3f97a874c05676723acd6c607702a4ead76df429a91.json",
+      "api_response_id": "chatcmpl-14c2b6b5-f6cc-929f-a114-e89fa525fcb1",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:8",
+    "text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+    "answer": "I cannot access your account records or verify the status of specific transactions. However, refunds typically take 3–10 business days to appear on your statement after being processed by the merchant, depending on your card issuer's policies.\n\nPlease check with your bank or credit card provider for their specific processing times. If the expected timeframe has passed, contact the merchant directly to confirm they have successfully submitted the refund request.",
+    "provider_record": {
+      "record_sha256": "d9c4ed68c51b3ae9f90584d9941531c03cc9f8b96e7051ef39bbaba4781c90fc",
+      "record_file": "provider_records/e7548bd751ffa1781e793ba92ec0853f015ae922cb524120c6a7e2acd5739f35.json",
+      "api_response_id": "chatcmpl-28dace2b-624f-92cc-ba5f-5262ff9dc255",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:9",
+    "text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+    "answer": "I cannot access your account records or perform actions on your behalf. To reactivate a card, please log in to your bank’s mobile app or online banking portal and look for an option labeled \"Manage Cards,\" \"Unblock Card,\" or \"Reactivate.\" If you do not see this option, contact your bank’s customer support directly via the phone number listed on the back of your card or their official website.",
+    "provider_record": {
+      "record_sha256": "27e16686ab2cca26a2dfb51caf5809b3e0c131f2ed82631ee1935ba11f038301",
+      "record_file": "provider_records/e154e6b714ab3e49d8395870f23ebf9cda70df8f4c2d1d43d59f34a480c81500.json",
+      "api_response_id": "chatcmpl-2b8b44f4-36cd-9e6b-95f3-67793c4567a5",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:10",
+    "text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+    "answer": "I cannot access your account details or reset your PIN directly. To regain access, please use the \"Forgot PIN\" option in your bank’s mobile app or online banking portal, or contact your card issuer’s customer support line for identity verification and a new PIN issuance.",
+    "provider_record": {
+      "record_sha256": "bdfd9a18a13b7881da14b9c34a957003ef679a8bb6685e18c2c8a2f45a370ffb",
+      "record_file": "provider_records/fc32420f614371c4a1650afa40e1a9c868e710af5649d472daf8fc8b9bcd7cf3.json",
+      "api_response_id": "chatcmpl-f5645b88-0e00-95ad-b0c4-d48d23558e40",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:11",
+    "text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+    "answer": "I do not have access to your account records or transaction history, so I cannot confirm if a specific fee was applied.\n\nTo check this, please log in to your online banking portal or mobile app and review your recent transactions for any charges labeled as \"currency exchange,\" \"FX fee,\" or similar. You can also contact your bank’s customer support directly for detailed transaction information.",
+    "provider_record": {
+      "record_sha256": "8f45a52ddeeda0c4ccc3e3066842cbc8b83d356214564330f8447a209e693e14",
+      "record_file": "provider_records/bc11c05bc05d05934a4567c7507883d38a44b332e74a0214b8c98df5100167e4.json",
+      "api_response_id": "chatcmpl-1ed281b1-1458-9011-944d-ca8e94bf02f8",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:12",
+    "text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+    "answer": "I do not have access to your account records or transaction history, so I cannot see the specific status of that cheque.\n\nGenerally, cheques may take 1–5 business days to clear depending on the bank and the amount. If it has been longer than this, please contact your bank directly to check for any holds, errors, or issues with the deposit.",
+    "provider_record": {
+      "record_sha256": "1938ddf3b9fbd3de33d127dd5b4c76af020311936bb9e92c8aecca6081eef470",
+      "record_file": "provider_records/c27b78a068cced2384cebe46f8749ec4d4e7c45dc724a262a90afee001820d5b.json",
+      "api_response_id": "chatcmpl-96289f88-e678-9904-a635-ccf13e4183a9",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:13",
+    "text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+    "answer": "I cannot access specific account records or verify identities directly. To verify your identity for an account, please log in to your online banking portal or mobile app and look for a \"Security,\" \"Profile,\" or \"Identity Verification\" section. You will typically need to provide documents such as a government-issued ID, proof of address, or answer security questions. If you encounter issues, contact your bank's customer support through their official website or phone number listed on the back of your card.",
+    "provider_record": {
+      "record_sha256": "87d3c6d105ff3cc13715f7a0a54be7a5f11c78fa1d223a201a0e64b970079eb7",
+      "record_file": "provider_records/17c7f9e09fe1919a20ec4c6428ec30e053b14decc5fb9c8f76ddfe58643c81c0.json",
+      "api_response_id": "chatcmpl-993fb834-0a6b-9ee8-9c9e-e750f045b6ac",
+      "replayed": true
+    }
+  },
+  {
+    "candidate_id": "banking77:strict_selected:14",
+    "text": "How do I unblock my card for account <ACCOUNT_NUMBER_1>?",
+    "answer": "I cannot access your account records or perform actions on your behalf. To unblock your card, please contact your bank’s customer support directly via the phone number listed on the back of your card or through their official mobile app/website. You may also be able to unlock it instantly using your bank's online banking portal if that feature is available.",
+    "provider_record": {
+      "record_sha256": "d732a25ccb8f32b747693c8516d4626295898d75235df51e218d75b3717b60c4",
+      "record_file": "provider_records/494c7b227ac1476b1346ea76d912347ee719e299d7e0bed421e8e4a7146613ff.json",
+      "api_response_id": "chatcmpl-ef8b1914-b08c-9d22-9a1b-a4a3363959ea",
+      "replayed": true
+    }
+  }
+]

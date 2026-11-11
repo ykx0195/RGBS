@@ -1,0 +1,22 @@
+{
+  "targets_source": "C:\\Users\\ykx01\\Desktop\\results\\ykx现行实验\\v10_current\\multidogo\\results\\runs\\multidogo_riemann_k10_t0p85_s42_dataset_scope_v1\\01_targets\\target_vectors.npy",
+  "nearest_train_indices": [
+    3710,
+    139,
+    2863,
+    2130,
+    594,
+    2812,
+    2913,
+    3984,
+    1007,
+    1278
+  ],
+  "nearest_is_actual_initialization": false,
+  "available_stages": [
+    "continuous_targets",
+    "nearest_unique_train_anchors",
+    "final_text"
+  ],
+  "scope": "Same encoder, Test split, K and threshold. Diagnostic nearest anchors are not claimed to be actual initial sentences."
+}

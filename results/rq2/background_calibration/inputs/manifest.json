@@ -1,0 +1,51 @@
+{
+  "api_calls": 0,
+  "calibration": "All unordered distinct-source deidentified Validation request pairs; match each dataset BGE cosine>=0.85 pair count; nearest attainable count with conservative tie break.",
+  "datasets": {
+    "banking77": {
+      "k": 15,
+      "split_sizes": [
+        4924,
+        875,
+        1485
+      ],
+      "expected_fixed085_hits": 1109,
+      "source_keys": "C:\\Users\\ykx01\\Desktop\\results\\跨编码器迁移_本地CPU_仅总覆盖_20261031\\frozen_inputs\\banking77\\frozen_keys.json",
+      "source_keys_sha256": "2ff26640c3882f36a488edf3f163f88b5bc497d574afea7a6e1217d2673f2bec",
+      "validation_sha256": "a81eb1b820ea22e715721dc06314482675b705dd8f3c3fa6962f64a2ecc54d0a",
+      "test_sha256": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461",
+      "input_sha256": "1772fd71292f496f07d03d23895a2b056403fbb2120706fd128aa5aaef5ec95a",
+      "disjoint_source_ids": true
+    },
+    "abcd": {
+      "k": 5,
+      "split_sizes": [
+        3834,
+        480,
+        476
+      ],
+      "expected_fixed085_hits": 308,
+      "source_keys": "C:\\Users\\ykx01\\Desktop\\results\\跨编码器迁移_本地CPU_仅总覆盖_20261031\\frozen_inputs\\abcd\\frozen_keys.json",
+      "source_keys_sha256": "c5ac73c0967fa5273584dc74977a77502a79289955a7555ee99c926061ecb2c8",
+      "validation_sha256": "4b35808cd10900d7c52fa3eda6bef9a8bc2449968580d87a0f7a260dba5b16be",
+      "test_sha256": "c0cb1dfc04566724390c7f47cdd1e5cf03d3aa8f184d0ba9704f793f54065996",
+      "input_sha256": "7e0050f70d33d4e2617201bb7d558d93fbd8417d301970d59107cff320361fdf",
+      "disjoint_source_ids": true
+    },
+    "dogo": {
+      "k": 10,
+      "split_sizes": [
+        3993,
+        535,
+        1094
+      ],
+      "expected_fixed085_hits": 909,
+      "source_keys": "C:\\Users\\ykx01\\Desktop\\results\\MultiDoGO_8309_跨编码器_CPU_20261103\\frozen_inputs.json",
+      "source_keys_sha256": "f169ebc1b65a0674cf85235b1d866fa797ab766266ea8de560e22791a794f1bd",
+      "validation_sha256": "303716b471c0f2c26956c561801187c8b1c1fb810ab8c3ee2cdc5fa362fd9a03",
+      "test_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+      "input_sha256": "edbe0a3c3616e67d6ecc52391a06d8b37b75b78f822323dd1ef09bf8e8249e95",
+      "disjoint_source_ids": true
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 1000,
+  "selected": {
+    "text": "fra'm havingosis with the pin necessitated about <CREDIT_CARD_1> card sorry unofficial somewhat blocking information",
+    "full_cluster_mean_cosine": 0.8868664503097534,
+    "selected_at_iteration": 930
+  },
+  "accepted_updates": 64,
+  "active_seconds": 99.69405058771372,
+  "heldout_loaded": false
+}

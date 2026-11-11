@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-e0141391-e187-9625-86fe-3705bb6025be",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I cannot access your account details or process cancellations directly. To cancel a transaction, please log in to your online banking portal or mobile app and look for an option to \"Dispute,\" \"Recall,\" or \"Cancel\" the specific payment. If the transaction is already completed, you may need to contact your bank's customer support team immediately via phone or secure message to request a reversal.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793877778,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 79,
+      "prompt_tokens": 95,
+      "total_tokens": 174,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 95
+      }
+    }
+  },
+  "answer": "I cannot access your account details or process cancellations directly. To cancel a transaction, please log in to your online banking portal or mobile app and look for an option to \"Dispute,\" \"Recall,\" or \"Cancel\" the specific payment. If the transaction is already completed, you may need to contact your bank's customer support team immediately via phone or secure message to request a reversal.",
+  "created_utc_epoch": 1793877780.1354482
+}

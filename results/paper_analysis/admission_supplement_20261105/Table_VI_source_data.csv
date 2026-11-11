@@ -1,0 +1,4 @@
+dataset,admitted,submitted,original_covered,deidentified_covered,test_total,original_percent,deidentified_percent
+banking77,15,15,233,1083,1485,15.69,72.93
+abcd,5,5,101,305,476,21.22,64.08
+dogo,10,10,235,909,1094,21.48,83.09

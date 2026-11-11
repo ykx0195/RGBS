@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "When should I expect the new card associated with account <ACCOUNT_NUMBER_1> to arrive at <STREET_ADDRESS_1>?",
+    "full_cluster_mean_cosine": 0.8413410186767578,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.000640183687210083,
+  "heldout_loaded": false
+}

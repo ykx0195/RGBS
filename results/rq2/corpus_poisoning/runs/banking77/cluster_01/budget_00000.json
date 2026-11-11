@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "Can you explain the extra charge that appeared on my card <CREDIT_CARD_1> statement?",
+    "full_cluster_mean_cosine": 0.8690924644470215,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0005791112780570984,
+  "heldout_loaded": false
+}

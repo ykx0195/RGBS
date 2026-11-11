@@ -1,0 +1,9 @@
+{
+  "datasets": [
+    "banking77",
+    "abcd",
+    "dogo"
+  ],
+  "all_prefix_orders_use_train_only": true,
+  "frozen_at": "2026-11-01T14:09:21.444494+08:00"
+}

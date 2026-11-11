@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "can me know the status of my claim? my policy is <POLICY_ID_1> and the claim number → <CLAIM_ID_1> .",
+    "full_cluster_mean_cosine": 0.9518872499465942,
+    "selected_at_iteration": 192
+  },
+  "accepted_updates": 15,
+  "active_seconds": 264.3195477947593,
+  "heldout_loaded": false
+}

@@ -1,0 +1,36 @@
+{
+  "slot": 4,
+  "target_index": 3,
+  "starting_text": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+  "selected": {
+    "text": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+    "target_cosine": 0.9471762776374817,
+    "train_covered": 435,
+    "ppl": 34.424812218445716
+  },
+  "baseline_replacement_gain": 404,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 8,
+      "passed_ppl": 0,
+      "best_replacement_gain": 404,
+      "net_union_change": 0,
+      "beam": [
+        "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>."
+      ],
+      "positive_feedback": []
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 404,
+      "net_union_change": 0,
+      "beam": [
+        "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>."
+      ],
+      "positive_feedback": []
+    }
+  ]
+}

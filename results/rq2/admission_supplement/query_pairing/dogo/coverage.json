@@ -1,0 +1,19 @@
+{
+  "dataset": "dogo",
+  "k": 10,
+  "test_total": 1094,
+  "original_covered": 235,
+  "original_coverage_pct": 21.480804387568554,
+  "deidentified_covered": 909,
+  "deidentified_coverage_pct": 83.08957952468006,
+  "change_pp": 61.608775137111515,
+  "change_ci95_low_pp": 58.77285191956123,
+  "change_ci95_high_pp": 64.6252285191956,
+  "newly_covered": 674,
+  "lost_coverage": 0,
+  "covered_in_both": 235,
+  "uncovered_in_both": 185,
+  "deidentified_matches_actual_service": true,
+  "key_vectors_sha256": "b04658e9a197c09422bcdf79ff5d4a4cbc16145ab1b4727ae84f42c4103e7e7d",
+  "query_vectors_sha256": "89546762d3f6bc054a0c75c7b8ee1eea18589719b1e1401638939f257d9f2737"
+}

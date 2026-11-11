@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 5000,
+  "selected": {
+    "text": "i need my issuing travel expenses came i recining <PERSON_1> .",
+    "full_cluster_mean_cosine": 0.9249017238616943,
+    "selected_at_iteration": 3215
+  },
+  "accepted_updates": 31,
+  "active_seconds": 436.26591765880585,
+  "heldout_loaded": false
+}

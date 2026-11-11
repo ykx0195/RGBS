@@ -1,0 +1,1 @@
+source_id,variant_id,raw_query,deidentified_query,original_covered,deidentified_covered,status,original_max_cosine,deidentified_max_cosine,original_best_key,deidentified_best_key

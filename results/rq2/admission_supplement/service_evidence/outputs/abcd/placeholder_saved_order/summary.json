@@ -1,0 +1,20 @@
+{
+  "test_total": 476,
+  "actual_hits": 305,
+  "full_portfolio_hits": 305,
+  "admitted_entries": 5,
+  "rows_after_test": 5,
+  "oracle_disagreements": 0,
+  "test_model_calls": 0,
+  "test_writes": 0,
+  "dataset": "abcd",
+  "condition": "placeholder_saved_order",
+  "submitted_candidates": 5,
+  "early_hits": 0,
+  "representations_preserved": 5,
+  "actual_coverage_percent": 64.07563025210084,
+  "offline_expected_hits": 305,
+  "offline_expected_coverage_percent": 64.07563025210085,
+  "pairwise_max": 0.8484501172374308,
+  "selection_freeze_sha256": "2d3615e97c01fae4889dc9c5cd57ccfd2e9fb5368876f316981a13a71ad86803"
+}

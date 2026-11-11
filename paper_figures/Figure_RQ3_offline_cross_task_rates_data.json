@@ -1,0 +1,56 @@
+{
+  "source": "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\task_audit_summary_completed.csv",
+  "source_sha256": "11d89653d0b77fd9885c95fbda1b66abd2cd38c3e86c82aa5bbaba601ece3694",
+  "scope": "offline main RGBS fixed-key sets, all threshold-matched pairs, BGE tau=0.85",
+  "metric": "consensus cross-task / (consensus same-task + consensus cross-task)",
+  "records": [
+    {
+      "dataset": "Banking77",
+      "original": {
+        "cross": 78,
+        "same": 161,
+        "unresolved": 37,
+        "rate_percent": 32.63598326359833
+      },
+      "deidentified": {
+        "cross": 822,
+        "same": 629,
+        "unresolved": 354,
+        "rate_percent": 56.650585802894554
+      },
+      "relative_increase_percent": 73.58320521656152
+    },
+    {
+      "dataset": "ABCD",
+      "original": {
+        "cross": 32,
+        "same": 52,
+        "unresolved": 14,
+        "rate_percent": 38.095238095238095
+      },
+      "deidentified": {
+        "cross": 181,
+        "same": 115,
+        "unresolved": 48,
+        "rate_percent": 61.148648648648646
+      },
+      "relative_increase_percent": 60.515202702702695
+    },
+    {
+      "dataset": "MultiDoGO",
+      "original": {
+        "cross": 32,
+        "same": 186,
+        "unresolved": 31,
+        "rate_percent": 14.678899082568808
+      },
+      "deidentified": {
+        "cross": 279,
+        "same": 564,
+        "unresolved": 102,
+        "rate_percent": 33.096085409252666
+      },
+      "relative_increase_percent": 125.46708185053377
+    }
+  ]
+}

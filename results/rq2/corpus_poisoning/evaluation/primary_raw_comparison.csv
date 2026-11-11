@@ -1,0 +1,7 @@
+dataset,method,seed,iteration_budget_per_cluster,k_budget,unique_output_texts,threshold,train_covered,train_total,test_covered,test_total,test_coverage
+banking77,CorpusPoisoning_adapted,42,5000,15,15,0.85,4202,4924,1243,1485,0.837037037037037
+banking77,RKGB,42,,15,15,0.85,3863,4924,1109,1485,0.7468013468013468
+abcd,CorpusPoisoning_adapted,42,5000,5,5,0.85,3109,3834,380,476,0.7983193277310925
+abcd,RKGB,42,,5,5,0.85,2523,3834,308,476,0.6470588235294118
+dogo,CorpusPoisoning_adapted,42,5000,10,10,0.85,3580,3993,979,1094,0.8948811700182815
+dogo,RKGB,42,,10,10,0.85,3254,3993,888,1094,0.8117001828153565

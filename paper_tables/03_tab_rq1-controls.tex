@@ -1,0 +1,30 @@
+\begin{table}[t]
+\caption{Editing and template controls (pp) at $\tau=0.85$}
+\label{tab:rq1-controls}
+\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.00}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\multicolumn{5}{@{}l}{\textit{(a) Matched one-span editing}} \\
+\midrule
+Rule & $\Delta_{\mathrm{PII}}$ & $\Delta_{\mathrm{non}}$ & $E$ & $E>0$ \\
+\midrule
+Generic & $+2.104$ & $+2.109$ & $+0.156$ & 18/20 \\
+Type & $+0.305$ & $+0.151$ & $+0.007$ & 14/20 \\
+Type+idx & $+0.730$ & $+0.370$ & $+0.028$ & 16/20 \\
+Delete & $-0.011$ & $-0.069$ & $+0.003$ & 13/20 \\
+Mask & $+0.039$ & $-0.001$ & $+0.042$ & 17/20 \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{(b) Excluding similar non-PII templates}} \\
+\midrule
+Rule & \multicolumn{3}{c}{$\Delta$ [Q1, Q3]} & $\Delta>0$ \\
+\midrule
+Generic & \multicolumn{3}{r}{$+7.396$ [$+0.416$, $+48.790$]} & 20/20 \\
+Type & \multicolumn{3}{r}{$+3.371$ [$+0.135$, $+18.043$]} & 20/20 \\
+Type+idx & \multicolumn{3}{r}{$+4.536$ [$+0.184$, $+27.062$]} & 20/20 \\
+Delete & \multicolumn{3}{r}{$+0.222$ [$+0.037$, $+1.860$]} & 17/20 \\
+Mask & \multicolumn{3}{r}{$+1.607$ [$+0.104$, $+9.116$]} & 19/20 \\
+\bottomrule
+\end{tabular}
+\end{table}

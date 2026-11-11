@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "i deposited money but presumably balance towards » <ACCOUNT_NUMBER_1> hasn accounts t updated.",
+    "full_cluster_mean_cosine": 0.8927560448646545,
+    "selected_at_iteration": 82
+  },
+  "accepted_updates": 10,
+  "active_seconds": 9.80660255253315,
+  "heldout_loaded": false
+}

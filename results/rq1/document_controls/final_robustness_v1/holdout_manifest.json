@@ -1,0 +1,10 @@
+{
+  "rows": 960,
+  "seeds": [
+    "group_holdout_1_20261018",
+    "group_holdout_2_20261018",
+    "group_holdout_3_20261018"
+  ],
+  "method": "Disjoint Nemotron document_type groups assigned 60/40 by stable hash. Threshold from calibration original only. Test pointwise intervals delete one test document_type group, threshold fixed.",
+  "limitation": "document_type is a coarse source proxy; holdout types and their mixture differ from calibration. TAB has no comparable type metadata. Positive intervals are not guaranteed, and repeated splits share data."
+}

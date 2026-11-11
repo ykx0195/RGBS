@@ -1,0 +1,45 @@
+{
+  "config": {
+    "dataset": "dogo",
+    "cluster": 1,
+    "seed": 42,
+    "max_iterations": 5000,
+    "num_candidates": 100,
+    "query_batch": 64,
+    "candidate_batch": 32,
+    "threshold": 0.85,
+    "train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+    "vectors_sha256": "ac68c7fbf409e0a8e898a5aa34c6b37d938e36ee7a9a90e5c2e896e4c48df689",
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "official_commit": "main-snapshot-with-file-sha256",
+    "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+    "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+    "device": "cuda",
+    "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+    "smoke": false
+  },
+  "initial": {
+    "cluster_id": 1,
+    "train_index": 308,
+    "source_id": "multidogo-airline-train-4b8e0c7f-50b7-4daf-abda-f17dcccf0bda",
+    "text": "I'd like a boarding pass for booking <BOOKING_ID_1>, please send it to <EMAIL_ADDRESS_1>.",
+    "cluster_size": 519,
+    "initial_center_cosine": 0.975861668586731
+  },
+  "selected": {
+    "text": "i land would like the boarding pass hence going <BOOKING_ID_1> . edit eh sending given <EMAIL_ADDRESS_1> hope nam kindly ideally fearsrgy",
+    "full_cluster_mean_cosine": 0.9079498648643494,
+    "selected_at_iteration": 4966
+  },
+  "completed_iterations": 5000,
+  "termination": "iteration_budget_exhausted",
+  "accepted_updates": 457,
+  "proposed_candidates": 500000,
+  "valid_candidates": 499565,
+  "active_seconds": 935.7454859018326,
+  "forward_texts": 504568,
+  "backward_calls": 5000,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "finished_at_utc": "2026-10-31T10:34:28.157044+00:00"
+}

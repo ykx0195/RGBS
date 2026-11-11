@@ -1,0 +1,20 @@
+{
+  "expected_main": 909,
+  "main_reproduced": true,
+  "query_counts_verified": {
+    "full_main": 909,
+    "without_final_global_reselection": 846,
+    "without_generated_candidates_seed_pool": 907
+  },
+  "gpu_used": false,
+  "new_api_calls": 0,
+  "frozen_before_test": true,
+  "control_scope": "post-hoc frozen-archive candidate restriction and recorded prefix",
+  "sha256": {
+    "coverage_comparison.csv": "ed309b9ab08149dbf538957568b89ccc56a8828ea4daba96a73bc53504349ac7",
+    "query_level.csv": "80f23d9422d708efd9f1bf316024ffa7600a738adcf094e88bbb242217ec4767",
+    "matched_pairs.csv": "5ef5429e7ba4c257c06350c2c865f76f4fa94ee03d34d707aa40136d775bb88b",
+    "final_report.json": "730ee9ae204758ce31d3e7c5950e6e97b724992243dcfcb81a2feb5cfa19f4be",
+    "train_frozen_selections.json": "dd867be03d6a4519f0a0580c7efeba0f2bb4cc18f08e3f0909d03cd42ef6c3cb"
+  }
+}

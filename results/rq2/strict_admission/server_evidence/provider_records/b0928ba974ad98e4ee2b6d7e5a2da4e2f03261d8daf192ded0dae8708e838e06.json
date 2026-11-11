@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-3928f375-6f66-9eae-9aff-654f3c391440",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I cannot access your booking records or send documents directly. To obtain your boarding pass, please log in to the airline’s website or mobile app using your booking reference and email address. You can also check your email for a link from the airline or visit the airport kiosk on the day of travel.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876751,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 105,
+      "total_tokens": 165,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 105
+      }
+    }
+  },
+  "answer": "I cannot access your booking records or send documents directly. To obtain your boarding pass, please log in to the airline’s website or mobile app using your booking reference and email address. You can also check your email for a link from the airline or visit the airport kiosk on the day of travel.",
+  "created_utc_epoch": 1793876753.9394553
+}

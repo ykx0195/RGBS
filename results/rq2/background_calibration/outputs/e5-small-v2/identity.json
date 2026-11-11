@@ -1,0 +1,15 @@
+{
+  "model": "e5-small-v2",
+  "encoder_kind": "e5",
+  "model_sha256": "45bfa60070649aae2244fbc9d508537779b93b6f353c17b0f95ceccb1c5116c1",
+  "pooling_sha256": "987f7a67a38fa564c849bb5d277c52ab9088a84368fc0be31a354125aebb12a0",
+  "sequence_sha256": "948201d8329907aae938fa62f9ceeed53f5694dacc2b87b9f3b78b37ee986529",
+  "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+  "prefix": "query: ",
+  "device": "cuda",
+  "dtype": "float32",
+  "batch_size": 64,
+  "encoder_code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+  "max_length": 512,
+  "api_calls": 0
+}

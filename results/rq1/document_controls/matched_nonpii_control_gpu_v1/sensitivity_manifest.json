@@ -1,0 +1,86 @@
+{
+  "cohorts": [
+    {
+      "domain": "healthcare",
+      "cohort": "exact_length",
+      "n_records": 2020,
+      "n_calibration_records": 1203,
+      "n_test_records": 817,
+      "n_test_pairs": 333336
+    },
+    {
+      "domain": "healthcare",
+      "cohort": "exact_length_and_position_gap_le_0_2",
+      "n_records": 1358,
+      "n_calibration_records": 805,
+      "n_test_records": 553,
+      "n_test_pairs": 152628
+    },
+    {
+      "domain": "finance",
+      "cohort": "exact_length",
+      "n_records": 1649,
+      "n_calibration_records": 994,
+      "n_test_records": 655,
+      "n_test_pairs": 214185
+    },
+    {
+      "domain": "finance",
+      "cohort": "exact_length_and_position_gap_le_0_2",
+      "n_records": 1149,
+      "n_calibration_records": 684,
+      "n_test_records": 465,
+      "n_test_pairs": 107880
+    },
+    {
+      "domain": "banking",
+      "cohort": "exact_length",
+      "n_records": 1964,
+      "n_calibration_records": 1186,
+      "n_test_records": 778,
+      "n_test_pairs": 302253
+    },
+    {
+      "domain": "banking",
+      "cohort": "exact_length_and_position_gap_le_0_2",
+      "n_records": 1363,
+      "n_calibration_records": 817,
+      "n_test_records": 546,
+      "n_test_pairs": 148785
+    },
+    {
+      "domain": "insurance",
+      "cohort": "exact_length",
+      "n_records": 3218,
+      "n_calibration_records": 1957,
+      "n_test_records": 1261,
+      "n_test_pairs": 794430
+    },
+    {
+      "domain": "insurance",
+      "cohort": "exact_length_and_position_gap_le_0_2",
+      "n_records": 2150,
+      "n_calibration_records": 1315,
+      "n_test_records": 835,
+      "n_test_pairs": 348195
+    },
+    {
+      "domain": "legal",
+      "cohort": "exact_length",
+      "n_records": 968,
+      "n_calibration_records": 574,
+      "n_test_records": 394,
+      "n_test_pairs": 77421
+    },
+    {
+      "domain": "legal",
+      "cohort": "exact_length_and_position_gap_le_0_2",
+      "n_records": 528,
+      "n_calibration_records": 326,
+      "n_test_records": 202,
+      "n_test_pairs": 20301
+    }
+  ],
+  "results_rows": 400,
+  "design": "Subset of the same selected one-span records and original split; original-only thresholds recalibrated within each calibration subset; edit positions within 20% of full text length for strict position cohort."
+}

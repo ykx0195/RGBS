@@ -1,0 +1,182 @@
+{
+  "design": "Single PII span vs matched non-PII span within the same record; same five replacement operators and same label for PII and control, both compared to the same original, same records and same original-calibrated threshold.",
+  "threshold_targets": [
+    0.001,
+    0.01
+  ],
+  "token_limit": 256,
+  "models": [
+    "minilm",
+    "gte",
+    "e5",
+    "bge"
+  ],
+  "methods": [
+    "generic",
+    "typed",
+    "typed_numbered",
+    "delete",
+    "star"
+  ],
+  "input_fields": [
+    "source_text",
+    "pii_generic",
+    "pii_typed",
+    "pii_typed_numbered",
+    "pii_delete",
+    "pii_star",
+    "control_generic",
+    "control_typed",
+    "control_typed_numbered",
+    "control_delete",
+    "control_star"
+  ],
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "software": {
+    "torch": "2.1.2+cu121",
+    "numpy": "1.26.3"
+  },
+  "uncertainty": "Record-delete jackknife normal 95% CI for paired difference between PII and matched non-PII net changes.",
+  "audits": [
+    {
+      "dataset": "Nemotron_four_domains",
+      "domain": "healthcare",
+      "candidate_records": 2661,
+      "retained_records": 2657,
+      "n_calibration_records": 1594,
+      "n_test_records": 1063,
+      "model_token_audit": {
+        "minilm": {
+          "max_length": 260,
+          "excluded_over_limit": 2
+        },
+        "gte": {
+          "max_length": 260,
+          "excluded_over_limit": 2
+        },
+        "e5": {
+          "max_length": 262,
+          "excluded_over_limit": 4
+        },
+        "bge": {
+          "max_length": 260,
+          "excluded_over_limit": 2
+        }
+      },
+      "calibration_record_ids_sha256": "4b02cd245b523a529a05448406655bed911435c00aab3ea53b98e711c8c8b882",
+      "test_record_ids_sha256": "2d2d1ad0bd9a69f6f4641b0efc0d004efc41ac22a85793c5cc0f285c5bb1ac02"
+    },
+    {
+      "dataset": "Nemotron_four_domains",
+      "domain": "finance",
+      "candidate_records": 2069,
+      "retained_records": 2056,
+      "n_calibration_records": 1234,
+      "n_test_records": 822,
+      "model_token_audit": {
+        "minilm": {
+          "max_length": 260,
+          "excluded_over_limit": 5
+        },
+        "gte": {
+          "max_length": 260,
+          "excluded_over_limit": 5
+        },
+        "e5": {
+          "max_length": 262,
+          "excluded_over_limit": 13
+        },
+        "bge": {
+          "max_length": 260,
+          "excluded_over_limit": 5
+        }
+      },
+      "calibration_record_ids_sha256": "76ed7876ee66ee187145d9c6c6c373b342ac27d14261d40faffdb47c2c32577a",
+      "test_record_ids_sha256": "542b96855cb849ca65b495485666745c0390a0fd677c40022a6f2e24d3dcdba2"
+    },
+    {
+      "dataset": "Nemotron_four_domains",
+      "domain": "banking",
+      "candidate_records": 2491,
+      "retained_records": 2482,
+      "n_calibration_records": 1489,
+      "n_test_records": 993,
+      "model_token_audit": {
+        "minilm": {
+          "max_length": 260,
+          "excluded_over_limit": 5
+        },
+        "gte": {
+          "max_length": 260,
+          "excluded_over_limit": 5
+        },
+        "e5": {
+          "max_length": 262,
+          "excluded_over_limit": 9
+        },
+        "bge": {
+          "max_length": 260,
+          "excluded_over_limit": 5
+        }
+      },
+      "calibration_record_ids_sha256": "4a6ef934b01f05c927e3b35724aac62e364f2ff35594a24640bd28305036fdce",
+      "test_record_ids_sha256": "41969dd04715944cf5a7b71b9912123c5caf46703a0512d5eecd63edeccf7a33"
+    },
+    {
+      "dataset": "Nemotron_four_domains",
+      "domain": "insurance",
+      "candidate_records": 4353,
+      "retained_records": 4330,
+      "n_calibration_records": 2598,
+      "n_test_records": 1732,
+      "model_token_audit": {
+        "minilm": {
+          "max_length": 262,
+          "excluded_over_limit": 9
+        },
+        "gte": {
+          "max_length": 262,
+          "excluded_over_limit": 9
+        },
+        "e5": {
+          "max_length": 264,
+          "excluded_over_limit": 23
+        },
+        "bge": {
+          "max_length": 262,
+          "excluded_over_limit": 9
+        }
+      },
+      "calibration_record_ids_sha256": "f7de4430c1b6d706cf6d094b9c4f61bb0e6c95b1ac7ba592f77d3960cf96df95",
+      "test_record_ids_sha256": "0f61c17b824d2cc5178d197bf12db7dc7085c9802e303c6a5bc9dafa66fc0d42"
+    },
+    {
+      "dataset": "TAB_short_legal",
+      "domain": "legal",
+      "candidate_records": 1250,
+      "retained_records": 1250,
+      "n_calibration_records": 750,
+      "n_test_records": 500,
+      "model_token_audit": {
+        "minilm": {
+          "max_length": 214,
+          "excluded_over_limit": 0
+        },
+        "gte": {
+          "max_length": 214,
+          "excluded_over_limit": 0
+        },
+        "e5": {
+          "max_length": 216,
+          "excluded_over_limit": 0
+        },
+        "bge": {
+          "max_length": 214,
+          "excluded_over_limit": 0
+        }
+      },
+      "calibration_record_ids_sha256": "dff52d92c400e402dc6a4b90c6504f02029544fcb79482067bb075008f9bac41",
+      "test_record_ids_sha256": "56e3744e117afd524069719c964a76f0b346be3dd2c2c50287076fa94c82e29a"
+    }
+  ]
+}

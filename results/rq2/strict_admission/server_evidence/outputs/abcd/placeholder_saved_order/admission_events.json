@@ -1,0 +1,87 @@
+[
+  {
+    "candidate_id": "abcd:strict_selected:0",
+    "submitted_text": "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+    "encoder_input": "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+    "expected_text": "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "87df2ef7015f22a0a1f9beea89dc38acb77ee8ec53bf0d12e9a7c109090ce837",
+      "record_file": "provider_records/85fd53c863433ce638864f3102c5b89d97193d48203c168d7580beaf44673a19.json",
+      "api_response_id": "chatcmpl-20769d61-1de3-9bf2-b2fa-e3ea8b3f3ba4",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot access your account or modify orders directly. To change the shipping address for an unshipped order, please log in to your account and check if there is an option to \"Edit Address\" or \"Cancel Order\" under your recent purchases. If these options are unavailable, contact customer support immediately via the platform's help center or chat feature, as changes are often only possible before the item ships."
+  },
+  {
+    "candidate_id": "abcd:strict_selected:1",
+    "submitted_text": "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+    "encoder_input": "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+    "expected_text": "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "9bfd4ce374843b011d30d6369de5ae37bb44e5d4950262e31a7a3ee7141828aa",
+      "record_file": "provider_records/9a3d4f2cae8ee22a5d0d654af2eefec9c2bf6d5d471d3e9e728af448aabd9c73.json",
+      "api_response_id": "chatcmpl-5c67dde0-fca1-971c-8e72-0dd0e90b9164",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot access your account records or process refunds directly. To address the charge, please check your subscription settings to see if you can cancel immediately to prevent future fees. For a refund of the recent charge, contact customer support through the app’s help section or official website, providing your account ID and transaction details."
+  },
+  {
+    "candidate_id": "abcd:strict_selected:2",
+    "submitted_text": "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",
+    "encoder_input": "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",
+    "expected_text": "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "f62851dc50f37455dabbe9682e3028c9d4000140ebc4408732ea89b61de37be5",
+      "record_file": "provider_records/dc71039eac5c50090f145658020c650434652017b5a7ef3337f94b17311cf441.json",
+      "api_response_id": "chatcmpl-5d5da0b6-0c9a-93bd-ad8d-1d78a2c22168",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot access your account records or perform password resets directly. However, you can regain access by using the \"Forgot Password\" or \"Help\" link on the login page.\n\nTypically, these tools allow you to recover your username and reset your password by entering the phone number and postal code associated with your account. Follow the on-screen prompts to verify your identity via SMS or email. If you encounter issues during this process, please contact customer support through their official website or app for further assistance."
+  },
+  {
+    "candidate_id": "abcd:strict_selected:3",
+    "submitted_text": "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now.",
+    "encoder_input": "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now.",
+    "expected_text": "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "6e728d5b46c38209486a2e4308db0572cf66e4e5542c0e05ea1473a9d13c4dfc",
+      "record_file": "provider_records/33859b9eb0de08ce68d7ef71c298624787d54f44cbe0cc8e795f78aee4f4ebb1.json",
+      "api_response_id": "chatcmpl-d1961fd4-5798-9571-a8af-6776e5dd8391",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot access your account records or check the specific status of order <ORDER_ID_1>.\n\nTo address the unexpected delivery cost, please log in to your account and review the order details to see if the charge was applied correctly. If you believe it was an error, contact customer support directly through the platform’s help center or chat feature to request a refund or adjustment."
+  },
+  {
+    "candidate_id": "abcd:strict_selected:4",
+    "submitted_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+    "encoder_input": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+    "expected_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "d04ba9443c08acb493e7ec262f824c1d844d046b14b129504a699c8f1a0b0d27",
+      "record_file": "provider_records/fca258a570e19fbe414e620541815115d2e916b30ec79f7f6de31eab6cadbd0d.json",
+      "api_response_id": "chatcmpl-13adae2f-8a4c-944a-8acd-79ef78d1a6b7",
+      "replayed": false
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot access your account or process returns directly. To return order <ORDER_ID_1> for a refund, please log in to your account and navigate to the \"Order History\" section. Select the specific order, choose the items you wish to return, and follow the prompts to generate a return label. Ensure you include all original tags and packaging when shipping the items back."
+  }
+]

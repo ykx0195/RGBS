@@ -1,0 +1,45 @@
+{
+  "config": {
+    "dataset": "banking77",
+    "cluster": 9,
+    "seed": 42,
+    "max_iterations": 5000,
+    "num_candidates": 100,
+    "query_batch": 64,
+    "candidate_batch": 32,
+    "threshold": 0.85,
+    "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+    "vectors_sha256": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "official_commit": "main-snapshot-with-file-sha256",
+    "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+    "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+    "device": "cuda",
+    "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+    "smoke": false
+  },
+  "initial": {
+    "cluster_id": 9,
+    "train_index": 1003,
+    "source_id": "train-001727",
+    "text": "I'm having trouble with the PIN for card <CREDIT_CARD_1>, can you help me?",
+    "cluster_size": 208,
+    "initial_center_cosine": 0.953774094581604
+  },
+  "selected": {
+    "text": "really - ill resfervable my pin though of <CREDIT_CARD_1> card thanks curious essentially option please",
+    "full_cluster_mean_cosine": 0.8912562727928162,
+    "selected_at_iteration": 4495
+  },
+  "completed_iterations": 5000,
+  "termination": "iteration_budget_exhausted",
+  "accepted_updates": 225,
+  "proposed_candidates": 500000,
+  "valid_candidates": 499619,
+  "active_seconds": 481.1903852969408,
+  "forward_texts": 504621,
+  "backward_calls": 5000,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "finished_at_utc": "2026-10-31T11:11:19.949640+00:00"
+}

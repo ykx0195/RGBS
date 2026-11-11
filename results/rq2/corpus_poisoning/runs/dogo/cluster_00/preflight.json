@@ -1,0 +1,10 @@
+{
+  "max_abs_initial_embedding_delta": 1.7881393432617188e-07,
+  "initial_train_index": 1933,
+  "placeholder_count": {
+    "<PERSON_1>": 1,
+    "<CARD_NUMBER_1>": 1
+  },
+  "cluster_queries": 539,
+  "heldout_loaded": false
+}

@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "I'm <PERSON_1>, and my account ends in <ACCOUNT_ID_LAST4_1>. I use Outlook and I need software updates.",
+    "full_cluster_mean_cosine": 0.8516924381256104,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006195157766342163,
+  "heldout_loaded": false
+}

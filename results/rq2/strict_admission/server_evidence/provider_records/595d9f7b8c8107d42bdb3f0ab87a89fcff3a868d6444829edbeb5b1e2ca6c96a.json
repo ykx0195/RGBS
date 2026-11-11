@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-7956f1e9-e4a3-91bf-addf-a958090c1052",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I cannot access your account or schedule repairs directly. For a cracked iPhone screen, please visit an Apple Store or an Apple Authorized Service Provider for professional repair. You can also check warranty status and book appointments via the Apple Support app or website.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876760,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 111,
+      "total_tokens": 159,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 111
+      }
+    }
+  },
+  "answer": "I cannot access your account or schedule repairs directly. For a cracked iPhone screen, please visit an Apple Store or an Apple Authorized Service Provider for professional repair. You can also check warranty status and book appointments via the Apple Support app or website.",
+  "created_utc_epoch": 1793876762.1040888
+}

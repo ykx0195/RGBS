@@ -1,0 +1,38 @@
+{
+  "slot": 2,
+  "target_index": 1,
+  "starting_text": "My booking is BOO13112387 and I'd like to get my boarding pass; you can reach me at customer9958601@example.test.",
+  "selected": {
+    "text": "My booking is BOO13112387 and I'd like to get my boarding pass; you can reach me at customer9958601@example.test.",
+    "target_cosine": 0.934556782245636,
+    "train_covered": 340,
+    "ppl": 43.12559895508341
+  },
+  "baseline_replacement_gain": 338,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 8,
+      "passed_ppl": 0,
+      "best_replacement_gain": 338,
+      "net_union_change": 0,
+      "beam": [
+        "My booking is BOO13112387 and I'd like to get my boarding pass; you can reach me at customer9958601@example.test."
+      ],
+      "accepted_texts": [],
+      "positive_feedback": []
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 338,
+      "net_union_change": 0,
+      "beam": [
+        "My booking is BOO13112387 and I'd like to get my boarding pass; you can reach me at customer9958601@example.test."
+      ],
+      "accepted_texts": [],
+      "positive_feedback": []
+    }
+  ]
+}

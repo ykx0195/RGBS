@@ -1,0 +1,3 @@
+dataset,k,threshold,total,raw_covered,delex_covered,both_covered,delex_only,raw_only,neither,raw_coverage,delex_coverage,delta_pp,delta_pp_paired_query_bootstrap_95,bootstrap_note
+banking77,15,0.85,1485,267,1109,267,842,0,376,0.1797979797979798,0.7468013468013468,56.70033670033669,"[54.141414141414145, 59.1919191919192]","Fixed portfolio, paired source-aligned queries, 5000 resamples. Does not include search or dataset-source uncertainty."
+dogo,10,0.85,1094,283,888,283,605,0,206,0.2586837294332724,0.8117001828153565,55.3016453382084,"[52.37659963436929, 58.22669104204753]","Fixed portfolio, paired source-aligned queries, 5000 resamples. Does not include search or dataset-source uncertainty."

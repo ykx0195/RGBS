@@ -1,0 +1,55 @@
+{
+  "started_at_utc": "2026-10-31T05:03:49.154254+00:00",
+  "runs": {
+    "banking77_bw20": {
+      "status": "complete",
+      "attempts": 1,
+      "started_at_utc": "2026-10-31T05:03:49.156151+00:00",
+      "finished_at_utc": "2026-10-31T05:51:56.902866+00:00",
+      "test": {
+        "covered": 1069,
+        "total": 1485,
+        "coverage": 0.7198653198653199
+      },
+      "train": {
+        "covered": 3752,
+        "total": 4924,
+        "coverage": 0.7619821283509342
+      },
+      "portfolio_source": "coordinate_beam"
+    },
+    "abcd_cpu_bw30": {
+      "status": "complete",
+      "attempts": 1,
+      "started_at_utc": "2026-10-31T05:03:49.156800+00:00",
+      "finished_at_utc": "2026-10-31T06:10:28.395403+00:00",
+      "test": {
+        "covered": 283,
+        "total": 476,
+        "coverage": 0.5945378151260504
+      },
+      "train": {
+        "covered": 2430,
+        "total": 3834,
+        "coverage": 0.6338028169014085
+      },
+      "portfolio_source": "global_greedy_swap"
+    },
+    "banking77_bw30": {
+      "status": "running",
+      "attempts": 1,
+      "started_at_utc": "2026-10-31T05:03:49.157072+00:00"
+    },
+    "banking77_bw40": {
+      "status": "running",
+      "attempts": 1,
+      "started_at_utc": "2026-10-31T05:51:56.903596+00:00"
+    },
+    "abcd_cpu_bw40": {
+      "status": "running",
+      "attempts": 1,
+      "started_at_utc": "2026-10-31T06:10:28.396099+00:00"
+    }
+  },
+  "workers": 3
+}

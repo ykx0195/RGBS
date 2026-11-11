@@ -1,0 +1,102 @@
+{
+  "complete": true,
+  "rule": "Retain final text iff finite local Qwen2.5-1.5B-Instruct PPL <= 150; ignore readability verdict.",
+  "selection": "Final portfolios already frozen; no reoptimization or backfill.",
+  "primary_threshold": 0.85,
+  "test_coverage_definition": "Fraction of all held-out Test queries with max cosine to retained text >= threshold.",
+  "quality_in_search_caveat": "RKGB candidate search used this same local model for PPL gating; original seeds were admitted without that gate.",
+  "human_review": false,
+  "new_model_calls": 0,
+  "api_calls": 0,
+  "quality_model_device": "cuda",
+  "quality_model_dtype": "float16",
+  "source_sha256": {
+    "quality_results.json": "8255b1f39be161edd01528982b3288550207090b438e5f663402e9d01893eda7",
+    "C:\\Users\\ykx01\\Desktop\\results\\CorpusPoisoning_HotFlip对比_20261031\\evaluation\\banking77\\test_similarities.npz": "e39aa5683d19cae7d8a064e643a13f5a665b953d2d3f72aa136bdfd7262aaff6",
+    "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\banking77\\similarities.npz": "230c69002707eac527937fcd2723dcedfcb0807ef7e209446ef9ce9c41434fec",
+    "C:\\Users\\ykx01\\Desktop\\results\\CorpusPoisoning_HotFlip对比_20261031\\evaluation\\abcd\\test_similarities.npz": "9fb36de5e8c1a70469deda492a8cd2bca24dd466c9ba9947a874a57a7f1e7ffc",
+    "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\ABCD补充\\abcd\\similarities.npz": "fa4c87c5bd0a370a4d8d8931cef62c4d9843d356f8a7b637ee15a79cecd9e510",
+    "C:\\Users\\ykx01\\Desktop\\results\\CorpusPoisoning_HotFlip对比_20261031\\evaluation\\dogo\\test_similarities.npz": "878155df5eb88142be3118ae55dee95b907c36c842b43afb93dc885c60832f1d",
+    "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\dogo\\similarities.npz": "bff057b0a78b1601fdba28b1e4070040df9e013144e12efa4cf0dec3f58f48fa"
+  },
+  "metrics": [
+    {
+      "dataset": "banking77",
+      "method": "CorpusPoisoning_adapted",
+      "k_budget": 15,
+      "threshold": 0.85,
+      "test_total": 1485,
+      "raw_test_covered": 1243,
+      "raw_test_coverage": 0.837037037037037,
+      "ppl_passed_texts": 0,
+      "ppl_filtered_test_covered": 0,
+      "ppl_filtered_test_coverage": 0.0,
+      "ppl_limit": 150.0
+    },
+    {
+      "dataset": "banking77",
+      "method": "RKGB",
+      "k_budget": 15,
+      "threshold": 0.85,
+      "test_total": 1485,
+      "raw_test_covered": 1109,
+      "raw_test_coverage": 0.7468013468013468,
+      "ppl_passed_texts": 15,
+      "ppl_filtered_test_covered": 1109,
+      "ppl_filtered_test_coverage": 0.7468013468013468,
+      "ppl_limit": 150.0
+    },
+    {
+      "dataset": "abcd",
+      "method": "CorpusPoisoning_adapted",
+      "k_budget": 5,
+      "threshold": 0.85,
+      "test_total": 476,
+      "raw_test_covered": 380,
+      "raw_test_coverage": 0.7983193277310925,
+      "ppl_passed_texts": 0,
+      "ppl_filtered_test_covered": 0,
+      "ppl_filtered_test_coverage": 0.0,
+      "ppl_limit": 150.0
+    },
+    {
+      "dataset": "abcd",
+      "method": "RKGB",
+      "k_budget": 5,
+      "threshold": 0.85,
+      "test_total": 476,
+      "raw_test_covered": 308,
+      "raw_test_coverage": 0.6470588235294118,
+      "ppl_passed_texts": 5,
+      "ppl_filtered_test_covered": 308,
+      "ppl_filtered_test_coverage": 0.6470588235294118,
+      "ppl_limit": 150.0
+    },
+    {
+      "dataset": "dogo",
+      "method": "CorpusPoisoning_adapted",
+      "k_budget": 10,
+      "threshold": 0.85,
+      "test_total": 1094,
+      "raw_test_covered": 979,
+      "raw_test_coverage": 0.8948811700182815,
+      "ppl_passed_texts": 2,
+      "ppl_filtered_test_covered": 232,
+      "ppl_filtered_test_coverage": 0.21206581352833637,
+      "ppl_limit": 150.0
+    },
+    {
+      "dataset": "dogo",
+      "method": "RKGB",
+      "k_budget": 10,
+      "threshold": 0.85,
+      "test_total": 1094,
+      "raw_test_covered": 888,
+      "raw_test_coverage": 0.8117001828153565,
+      "ppl_passed_texts": 10,
+      "ppl_filtered_test_covered": 888,
+      "ppl_filtered_test_coverage": 0.8117001828153565,
+      "ppl_limit": 150.0
+    }
+  ]
+}

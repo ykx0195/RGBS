@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "can whoever solved me ﬂury transfer using account <ACCOUNT_NUMBER_1> something perhaps declined?",
+    "full_cluster_mean_cosine": 0.903838574886322,
+    "selected_at_iteration": 204
+  },
+  "accepted_updates": 89,
+  "active_seconds": 242.47353893518448,
+  "heldout_loaded": false
+}

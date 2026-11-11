@@ -1,0 +1,29 @@
+\begin{table}[!htb]
+\caption{Test coverage (\%) and perplexity of RGBS and baselines}
+\label{tab:external-generation}
+\centering\footnotesize
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand{\arraystretch}{1.00}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}llrrrr@{}}
+\toprule
+& & \multicolumn{2}{c}{Coverage (\%) $\uparrow$} & \multicolumn{2}{c}{Median PPL $\downarrow$} \\
+\cmidrule(lr){3-4}\cmidrule(l){5-6}
+Dataset & Method & Raw & Screened & Natural & Gen. \\
+\midrule
+\multirow{4}{*}{Banking77} & Corpus poisoning~\cite{zhong2023corpuspoisoning} & 83.70 & 0.00 & \multirow{4}{*}{57.16} & 2,627.65 \\
+ & \shortstack[l]{Adversarial\\Decoding~\cite{zhang2025adversarialdecoding}} & 50.17 & 0.00 &  & 381.62 \\
+ & GASLITE-Flu~\cite{bentov2025gaslite} & 74.81 & 56.63 &  & 265.12 \\
+ & \textbf{RGBS (ours)} & \textbf{74.68} & \textbf{74.68} &  & \textbf{78.71} \\
+\midrule
+\multirow{4}{*}{ABCD} & Corpus poisoning~\cite{zhong2023corpuspoisoning} & 79.83 & 0.00 & \multirow{4}{*}{30.48} & 3,752.37 \\
+ & \shortstack[l]{Adversarial\\Decoding~\cite{zhang2025adversarialdecoding}} & 30.46 & 9.24 &  & 373.06 \\
+ & GASLITE-Flu~\cite{bentov2025gaslite} & 61.34 & 36.97 &  & 76.34 \\
+ & \textbf{RGBS (ours)} & \textbf{64.71} & \textbf{64.71} &  & \textbf{33.12} \\
+\midrule
+\multirow{4}{*}{MultiDoGO} & Corpus poisoning~\cite{zhong2023corpuspoisoning} & 89.49 & 21.21 & \multirow{4}{*}{42.49} & 942.27 \\
+ & \shortstack[l]{Adversarial\\Decoding~\cite{zhang2025adversarialdecoding}} & 58.04 & 5.85 &  & 350.48 \\
+ & GASLITE-Flu~\cite{bentov2025gaslite} & 85.56 & 34.00 &  & 219.60 \\
+ & \textbf{RGBS (ours)} & \textbf{83.09} & \textbf{83.09} &  & \textbf{53.30} \\
+\bottomrule
+\end{tabular*}
+\end{table}

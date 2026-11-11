@@ -1,0 +1,28 @@
+{
+  "targets_source": "C:\\Users\\ykx01\\Desktop\\results\\优先补充实验_20261031\\baselines\\banking77\\frozen_target_vectors.npy",
+  "nearest_train_indices": [
+    1593,
+    2236,
+    2809,
+    2453,
+    1019,
+    1064,
+    2732,
+    1211,
+    3822,
+    430,
+    1003,
+    1971,
+    3695,
+    2995,
+    2554
+  ],
+  "nearest_is_actual_initialization": false,
+  "available_stages": [
+    "continuous_targets",
+    "nearest_unique_train_anchors",
+    "actual_initial_natural_pool",
+    "final_text"
+  ],
+  "scope": "Same encoder, Test split, K and threshold. Diagnostic nearest anchors are not claimed to be actual initial sentences."
+}

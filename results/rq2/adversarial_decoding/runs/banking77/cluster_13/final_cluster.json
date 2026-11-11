@@ -1,0 +1,59 @@
+{
+  "config": {
+    "dataset": "banking77",
+    "cluster": 13,
+    "seed": 42,
+    "model_repo": "Qwen/Qwen2.5-7B-Instruct",
+    "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "encoder": "bge-small-en-v1.5 normalized CLS",
+    "official_commit": "16f94547caa23c328661f0d6a62073be8dfe863a",
+    "beam_width": 10,
+    "top_k": 10,
+    "max_steps": 30,
+    "cosine_weight": 1.0,
+    "readability_weight": 2.0,
+    "readability_cap": 0.05,
+    "prompt": "Write exactly one concise, grammatical English customer-support question in banking support. Never output a literal name, ID, number, address, phone number, or email. Use typed placeholders such as <ACCOUNT_NUMBER_1> instead of specific personal details. Do not answer the question. Do not add a preface, a list, or a second sentence. The customer issues to target are illustrated by these Train examples:\n1. The exchange rate applied to my transaction on account <ACCOUNT_NUMBER_1> was not right.\n2. The payment I made from account <ACCOUNT_NUMBER_1> had an incorrect exchange rate.\n3. A payment I made from account <ACCOUNT_NUMBER_1> had an incorrect exchange rate.\nCustomer question:",
+    "train_examples": [
+      "The exchange rate applied to my transaction on account <ACCOUNT_NUMBER_1> was not right.",
+      "The payment I made from account <ACCOUNT_NUMBER_1> had an incorrect exchange rate.",
+      "A payment I made from account <ACCOUNT_NUMBER_1> had an incorrect exchange rate."
+    ],
+    "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+    "train_vectors_sha256": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+    "encoder_weight_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "model_dir": "/root/autodl-tmp/advdec_baseline_20261031/models/Qwen2.5-7B-Instruct",
+    "device": "cuda"
+  },
+  "selected": {
+    "token_ids": [
+      5050,
+      6489,
+      8160,
+      1030,
+      15114,
+      9289,
+      46976,
+      389,
+      2692,
+      716,
+      4608,
+      62,
+      13194
+    ],
+    "text": "My international payment had incorrect exchange Rates on account _account_ _.",
+    "mean_train_cosine": 0.8969477415084839,
+    "readability_score": 0.05087505087505088,
+    "score": 0.9969477415084839
+  },
+  "completed_steps": 30,
+  "complete_sentence": true,
+  "train_cluster_size": 186,
+  "active_seconds": 70.92210228741169,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "proposal_forward_calls_cumulative": 1231,
+  "readability_forward_calls_cumulative": 10168,
+  "encoder_texts_cumulative": 40630,
+  "gpu_max_allocated_mib": 16004.42138671875
+}

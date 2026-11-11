@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "I want to claim travel expenses; I'm <PERSON_1>."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-35e19b23-6d79-94a1-8c76-7b42d364aa60",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "To claim travel expenses, please submit your receipts and expense report through your company’s designated reimbursement portal or finance system. Ensure all items are categorized correctly and include necessary approvals if required by policy. If you encounter issues, contact your finance team or HR for specific guidance on submission deadlines and documentation standards.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876766,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 92,
+      "total_tokens": 151,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 92
+      }
+    }
+  },
+  "answer": "To claim travel expenses, please submit your receipts and expense report through your company’s designated reimbursement portal or finance system. Ensure all items are categorized correctly and include necessary approvals if required by policy. If you encounter issues, contact your finance team or HR for specific guidance on submission deadlines and documentation standards.",
+  "created_utc_epoch": 1793876767.7886193
+}

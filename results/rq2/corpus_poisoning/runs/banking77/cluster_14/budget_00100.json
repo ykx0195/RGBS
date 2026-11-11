@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "i want folk cancel concerning transfer towards account <ACCOUNT_NUMBER_1> .",
+    "full_cluster_mean_cosine": 0.8867968320846558,
+    "selected_at_iteration": 32
+  },
+  "accepted_updates": 5,
+  "active_seconds": 8.979919210076332,
+  "heldout_loaded": false
+}

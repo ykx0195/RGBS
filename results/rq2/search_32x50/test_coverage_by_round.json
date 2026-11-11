@@ -1,0 +1,656 @@
+{
+  "abcd": {
+    "status": "complete",
+    "type": "fixed_32_step_trajectory_coordinate_beam",
+    "points": [
+      {
+        "round": 0,
+        "covered": 217,
+        "total": 476,
+        "coverage": 0.45588235294117646
+      },
+      {
+        "round": 1,
+        "covered": 230,
+        "total": 476,
+        "coverage": 0.4831932773109244
+      },
+      {
+        "round": 2,
+        "covered": 237,
+        "total": 476,
+        "coverage": 0.49789915966386555
+      },
+      {
+        "round": 3,
+        "covered": 232,
+        "total": 476,
+        "coverage": 0.48739495798319327
+      },
+      {
+        "round": 4,
+        "covered": 245,
+        "total": 476,
+        "coverage": 0.5147058823529411
+      },
+      {
+        "round": 5,
+        "covered": 236,
+        "total": 476,
+        "coverage": 0.4957983193277311
+      },
+      {
+        "round": 6,
+        "covered": 251,
+        "total": 476,
+        "coverage": 0.5273109243697479
+      },
+      {
+        "round": 7,
+        "covered": 258,
+        "total": 476,
+        "coverage": 0.542016806722689
+      },
+      {
+        "round": 8,
+        "covered": 260,
+        "total": 476,
+        "coverage": 0.5462184873949579
+      },
+      {
+        "round": 9,
+        "covered": 259,
+        "total": 476,
+        "coverage": 0.5441176470588235
+      },
+      {
+        "round": 10,
+        "covered": 259,
+        "total": 476,
+        "coverage": 0.5441176470588235
+      },
+      {
+        "round": 11,
+        "covered": 265,
+        "total": 476,
+        "coverage": 0.5567226890756303
+      },
+      {
+        "round": 12,
+        "covered": 269,
+        "total": 476,
+        "coverage": 0.5651260504201681
+      },
+      {
+        "round": 13,
+        "covered": 277,
+        "total": 476,
+        "coverage": 0.5819327731092437
+      },
+      {
+        "round": 14,
+        "covered": 271,
+        "total": 476,
+        "coverage": 0.569327731092437
+      },
+      {
+        "round": 15,
+        "covered": 271,
+        "total": 476,
+        "coverage": 0.569327731092437
+      },
+      {
+        "round": 16,
+        "covered": 280,
+        "total": 476,
+        "coverage": 0.5882352941176471
+      },
+      {
+        "round": 17,
+        "covered": 287,
+        "total": 476,
+        "coverage": 0.6029411764705882
+      },
+      {
+        "round": 18,
+        "covered": 288,
+        "total": 476,
+        "coverage": 0.6050420168067226
+      },
+      {
+        "round": 19,
+        "covered": 288,
+        "total": 476,
+        "coverage": 0.6050420168067226
+      },
+      {
+        "round": 20,
+        "covered": 290,
+        "total": 476,
+        "coverage": 0.6092436974789915
+      },
+      {
+        "round": 21,
+        "covered": 289,
+        "total": 476,
+        "coverage": 0.6071428571428571
+      },
+      {
+        "round": 22,
+        "covered": 292,
+        "total": 476,
+        "coverage": 0.6134453781512605
+      },
+      {
+        "round": 23,
+        "covered": 293,
+        "total": 476,
+        "coverage": 0.615546218487395
+      },
+      {
+        "round": 24,
+        "covered": 293,
+        "total": 476,
+        "coverage": 0.615546218487395
+      },
+      {
+        "round": 25,
+        "covered": 288,
+        "total": 476,
+        "coverage": 0.6050420168067226
+      },
+      {
+        "round": 26,
+        "covered": 287,
+        "total": 476,
+        "coverage": 0.6029411764705882
+      },
+      {
+        "round": 27,
+        "covered": 291,
+        "total": 476,
+        "coverage": 0.6113445378151261
+      },
+      {
+        "round": 28,
+        "covered": 291,
+        "total": 476,
+        "coverage": 0.6113445378151261
+      },
+      {
+        "round": 29,
+        "covered": 291,
+        "total": 476,
+        "coverage": 0.6113445378151261
+      },
+      {
+        "round": 30,
+        "covered": 295,
+        "total": 476,
+        "coverage": 0.6197478991596639
+      },
+      {
+        "round": 31,
+        "covered": 295,
+        "total": 476,
+        "coverage": 0.6197478991596639
+      },
+      {
+        "round": 32,
+        "covered": 290,
+        "total": 476,
+        "coverage": 0.6092436974789915
+      }
+    ],
+    "actual_32_step_final": {
+      "covered": 308,
+      "total": 476,
+      "coverage": 0.6470588235294118
+    },
+    "actual_32_step_selection": "global_greedy_swap",
+    "early_stopped_slots": {
+      "2": 27,
+      "3": 26
+    }
+  },
+  "banking77": {
+    "status": "complete",
+    "type": "fixed_32_step_trajectory_coordinate_beam",
+    "points": [
+      {
+        "round": 0,
+        "covered": 950,
+        "total": 1485,
+        "coverage": 0.6397306397306397
+      },
+      {
+        "round": 1,
+        "covered": 966,
+        "total": 1485,
+        "coverage": 0.6505050505050505
+      },
+      {
+        "round": 2,
+        "covered": 976,
+        "total": 1485,
+        "coverage": 0.6572390572390573
+      },
+      {
+        "round": 3,
+        "covered": 1001,
+        "total": 1485,
+        "coverage": 0.674074074074074
+      },
+      {
+        "round": 4,
+        "covered": 1014,
+        "total": 1485,
+        "coverage": 0.6828282828282828
+      },
+      {
+        "round": 5,
+        "covered": 1049,
+        "total": 1485,
+        "coverage": 0.7063973063973064
+      },
+      {
+        "round": 6,
+        "covered": 1054,
+        "total": 1485,
+        "coverage": 0.7097643097643098
+      },
+      {
+        "round": 7,
+        "covered": 1053,
+        "total": 1485,
+        "coverage": 0.7090909090909091
+      },
+      {
+        "round": 8,
+        "covered": 1053,
+        "total": 1485,
+        "coverage": 0.7090909090909091
+      },
+      {
+        "round": 9,
+        "covered": 1046,
+        "total": 1485,
+        "coverage": 0.7043771043771043
+      },
+      {
+        "round": 10,
+        "covered": 1060,
+        "total": 1485,
+        "coverage": 0.7138047138047138
+      },
+      {
+        "round": 11,
+        "covered": 1093,
+        "total": 1485,
+        "coverage": 0.736026936026936
+      },
+      {
+        "round": 12,
+        "covered": 1084,
+        "total": 1485,
+        "coverage": 0.7299663299663299
+      },
+      {
+        "round": 13,
+        "covered": 1085,
+        "total": 1485,
+        "coverage": 0.7306397306397306
+      },
+      {
+        "round": 14,
+        "covered": 1088,
+        "total": 1485,
+        "coverage": 0.7326599326599327
+      },
+      {
+        "round": 15,
+        "covered": 1087,
+        "total": 1485,
+        "coverage": 0.731986531986532
+      },
+      {
+        "round": 16,
+        "covered": 1094,
+        "total": 1485,
+        "coverage": 0.7367003367003367
+      },
+      {
+        "round": 17,
+        "covered": 1089,
+        "total": 1485,
+        "coverage": 0.7333333333333333
+      },
+      {
+        "round": 18,
+        "covered": 1086,
+        "total": 1485,
+        "coverage": 0.7313131313131314
+      },
+      {
+        "round": 19,
+        "covered": 1092,
+        "total": 1485,
+        "coverage": 0.7353535353535353
+      },
+      {
+        "round": 20,
+        "covered": 1095,
+        "total": 1485,
+        "coverage": 0.7373737373737373
+      },
+      {
+        "round": 21,
+        "covered": 1094,
+        "total": 1485,
+        "coverage": 0.7367003367003367
+      },
+      {
+        "round": 22,
+        "covered": 1094,
+        "total": 1485,
+        "coverage": 0.7367003367003367
+      },
+      {
+        "round": 23,
+        "covered": 1100,
+        "total": 1485,
+        "coverage": 0.7407407407407407
+      },
+      {
+        "round": 24,
+        "covered": 1100,
+        "total": 1485,
+        "coverage": 0.7407407407407407
+      },
+      {
+        "round": 25,
+        "covered": 1099,
+        "total": 1485,
+        "coverage": 0.7400673400673401
+      },
+      {
+        "round": 26,
+        "covered": 1101,
+        "total": 1485,
+        "coverage": 0.7414141414141414
+      },
+      {
+        "round": 27,
+        "covered": 1101,
+        "total": 1485,
+        "coverage": 0.7414141414141414
+      },
+      {
+        "round": 28,
+        "covered": 1101,
+        "total": 1485,
+        "coverage": 0.7414141414141414
+      },
+      {
+        "round": 29,
+        "covered": 1099,
+        "total": 1485,
+        "coverage": 0.7400673400673401
+      },
+      {
+        "round": 30,
+        "covered": 1101,
+        "total": 1485,
+        "coverage": 0.7414141414141414
+      },
+      {
+        "round": 31,
+        "covered": 1101,
+        "total": 1485,
+        "coverage": 0.7414141414141414
+      },
+      {
+        "round": 32,
+        "covered": 1101,
+        "total": 1485,
+        "coverage": 0.7414141414141414
+      }
+    ],
+    "actual_32_step_final": {
+      "covered": 1109,
+      "total": 1485,
+      "coverage": 0.7468013468013468
+    },
+    "actual_32_step_selection": "global_greedy_swap",
+    "early_stopped_slots": {
+      "1": 21,
+      "5": 2,
+      "9": 2,
+      "10": 25,
+      "11": 21,
+      "12": 21,
+      "14": 26,
+      "15": 2
+    }
+  },
+  "dogo": {
+    "status": "complete",
+    "type": "fixed_32_step_trajectory_coordinate_beam",
+    "points": [
+      {
+        "round": 0,
+        "covered": 853,
+        "total": 1094,
+        "coverage": 0.779707495429616
+      },
+      {
+        "round": 1,
+        "covered": 858,
+        "total": 1094,
+        "coverage": 0.7842778793418648
+      },
+      {
+        "round": 2,
+        "covered": 861,
+        "total": 1094,
+        "coverage": 0.7870201096892139
+      },
+      {
+        "round": 3,
+        "covered": 861,
+        "total": 1094,
+        "coverage": 0.7870201096892139
+      },
+      {
+        "round": 4,
+        "covered": 867,
+        "total": 1094,
+        "coverage": 0.7925045703839122
+      },
+      {
+        "round": 5,
+        "covered": 864,
+        "total": 1094,
+        "coverage": 0.7897623400365631
+      },
+      {
+        "round": 6,
+        "covered": 865,
+        "total": 1094,
+        "coverage": 0.7906764168190128
+      },
+      {
+        "round": 7,
+        "covered": 873,
+        "total": 1094,
+        "coverage": 0.7979890310786106
+      },
+      {
+        "round": 8,
+        "covered": 874,
+        "total": 1094,
+        "coverage": 0.7989031078610603
+      },
+      {
+        "round": 9,
+        "covered": 877,
+        "total": 1094,
+        "coverage": 0.8016453382084096
+      },
+      {
+        "round": 10,
+        "covered": 877,
+        "total": 1094,
+        "coverage": 0.8016453382084096
+      },
+      {
+        "round": 11,
+        "covered": 878,
+        "total": 1094,
+        "coverage": 0.8025594149908593
+      },
+      {
+        "round": 12,
+        "covered": 876,
+        "total": 1094,
+        "coverage": 0.8007312614259597
+      },
+      {
+        "round": 13,
+        "covered": 879,
+        "total": 1094,
+        "coverage": 0.803473491773309
+      },
+      {
+        "round": 14,
+        "covered": 879,
+        "total": 1094,
+        "coverage": 0.803473491773309
+      },
+      {
+        "round": 15,
+        "covered": 878,
+        "total": 1094,
+        "coverage": 0.8025594149908593
+      },
+      {
+        "round": 16,
+        "covered": 885,
+        "total": 1094,
+        "coverage": 0.8089579524680073
+      },
+      {
+        "round": 17,
+        "covered": 887,
+        "total": 1094,
+        "coverage": 0.8107861060329068
+      },
+      {
+        "round": 18,
+        "covered": 887,
+        "total": 1094,
+        "coverage": 0.8107861060329068
+      },
+      {
+        "round": 19,
+        "covered": 887,
+        "total": 1094,
+        "coverage": 0.8107861060329068
+      },
+      {
+        "round": 20,
+        "covered": 886,
+        "total": 1094,
+        "coverage": 0.8098720292504571
+      },
+      {
+        "round": 21,
+        "covered": 887,
+        "total": 1094,
+        "coverage": 0.8107861060329068
+      },
+      {
+        "round": 22,
+        "covered": 885,
+        "total": 1094,
+        "coverage": 0.8089579524680073
+      },
+      {
+        "round": 23,
+        "covered": 887,
+        "total": 1094,
+        "coverage": 0.8107861060329068
+      },
+      {
+        "round": 24,
+        "covered": 887,
+        "total": 1094,
+        "coverage": 0.8107861060329068
+      },
+      {
+        "round": 25,
+        "covered": 885,
+        "total": 1094,
+        "coverage": 0.8089579524680073
+      },
+      {
+        "round": 26,
+        "covered": 885,
+        "total": 1094,
+        "coverage": 0.8089579524680073
+      },
+      {
+        "round": 27,
+        "covered": 885,
+        "total": 1094,
+        "coverage": 0.8089579524680073
+      },
+      {
+        "round": 28,
+        "covered": 886,
+        "total": 1094,
+        "coverage": 0.8098720292504571
+      },
+      {
+        "round": 29,
+        "covered": 886,
+        "total": 1094,
+        "coverage": 0.8098720292504571
+      },
+      {
+        "round": 30,
+        "covered": 886,
+        "total": 1094,
+        "coverage": 0.8098720292504571
+      },
+      {
+        "round": 31,
+        "covered": 887,
+        "total": 1094,
+        "coverage": 0.8107861060329068
+      },
+      {
+        "round": 32,
+        "covered": 887,
+        "total": 1094,
+        "coverage": 0.8107861060329068
+      }
+    ],
+    "actual_32_step_final": {
+      "covered": 888,
+      "total": 1094,
+      "coverage": 0.8117001828153565
+    },
+    "actual_32_step_selection": "global_greedy_swap",
+    "early_stopped_slots": {
+      "1": 2,
+      "3": 2,
+      "4": 2,
+      "5": 13,
+      "6": 11,
+      "7": 2,
+      "8": 2,
+      "9": 17
+    }
+  }
+}

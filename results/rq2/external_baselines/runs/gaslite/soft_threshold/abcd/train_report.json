@@ -1,0 +1,95 @@
+{
+  "config": {
+    "dataset": "abcd",
+    "k": 5,
+    "threshold": 0.85,
+    "seed": 42,
+    "objective": "soft_threshold",
+    "official_commit": "8dc7646f1ac8cd68f38463df01578c74fff22795",
+    "n_iter": 100,
+    "n_grad": 50,
+    "k_candidates": 256,
+    "beam_candidates": 128,
+    "beam_width": 1,
+    "n_flip": 20,
+    "flu_alpha": 0,
+    "common_train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+    "common_seed_sha256": "d13d2ffd2abb01b0b208d22034185597359dfa6a2826d2d4502c4ce7e5078f24",
+    "quality_archive_cap_per_slot": 256,
+    "quality_accept_cap_per_slot": 20,
+    "quality": {
+      "ppl": 150,
+      "relative_ppl": 1.5,
+      "total_word_edits": 10,
+      "local_readability": true,
+      "two_api_scope_judges": true
+    },
+    "note": "Adapted whole-query interface and shared geometric initialization, not original paper ranking evaluation. Default no differentiable fluency; use Train-ranked archive screening."
+  },
+  "raw_selected": [
+    {
+      "text": "gently simply vesee dirzierheeently for order <ORDER_ID_1>, which them't arrived yet. change changed my mind question enoughpg ships it and my accountord is <USERNAME_1>",
+      "ppl": null
+    },
+    {
+      "text": "eh'd like to return their order <ORDER_ID_1> because basically figured buy arrived in the refwear withdrew and i want to bones colored back by mail. my username is <USERNAME_1> determines",
+      "ppl": null
+    },
+    {
+      "text": "unlesstly simply clarifyging helpful subscription because my usual fees was continuingoff bug so i'd like to pay it right now. my account id possess <ACCOUNT_ID_1>.",
+      "ppl": null
+    },
+    {
+      "text": ", rather specifically t access my account similarly obviously forgot my password email and accidentally pin'd remember my username. i gifts my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1> for verification, so can you help simpler get back in?",
+      "ppl": null
+    },
+    {
+      "text": "trying somewhat perhaps previously status that charging <ORDER_ID_1> for account <ACCOUNT_ID_1>? the shipping price switched high, and y'op wondering purse i could cancel it instead.",
+      "ppl": null
+    }
+  ],
+  "screened_selected": [],
+  "quality_screen": [
+    {
+      "slot": 1,
+      "archive": 65717,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 2,
+      "archive": 26734,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 3,
+      "archive": 9233,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 4,
+      "archive": 4958,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 5,
+      "archive": 20828,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    }
+  ],
+  "screened_key_count": 0,
+  "heldout_loaded": false,
+  "train": {
+    "raw": 2786,
+    "screened": 0
+  }
+}

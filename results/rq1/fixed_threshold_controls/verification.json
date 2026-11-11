@@ -1,0 +1,27 @@
+{
+  "matched_configurations": 100,
+  "filtered_configurations": 280,
+  "all_saved_evaluation_memberships_checked": true,
+  "count_rate_consistency_checked": true,
+  "dataset_pairs": {
+    "banking77": {
+      "train": 4924,
+      "validation": 875,
+      "test": 1485
+    },
+    "abcd": {
+      "train": 3834,
+      "validation": 480,
+      "test": 476
+    },
+    "multidogo": {
+      "train": 3993,
+      "validation": 535,
+      "test": 1094
+    }
+  },
+  "results_sha256": {
+    "filtered_pairs_fixed085.csv": "4bd48876e3bc744059a4768037cec4a2f6d2e65a3fa54b3bfa85406478cc4b04",
+    "matched_nonpii_fixed085.csv": "cbe3563205738e1fed5a70e52d363327616ba69b364822eb6997082c8d59d803"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slot": 15,
+  "target_index": 14,
+  "starting_text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+  "selected": {
+    "text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+    "target_cosine": 0.8748397827148438,
+    "train_covered": 303,
+    "ppl": 73.35901005814968
+  },
+  "baseline_replacement_gain": 69,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 8,
+      "passed_ppl": 0,
+      "best_replacement_gain": 69,
+      "net_union_change": 0,
+      "beam": [
+        "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount."
+      ],
+      "positive_feedback": []
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 69,
+      "net_union_change": 0,
+      "beam": [
+        "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount."
+      ],
+      "positive_feedback": []
+    }
+  ]
+}

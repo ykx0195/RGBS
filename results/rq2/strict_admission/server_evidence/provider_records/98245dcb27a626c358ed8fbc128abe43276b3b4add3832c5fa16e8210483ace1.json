@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-b5485209-d891-9936-9ced-9d1eec2770fa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I am unable to access your account records or verify the delivery status of your card.\n\nPlease check the tracking information provided in your original shipping confirmation email. If the card has not arrived within the expected timeframe, contact your bank's customer support directly to report the issue and request a replacement.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876680,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 101,
+      "total_tokens": 159,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 101
+      }
+    }
+  },
+  "answer": "I am unable to access your account records or verify the delivery status of your card.\n\nPlease check the tracking information provided in your original shipping confirmation email. If the card has not arrived within the expected timeframe, contact your bank's customer support directly to report the issue and request a replacement.",
+  "created_utc_epoch": 1793876681.6805534
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "banking77",
+  "cluster": 8,
+  "seed": 42,
+  "model_repo": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "encoder": "bge-small-en-v1.5 normalized CLS",
+  "official_commit": "16f94547caa23c328661f0d6a62073be8dfe863a",
+  "beam_width": 10,
+  "top_k": 10,
+  "max_steps": 30,
+  "cosine_weight": 1.0,
+  "readability_weight": 2.0,
+  "readability_cap": 0.05,
+  "prompt": "Write exactly one concise, grammatical English customer-support question in banking support. Never output a literal name, ID, number, address, phone number, or email. Use typed placeholders such as <ACCOUNT_NUMBER_1> instead of specific personal details. Do not answer the question. Do not add a preface, a list, or a second sentence. The customer issues to target are illustrated by these Train examples:\n1. I'm trying to understand what went wrong with the top-up from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.\n2. My top-up with card <CREDIT_CARD_1> hasn't finished, and it involves account <ACCOUNT_NUMBER_1>.\n3. Can you tell me why my top-up didn't go through on account <ACCOUNT_NUMBER_1>?\nCustomer question:",
+  "train_examples": [
+    "I'm trying to understand what went wrong with the top-up from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.",
+    "My top-up with card <CREDIT_CARD_1> hasn't finished, and it involves account <ACCOUNT_NUMBER_1>.",
+    "Can you tell me why my top-up didn't go through on account <ACCOUNT_NUMBER_1>?"
+  ],
+  "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+  "train_vectors_sha256": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+  "encoder_weight_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "model_dir": "/root/autodl-tmp/advdec_baseline_20261031/models/Qwen2.5-7B-Instruct",
+  "device": "cuda"
+}

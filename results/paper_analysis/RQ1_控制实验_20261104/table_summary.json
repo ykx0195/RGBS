@@ -1,0 +1,111 @@
+{
+  "threshold": 0.85,
+  "aggregation": "Per-rule median over 5 domains x 4 encoders; per-configuration interval sign counts.",
+  "sources": {
+    "matched_nonpii_fixed085.csv": "cbe3563205738e1fed5a70e52d363327616ba69b364822eb6997082c8d59d803",
+    "filtered_pairs_fixed085.csv": "4bd48876e3bc744059a4768037cec4a2f6d2e65a3fa54b3bfa85406478cc4b04"
+  },
+  "paper_modified": false,
+  "summary": [
+    {
+      "method": "generic",
+      "label": "Generic [PII]",
+      "pii_delta_median_pp": 2.0935366151853456,
+      "nonpii_delta_median_pp": 2.100654028714936,
+      "paired_excess_median_pp": 0.15400483095938816,
+      "paired_excess_quartiles_pp": [
+        0.011400843886999076,
+        1.1878904804604349
+      ],
+      "positive_excess": 18,
+      "positive_excess_interval_lower": 14,
+      "filtered_delta_median_pp": 7.2461323789808345,
+      "filtered_delta_quartiles_pp": [
+        0.3716008267265521,
+        45.988596180288084
+      ],
+      "positive_filtered_delta": 20,
+      "positive_filtered_interval_lower": 20
+    },
+    {
+      "method": "typed",
+      "label": "Type [TYPE]",
+      "pii_delta_median_pp": 0.30377372846593037,
+      "nonpii_delta_median_pp": 0.16274171475615096,
+      "paired_excess_median_pp": 0.007029703363808177,
+      "paired_excess_quartiles_pp": [
+        -0.3270176176737784,
+        0.1625250501002004
+      ],
+      "positive_excess": 14,
+      "positive_excess_interval_lower": 8,
+      "filtered_delta_median_pp": 2.933535440562776,
+      "filtered_delta_quartiles_pp": [
+        0.12465600103777073,
+        18.712236797372228
+      ],
+      "positive_filtered_delta": 20,
+      "positive_filtered_interval_lower": 20
+    },
+    {
+      "method": "typed_numbered",
+      "label": "Type+index [TYPE_N]",
+      "pii_delta_median_pp": 0.7234007583255988,
+      "nonpii_delta_median_pp": 0.3832806736487453,
+      "paired_excess_median_pp": 0.02806034061045861,
+      "paired_excess_quartiles_pp": [
+        0.0024840499014651993,
+        0.32665330661322645
+      ],
+      "positive_excess": 16,
+      "positive_excess_interval_lower": 9,
+      "filtered_delta_median_pp": 4.48819064704786,
+      "filtered_delta_quartiles_pp": [
+        0.18016315238563083,
+        25.706712056111805
+      ],
+      "positive_filtered_delta": 20,
+      "positive_filtered_interval_lower": 20
+    },
+    {
+      "method": "delete",
+      "label": "Deletion",
+      "pii_delta_median_pp": -0.009103759085892761,
+      "nonpii_delta_median_pp": -0.0685370741482966,
+      "paired_excess_median_pp": 0.0031117472905571805,
+      "paired_excess_quartiles_pp": [
+        -0.28538803152873654,
+        0.053465038191673725
+      ],
+      "positive_excess": 13,
+      "positive_excess_interval_lower": 7,
+      "filtered_delta_median_pp": 0.3487737339010454,
+      "filtered_delta_quartiles_pp": [
+        0.044133330757860835,
+        2.8789818092956527
+      ],
+      "positive_filtered_delta": 17,
+      "positive_filtered_interval_lower": 16
+    },
+    {
+      "method": "star",
+      "label": "Single *",
+      "pii_delta_median_pp": 0.008034076300395094,
+      "nonpii_delta_median_pp": -0.014524036925364036,
+      "paired_excess_median_pp": 0.004197192912107573,
+      "paired_excess_quartiles_pp": [
+        -0.06937221678020851,
+        0.11786537076470227
+      ],
+      "positive_excess": 14,
+      "positive_excess_interval_lower": 8,
+      "filtered_delta_median_pp": 1.1467006192905354,
+      "filtered_delta_quartiles_pp": [
+        0.10244142059568687,
+        7.416049894698522
+      ],
+      "positive_filtered_delta": 19,
+      "positive_filtered_interval_lower": 18
+    }
+  ]
+}

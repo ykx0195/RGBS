@@ -1,0 +1,383 @@
+{
+  "config": {
+    "dataset": "banking77",
+    "cluster": 0,
+    "seed": 42,
+    "model_repo": "Qwen/Qwen2.5-7B-Instruct",
+    "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "encoder": "bge-small-en-v1.5 normalized CLS",
+    "official_commit": "16f94547caa23c328661f0d6a62073be8dfe863a",
+    "beam_width": 3,
+    "top_k": 3,
+    "max_steps": 30,
+    "cosine_weight": 1.0,
+    "readability_weight": 2.0,
+    "readability_cap": 0.05,
+    "prompt": "Write exactly one concise, grammatical English customer-support question in banking support. Never output a literal name, ID, number, address, phone number, or email. Use typed placeholders such as <ACCOUNT_NUMBER_1> instead of specific personal details. Do not answer the question. Do not add a preface, a list, or a second sentence. The customer issues to target are illustrated by these Train examples:\n1. I lost my phone, which is registered under phone number <PHONE_NUMBER_1>.\n2. My phone registered under phone number <PHONE_NUMBER_1> is either lost or stolen.\n3. My phone is lost and it was registered under phone number <PHONE_NUMBER_1>.\nCustomer question:",
+    "train_examples": [
+      "I lost my phone, which is registered under phone number <PHONE_NUMBER_1>.",
+      "My phone registered under phone number <PHONE_NUMBER_1> is either lost or stolen.",
+      "My phone is lost and it was registered under phone number <PHONE_NUMBER_1>."
+    ],
+    "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+    "train_vectors_sha256": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+    "encoder_weight_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "model_dir": "/root/autodl-tmp/advdec_baseline_20261031/models/Qwen2.5-7B-Instruct",
+    "device": "cuda"
+  },
+  "completed_steps": 30,
+  "beams": [
+    {
+      "token_ids": [
+        40,
+        1184,
+        12994,
+        40477,
+        847,
+        2692,
+        1283,
+        13188,
+        847,
+        4540,
+        9681,
+        1212,
+        4540,
+        14341,
+        1436,
+        603,
+        13,
+        2585,
+        653,
+        358,
+        10354,
+        30,
+        16503,
+        4325,
+        1492,
+        752,
+        30,
+        9731,
+        70456,
+        13
+      ],
+      "text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone help me? Thank_you.",
+      "mean_train_cosine": 0.8416768312454224,
+      "readability_score": 0.29482874412357285,
+      "score": 0.9416768312454223
+    },
+    {
+      "token_ids": [
+        40,
+        1184,
+        12994,
+        40477,
+        847,
+        2692,
+        1283,
+        13188,
+        847,
+        4540,
+        9681,
+        1212,
+        4540,
+        14341,
+        1436,
+        603,
+        13,
+        2585,
+        653,
+        358,
+        10354,
+        30,
+        16503,
+        4325,
+        1492,
+        752,
+        30,
+        9731,
+        70456,
+        4950
+      ],
+      "text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone help me? Thank_you_.",
+      "mean_train_cosine": 0.8413071632385254,
+      "readability_score": 0.2935145977267662,
+      "score": 0.9413071632385254
+    },
+    {
+      "token_ids": [
+        40,
+        1184,
+        12994,
+        40477,
+        847,
+        2692,
+        1283,
+        13188,
+        847,
+        4540,
+        9681,
+        1212,
+        4540,
+        14341,
+        1436,
+        603,
+        13,
+        2585,
+        653,
+        358,
+        10354,
+        30,
+        16503,
+        4325,
+        1492,
+        752,
+        30,
+        9731,
+        498,
+        13
+      ],
+      "text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone help me? Thank you.",
+      "mean_train_cosine": 0.8409758806228638,
+      "readability_score": 0.35143994380707094,
+      "score": 0.9409758806228637
+    }
+  ],
+  "best_complete": {
+    "token_ids": [
+      40,
+      1184,
+      12994,
+      40477,
+      847,
+      2692,
+      1283,
+      13188,
+      847,
+      4540,
+      9681,
+      1212,
+      4540,
+      5500,
+      62,
+      334,
+      4950
+    ],
+    "text": "I need assistance securing my account after losing my phone registered under phone_number_**_.",
+    "mean_train_cosine": 0.8353148698806763,
+    "readability_score": 0.15892420537897312,
+    "score": 0.9353148698806762
+  },
+  "active_seconds": 10.138333097100258,
+  "history": [
+    {
+      "step": 1,
+      "candidate_count": 3,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can"
+    },
+    {
+      "step": 2,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "I need"
+    },
+    {
+      "step": 3,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "Can I secure"
+    },
+    {
+      "step": 4,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "I need assistance securing"
+    },
+    {
+      "step": 5,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "I need assistance securing my"
+    },
+    {
+      "step": 6,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": null,
+      "best_active_text": "I need assistance securing my account"
+    },
+    {
+      "step": 7,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7938546299934387,
+      "best_active_text": "I need assistance securing my account after"
+    },
+    {
+      "step": 8,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7938546299934387,
+      "best_active_text": "I need assistance securing my account after losing"
+    },
+    {
+      "step": 9,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7938546299934387,
+      "best_active_text": "I need assistance securing my account after my phone"
+    },
+    {
+      "step": 10,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7938546299934387,
+      "best_active_text": "I need assistance securing my account after losing my phone"
+    },
+    {
+      "step": 11,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7938546299934387,
+      "best_active_text": "I need assistance securing my account after losing my phone registered"
+    },
+    {
+      "step": 12,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7938546299934387,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under"
+    },
+    {
+      "step": 13,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7938546299934387,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under the"
+    },
+    {
+      "step": 14,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.7938546299934387,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone_number"
+    },
+    {
+      "step": 15,
+      "candidate_count": 6,
+      "active_count": 3,
+      "best_complete_score": 0.9310176134109497,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone_number_"
+    },
+    {
+      "step": 16,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9310176134109497,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one"
+    },
+    {
+      "step": 17,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one."
+    },
+    {
+      "step": 18,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one._please"
+    },
+    {
+      "step": 19,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one._please help"
+    },
+    {
+      "step": 20,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one._please help me"
+    },
+    {
+      "step": 21,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one._please help me with"
+    },
+    {
+      "step": 22,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed?"
+    },
+    {
+      "step": 23,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Please"
+    },
+    {
+      "step": 24,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone"
+    },
+    {
+      "step": 25,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone please"
+    },
+    {
+      "step": 26,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone help me"
+    },
+    {
+      "step": 27,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone help me?"
+    },
+    {
+      "step": 28,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone help me? Please"
+    },
+    {
+      "step": 29,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone help me? Please."
+    },
+    {
+      "step": 30,
+      "candidate_count": 9,
+      "active_count": 3,
+      "best_complete_score": 0.9353148698806762,
+      "best_active_text": "I need assistance securing my account after losing my phone registered under phone.number._one. How do I proceed? Could someone help me? Thank_you."
+    }
+  ]
+}

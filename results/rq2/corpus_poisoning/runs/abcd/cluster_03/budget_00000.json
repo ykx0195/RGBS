@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "I think there's an extra charge on my order <ORDER_ID_1> and I'd like it looked into. I don't have my account ID available right now.",
+    "full_cluster_mean_cosine": 0.8299363851547241,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.00064898282289505,
+  "heldout_loaded": false
+}

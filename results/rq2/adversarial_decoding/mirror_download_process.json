@@ -1,0 +1,7 @@
+{
+  "server_pid": 11655,
+  "server_port": 35564,
+  "remote_log": "/root/autodl-tmp/advdec_baseline_20261031/mirror_download.log",
+  "source": "hf-mirror.com pinned official revision; SHA256 verified before model marker",
+  "resumes_existing_partial_shards": true
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "text": "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+    "target_cosine": 0.9265113472938538,
+    "train_covered": 417,
+    "ppl": 33.07422449702569
+  },
+  {
+    "text": "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+    "target_cosine": 0.9553671479225159,
+    "train_covered": 428,
+    "ppl": 31.965015779954154
+  },
+  {
+    "text": "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",
+    "target_cosine": 0.9448850154876709,
+    "train_covered": 400,
+    "ppl": 15.605146970388498
+  },
+  {
+    "text": "Yep, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong tone, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+    "target_cosine": 0.964737057685852,
+    "train_covered": 868,
+    "ppl": 33.94631388986697
+  },
+  {
+    "text": "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now.",
+    "target_cosine": 0.9352163076400757,
+    "train_covered": 845,
+    "ppl": 33.50637360898612
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "archive_remote_sha256": "16e09c3904e4a15b76ac821e16592425869723ae8421589fa69a048404085005",
+  "files": {
+    "matched_nonpii_result_bundle.tar.gz": "16e09c3904e4a15b76ac821e16592425869723ae8421589fa69a048404085005",
+    "matched_nonpii_calibrated_results.csv": "7da81b1b7bbfad8185480130c71c8f7b172bec5d1accd685829d2e6d8e92a0bf",
+    "results/matched_nonpii_calibrated_results.csv": "7da81b1b7bbfad8185480130c71c8f7b172bec5d1accd685829d2e6d8e92a0bf",
+    "results/manifest.json": "b134ba2032c68e44af61964a34d50cbf7cd809f5dea55976d6cb17c2e4309bda",
+    "matched_nonpii_sensitivity_results.csv": "035dedec06529372f8b168d2c1f628eddbf5c892d3a81fd8223271f2704a72ca",
+    "sensitivity_manifest.json": "e47dc3a97e0adcf33d0e9c7c61fae15cb8fd6ac61effb229935bc170b88db77b",
+    "summary_by_method.csv": "595c47a398ba3cde40fe54af5c1fc70a7c3001e4faaab51c0adae68a7cc2559c"
+  }
+}

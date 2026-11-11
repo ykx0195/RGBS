@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "awesome does someonegallfast other card based fairly specified <ACCOUNT_NUMBER_1> arrive presumably now <STREET_ADDRESS_1> help",
+    "full_cluster_mean_cosine": 0.8680720925331116,
+    "selected_at_iteration": 1886
+  },
+  "accepted_updates": 187,
+  "active_seconds": 257.8313669860363,
+  "heldout_loaded": false
+}

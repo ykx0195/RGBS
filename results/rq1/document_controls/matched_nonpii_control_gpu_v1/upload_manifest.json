@@ -1,0 +1,38 @@
+{
+  "archive_sha256": "20d91c3aa0d16c35ac15b5063cede49854b49cd33dadf12dc5456546bb897aa8",
+  "archive_bytes": 5091032,
+  "archive_name": "matched_nonpii_gpu_input.tar.gz",
+  "files": [
+    {
+      "path": "input/healthcare.jsonl",
+      "sha256": "668d67fab513208e08945bd13bb0cd0f9938b8cc4c317b629afa422b0403726b",
+      "bytes": 15665169
+    },
+    {
+      "path": "input/finance.jsonl",
+      "sha256": "25693ac627f5becc04c17ac41197cc50f0a2bbebbdb0b5a4bef0a1aa62d1efb5",
+      "bytes": 16355993
+    },
+    {
+      "path": "input/banking.jsonl",
+      "sha256": "73ef077548c574600a566db871818f4157805b124d357ef1251400fe0f9ca7ec",
+      "bytes": 16339331
+    },
+    {
+      "path": "input/insurance.jsonl",
+      "sha256": "61fb476584a097a211fc2c59aaa6346ba28e99e2a5f984846130d26dc20e2e0c",
+      "bytes": 27982098
+    },
+    {
+      "path": "input/legal.jsonl",
+      "sha256": "d81f8d4433de4ae85821db63dd5cf36ef7f7fca08a7d3ac453d170867dcb11b3",
+      "bytes": 4745380
+    },
+    {
+      "path": "run_matched_nonpii_gpu.py",
+      "sha256": "fab9bbce4048600bae70e39b824a48b16501b1d1128f55c2776f09920b803195",
+      "bytes": 9795
+    }
+  ],
+  "model_source": "Reuses the four pinned model snapshots already uploaded for the TAB replication, with hashes recorded in prior gpu_upload_manifest.json."
+}

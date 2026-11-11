@@ -1,0 +1,116 @@
+{
+  "threshold": 0.85,
+  "pairwise_threshold": "strictly <0.85",
+  "sequence": "saved offline selected-list order",
+  "protocol_sha256": "ec5a5e6f0416c0b590c1eebd89ff000c1aef83352a7e9f4d436d41e6a260f362",
+  "script_sha256": "49297ad2a3b93c6f534259c9524af54f19f94c3e25fb02168b24efa9d96698ce",
+  "previous_service_script_sha256": "d7c471a5819b57ebba3d450fc7e803cddb5df192d51f0ae20c4150d2959bfd8c",
+  "input_manifest_sha256": "a3bb9b23e504ebaefca55beaba6840db3c75910530767f46386ab13a805b9581",
+  "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "synthetic_field_registry": {
+    "PERSON_1": "Alice Morgan",
+    "ACCOUNT_NUMBER_1": "8100000141",
+    "CREDIT_CARD_1": "4111111111111111",
+    "CARD_NUMBER_1": "5555555555554444",
+    "ORDER_ID_1": "ORD-62004017",
+    "ACCOUNT_ID_1": "ACC-62004018",
+    "BOOKING_ID_1": "BK-62004019",
+    "EMAIL_ADDRESS_1": "alice.morgan@example.com",
+    "PHONE_NUMBER_1": "+1-202-555-0147",
+    "STREET_ADDRESS_1": "417 Cedar Avenue",
+    "USERNAME_1": "alice_morgan_test",
+    "ZIP_CODE_1": "90210",
+    "SSN_LAST4_1": "7318",
+    "POLICY_ID_1": "POL-62004020",
+    "ACCOUNT_ID_LAST4_1": "8429"
+  },
+  "deidentifier": "same placeholder-preserving known-field reference rule as previous experiment; not automatic PII detection",
+  "initial_copied_provider_records": [
+    {
+      "file": "551a6004daac11b3f10a860d5de64a1040a80eef832c4abc0b1c1489513c804e.json",
+      "source_sha256": "52dae99019c3bcf40c04dc416cef941fc2b0489ea66f616dfbbd787b5344e64a"
+    },
+    {
+      "file": "ea379864ce29677948daf8e89af53110f06e1000cddb054bdc9645896609e1d5.json",
+      "source_sha256": "1b357e642f6ed4d31b4ec836b1fcc76a0ba35f0b11bb620f67e2b66aee5a0d5b"
+    },
+    {
+      "file": "18329ec32aacfc09b2d87a6e88e14c3f4003cb61d1b278bf08dbae28b37cdd79.json",
+      "source_sha256": "38c15c32c23fa9f80e08fa9b7b51e0320ae9904d439ed09f0d8ee12284067a1f"
+    },
+    {
+      "file": "ef2744f3aac7289a95833829465b7cb31b9f49d542c718832d71ef99fdc5d908.json",
+      "source_sha256": "b7c9986f7dad1666ad94d99de270d4a616c34ff66ea65f26c58176fb8b7c7798"
+    },
+    {
+      "file": "98245dcb27a626c358ed8fbc128abe43276b3b4add3832c5fa16e8210483ace1.json",
+      "source_sha256": "4423ecc8477d83f7299bd922da7384863512f0509179e4756b8f0c525189bd32"
+    },
+    {
+      "file": "595d9f7b8c8107d42bdb3f0ab87a89fcff3a868d6444829edbeb5b1e2ca6c96a.json",
+      "source_sha256": "c544bf424de991d664aa1dcc47dbaef665135407c07ec956e2feadb8dd5056a6"
+    },
+    {
+      "file": "83394ba73a69ddc14d9076b1d0b4faf1a4be16232655ed2c2ddbde1349eb536e.json",
+      "source_sha256": "08541f1fe22649fe94cb99a2cb48ef5d50cb9878fa1773bcf2c8b91680c8bc4a"
+    },
+    {
+      "file": "e8a2d16285e135112cf3e3708637fd3030b62736b8f3c60f90ad7a303da8e755.json",
+      "source_sha256": "7deea922cd8dacfa97b18b637ac095de7815248d17edfe24d3fef61b803d2181"
+    },
+    {
+      "file": "c18f7c5ddbf7b27d6d4f249c3cf8367268576a364f3943e6cc79b6715b5b2cae.json",
+      "source_sha256": "762102e9a37fb9147973aaa7e24b2d086bfd4bffb62ce70fd02fb16c3b9053ba"
+    },
+    {
+      "file": "7ff3bda8fa13df62d8b2ed4a053dc823060b0e4772a896d1dd83414536c59d73.json",
+      "source_sha256": "96f92f42c1a696912b1a59b3e5e912ec4e30c6908271bd8446014387123a9f09"
+    },
+    {
+      "file": "1f9f19e4958a8cde8699c34556e2a06978827344b62adea7c4342dcceed241ab.json",
+      "source_sha256": "e2954f5bed4bf9c13b37b5412e8d9f87183fa0db7ae71074f5fbc4f468fa5373"
+    },
+    {
+      "file": "85fd53c863433ce638864f3102c5b89d97193d48203c168d7580beaf44673a19.json",
+      "source_sha256": "87df2ef7015f22a0a1f9beea89dc38acb77ee8ec53bf0d12e9a7c109090ce837"
+    },
+    {
+      "file": "9a3d4f2cae8ee22a5d0d654af2eefec9c2bf6d5d471d3e9e728af448aabd9c73.json",
+      "source_sha256": "9bfd4ce374843b011d30d6369de5ae37bb44e5d4950262e31a7a3ee7141828aa"
+    },
+    {
+      "file": "dc71039eac5c50090f145658020c650434652017b5a7ef3337f94b17311cf441.json",
+      "source_sha256": "f62851dc50f37455dabbe9682e3028c9d4000140ebc4408732ea89b61de37be5"
+    },
+    {
+      "file": "33859b9eb0de08ce68d7ef71c298624787d54f44cbe0cc8e795f78aee4f4ebb1.json",
+      "source_sha256": "6e728d5b46c38209486a2e4308db0572cf66e4e5542c0e05ea1473a9d13c4dfc"
+    },
+    {
+      "file": "b0928ba974ad98e4ee2b6d7e5a2da4e2f03261d8daf192ded0dae8708e838e06.json",
+      "source_sha256": "6efcdb48230f05e44ed532b5de8e802a3b1090d54526553c886a81e0f9f89fb8"
+    },
+    {
+      "file": "bf073c43b52e9a7c5569a7eb32d16f00246d541c5e65ac96cd2d9f4f57298c16.json",
+      "source_sha256": "cae7a274f44b3ef6db11436a5116940f63d9b69c21bd7f412e5669a848afbb85"
+    },
+    {
+      "file": "561e0dd5ff65c3f49eeecc8740ff234104e3dbb7535f35bf560bd526f232b9ae.json",
+      "source_sha256": "3b99ee88e29c9969141fddac1a7d667292a0fa52431864379bd34da7062f4822"
+    }
+  ],
+  "admission": "same GPTCache adapt miss-only callback; generated nonempty answer",
+  "direct_preload": false,
+  "test_creates_entries": false,
+  "answer_validity_evaluated": false,
+  "encoding": "verified frozen Test vectors plus exact selected vectors from the offline strict-pairwise analysis",
+  "versions": {
+    "gptcache": "0.1.44",
+    "torch": "2.1.2+cu121",
+    "transformers": "4.44.2",
+    "numpy": "1.26.3",
+    "faiss-cpu": "1.15.1",
+    "sqlalchemy": "2.0.57",
+    "openai": "2.54.0"
+  }
+}

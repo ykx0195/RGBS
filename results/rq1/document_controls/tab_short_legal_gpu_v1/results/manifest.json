@@ -1,0 +1,67 @@
+{
+  "dataset": "TAB 1.0 manually annotated ECHR legal cases, one paragraph per case",
+  "candidate_records": 1268,
+  "retained_records": 1268,
+  "retained_source_splits": {
+    "train": 1014,
+    "dev": 127,
+    "test": 127
+  },
+  "model_max_token_lengths": {
+    "minilm": {
+      "max": 212,
+      "excluded_over_256": 0
+    },
+    "gte": {
+      "max": 212,
+      "excluded_over_256": 0
+    },
+    "e5": {
+      "max": 214,
+      "excluded_over_256": 0
+    },
+    "bge": {
+      "max": 212,
+      "excluded_over_256": 0
+    }
+  },
+  "models": [
+    "minilm",
+    "gte",
+    "e5",
+    "bge"
+  ],
+  "conditions": [
+    "original",
+    "generic",
+    "typed",
+    "typed_numbered",
+    "delete",
+    "star"
+  ],
+  "token_limit": 256,
+  "threshold_targets": [
+    0.001,
+    0.01
+  ],
+  "fixed_thresholds": [
+    0.75,
+    0.775,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9
+  ],
+  "split": "60/40 deterministic document-level split; one paragraph per case; calibration thresholds from original-only calibration pairs",
+  "split_seed": "TAB_threshold_replication_20261018",
+  "n_calibration": 761,
+  "n_test": 507,
+  "calibration_record_ids_sha256": "53991fc911ccd1dfeb29deeee1d216c34a723c727cbb8ee9610c8daa4481ca8d",
+  "test_record_ids_sha256": "79a8369788ccd3e2b1832b0c27a3c4599ca136c17079311034f387371c48d686",
+  "software": {
+    "torch": "2.1.2+cu121"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "uncertainty": "Record-delete jackknife normal 95% intervals"
+}

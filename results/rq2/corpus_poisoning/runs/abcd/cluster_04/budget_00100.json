@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "i actually basically want to check on order <ORDER_ID_1> because i wasn figuring essentially nun rather quick delivery won changes t ship. my account id is <ACCOUNT_ID_1> .",
+    "full_cluster_mean_cosine": 0.8651217818260193,
+    "selected_at_iteration": 93
+  },
+  "accepted_updates": 22,
+  "active_seconds": 12.143038310110569,
+  "heldout_loaded": false
+}

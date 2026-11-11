@@ -1,0 +1,21 @@
+{
+  "backup": "C:\\Users\\ykx01\\Desktop\\ICDE_v1\\history\\before_admission_supplement_20261105_203430",
+  "paper": "C:\\Users\\ykx01\\Desktop\\ICDE_v1",
+  "before_main_sha256": "5fffc7e0f986ab73951f2ebb4436c4dc7e1cc8ead45df5abe2ff2c4276330076",
+  "after_main_sha256": "547ed11b613bb62a6d70ce73d13b51978267fe746511f06f0a7f880608087ac2",
+  "table_file": "C:\\Users\\ykx01\\Desktop\\ICDE_v1\\tables\\Table_VI_sequential_admission.tex",
+  "source_files_sha256": {
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\new_admission_query_pairing\\summary.json": "65c4c868cfab307a5a2de191e822354e70a7c4ce17166967d7cb6493caf56cbc",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\new_admission_query_pairing\\summary.csv": "6f85ccb843f7b41dcbcdc74702e434cc5da883852e637bda2301267b85a5c283",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\new_admission_query_pairing\\verification.json": "67f82124f33a80571fa25cb2d9651d20917ef9e44465a79659fce7703322379f",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\new_admission_query_pairing\\independent_verification.json": "acb0f51591c1db54f5c95dca427937b7cc09d651f26a1693e1d730f57a6bd5cf",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\new_admission_query_pairing\\protocol.json": "b459cd7c3859c77353724f9da674dcf0524ca1ff2510009f919a194f83878a7d",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\new_admission_query_pairing\\实验报告.md": "ecb88eeade9da839531231db4325fe3d692497ead2222344ab7082febaeb3781",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\admission_supplement\\new_only\\summary.json": "d2d61065af59642028ee3b1dbc47674bf10becc0de0d8f8d32af04236aa43b1e",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\strict085_admission\\server_evidence\\outputs\\independent_verification.json": "ceb22e629a2507d962f7c5303f5c48509f716588f6c6657210b65230f7ee21e5"
+  },
+  "original_main_portfolios_unchanged": true,
+  "scope": "RQ2 admission and paired-query supplement, Table VI, main-portfolio scope, limitations, approved short RQ3 Top-1 supplement",
+  "rq3_results_unchanged": true,
+  "rq3_new_top1_supplement_added": true
+}

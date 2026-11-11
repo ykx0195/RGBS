@@ -1,0 +1,2 @@
+dataset,k,threshold,total,raw_covered,delex_covered,both_covered,delex_only,raw_only,neither,raw_coverage,delex_coverage,delta_pp,delta_pp_paired_query_bootstrap_95,bootstrap_note
+abcd,5,0.85,476,96,308,96,212,0,168,0.20168067226890757,0.6470588235294118,44.537815126050425,"[40.12605042016807, 48.94957983193277]","Fixed portfolio, paired source-aligned queries, 5000 resamples. Does not include search or dataset-source uncertainty."

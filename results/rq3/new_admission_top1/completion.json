@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "pairs": 2297,
+  "reused": 1476,
+  "newly_judged": 821,
+  "new_model_judgments": 1642,
+  "missing": 0,
+  "human_gold_available": false,
+  "answer_validity_assessed": false,
+  "judge_manifest_sha256": "26596f38565a64a6d7fca720e92762f0109167eac1fe5c5bba1ff3bc8e95d2d7",
+  "finalize_script_sha256": "51a7039f82c81be52bb7621a1ea69a5b08e801cca692116b80afbf267454b6fe"
+}

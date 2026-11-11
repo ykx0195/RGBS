@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "I lost my phone, which is registered under phone number <PHONE_NUMBER_1>.",
+    "full_cluster_mean_cosine": 0.8715294003486633,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0005839541554450989,
+  "heldout_loaded": false
+}

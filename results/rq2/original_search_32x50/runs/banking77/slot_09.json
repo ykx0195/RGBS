@@ -1,0 +1,38 @@
+{
+  "slot": 9,
+  "target_index": 8,
+  "starting_text": "My phone registered under phone number (202) 555-0182 is either lost or stolen.",
+  "selected": {
+    "text": "My phone registered under phone number (202) 555-0182 is either lost or stolen.",
+    "target_cosine": 0.8702251315116882,
+    "train_covered": 61,
+    "ppl": 16.965712588245587
+  },
+  "baseline_replacement_gain": 61,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 7,
+      "passed_ppl": 0,
+      "best_replacement_gain": 61,
+      "net_union_change": 0,
+      "beam": [
+        "My phone registered under phone number (202) 555-0182 is either lost or stolen."
+      ],
+      "accepted_texts": [],
+      "positive_feedback": []
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 61,
+      "net_union_change": 0,
+      "beam": [
+        "My phone registered under phone number (202) 555-0182 is either lost or stolen."
+      ],
+      "accepted_texts": [],
+      "positive_feedback": []
+    }
+  ]
+}

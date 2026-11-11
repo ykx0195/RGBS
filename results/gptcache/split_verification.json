@@ -1,0 +1,20 @@
+{
+  "abcd": {
+    "train_count": 3834,
+    "test_count": 476,
+    "overlapping_source_ids": 0,
+    "exact_train_test_text_overlap": 0
+  },
+  "banking77": {
+    "train_count": 4924,
+    "test_count": 1485,
+    "overlapping_source_ids": 0,
+    "exact_train_test_text_overlap": 0
+  },
+  "dogo": {
+    "train_count": 3993,
+    "test_count": 1094,
+    "overlapping_source_ids": 0,
+    "exact_train_test_text_overlap": 0
+  }
+}

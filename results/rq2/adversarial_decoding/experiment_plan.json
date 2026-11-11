@@ -1,0 +1,77 @@
+{
+  "created_at_utc": "2026-10-31T12:32:30.641228+00:00",
+  "method": "Adversarial Decoding retrieval adaptation to semantic-cache threshold coverage",
+  "official_source": "https://github.com/collinzrj/adversarial_decoding",
+  "official_commit": "16f94547caa23c328661f0d6a62073be8dfe863a",
+  "generator_model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "model_dir": "/root/autodl-tmp/advdec_baseline_20261031/models/Qwen2.5-7B-Instruct",
+  "smoke_model_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+  "encoder": "bge-small-en-v1.5 normalized CLS",
+  "encoder_dir": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+  "encoder_weight_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "seed": 42,
+  "datasets": {
+    "banking77": 15,
+    "abcd": 5,
+    "dogo": 10
+  },
+  "representation": "desensitized",
+  "train_inputs": {
+    "banking77": {
+      "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+      "train_vectors_sha256": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+      "kmeans_labels_sha256": "5e7d9237f4a6f61312ad7e6bd5aea816346160e1509d5f41a9ea567977263f5b",
+      "cluster_seed_sha256": "7f5752f75fe7edb180e8ccac796be26a3c64f2b781f8917a7c9f9b05149dc5b1"
+    },
+    "abcd": {
+      "train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+      "train_vectors_sha256": "b7cbb882801589fd2316b97f428c7edeec4d6cdccaf3de2972d751327ccdb47c",
+      "kmeans_labels_sha256": "a2e47e451376808e4d10a13b751fc218536c7f808a169c2a08c79b0ba5e8d70c",
+      "cluster_seed_sha256": "b00179d7a07f10b43d780ae5fa923064e9984730d1a68a84c4492a1b314ff5fd"
+    },
+    "dogo": {
+      "train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+      "train_vectors_sha256": "ac68c7fbf409e0a8e898a5aa34c6b37d938e36ee7a9a90e5c2e896e4c48df689",
+      "kmeans_labels_sha256": "5e122a6d83da57545dd857a008d7b1918ceba7a3b2fd6fd95aa5f5c802811411",
+      "cluster_seed_sha256": "896550a1a775e82922423b9fd6b5d41498ac7597a7436d8c88edbbfca97399c6"
+    }
+  },
+  "cluster_source": "Frozen HotFlip Train-only KMeans assignments and representative Train questions; no Test used.",
+  "beam_width": 10,
+  "top_k": 10,
+  "top_p": 1.0,
+  "max_steps": 30,
+  "cosine_weight": 1.0,
+  "readability_weight": 2.0,
+  "readability_cap": 0.05,
+  "proposal_batch_size": 4,
+  "readability_batch_size": 4,
+  "smoke_beam_width": 3,
+  "smoke_top_k": 3,
+  "smoke_steps": 30,
+  "target_output": "One English customer support question per Train cluster, 15/5/10 per dataset.",
+  "search_score": "Mean BGE cosine to the fixed Train cluster plus 2 times the capped soft No-versus-Yes unintelligibility scorer from the same local generator model.",
+  "completion": "Prefer the highest-scored one-sentence completion ending in . ? or ! within 30 new tokens; record incomplete fallback explicitly.",
+  "primary_evaluation": "Frozen outputs; held-out Test union cosine coverage at threshold 0.85.",
+  "supplementary_thresholds": [
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9
+  ],
+  "quality_evaluation": "Same local Qwen2.5-1.5B-Instruct PPL<=150 applied after search; report raw and PPL-filtered coverage, no readability hard gate.",
+  "no_api_calls": true,
+  "no_test_for_search": true,
+  "adaptations": [
+    "Qwen2.5-7B-Instruct replaces hardcoded Llama-3.1-8B-Instruct because only one 24GB RTX 3090 is available and the official Llama model is gated.",
+    "BGE normalized CLS replaces Contriever and MS MARCO data loading.",
+    "One Train-only KMeans cluster generates one natural customer question; no RAG control prefix or generation-stage attack.",
+    "Qwen chat template replaces the official Llama chat special tokens.",
+    "Beam width 10 is the published generic default rather than the paper retrieval experiment width 30; this is a 24GB resource adaptation.",
+    "Generation and scoring forwards are microbatched without changing top-k or scoring weights.",
+    "GPU search is sequential over 30 clusters to keep one 7B model resident."
+  ],
+  "code_sha256": "416089820ca51b7631a640feb0f9d871aa9b38de417b1fcb7ce2e671d2a57a01"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "dogo",
+  "candidate_pool_size": 1106,
+  "k_budget": 10,
+  "actual_selected": 10,
+  "train_covered": 3316,
+  "train_total": 3993,
+  "pairwise_max_float32": 0.8470511436462402,
+  "pairwise_max_float64": 0.84705126551599,
+  "original_main_max_pairwise": 0.84705126551599,
+  "test_covered": 909,
+  "test_total": 1094,
+  "test_coverage_percent": 83.08957952468006,
+  "paper_full_portfolio_covered": 909,
+  "paper_full_portfolio_percent": 83.08957952468008,
+  "delta_vs_paper_full_portfolio_pp": 0.0,
+  "test_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+  "freeze_sha256": "34b8eb72b28cc3f8ecfcd73f64ad00e7fcca7b720355f81752e3294270450d3e"
+}

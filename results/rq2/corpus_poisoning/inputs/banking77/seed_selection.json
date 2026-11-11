@@ -1,0 +1,149 @@
+{
+  "dataset": "banking77",
+  "k": 15,
+  "seed": 42,
+  "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+  "train_vectors_sha256": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+  "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "kmeans_n_init": 10,
+  "selection_uses_Train_only": true,
+  "selected": [
+    {
+      "cluster_id": 0,
+      "train_index": 3822,
+      "source_id": "train-006613",
+      "text": "I lost my phone, which is registered under phone number <PHONE_NUMBER_1>.",
+      "cluster_size": 114,
+      "initial_center_cosine": 0.9602887630462646
+    },
+    {
+      "cluster_id": 1,
+      "train_index": 1951,
+      "source_id": "train-003296",
+      "text": "Can you explain the extra charge that appeared on my card <CREDIT_CARD_1> statement?",
+      "cluster_size": 392,
+      "initial_center_cosine": 0.9522778391838074
+    },
+    {
+      "cluster_id": 2,
+      "train_index": 2995,
+      "source_id": "train-005107",
+      "text": "I'm wondering why the transfer from account <ACCOUNT_NUMBER_1> hasn't completed yet.",
+      "cluster_size": 331,
+      "initial_center_cosine": 0.9731048345565796
+    },
+    {
+      "cluster_id": 3,
+      "train_index": 2236,
+      "source_id": "train-003779",
+      "text": "The card <CREDIT_CARD_1> is broken, please assist me.",
+      "cluster_size": 510,
+      "initial_center_cosine": 0.9485365152359009
+    },
+    {
+      "cluster_id": 4,
+      "train_index": 1593,
+      "source_id": "train-002704",
+      "text": "I see an unfamiliar charge on account <ACCOUNT_NUMBER_1>.",
+      "cluster_size": 434,
+      "initial_center_cosine": 0.9495906233787537
+    },
+    {
+      "cluster_id": 5,
+      "train_index": 1019,
+      "source_id": "train-001752",
+      "text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+      "cluster_size": 462,
+      "initial_center_cosine": 0.9483373165130615
+    },
+    {
+      "cluster_id": 6,
+      "train_index": 1372,
+      "source_id": "train-002342",
+      "text": "Can you tell me why a transfer from account <ACCOUNT_NUMBER_1> might be declined?",
+      "cluster_size": 348,
+      "initial_center_cosine": 0.9684404134750366
+    },
+    {
+      "cluster_id": 7,
+      "train_index": 2453,
+      "source_id": "train-004135",
+      "text": "Could you tell me why the payment from account <ACCOUNT_NUMBER_1> using my card <CREDIT_CARD_1> was cancelled?",
+      "cluster_size": 576,
+      "initial_center_cosine": 0.9443762898445129
+    },
+    {
+      "cluster_id": 8,
+      "train_index": 430,
+      "source_id": "train-000749",
+      "text": "I'm trying to understand what went wrong with the top-up from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.",
+      "cluster_size": 376,
+      "initial_center_cosine": 0.9622697830200195
+    },
+    {
+      "cluster_id": 9,
+      "train_index": 1003,
+      "source_id": "train-001727",
+      "text": "I'm having trouble with the PIN for card <CREDIT_CARD_1>, can you help me?",
+      "cluster_size": 208,
+      "initial_center_cosine": 0.953774094581604
+    },
+    {
+      "cluster_id": 10,
+      "train_index": 1211,
+      "source_id": "train-002072",
+      "text": "When should I expect the new card associated with account <ACCOUNT_NUMBER_1> to arrive at <STREET_ADDRESS_1>?",
+      "cluster_size": 259,
+      "initial_center_cosine": 0.9430499076843262
+    },
+    {
+      "cluster_id": 11,
+      "train_index": 4053,
+      "source_id": "train-007004",
+      "text": "I deposited cash but the balance on account <ACCOUNT_NUMBER_1> hasn't updated.",
+      "cluster_size": 282,
+      "initial_center_cosine": 0.9649368524551392
+    },
+    {
+      "cluster_id": 12,
+      "train_index": 1216,
+      "source_id": "train-002078",
+      "text": "As <PERSON_1>, I'm having trouble verifying my identity for customer ID <CUSTOMER_ID_1>.",
+      "cluster_size": 227,
+      "initial_center_cosine": 0.936194896697998
+    },
+    {
+      "cluster_id": 13,
+      "train_index": 1783,
+      "source_id": "train-003021",
+      "text": "The exchange rate applied to my transaction on account <ACCOUNT_NUMBER_1> was not right.",
+      "cluster_size": 186,
+      "initial_center_cosine": 0.9760058522224426
+    },
+    {
+      "cluster_id": 14,
+      "train_index": 4555,
+      "source_id": "train-007862",
+      "text": "I want to cancel my transfer from account <ACCOUNT_NUMBER_1>.",
+      "cluster_size": 219,
+      "initial_center_cosine": 0.964914083480835
+    }
+  ],
+  "cluster_sizes": [
+    114,
+    392,
+    331,
+    510,
+    434,
+    462,
+    348,
+    576,
+    376,
+    208,
+    259,
+    282,
+    227,
+    186,
+    219
+  ]
+}

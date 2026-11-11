@@ -1,0 +1,91 @@
+{
+  "dataset": "dogo",
+  "threshold": 0.85,
+  "total_queries": 1094,
+  "judge_models": [
+    {
+      "name": "qwen_api",
+      "model": "qwen3.8-flash"
+    },
+    {
+      "name": "deepseek_api",
+      "model": "deepseek-flash"
+    }
+  ],
+  "protocol": "Frozen-key union-of-representations pair audit. Same task label reused across both representations. Questions only, no scores/categories/status shown to judges.",
+  "human_audit_performed": false,
+  "representations": {
+    "raw": {
+      "covered_queries": 283,
+      "matched_pairs": 284,
+      "both_different_pairs": 30,
+      "both_same_pairs": 247,
+      "unresolved_pairs": 7,
+      "different_pair_fraction": 0.1056338028169014,
+      "queries_with_any_both_different": 29,
+      "cross_task_query_coverage": 0.026508226691042046,
+      "queries_with_any_both_same": 247,
+      "queries_with_unresolved_match": 7,
+      "queries_all_matches_both_different": 29
+    },
+    "delex": {
+      "covered_queries": 888,
+      "matched_pairs": 998,
+      "both_different_pairs": 343,
+      "both_same_pairs": 607,
+      "unresolved_pairs": 48,
+      "different_pair_fraction": 0.343687374749499,
+      "queries_with_any_both_different": 333,
+      "cross_task_query_coverage": 0.30438756855575866,
+      "queries_with_any_both_same": 597,
+      "queries_with_unresolved_match": 48,
+      "queries_all_matches_both_different": 247
+    }
+  },
+  "newly_covered_query_audit": {
+    "queries": 605,
+    "with_any_both_different_match": 252,
+    "with_any_both_same_match": 350,
+    "with_unresolved_match": 41,
+    "all_matches_both_different": 218
+  },
+  "cross_task_query_coverage_delta_pp": 27.787934186471663,
+  "cross_task_query_coverage_delta_pp_conditional_bootstrap_95": [
+    25.22851919561243,
+    30.438756855575868
+  ],
+  "union_pair_count": 999,
+  "joint_labels": [
+    {
+      "first": "DIFFERENT_TASK",
+      "second": "DIFFERENT_TASK",
+      "count": 344
+    },
+    {
+      "first": "DIFFERENT_TASK",
+      "second": "SAME_TASK",
+      "count": 23
+    },
+    {
+      "first": "SAME_TASK",
+      "second": "DIFFERENT_TASK",
+      "count": 16
+    },
+    {
+      "first": "SAME_TASK",
+      "second": "SAME_TASK",
+      "count": 607
+    },
+    {
+      "first": "UNCERTAIN",
+      "second": "DIFFERENT_TASK",
+      "count": 3
+    },
+    {
+      "first": "UNCERTAIN",
+      "second": "SAME_TASK",
+      "count": 6
+    }
+  ],
+  "interpretation": "Model-confirmed task-discordant threshold opportunities; not human ground truth, answer errors or actual cache selection. Unresolved includes disagreement and uncertainty and is not counted as same-task."
+}

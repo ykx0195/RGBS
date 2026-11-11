@@ -1,0 +1,15 @@
+{
+  "model": "all-MiniLM-L6-v2",
+  "encoder_kind": "minilm",
+  "model_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+  "pooling_sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+  "sequence_sha256": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+  "tokenizer_sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+  "prefix": "",
+  "device": "cuda",
+  "dtype": "float32",
+  "batch_size": 64,
+  "encoder_code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+  "max_length": 256,
+  "api_calls": 0
+}

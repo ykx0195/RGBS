@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 5000,
+  "selected": {
+    "text": "card you mentions inadvertently basically fee occurrence presentted i charged <CREDIT_CARD_1> although baffled",
+    "full_cluster_mean_cosine": 0.8921091556549072,
+    "selected_at_iteration": 4925
+  },
+  "accepted_updates": 334,
+  "active_seconds": 452.88125052303076,
+  "heldout_loaded": false
+}

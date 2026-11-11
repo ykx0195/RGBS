@@ -1,0 +1,19 @@
+{
+  "dataset": "abcd",
+  "candidate_pool_size": 1779,
+  "k_budget": 5,
+  "actual_selected": 5,
+  "train_covered": 2510,
+  "train_total": 3834,
+  "pairwise_max_float32": 0.8484501838684082,
+  "pairwise_max_float64": 0.8484501172374308,
+  "original_main_max_pairwise": 0.8559726823092413,
+  "test_covered": 305,
+  "test_total": 476,
+  "test_coverage_percent": 64.07563025210085,
+  "paper_full_portfolio_covered": 308,
+  "paper_full_portfolio_percent": 64.70588235294117,
+  "delta_vs_paper_full_portfolio_pp": -0.6302521008403361,
+  "test_sha256": "c0cb1dfc04566724390c7f47cdd1e5cf03d3aa8f184d0ba9704f793f54065996",
+  "freeze_sha256": "2d3615e97c01fae4889dc9c5cd57ccfd2e9fb5368876f316981a13a71ad86803"
+}

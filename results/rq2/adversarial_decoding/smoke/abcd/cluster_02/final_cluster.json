@@ -1,0 +1,60 @@
+{
+  "config": {
+    "dataset": "abcd",
+    "cluster": 2,
+    "seed": 42,
+    "model_repo": "Qwen/Qwen2.5-1.5B-Instruct (smoke only)",
+    "model_revision": "local-smoke-only",
+    "encoder": "bge-small-en-v1.5 normalized CLS",
+    "official_commit": "16f94547caa23c328661f0d6a62073be8dfe863a",
+    "beam_width": 3,
+    "top_k": 3,
+    "max_steps": 30,
+    "cosine_weight": 1.0,
+    "readability_weight": 2.0,
+    "readability_cap": 0.05,
+    "prompt": "Write exactly one concise, grammatical English customer-support question in account access, orders, product defects, shipping, subscriptions, or site support. Never output a literal name, ID, number, address, phone number, or email. Use typed placeholders such as <ACCOUNT_NUMBER_1> instead of specific personal details. Do not answer the question. Do not add a preface, a list, or a second sentence. The customer issues to target are illustrated by these Train examples:\n1. I've forgotten my username and can't access my account. Can you help me recover it? I can verify with my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1>.\n2. I can't get into my account because I forgot my username, and I'd like both my username and password recovered if possible. You can look me up with phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1>.\n3. I can't access my account because I forgot my password, and I don't remember my username. I gave my phone number <PHONE_NUMBER_1> and ZIP code <ZIP_CODE_1> for verification, so can you help me get back in?\nCustomer question:",
+    "train_examples": [
+      "I've forgotten my username and can't access my account. Can you help me recover it? I can verify with my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1>.",
+      "I can't get into my account because I forgot my username, and I'd like both my username and password recovered if possible. You can look me up with phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1>.",
+      "I can't access my account because I forgot my password, and I don't remember my username. I gave my phone number <PHONE_NUMBER_1> and ZIP code <ZIP_CODE_1> for verification, so can you help me get back in?"
+    ],
+    "train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+    "train_vectors_sha256": "b7cbb882801589fd2316b97f428c7edeec4d6cdccaf3de2972d751327ccdb47c",
+    "encoder_weight_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "model_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "device": "cuda"
+  },
+  "selected": {
+    "token_ids": [
+      6713,
+      498,
+      7585,
+      847,
+      3552,
+      421,
+      358,
+      1513,
+      944,
+      614,
+      847,
+      2692,
+      1372,
+      30
+    ],
+    "text": "Can you reset my password if I don't have my account number?",
+    "mean_train_cosine": 0.7742357850074768,
+    "readability_score": 0.052838535266650284,
+    "score": 0.8742357850074768
+  },
+  "completed_steps": 30,
+  "complete_sentence": true,
+  "train_cluster_size": 631,
+  "active_seconds": 4.4399758502841,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "proposal_forward_calls_cumulative": 30,
+  "readability_forward_calls_cumulative": 86,
+  "encoder_texts_cumulative": 262,
+  "gpu_max_allocated_mib": 4345.234375
+}

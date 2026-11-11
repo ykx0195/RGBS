@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "the exchange rate do to my transaction ensued surrounding <ACCOUNT_NUMBER_1> isnits right.",
+    "full_cluster_mean_cosine": 0.924444854259491,
+    "selected_at_iteration": 2241
+  },
+  "accepted_updates": 67,
+  "active_seconds": 205.81940884143114,
+  "heldout_loaded": false
+}

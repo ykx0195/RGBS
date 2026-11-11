@@ -1,0 +1,59 @@
+{
+  "dataset": "dogo",
+  "candidate_pool_size": 1106,
+  "source_files": {
+    "C:\\Users\\ykx01\\Desktop\\results\\MultiDoGO_8309_模块与重选_CPU_20261103\\input\\candidates.jsonl": "b2eb0004121eecbfd31fab03beb15d03a41ac2612479a7b788eb99f2b4f27758",
+    "C:\\Users\\ykx01\\Desktop\\results\\MultiDoGO_8309_模块与重选_CPU_20261103\\input\\candidate_vectors.npy": "d320f377a916cbacca7797bb07123a4d9ddcb0696f91aa4cac75a311de27d409",
+    "C:\\Users\\ykx01\\Desktop\\results\\MultiDoGO_8309_模块与重选_CPU_20261103\\input\\manifest.json": "b8dc371516196dd77845526ed04e302485aa850e1edac5eb7e562dbe4ac3e8de",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\gptcache_experiment\\inputs\\dogo\\train.jsonl": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c"
+  },
+  "k_budget": 10,
+  "actual_selected": 10,
+  "selected_on": "Train queries, from saved RKGB candidate pool",
+  "test_loaded_for_selection": false,
+  "selected_pool_indices": [
+    124,
+    277,
+    398,
+    363,
+    720,
+    994,
+    11,
+    844,
+    520,
+    911
+  ],
+  "texts": [
+    "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+    "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+    "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+    "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+    "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+    "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+    "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+    "I want to claim travel expenses; I'm <PERSON_1>.",
+    "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+    "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>."
+  ],
+  "train_covered": 3316,
+  "train_total": 3993,
+  "winning_trial": 0,
+  "pairwise_max_float32": 0.8470511436462402,
+  "pairwise_max_float64": 0.84705126551599,
+  "original_main_pool_indices": [
+    124,
+    277,
+    398,
+    654,
+    720,
+    994,
+    11,
+    844,
+    520,
+    911
+  ],
+  "original_main_max_pairwise": 0.84705126551599,
+  "candidate_vectors_sha256": "63ffa1674fd3a3374cb5528326831ec5197a3a5b1a36b8b852c9cdb8dab5c2cc",
+  "pairwise_threshold": 0.85,
+  "strict": true
+}

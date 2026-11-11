@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+    "origin": "seed"
+  },
+  {
+    "text": "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+    "origin": "seed"
+  },
+  {
+    "text": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+    "origin": "seed"
+  },
+  {
+    "text": "i'm <PERSON_1> and i need the status of my claims. my insurance number is <POLICY_ID_1>.",
+    "origin": "gradient"
+  },
+  {
+    "text": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+    "origin": "seed"
+  },
+  {
+    "text": "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+    "origin": "seed"
+  },
+  {
+    "text": "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+    "origin": "seed"
+  },
+  {
+    "text": "I want to claim travel expenses; I'm <PERSON_1>.",
+    "origin": "seed"
+  },
+  {
+    "text": "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+    "origin": "seed"
+  },
+  {
+    "text": "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>.",
+    "origin": "seed"
+  }
+]

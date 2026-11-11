@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "completed_iterations": 2,
+  "gradient_and_forward_path_checked": true,
+  "placeholder_preservation_checked": true,
+  "heldout_loaded": false,
+  "verified_at_utc": "2026-10-31T10:24:55.835480+00:00"
+}

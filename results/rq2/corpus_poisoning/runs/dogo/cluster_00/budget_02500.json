@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "basically credit card is lostrence so i m got <PERSON_1> . please report out someplace away objected tan with <CARD_NUMBER_1> number",
+    "full_cluster_mean_cosine": 0.9085556268692017,
+    "selected_at_iteration": 2414
+  },
+  "accepted_updates": 143,
+  "active_seconds": 261.8455984592438,
+  "heldout_loaded": false
+}

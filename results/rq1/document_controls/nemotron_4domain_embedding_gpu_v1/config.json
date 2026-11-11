@@ -1,0 +1,71 @@
+{
+  "created_at_utc": "2026-10-17T10:22:08.282917+00:00",
+  "source_dataset": "nvidia/Nemotron-PII",
+  "source_revision": "b70ffaf5ff39e079776134c5bf4381f00a9fd1ed",
+  "domains": [
+    "healthcare",
+    "finance",
+    "banking",
+    "insurance"
+  ],
+  "models": [
+    {
+      "key": "minilm",
+      "repository": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    {
+      "key": "gte",
+      "repository": "thenlper/gte-small",
+      "revision": "17e1f347d17fe144873b1201da91788898c639cd"
+    },
+    {
+      "key": "e5",
+      "repository": "intfloat/e5-small-v2",
+      "revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52"
+    },
+    {
+      "key": "bge",
+      "repository": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a"
+    }
+  ],
+  "model_sources": {
+    "minilm": "/root/autodl-tmp/semantic_cache_redaction/models/minilm",
+    "gte": "/root/autodl-tmp/semantic_cache_redaction/models/gte",
+    "e5": "/root/autodl-tmp/semantic_cache_redaction/models/e5",
+    "bge": "/root/autodl-tmp/semantic_cache_redaction/models/bge"
+  },
+  "conditions": [
+    "original",
+    "generic",
+    "typed",
+    "typed_numbered",
+    "delete",
+    "star"
+  ],
+  "thresholds": [
+    0.75,
+    0.775,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9
+  ],
+  "pair_universe": "All unordered pairs of distinct record_id within each domain; no semantic non-equivalence labels assumed.",
+  "embedding": "SentenceTransformer.encode, cuda float32, L2 normalized; E5 adds 'query: ' to every text; other models use no prefix.",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 3090",
+  "random_seed": 20261017,
+  "token_limit": 256,
+  "batch_size": 64,
+  "cpu_threads": 12,
+  "software": {
+    "torch": "2.1.2+cu121",
+    "numpy": "1.26.3",
+    "sentence_transformers": "3.4.1",
+    "transformers": "4.48.3"
+  },
+  "uncertainty": "Record-delete jackknife normal 95% intervals. These do not account for shared templates or semantic equivalence."
+}

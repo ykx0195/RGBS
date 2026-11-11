@@ -1,0 +1,53 @@
+{
+  "slot": 2,
+  "target_index": 1,
+  "starting_text": "Please send me my boarding pass for booking <BOOKING_ID_1>; my name is <PERSON_1>.",
+  "selected": {
+    "text": "Please send me my boarding pass for booking <BOOKING_ID_1>; my name is <PERSON_1>.",
+    "target_cosine": 0.9237430691719055,
+    "train_covered": 666,
+    "ppl": 94.29077708596853
+  },
+  "baseline_replacement_gain": 261,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 6,
+      "passed_ppl": 1,
+      "best_replacement_gain": 261,
+      "net_union_change": 0,
+      "beam": [
+        "Please send me my boarding pass for booking <BOOKING_ID_1>; my name is <PERSON_1>.",
+        "Please send me my boarding pass for reservation <BOOKING_ID_1>; my name is <PERSON_1>."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 2
+    },
+    {
+      "step": 2,
+      "api_proposals": 4,
+      "passed_ppl": 0,
+      "best_replacement_gain": 261,
+      "net_union_change": 0,
+      "beam": [
+        "Please send me my boarding pass for booking <BOOKING_ID_1>; my name is <PERSON_1>.",
+        "Please send me my boarding pass for reservation <BOOKING_ID_1>; my name is <PERSON_1>."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 6
+    },
+    {
+      "step": 3,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 261,
+      "net_union_change": 0,
+      "beam": [
+        "Please send me my boarding pass for booking <BOOKING_ID_1>; my name is <PERSON_1>.",
+        "Please send me my boarding pass for reservation <BOOKING_ID_1>; my name is <PERSON_1>."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 10
+    }
+  ]
+}

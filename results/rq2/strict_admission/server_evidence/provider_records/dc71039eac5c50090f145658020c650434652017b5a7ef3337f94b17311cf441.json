@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-5d5da0b6-0c9a-93bd-ad8d-1d78a2c22168",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I cannot access your account records or perform password resets directly. However, you can regain access by using the \"Forgot Password\" or \"Help\" link on the login page.\n\nTypically, these tools allow you to recover your username and reset your password by entering the phone number and postal code associated with your account. Follow the on-screen prompts to verify your identity via SMS or email. If you encounter issues during this process, please contact customer support through their official website or app for further assistance.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876742,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 100,
+      "prompt_tokens": 131,
+      "total_tokens": 231,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 131
+      }
+    }
+  },
+  "answer": "I cannot access your account records or perform password resets directly. However, you can regain access by using the \"Forgot Password\" or \"Help\" link on the login page.\n\nTypically, these tools allow you to recover your username and reset your password by entering the phone number and postal code associated with your account. Follow the on-screen prompts to verify your identity via SMS or email. If you encounter issues during this process, please contact customer support through their official website or app for further assistance.",
+  "created_utc_epoch": 1793876745.1365268
+}

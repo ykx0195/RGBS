@@ -1,0 +1,65 @@
+{
+  "threshold": 0.85,
+  "summary": [
+    {
+      "method": "generic",
+      "pii_median_pp": 2.1043604082607104,
+      "nonpii_median_pp": 2.108765551315911,
+      "excess_median_pp": 0.1563162998305703,
+      "excess_positive": 18,
+      "filtered_median_pp": 7.3957832009848765,
+      "filtered_q1_pp": 0.4159943059160339,
+      "filtered_q3_pp": 48.789533635135896,
+      "filtered_positive": 20
+    },
+    {
+      "method": "typed",
+      "pii_median_pp": 0.30467299586025964,
+      "nonpii_median_pp": 0.1511923999384649,
+      "excess_median_pp": 0.007095199494035902,
+      "excess_positive": 14,
+      "filtered_median_pp": 3.3709266302701226,
+      "filtered_q1_pp": 0.134852992407826,
+      "filtered_q3_pp": 18.04340392287042,
+      "filtered_positive": 20
+    },
+    {
+      "method": "typed_numbered",
+      "pii_median_pp": 0.7300420317236538,
+      "nonpii_median_pp": 0.3702436072204719,
+      "excess_median_pp": 0.028081472742865637,
+      "excess_positive": 16,
+      "filtered_median_pp": 4.535992214604604,
+      "filtered_q1_pp": 0.1840078494161611,
+      "filtered_q3_pp": 27.062347572758632,
+      "filtered_positive": 20
+    },
+    {
+      "method": "delete",
+      "pii_median_pp": -0.01069394665375316,
+      "nonpii_median_pp": -0.0685370741482966,
+      "excess_median_pp": 0.003189315560420462,
+      "excess_positive": 13,
+      "filtered_median_pp": 0.22158613374047634,
+      "filtered_q1_pp": 0.0374587269584023,
+      "filtered_q3_pp": 1.8595520097533582,
+      "filtered_positive": 17
+    },
+    {
+      "method": "mask_length",
+      "pii_median_pp": 0.038907062114248527,
+      "nonpii_median_pp": -0.0008001078406582037,
+      "excess_median_pp": 0.04186713038909042,
+      "excess_positive": 17,
+      "filtered_median_pp": 1.6072980017376195,
+      "filtered_q1_pp": 0.10414206371429384,
+      "filtered_q3_pp": 9.116188585934497,
+      "filtered_positive": 19
+    }
+  ],
+  "matched_positive": 78,
+  "filtered_positive": 96,
+  "common_filter": "Original held-out record IDs; retain only records <=256 tokens for source and length-mask variants across all four encoders; recalculate every rule on that common retained cohort.",
+  "source_gate_total_disagreements": 4,
+  "source_embeddings": "Reuse original frozen raw and unchanged-rule embeddings after verifying new source re-encoding; length-mask is newly encoded."
+}

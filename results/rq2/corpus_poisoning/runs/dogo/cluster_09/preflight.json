@@ -1,0 +1,10 @@
+{
+  "max_abs_initial_embedding_delta": 3.2782554626464844e-07,
+  "initial_train_index": 1007,
+  "placeholder_count": {
+    "<PHONE_NUMBER_1>": 1,
+    "<STREET_ADDRESS_1>": 1
+  },
+  "cluster_queries": 194,
+  "heldout_loaded": false
+}

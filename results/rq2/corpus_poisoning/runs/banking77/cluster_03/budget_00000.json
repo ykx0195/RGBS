@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "The card <CREDIT_CARD_1> is broken, please assist me.",
+    "full_cluster_mean_cosine": 0.8464483022689819,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006110817193984985,
+  "heldout_loaded": false
+}

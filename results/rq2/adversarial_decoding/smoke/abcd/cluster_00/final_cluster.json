@@ -1,0 +1,49 @@
+{
+  "config": {
+    "dataset": "abcd",
+    "cluster": 0,
+    "seed": 42,
+    "model_repo": "Qwen/Qwen2.5-1.5B-Instruct (smoke only)",
+    "model_revision": "local-smoke-only",
+    "encoder": "bge-small-en-v1.5 normalized CLS",
+    "official_commit": "16f94547caa23c328661f0d6a62073be8dfe863a",
+    "beam_width": 3,
+    "top_k": 3,
+    "max_steps": 3,
+    "cosine_weight": 1.0,
+    "readability_weight": 2.0,
+    "readability_cap": 0.05,
+    "prompt": "Write exactly one concise, grammatical English customer-support question in account access, orders, product defects, shipping, subscriptions, or site support. Use typed placeholders such as <ACCOUNT_NUMBER_1> instead of real personal details when appropriate. Do not answer the question. Do not add a preface, a list, or a second sentence. The customer issues to target are illustrated by these Train examples:\n1. I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is <ACCOUNT_ID_1>.\n2. Can you tell me when my annual subscription fee is due for account <ACCOUNT_ID_1>? I want to make sure I keep it active.\n3. I want to pay the fee for my premium subscription so it doesn't expire. My account ID is <ACCOUNT_ID_1>.\nCustomer question:",
+    "train_examples": [
+      "I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is <ACCOUNT_ID_1>.",
+      "Can you tell me when my annual subscription fee is due for account <ACCOUNT_ID_1>? I want to make sure I keep it active.",
+      "I want to pay the fee for my premium subscription so it doesn't expire. My account ID is <ACCOUNT_ID_1>."
+    ],
+    "train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+    "train_vectors_sha256": "b7cbb882801589fd2316b97f428c7edeec4d6cdccaf3de2972d751327ccdb47c",
+    "encoder_weight_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "model_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "device": "cuda"
+  },
+  "selected": {
+    "token_ids": [
+      6713,
+      358,
+      2291
+    ],
+    "text": "Can I pay",
+    "mean_train_cosine": 0.6808198690414429,
+    "readability_score": 0.02045728038507822,
+    "score": 0.7217344298115993
+  },
+  "completed_steps": 3,
+  "complete_sentence": false,
+  "train_cluster_size": 609,
+  "active_seconds": 0.7602472826838493,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "proposal_forward_calls_cumulative": 3,
+  "readability_forward_calls_cumulative": 7,
+  "encoder_texts_cumulative": 21,
+  "gpu_max_allocated_mib": 4094.58154296875
+}

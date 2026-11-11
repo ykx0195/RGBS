@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "fees you explained perhaps unusual charge intended caused presumably i receiving <CREDIT_CARD_1> around?",
+    "full_cluster_mean_cosine": 0.8897602558135986,
+    "selected_at_iteration": 1057
+  },
+  "accepted_updates": 212,
+  "active_seconds": 222.31115352362394,
+  "heldout_loaded": false
+}

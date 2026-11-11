@@ -1,0 +1,18 @@
+{
+  "texts": [
+    "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+    "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+    "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",
+    "Yep, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong tone, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+    "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now."
+  ],
+  "source": "C:\\Users\\ykx01\\Desktop\\results\\三数据集_脱敏_32x50_20261030\\runs\\abcd\\final_report.json",
+  "source_sha256": "d16385f9af12ee9ddc464f991af8b59394f49777c0fca2fa48ed05f960b50bf8",
+  "expected_test_covered": 308,
+  "author_confirmed_search_settings": {
+    "seed": 42,
+    "rounds": 32,
+    "beam_width": 50
+  },
+  "machine_verified_source": "Exact saved text set and Test coverage; original source path and hash retained"
+}

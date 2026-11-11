@@ -1,0 +1,118 @@
+{
+  "config": {
+    "dataset": "dogo",
+    "representation": "materialized",
+    "encoder": "bge",
+    "k": 10,
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "allowed_domains": "airline, fast food, finance, insurance, media, or software support",
+    "local_readability_judge": true,
+    "api_http_timeout_s": 60,
+    "api_hard_timeout_s": 90,
+    "api_max_consecutive_failures": 3,
+    "domain_judges": [
+      "qwen_api",
+      "deepseek_api"
+    ],
+    "train_sha256": "61ed77d22b6c68c71d1d49b4dcd603b918a563142e4cde2e110e6163dd804c5f",
+    "target_sha256": "a721aa30e032e6175537a569f65e8131683355573129ab15d3d6c36e670339f7",
+    "seeds_sha256": "f6617b6598ff3c8edc7bbe9e6fb5d45b76c0c5b8e9829c726be47d1953cb6b44",
+    "api_config_sha256": "80ad81be615dc511887eb50c50fcfc5c995a73f7bc522421e62e0a533660dd68",
+    "model_dir": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+    "lm_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "threshold": 0.85,
+    "smoke_train_limit": 0,
+    "steps_per_slot": 32,
+    "beam_width": 50,
+    "positions_per_parent": 8,
+    "tokens_per_position": 4,
+    "max_words_per_step": 3,
+    "max_total_word_changes": 10,
+    "rewrites_per_api": 4,
+    "prompt_examples": 6,
+    "feedback_examples": 4,
+    "focus_size": 128,
+    "temperature": 0.02,
+    "align_weight": 0.1,
+    "max_ppl": 150.0,
+    "relative_ppl": 1.5,
+    "ppl_prefilter": 20,
+    "swap_passes": 4,
+    "batch_size": 64,
+    "seed": 42,
+    "selection_mode": "global_greedy_swap"
+  },
+  "portfolio_source": "global_greedy_swap",
+  "baseline_train_covered": 2378,
+  "selected": [
+    {
+      "text": "My booking confirmation number is BOO80071801, and I'm Chris Grimes. I'd like to switch the seat assignment right now, please.",
+      "target_cosine": 0.963848352432251,
+      "train_covered": 429,
+      "ppl": 39.65593537604985
+    },
+    {
+      "text": "My name is Alicia Shaw, and I'm requesting proof of insurance for one of my cars. My SSN ends in 5306.",
+      "target_cosine": 0.958928108215332,
+      "train_covered": 405,
+      "ppl": 28.172383505388403
+    },
+    {
+      "text": "My booking is BOO13112387 and I'd like to get my boarding pass; you can reach me at customer9958601@example.test.",
+      "target_cosine": 0.934556782245636,
+      "train_covered": 340,
+      "ppl": 43.12559895508341
+    },
+    {
+      "text": "I'm inquiring about the status of my claim, with policy ID POL35208143 and claim number CLA28346767, please.",
+      "target_cosine": 0.9691872000694275,
+      "train_covered": 327,
+      "ppl": 25.466237704763568
+    },
+    {
+      "text": "My credit card got accidentally misplaced, and I'm Simone Bradshaw. Please help me report it now; the card number is 4111115306090850.",
+      "target_cosine": 0.9501785039901733,
+      "train_covered": 309,
+      "ppl": 24.143657382749506
+    },
+    {
+      "text": "My phone screen just got cracked. You can reach me at 2025554990 or customer1546436@example.test.",
+      "target_cosine": 0.9607173204421997,
+      "train_covered": 282,
+      "ppl": 31.161986506841803
+    },
+    {
+      "text": "My card address has updated, so kindly change it to 6472 Cedar Avenue on my personal account 4111117998083979.",
+      "target_cosine": 0.9208921194076538,
+      "train_covered": 232,
+      "ppl": 34.82467227275232
+    },
+    {
+      "text": "I'm James Hernandez, and I'm having a problem with Skype. My account ends in 3816.",
+      "target_cosine": 0.9111628532409668,
+      "train_covered": 94,
+      "ppl": 49.09018491097393
+    },
+    {
+      "text": "Guys, my name is Tracy Patricia. I want to report my travel expenses.",
+      "target_cosine": 0.9357035160064697,
+      "train_covered": 83,
+      "ppl": 48.49324098183431
+    },
+    {
+      "text": "Let me check my bill. My username is user7844167, and the last four digits of my SSN are 1053.",
+      "target_cosine": 0.8910582661628723,
+      "train_covered": 71,
+      "ppl": 19.884819816780197
+    }
+  ],
+  "metrics": {
+    "train": {
+      "covered": 2563,
+      "total": 3993,
+      "coverage": 0.6418732782369146
+    }
+  },
+  "heldout_loaded": false,
+  "note": "Selection used Train only. Test is loaded after this portfolio is frozen."
+}

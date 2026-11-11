@@ -1,0 +1,12 @@
+{
+  "backup": "C:\\Users\\ykx01\\Desktop\\ICDE_v1\\history\\before_cross_encoder_20261105_211746",
+  "before_main_sha256": "547ed11b613bb62a6d70ce73d13b51978267fe746511f06f0a7f880608087ac2",
+  "after_main_sha256": "71f977e314503114a43323f27fac2f6b405b4b022945558bdf8fc72807c3b408",
+  "new_table": "Table VI cross-encoder coverage",
+  "renumbered_table": "sequential admission is now Table VII",
+  "original_main_portfolios_and_results_unchanged": true,
+  "rq3_unchanged": true,
+  "source_verification_sha256": "723f0f2bc90deba825c35d101d9714721785c162837beb8ac864ca8b18971f06",
+  "new_experiments": false,
+  "source_package_sha256": "26a75f8c94bd8883b8dcb8ace387087e4d2a979484849dcecb4c3e3071ee95cc"
+}

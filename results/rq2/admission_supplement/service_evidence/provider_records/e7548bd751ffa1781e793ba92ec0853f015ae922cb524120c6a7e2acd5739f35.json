@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-28dace2b-624f-92cc-ba5f-5262ff9dc255",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I cannot access your account records or verify the status of specific transactions. However, refunds typically take 3–10 business days to appear on your statement after being processed by the merchant, depending on your card issuer's policies.\n\nPlease check with your bank or credit card provider for their specific processing times. If the expected timeframe has passed, contact the merchant directly to confirm they have successfully submitted the refund request.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793877785,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 83,
+      "prompt_tokens": 107,
+      "total_tokens": 190,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 107
+      }
+    }
+  },
+  "answer": "I cannot access your account records or verify the status of specific transactions. However, refunds typically take 3–10 business days to appear on your statement after being processed by the merchant, depending on your card issuer's policies.\n\nPlease check with your bank or credit card provider for their specific processing times. If the expected timeframe has passed, contact the merchant directly to confirm they have successfully submitted the refund request.",
+  "created_utc_epoch": 1793877788.1125212
+}

@@ -1,0 +1,31 @@
+{
+  "texts": [
+    "My booking is <BOOKING_ID_1>, and I need a boarding pass; my name is <PERSON_1>.",
+    "I'm <PERSON_1>, and I lost my credit card. The last four digits of my SSN are <SSN_LAST4_1>.",
+    "Can you provide proof of insurance regarding my claim <CLAIM_ID_1>? My policy number is <POLICY_ID_1>.",
+    "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+    "I'm <PERSON_1>, and there's an error on my credit card bill that I want to dispute. My card number is <CARD_NUMBER_1>.",
+    "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+    "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+    "I'm <PERSON_1>, and I want to submit a claim for my travel expenses.",
+    "Please place an order for pizzas. You can reach me at <PHONE_NUMBER_1> and deliver to <STREET_ADDRESS_1>.",
+    "I need proof of insurance for one of your cars. My SSN is <SSN_1>, and I'm <PERSON_1>."
+  ],
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "selection_split": "train",
+  "test_used_for_selection": false,
+  "selection_threshold": 0.85,
+  "pool_size": 10,
+  "train_covered": 3279
+}

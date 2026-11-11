@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "please — basically order for a pizza. you can send me to <PHONE_NUMBER_1> which distribute however asking <STREET_ADDRESS_1> \\",
+    "full_cluster_mean_cosine": 0.8906959295272827,
+    "selected_at_iteration": 863
+  },
+  "accepted_updates": 71,
+  "active_seconds": 262.93742959201336,
+  "heldout_loaded": false
+}

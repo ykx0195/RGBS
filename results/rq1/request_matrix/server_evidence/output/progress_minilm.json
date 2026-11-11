@@ -1,0 +1,7 @@
+{
+  "model": "minilm",
+  "dataset": "multidogo",
+  "field": "presidio_mask_length",
+  "encoded": 49409,
+  "seconds": 131.58150672912598
+}

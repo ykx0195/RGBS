@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 500,
+  "selected": {
+    "text": "account <PERSON_1> information have messed mine otherwise help authenticing updated addressibly goddamn declaring <CUSTOMER_ID_1> though",
+    "full_cluster_mean_cosine": 0.8406593799591064,
+    "selected_at_iteration": 394
+  },
+  "accepted_updates": 57,
+  "active_seconds": 54.956433944404125,
+  "heldout_loaded": false
+}

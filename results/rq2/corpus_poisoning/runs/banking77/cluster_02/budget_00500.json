@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 500,
+  "selected": {
+    "text": "im'm wondering about the transfer from account <ACCOUNT_NUMBER_1> seems't arrive meantime.",
+    "full_cluster_mean_cosine": 0.9051415920257568,
+    "selected_at_iteration": 65
+  },
+  "accepted_updates": 14,
+  "active_seconds": 48.50527485460043,
+  "heldout_loaded": false
+}

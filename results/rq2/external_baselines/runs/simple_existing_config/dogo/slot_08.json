@@ -1,0 +1,38 @@
+{
+  "slot": 8,
+  "target_index": 7,
+  "starting_text": "I want to claim travel expenses; I'm <PERSON_1>.",
+  "selected": {
+    "text": "I want to claim travel expenses; I'm <PERSON_1>.",
+    "target_cosine": 0.9655823707580566,
+    "train_covered": 193,
+    "ppl": 121.39930336058765
+  },
+  "baseline_replacement_gain": 191,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 4,
+      "passed_ppl": 0,
+      "best_replacement_gain": 191,
+      "net_union_change": 0,
+      "beam": [
+        "I want to claim travel expenses; I'm <PERSON_1>."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 2
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 191,
+      "net_union_change": 0,
+      "beam": [
+        "I want to claim travel expenses; I'm <PERSON_1>."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 4
+    }
+  ]
+}

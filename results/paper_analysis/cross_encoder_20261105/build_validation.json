@@ -1,0 +1,19 @@
+{
+  "compiled": true,
+  "pages": 14,
+  "cross_encoder_table": "VI",
+  "cross_encoder_table_page": 11,
+  "admission_table": "VII",
+  "admission_table_page": 12,
+  "source_table_values_verified": 12,
+  "table_snapshots_match": true,
+  "all_original_main_results_unchanged": true,
+  "rq3_unchanged": true,
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "latex_warnings": false,
+  "visual_review": "Rendered all-page contact sheet and inspected full-size affected pages 11 and 12.",
+  "main_sha256": "71f977e314503114a43323f27fac2f6b405b4b022945558bdf8fc72807c3b408",
+  "pdf_sha256": "a9134e4f86362a9fc0763c6824369b2b30bb194dc9b88c4fa1f1dea62a04deff",
+  "backup": "C:\\Users\\ykx01\\Desktop\\ICDE_v1\\history\\before_cross_encoder_20261105_211746"
+}

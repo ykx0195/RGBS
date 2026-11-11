@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "i land would like a boarding pass hence having <BOOKING_ID_1> . hope please sending from <EMAIL_ADDRESS_1> inform careful nadu mmm cleverlity",
+    "full_cluster_mean_cosine": 0.9066678881645203,
+    "selected_at_iteration": 2429
+  },
+  "accepted_updates": 207,
+  "active_seconds": 660.1934806928039,
+  "heldout_loaded": false
+}

@@ -1,0 +1,75 @@
+{
+  "completed_slots": 10,
+  "slots": [
+    {
+      "slot": 1,
+      "archive": 17896,
+      "considered": 258,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 2,
+      "archive": 33891,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 3,
+      "archive": 13763,
+      "considered": 257,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 4,
+      "archive": 34098,
+      "considered": 259,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 5,
+      "archive": 14338,
+      "considered": 256,
+      "ppl_and_local_eligible": 2,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 6,
+      "archive": 43765,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 7,
+      "archive": 41863,
+      "considered": 258,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 8,
+      "archive": 23881,
+      "considered": 258,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 9,
+      "archive": 27334,
+      "considered": 258,
+      "ppl_and_local_eligible": 3,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 10,
+      "archive": 23847,
+      "considered": 258,
+      "ppl_and_local_eligible": 2,
+      "two_judge_accepted": 2
+    }
+  ]
+}

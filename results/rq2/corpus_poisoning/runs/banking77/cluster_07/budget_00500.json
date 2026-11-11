@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 500,
+  "selected": {
+    "text": "none seem well give 、 the payment waiting considering <ACCOUNT_NUMBER_1> was my card <CREDIT_CARD_1> eventual reverted?",
+    "full_cluster_mean_cosine": 0.8742159605026245,
+    "selected_at_iteration": 306
+  },
+  "accepted_updates": 55,
+  "active_seconds": 51.00809247791767,
+  "heldout_loaded": false
+}

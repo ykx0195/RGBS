@@ -1,0 +1,43 @@
+{
+  "draws": 999,
+  "audit": [
+    {
+      "domain": "healthcare",
+      "records": 2648,
+      "calibration": 1587,
+      "test": 1061,
+      "seed": 14776494975818479014
+    },
+    {
+      "domain": "finance",
+      "records": 2043,
+      "calibration": 1225,
+      "test": 818,
+      "seed": 16584973121892267559
+    },
+    {
+      "domain": "banking",
+      "records": 2465,
+      "calibration": 1479,
+      "test": 986,
+      "seed": 4930924370136776751
+    },
+    {
+      "domain": "insurance",
+      "records": 4320,
+      "calibration": 2592,
+      "test": 1728,
+      "seed": 3551598549526724406
+    },
+    {
+      "domain": "legal",
+      "records": 1268,
+      "calibration": 761,
+      "test": 507,
+      "seed": 11808091058516586755
+    }
+  ],
+  "method": "Independent multinomial resampling of calibration and test records; pairs of distinct original record IDs weighted by multiplicity products; self-copy pairs excluded; percentile 95% intervals. Calibration weighted quantiles use inverse ECDF; reported point uses original linear quantile.",
+  "conditional": "Same test-record counts at the original fixed threshold, for comparison with joint resampling.",
+  "limitation": "Record bootstrap assumes exchangeable records; it does not model source-group dependence. Bootstrap positive fraction is descriptive, not a p-value. Pointwise intervals; no multiplicity correction."
+}

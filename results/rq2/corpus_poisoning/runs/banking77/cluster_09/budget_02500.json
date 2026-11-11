@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "really'm reposis with my pin because of <CREDIT_CARD_1> card sorry wondering handy locationsily",
+    "full_cluster_mean_cosine": 0.8906481266021729,
+    "selected_at_iteration": 2222
+  },
+  "accepted_updates": 143,
+  "active_seconds": 245.33229392766953,
+  "heldout_loaded": false
+}

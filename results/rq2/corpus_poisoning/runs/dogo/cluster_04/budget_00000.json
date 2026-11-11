@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "I'm <PERSON_1> and I'd like to change my seat assignment, please. My booking ID is <BOOKING_ID_1>.",
+    "full_cluster_mean_cosine": 0.9425802230834961,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006276816129684448,
+  "heldout_loaded": false
+}

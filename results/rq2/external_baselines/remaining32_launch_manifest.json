@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-11-03T02:23:39.251065+08:00",
+  "scheduler_pid": 12505,
+  "iterations": 32,
+  "changes": [
+    {
+      "original": "run_gaslite_adapter.py",
+      "new": "run_gaslite_adapter_32.py",
+      "original_sha256": "348a89c66ac010236e7b4313f353443e8fecbb371b422b38e46a5b38e221f933",
+      "new_sha256": "9a6cfc044d7412b094d1eb618f018e02911e40ad3255f67dd5a854de7951810b",
+      "changes": [
+        "100 to 32 outer iterations",
+        "separate output directories",
+        "explicit iteration-budget checkpoint metadata and check"
+      ]
+    },
+    {
+      "original": "run_gaslite_flu.py",
+      "new": "run_gaslite_flu_32.py",
+      "original_sha256": "dca9c47132493bf365563a399da168871d0ecd725a91a0d6d1c1aa7547e9e561",
+      "new_sha256": "377d1926dac9189ad2e019e37a416529f9ce7b0606bc05f5361d8a397cf59225",
+      "changes": [
+        "100 to 32 outer iterations",
+        "separate output directories",
+        "explicit iteration-budget checkpoint metadata and check"
+      ]
+    }
+  ],
+  "old_switch_record": {
+    "stamp": "20261103_022145",
+    "stopped_controllers": [
+      8440,
+      10679
+    ],
+    "stopped_workers": [
+      9080,
+      9164,
+      9958
+    ],
+    "history": "/root/autodl-tmp/vldb_supplement_20261102/history/switch_to_32_20261103_022145",
+    "reason": "User requested all remaining GASLITE and Flu searches use 32 rounds; completed 100-round results retained."
+  },
+  "selection_policy": "Train-only search and selection; Test after freezing. Old 100-round checkpoints are not imported.",
+  "budget_scope": "Equal outer iterations, not a claim of equal wall time, API cost or computation.",
+  "jobs": [
+    "gaslite_32/soft_threshold/banking77",
+    "gaslite_flu_32/mean_cosine/banking77",
+    "gaslite_flu_32/mean_cosine/dogo",
+    "gaslite_flu_32/mean_cosine/abcd"
+  ],
+  "dependency_fix": {
+    "file": "code_round32/official_fluency_local.py",
+    "sha256": "ffc67720399344a31d2006c028a36b0450c5fe8e0a5a93ef8a874ed83e270ee3",
+    "note": "Copied unchanged sibling helper into isolated script directory; import-only failures occurred before search."
+  }
+}

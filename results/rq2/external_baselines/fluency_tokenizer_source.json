@@ -1,0 +1,30 @@
+{
+  "sha": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+  "files": {
+    "config.json": {
+      "rfilename": "config.json",
+      "blobId": "24b4776266ab6abf7a9d6672f42b77f06ef77b87",
+      "size": 650
+    },
+    "special_tokens_map.json": {
+      "rfilename": "special_tokens_map.json",
+      "blobId": "a8b3208c2884c4efb86e49300fdd3dc877220cdf",
+      "size": 125
+    },
+    "tokenizer.json": {
+      "rfilename": "tokenizer.json",
+      "blobId": "688882a79f44442ddc1f60d70334a7ff5df0fb47",
+      "size": 711396
+    },
+    "tokenizer_config.json": {
+      "rfilename": "tokenizer_config.json",
+      "blobId": "8046d4d4aff4529a10e0ad47043bdabd6304fb58",
+      "size": 314
+    },
+    "vocab.txt": {
+      "rfilename": "vocab.txt",
+      "blobId": "fb140275c155a9c7c5a3b3e0e77a9e839594a938",
+      "size": 231508
+    }
+  }
+}

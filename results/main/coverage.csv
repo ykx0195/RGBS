@@ -1,0 +1,4 @@
+dataset,budget,covered,test_total,coverage_percent,source_report
+banking77,15,1109,1485,74.68013468013469,results/main/banking77/final_report.json
+abcd,5,308,476,64.70588235294117,results/main/abcd/final_report.json
+dogo,10,909,1094,83.08957952468006,results/main/dogo/final_report.json

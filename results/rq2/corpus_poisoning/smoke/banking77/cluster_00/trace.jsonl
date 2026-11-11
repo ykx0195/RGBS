@@ -1,0 +1,2 @@
+{"iteration": 1, "accepted_updates": 0, "best_full_train_mean": 0.8715294003486633, "sample_old_score": 0.8687455058097839, "sample_best_score": 0.8657920360565186, "valid_candidates": 100, "active_seconds": 0.20595354586839676}
+{"iteration": 2, "accepted_updates": 0, "best_full_train_mean": 0.8715294003486633, "sample_old_score": 0.8756816387176514, "sample_best_score": 0.8628619313240051, "valid_candidates": 99, "active_seconds": 0.27002227306365967}

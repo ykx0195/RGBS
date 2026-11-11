@@ -1,0 +1,45 @@
+{
+  "config": {
+    "dataset": "dogo",
+    "cluster": 7,
+    "seed": 42,
+    "max_iterations": 5000,
+    "num_candidates": 100,
+    "query_batch": 64,
+    "candidate_batch": 32,
+    "threshold": 0.85,
+    "train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+    "vectors_sha256": "ac68c7fbf409e0a8e898a5aa34c6b37d938e36ee7a9a90e5c2e896e4c48df689",
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "official_commit": "main-snapshot-with-file-sha256",
+    "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+    "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+    "device": "cuda",
+    "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+    "smoke": false
+  },
+  "initial": {
+    "cluster_id": 7,
+    "train_index": 3710,
+    "source_id": "multidogo-software-train-7f8b9acf-012b-478e-b891-135a974efcd9",
+    "text": "I'm <PERSON_1>, and my account ends in <ACCOUNT_ID_LAST4_1>. I use Outlook and I need software updates.",
+    "cluster_size": 607,
+    "initial_center_cosine": 0.9554725885391235
+  },
+  "selected": {
+    "text": "i skyually <PERSON_1> account anyway but is ends in <ACCOUNT_ID_LAST4_1> , help would maybe overseas （ updategging voice outlook across software struggles transaction",
+    "full_cluster_mean_cosine": 0.8727628588676453,
+    "selected_at_iteration": 4250
+  },
+  "completed_iterations": 5000,
+  "termination": "iteration_budget_exhausted",
+  "accepted_updates": 806,
+  "proposed_candidates": 500000,
+  "valid_candidates": 499670,
+  "active_seconds": 550.2955237478018,
+  "forward_texts": 504672,
+  "backward_calls": 5000,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "finished_at_utc": "2026-10-31T11:07:46.959953+00:00"
+}

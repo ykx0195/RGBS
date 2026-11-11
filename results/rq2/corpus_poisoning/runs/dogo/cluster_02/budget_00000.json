@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "My phone screen was cracked, and I want to fix it. You can reach me at <PHONE_NUMBER_1> or <EMAIL_ADDRESS_1>.",
+    "full_cluster_mean_cosine": 0.9098390936851501,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006487816572189331,
+  "heldout_loaded": false
+}

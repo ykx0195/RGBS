@@ -1,0 +1,186 @@
+{
+  "pid": 12505,
+  "created_at": "2026-11-03T02:23:39.279888+08:00",
+  "iterations": 32,
+  "max_flu_parallel": 3,
+  "jobs": [
+    {
+      "method": "gaslite",
+      "dataset": "banking77",
+      "objective": "soft_threshold",
+      "script": "run_gaslite_adapter_32.py",
+      "run_subdir": "gaslite_32",
+      "status": "completed",
+      "attempts": [],
+      "n_iter": 32,
+      "out": "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite_32/soft_threshold/banking77",
+      "required_free_mib": 6500,
+      "started_at": "2026-11-03T02:23:39.318821+08:00",
+      "child_pid": 12508,
+      "log": "/root/autodl-tmp/vldb_supplement_20261102/logs/gaslite_32_banking77_soft_threshold_attempt0.log",
+      "command": [
+        "/root/autodl-tmp/vldb_supplement_20261102/venv/bin/python",
+        "-u",
+        "/root/autodl-tmp/vldb_supplement_20261102/code_round32/run_gaslite_adapter_32.py",
+        "--dataset",
+        "banking77",
+        "--objective",
+        "soft_threshold"
+      ],
+      "ended_at": "2026-11-03T02:52:40.760184+08:00",
+      "test": {
+        "raw": {
+          "covered": 1160,
+          "total": 1485,
+          "coverage": 0.7811447811447811,
+          "key_count": 15
+        },
+        "screened": {
+          "covered": 373,
+          "total": 1485,
+          "coverage": 0.25117845117845117,
+          "key_count": 8
+        }
+      }
+    },
+    {
+      "method": "gaslite_flu",
+      "dataset": "banking77",
+      "objective": "mean_cosine",
+      "script": "run_gaslite_flu_32.py",
+      "run_subdir": "gaslite_flu_32",
+      "status": "completed",
+      "attempts": [
+        {
+          "exit_code": 1,
+          "ended_at": "2026-11-03T02:24:39.438552+08:00"
+        }
+      ],
+      "n_iter": 32,
+      "out": "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite_flu_32/mean_cosine/banking77",
+      "required_free_mib": 6500,
+      "started_at": "2026-11-03T02:26:40.050644+08:00",
+      "child_pid": 12961,
+      "log": "/root/autodl-tmp/vldb_supplement_20261102/logs/gaslite_flu_32_banking77_mean_cosine_attempt1.log",
+      "command": [
+        "/root/autodl-tmp/vldb_supplement_20261102/venv/bin/python",
+        "-u",
+        "/root/autodl-tmp/vldb_supplement_20261102/code_round32/run_gaslite_flu_32.py",
+        "--dataset",
+        "banking77",
+        "--objective",
+        "mean_cosine"
+      ],
+      "retry_after": 1793643999.4385989,
+      "ended_at": "2026-11-03T05:14:18.363366+08:00",
+      "test": {
+        "raw": {
+          "covered": 1111,
+          "total": 1485,
+          "coverage": 0.7481481481481481,
+          "key_count": 15
+        },
+        "screened": {
+          "covered": 841,
+          "total": 1485,
+          "coverage": 0.5663299663299664,
+          "key_count": 15
+        }
+      }
+    },
+    {
+      "method": "gaslite_flu",
+      "dataset": "dogo",
+      "objective": "mean_cosine",
+      "script": "run_gaslite_flu_32.py",
+      "run_subdir": "gaslite_flu_32",
+      "status": "completed",
+      "attempts": [
+        {
+          "exit_code": 1,
+          "ended_at": "2026-11-03T02:25:09.502301+08:00"
+        }
+      ],
+      "n_iter": 32,
+      "out": "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite_flu_32/mean_cosine/dogo",
+      "required_free_mib": 6500,
+      "started_at": "2026-11-03T02:27:10.122508+08:00",
+      "child_pid": 13053,
+      "log": "/root/autodl-tmp/vldb_supplement_20261102/logs/gaslite_flu_32_dogo_mean_cosine_attempt1.log",
+      "command": [
+        "/root/autodl-tmp/vldb_supplement_20261102/venv/bin/python",
+        "-u",
+        "/root/autodl-tmp/vldb_supplement_20261102/code_round32/run_gaslite_flu_32.py",
+        "--dataset",
+        "dogo",
+        "--objective",
+        "mean_cosine"
+      ],
+      "retry_after": 1793644029.502317,
+      "ended_at": "2026-11-03T05:12:47.843613+08:00",
+      "test": {
+        "raw": {
+          "covered": 936,
+          "total": 1094,
+          "coverage": 0.8555758683729433,
+          "key_count": 10
+        },
+        "screened": {
+          "covered": 372,
+          "total": 1094,
+          "coverage": 0.340036563071298,
+          "key_count": 7
+        }
+      }
+    },
+    {
+      "method": "gaslite_flu",
+      "dataset": "abcd",
+      "objective": "mean_cosine",
+      "script": "run_gaslite_flu_32.py",
+      "run_subdir": "gaslite_flu_32",
+      "status": "completed",
+      "attempts": [
+        {
+          "exit_code": 1,
+          "ended_at": "2026-11-03T02:25:39.571512+08:00"
+        }
+      ],
+      "n_iter": 32,
+      "out": "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite_flu_32/mean_cosine/abcd",
+      "required_free_mib": 3500,
+      "started_at": "2026-11-03T02:52:40.846502+08:00",
+      "child_pid": 14059,
+      "log": "/root/autodl-tmp/vldb_supplement_20261102/logs/gaslite_flu_32_abcd_mean_cosine_attempt1.log",
+      "command": [
+        "/root/autodl-tmp/vldb_supplement_20261102/venv/bin/python",
+        "-u",
+        "/root/autodl-tmp/vldb_supplement_20261102/code_round32/run_gaslite_flu_32.py",
+        "--dataset",
+        "abcd",
+        "--objective",
+        "mean_cosine"
+      ],
+      "retry_after": 1793644059.5715487,
+      "ended_at": "2026-11-03T04:43:56.816055+08:00",
+      "test": {
+        "raw": {
+          "covered": 292,
+          "total": 476,
+          "coverage": 0.6134453781512605,
+          "key_count": 5
+        },
+        "screened": {
+          "covered": 176,
+          "total": 476,
+          "coverage": 0.3697478991596639,
+          "key_count": 4
+        }
+      }
+    }
+  ],
+  "policy": "Restart each unfinished experiment from its original natural seeds; never reuse 100-round slot archives. Other search settings and Test-free selection unchanged.",
+  "free_gpu_mib": 14554,
+  "phase": "complete",
+  "ended_at": "2026-11-03T05:14:18.363653+08:00"
+}

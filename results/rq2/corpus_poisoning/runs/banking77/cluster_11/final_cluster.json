@@ -1,0 +1,45 @@
+{
+  "config": {
+    "dataset": "banking77",
+    "cluster": 11,
+    "seed": 42,
+    "max_iterations": 5000,
+    "num_candidates": 100,
+    "query_batch": 64,
+    "candidate_batch": 32,
+    "threshold": 0.85,
+    "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+    "vectors_sha256": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "official_commit": "main-snapshot-with-file-sha256",
+    "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+    "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+    "device": "cuda",
+    "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+    "smoke": false
+  },
+  "initial": {
+    "cluster_id": 11,
+    "train_index": 4053,
+    "source_id": "train-007004",
+    "text": "I deposited cash but the balance on account <ACCOUNT_NUMBER_1> hasn't updated.",
+    "cluster_size": 282,
+    "initial_center_cosine": 0.9649368524551392
+  },
+  "selected": {
+    "text": "i deposited cash trough your balance onwards although <ACCOUNT_NUMBER_1> seems accounts not updated.",
+    "full_cluster_mean_cosine": 0.8977588415145874,
+    "selected_at_iteration": 928
+  },
+  "completed_iterations": 5000,
+  "termination": "iteration_budget_exhausted",
+  "accepted_updates": 188,
+  "proposed_candidates": 500000,
+  "valid_candidates": 499842,
+  "active_seconds": 478.53159565478563,
+  "forward_texts": 504844,
+  "backward_calls": 5000,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "finished_at_utc": "2026-10-31T11:17:40.422058+00:00"
+}

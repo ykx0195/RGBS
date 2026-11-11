@@ -1,0 +1,6 @@
+{
+  "port": 35564,
+  "model": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+  "lm": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+  "root": "/root/autodl-tmp/corpus_hotflip_baseline_20261031"
+}

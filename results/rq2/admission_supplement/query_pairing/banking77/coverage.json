@@ -1,0 +1,19 @@
+{
+  "dataset": "banking77",
+  "k": 15,
+  "test_total": 1485,
+  "original_covered": 233,
+  "original_coverage_pct": 15.69023569023569,
+  "deidentified_covered": 1083,
+  "deidentified_coverage_pct": 72.92929292929293,
+  "change_pp": 57.239057239057246,
+  "change_ci95_low_pp": 54.74579124579124,
+  "change_ci95_high_pp": 59.79797979797979,
+  "newly_covered": 850,
+  "lost_coverage": 0,
+  "covered_in_both": 233,
+  "uncovered_in_both": 402,
+  "deidentified_matches_actual_service": true,
+  "key_vectors_sha256": "20b50615aba497e141a94a108372c543525c3da98f97a8d9649ad1ff4d5da915",
+  "query_vectors_sha256": "b0c799f441960e7eb82d7880b99252b68a6c258e0944cd024dca72d2df17f6f1"
+}

@@ -1,0 +1,27 @@
+{
+  "dataset": "abcd",
+  "k": 5,
+  "threshold": 0.85,
+  "seed": 42,
+  "objective": "mean_cosine",
+  "official_commit": "8dc7646f1ac8cd68f38463df01578c74fff22795",
+  "n_iter": 100,
+  "n_grad": 50,
+  "k_candidates": 256,
+  "beam_candidates": 128,
+  "beam_width": 1,
+  "n_flip": 20,
+  "flu_alpha": 0,
+  "common_train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+  "common_seed_sha256": "d13d2ffd2abb01b0b208d22034185597359dfa6a2826d2d4502c4ce7e5078f24",
+  "quality_archive_cap_per_slot": 256,
+  "quality_accept_cap_per_slot": 20,
+  "quality": {
+    "ppl": 150,
+    "relative_ppl": 1.5,
+    "total_word_edits": 10,
+    "local_readability": true,
+    "two_api_scope_judges": true
+  },
+  "note": "Adapted whole-query interface and shared geometric initialization, not original paper ranking evaluation. Default no differentiable fluency; use Train-ranked archive screening."
+}

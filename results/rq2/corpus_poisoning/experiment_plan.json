@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-10-31T10:06:00.355409+00:00",
+  "official_commit": "main-snapshot-with-file-sha256",
+  "seed": 42,
+  "datasets": {
+    "banking77": 15,
+    "abcd": 5,
+    "dogo": 10
+  },
+  "representation": "desensitized",
+  "encoder": "bge-small-en-v1.5",
+  "threshold": 0.85,
+  "iterations_per_cluster": 5000,
+  "gradient_candidates": 100,
+  "query_batch_size": 64,
+  "candidate_encoding_batch_size": 32,
+  "checkpoint_budgets": [
+    0,
+    100,
+    500,
+    1000,
+    2500,
+    5000
+  ],
+  "threads_per_worker": 4,
+  "objective": "Mean cosine similarity to a KMeans cluster. Random Train minibatch for gradient and separate minibatch for candidate acceptance; full cluster Train mean selects best saved text.",
+  "initialization": "One natural Train question nearest to each normalized KMeans center, with deterministic index ties; no Riemann target or RKGB-generated text.",
+  "search": "Exact official HotFlip top-k gradient vocabulary scoring; random editable token; actual decoded/re-encoded candidate text scoring; strict sampled mean-score improvement.",
+  "adaptations": [
+    "JSONL queries replace BEIR query-passage pairs",
+    "BGE CLS and L2 normalization replace original retriever interface",
+    "same original cached Train vectors and model identity",
+    "special tokens and original placeholder spans protected",
+    "no artificial positive documents or fake qrels",
+    "original gold-ranking checkpoint criterion replaced by full-Train cluster mean",
+    "variable seed-derived text lengths, max encoder length 512",
+    "decoded candidate must preserve placeholder spelling and occurrence counts",
+    "final evaluation is threshold union coverage, not corpus-relative retrieval rank"
+  ],
+  "candidate_vocabulary": "All tokenizer vocabulary except special tokens; no RKGB alphabet-only or word-level edits restriction.",
+  "no_api_calls": true,
+  "no_LLM_repair": true,
+  "no_test_for_search_or_checkpoint_selection": true,
+  "quality_evaluation": "Raw coverage first. Local Qwen PPL/readability may be evaluated after freezing, equally on RKGB and this baseline, with exact evaluator disclosure. No claim of dual-API-validated quality without actual judgments.",
+  "cost_scope": "Use official default 5000 updates and 100 candidates, do not equate 5000 token updates to RKGB 32 rounds. Record timing, encoder work and accepted updates.",
+  "parallel_policy": "GPU only, up to four simultaneous cluster workers; pending tasks wait in the GPU queue.",
+  "method_name": "Corpus Poisoning adapted to semantic-cache coverage, not exact reproduction of original BEIR experiments.",
+  "cpu_to_gpu_migration": "Two earlier CPU workers resume from preserved checkpoints; per-task CPU history and GPU score rebasing are recorded separately. Not all-GPU-from-start for migrated clusters."
+}

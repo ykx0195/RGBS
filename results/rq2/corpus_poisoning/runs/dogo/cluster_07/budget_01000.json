@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 1000,
+  "selected": {
+    "text": "i u wanting <PERSON_1> , and my account ends in <ACCOUNT_ID_LAST4_1> though ― help davies transfer calls or comparing software implementing updatends",
+    "full_cluster_mean_cosine": 0.870832085609436,
+    "selected_at_iteration": 306
+  },
+  "accepted_updates": 139,
+  "active_seconds": 108.21661614626646,
+  "heldout_loaded": false
+}

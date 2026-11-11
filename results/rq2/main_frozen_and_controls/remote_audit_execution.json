@@ -1,0 +1,23 @@
+{
+  "host": "connect.nmb2.seetacloud.com",
+  "port": 31447,
+  "remote_output": "/root/autodl-tmp/vldb_progression_task_audit_20261101",
+  "provider_models": [
+    {
+      "name": "qwen_api",
+      "model": "qwen3.8-flash"
+    },
+    {
+      "name": "deepseek_api",
+      "model": "deepseek-flash"
+    }
+  ],
+  "datasets": [
+    "dogo"
+  ],
+  "requested_pairs": 331,
+  "existing_pairs_reused": 614,
+  "gpu_used": false,
+  "instruction_source": "C:\\Users\\ykx01\\Documents\\ChatGPT\\VLDB\\tmp\\remote_fixed_task_audit.py",
+  "credential_saved": false
+}

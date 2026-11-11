@@ -1,0 +1,25 @@
+\begin{table}[!htb]
+\caption{Coverage (\%) of vector-space methods and text realization}
+\label{tab:stage-coverage}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.00}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrr@{}}
+\toprule
+Method / stage & Banking77 & ABCD & MultiDoGO \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{(a) Vector-space comparison: Validation}} \\
+\midrule
+Natural-query Greedy & 68.00 & 57.50 & 79.25 \\
+K-means only & 95.89 & 89.38 & 93.83 \\
+Riemannian & 95.31 & 91.67 & 92.90 \\
+\textbf{K-means + Riemannian} & \textbf{97.03} & \textbf{93.54} & \textbf{96.07} \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{(b) Vector-to-text realization: Test}} \\
+\midrule
+Guides & 96.63 & 92.44 & 96.44 \\
+Natural anchors & 63.97 & 45.38 & 81.63 \\
+Final texts & 74.68 & 64.71 & 83.09 \\
+\bottomrule
+\end{tabular*}
+\end{table}

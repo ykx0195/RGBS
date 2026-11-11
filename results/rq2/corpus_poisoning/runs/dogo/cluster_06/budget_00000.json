@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "Please update the address on my credit card account, <CARD_NUMBER_1>, to <STREET_ADDRESS_1>.",
+    "full_cluster_mean_cosine": 0.9171150326728821,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006517469882965088,
+  "heldout_loaded": false
+}

@@ -1,0 +1,61 @@
+dataset,method,slot,text,ppl,ppl_at_most_150
+banking77,CorpusPoisoning_adapted,0,i lost my phone concerning something having registered under using number <PHONE_NUMBER_1> .,843.1359866559327,False
+banking77,CorpusPoisoning_adapted,1,card you mentions inadvertently basically fee occurrence presentted i charged <CREDIT_CARD_1> although baffled,5432.278122667175,False
+banking77,CorpusPoisoning_adapted,2,unfortunatelyicalyi wondering clearly the transfer on account <ACCOUNT_NUMBER_1> seems't received until /,4137.8373168396865,False
+banking77,CorpusPoisoning_adapted,3,the card <CREDIT_CARD_1> 」 do now — assist me troubles,1367.450863245155,False
+banking77,CorpusPoisoning_adapted,4,my brief notable confused charge on transactions <ACCOUNT_NUMBER_1> ensuing elsewherebankily,15955.911206814784,False
+banking77,CorpusPoisoning_adapted,5,additionally ideally thus i withdrew amount affectinged atm gotten and their account cash refuses. perhaps strangeraring me inadvertently have <CREDIT_CARD_1> ?,6399.463395546224,False
+banking77,CorpusPoisoning_adapted,6,can whoever solved me ﬂury transfer using account <ACCOUNT_NUMBER_1> something perhaps declined?,1839.6386540188741,False
+banking77,CorpusPoisoning_adapted,7,none and refereesugh pending disappointing my payment with <ACCOUNT_NUMBER_1> just wondering tis <CREDIT_CARD_1> back presently?,1626.8882797918798,False
+banking77,CorpusPoisoning_adapted,8,i might either trying temporarily? what happened effectively hasn the top - up anywhere implies <ACCOUNT_NUMBER_1> through card <CREDIT_CARD_1> ?,1475.0051488166303,False
+banking77,CorpusPoisoning_adapted,9,really - ill resfervable my pin though of <CREDIT_CARD_1> card thanks curious essentially option please,3284.167634226972,False
+banking77,CorpusPoisoning_adapted,10,awesome does someonegallfast other card based fairly specified <ACCOUNT_NUMBER_1> arrive presumably now <STREET_ADDRESS_1> help,3992.262150100834,False
+banking77,CorpusPoisoning_adapted,11,i deposited cash trough your balance onwards although <ACCOUNT_NUMBER_1> seems accounts not updated.,1943.5358466259872,False
+banking77,CorpusPoisoning_adapted,12,account <PERSON_1> otherwise i craving needing verify rather imagined changed updated addresses of identification ) <CUSTOMER_ID_1> stuck,8289.240779072652,False
+banking77,CorpusPoisoning_adapted,13,the exchange rate do to my transaction ensued surrounding <ACCOUNT_NUMBER_1> isnits right.,2300.1416664063204,False
+banking77,CorpusPoisoning_adapted,14,someone help please cancel from transferically an <ACCOUNT_NUMBER_1> ك,2625.6946211427985,False
+banking77,RKGB,0,Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet.,84.09737592802648,True
+banking77,RKGB,1,There's a similar charge regarding my card transactions; why did it appear in my account <ACCOUNT_NUMBER_1>?,104.547649581549,True
+banking77,RKGB,2,"The card <CREDIT_CARD_1> had an issue, so please assist me.",148.5938004343339,True
+banking77,RKGB,3,I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now.,40.35749119410042,True
+banking77,RKGB,4,Could you clarify why the money from account <ACCOUNT_NUMBER_1> hasn't turned up in my balance yet?,45.43660397370117,True
+banking77,RKGB,5,"The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",37.75290806752772,True
+banking77,RKGB,6,"I spotted a payment to the incorrect account number <ACCOUNT_NUMBER_1>, please assist.",100.12377449139944,True
+banking77,RKGB,7,"I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?",48.254906276153164,True
+banking77,RKGB,8,"However, could you guide me in reactivating a card for account <ACCOUNT_NUMBER_1> now?",79.20808830995742,True
+banking77,RKGB,9,Could you inform me how to cancel the transaction for account <ACCOUNT_NUMBER_1>?,42.9451387504163,True
+banking77,RKGB,10,The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.,73.35901005814968,True
+banking77,RKGB,11,Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I unfortunately haven't received.,79.00891692267862,True
+banking77,RKGB,12,"At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",91.05738099338504,True
+banking77,RKGB,13,Can you confirm why a currency exchange fee was given on my account <ACCOUNT_NUMBER_1>?,98.09693246859831,True
+banking77,RKGB,14,Perhaps the card payment has been declined? Can you give me info on why for account <ACCOUNT_NUMBER_1>?,77.57446011075186,True
+abcd,CorpusPoisoning_adapted,0,ill're providing a premium subscription as otherwise sparkatable fee turnover stilldate so i also would like. st does somebody fr championshipeson til was payment <ACCOUNT_ID_1> account,7695.580262104345,False
+abcd,CorpusPoisoning_adapted,1,unfortunately balls't colorllsgling something garmentths so entirely i would like to return order or expecting some refund shifted with <ORDER_ID_1> . my completely situation comes <USERNAME_1> too,2574.224061801661,False
+abcd,CorpusPoisoning_adapted,2,currently tho vastly forgotten my username otherwise i can pin password accesspiece so ill awesome help theo recoverctive? because \ verify that having accounts got <PHONE_NUMBER_1> email our both <ZIP_CODE_1> retail,2797.9510118252742,False
+abcd,CorpusPoisoning_adapted,3,unfortunately incorrect it perhaps damagedively pointless charge about my new <ORDER_ID_1> i tried so would like probably tread orders partly somewhat apparel ; someone backs unexpected account price. helping thanks dude,6386.239661623889,False
+abcd,CorpusPoisoning_adapted,4,reallyk dude want to however vaguely order <ORDER_ID_1> cause waiting wasndating current delivery few dayshers locations gives changes giving shipping. stuck unsuccessful arose whether <ACCOUNT_ID_1> .,3730.667108803664,False
+abcd,RKGB,0,"I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",33.07422449702569,True
+abcd,RKGB,1,"I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",31.965015779954154,True
+abcd,RKGB,2,"I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",15.605146970388498,True
+abcd,RKGB,3,"Yep, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong tone, and I want to send them back for a refund. My account username is <USERNAME_1>.",33.94631388986697,True
+abcd,RKGB,4,"Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now.",33.50637360898612,True
+dogo,CorpusPoisoning_adapted,0,basically credit card is lostrence so i m got <PERSON_1> . please report out someplace away objected tan with <CARD_NUMBER_1> number,941.078751224327,False
+dogo,CorpusPoisoning_adapted,1,i land would like the boarding pass hence going <BOOKING_ID_1> . edit eh sending given <EMAIL_ADDRESS_1> hope nam kindly ideally fearsrgy,3893.1893534694946,False
+dogo,CorpusPoisoning_adapted,2,my phone screen got cracked fixed or iphone wrongly or otherwise. you can reach me about <PHONE_NUMBER_1> as <EMAIL_ADDRESS_1> needed,290.2949525382981,False
+dogo,CorpusPoisoning_adapted,3,"<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",74.97819386884977,True
+dogo,CorpusPoisoning_adapted,4,i'm <PERSON_1> ; ideally dimensionst need booking change the seat assignment til cool confirmation my can get is <BOOKING_ID_1> id,2674.670663599762,False
+dogo,CorpusPoisoning_adapted,5,can me know the status of my claim? my policy is <POLICY_ID_1> and the claim number → <CLAIM_ID_1> .,66.32944795007204,True
+dogo,CorpusPoisoning_adapted,6,please update the address anyway yours / credit account somewhere <CARD_NUMBER_1> changing to <STREET_ADDRESS_1> given,942.6245870614307,False
+dogo,CorpusPoisoning_adapted,7,"i skyually <PERSON_1> account anyway but is ends in <ACCOUNT_ID_LAST4_1> , help would maybe overseas （ updategging voice outlook across software struggles transaction",6283.975223902814,False
+dogo,CorpusPoisoning_adapted,8,i need my issuing travel expenses came i recining <PERSON_1> .,4791.24911745352,False
+dogo,CorpusPoisoning_adapted,9,please — specifically order ala a pizza. you similarly ship me towards <PHONE_NUMBER_1> will give particular two <STREET_ADDRESS_1> can,828.5549590877632,False
+dogo,RKGB,0,"Alright, could you email me my boarding ticket for the flight booking <BOOKING_ID_1>; my contact number is <PERSON_1>.",69.43196730201757,True
+dogo,RKGB,1,"I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>.",77.29984982120259,True
+dogo,RKGB,2,"The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",34.424812218445716,True
+dogo,RKGB,3,Maybe you could help me find the status of my claim? The claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>.,19.220014683486713,True
+dogo,RKGB,4,"My account ends with <ACCOUNT_ID_LAST4_1>, and I maybe need to update my mailing address to <STREET_ADDRESS_1>.",85.45235304054353,True
+dogo,RKGB,5,I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.,24.8065263342816,True
+dogo,RKGB,6,I want to claim travel expenses; I'm <PERSON_1>.,121.39930336058765,True
+dogo,RKGB,7,I am <PERSON_1> and I need to check my seat assignment for booking <BOOKING_ID_1> please.,83.93112235167484,True
+dogo,RKGB,8,"My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",40.788074991325246,True
+dogo,RKGB,9,"My card number is <CARD_NUMBER_1>, and I relocated to <STREET_ADDRESS_1>. I'd love to update the address on my bill.",28.020276788651522,True

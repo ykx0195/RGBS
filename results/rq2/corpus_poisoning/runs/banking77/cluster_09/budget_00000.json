@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "I'm having trouble with the PIN for card <CREDIT_CARD_1>, can you help me?",
+    "full_cluster_mean_cosine": 0.871970534324646,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006127730011940002,
+  "heldout_loaded": false
+}

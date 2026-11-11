@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-01",
+  "analysis_type": "Post-hoc analysis of existing frozen Train-selected portfolios",
+  "main_expected_counts": {
+    "banking77": 1109,
+    "abcd": 308,
+    "dogo": 909
+  },
+  "main_threshold": 0.85,
+  "fixed_thresholds": [
+    0.75,
+    0.775,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9,
+    0.925,
+    0.95,
+    0.975
+  ],
+  "calibration_targets": [
+    0.9,
+    0.95
+  ],
+  "selection_threshold": 0.85,
+  "budget_protocol": "Train-greedy prefixes within frozen full-K pools; not independent optimization at each K",
+  "test_used_for_selection_or_order": false,
+  "new_generation_search": false,
+  "gpu_used": false,
+  "geometry_stages": "Aligned continuous target, nearest unique natural Train anchors, actual initial pool where available, final text",
+  "source_hashes_recorded": true,
+  "audit_reuse": "Exact ordered key text and canonical query text, with original judge protocol",
+  "api_calls_cpu_phase": 0,
+  "followup_audit": {
+    "completed": true,
+    "new_pairs": 331,
+    "new_judgments": 662,
+    "successful_batches": 56,
+    "gpu_used": false
+  }
+}

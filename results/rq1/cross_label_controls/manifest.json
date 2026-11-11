@@ -1,0 +1,97 @@
+{
+  "protocol": "All unordered natural Test-query pairs from different source IDs; same record pairs, encoder and numerical threshold across original/deidentified forms. No generated keys, K, attack optimization, selection or new encoder/judge calls.",
+  "label_scope": "Source category is a task proxy. No human or model task judgment is inferred from it.",
+  "encoder": "bge-small-en-v1.5; CLS; unit normalized; cached float32 CPU embeddings",
+  "thresholds": [
+    0.75,
+    0.775,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9
+  ],
+  "primary_threshold": 0.85,
+  "uncertainty": "Delete-one-source record jackknife for paired collision-rate differences; conditional on labels and fixed data, not independent-pair binomial intervals.",
+  "post_hoc": true,
+  "new_generation_calls": 0,
+  "new_judge_calls": 0,
+  "datasets": {
+    "banking77": {
+      "query_count": 1485,
+      "unique_sources": 1485,
+      "source_category_count": 62,
+      "raw_data_sha256": "6e1f68813fa2e908f1e6fdcce21c3bc72d4aa23ff561aea442c9ef6cc6f58997",
+      "delex_data_sha256": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461",
+      "query_embedding_cache_sha256": "b0c799f441960e7eb82d7880b99252b68a6c258e0944cd024dca72d2df17f6f1",
+      "embedding_identity": {
+        "source_report_sha256": "7a5634256c630a457bc486b0c3c7993665b306fc4a5b5b5d5df48c4d1c2f30d6",
+        "key_texts_sha256": "2b5c1520c34698dd451ff1e10f0582fc017a2a0cb0e59561872c3c46e757d3be",
+        "raw_test_sha256": "6e1f68813fa2e908f1e6fdcce21c3bc72d4aa23ff561aea442c9ef6cc6f58997",
+        "delex_test_sha256": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461",
+        "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+        "pooling_sha256": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+        "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+        "max_seq_length": 512,
+        "code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+        "torch": "2.12.1+cpu",
+        "transformers": "4.57.6",
+        "device": "cpu",
+        "dtype": "float32",
+        "batch_size": 64
+      },
+      "excluded_same_source_pairs": 0
+    },
+    "abcd": {
+      "query_count": 476,
+      "unique_sources": 476,
+      "source_category_count": 41,
+      "raw_data_sha256": "59eed2e4a7e6647fd7dd118d3aeedefe357bc09798abf3931ed3e10316b1bb9c",
+      "delex_data_sha256": "c0cb1dfc04566724390c7f47cdd1e5cf03d3aa8f184d0ba9704f793f54065996",
+      "query_embedding_cache_sha256": "3e61b7a7499e4e58a689fa04c39e686d5d36d0144d54aea8c6c7c4bc3f502169",
+      "embedding_identity": {
+        "source_report_sha256": "d16385f9af12ee9ddc464f991af8b59394f49777c0fca2fa48ed05f960b50bf8",
+        "key_texts_sha256": "f0bf02c912557ba3450fcd56dd2237d026b4a18d796a4a8e6f5a536996517be4",
+        "raw_test_sha256": "59eed2e4a7e6647fd7dd118d3aeedefe357bc09798abf3931ed3e10316b1bb9c",
+        "delex_test_sha256": "c0cb1dfc04566724390c7f47cdd1e5cf03d3aa8f184d0ba9704f793f54065996",
+        "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+        "pooling_sha256": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+        "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+        "max_seq_length": 512,
+        "code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+        "torch": "2.12.1+cpu",
+        "transformers": "4.57.6",
+        "device": "cpu",
+        "dtype": "float32",
+        "batch_size": 64
+      },
+      "excluded_same_source_pairs": 0
+    },
+    "dogo": {
+      "query_count": 1094,
+      "unique_sources": 1094,
+      "source_category_count": 22,
+      "raw_data_sha256": "3b69bf45e4ef20d1e5786d014100736701776362ed945e3fde08e65ca0d88d1c",
+      "delex_data_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+      "query_embedding_cache_sha256": "89546762d3f6bc054a0c75c7b8ee1eea18589719b1e1401638939f257d9f2737",
+      "embedding_identity": {
+        "source_report_sha256": "9f2c3ebe0cf15a1a066317ac12d101ec33a059ff7a41c9a3bd3f0f824fd154e9",
+        "key_texts_sha256": "f73ce37e3981680b35757a6e84485a7aedd8f3dfea7b2b65292612b9c68603ed",
+        "raw_test_sha256": "3b69bf45e4ef20d1e5786d014100736701776362ed945e3fde08e65ca0d88d1c",
+        "delex_test_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+        "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+        "pooling_sha256": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+        "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+        "max_seq_length": 512,
+        "code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+        "torch": "2.12.1+cpu",
+        "transformers": "4.57.6",
+        "device": "cpu",
+        "dtype": "float32",
+        "batch_size": 64
+      },
+      "excluded_same_source_pairs": 0
+    }
+  },
+  "analysis_code_sha256": "ed795a31a67ae5353b97a969e12415d3ea3a26296a596bf4885648870e0db170"
+}

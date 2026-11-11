@@ -1,0 +1,89 @@
+{
+  "config": {
+    "comparison_mode": "simple",
+    "generation_cap_per_slot": 0,
+    "dataset": "abcd",
+    "representation": "delexed",
+    "encoder": "bge",
+    "k": 5,
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "allowed_domains": "account access, manage account, order issue, product defect, purchase dispute, shipping issue, subscription inquiry, or site troubleshooting",
+    "local_readability_judge": true,
+    "api_http_timeout_s": 60,
+    "api_hard_timeout_s": 90,
+    "api_max_consecutive_failures": 3,
+    "domain_judges": [
+      "qwen_api",
+      "deepseek_api"
+    ],
+    "train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+    "target_sha256": "57ff14908b9dedd11d2ec3a2dd94051f4704bb03b4418d32572e250e0db2041b",
+    "seeds_sha256": "d13d2ffd2abb01b0b208d22034185597359dfa6a2826d2d4502c4ce7e5078f24",
+    "api_config_sha256": "80ad81be615dc511887eb50c50fcfc5c995a73f7bc522421e62e0a533660dd68",
+    "model_dir": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+    "lm_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "threshold": 0.85,
+    "smoke_train_limit": 0,
+    "steps_per_slot": 32,
+    "beam_width": 50,
+    "positions_per_parent": 8,
+    "tokens_per_position": 4,
+    "max_words_per_step": 3,
+    "max_total_word_changes": 10,
+    "rewrites_per_api": 4,
+    "prompt_examples": 6,
+    "feedback_examples": 4,
+    "focus_size": 128,
+    "temperature": 0.02,
+    "align_weight": 0.1,
+    "max_ppl": 150.0,
+    "relative_ppl": 1.5,
+    "ppl_prefilter": 20,
+    "swap_passes": 4,
+    "batch_size": 64,
+    "seed": 42
+  },
+  "portfolio_source": "coordinate_beam",
+  "baseline_train_covered": 1964,
+  "selected": [
+    {
+      "text": "I'd like a refund for order <ORDER_ID_1>, which isn't out for delivery yet. I changed my mind right after I paid for it, so my account ID is <USERNAME_1>.",
+      "target_cosine": 0.9244565963745117,
+      "train_covered": 964,
+      "ppl": 28.44687169595836
+    },
+    {
+      "text": "I'm on the premium subscription and my subscription fee is overdue, so I'd like to pay that now. My account <ACCOUNT_ID_1> is still active.",
+      "target_cosine": 0.9542285203933716,
+      "train_covered": 399,
+      "ppl": 37.37695772475357
+    },
+    {
+      "text": "I can't get into my account because I forgot my password, but I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> for verifying, so could you help me regain access soon?",
+      "target_cosine": 0.9463610649108887,
+      "train_covered": 410,
+      "ppl": 18.52940572347611
+    },
+    {
+      "text": "I'd like to return my order <ORDER_ID_1> because the Guess Jeans came in an incorrect shade, so I'll send them back by mail. My account is <USERNAME_1>.",
+      "target_cosine": 0.9502764940261841,
+      "train_covered": 594,
+      "ppl": 55.24205184531167
+    },
+    {
+      "text": "Can you check the status of order <ORDER_ID_1> for account <ACCOUNT_ID_1>? The shipping cost was high, and I'm wondering if I could cancel it instead.",
+      "target_cosine": 0.9093197584152222,
+      "train_covered": 657,
+      "ppl": 24.117721938271043
+    }
+  ],
+  "metrics": {
+    "train": {
+      "covered": 2250,
+      "total": 3834,
+      "coverage": 0.5868544600938967
+    }
+  },
+  "heldout_loaded": false,
+  "note": "Selection used Train only. Test is loaded after this portfolio is frozen."
+}

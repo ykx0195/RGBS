@@ -1,0 +1,10 @@
+{
+  "text_sha256": "8bc4528928f43ecb581ae4915990d15b06895045105f993d2189bac3170f4a8f",
+  "count": 3834,
+  "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "encoder_code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+  "max_seq_length": 512,
+  "pooling": "CLS",
+  "device": "cpu",
+  "dtype": "float32"
+}

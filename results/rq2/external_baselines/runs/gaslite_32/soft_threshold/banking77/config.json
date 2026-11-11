@@ -1,0 +1,27 @@
+{
+  "dataset": "banking77",
+  "k": 15,
+  "threshold": 0.85,
+  "seed": 42,
+  "objective": "soft_threshold",
+  "official_commit": "8dc7646f1ac8cd68f38463df01578c74fff22795",
+  "n_iter": 32,
+  "n_grad": 50,
+  "k_candidates": 256,
+  "beam_candidates": 128,
+  "beam_width": 1,
+  "n_flip": 20,
+  "flu_alpha": 0,
+  "common_train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+  "common_seed_sha256": "8f1e068efed8587599bd65d0660085319256b21b0baa1c174b513485ec55cc55",
+  "quality_archive_cap_per_slot": 256,
+  "quality_accept_cap_per_slot": 20,
+  "quality": {
+    "ppl": 150,
+    "relative_ppl": 1.5,
+    "total_word_edits": 10,
+    "local_readability": true,
+    "two_api_scope_judges": true
+  },
+  "note": "Adapted whole-query interface and shared geometric initialization, not original paper ranking evaluation. Default no differentiable fluency; use Train-ranked archive screening."
+}

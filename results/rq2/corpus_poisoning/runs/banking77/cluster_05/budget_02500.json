@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "perhaps problem assumes i withdrew card purely essentially atm though and came expecting cash elsewhere. seemingly i issuearionises account <CREDIT_CARD_1> ?",
+    "full_cluster_mean_cosine": 0.8816453218460083,
+    "selected_at_iteration": 2397
+  },
+  "accepted_updates": 233,
+  "active_seconds": 264.7915239185095,
+  "heldout_loaded": false
+}

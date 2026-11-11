@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 5000,
+  "selected": {
+    "text": "someone help please cancel from transferically an <ACCOUNT_NUMBER_1> ك",
+    "full_cluster_mean_cosine": 0.8919130563735962,
+    "selected_at_iteration": 2180
+  },
+  "accepted_updates": 137,
+  "active_seconds": 350.7515897899866,
+  "heldout_loaded": false
+}

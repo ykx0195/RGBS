@@ -1,0 +1,5 @@
+dataset,variant,k,threshold,covered,total,coverage_pct,delta_vs_main_pp
+dogo,full_main,10,0.85,909,1094,83.08957952468006,0.0
+dogo,without_joint_text_search,10,0.85,907,1094,82.90676416819012,-0.18281535648994515
+dogo,zero_search_sequential_prefix,10,0.85,850,1094,77.6965265082267,-5.393053016453382
+dogo,without_final_global_selection,10,0.85,846,1094,77.3308957952468,-5.7586837294332724

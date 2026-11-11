@@ -1,0 +1,35 @@
+{
+  "scope": "sequential ordinary admission of existing strict-pairwise reselections",
+  "datasets": {
+    "banking77": {
+      "k": 15,
+      "files": {
+        "selected_vectors.npy": "20b50615aba497e141a94a108372c543525c3da98f97a8d9649ad1ff4d5da915",
+        "test_coverage.json": "60668b88e2b4bc50723f2f99e8857c77c65a566bb9a8948b1ce1a4843b0dcd80",
+        "train_frozen_selection.json": "2d02fa810ccaf471afe7c61ae67501b19f9ff5970fb99c57fd4f37a39f5461f7"
+      },
+      "selection_source": "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\candidate_pool_strict085\\banking77\\train_frozen_selection.json",
+      "selection_source_sha256": "2d02fa810ccaf471afe7c61ae67501b19f9ff5970fb99c57fd4f37a39f5461f7"
+    },
+    "abcd": {
+      "k": 5,
+      "files": {
+        "selected_vectors.npy": "af450dce7cba8436738421f642c40ffd8632cf282952f46d010b9ca79c1263e6",
+        "test_coverage.json": "5928d5f8a6e76a8bca13a06a085a4ee44331590a032638cd47df201e6818fa41",
+        "train_frozen_selection.json": "2d3615e97c01fae4889dc9c5cd57ccfd2e9fb5368876f316981a13a71ad86803"
+      },
+      "selection_source": "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\candidate_pool_strict085\\abcd\\train_frozen_selection.json",
+      "selection_source_sha256": "2d3615e97c01fae4889dc9c5cd57ccfd2e9fb5368876f316981a13a71ad86803"
+    },
+    "dogo": {
+      "k": 10,
+      "files": {
+        "selected_vectors.npy": "b04658e9a197c09422bcdf79ff5d4a4cbc16145ab1b4727ae84f42c4103e7e7d",
+        "test_coverage.json": "200b1ad42677929cf1dad74bfb0acd23d9ea31b0bcfff3bc21b48da05ccaaece",
+        "train_frozen_selection.json": "34b8eb72b28cc3f8ecfcd73f64ad00e7fcca7b720355f81752e3294270450d3e"
+      },
+      "selection_source": "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\candidate_pool_strict085\\dogo\\train_frozen_selection.json",
+      "selection_source_sha256": "34b8eb72b28cc3f8ecfcd73f64ad00e7fcca7b720355f81752e3294270450d3e"
+    }
+  }
+}

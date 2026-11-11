@@ -1,0 +1,95 @@
+{
+  "config": {
+    "dataset": "abcd",
+    "representation": "materialized",
+    "encoder": "bge",
+    "k": 5,
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "allowed_domains": "account access, manage account, order issue, product defect, purchase dispute, shipping issue, subscription inquiry, or site troubleshooting",
+    "local_readability_judge": true,
+    "api_http_timeout_s": 60,
+    "api_hard_timeout_s": 90,
+    "api_max_consecutive_failures": 3,
+    "domain_judges": [
+      "qwen_api",
+      "deepseek_api"
+    ],
+    "train_sha256": "71349b3361a65dd7c5858b16fb15a4ed433c1ef840e1728be38eac4172b59514",
+    "target_sha256": "cea06fc2bddc0c8699b9d280e45cac6a019c59d49a949a30829b61a746d68b55",
+    "seeds_sha256": "eaba7a554138d362a5494262c8234c04150941ad0cba0b02b90651592bb5ae68",
+    "api_config_sha256": "80ad81be615dc511887eb50c50fcfc5c995a73f7bc522421e62e0a533660dd68",
+    "model_dir": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+    "lm_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "threshold": 0.85,
+    "smoke_train_limit": 0,
+    "steps_per_slot": 32,
+    "beam_width": 50,
+    "positions_per_parent": 8,
+    "tokens_per_position": 4,
+    "max_words_per_step": 3,
+    "max_total_word_changes": 10,
+    "rewrites_per_api": 4,
+    "prompt_examples": 6,
+    "feedback_examples": 4,
+    "focus_size": 128,
+    "temperature": 0.02,
+    "align_weight": 0.1,
+    "max_ppl": 150.0,
+    "relative_ppl": 1.5,
+    "ppl_prefilter": 20,
+    "swap_passes": 4,
+    "batch_size": 64,
+    "seed": 42,
+    "selection_mode": "global_greedy_swap"
+  },
+  "portfolio_source": "global_greedy_swap",
+  "baseline_train_covered": 1382,
+  "selected": [
+    {
+      "text": "I'd want a fee refund for order 8737473365, which hasn't arrived yet. I changed my mind right after I paid, and my account user ID is tristanb0.",
+      "target_cosine": 0.9499360918998718,
+      "train_covered": 623,
+      "ppl": 34.65648208379309
+    },
+    {
+      "text": "I'd like to return my order 0368883358 because the figured apparel came in the wrong color, and I want to send them back by mail. My username is giantname698.",
+      "target_cosine": 0.9361919164657593,
+      "train_covered": 493,
+      "ppl": 45.3892670767716
+    },
+    {
+      "text": "I've forgotten my username and can't access my account. Can you help me recover it? I can verify with my phone number (768) 599-6783 and zip code 68626.",
+      "target_cosine": 0.9357833862304688,
+      "train_covered": 268,
+      "ppl": 13.775050225404065
+    },
+    {
+      "text": "I'm on the premium site and my recurring subscription fee was due today, so I'd like to handle the charges right now. My account ID is FThhKAFXK.",
+      "target_cosine": 0.9502737522125244,
+      "train_covered": 263,
+      "ppl": 72.47808115959593
+    },
+    {
+      "text": "I have to change the shipping status for order 6286689229 so I can get it sooner. My account ID is RVJTWZKAP6.",
+      "target_cosine": 0.9466296434402466,
+      "train_covered": 433,
+      "ppl": 47.57156970504662
+    }
+  ],
+  "metrics": {
+    "train": {
+      "covered": 1795,
+      "total": 3834,
+      "coverage": 0.4681794470526865
+    },
+    "test": {
+      "covered": 206,
+      "total": 476,
+      "coverage": 0.4327731092436975
+    }
+  },
+  "heldout_loaded": true,
+  "note": "Final coverage is Test cosine-threshold union coverage. Train was used for optimization and selection; Test was opened only after freezing. This is not cache Top-1 or attack success.",
+  "final_coverage_split": "test",
+  "test_sha256": "59eed2e4a7e6647fd7dd118d3aeedefe357bc09798abf3931ed3e10316b1bb9c"
+}

@@ -1,0 +1,5 @@
+method,dataset,raw_count,absolute_ppl_fail,relative_only_fail,readability_fail,local_pass
+gaslite_flu_32,abcd,5,1,4,0,0
+gaslite_flu_32,banking77,15,11,3,1,0
+gaslite_flu_32,dogo,10,5,3,1,1
+gaslite_32,banking77,15,15,0,0,0

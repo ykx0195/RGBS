@@ -1,0 +1,38 @@
+{
+  "scope": "deidentified main portfolios; direct preload; read-only Test; marker payloads, not real answers",
+  "datasets": {
+    "banking77": {
+      "expected_constructed_hits": 1109,
+      "k": 15,
+      "portfolio_source": "C:\\Users\\ykx01\\Desktop\\results\\三数据集_脱敏_32x50_20261030\\runs\\banking77\\final_report.json",
+      "portfolio_source_sha256": "7a5634256c630a457bc486b0c3c7993665b306fc4a5b5b5d5df48c4d1c2f30d6",
+      "files": {
+        "constructed.json": "d12bdf2699608ee10c11d65cca72d9d9d1a38afad476414f17da40028e270dd0",
+        "test.jsonl": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461",
+        "train.jsonl": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df"
+      }
+    },
+    "abcd": {
+      "expected_constructed_hits": 308,
+      "k": 5,
+      "portfolio_source": "C:\\Users\\ykx01\\Desktop\\results\\三数据集_脱敏_32x50_20261030\\runs\\abcd\\final_report.json",
+      "portfolio_source_sha256": "d16385f9af12ee9ddc464f991af8b59394f49777c0fca2fa48ed05f960b50bf8",
+      "files": {
+        "constructed.json": "ff4206465c6e66a896ba51f7095dadfe29dfdff58d56c776eeb3b79cfabb3a13",
+        "test.jsonl": "c0cb1dfc04566724390c7f47cdd1e5cf03d3aa8f184d0ba9704f793f54065996",
+        "train.jsonl": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6"
+      }
+    },
+    "dogo": {
+      "expected_constructed_hits": 909,
+      "k": 10,
+      "portfolio_source": "C:\\Users\\ykx01\\Desktop\\results\\MultiDoGO_8309_模块与重选_CPU_20261103\\input\\portfolios.json",
+      "portfolio_source_sha256": "d99bbbff50944d979760e98652c98c282c7e33072c160fe450c2327815cecc46",
+      "files": {
+        "constructed.json": "50445df2c17a0447c9abadd6498107051bcb8a1c310f070f3c4f89f1a1f8e81f",
+        "test.jsonl": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+        "train.jsonl": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c"
+      }
+    }
+  }
+}

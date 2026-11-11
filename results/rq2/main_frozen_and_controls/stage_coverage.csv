@@ -1,0 +1,12 @@
+dataset,stage,k,threshold,test_covered,test_total,test_coverage
+banking77,continuous_targets,15,0.85,1435,1485,0.9663299663299664
+banking77,nearest_unique_train_anchors,15,0.85,950,1485,0.6397306397306397
+banking77,actual_initial_natural_pool,15,0.85,950,1485,0.6397306397306397
+banking77,final_text,15,0.85,1109,1485,0.7468013468013468
+abcd,continuous_targets,5,0.85,440,476,0.9243697478991597
+abcd,nearest_unique_train_anchors,5,0.85,216,476,0.453781512605042
+abcd,actual_initial_natural_pool,5,0.85,217,476,0.45588235294117646
+abcd,final_text,5,0.85,308,476,0.6470588235294118
+dogo,continuous_targets,10,0.85,1055,1094,0.9643510054844607
+dogo,nearest_unique_train_anchors,10,0.85,893,1094,0.8162705667276051
+dogo,final_text,10,0.85,909,1094,0.8308957952468007

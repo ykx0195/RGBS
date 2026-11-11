@@ -1,0 +1,32 @@
+{
+  "total": 364,
+  "mechanism_counts": {
+    "OPPOSITE_DEFINITE_LABELS": 239,
+    "AT_LEAST_ONE_UNCERTAIN": 125
+  },
+  "by_dataset": {
+    "banking77": {
+      "OPPOSITE_DEFINITE_LABELS": 150,
+      "AT_LEAST_ONE_UNCERTAIN": 103
+    },
+    "abcd": {
+      "OPPOSITE_DEFINITE_LABELS": 41,
+      "AT_LEAST_ONE_UNCERTAIN": 6
+    },
+    "dogo": {
+      "AT_LEAST_ONE_UNCERTAIN": 16,
+      "OPPOSITE_DEFINITE_LABELS": 48
+    }
+  },
+  "label_pair_counts": {
+    "('SAME_TASK', 'DIFFERENT_TASK')": 110,
+    "('UNCERTAIN', 'DIFFERENT_TASK')": 47,
+    "('DIFFERENT_TASK', 'SAME_TASK')": 129,
+    "('UNCERTAIN', 'SAME_TASK')": 40,
+    "('DIFFERENT_TASK', 'UNCERTAIN')": 5,
+    "('SAME_TASK', 'UNCERTAIN')": 16,
+    "('UNCERTAIN', 'UNCERTAIN')": 17
+  },
+  "no_consensus_changes": true,
+  "no_new_model_calls": true
+}

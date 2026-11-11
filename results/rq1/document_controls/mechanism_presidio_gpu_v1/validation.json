@@ -1,0 +1,6 @@
+{
+  "collision_rows": 7200,
+  "dose_contrasts": 1800,
+  "presidio_contrasts": 900,
+  "checks": "unique result keys, pair counts, up-down-net identities, CI ordering and paired contrast arithmetic passed"
+}

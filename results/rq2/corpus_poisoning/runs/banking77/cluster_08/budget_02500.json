@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "i'hasn trying temporarily? what happened ideally have the top - up directly implies <ACCOUNT_NUMBER_1> through card <CREDIT_CARD_1> .",
+    "full_cluster_mean_cosine": 0.8974152207374573,
+    "selected_at_iteration": 1203
+  },
+  "accepted_updates": 68,
+  "active_seconds": 266.47641913592815,
+  "heldout_loaded": false
+}

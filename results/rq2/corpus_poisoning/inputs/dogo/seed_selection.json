@@ -1,0 +1,104 @@
+{
+  "dataset": "dogo",
+  "k": 10,
+  "seed": 42,
+  "train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+  "train_vectors_sha256": "ac68c7fbf409e0a8e898a5aa34c6b37d938e36ee7a9a90e5c2e896e4c48df689",
+  "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "kmeans_n_init": 10,
+  "selection_uses_Train_only": true,
+  "selected": [
+    {
+      "cluster_id": 0,
+      "train_index": 1933,
+      "source_id": "multidogo-finance-train-b40753ec-cc22-4e43-8f08-96854b1b4eee",
+      "text": "My credit card is lost, and I'm <PERSON_1>. Please report it; the card number is <CARD_NUMBER_1>.",
+      "cluster_size": 539,
+      "initial_center_cosine": 0.9705659747123718
+    },
+    {
+      "cluster_id": 1,
+      "train_index": 308,
+      "source_id": "multidogo-airline-train-4b8e0c7f-50b7-4daf-abda-f17dcccf0bda",
+      "text": "I'd like a boarding pass for booking <BOOKING_ID_1>, please send it to <EMAIL_ADDRESS_1>.",
+      "cluster_size": 519,
+      "initial_center_cosine": 0.975861668586731
+    },
+    {
+      "cluster_id": 2,
+      "train_index": 2481,
+      "source_id": "multidogo-insurance-train-378453a3-10bf-43df-88ab-12dbbbacd4e4",
+      "text": "My phone screen was cracked, and I want to fix it. You can reach me at <PHONE_NUMBER_1> or <EMAIL_ADDRESS_1>.",
+      "cluster_size": 299,
+      "initial_center_cosine": 0.9707002639770508
+    },
+    {
+      "cluster_id": 3,
+      "train_index": 2507,
+      "source_id": "multidogo-insurance-train-3bff031f-7ed1-4c7a-82d1-6dde3c089796",
+      "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+      "cluster_size": 572,
+      "initial_center_cosine": 0.9879217147827148
+    },
+    {
+      "cluster_id": 4,
+      "train_index": 594,
+      "source_id": "multidogo-airline-train-939ce9e4-3fe4-4367-85d4-e0c613b2c63f",
+      "text": "I'm <PERSON_1> and I'd like to change my seat assignment, please. My booking ID is <BOOKING_ID_1>.",
+      "cluster_size": 471,
+      "initial_center_cosine": 0.9831621050834656
+    },
+    {
+      "cluster_id": 5,
+      "train_index": 3031,
+      "source_id": "multidogo-insurance-train-b03651a7-8fab-454f-8e32-b29a42bb90f7",
+      "text": "Can I know the status of my claim? My policy is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>.",
+      "cluster_size": 341,
+      "initial_center_cosine": 0.9872766733169556
+    },
+    {
+      "cluster_id": 6,
+      "train_index": 1505,
+      "source_id": "multidogo-finance-train-4c9799ae-88e1-4337-b774-692d16b129b3",
+      "text": "Please update the address on my credit card account, <CARD_NUMBER_1>, to <STREET_ADDRESS_1>.",
+      "cluster_size": 252,
+      "initial_center_cosine": 0.9754832983016968
+    },
+    {
+      "cluster_id": 7,
+      "train_index": 3710,
+      "source_id": "multidogo-software-train-7f8b9acf-012b-478e-b891-135a974efcd9",
+      "text": "I'm <PERSON_1>, and my account ends in <ACCOUNT_ID_LAST4_1>. I use Outlook and I need software updates.",
+      "cluster_size": 607,
+      "initial_center_cosine": 0.9554725885391235
+    },
+    {
+      "cluster_id": 8,
+      "train_index": 3984,
+      "source_id": "multidogo-software-train-fd6e5a2d-61bf-4ff6-95a7-c91dfbf93216",
+      "text": "I need to report travel expenses; I'm <PERSON_1>.",
+      "cluster_size": 199,
+      "initial_center_cosine": 0.9735394716262817
+    },
+    {
+      "cluster_id": 9,
+      "train_index": 1007,
+      "source_id": "multidogo-fastfood-train-150ea782-8a7b-4545-8a77-917e4d18535b",
+      "text": "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>.",
+      "cluster_size": 194,
+      "initial_center_cosine": 0.9666838645935059
+    }
+  ],
+  "cluster_sizes": [
+    539,
+    519,
+    299,
+    572,
+    471,
+    341,
+    252,
+    607,
+    199,
+    194
+  ]
+}

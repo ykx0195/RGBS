@@ -1,0 +1,15 @@
+{
+  "archive_corpus_hotflip.py": "db7e922bc59a714eca0cbcefafe40e4d168d141acad093850ab1db9ce2bfea43",
+  "corpus_hotflip_quality.py": "46568906d74bc902319bafaf0fc91f58790fcc9476c7ccc1b2c255c0c59d935b",
+  "corpus_hotflip_scheduler.py": "63da3461e61a79178824020f71661152816aacf19a0a6e5425ee09308f4d86df",
+  "corpus_hotflip_worker.py": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+  "deploy_corpus_hotflip.py": "1eaff9bd3bfcbc03a176025afbb005022dd1bf9a65862c148f36c5291a59262e",
+  "evaluate_corpus_hotflip.py": "695a9998981546f2a5d4ac9df771c018ff47c86a9f01727c3b70477d88a3a6f2",
+  "plot_corpus_hotflip.py": "95b30257539befa0b98af8d0bf541a2cf736992fb62b44236c153f05c22f415c",
+  "prepare_corpus_hotflip_bundle.py": "305331b8957915493f94f2d3ab74c5946a58dbda88557a5a2ad2dfd02522f1e9",
+  "prepare_hotflip_environment.py": "026cefda363038c80930d1f75aa7c35afb94eaedfa7424521b0d2ae02d6bada4",
+  "summarize_corpus_hotflip.py": "c93811804b67ee38f3da02f532173ee4d5cc5ddafb4f23fe26927e995ea4dac1",
+  "validate_corpus_hotflip.py": "5180cc66839401d6590d6ba489170c9e34fe730b4e3133bdc777e485d7bbc0f9",
+  "verify_hotflip_adapter_local.py": "9f03eaf6a9f7a6298e4ecc79a56c2d6c7cc84edcdc8e22690c137068201447b8",
+  "watch_corpus_hotflip.py": "0797c25e00dbfade07146fa19b7d21a542319593ae5e0abb730f7e5904abaa8e"
+}

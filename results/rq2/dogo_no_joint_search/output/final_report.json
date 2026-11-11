@@ -1,0 +1,58 @@
+{
+  "scope": "Independent rerun of a frozen-input zero-search counterfactual, not a fresh generation or a fresh PPL audit.",
+  "protocol": "Disable every text-search iteration on the original ten geometric guides and their seed lists; replay frozen seed eligibility; retain original Train global greedy selection and 12 one-swap passes. Freeze before held-out access.",
+  "metrics": [
+    {
+      "dataset": "dogo",
+      "variant": "full_main",
+      "k": 10,
+      "threshold": 0.85,
+      "covered": 909,
+      "total": 1094,
+      "coverage_pct": 83.08957952468006,
+      "delta_vs_main_pp": 0.0
+    },
+    {
+      "dataset": "dogo",
+      "variant": "without_joint_text_search",
+      "k": 10,
+      "threshold": 0.85,
+      "covered": 907,
+      "total": 1094,
+      "coverage_pct": 82.90676416819012,
+      "delta_vs_main_pp": -0.18281535648994515
+    },
+    {
+      "dataset": "dogo",
+      "variant": "zero_search_sequential_prefix",
+      "k": 10,
+      "threshold": 0.85,
+      "covered": 850,
+      "total": 1094,
+      "coverage_pct": 77.6965265082267,
+      "delta_vs_main_pp": -5.393053016453382
+    },
+    {
+      "dataset": "dogo",
+      "variant": "without_final_global_selection",
+      "k": 10,
+      "threshold": 0.85,
+      "covered": 846,
+      "total": 1094,
+      "coverage_pct": 77.3308957952468,
+      "delta_vs_main_pp": -5.7586837294332724
+    }
+  ],
+  "freeze_sha256": "bc5d2df66576aac65dc9e42c6803e0ba64fcd8bb470f28b34c65da7f61b2e080",
+  "source_main_reproduced": true,
+  "source_no_selection_reproduced": true,
+  "test_vector_hash_verified": true,
+  "source_code_hashes_verified": true,
+  "independent_query_membership_verified": true,
+  "heldout_loaded_after_freezing": true,
+  "gpu_used": false,
+  "new_api_calls": 0,
+  "new_ppl_scoring": false,
+  "elapsed_seconds": 6.090040683746338,
+  "code_sha256": "8be523ee833dc7812d60bd08826136da2513fe236567a6bf0a5b445d02bbf496"
+}

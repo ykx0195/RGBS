@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is <ACCOUNT_ID_1>.",
+    "full_cluster_mean_cosine": 0.846487283706665,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0005660057067871094,
+  "heldout_loaded": false
+}

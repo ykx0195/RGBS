@@ -1,0 +1,194 @@
+{
+  "config": {
+    "dataset": "dogo",
+    "k": 10,
+    "threshold": 0.85,
+    "seed": 42,
+    "objective": "mean_cosine",
+    "official_commit": "8dc7646f1ac8cd68f38463df01578c74fff22795",
+    "n_iter": 100,
+    "n_grad": 50,
+    "k_candidates": 256,
+    "beam_candidates": 128,
+    "beam_width": 1,
+    "n_flip": 20,
+    "flu_alpha": 0,
+    "common_train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+    "common_seed_sha256": "b19924914f874dbc9b13cb0d28c0991ddc310a7125f8304a12a012490ab4711d",
+    "quality_archive_cap_per_slot": 256,
+    "quality_accept_cap_per_slot": 20,
+    "quality": {
+      "ppl": 150,
+      "relative_ppl": 1.5,
+      "total_word_edits": 10,
+      "local_readability": true,
+      "two_api_scope_judges": true
+    },
+    "note": "Adapted whole-query interface and shared geometric initialization, not original paper ranking evaluation. Default no differentiable fluency; use Train-ranked archive screening."
+  },
+  "raw_selected": [
+    {
+      "text": "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+      "ppl": null
+    },
+    {
+      "text": "tonitp them being <CARD_NUMBER_1> pastrence and i lost my credit card. res something <PERSON_1>",
+      "ppl": null
+    },
+    {
+      "text": "din'm <PERSON_1>, and i'd like proof of insurance number one of my cars aw my ssn ends in <SSN_LAST4_1>.",
+      "ppl": null
+    },
+    {
+      "text": "id probably is <PERSON_1>? and ideally renaming you to contacted towards account balance versions my accounts acc ends in <SSN_LAST4_1> balls",
+      "ppl": null
+    },
+    {
+      "text": "Can you help me find out the status of my claim? The claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>.",
+      "ppl": null
+    },
+    {
+      "text": "wanna already help corrected ol iphone as broken screen was overall cracked. p ~ number that <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+      "ppl": null
+    },
+    {
+      "text": "restiy want rankinroving transferring expenses i'm <PERSON_1> _",
+      "ppl": null
+    },
+    {
+      "text": "numbers pitants here <ACCOUNT_ID_LAST4_1> etc thus i changingho wantshis update cards address to <STREET_ADDRESS_1>.",
+      "ppl": null
+    },
+    {
+      "text": "wanting eateres deliver <CARD_NUMBER_1>, and me telephone neighborhoodaha to <STREET_ADDRESS_1> prospective please update the address on yours ingredients )",
+      "ppl": null
+    },
+    {
+      "text": "also reply lockheedising boarding pass for email <BOOKING_ID_1> specially i am wanting <PERSON_1> flight",
+      "ppl": null
+    }
+  ],
+  "screened_selected": [
+    {
+      "text": "Can you help me find out the status of my claim? The claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>.",
+      "ppl": 15.404676249250985
+    },
+    {
+      "text": "can you help me find out the status of my claim? the claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>.",
+      "ppl": 14.32866679121473
+    },
+    {
+      "text": "their card number is <CARD_NUMBER_1>, and i've moved to <STREET_ADDRESS_1>. please update the address on my account.",
+      "ppl": 27.634917898731114
+    },
+    {
+      "text": "My card number is <CARD_NUMBER_1>, and I've moved to <STREET_ADDRESS_1>. Please update the address on my account.",
+      "ppl": 18.800714466770426
+    },
+    {
+      "text": "my card number is <CARD_NUMBER_1>, and i've moved to <STREET_ADDRESS_1>. please update the address on my account.",
+      "ppl": 20.520865030807638
+    },
+    {
+      "text": "My account ends in <ACCOUNT_ID_LAST4_1>, and I'd like to update my address to <STREET_ADDRESS_1>.",
+      "ppl": 57.720096832531055
+    },
+    {
+      "text": "my account ends in <ACCOUNT_ID_LAST4_1>, and i'd like to update my address to <STREET_ADDRESS_1>.",
+      "ppl": 71.42685340799524
+    }
+  ],
+  "quality_screen": [
+    {
+      "slot": 1,
+      "archive": 12863,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 2,
+      "archive": 94621,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 3,
+      "archive": 3282,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 4,
+      "archive": 125275,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 5,
+      "archive": 4090,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 6,
+      "archive": 138098,
+      "considered": 256,
+      "ppl_and_local_eligible": 5,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 7,
+      "archive": 13108,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 8,
+      "archive": 71554,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 9,
+      "archive": 64033,
+      "considered": 256,
+      "ppl_and_local_eligible": 6,
+      "two_judge_accepted": 3
+    },
+    {
+      "slot": 10,
+      "archive": 54196,
+      "considered": 256,
+      "ppl_and_local_eligible": 2,
+      "two_judge_accepted": 2
+    }
+  ],
+  "screened_key_count": 7,
+  "heldout_loaded": true,
+  "train": {
+    "raw": 3476,
+    "screened": 759
+  },
+  "test_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+  "test": {
+    "raw": {
+      "covered": 954,
+      "total": 1094,
+      "coverage": 0.8720292504570384,
+      "key_count": 10
+    },
+    "screened": {
+      "covered": 235,
+      "total": 1094,
+      "coverage": 0.21480804387568556,
+      "key_count": 7
+    }
+  }
+}

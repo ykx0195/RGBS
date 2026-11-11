@@ -1,0 +1,9 @@
+domain,pipeline,n_cells,positive_point_cells,positive_ci_lower_cells,median_net_pp
+healthcare,gold_all,120,120,120,5.142614639399413
+finance,gold_all,120,120,120,2.811698105815753
+banking,gold_all,120,120,117,1.1747690195345313
+insurance,gold_all,120,120,120,3.549386661454637
+healthcare,presidio,120,120,120,2.691168122029845
+finance,presidio,120,120,120,1.91396838455662
+banking,presidio,120,120,120,1.2255961645625564
+insurance,presidio,120,120,120,1.6918400533623652

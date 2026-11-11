@@ -1,0 +1,34 @@
+{
+  "sha256": "5df1c84b0aa65f5eb7ebfa92a26a9e8ec3441b818f6dfa32301f230424e43768",
+  "bytes": 3306825,
+  "input": {
+    "design": "All retained records from the existing experiment; no new sampling.",
+    "domains": [
+      {
+        "domain": "healthcare",
+        "records": 2661,
+        "sha256": "4d1ce408f4f452fa0af2704da3c712f0baa132081bba74791d0395a463818a86"
+      },
+      {
+        "domain": "finance",
+        "records": 2069,
+        "sha256": "876faff8c596cc1ba126afa9fc03910a6ce1d5c257ec1a47ed171d047bab219f"
+      },
+      {
+        "domain": "banking",
+        "records": 2491,
+        "sha256": "de23ab712f3a66baaec6fd639ee6e925b5906d27f21771653bb94b41a6e40882"
+      },
+      {
+        "domain": "insurance",
+        "records": 4354,
+        "sha256": "c38a2d101083335da3f170ded125be3037bf8c71e32e688f31781f98426c18dc"
+      },
+      {
+        "domain": "legal",
+        "records": 1268,
+        "sha256": "13ca0283a74e7cd86be5e817fe05d0dcd350451a3aab0d925d2c157d0f26bb3f"
+      }
+    ]
+  }
+}

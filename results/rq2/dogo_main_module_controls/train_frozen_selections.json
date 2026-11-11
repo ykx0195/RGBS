@@ -1,0 +1,152 @@
+{
+  "dataset": "dogo",
+  "threshold": 0.85,
+  "k": 10,
+  "selected_on": "train",
+  "heldout_loaded": false,
+  "post_hoc": true,
+  "gpu_used": false,
+  "new_generation_calls": 0,
+  "new_judge_calls": 0,
+  "source_manifest_sha256": "b8dc371516196dd77845526ed04e302485aa850e1edac5eb7e562dbe4ac3e8de",
+  "source_main_portfolio_sha256": "d99bbbff50944d979760e98652c98c282c7e33072c160fe450c2327815cecc46",
+  "protocol": {
+    "without_final_global_reselection": "The saved sequential prefix_portfolio of ten texts, before global greedy initialization and swaps.",
+    "without_generated_candidates_seed_pool": "Restrict the frozen full candidate archive to origin=seed, iteration=0, language_feasible. Apply the archived Train greedy initializer and one-swap selector with the original 12-pass limit. This is a fixed-archive natural-seed-pool control, not a recorded K-text initialization or a from-scratch counterfactual search."
+  },
+  "seed_pool_rows": 189,
+  "seed_pool_distinct_texts": 184,
+  "seed_control_initial_indices": [
+    18,
+    54,
+    57,
+    95,
+    117,
+    151,
+    11,
+    143,
+    76,
+    149
+  ],
+  "seed_control_selected_indices": [
+    30,
+    54,
+    70,
+    95,
+    117,
+    183,
+    11,
+    143,
+    76,
+    149
+  ],
+  "seed_control_swap_history": [
+    {
+      "pass": 1,
+      "before_covered": 3240,
+      "after_covered": 3306,
+      "selected_indices": [
+        18,
+        54,
+        68,
+        95,
+        117,
+        151,
+        11,
+        143,
+        76,
+        149
+      ]
+    },
+    {
+      "pass": 2,
+      "before_covered": 3306,
+      "after_covered": 3312,
+      "selected_indices": [
+        30,
+        54,
+        68,
+        95,
+        117,
+        151,
+        11,
+        143,
+        76,
+        149
+      ]
+    },
+    {
+      "pass": 3,
+      "before_covered": 3312,
+      "after_covered": 3313,
+      "selected_indices": [
+        30,
+        54,
+        68,
+        95,
+        117,
+        183,
+        11,
+        143,
+        76,
+        149
+      ]
+    },
+    {
+      "pass": 4,
+      "before_covered": 3313,
+      "after_covered": 3314,
+      "selected_indices": [
+        30,
+        54,
+        70,
+        95,
+        117,
+        183,
+        11,
+        143,
+        76,
+        149
+      ]
+    }
+  ],
+  "original_swap_passes": 12,
+  "variants": {
+    "full_main": [
+      "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+      "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+      "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+      "i'm <PERSON_1> and i need the status of my claims. my insurance number is <POLICY_ID_1>.",
+      "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+      "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+      "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+      "I want to claim travel expenses; I'm <PERSON_1>.",
+      "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+      "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>."
+    ],
+    "without_final_global_reselection": [
+      "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",
+      "Please send me my boarding pass for booking <BOOKING_ID_1>; my name is <PERSON_1>.",
+      "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "I'm <PERSON_1>, and my credit card is lost. My card number is <CARD_NUMBER_1>.",
+      "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+      "i am <PERSON_1> and i want to update the card address associated with my account ending in <ACCOUNT_ID_LAST4_1>.",
+      "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+      "I want to claim travel expenses; I'm <PERSON_1>.",
+      "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>.",
+      "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>."
+    ],
+    "without_generated_candidates_seed_pool": [
+      "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+      "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+      "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+      "Can you help me find out the status of my claim? The claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>.",
+      "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+      "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+      "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+      "I want to claim travel expenses; I'm <PERSON_1>.",
+      "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+      "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>."
+    ]
+  }
+}

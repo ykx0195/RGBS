@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "I don't need the item I purchased anymore, so I'd like to return it and get a refund for order <ORDER_ID_1>. My username is <USERNAME_1>.",
+    "full_cluster_mean_cosine": 0.8669154644012451,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0005570799112319946,
+  "heldout_loaded": false
+}

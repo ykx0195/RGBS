@@ -1,0 +1,68 @@
+{
+  "question_rows": 5,
+  "columns": [
+    "id",
+    "question",
+    "create_on",
+    "last_access",
+    "embedding_data",
+    "deleted"
+  ],
+  "rows": [
+    [
+      1,
+      "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+      "2026-11-05 19:23:30.023477",
+      "2026-11-05 19:23:31.115446",
+      {
+        "blob_bytes": 1536,
+        "sha256": "9e7b676d56ba1f5c3e037c662eafefe7ca4c2f486dd2f7beaa0c0a219a266acd"
+      },
+      0
+    ],
+    [
+      2,
+      "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+      "2026-11-05 19:23:30.031134",
+      "2026-11-05 19:23:31.122171",
+      {
+        "blob_bytes": 1536,
+        "sha256": "65fb189c228d67a1f0e1bfde3e2dae443b490877613f10085b9e6a69afebc305"
+      },
+      0
+    ],
+    [
+      3,
+      "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",
+      "2026-11-05 19:23:30.035131",
+      "2026-11-05 19:23:31.110945",
+      {
+        "blob_bytes": 1536,
+        "sha256": "16830324bb4fa081ca8838616710d913a8ba876918462f318b29a26dba03fb65"
+      },
+      0
+    ],
+    [
+      4,
+      "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now.",
+      "2026-11-05 19:23:30.039401",
+      "2026-11-05 19:23:31.119913",
+      {
+        "blob_bytes": 1536,
+        "sha256": "f2258cd95c11bad913e01b228fe3a314745660e0d6cb01f4a432b3e08e052325"
+      },
+      0
+    ],
+    [
+      5,
+      "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "2026-11-05 19:23:30.043405",
+      "2026-11-05 19:23:31.131156",
+      {
+        "blob_bytes": 1536,
+        "sha256": "dc366dfd9dec5f90562a1198ea0fc0a4ca08b7dbf1a27709634fc5a2e65c9b55"
+      },
+      0
+    ]
+  ]
+}

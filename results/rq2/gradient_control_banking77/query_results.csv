@@ -1,0 +1,1486 @@
+test_index,source_id,query,covered,top1_key_index,max_cosine
+0,test-000001,The card I ordered for account <ACCOUNT_NUMBER_1> more than a week ago still hasn't been delivered.,1,9,0.863089382648468
+1,test-000002,My card for account <ACCOUNT_NUMBER_1> was ordered but never arrived. Help please!,0,13,0.8387674689292908
+2,test-000003,I'd like to know when my card will be delivered to <STREET_ADDRESS_1>.,1,13,0.8928316831588745
+3,test-000004,My card hasn't been delivered to <STREET_ADDRESS_1> yet.,1,13,0.878491997718811
+4,test-000005,I'm wondering when the card will be delivered to <STREET_ADDRESS_1>.,1,13,0.9087121486663818
+5,test-000006,I'm wondering if the new card for account <ACCOUNT_NUMBER_1> has a tracking number.,1,13,0.8842964172363281
+6,test-000007,The card for account <ACCOUNT_NUMBER_1> hasn't been delivered to me.,1,9,0.8732360601425171
+7,test-000008,The card for account <ACCOUNT_NUMBER_1> hasn't arrived yet.,1,13,0.8881552815437317
+8,test-000009,Is it normal for my new card associated with account <ACCOUNT_NUMBER_1> to take over a week to arrive?,1,13,0.9043139219284058
+9,test-000010,I would like to know how to track the card associated with account <ACCOUNT_NUMBER_1>.,0,5,0.8385140299797058
+10,test-000012,"My card was supposed to reach <STREET_ADDRESS_1>, but after two weeks I still don't have it. What should I do?",0,13,0.8399785757064819
+11,test-000013,My new card hasn't shown up at <STREET_ADDRESS_1> yet; please check the status for account <ACCOUNT_NUMBER_1>.,1,13,0.9168912172317505
+12,test-000014,I've been waiting a week for my card to arrive. Is this normal for account <ACCOUNT_NUMBER_1>?,1,13,0.8782289624214172
+13,test-000015,Could you provide an update on when my bank card will be delivered to <STREET_ADDRESS_1>? It's taking longer than I expected.,1,13,0.8953794240951538
+14,test-000016,Delivery to <STREET_ADDRESS_1> for the card on account <ACCOUNT_NUMBER_1> is taking longer than I expected.,1,13,0.8983266353607178
+15,test-000017,I still haven't received my card at <STREET_ADDRESS_1>; can you explain the delay?,1,13,0.8781659603118896
+16,test-000018,It's been a week and I still haven't received my new card for account <ACCOUNT_NUMBER_1>.,0,9,0.8482131958007812
+17,test-000019,My card hasn't arrived at <STREET_ADDRESS_1> after two weeks. Is it possibly lost?,1,13,0.8527227640151978
+18,test-000020,My card for account <ACCOUNT_NUMBER_1> still hasn't arrived. Could it be lost?,1,13,0.873768150806427
+19,test-000021,Could you provide the status of my card order for account <ACCOUNT_NUMBER_1>?,1,13,0.8601289987564087
+20,test-000023,I'm still waiting for my card at <STREET_ADDRESS_1> after ordering it two weeks ago. What are my options?,1,13,0.8646078109741211
+21,test-000024,Where is my card? It should have been delivered to <STREET_ADDRESS_1> for account <ACCOUNT_NUMBER_1> by now.,1,13,0.9011656641960144
+22,test-000025,Can you give me the tracking number for the card sent to <STREET_ADDRESS_1>?,1,13,0.8793697357177734
+23,test-000026,"My card still hasn't arrived, so I suspect a problem with delivery at <STREET_ADDRESS_1>.",1,13,0.8547987937927246
+24,test-000027,Why hasn't my replacement card been delivered to <STREET_ADDRESS_1> yet? I've been waiting for ages.,1,13,0.8710330724716187
+25,test-000028,The card I requested for account <ACCOUNT_NUMBER_1> a week ago is still missing. How can I resolve this?,1,14,0.8581165075302124
+26,test-000029,I'd like to know the tracking status of the card headed to <STREET_ADDRESS_1>.,1,13,0.875935435295105
+27,test-000030,I'm still waiting for my card to be delivered to <STREET_ADDRESS_1>.,0,13,0.8421432971954346
+28,test-000031,Could you explain why I still haven't received my new card for account <ACCOUNT_NUMBER_1>?,1,9,0.8980005383491516
+29,test-000033,I'm still waiting for the card for account <ACCOUNT_NUMBER_1> to be delivered.,1,9,0.8598829507827759
+30,test-000034,Is there a tracking option for the card you sent to account <ACCOUNT_NUMBER_1>?,1,13,0.8648718595504761
+31,test-000035,"I ordered a card for account <ACCOUNT_NUMBER_1>, but after two weeks it hasn't arrived. What are my options?",0,9,0.846878707408905
+32,test-000036,"My card hasn't shown up at <STREET_ADDRESS_1> yet, and I'm starting to wonder if it's lost. Can you help me?",1,13,0.8643853068351746
+33,test-000038,What tracking number should I expect for the card you mailed to account <ACCOUNT_NUMBER_1>?,1,13,0.8952572345733643
+34,test-000039,Could you tell me the tracking number for the card shipped to <STREET_ADDRESS_1>?,1,13,0.8598770499229431
+35,test-000040,Why isn't my card showing up in the app for account <ACCOUNT_NUMBER_1>?,0,13,0.8396785855293274
+36,test-000041,Please reactivate card <CREDIT_CARD_1> for me.,1,12,0.9133018255233765
+37,test-000042,Where should I go to link my new card <CREDIT_CARD_1> to account <ACCOUNT_NUMBER_1>?,1,12,0.854442834854126
+38,test-000043,Could you assist me with putting my new card into the app for account <ACCOUNT_NUMBER_1>?,0,13,0.8430080413818359
+39,test-000045,"I just got my new card <CREDIT_CARD_1>, but it isn't showing up in the app. How can I fix this?",0,12,0.8441565036773682
+40,test-000048,Is it possible to add my old card back to account <ACCOUNT_NUMBER_1>? I found it.,0,14,0.8158267736434937
+41,test-000055,How can I reactivate the card I misplaced but now found for account <ACCOUNT_NUMBER_1>?,0,12,0.8463963270187378
+42,test-000057,I got a new card <CREDIT_CARD_1>; where in the app can I view it?,0,12,0.836180567741394
+43,test-000059,I have my card again; how do I add it to the app for account <ACCOUNT_NUMBER_1>?,0,12,0.8358016014099121
+44,test-000061,How do I sync my newly received card with the app for account <ACCOUNT_NUMBER_1>?,0,13,0.839348316192627
+45,test-000062,I've found my card <CREDIT_CARD_1>; can you reactivate it for me?,1,12,0.8999146819114685
+46,test-000063,How do I associate card <CREDIT_CARD_1> with account <ACCOUNT_NUMBER_1>?,0,12,0.8446611166000366
+47,test-000064,This morning I found my lost card in my jacket pocket; is it possible to reactivate it for account <ACCOUNT_NUMBER_1>?,0,12,0.7876007556915283
+48,test-000065,Can you tell me how to link my existing card <CREDIT_CARD_1>?,1,12,0.8677165508270264
+49,test-000066,"I received card <CREDIT_CARD_1>, but it's not visible in the app.",1,12,0.8598871231079102
+50,test-000067,Please tell me how to link my current card to account <ACCOUNT_NUMBER_1>.,0,12,0.8391628265380859
+51,test-000068,Can you guide me through linking my card to account number <ACCOUNT_NUMBER_1>?,0,13,0.8300129771232605
+52,test-000069,Where can I find the option to link my card to account <ACCOUNT_NUMBER_1>?,0,12,0.8330779075622559
+53,test-000070,How do I link a new card with account <ACCOUNT_NUMBER_1>?,1,13,0.8521203994750977
+54,test-000071,Is there a way to link my old card <CREDIT_CARD_1> to account <ACCOUNT_NUMBER_1> in the app?,0,12,0.8249270915985107
+55,test-000072,I misplaced card <CREDIT_CARD_1> earlier; can it be reactivated?,1,12,0.8534266948699951
+56,test-000073,Can you explain how to link my card <CREDIT_CARD_1>?,1,12,0.8727215528488159
+57,test-000075,My card has been recovered. Is it possible to relink it to account <ACCOUNT_NUMBER_1> via my mobile app?,0,7,0.7871792316436768
+58,test-000076,"Could you reactivate my card <CREDIT_CARD_1>? It had been lost, but I located it in my jacket this morning.",1,12,0.8629082441329956
+59,test-000077,I've got an existing card from you; what steps do I take to link card <CREDIT_CARD_1>?,1,12,0.8743778467178345
+60,test-000078,What steps should I follow to link my replacement card <CREDIT_CARD_1>?,0,3,0.8418275117874146
+61,test-000079,Is it possible to add another card to my account <ACCOUNT_NUMBER_1>?,0,1,0.8314615488052368
+62,test-000120,"I made a purchase in a foreign currency, but the exchange rate applied to account <ACCOUNT_NUMBER_1> seems incorrect.",1,6,0.9357953667640686
+63,test-000122,"For account <ACCOUNT_NUMBER_1>, the exchange rate used on the card payment doesn't look right.",1,6,0.9177592992782593
+64,test-000123,I noticed that the currency conversion rate for a purchase I made abroad was incorrect on account <ACCOUNT_NUMBER_1>.,1,6,0.9376447200775146
+65,test-000124,My purchase from account <ACCOUNT_NUMBER_1> was processed with an incorrect exchange rate.,1,6,0.9226380586624146
+66,test-000125,Are you sure you're using the right exchange rate? The rate on my account <ACCOUNT_NUMBER_1> is too low.,1,6,0.8987065553665161
+67,test-000126,"After buying something, I noticed the currency conversion for account <ACCOUNT_NUMBER_1> appears wrong.",1,6,0.9191902279853821
+68,test-000127,I think the rate applied to my overseas transaction was wrong on account <ACCOUNT_NUMBER_1>.,1,6,0.9246482849121094
+69,test-000128,"I made a purchase in a foreign currency using account <ACCOUNT_NUMBER_1>, but the exchange rate they applied seems wrong.",1,6,0.9350347518920898
+70,test-000129,"I swapped Rubles for pounds, but the exchange rate on account <ACCOUNT_NUMBER_1> was not right and I was overcharged.",1,6,0.9082223773002625
+71,test-000130,My purchase from account <ACCOUNT_NUMBER_1> was processed at an exchange rate that was not right.,1,6,0.9258724451065063
+72,test-000131,The exchange rate applied to my card payment from account <ACCOUNT_NUMBER_1> is wrong.,1,6,0.9376175403594971
+73,test-000132,The exchange rate used for my purchase was wrong on account <ACCOUNT_NUMBER_1>.,1,6,0.9505320191383362
+74,test-000133,Why did the exchange rate on my foreign purchase from account <ACCOUNT_NUMBER_1> come out wrong?,1,6,0.935866117477417
+75,test-000134,I noticed the exchange rate was wrong after buying something with account <ACCOUNT_NUMBER_1>.,1,6,0.9397151470184326
+76,test-000135,I made an overseas purchase and the statement shows an incorrect exchange rate for account <ACCOUNT_NUMBER_1>.,1,6,0.9204010963439941
+77,test-000136,"My transaction last Saturday used a wrong exchange rate, so I got charged extra on account <ACCOUNT_NUMBER_1>. Please fix it.",1,6,0.8967015147209167
+78,test-000137,I think the exchange rate on my card payment from account <ACCOUNT_NUMBER_1> is not right.,1,6,0.9203459024429321
+79,test-000138,Why did my account <ACCOUNT_NUMBER_1> get charged an additional fee?,1,1,0.9403256177902222
+80,test-000139,I bought something and the exchange rate applied to my purchase was wrong for account <ACCOUNT_NUMBER_1>.,1,6,0.9457471370697021
+81,test-000140,The exchange rate used for my card payment on account <ACCOUNT_NUMBER_1> doesn't look right.,1,6,0.9229298830032349
+82,test-000141,I was charged more than expected for a purchase last Saturday. Was the exchange rate applied to account <ACCOUNT_NUMBER_1> correct?,1,6,0.8749135732650757
+83,test-000142,My account <ACCOUNT_NUMBER_1> shows a purchase with an exchange rate that is not correct.,1,6,0.9245954751968384
+84,test-000143,My card payment's exchange rate appears to be off for account <ACCOUNT_NUMBER_1>.,1,6,0.9112964272499084
+85,test-000144,"My payment from last Saturday was overcharged, probably because an incorrect exchange rate was applied to account <ACCOUNT_NUMBER_1>.",1,6,0.8935676217079163
+86,test-000145,This transaction's exchange rate seems wrong on my account <ACCOUNT_NUMBER_1>.,1,6,0.9408888816833496
+87,test-000146,I was given an incorrect exchange rate after buying something with account <ACCOUNT_NUMBER_1>.,1,6,0.9481706023216248
+88,test-000149,"The exchange rate used for my purchase was wrong, and it affected account <ACCOUNT_NUMBER_1>.",1,6,0.9413313865661621
+89,test-000150,I've noticed the conversion value for card payments from account <ACCOUNT_NUMBER_1> is incorrect.,1,6,0.864548921585083
+90,test-000151,I bought something in a foreign currency and the exchange rate applied was incorrect for account <ACCOUNT_NUMBER_1>.,1,6,0.9453098773956299
+91,test-000152,I paid for something in a foreign currency using account <ACCOUNT_NUMBER_1> and the exchange rate applied is wrong.,1,6,0.9479483366012573
+92,test-000153,I made a foreign purchase and the exchange rate applied was incorrect on account <ACCOUNT_NUMBER_1>.,1,6,0.9365898370742798
+93,test-000154,The exchange rate applied to my last purchase seems off. Can you check account <ACCOUNT_NUMBER_1> for the details?,1,6,0.8958753347396851
+94,test-000155,Why did I get an incorrect exchange rate on my purchase from account <ACCOUNT_NUMBER_1>?,1,6,0.9254647493362427
+95,test-000156,I'd like to know how to see the exchange rate used for a card payment from account <ACCOUNT_NUMBER_1>.,1,6,0.8619046211242676
+96,test-000157,The exchange rate applied to my card payment on account <ACCOUNT_NUMBER_1> is completely incorrect.,1,6,0.9035324454307556
+97,test-000158,An item I purchased in another currency got an incorrect rate. Could you correct it on account <ACCOUNT_NUMBER_1>?,1,6,0.908698320388794
+98,test-000159,I noticed the wrong exchange rate was used for my transaction abroad on account <ACCOUNT_NUMBER_1>.,1,6,0.9527949690818787
+99,test-000160,A charge of one dollar has shown up on my card <CREDIT_CARD_1> statement.,1,1,0.8672007918357849
+100,test-000161,Why did I get a fee for an extra pound on the statement associated with account <ACCOUNT_NUMBER_1> and card <CREDIT_CARD_1>?,1,1,0.8973145484924316
+101,test-000162,"My statement shows a fee for card <CREDIT_CARD_1>, and I'm not okay with that charge.",0,1,0.8422303199768066
+102,test-000163,Why did my card <CREDIT_CARD_1> get charged an additional dollar?,1,1,0.9138288497924805
+103,test-000164,Can you explain this unrecognized fee on my statement for card <CREDIT_CARD_1>?,0,1,0.833827555179596
+104,test-000165,Please refund the extra one pound that was charged to my card <CREDIT_CARD_1>.,1,7,0.8526129722595215
+105,test-000166,What is this unexpected $1 charge on my card <CREDIT_CARD_1> for account <ACCOUNT_NUMBER_1>?,1,1,0.9166353344917297
+106,test-000167,Can you explain the $1 charge on my statement for card <CREDIT_CARD_1>?,1,1,0.8551061153411865
+107,test-000168,I see extra charges on the statement for account <ACCOUNT_NUMBER_1>; can you explain them?,1,1,0.909196138381958
+108,test-000169,A 1£ amount appears on my statement for account <ACCOUNT_NUMBER_1> even though I don't recall any such purchase. Could you explain this charge?,1,1,0.8697980046272278
+109,test-000170,My app shows a £1 charge I didn't expect. What is this extra charge on account <ACCOUNT_NUMBER_1> for?,1,1,0.8757487535476685
+110,test-000171,Can you tell me the reason for a $1 charge on the statement of card <CREDIT_CARD_1>?,1,1,0.8671984076499939
+111,test-000172,I'm waiting for a $1 credit to account <ACCOUNT_NUMBER_1>; when will it be processed?,0,9,0.832968533039093
+112,test-000173,Can you explain the source of this fee that appeared on account <ACCOUNT_NUMBER_1> after I used card <CREDIT_CARD_1>?,1,1,0.906125545501709
+113,test-000174,Why does my card <CREDIT_CARD_1> statement show an extra $1 charge?,1,1,0.8885812759399414
+114,test-000175,Can you explain the extra $1 on card <CREDIT_CARD_1>?,1,1,0.8504575490951538
+115,test-000176,Can you explain why card <CREDIT_CARD_1> has an extra €1 charge on my statement?,1,1,0.8852097392082214
+116,test-000177,Could you explain why my card <CREDIT_CARD_1> has an extra 1 pound fee?,1,1,0.8660611510276794
+117,test-000178,I don't understand why there are so many fees on my account <ACCOUNT_NUMBER_1> statement.,1,1,0.8626260757446289
+118,test-000179,Can you tell me why I'm seeing an additional fee on the statement for account <ACCOUNT_NUMBER_1>?,1,1,0.91047203540802
+119,test-000180,Can you explain the 1 euro charge that appeared on my statement for account <ACCOUNT_NUMBER_1>?,1,1,0.8808533549308777
+120,test-000181,"I noticed a €1 fee on my statement that shouldn't be there, and it's on card <CREDIT_CARD_1>.",1,1,0.8536906242370605
+121,test-000182,I noticed a 1 euro charge on the statement of account <ACCOUNT_NUMBER_1>.,1,1,0.8581795692443848
+122,test-000183,There's a pound overcharge on my account <ACCOUNT_NUMBER_1>. Can you explain it?,0,1,0.8489693403244019
+123,test-000184,I noticed an extra pound charge on my card <CREDIT_CARD_1> that seems like an error.,1,1,0.885933518409729
+124,test-000185,There's an unexplained extra charge on my statement for card <CREDIT_CARD_1>; what is it for?,1,1,0.8982757329940796
+125,test-000186,There's an unanticipated fee on account <ACCOUNT_NUMBER_1> that I never agreed to or knew about.,1,1,0.8527318239212036
+126,test-000187,There's an extra charge on my card <CREDIT_CARD_1> statement. What is that for?,1,1,0.8980485200881958
+127,test-000188,Can you explain this €1 fee appearing in my statement for card <CREDIT_CARD_1>?,0,1,0.8469725847244263
+128,test-000189,I just opened my account and saw an unfamiliar charge on my app with card <CREDIT_CARD_1>; can you explain why it's there?,1,1,0.8691372871398926
+129,test-000190,I noticed my card <CREDIT_CARD_1> was charged an extra dollar for some reason.,1,1,0.901971161365509
+130,test-000191,Can you explain why $1 was charged to my card <CREDIT_CARD_1>?,1,1,0.8870927095413208
+131,test-000192,"I have a £1 charge on card <CREDIT_CARD_1> that won't go away from the statement view on the app. It's stuck as ""Pending"" for two days now; can you investigate account <ACCOUNT_NUMBER_1>?",1,9,0.8731187582015991
+132,test-000193,Can you explain the extra charge on my card <CREDIT_CARD_1> statement?,1,1,0.8946901559829712
+133,test-000194,"I was charged an extra $1 on card <CREDIT_CARD_1>, and it shows on my statement. What's the reason?",1,1,0.9108307361602783
+134,test-000195,I see an unexpected €1 charge on my statement; could you clarify what it is for account <ACCOUNT_NUMBER_1>?,1,1,0.8785606622695923
+135,test-000196,Why hasn't the $1.00 charge on my card <CREDIT_CARD_1> been reversed after two weeks? Please review account <ACCOUNT_NUMBER_1>.,0,1,0.8468554615974426
+136,test-000198,"I'm confused about a strange extra £1 charge on my statement in the app that's been pending for a couple of days and won't disappear, on account <ACCOUNT_NUMBER_1>.",0,1,0.8459824323654175
+137,test-000199,Could you look into why there's an extra fee on my statement for account <ACCOUNT_NUMBER_1>?,1,1,0.9126555919647217
+138,test-000200,My withdrawal from account <ACCOUNT_NUMBER_1> with card <CREDIT_CARD_1> is still pending. Why?,1,9,0.9153933525085449
+139,test-000201,"My card <CREDIT_CARD_1> was rejected at an ATM today, and the transaction appears as pending. I never received the money, so please cancel the pending transaction.",1,8,0.8564603924751282
+140,test-000202,My card <CREDIT_CARD_1> shows a cash withdrawal that is still pending.,0,9,0.8478712439537048
+141,test-000203,"My cash withdrawal didn't work at the machine earlier, and the transaction from account <ACCOUNT_NUMBER_1> still shows as in progress. Could you please look into it? I don't want a charge for money I haven't actually received.",1,8,0.8548755645751953
+142,test-000206,"I made a withdrawal using card <CREDIT_CARD_1>, but the ATM didn't dispense any cash, yet it's still showing as pending.",1,8,0.8761667013168335
+143,test-000207,"The ATM gave me cash when I used my card <CREDIT_CARD_1>, yet the app lists that withdrawal as pending. How can it still be pending after I got the money?",1,8,0.897910475730896
+144,test-000210,"I tried to withdraw cash from the city centre ATM, but it declined my card and the transaction is still pending on account <ACCOUNT_NUMBER_1>, so please cancel it since I never got the money.",1,8,0.8694641590118408
+145,test-000211,What could cause my ATM cash withdrawal with card <CREDIT_CARD_1> to remain pending?,1,8,0.8548372387886047
+146,test-000212,My cash withdrawal at the ATM with card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1> hasn't cleared yet.,1,8,0.8886358737945557
+147,test-000213,My cash withdrawal from account <ACCOUNT_NUMBER_1> is still showing as pending.,1,4,0.8995013236999512
+148,test-000217,"I withdrew cash using card <CREDIT_CARD_1>, and it's showing as a pending transaction on account <ACCOUNT_NUMBER_1>. What's going on?",1,9,0.8666752576828003
+149,test-000218,"The cash machine wasn't working when I tried to withdraw, but the transaction is still showing as pending. Please check account <ACCOUNT_NUMBER_1> and ensure I'm not charged for money that wasn't dispensed.",0,4,0.8317301273345947
+150,test-000219,"My card <CREDIT_CARD_1> didn't work at the city centre theatre ATM and I received no cash, yet the transaction appears as pending in my account. What does that indicate?",1,8,0.8519840240478516
+151,test-000227,Can you explain why my card <CREDIT_CARD_1> won't let me withdraw cash while the transaction remains pending in account <ACCOUNT_NUMBER_1>?,1,9,0.8715038895606995
+152,test-000232,"When I tried to get cash with card <CREDIT_CARD_1>, the transaction didn't go through, but I see it's still in progress. Can you explain?",0,8,0.839946985244751
+153,test-000236,"A cash withdrawal using card <CREDIT_CARD_1> was declined, but my account <ACCOUNT_NUMBER_1> still got charged. Can you resolve this?",1,14,0.8807249069213867
+154,test-000239,"I tried to withdraw cash with card <CREDIT_CARD_1>, but the ATM declined it and account <ACCOUNT_NUMBER_1> still shows a pending transaction. Can I cancel it? Also, what is a pending transaction?",1,8,0.8676043748855591
+155,test-000246,"There is a payment coming into my account <ACCOUNT_NUMBER_1>, which is currently deactivated. Will it still be processed?",0,9,0.8366780281066895
+156,test-000280,Can you rush my card to <STREET_ADDRESS_1>? I need it urgently.,1,13,0.8585175275802612
+157,test-000281,"Again, no card in my mailbox. Please advise on the delivery status for my card associated with account <ACCOUNT_NUMBER_1>.",0,13,0.8333991765975952
+158,test-000282,I need my card delivered as soon as possible for customer ID <CUSTOMER_ID_1>.,0,13,0.8000100255012512
+159,test-000331,"Auto top-up was just activated on my account <ACCOUNT_NUMBER_1>, yet it's not allowing me to turn it on. Why?",0,2,0.7991186380386353
+160,test-000360,"No matter how many times I use card <CREDIT_CARD_1>, it doesn't work.",1,3,0.8776480555534363
+161,test-000361,The card <CREDIT_CARD_1> won't work for me.,1,3,0.9397797584533691
+162,test-000362,How can I fix my card <CREDIT_CARD_1> if it's broken?,1,3,0.9600424766540527
+163,test-000363,How can I determine the reason card <CREDIT_CARD_1> is not working?,1,3,0.9132071137428284
+164,test-000364,"I need help with my card <CREDIT_CARD_1>, which is broken.",1,3,0.9832337498664856
+165,test-000365,I'm having trouble with my card <CREDIT_CARD_1>; it's not working.,1,3,0.9379832744598389
+166,test-000366,Why won't my card <CREDIT_CARD_1> work?,1,3,0.9033610820770264
+167,test-000367,Can you figure out why my card <CREDIT_CARD_1> is having problems?,1,3,0.9223167896270752
+168,test-000368,Can you tell me how to remove the block from my card <CREDIT_CARD_1> through the app?,0,8,0.8111238479614258
+169,test-000369,I can't get my card <CREDIT_CARD_1> to work.,1,3,0.9260316491127014
+170,test-000370,What steps should I take to get my card <CREDIT_CARD_1> functioning?,1,3,0.8916177749633789
+171,test-000371,Could someone help me understand why my card <CREDIT_CARD_1> is not working?,1,3,0.9273878335952759
+172,test-000372,Can you help me? My card <CREDIT_CARD_1> is not working properly.,1,3,0.9432899951934814
+173,test-000374,There's an issue with my card <CREDIT_CARD_1>; it appears broken.,1,3,0.9472483396530151
+174,test-000375,My card <CREDIT_CARD_1> isn't working; can you help figure out why?,1,3,0.9320588111877441
+175,test-000376,My card <CREDIT_CARD_1> no longer works.,1,3,0.9398274421691895
+176,test-000377,My card <CREDIT_CARD_1> was declined when I tried to pay for my meal today; can you explain why?,1,14,0.8819622993469238
+177,test-000378,The card <CREDIT_CARD_1> is not working for me.,1,3,0.9528905749320984
+178,test-000379,How do I fix the issue where the card <CREDIT_CARD_1> won't process any transactions?,1,3,0.8821659088134766
+179,test-000380,There's a problem with my card <CREDIT_CARD_1>; it's not working.,1,3,0.9363609552383423
+180,test-000381,I'm wondering if my card <CREDIT_CARD_1> is broken since it doesn't work.,1,3,0.933151364326477
+181,test-000382,My card <CREDIT_CARD_1> is damaged and no longer works.,1,3,0.911613941192627
+182,test-000383,The card <CREDIT_CARD_1> suddenly isn't working for me.,1,3,0.9337995052337646
+183,test-000384,"My card <CREDIT_CARD_1> seems to be broken, how can I fix this?",1,3,0.9648621678352356
+184,test-000385,"I tried using my card <CREDIT_CARD_1> today and it's not working, can you help me?",1,3,0.9028921127319336
+185,test-000386,"Whenever I attempt to use my card <CREDIT_CARD_1>, it doesn't work.",1,3,0.9153519868850708
+186,test-000387,Card <CREDIT_CARD_1> seems to be having issues; I can't use it.,1,3,0.9367845058441162
+187,test-000388,Could you assist me? My card <CREDIT_CARD_1> seems to be malfunctioning.,1,3,0.9426460862159729
+188,test-000389,I can't get my card <CREDIT_CARD_1> to work for any transaction.,1,3,0.8870069980621338
+189,test-000390,It seems my card <CREDIT_CARD_1> is broken.,1,3,0.9601163268089294
+190,test-000391,There's an issue with my card <CREDIT_CARD_1>; it won't work.,1,3,0.9334819912910461
+191,test-000392,My card <CREDIT_CARD_1> stopped working all of a sudden.,1,3,0.9010176658630371
+192,test-000393,My card <CREDIT_CARD_1> isn't working even though I've tried it several times.,1,3,0.9003466367721558
+193,test-000394,There's a problem with my card <CREDIT_CARD_1>; it doesn't work.,1,3,0.9365754723548889
+194,test-000395,There's a problem with my card <CREDIT_CARD_1>: it's not processing any transactions. Can you tell me what's wrong?,0,3,0.8498872518539429
+195,test-000396,Is there a way to confirm that my card <CREDIT_CARD_1> is functioning?,1,3,0.8608605861663818
+196,test-000397,Transactions are not going through on my card <CREDIT_CARD_1> at all.,0,3,0.8366379737854004
+197,test-000398,Can you tell me why my card <CREDIT_CARD_1> is not working?,1,3,0.9222346544265747
+198,test-000399,Did I somehow deactivate my card <CREDIT_CARD_1>? It's not working.,1,12,0.8789458274841309
+199,test-000440,"Someone stole my entire gym bag from my locker, including my wallet. I want to block card <CREDIT_CARD_1> so no one can use it.",0,8,0.7437534332275391
+200,test-000441,"I'm unable to find my card <CREDIT_CARD_1>, and I fear it has been stolen.",1,3,0.863656222820282
+201,test-000442,How can I report my card <CREDIT_CARD_1> stolen with your bank after filing a police report?,0,3,0.7905552387237549
+202,test-000443,I can't locate my card <CREDIT_CARD_1>; it's gone missing.,1,3,0.8614115715026855
+203,test-000444,My card <CREDIT_CARD_1> has gone missing; can you tell me what to do?,1,3,0.8873242139816284
+204,test-000445,My card <CREDIT_CARD_1> has gone missing.,1,3,0.8748081922531128
+205,test-000446,"I lost my card <CREDIT_CARD_1>, and I need assistance.",1,3,0.9078730344772339
+206,test-000447,I'm afraid my card <CREDIT_CARD_1> has been stolen. Can you tell me what to do immediately?,1,3,0.862949013710022
+207,test-000448,My card <CREDIT_CARD_1> has been stolen. I need help immediately.,1,3,0.8628283739089966
+208,test-000449,I need help because my card <CREDIT_CARD_1> was stolen.,1,3,0.8792808651924133
+209,test-000450,Card <CREDIT_CARD_1> has been lost. Can you help?,1,3,0.920182466506958
+210,test-000452,I've lost my card <CREDIT_CARD_1> and fear it may have been stolen.,0,3,0.8324379920959473
+211,test-000454,I've lost my wallet today containing my credit cards. Can you block card <CREDIT_CARD_1> and send a new one?,0,8,0.7837362289428711
+212,test-000456,"My card <CREDIT_CARD_1> was stolen, so please freeze it right away.",0,3,0.8377629518508911
+213,test-000457,I've lost my card <CREDIT_CARD_1> and need assistance.,1,3,0.9038698673248291
+214,test-000459,Can you assist me with a lost card <CREDIT_CARD_1>?,1,3,0.900991678237915
+215,test-000460,I'm concerned that my card <CREDIT_CARD_1> has been stolen.,0,5,0.8497581481933594
+216,test-000461,Someone took my wallet at Piccadilly Circus earlier today; please see if there are attempts with card <CREDIT_CARD_1> and block it.,0,8,0.7865862250328064
+217,test-000462,"I seem to have lost my card <CREDIT_CARD_1>, but I don't know for how long. Could you check whether anyone else has used it?",0,3,0.8380007743835449
+218,test-000463,What steps should I take to block my stolen card <CREDIT_CARD_1>?,0,3,0.7948461771011353
+219,test-000465,I had my bags stolen; could you cancel card <CREDIT_CARD_1> and issue a new card for me?,0,8,0.7961513996124268
+220,test-000466,It seems my card <CREDIT_CARD_1> is lost. What steps should I take?,1,3,0.9104475975036621
+221,test-000467,Someone took my card <CREDIT_CARD_1> from me.,0,5,0.8431015014648438
+222,test-000468,I have lost my card <CREDIT_CARD_1>.,1,3,0.8883266448974609
+223,test-000469,I want to report a stolen card <CREDIT_CARD_1>.,0,3,0.8229172229766846
+224,test-000471,My card <CREDIT_CARD_1> has gone missing. What steps do I need to take?,1,3,0.8859583139419556
+225,test-000472,I'm currently in Spain and my possessions were stolen. My card <CREDIT_CARD_1> is among them; please deactivate it and issue a replacement.,0,3,0.8187132477760315
+226,test-000473,I believe my credit card number <CREDIT_CARD_1> has been stolen.,0,5,0.847655713558197
+227,test-000475,"I've just discovered that my card number <CREDIT_CARD_1> has been stolen, and I need immediate assistance.",0,3,0.8422956466674805
+228,test-000476,I am unable to find the card <CREDIT_CARD_1> anywhere.,1,3,0.889122724533081
+229,test-000477,I seem to have misplaced my card <CREDIT_CARD_1>; is there any way to find it?,0,3,0.8468600511550903
+230,test-000478,I need to report that my card <CREDIT_CARD_1> has been stolen.,0,3,0.8297889232635498
+231,test-000479,I need assistance because my card <CREDIT_CARD_1> has been stolen.,1,3,0.8835810422897339
+232,test-000520,Can you guide me through unlocking the PIN for my card <CREDIT_CARD_1>?,1,10,0.9178366661071777
+233,test-000521,Where do I find the PIN associated with card <CREDIT_CARD_1>?,1,10,0.9062151908874512
+234,test-000522,Please reactivate the PIN on my card <CREDIT_CARD_1>.,1,10,0.8685118556022644
+235,test-000523,My PIN for card <CREDIT_CARD_1> got blocked by mistake. What steps should I take to reset it?,1,10,0.8970212936401367
+236,test-000524,I need to unblock the PIN on my card <CREDIT_CARD_1> after too many incorrect attempts. How do I do that?,1,10,0.8691765069961548
+237,test-000525,"After too many incorrect PIN attempts, card <CREDIT_CARD_1> is now blocked. Can you tell me how to unblock it?",1,10,0.8770261406898499
+238,test-000526,Can you help me unblock card <CREDIT_CARD_1>? I blocked it while drunk.,0,3,0.7983165979385376
+239,test-000527,I can't use my card <CREDIT_CARD_1>; how can I reset its PIN?,1,10,0.9145541191101074
+240,test-000528,"I entered the wrong PIN too many times and got locked out, so could you help me unblock my card <CREDIT_CARD_1>?",1,10,0.86407870054245
+241,test-000529,My PIN for card <CREDIT_CARD_1> is blocked. What should I do to make it usable?,1,10,0.9224854707717896
+242,test-000532,I am locked out of my card <CREDIT_CARD_1> after exceeding the PIN try limit.,0,10,0.820026159286499
+243,test-000533,What steps do I need to take to unblock the pin on card <CREDIT_CARD_1>?,1,10,0.8691869974136353
+244,test-000534,The ATM is not accepting my PIN for card <CREDIT_CARD_1>. What is the next step?,1,10,0.8863216638565063
+245,test-000535,Please unlock the PIN for my card <CREDIT_CARD_1> after too many incorrect attempts.,1,10,0.9133255481719971
+246,test-000536,What steps should I take for a blocked PIN with my card <CREDIT_CARD_1>?,1,10,0.8974796533584595
+247,test-000537,My card <CREDIT_CARD_1> got retained by the machine because I was too intoxicated to enter the PIN properly. What's the timeline for getting it back?,0,10,0.8292139768600464
+248,test-000538,I'd like to know if I can unblock card <CREDIT_CARD_1> using the app.,0,8,0.7715712189674377
+249,test-000539,I've exhausted the number of times I can enter the PIN on card <CREDIT_CARD_1>.,0,10,0.8175168037414551
+250,test-000540,What steps should I take to unlock the PIN on card <CREDIT_CARD_1> after multiple failed attempts?,1,10,0.8918671607971191
+251,test-000541,I need assistance because my card <CREDIT_CARD_1> is blocked due to a forgotten PIN.,1,10,0.884567379951477
+252,test-000542,I can't access my account because it's blocked; what should I do to log in using card <CREDIT_CARD_1>?,0,3,0.8310577273368835
+253,test-000543,Can you tell me the reason for the block on my card <CREDIT_CARD_1>?,0,3,0.8424903154373169
+254,test-000544,My card <CREDIT_CARD_1> has a blocked PIN; can you unlock it?,1,10,0.8690431714057922
+255,test-000545,Could you help me unblock the PIN for my card <CREDIT_CARD_1>? I entered it incorrectly several times.,1,10,0.8890873789787292
+256,test-000546,"After too many incorrect PIN attempts, my card <CREDIT_CARD_1> is now blocked. Please help me unblock it.",0,10,0.848397433757782
+257,test-000547,I think my PIN is blocked. Please unblock card <CREDIT_CARD_1>.,1,10,0.8549799919128418
+258,test-000548,I need my PIN unblocked on card <CREDIT_CARD_1> due to multiple incorrect entries.,1,10,0.8688814043998718
+259,test-000549,Could you help me unblock the PIN for card <CREDIT_CARD_1>?,1,10,0.8946012258529663
+260,test-000550,The PIN on my card <CREDIT_CARD_1> is blocked. What do I need to do to fix this?,1,10,0.9270197153091431
+261,test-000551,How do I get my PIN working again for card number <CREDIT_CARD_1>?,1,10,0.9363130331039429
+262,test-000552,Could you tell me how to reset my card <CREDIT_CARD_1> PIN?,1,10,0.9159293174743652
+263,test-000553,Could you help me unblock the PIN associated with card <CREDIT_CARD_1>?,1,10,0.8882746696472168
+264,test-000554,How can I get the PIN unblocked for card number <CREDIT_CARD_1>?,1,10,0.8863590955734253
+265,test-000555,My card <CREDIT_CARD_1> is frozen; what are my options?,1,3,0.8970483541488647
+266,test-000556,Can you tell me how to unlock the PIN on my card <CREDIT_CARD_1>?,1,10,0.9147585034370422
+267,test-000557,My PIN is blocked; would you assist me in unblocking it for card <CREDIT_CARD_1>?,1,10,0.8996360301971436
+268,test-000558,The PIN for my card <CREDIT_CARD_1> isn't functioning; can you assist me?,1,10,0.9655017852783203
+269,test-000559,How can I get my PIN unblocked for card <CREDIT_CARD_1>?,1,10,0.8983209133148193
+270,test-000560,Can I use contactless payments with my new card <CREDIT_CARD_1>?,0,12,0.7835568189620972
+271,test-000561,The contactless feature on my card <CREDIT_CARD_1> has stopped working.,0,3,0.8276761770248413
+272,test-000563,"I'm not sure what's going on, but my contactless isn't working. I tried using card <CREDIT_CARD_1> in several places today and it failed everywhere.",0,3,0.7910470962524414
+273,test-000565,My contactless payment on the bus today failed when I used my card <CREDIT_CARD_1>. What could be the reason?,0,14,0.81072998046875
+274,test-000566,I've been unable to pay contactless with my card <CREDIT_CARD_1> for over a week now. Is there a way to fix this issue?,0,3,0.824131429195404
+275,test-000567,Can you tell me why my card <CREDIT_CARD_1> won't work for contactless?,0,3,0.8265126943588257
+276,test-000568,My contactless payments with card <CREDIT_CARD_1> haven't been going through successfully.,0,3,0.8215270042419434
+277,test-000569,"Since my card <CREDIT_CARD_1> wouldn't work for contactless payment at the shop today, does it need replacing?",0,3,0.8494735956192017
+278,test-000570,"I'm not sure what's wrong, but my contactless isn't working anymore. Is there something I should do with card <CREDIT_CARD_1>?",0,3,0.8267571926116943
+279,test-000571,My contactless payment didn't go through this morning with card <CREDIT_CARD_1>.,0,14,0.8131225109100342
+280,test-000572,I can't get contactless to work with card <CREDIT_CARD_1>.,0,3,0.8419231176376343
+281,test-000573,"Today on the bus, my contactless payment didn't go through using card <CREDIT_CARD_1>. What went wrong?",0,14,0.7961622476577759
+282,test-000576,I need my contactless feature fixed for card <CREDIT_CARD_1>.,1,3,0.8609445095062256
+283,test-000577,What steps do I take to get contactless working for metro travel with my card <CREDIT_CARD_1>?,0,3,0.7709994316101074
+284,test-000578,I can't get contactless payments to work with card <CREDIT_CARD_1>.,0,3,0.8368747234344482
+285,test-000579,I need help getting the contactless feature to work on my card <CREDIT_CARD_1>.,0,3,0.82206130027771
+286,test-000580,My contactless isn't working with card <CREDIT_CARD_1> for some reason.,0,3,0.8354520797729492
+287,test-000581,I'm having trouble using contactless with card <CREDIT_CARD_1>.,0,3,0.835751473903656
+288,test-000582,I had trouble using contactless payment on the bus with card <CREDIT_CARD_1>. What steps can I take so it works next time?,0,3,0.775869607925415
+289,test-000583,Contactless didn't work on the bus today when I used card <CREDIT_CARD_1>. Help?,0,3,0.7908798456192017
+290,test-000584,What could be the problem if my card <CREDIT_CARD_1> won't work for contactless payments?,0,3,0.8374929428100586
+291,test-000587,The tap to pay feature on card <CREDIT_CARD_1> is not working for me.,0,10,0.8005986213684082
+292,test-000588,There's an issue with contactless payments using my card <CREDIT_CARD_1>.,0,3,0.8427181839942932
+293,test-000589,The metro's contactless reader wouldn't take my card <CREDIT_CARD_1> today.,0,3,0.7601205110549927
+294,test-000590,"I attempted a contactless payment on the bus today using my card <CREDIT_CARD_1>, but it didn't go through. Can you explain why?",0,14,0.7936934232711792
+295,test-000591,I can't make contactless payments using my card <CREDIT_CARD_1>.,0,3,0.8365237712860107
+296,test-000593,I need help because contactless payments are failing on my card <CREDIT_CARD_1>.,1,3,0.8521395921707153
+297,test-000640,"I'm new and was filling gas today when I tried a top-up, but it failed to go through—card <CREDIT_CARD_1> has been pending for half an hour now.",0,2,0.8085466623306274
+298,test-000641,"My card <CREDIT_CARD_1> was topped up this morning, but I can't see the money. What went wrong?",1,2,0.8848690986633301
+299,test-000643,There's a delay with the top-up I made to account <ACCOUNT_NUMBER_1>.,1,2,0.8846235275268555
+300,test-000644,Why is my top up with card <CREDIT_CARD_1> still pending for account <ACCOUNT_NUMBER_1>?,1,2,0.9107090830802917
+301,test-000645,Card <CREDIT_CARD_1> top-up is pending; can you check on it?,1,2,0.866703987121582
+302,test-000646,Why is my top-up still pending on account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>?,1,2,0.9127762317657471
+303,test-000647,"I topped up earlier, but account <ACCOUNT_NUMBER_1> still doesn't show the funds. What could be wrong?",1,2,0.8799244165420532
+304,test-000648,Why is my top-up from account <ACCOUNT_NUMBER_1> still showing as pending? I use your system all the time.,1,9,0.8658500909805298
+305,test-000649,My account <ACCOUNT_NUMBER_1> still shows no processed top-up.,1,2,0.8711589574813843
+306,test-000650,My top up didn't complete even though I used card <CREDIT_CARD_1> and chose account <ACCOUNT_NUMBER_1>.,1,2,0.9299584627151489
+307,test-000651,"This is my first time topping up and it's been pending for 30 minutes, please sort out account <ACCOUNT_NUMBER_1>.",0,9,0.8180028200149536
+308,test-000652,I added money to account <ACCOUNT_NUMBER_1> and it's still showing as pending.,1,9,0.8968628644943237
+309,test-000653,"I topped up using card <CREDIT_CARD_1> more than three hours ago, but the payment is still pending. Could you look into it?",1,9,0.8788563013076782
+310,test-000654,I need the money from my top up to account <ACCOUNT_NUMBER_1> urgently; it has been pending for an hour already. Can you speed it up?,0,4,0.8079513311386108
+311,test-000655,Can you explain why my top-up from account <ACCOUNT_NUMBER_1> is pending? I've never encountered this before.,1,2,0.8980367183685303
+312,test-000656,My top up still hasn't gone through on account <ACCOUNT_NUMBER_1>—why is that?,1,2,0.8903120160102844
+313,test-000657,I'm still waiting for my top-up to account <ACCOUNT_NUMBER_1> to go through.,0,2,0.8087703585624695
+314,test-000658,I topped up with card <CREDIT_CARD_1> nearly two hours ago and it still shows pending; isn't it supposed to be instant?,0,9,0.8427860736846924
+315,test-000659,"I used card <CREDIT_CARD_1> to top up some time ago, but it's still pending. Isn't it supposed to be done already?",1,2,0.862837553024292
+316,test-000660,My top-up hasn't gone through yet. Can you check account <ACCOUNT_NUMBER_1>?,1,2,0.8604006767272949
+317,test-000661,"I attempted a top up with card <CREDIT_CARD_1>, but it did not go through.",1,2,0.8973106741905212
+318,test-000662,"I just topped up my card, but the balance hasn't changed on account <ACCOUNT_NUMBER_1>.",1,2,0.8708469271659851
+319,test-000663,My top up with card number <CREDIT_CARD_1> is showing as pending. Why?,1,9,0.8718705773353577
+320,test-000665,"As a new customer, I attempted to top up for the first time today, yet the transaction is still pending after 30 minutes on account <ACCOUNT_NUMBER_1>.",0,9,0.8363816738128662
+321,test-000667,"I tried to top up account <ACCOUNT_NUMBER_1>, but it's still pending after an hour.",0,2,0.8405536413192749
+322,test-000668,Why hasn't my top-up cleared on account <ACCOUNT_NUMBER_1>? It's still showing as outstanding.,1,2,0.8900095224380493
+323,test-000669,The top up I did with card <CREDIT_CARD_1> still says pending. What does that indicate?,1,9,0.8710663318634033
+324,test-000670,My top up from account <ACCOUNT_NUMBER_1> is still pending after a couple hours.,1,9,0.853278636932373
+325,test-000671,My top-up with card <CREDIT_CARD_1> appears not to have completed.,1,2,0.8974363207817078
+326,test-000673,The top-up I made from card <CREDIT_CARD_1> hasn't arrived. Where is the money I added?,1,2,0.8765813112258911
+327,test-000674,"As a new customer, I tried to top up for the first time earlier, and it's still showing pending after more than an hour. Should it take this long, or is something wrong with my account <ACCOUNT_NUMBER_1>?",0,2,0.8224782943725586
+328,test-000675,Can you check why the top-up from my card <CREDIT_CARD_1> hasn't been completed yet?,1,2,0.8882726430892944
+329,test-000677,I am waiting for my top-up to finish; can you tell me when it will process for card <CREDIT_CARD_1> and account <ACCOUNT_NUMBER_1>?,1,2,0.8774468302726746
+330,test-000678,"I've never had problems before, but the top-up I made using card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1> just keeps showing pending.",1,2,0.8985177278518677
+331,test-000679,"I added money but it's showing as pending on account <ACCOUNT_NUMBER_1>. Since I want to buy something immediately, how do I resolve this?",1,9,0.8829779028892517
+332,test-000680,"This morning I transferred money from account <ACCOUNT_NUMBER_1> to <PERSON_1>, and I'd like to undo it.",1,11,0.8621285557746887
+333,test-000681,Can I stop a payment that was made to <PERSON_1>?,0,11,0.8433015942573547
+334,test-000682,How do I cancel a transaction on account <ACCOUNT_NUMBER_1>?,1,11,0.9859523773193359
+335,test-000683,"My transaction went to <PERSON_1> instead of the intended account, so I want to cancel it.",1,11,0.9237580299377441
+336,test-000685,Please stop the transfer to <PERSON_1> that I made with the incorrect account number since the app won't allow me to cancel it.,1,11,0.8928422927856445
+337,test-000686,"I made a mistake with a transfer to <PERSON_1>, so please cancel it before it goes through.",0,11,0.8483456373214722
+338,test-000687,Please revert the payment I sent this morning from account <ACCOUNT_NUMBER_1>.,1,11,0.8804453015327454
+339,test-000691,I accidentally transferred money to an incorrect account from account <ACCOUNT_NUMBER_1>.,1,0,0.8629369735717773
+340,test-000692,I want to cancel a transfer from account <ACCOUNT_NUMBER_1> as soon as possible. Please assist.,1,11,0.9265505075454712
+341,test-000693,I need to cancel my transaction on account <ACCOUNT_NUMBER_1>.,1,11,0.9776208400726318
+342,test-000694,"I just realized the payment I made to <PERSON_1> had wrong details, and I need to cancel the transfer immediately.",0,11,0.8460881114006042
+343,test-000696,Can you reverse the transaction I sent to <PERSON_1> a while ago?,1,11,0.8586688041687012
+344,test-000697,I want to cancel the transfer from account <ACCOUNT_NUMBER_1> that went through this morning.,1,11,0.9132488965988159
+345,test-000698,Can you cancel the transfer I set up from account <ACCOUNT_NUMBER_1>?,1,11,0.9305773973464966
+346,test-000700,I made a transfer to <PERSON_1> with an incorrect amount and want it canceled.,1,11,0.8828946352005005
+347,test-000701,I transferred to <PERSON_1> from account <ACCOUNT_NUMBER_1> by mistake; what can I do now?,1,0,0.860090970993042
+348,test-000702,I want to stop an erroneous transfer that went to <PERSON_1>.,0,11,0.8465280532836914
+349,test-000703,What steps should I take to cancel a transfer from account <ACCOUNT_NUMBER_1>?,1,11,0.9394087791442871
+350,test-000704,I need to cancel a transaction I made by mistake with account <ACCOUNT_NUMBER_1>.,1,11,0.9566926956176758
+351,test-000705,I made a transfer to an account that isn't <PERSON_1>'s and want to cancel it.,1,11,0.8898836374282837
+352,test-000706,I mistakenly sent a transfer to <PERSON_1> and need it cancelled before it processes.,1,11,0.8537744879722595
+353,test-000707,Can you cancel the transfer I executed this morning from account <ACCOUNT_NUMBER_1>?,1,11,0.9163922071456909
+354,test-000709,Can you tell me how to cancel my transaction with <PERSON_1>?,1,11,0.9210225343704224
+355,test-000710,I need to cancel the transaction associated with account <ACCOUNT_NUMBER_1>.,1,11,0.9758428335189819
+356,test-000711,Can you urgently cancel the transfer to <PERSON_1>? I didn't mean to send it.,1,11,0.8616328239440918
+357,test-000712,I need to cancel a transfer I made by mistake from account <ACCOUNT_NUMBER_1>.,1,11,0.9254260063171387
+358,test-000713,Can you help cancel a payment I made by mistake yesterday to <PERSON_1>? It's urgent because that money is for my rent tomorrow.,0,14,0.7950283885002136
+359,test-000714,I want to cancel the last transaction sent from account <ACCOUNT_NUMBER_1>.,1,11,0.951530933380127
+360,test-000715,I need to stop a transfer from account <ACCOUNT_NUMBER_1> right away because I made an error.,1,11,0.8848038911819458
+361,test-000716,I need to cancel the transfer that was going to <PERSON_1>.,1,11,0.8846189975738525
+362,test-000717,Please cancel the transaction to <PERSON_1>; I don't want it to go through now.,1,11,0.8809632062911987
+363,test-000718,How do I cancel a payment from account <ACCOUNT_NUMBER_1> that I made with an incorrect amount?,1,11,0.9208877086639404
+364,test-000719,Help me cancel a transaction on account <ACCOUNT_NUMBER_1>.,1,11,0.978787899017334
+365,test-000720,I want to limit my top-ups using card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1>.,1,2,0.8683128952980042
+366,test-000760,"Just attempted to get 30 pounds from the ATM with card <CREDIT_CARD_1>, but it only gave me 10. Is something wrong with the machine or my account?",0,8,0.8289858102798462
+367,test-000761,"The amount of cash I got at the ATM was less than what I asked for, and I was using card <CREDIT_CARD_1>.",0,8,0.8213428854942322
+368,test-000762,The ATM didn't give me the full amount I requested; my card <CREDIT_CARD_1> was used for the withdrawal.,1,8,0.8925312757492065
+369,test-000783,The ATM didn't give me the complete amount I requested when I took money out of account <ACCOUNT_NUMBER_1>.,0,4,0.8487949371337891
+370,test-000784,There's a problem with my withdrawal from account <ACCOUNT_NUMBER_1>; the money isn't right.,1,0,0.850039005279541
+371,test-000785,"I withdrew the wrong amount from an ATM, but the app shows I actually received that amount. How can I get the cash back from account <ACCOUNT_NUMBER_1>?",1,8,0.8997565507888794
+372,test-000786,"I requested 100 from account <ACCOUNT_NUMBER_1>, but received only 20.",0,0,0.8129066824913025
+373,test-000787,I didn't get the correct cash back amount from account <ACCOUNT_NUMBER_1>.,1,6,0.8788163065910339
+374,test-000788,"From account <ACCOUNT_NUMBER_1>, the ATM gave me less money than I had entered.",0,6,0.8156630396842957
+375,test-000789,I didn't receive the full amount of cash I asked for from the ATM. Why did this happen with account <ACCOUNT_NUMBER_1>?,1,4,0.8556410074234009
+376,test-000790,"I withdrew 30 pounds from the ATM, but it only gave me 10. What should I do about this with account <ACCOUNT_NUMBER_1>?",1,8,0.8568812012672424
+377,test-000791,The cash I got from account <ACCOUNT_NUMBER_1> wasn't the right amount—how can I fix this?,1,6,0.8907220363616943
+378,test-000792,I didn't receive all the cash I asked for from account <ACCOUNT_NUMBER_1>.,1,4,0.8653868436813354
+379,test-000793,I asked for $100 from account <ACCOUNT_NUMBER_1> but got $20 instead.,0,1,0.8296292424201965
+380,test-000795,My withdrawal from account <ACCOUNT_NUMBER_1> came out short—the ATM didn't give me the full amount I asked for.,1,8,0.8575358986854553
+381,test-000796,I'm short on cash from my withdrawal with card <CREDIT_CARD_1>; I asked for more than I got.,1,8,0.8596041202545166
+382,test-000797,The ATM gave me an incorrect cash amount when I used card <CREDIT_CARD_1>.,1,8,0.8687938451766968
+383,test-000800,There's an extra charge on my account <ACCOUNT_NUMBER_1> after I paid with card <CREDIT_CARD_1>.,1,1,0.9438788890838623
+384,test-000801,"I used my card <CREDIT_CARD_1> and then noticed a fee was charged, but it wasn't supposed to happen.",1,1,0.8652615547180176
+385,test-000802,Could you tell me why using card <CREDIT_CARD_1> as payment resulted in a fee? This has never happened to me before.,1,1,0.8564246892929077
+386,test-000803,I used my card and now I see an additional fee on account <ACCOUNT_NUMBER_1>; why did that happen?,1,1,0.9467729330062866
+387,test-000805,"After using card <CREDIT_CARD_1> for a transaction, I noticed a fee charged to account <ACCOUNT_NUMBER_1>.",1,1,0.9237468242645264
+388,test-000806,There's a charge on my card <CREDIT_CARD_1> that I didn't expect. Could you look into account <ACCOUNT_NUMBER_1> and clarify why it was added?,1,1,0.9152222871780396
+389,test-000809,What caused the extra fee on my card payment for account <ACCOUNT_NUMBER_1>?,1,1,0.9482027292251587
+390,test-000810,Can you explain the extra charge on account <ACCOUNT_NUMBER_1> for using my card?,1,1,0.9417636394500732
+391,test-000813,What fee is charged when I pay with card <CREDIT_CARD_1>?,0,1,0.8213901519775391
+392,test-000815,Can you explain the additional fee on my card <CREDIT_CARD_1> payment?,1,1,0.8859815001487732
+393,test-000816,I used my card <CREDIT_CARD_1> to make a payment and now a fee appears. What is it for?,0,1,0.8415076732635498
+394,test-000817,My account <ACCOUNT_NUMBER_1> shows a fee for a card payment I made.,1,1,0.8989159464836121
+395,test-000822,I paid with card and noticed a fee on account <ACCOUNT_NUMBER_1>.,1,1,0.9174879789352417
+396,test-000823,"When I paid by card, I noticed a fee was added to my account <ACCOUNT_NUMBER_1>.",1,1,0.9130746126174927
+397,test-000827,I got charged a fee for using my card to pay from account <ACCOUNT_NUMBER_1>.,1,1,0.9003680348396301
+398,test-000828,This is the first time I've seen a fee on my account; how do I know when you charge such fees to card <CREDIT_CARD_1>?,1,1,0.8651993274688721
+399,test-000829,There was an unexpected charge on a payment using my card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1> that I was never made aware of.,1,5,0.9095562696456909
+400,test-000831,"After I paid using card <CREDIT_CARD_1>, a separate fee was deducted from account <ACCOUNT_NUMBER_1>. Can you explain why?",1,1,0.8926677703857422
+401,test-000834,Why did paying with my card incur a fee on account <ACCOUNT_NUMBER_1>?,1,1,0.9255797863006592
+402,test-000835,Can you explain the fee that appeared on my account for card <CREDIT_CARD_1>?,1,1,0.8856340646743774
+403,test-000837,Can you explain why I was charged a fee when I paid with card <CREDIT_CARD_1>?,1,1,0.8755719661712646
+404,test-000838,I noticed a card payment fee on account <ACCOUNT_NUMBER_1>; what's it for?,1,1,0.897310733795166
+405,test-000839,A fee was added because I paid with card <CREDIT_CARD_1>.,1,1,0.8724908828735352
+406,test-000840,"I did a domestic transfer a few days ago and checked the account info repeatedly, but the payment to <PERSON_1> is still not showing up. Can you tell me what's going on?",1,0,0.8742939233779907
+407,test-000841,I'm concerned because the payment from account <ACCOUNT_NUMBER_1> still hasn't shown up for the person I sent it to.,1,9,0.8892645835876465
+408,test-000842,My transfer to <PERSON_1> is still pending completion.,0,0,0.8297723531723022
+409,test-000843,My payment to <PERSON_1> isn't visible in their account yet.,0,9,0.8451773524284363
+410,test-000844,"I sent money to <PERSON_1>, but they haven't received it yet.",0,4,0.8338983058929443
+411,test-000847,"I sent money to <PERSON_1>, but they haven't received it yet; what could be causing this delay?",0,9,0.8230072259902954
+412,test-000848,My payment to <PERSON_1> hasn't shown up yet.,0,9,0.8422002792358398
+413,test-000850,"I transferred some money to <PERSON_1>, but it hasn't arrived.",1,0,0.8679865598678589
+414,test-000851,I started a transfer from account <ACCOUNT_NUMBER_1> and I'm wondering where it is now.,1,0,0.898864209651947
+415,test-000852,"My transfer to <PERSON_1> from account <ACCOUNT_NUMBER_1> didn't complete, did it?",1,0,0.9400625824928284
+416,test-000853,"I sent money, but it's not showing up on <PERSON_1>'s side.",0,4,0.8100122809410095
+417,test-000854,I completed a transfer from account <ACCOUNT_NUMBER_1> and the recipient is still waiting for it.,1,0,0.8735449910163879
+418,test-000855,"I sent money from account <ACCOUNT_NUMBER_1>, but the recipient says it's not showing up.",1,0,0.887663722038269
+419,test-000856,"The rent payment I made a few days ago for my new apartment shows as processed, but my landlord says it hasn't arrived. I verified I used the right account number <ACCOUNT_NUMBER_1>; can you look into whether the transfer really completed?",0,0,0.8230721950531006
+420,test-000857,"Can you check what happened with my transfer that didn't arrive, sent from account <ACCOUNT_NUMBER_1>?",1,0,0.935539722442627
+421,test-000858,"I've changed address from Durham to Walton-On-The-Naze, and my new landlord hasn't received my payment which I know I sent on time. Please check if <PERSON_1> received it.",0,5,0.7448070049285889
+422,test-000859,"I made a payment from account <ACCOUNT_NUMBER_1>, but <PERSON_1> hasn't received the money.",1,0,0.8689610958099365
+423,test-000860,I need help because the transfer I sent to <PERSON_1> isn't complete yet; they should have gotten it by now.,1,0,0.8586716055870056
+424,test-000861,"I transferred money domestically the day before yesterday and it hasn't gone through. Can you investigate the transfer to <PERSON_1>? I'm sure the account number is right, I checked it twice.",1,0,0.9067923426628113
+425,test-000862,My friend hasn't received the money I transferred from account <ACCOUNT_NUMBER_1> a couple of hours ago. Can you tell me why it's delayed and how long transfers normally take?,1,0,0.9004541039466858
+426,test-000863,Something is preventing <PERSON_1> from picking up the transfer I made from account <ACCOUNT_NUMBER_1>.,1,0,0.8875267505645752
+427,test-000864,My transfer from account <ACCOUNT_NUMBER_1> to <PERSON_1> isn't showing up. Where is the transaction?,1,0,0.9028944969177246
+428,test-000865,"I made a transfer from account <ACCOUNT_NUMBER_1>, but my friend says it hasn't arrived yet.",1,0,0.8905802965164185
+429,test-000866,Still waiting for my transaction to <PERSON_1> to be completed.,0,9,0.7981199622154236
+430,test-000867,"I made a payment to <PERSON_1> using account <ACCOUNT_NUMBER_1>, and it is taking a very long time.",0,9,0.8224191069602966
+431,test-000868,Is there a reason my transfer from account <ACCOUNT_NUMBER_1> to <PERSON_1> is still pending?,1,0,0.8945693969726562
+432,test-000869,Can you tell me how long my transfer from account <ACCOUNT_NUMBER_1> will take to go through?,1,0,0.8981471061706543
+433,test-000870,"I sent some money to <PERSON_1> from account <ACCOUNT_NUMBER_1>, but they can't access it.",1,0,0.8607733249664307
+434,test-000871,<PERSON_1> hasn't gotten the money I sent a few hours ago. Can you tell me how much longer it might take?,0,0,0.839561939239502
+435,test-000872,<PERSON_1> hasn't received the money I transferred.,1,0,0.8757930397987366
+436,test-000873,What is the expected arrival time for my transfer from account <ACCOUNT_NUMBER_1> to <PERSON_1>?,0,0,0.8340106010437012
+437,test-000874,"How long does it take for transfers to complete? I transferred funds from account <ACCOUNT_NUMBER_1> to my pal, and she says nothing has arrived.",1,0,0.8508386015892029
+438,test-000875,"Can you tell me the standard transfer duration? My transfer to <PERSON_1> from a couple hours ago still hasn't reached her, and it's urgent.",1,0,0.8559198379516602
+439,test-000876,How long does it take for my transfer to reach <PERSON_1>?,0,0,0.8428014516830444
+440,test-000877,<PERSON_1> hasn't gotten the funds I transferred. Can you look into it?,1,0,0.906043291091919
+441,test-000878,"The transfer to <PERSON_1> is still pending, and I am waiting for it to be completed.",0,0,0.8195483684539795
+442,test-000879,"I sent money, but <PERSON_1> is having trouble withdrawing it.",0,0,0.84028160572052
+443,test-000925,"I asked for a virtual card on account <ACCOUNT_NUMBER_1>, but it's not appearing. What's the reason?",0,13,0.8167756795883179
+444,test-000927,Can you help me find the virtual card associated with account <ACCOUNT_NUMBER_1>?,0,5,0.8149830102920532
+445,test-000931,Could you tell me why the virtual card for account <ACCOUNT_NUMBER_1> hasn't arrived yet?,1,13,0.8522079586982727
+446,test-000937,Can you help me get a virtual card for my account <ACCOUNT_NUMBER_1>?,0,3,0.7928526401519775
+447,test-000938,Can you tell me where the virtual card for account <ACCOUNT_NUMBER_1> is located?,0,13,0.8186569213867188
+448,test-000940,How would I go about getting the virtual card for account <ACCOUNT_NUMBER_1>?,0,13,0.8128073811531067
+449,test-000942,I'd like to get one of those virtual cards for account <ACCOUNT_NUMBER_1>.,0,13,0.7991751432418823
+450,test-001000,"I need a refund because my top-up was cancelled, and it was paid with card <CREDIT_CARD_1>.",1,7,0.8748016953468323
+451,test-001001,What should I do if a top up from account <ACCOUNT_NUMBER_1> gets reverted?,1,2,0.8830425143241882
+452,test-001002,Could you tell me if the top up made with card <CREDIT_CARD_1> has reverted?,1,2,0.8949766159057617
+453,test-001003,"I topped up and saw it complete, but the balance is no longer there for card <CREDIT_CARD_1>! What happened?",0,2,0.8337991237640381
+454,test-001004,I seem to have topped up twice without meaning to. Could you please help me get a refund for the extra payment on account <ACCOUNT_NUMBER_1>?,1,2,0.8606085777282715
+455,test-001005,Can you check if the top up on my account <ACCOUNT_NUMBER_1> was actually reverted?,1,2,0.8594006299972534
+456,test-001006,My attempt to add money via the app failed for account <ACCOUNT_NUMBER_1>.,0,2,0.8102868795394897
+457,test-001007,"After topping up, I saw a confirmation, yet the balance no longer shows the funds. Where did my money go after using card <CREDIT_CARD_1>?",0,2,0.8479288220405579
+458,test-001008,I think my top up failed using card <CREDIT_CARD_1>. Did something go wrong on your side?,1,2,0.9316177368164062
+459,test-001009,The top-up I made into account <ACCOUNT_NUMBER_1> was reverted. Why did that happen?,1,2,0.8969815969467163
+460,test-001010,"I attempted to fund account <ACCOUNT_NUMBER_1> with the required minimum balance, but the application didn't accept it.",0,14,0.8191114664077759
+461,test-001011,Please tell me if the top-up for account <ACCOUNT_NUMBER_1> got cancelled.,1,2,0.8708719611167908
+462,test-001012,"After I topped up with my card <CREDIT_CARD_1>, the application reverted the transaction.",1,2,0.8582887649536133
+463,test-001014,I noticed my top-up was reversed on account <ACCOUNT_NUMBER_1> after I used card <CREDIT_CARD_1>.,1,2,0.9289699792861938
+464,test-001015,My top-up was reverted by the application with card <CREDIT_CARD_1>.,1,2,0.9019899368286133
+465,test-001016,"My top-up from account <ACCOUNT_NUMBER_1> was cancelled, I think.",1,2,0.8976801633834839
+466,test-001017,"I was under the impression you offered crypto top up, but it doesn't seem to work. The amount has been taken from account <ACCOUNT_NUMBER_1>.",0,2,0.8301510810852051
+467,test-001018,The top up I made using card <CREDIT_CARD_1> was reverted by the app.,1,2,0.8826659917831421
+468,test-001019,My top-up isn't there anymore. Was the money returned to account <ACCOUNT_NUMBER_1>?,1,2,0.879228413105011
+469,test-001020,What happened to my top-up made with card <CREDIT_CARD_1>?,1,2,0.912616491317749
+470,test-001021,Why did my top up via card <CREDIT_CARD_1> end up reverted?,1,2,0.9173694849014282
+471,test-001023,"When I added money with card <CREDIT_CARD_1>, the app reverted the transaction.",0,1,0.8440364599227905
+472,test-001024,My top-up was canceled for account <ACCOUNT_NUMBER_1>; what happened?,1,2,0.8864331245422363
+473,test-001025,"Tried to add money with crypto, but the payment was reverted. It was on my card <CREDIT_CARD_1>.",0,14,0.8071115016937256
+474,test-001026,"My top up was reverted by the app, and it was funded using card <CREDIT_CARD_1>.",1,2,0.8763431310653687
+475,test-001027,"After I topped up with card <CREDIT_CARD_1>, the app reverted the action.",1,2,0.8569737672805786
+476,test-001028,Is it true that my top up for account <ACCOUNT_NUMBER_1> got reversed?,1,2,0.9050089716911316
+477,test-001029,"I noticed my top-up got canceled, but what was the reason for account <ACCOUNT_NUMBER_1>?",1,2,0.8993114829063416
+478,test-001030,Could you tell me whether the top-up on card <CREDIT_CARD_1> has been reversed?,1,2,0.9220329523086548
+479,test-001031,Has the top-up I made from account <ACCOUNT_NUMBER_1> been cancelled?,1,2,0.889736533164978
+480,test-001032,The top-up on my account <ACCOUNT_NUMBER_1> was reverted.,1,2,0.8741562366485596
+481,test-001034,"I topped up with card <CREDIT_CARD_1>, but the app reverted that transaction.",1,2,0.8764597773551941
+482,test-001035,Has my top-up been reverted from account <ACCOUNT_NUMBER_1> with card <CREDIT_CARD_1>?,1,2,0.9372583627700806
+483,test-001036,"I'm really frustrated because my top-up was canceled without any explanation, and it involved account <ACCOUNT_NUMBER_1>.",1,2,0.8571841716766357
+484,test-001037,My top-up was reverted from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.,1,2,0.9278236627578735
+485,test-001038,I noticed my latest top-up wasn't successful for account <ACCOUNT_NUMBER_1>.,1,2,0.8926608562469482
+486,test-001039,The top-up on my account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1> was reverted; why did that happen?,1,2,0.9436571002006531
+487,test-001040,"I deposited a cheque yesterday, but it seems the balance hasn't been updated. Please review account <ACCOUNT_NUMBER_1> and let me know what's happening.",1,4,0.8809800148010254
+488,test-001041,Can you tell me why the deposit isn't reflected in account <ACCOUNT_NUMBER_1> yet?,1,4,0.8855295777320862
+489,test-001042,Why is account <ACCOUNT_NUMBER_1> not showing the updated balance after my cheque deposit?,1,4,0.8976943492889404
+490,test-001043,"My deposit from a week ago hasn't appeared in account <ACCOUNT_NUMBER_1> yet, and I really need access to that cash now.",1,4,0.8951144218444824
+491,test-001044,"It's been nearly a week since I made a cash deposit to account <ACCOUNT_NUMBER_1>, and the funds are still not showing. Can you fix this immediately? I really need that money.",1,4,0.8738243579864502
+492,test-001045,There's no sign of my cash deposit in account <ACCOUNT_NUMBER_1>. What happened to it?,1,4,0.8983550071716309
+493,test-001046,What should I do to have my cash deposit reflected in account <ACCOUNT_NUMBER_1>?,1,4,0.8868322372436523
+494,test-001047,"After depositing cash this morning, how long until it appears in my available balance for account <ACCOUNT_NUMBER_1>?",1,4,0.9206000566482544
+495,test-001048,I made a cash deposit this morning and it hasn't been credited to account <ACCOUNT_NUMBER_1> yet.,1,4,0.9254157543182373
+496,test-001049,Can you tell me why the funds from my cheque deposit aren't showing in account <ACCOUNT_NUMBER_1>?,1,4,0.8764342069625854
+497,test-001050,"I deposited cash at the bank, but it's not appearing in my account <ACCOUNT_NUMBER_1>.",1,4,0.9395363330841064
+498,test-001051,"After depositing cheques and cash, my account <ACCOUNT_NUMBER_1> still shows the old balance.",1,4,0.8914673328399658
+499,test-001052,"I made a deposit this morning, yet the funds are not reflected in account <ACCOUNT_NUMBER_1> yet.",1,4,0.9044415950775146
+500,test-001053,I see a red flag against the cash deposit into account <ACCOUNT_NUMBER_1>.,0,6,0.8228921890258789
+501,test-001054,I put money into account <ACCOUNT_NUMBER_1> and it's still not showing up.,1,4,0.8994297981262207
+502,test-001055,My account <ACCOUNT_NUMBER_1> still shows the old balance even after my check deposit.,1,4,0.8765252828598022
+503,test-001056,Is it possible to deposit a cheque into my account <ACCOUNT_NUMBER_1>? Mine didn't seem to work.,0,4,0.8474249839782715
+504,test-001057,I deposited a cheque but my balance on account <ACCOUNT_NUMBER_1> hasn't changed.,1,4,0.9263502359390259
+505,test-001058,My account <ACCOUNT_NUMBER_1> hasn't been updated after my cash deposit yet.,1,4,0.9456413388252258
+506,test-001059,"It's been a couple of days since I deposited a cheque, but account <ACCOUNT_NUMBER_1> still doesn't reflect it. Could you find out what the problem might be?",1,4,0.8822791576385498
+507,test-001060,Where is the money I deposited into account <ACCOUNT_NUMBER_1>?,1,4,0.8698530197143555
+508,test-001061,My bank statement is missing the cash deposit I recently made to account <ACCOUNT_NUMBER_1>.,1,4,0.8905251026153564
+509,test-001062,The cash I deposited into account <ACCOUNT_NUMBER_1> seven days ago hasn't appeared. I need that money urgently—what's the fastest you can sort this out?,1,4,0.8958714008331299
+510,test-001063,My balance still doesn't reflect the cash or cheque deposit I made to account <ACCOUNT_NUMBER_1>.,1,4,0.9056720733642578
+511,test-001064,The cash I deposited isn't showing up in account <ACCOUNT_NUMBER_1>. Why is that?,1,4,0.9367727041244507
+512,test-001065,My account <ACCOUNT_NUMBER_1> still doesn't reflect the cash and check deposit I made.,1,4,0.9034458994865417
+513,test-001066,"After I deposited a check, the balance on account <ACCOUNT_NUMBER_1> still shows the old amount.",1,4,0.894031286239624
+514,test-001068,"I deposited cash into account <ACCOUNT_NUMBER_1>, but the balance hasn't updated and the money seems to have vanished.",1,4,0.9704118967056274
+515,test-001069,"I deposited a cheque into account <ACCOUNT_NUMBER_1>, but the balance hasn't been updated yet.",1,4,0.959291398525238
+516,test-001070,I deposited a cheque into account <ACCOUNT_NUMBER_1> and it hasn't posted yet; when will my balance update?,1,4,0.9266374111175537
+517,test-001071,My cash deposit to account <ACCOUNT_NUMBER_1> still hasn't shown up in the balance.,1,4,0.9412062168121338
+518,test-001072,My account hasn't reflected the cheque I deposited a few days ago. Can you please investigate account <ACCOUNT_NUMBER_1>?,1,4,0.8713037371635437
+519,test-001073,Is the check I deposited available in account <ACCOUNT_NUMBER_1> yet? I want to get the cash.,1,4,0.8869006037712097
+520,test-001075,Why hasn't my cash deposit shown up yet? I deposited into account <ACCOUNT_NUMBER_1> and this is unacceptable—I need that money immediately.,1,4,0.8858447074890137
+521,test-001076,"Cash went into account <ACCOUNT_NUMBER_1> this morning, and I'm still waiting for the balance to reflect it.",1,4,0.9167813658714294
+522,test-001077,"After depositing a cheque or cash, my account <ACCOUNT_NUMBER_1> balance still hasn't changed.",1,4,0.9124462604522705
+523,test-001078,The cash I put into account <ACCOUNT_NUMBER_1> isn't showing up yet.,1,4,0.9514880776405334
+524,test-001079,I deposited a cheque two days ago and nothing has been credited to account <ACCOUNT_NUMBER_1> yet. This is unacceptable.,1,4,0.8667724132537842
+525,test-001081,A payment was taken from card <CREDIT_CARD_1> without my approval.,0,5,0.8456681966781616
+526,test-001082,I see an unfamiliar payment on my card <CREDIT_CARD_1> that I did not do.,1,5,0.9114552736282349
+527,test-001083,There's a charge showing in my app that I don't recognize on account <ACCOUNT_NUMBER_1>. What should I do?,1,1,0.8601375222206116
+528,test-001084,There is a payment I didn't authorize on my card <CREDIT_CARD_1>.,1,5,0.8802945613861084
+529,test-001085,I'm seeing a card payment that I did not make on card <CREDIT_CARD_1>.,1,5,0.8931597471237183
+530,test-001087,I spotted a payment on my account <ACCOUNT_NUMBER_1> that I didn't approve.,1,5,0.9027228951454163
+531,test-001089,I have no memory of that transaction on account <ACCOUNT_NUMBER_1>.,1,11,0.869042158126831
+532,test-001090,I found unknown charges on my card <CREDIT_CARD_1> that were debited from account <ACCOUNT_NUMBER_1> over the last couple of days. I need to know if I can revert them and have the card frozen immediately.,0,5,0.8296922445297241
+533,test-001091,"Unauthorized transactions are appearing in the app, and I'm worried someone accessed my card <CREDIT_CARD_1>.",1,5,0.8616248965263367
+534,test-001092,There are unauthorized transactions on my card <CREDIT_CARD_1> from a few days ago. Could it be stolen? Do I need to cancel it and will the charges be refunded to account <ACCOUNT_NUMBER_1>?,0,5,0.8497503399848938
+535,test-001094,There's a payment I don't recognize on my account <ACCOUNT_NUMBER_1>.,1,5,0.9385851621627808
+536,test-001095,A transaction on account <ACCOUNT_NUMBER_1> wasn't authorized by me.,1,11,0.8815485835075378
+537,test-001096,There are transactions on my card <CREDIT_CARD_1> that I don't recognize. Please freeze my account and help me fix this issue.,1,5,0.854345440864563
+538,test-001097,I can see a card payment on account <ACCOUNT_NUMBER_1> that I don't recognize.,1,5,0.9470154047012329
+539,test-001098,I see a transaction on account <ACCOUNT_NUMBER_1> made by card <CREDIT_CARD_1> that I don't recognise.,1,5,0.9131342172622681
+540,test-001099,A payment was made with my card <CREDIT_CARD_1> but it wasn't me.,1,5,0.8658168315887451
+541,test-001100,"I'm seeing charges I can't identify, so I need you to lock card <CREDIT_CARD_1> right away.",0,5,0.8318118453025818
+542,test-001102,"There's a charge on my account <ACCOUNT_NUMBER_1> that I don't recognize, and I need help with it.",1,5,0.8695732355117798
+543,test-001103,"There are transactions on account <ACCOUNT_NUMBER_1> that I didn't make; my card must be compromised, so freeze it as soon as possible.",1,5,0.8530987501144409
+544,test-001104,Can you look into a payment on my card <CREDIT_CARD_1> that seems wrong?,1,5,0.8961120843887329
+545,test-001105,Some payments appeared on my card that weren't mine. I'd like you to freeze account <ACCOUNT_NUMBER_1> for now.,1,5,0.8691335916519165
+546,test-001106,I don't recognize a payment that was made from account <ACCOUNT_NUMBER_1> using my card.,1,5,0.9194652438163757
+547,test-001107,"I found a purchase I didn't make on my card <CREDIT_CARD_1>, and the money was taken from account <ACCOUNT_NUMBER_1>.",1,5,0.874203622341156
+548,test-001108,A payment in the app for account <ACCOUNT_NUMBER_1> was not made by me.,1,14,0.8633511066436768
+549,test-001109,I see a transaction on my card <CREDIT_CARD_1> and I don't know where it came from.,1,5,0.8923231959342957
+550,test-001110,I noticed an unrecognized charge on my account <ACCOUNT_NUMBER_1> and I'm worried it might be compromised.,1,5,0.8699626326560974
+551,test-001111,"There's a charge on my card <CREDIT_CARD_1> that I know I didn't make, and I have no memory of this person.",0,5,0.832207977771759
+552,test-001112,I see a purchase on my account <ACCOUNT_NUMBER_1> from card <CREDIT_CARD_1> that wasn't me.,1,5,0.8812172412872314
+553,test-001113,"I don't recognize a recent charge on my card, and I've never seen that company name before. Could you investigate this for account <ACCOUNT_NUMBER_1>?",1,5,0.8781977295875549
+554,test-001114,I noticed that the merchant names on certain transactions with card <CREDIT_CARD_1> are not the same as the stores I made purchases at. What's the reason for this?,0,2,0.7937549352645874
+555,test-001115,There's an unrecognized charge on my statement. How should I handle card <CREDIT_CARD_1>?,0,1,0.8420349955558777
+556,test-001116,A purchase has appeared on account <ACCOUNT_NUMBER_1> that I didn't make myself.,1,5,0.8526496887207031
+557,test-001117,A fraudulent charge appeared on my statement for card <CREDIT_CARD_1>.,1,1,0.8614890575408936
+558,test-001118,Could you clarify a transaction on my account that I never authorized? It involves card <CREDIT_CARD_1>.,1,5,0.8671221733093262
+559,test-001119,"I found a payment in my statement that isn't familiar to me, on card <CREDIT_CARD_1>.",1,5,0.8944501280784607
+560,test-001120,I've moved and need to update my address from <STREET_ADDRESS_1>; what's the process?,0,13,0.7917293310165405
+561,test-001121,How do I update my address to <STREET_ADDRESS_1>?,0,13,0.7774969339370728
+562,test-001122,Please tell me how to edit the personal information associated with <PERSON_1>.,0,11,0.676604151725769
+563,test-001123,I need to change the address on file to <STREET_ADDRESS_1>.,0,13,0.6985573768615723
+564,test-001124,"After my marriage, I need to change the account name associated with customer ID <CUSTOMER_ID_1>.",0,11,0.7287380695343018
+565,test-001125,My address has changed; it's now <STREET_ADDRESS_1>.,0,13,0.7924931049346924
+566,test-001126,"After getting married, I'd like to update my name to <PERSON_1>.",0,13,0.6560009717941284
+567,test-001127,Please change the personal details for the address <STREET_ADDRESS_1> on my profile.,0,13,0.7420737147331238
+568,test-001129,Can you assist me with modifying <PERSON_1>'s personal information in my account?,0,11,0.7459090352058411
+569,test-001133,"Please help me modify my account details, associated with customer ID <CUSTOMER_ID_1>.",0,11,0.7862644195556641
+570,test-001136,Can you update my personal details for customer ID <CUSTOMER_ID_1>?,0,11,0.7303980588912964
+571,test-001137,My residential address is now <STREET_ADDRESS_1>; how do I update it?,0,13,0.7536638975143433
+572,test-001138,Can you update my personal details to reflect <STREET_ADDRESS_1>?,0,13,0.7974990010261536
+573,test-001141,"My address is now <STREET_ADDRESS_1>, and I'd like it updated on my account for customer ID <CUSTOMER_ID_1>.",0,13,0.8299528956413269
+574,test-001149,I need to change my address on file to <STREET_ADDRESS_1>.,0,13,0.7201136350631714
+575,test-001152,I want to modify my personal information by setting my address to <STREET_ADDRESS_1>.,0,13,0.7605545520782471
+576,test-001153,I have a new home address. Can you tell me how to update my details for customer ID <CUSTOMER_ID_1>?,0,13,0.7709119319915771
+577,test-001159,What is the process for changing my account address to <STREET_ADDRESS_1>?,0,13,0.8281797170639038
+578,test-001200,I am unable to confirm my identity using the mobile number <PHONE_NUMBER_1>.,0,13,0.720281720161438
+579,test-001201,I don't have what I need to prove who I am for customer ID <CUSTOMER_ID_1>.,0,5,0.7051253914833069
+580,test-001202,What is preventing the app from confirming my identity as <PERSON_1>?,0,12,0.7013140916824341
+581,test-001203,I am struggling to verify my identity as <PERSON_1>.,0,10,0.7319355010986328
+582,test-001204,My verification didn't go through; can you tell me what to do for my account at <STREET_ADDRESS_1>?,0,13,0.8173702955245972
+583,test-001205,I am unable to verify my identity through phone number <PHONE_NUMBER_1>.,0,3,0.7316831350326538
+584,test-001206,It's not recognizing my identity even with the registered <EMAIL_ADDRESS_1>.,0,13,0.7084227800369263
+585,test-001207,"As <PERSON_1>, I'm unable to complete the ID verification process.",0,3,0.7472001314163208
+586,test-001208,The app fails to identify me as <PERSON_1> associated with customer ID <CUSTOMER_ID_1>.,0,3,0.7401353120803833
+587,test-001209,Please help me verify my identity associated with customer ID <CUSTOMER_ID_1>.,0,5,0.7354885339736938
+588,test-001210,The app failed to verify my identity for phone number <PHONE_NUMBER_1>.,0,14,0.7269279360771179
+589,test-001211,I can't verify my identity as <PERSON_1>.,0,3,0.7336229085922241
+590,test-001212,I'm having trouble verifying my identity as <PERSON_1>.,0,10,0.7337453365325928
+591,test-001213,I keep getting an error that <PERSON_1> is not recognized by the system.,0,3,0.7275724411010742
+592,test-001214,Why is my identity verification failing despite my registered address <STREET_ADDRESS_1>?,0,13,0.7785967588424683
+593,test-001215,"I'm unable to get into my account through the app, even though I'm using <EMAIL_ADDRESS_1>.",0,0,0.7537057399749756
+594,test-001216,I'm having issues confirming my identity under the name <PERSON_1>.,0,10,0.7170023918151855
+595,test-001217,I can't verify my identity with the phone number <PHONE_NUMBER_1> you have on file.,0,0,0.7186477184295654
+596,test-001218,I can't get my identity verified for the address <STREET_ADDRESS_1>.,0,13,0.7804558277130127
+597,test-001219,The app keeps failing to identify me when I provide customer ID <CUSTOMER_ID_1> and phone number <PHONE_NUMBER_1>.,0,3,0.7176273465156555
+598,test-001220,"As <PERSON_1>, I can't get through the identity verification step.",0,10,0.7380837202072144
+599,test-001221,"When I try to open the app as <PERSON_1>, it says it doesn't recognize me.",0,3,0.7164226770401001
+600,test-001222,I am unable to verify my identity on the account associated with <EMAIL_ADDRESS_1>.,0,14,0.739335298538208
+601,test-001223,The app fails to verify that I am the person associated with <STREET_ADDRESS_1>.,0,13,0.7359040379524231
+602,test-001224,Why can't you verify my ID? I gave the phone number <PHONE_NUMBER_1>.,0,14,0.7683448791503906
+603,test-001226,"I tried verifying my ID associated with <EMAIL_ADDRESS_1>, but the system won't let me.",0,10,0.7283902168273926
+604,test-001227,Can you explain how to verify my identity using <EMAIL_ADDRESS_1>?,0,13,0.7382747530937195
+605,test-001228,I'm struggling to verify my identity under <PERSON_1> and customer ID <CUSTOMER_ID_1>.,0,10,0.7261615991592407
+606,test-001229,I'm struggling to verify who I am using <STREET_ADDRESS_1>.,0,13,0.7664422988891602
+607,test-001231,Why can't I verify my ID? The account's address is <STREET_ADDRESS_1>.,0,13,0.8028561472892761
+608,test-001232,"As <PERSON_1>, I'm running into trouble getting my identity verified.",0,10,0.7446220517158508
+609,test-001233,The app keeps failing to verify that I am the person behind customer ID <CUSTOMER_ID_1>.,0,3,0.7195169925689697
+610,test-001234,Why can't I get my ID verified for the account associated with <EMAIL_ADDRESS_1>?,0,13,0.7522270679473877
+611,test-001235,I am having trouble verifying my identity as <PERSON_1>.,0,10,0.7329941987991333
+612,test-001236,"The mobile app won't authenticate me, and I'm using the correct customer ID <CUSTOMER_ID_1>.",0,3,0.7184711694717407
+613,test-001237,Why am I unable to verify my identity as <PERSON_1> with customer ID <CUSTOMER_ID_1>?,0,3,0.7353090047836304
+614,test-001238,What's preventing me from verifying my ID with the address <STREET_ADDRESS_1>?,0,13,0.7931196093559265
+615,test-001239,"There's an issue with verifying my identity, even with <PERSON_1> on the account.",0,14,0.7692033052444458
+616,test-001242,"I'm unable to locate my PIN, and I'm seeking guidance for my account associated with customer ID <CUSTOMER_ID_1>.",0,10,0.8438849449157715
+617,test-001244,Please help me locate my PIN for the account registered at <STREET_ADDRESS_1>.,0,13,0.8319584727287292
+618,test-001245,Can you guide me through configuring the PIN on my new card that's registered at <STREET_ADDRESS_1>?,1,10,0.8628200888633728
+619,test-001248,"I can't figure out where to locate my PIN, even after checking the correspondence sent to <STREET_ADDRESS_1>.",0,10,0.7989468574523926
+620,test-001251,"I just received my new card but I'm not sure how to check its PIN, and I need help with customer ID <CUSTOMER_ID_1>.",1,10,0.8694982528686523
+621,test-001254,Can you tell me the PIN of my card associated with account <ACCOUNT_NUMBER_1>?,1,10,0.876846194267273
+622,test-001257,"The card was delivered, but I'm still waiting for the PIN at <STREET_ADDRESS_1>.",0,13,0.8234950304031372
+623,test-001258,My account <ACCOUNT_NUMBER_1> isn't showing my PIN; why is that?,1,10,0.8574022650718689
+624,test-001262,I'm still waiting for my PIN; can you tell me why it isn't available for customer ID <CUSTOMER_ID_1>?,0,10,0.8449584245681763
+625,test-001263,I'd like to know if my PIN appears anywhere in my account information associated with <STREET_ADDRESS_1>.,0,13,0.8230711221694946
+626,test-001264,"I need assistance finding the PIN associated with account <ACCOUNT_NUMBER_1>, please.",0,10,0.848869800567627
+627,test-001265,I need to find where my PIN is printed for the card sent to <STREET_ADDRESS_1>.,0,10,0.8212268948554993
+628,test-001266,"As customer ID <CUSTOMER_ID_1>, I still don't have my PIN.",0,10,0.8154261112213135
+629,test-001267,What can you tell me about the card PIN associated with <STREET_ADDRESS_1>?,1,13,0.8530455827713013
+630,test-001268,Can you help me locate my card's PIN? My address on file is <STREET_ADDRESS_1>.,1,10,0.860371470451355
+631,test-001269,I'm requesting my PIN for the account at <STREET_ADDRESS_1>.,0,13,0.849640965461731
+632,test-001270,Where should I look to get my PIN if I live at <STREET_ADDRESS_1>?,0,13,0.7814835906028748
+633,test-001272,Help me locate the PIN for my card on account <ACCOUNT_NUMBER_1>. The address you have on file is <STREET_ADDRESS_1>.,1,10,0.8652761578559875
+634,test-001274,I can't find the PIN that was supposed to be delivered to <STREET_ADDRESS_1> for my card.,1,10,0.8777205944061279
+635,test-001276,The PIN for my card at <STREET_ADDRESS_1> is not showing up; why is that?,1,10,0.8786701560020447
+636,test-001277,"Please let me know where my card PIN is, as I can't find it for customer ID <CUSTOMER_ID_1>.",1,10,0.8632022738456726
+637,test-001278,What is the PIN for my card associated with account <ACCOUNT_NUMBER_1>?,1,10,0.8867659568786621
+638,test-001321,The money I used from account <ACCOUNT_NUMBER_1> for a card top-up never arrived. Where is it?,1,2,0.8947523236274719
+639,test-001330,"I tried to top up using card <CREDIT_CARD_1> as instructed, but the money vanished and I'm not sure what went wrong.",1,2,0.9223314523696899
+640,test-001331,"My card <CREDIT_CARD_1> was charged, yet the top-up amount isn't reflected in my account. What happened?",1,2,0.9006374478340149
+641,test-001333,"I attempted to transfer money using my credit card number, and now it's gone from account <ACCOUNT_NUMBER_1>.",1,0,0.8747341632843018
+642,test-001342,"I used my card to add money, but the amount has disappeared from account <ACCOUNT_NUMBER_1>.",1,1,0.8663605451583862
+643,test-001344,"When I attempted a card top-up, the funds vanished from account <ACCOUNT_NUMBER_1>.",1,2,0.8883602619171143
+644,test-001347,Top up with my card <CREDIT_CARD_1> is not accessible to me.,1,2,0.8852848410606384
+645,test-001356,"I topped up my card <CREDIT_CARD_1>, but the funds disappeared.",1,2,0.8500607013702393
+646,test-001357,The top up I made using account <ACCOUNT_NUMBER_1> is missing from my wallet.,1,2,0.8887960910797119
+647,test-001358,The top-up I made with card <CREDIT_CARD_1> isn't appearing; why can't I see the amount?,1,2,0.8785374164581299
+648,test-001400,It looks like my card <CREDIT_CARD_1> has been used for purchases I never made.,0,5,0.8477215766906738
+649,test-001401,My account is being used by another person with card <CREDIT_CARD_1>.,0,5,0.8490378856658936
+650,test-001402,I found a transaction on my card <CREDIT_CARD_1> that I never approved.,0,5,0.8403998613357544
+651,test-001403,Charges were made on my card <CREDIT_CARD_1> that I didn't approve.,0,1,0.8282061815261841
+652,test-001404,"I need to freeze my card <CREDIT_CARD_1> immediately, can you help?",0,3,0.8425524830818176
+653,test-001405,I need to freeze my account because my card <CREDIT_CARD_1> has been hacked.,0,3,0.8266079425811768
+654,test-001406,Someone must have used my card <CREDIT_CARD_1> because I'm seeing transactions I never made.,1,5,0.8542084097862244
+655,test-001407,"My card <CREDIT_CARD_1> was used by someone else while I was out of town, and I didn't make those purchases. Can you freeze it?",0,8,0.8005973100662231
+656,test-001409,"My card <CREDIT_CARD_1> has unauthorized transactions, so I think another person is using it.",1,5,0.8772451281547546
+657,test-001410,"My card <CREDIT_CARD_1> has charges I don't recognize, and I wasn't even in the location listed. Please help me stop them.",1,5,0.8558040857315063
+658,test-001413,I'm worried my identity was stolen; can you look into any unauthorized charges with card <CREDIT_CARD_1>?,1,5,0.8655778169631958
+659,test-001414,"My card <CREDIT_CARD_1> has unauthorized transactions, which makes me think someone else is using it.",1,5,0.8833051919937134
+660,test-001415,"My card <CREDIT_CARD_1> has charges I didn't make, so I suspect someone got my card information and used it.",1,5,0.878836452960968
+661,test-001417,My card <CREDIT_CARD_1> is being used by somebody else for unauthorized online purchases. Can you help me freeze the card?,0,3,0.837532103061676
+662,test-001420,Someone used my card <CREDIT_CARD_1> without my permission—there are a few transactions from a small town in the middle of nowhere that I definitely didn't make. Please block the card right away.,0,5,0.8050587177276611
+663,test-001422,I think my card <CREDIT_CARD_1> was compromised.,1,5,0.8677563071250916
+664,test-001423,"If I suspect unauthorized use of my card <CREDIT_CARD_1>, what is the best course of action?",0,5,0.8417813777923584
+665,test-001424,"Some of the charges on my card <CREDIT_CARD_1> look suspicious, so I think someone else may have used it.",1,5,0.8769758343696594
+666,test-001425,What steps should I take to freeze the card <CREDIT_CARD_1>?,0,3,0.8432846069335938
+667,test-001426,"There may be unauthorized activity on my card <CREDIT_CARD_1>, though I'm not entirely certain.",1,5,0.8637948632240295
+668,test-001427,How do I freeze my card <CREDIT_CARD_1>? I believe someone else is making online purchases with it.,0,3,0.8258922100067139
+669,test-001428,"My card <CREDIT_CARD_1> has transactions I don't recognize, so I think someone got my card details and used it. What should I do now?",1,5,0.8693397641181946
+670,test-001429,There's unauthorized activity on my card <CREDIT_CARD_1> from another person.,0,5,0.8383320569992065
+671,test-001430,I think someone is using my card <CREDIT_CARD_1> without my permission.,0,5,0.8457649946212769
+672,test-001431,Can I request a replacement card for account <ACCOUNT_NUMBER_1> if I think my card details have been compromised?,0,14,0.8485852479934692
+673,test-001432,"My card <CREDIT_CARD_1> has transactions I don't recognize, and I think someone got hold of my card details and used them.",1,5,0.874298095703125
+674,test-001433,It seems my card number <CREDIT_CARD_1> is in the hands of someone who shouldn't have it.,1,5,0.8509299755096436
+675,test-001434,My child made a purchase using my card <CREDIT_CARD_1> when I wasn't at home.,0,12,0.7789565920829773
+676,test-001435,What steps should I take if I think my card <CREDIT_CARD_1> information was stolen?,0,3,0.8200987577438354
+677,test-001436,My card <CREDIT_CARD_1> seems to have been copied and used by someone else.,0,5,0.8449035882949829
+678,test-001437,I'm worried that my card <CREDIT_CARD_1> is being used by someone else; what do you advise?,1,3,0.8582859635353088
+679,test-001438,Does the app allow me to freeze card <CREDIT_CARD_1> and file a fraud dispute?,0,3,0.7764495611190796
+680,test-001439,Freeze my card <CREDIT_CARD_1>—it's being used by someone else.,0,3,0.8358100056648254
+681,test-001480,Help! My account <ACCOUNT_NUMBER_1> has a direct debit that I didn't create.,0,5,0.844446063041687
+682,test-001481,I found a direct debit on account <ACCOUNT_NUMBER_1> that doesn't belong to me.,1,5,0.870861291885376
+683,test-001482,There's an unfamiliar direct debit listed on my account <ACCOUNT_NUMBER_1> statement.,1,5,0.862271785736084
+684,test-001483,"There is a debit on my account <ACCOUNT_NUMBER_1> that I don't recognize, and I'd like it taken off.",1,5,0.859607458114624
+685,test-001484,Could you tell me what this deduction from account <ACCOUNT_NUMBER_1> is?,0,11,0.8089392781257629
+686,test-001486,"There's a direct debit I didn't authorize, so someone has taken my money out of account <ACCOUNT_NUMBER_1>.",0,5,0.8386024236679077
+687,test-001487,I didn't make this Direct Debit payment that appears on account <ACCOUNT_NUMBER_1>.,1,14,0.8539389371871948
+688,test-001488,There's an unrecognized debit on my account <ACCOUNT_NUMBER_1>.,1,5,0.8632286787033081
+689,test-001489,I might have an unauthorized charge on the debit statement of my account <ACCOUNT_NUMBER_1>.,1,5,0.8594973087310791
+690,test-001490,Why is there a direct debit from account <ACCOUNT_NUMBER_1> that isn't mine?,0,14,0.8366588354110718
+691,test-001491,My account <ACCOUNT_NUMBER_1> has some odd debits showing up.,1,5,0.8850210905075073
+692,test-001492,I just saw a large transaction on account <ACCOUNT_NUMBER_1> from the past couple of months that I didn't complete. Can I still dispute it even though it's late?,0,0,0.8362448811531067
+693,test-001493,"A couple of weeks ago there was a charge from a business I don't recognize on account <ACCOUNT_NUMBER_1>, and I'm sure I didn't make it—can you trace it to confirm?",0,5,0.843262791633606
+694,test-001494,What is this direct debit I am seeing on account <ACCOUNT_NUMBER_1>?,1,5,0.8509550094604492
+695,test-001495,A Direct Debit on account <ACCOUNT_NUMBER_1> looks unfamiliar to me.,1,5,0.8576486110687256
+696,test-001496,Can you check this direct debit on account <ACCOUNT_NUMBER_1>? I don't know what it's for.,1,5,0.8534557819366455
+697,test-001497,A direct debit has appeared on account <ACCOUNT_NUMBER_1> and it looks suspicious.,1,5,0.8683051466941833
+698,test-001498,Can you trace the details of a transaction I don't recognize from account <ACCOUNT_NUMBER_1> so I can verify if it was mine?,1,5,0.8549150228500366
+699,test-001499,"I saw a charge on account <ACCOUNT_NUMBER_1> from a seller I don't recognize that happened a couple weeks ago. I'm pretty sure I didn't do it, but is there a way to find out who it was?",0,5,0.843397855758667
+700,test-001500,There is a direct debit payment taken from account <ACCOUNT_NUMBER_1> that I don't recognize.,1,5,0.8951065540313721
+701,test-001501,I see a payment I don't recognize on account <ACCOUNT_NUMBER_1>; how can I cancel it?,1,11,0.8957096338272095
+702,test-001502,The Direct Debit payment debited from account <ACCOUNT_NUMBER_1> doesn't look right to me.,1,14,0.8539043664932251
+703,test-001503,I see a direct debit payment on account <ACCOUNT_NUMBER_1> in the app that I never authorized.,1,5,0.8607354164123535
+704,test-001505,"I noticed a direct debit on my app that I never authorized, appearing on account <ACCOUNT_NUMBER_1>.",0,5,0.8399192094802856
+705,test-001506,This debit charge on account <ACCOUNT_NUMBER_1> doesn't look like something I made.,0,5,0.833561897277832
+706,test-001507,I see an unfamiliar direct debit on my account <ACCOUNT_NUMBER_1>.,1,5,0.889904797077179
+707,test-001508,"This direct debit wasn't made by me, so please investigate the charge on account <ACCOUNT_NUMBER_1>.",1,5,0.8555114269256592
+708,test-001509,There's an unauthorized direct debit from my account <ACCOUNT_NUMBER_1>.,1,5,0.8699381351470947
+709,test-001510,"I'm sorry this is so late. Going through my transactions from the past two months, I spotted a large charge on account <ACCOUNT_NUMBER_1> that I'm sure wasn't mine. Can I still dispute it somehow?",1,1,0.8614385724067688
+710,test-001511,I don't recognize a debit payment from account <ACCOUNT_NUMBER_1> and would like to find out about it.,1,5,0.8887008428573608
+711,test-001512,"There's a security concern with my account <ACCOUNT_NUMBER_1>, and I'd like to raise a dispute.",0,5,0.8214208483695984
+712,test-001513,The app shows a direct debit on account <ACCOUNT_NUMBER_1> that I don't recognize. Why is it there?,0,5,0.8238808512687683
+713,test-001514,My statement shows an unfamiliar direct debit on account <ACCOUNT_NUMBER_1>.,1,5,0.8541675806045532
+714,test-001515,"I've noticed a direct debit for account <ACCOUNT_NUMBER_1> that I don't recall creating, and I'd like to cancel it.",1,11,0.8656101226806641
+715,test-001516,Money was taken out of my account <ACCOUNT_NUMBER_1> by someone I don't know.,0,5,0.8424057960510254
+716,test-001517,I was billed on my account <ACCOUNT_NUMBER_1> but I never made that payment.,0,5,0.8355309367179871
+717,test-001518,There is a direct debit on account <ACCOUNT_NUMBER_1> that I do not recognize and wish to challenge.,0,5,0.8436752557754517
+718,test-001519,Why was money taken from account <ACCOUNT_NUMBER_1> by a seller when I didn't approve it?,0,14,0.8473474979400635
+719,test-001520,"I forgot my passcode and need help getting back in, my phone number <PHONE_NUMBER_1> is on the account.",0,14,0.7403948307037354
+720,test-001521,I'm unable to remember my passcode for the account registered under <EMAIL_ADDRESS_1>.,0,14,0.7151253819465637
+721,test-001522,Can you tell me how to recover my passcode associated with <EMAIL_ADDRESS_1>?,0,3,0.6998980641365051
+722,test-001523,It looks like my passcode has stopped working for the account registered under <EMAIL_ADDRESS_1>.,0,14,0.7564013600349426
+723,test-001524,"I forgot the password for my banking access, associated with customer ID <CUSTOMER_ID_1>.",0,14,0.7155651450157166
+724,test-001525,"I keep getting a password error, so please help me reset it for the profile registered under <EMAIL_ADDRESS_1>.",0,11,0.6847293376922607
+725,test-001526,There's an issue with my password on the profile associated with customer ID <CUSTOMER_ID_1>.,0,14,0.7129049301147461
+726,test-001527,There's an issue with the passcode on my profile associated with customer ID <CUSTOMER_ID_1>.,0,14,0.7290972471237183
+727,test-001529,"I can't remember my passcode, so I'd like to reset it on the account associated with phone number <PHONE_NUMBER_1>.",0,11,0.7338140606880188
+728,test-001530,Could I get a new passcode sent to <EMAIL_ADDRESS_1>?,0,13,0.7396668195724487
+729,test-001531,I've forgotten the passcode associated with customer ID <CUSTOMER_ID_1>.,0,12,0.7177599668502808
+730,test-001532,"I forgot the code to access the mobile app, and I need to reset it for customer ID <CUSTOMER_ID_1> using the registered number <PHONE_NUMBER_1>.",0,12,0.7245224714279175
+731,test-001533,I can't remember my passcode anymore; could you help me reset it via <EMAIL_ADDRESS_1>?,0,11,0.667293906211853
+732,test-001534,Why is my passcode failing? I am registered under customer ID <CUSTOMER_ID_1> and email <EMAIL_ADDRESS_1>.,0,14,0.713115930557251
+733,test-001535,Could you resend my passcode associated with customer ID <CUSTOMER_ID_1>?,0,12,0.7198400497436523
+734,test-001536,I've forgotten my passcode. What steps should I take with registered number <PHONE_NUMBER_1>?,0,13,0.7102810144424438
+735,test-001538,I can't remember my passcode. Please help me reset it using my registered number <PHONE_NUMBER_1>.,0,11,0.6962525248527527
+736,test-001539,I need help resetting my passcode as I've forgotten it for my customer identifier <CUSTOMER_ID_1>.,0,11,0.720386266708374
+737,test-001540,My passcode isn't working. Can you help me reset it for my registered number <PHONE_NUMBER_1>?,0,10,0.7271972894668579
+738,test-001541,My passcode has slipped my mind. How can I reset it for customer ID <CUSTOMER_ID_1>?,0,14,0.7345288991928101
+739,test-001543,"My app passcode isn't working, and I'd like to set a new one. Could you assist me using <EMAIL_ADDRESS_1>?",0,13,0.703628420829773
+740,test-001545,My password has slipped my mind; could you assist with a reset for customer ID <CUSTOMER_ID_1>?,0,14,0.7385765314102173
+741,test-001546,My app code has slipped my mind. Can you help me reset it after checking customer identifier <CUSTOMER_ID_1> and mobile number <PHONE_NUMBER_1>?,0,14,0.7266212701797485
+742,test-001547,I can't recall my password for customer ID <CUSTOMER_ID_1>.,0,10,0.7069051861763
+743,test-001548,"I can't recall the app access code, and my details are customer ID <CUSTOMER_ID_1> and phone number <PHONE_NUMBER_1>.",0,12,0.7131935358047485
+744,test-001550,Could you assist me in resetting my password for customer ID <CUSTOMER_ID_1>?,0,3,0.7380218505859375
+745,test-001551,I forgot my password. Can I reset it using my phone number <PHONE_NUMBER_1>?,0,11,0.7057197690010071
+746,test-001554,My passcode doesn't work when I try to access my account with phone number <PHONE_NUMBER_1>.,0,0,0.7496892213821411
+747,test-001556,Please reset my passcode and send the new one to <EMAIL_ADDRESS_1> associated with customer ID <CUSTOMER_ID_1>.,0,11,0.7167567014694214
+748,test-001557,I lost my app passcode. Can you reset it for customer ID <CUSTOMER_ID_1> using my mobile number <PHONE_NUMBER_1>?,0,12,0.7008749842643738
+749,test-001560,Can you explain why I'm unable to take cash from account <ACCOUNT_NUMBER_1> at the ATM with my card <CREDIT_CARD_1>? My PIN was definitely correct.,1,8,0.8846615552902222
+750,test-001562,I have tried three ATMs and my card <CREDIT_CARD_1> does not work at any of them. What is going on? Please resolve this right away.,0,8,0.8352639675140381
+751,test-001563,I couldn't get any cash from the ATM with card <CREDIT_CARD_1>.,1,8,0.8848744630813599
+752,test-001564,Why did the ATM cancel my transaction when I used card <CREDIT_CARD_1>?,1,8,0.881084680557251
+753,test-001565,My card isn't working at ATMs—I tried more than one. Could you look into whether there's a problem with account <ACCOUNT_NUMBER_1>?,0,8,0.8404831290245056
+754,test-001566,I attempted an ATM withdrawal and it was declined for card <CREDIT_CARD_1>.,1,8,0.8945070505142212
+755,test-001567,The ATM refused to dispense money when I tried with card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1>.,0,8,0.8414396047592163
+756,test-001568,What's the reason my cash withdrawal from account <ACCOUNT_NUMBER_1> was declined?,1,14,0.8897520303726196
+757,test-001569,"Please help me check my account. My card <CREDIT_CARD_1> keeps being declined at the ATM, even after trying two different ATMs.",1,8,0.854016900062561
+758,test-001570,"My withdrawal was declined this morning, though it worked fine yesterday. Please look into account <ACCOUNT_NUMBER_1> and let me know.",0,14,0.8109060525894165
+759,test-001571,My card <CREDIT_CARD_1> was declined at two separate ATMs when I tried to get cash. Please look into my account.,1,8,0.8683434724807739
+760,test-001572,"I attempted a cash withdrawal from account <ACCOUNT_NUMBER_1>, but it was declined. What is the reason?",1,14,0.8760250210762024
+761,test-001573,"I tried to get money out of the ATM, but it failed for account <ACCOUNT_NUMBER_1>.",0,8,0.8499972224235535
+762,test-001574,The ATM isn't accepting my card—I tried at two different locations. Please tell me if account <ACCOUNT_NUMBER_1> has any issues.,1,8,0.8588513135910034
+763,test-001575,I'm not sure why my cash withdrawal from account number <ACCOUNT_NUMBER_1> was declined.,1,14,0.8875495195388794
+764,test-001576,"I tried to get cash using my card <CREDIT_CARD_1>, but it was declined.",1,14,0.8592464923858643
+765,test-001577,"I tried to withdraw cash at the ATM today but was declined, and I'd like to know why for card <CREDIT_CARD_1>.",1,8,0.9076924324035645
+766,test-001578,What are some reasons an ATM might decline my card for a withdrawal from account <ACCOUNT_NUMBER_1>? It keeps happening to me.,1,8,0.8877111077308655
+767,test-001579,The ATM machine didn't give me my cash withdrawal from account <ACCOUNT_NUMBER_1>. Can you explain why?,1,8,0.8858686089515686
+768,test-001580,The ATM wouldn't give me cash when I used my card <CREDIT_CARD_1>.,1,8,0.8679186105728149
+769,test-001581,"I tried to withdraw cash using card <CREDIT_CARD_1>, but the attempt was declined.",1,8,0.8779678344726562
+770,test-001582,I tried to withdraw money with card <CREDIT_CARD_1> but the transaction was declined.,1,14,0.8553508520126343
+771,test-001583,I'm unable to take money out of the ATM with account <ACCOUNT_NUMBER_1>; what's wrong?,0,8,0.838973879814148
+772,test-001584,"The ATM won't accept my card, and I've tried at two separate machines. Can you see whether account <ACCOUNT_NUMBER_1> is having problems?",0,8,0.8427156209945679
+773,test-001585,Can you tell me why my cash withdrawal from account <ACCOUNT_NUMBER_1> with card <CREDIT_CARD_1> was declined?,1,14,0.8989014625549316
+774,test-001586,I couldn't withdraw cash using my card <CREDIT_CARD_1>; what went wrong?,1,8,0.8777731657028198
+775,test-001587,What's the reason I couldn't take out cash at the ATM from account <ACCOUNT_NUMBER_1>?,1,8,0.8571643829345703
+776,test-001588,I'm unable to get cash with my card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1>. What's wrong?,0,8,0.8464127779006958
+777,test-001589,Why didn't the ATM dispense the money I requested from account <ACCOUNT_NUMBER_1> with my card <CREDIT_CARD_1>?,1,8,0.879919171333313
+778,test-001590,"At the ATM, my attempt to take out money from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1> was declined in front of my friends. What caused this?",1,14,0.8620813488960266
+779,test-001591,"I tried to withdraw cash, but the machine didn't give any money from account <ACCOUNT_NUMBER_1>.",0,4,0.8356368541717529
+780,test-001592,Why did my cash withdrawal from account <ACCOUNT_NUMBER_1> get declined?,1,14,0.8821926712989807
+781,test-001593,The ATM wouldn't give me cash when I used card <CREDIT_CARD_1>.,1,8,0.8723011016845703
+782,test-001594,Twice now my card <CREDIT_CARD_1> has been declined at an ATM. I tried two different machines. Please explain what's wrong with my account.,0,14,0.8448129892349243
+783,test-001595,I wasn't able to choose cash at the ATM using my card <CREDIT_CARD_1>. What's the reason?,1,8,0.8802642822265625
+784,test-001596,I tried to withdraw cash and it was declined for account <ACCOUNT_NUMBER_1>. Why?,1,14,0.8896464109420776
+785,test-001597,Is there a reason the ATM declined my transaction with card <CREDIT_CARD_1>?,1,8,0.87983638048172
+786,test-001598,My ATM cash withdrawal from account <ACCOUNT_NUMBER_1> was not approved.,1,8,0.8648849725723267
+787,test-001599,The machine didn't provide cash when I tried to withdraw from account <ACCOUNT_NUMBER_1>.,0,8,0.8211784362792969
+788,test-001600,What's the reason the payment with my card <CREDIT_CARD_1> remains on hold?,1,9,0.882695198059082
+789,test-001601,Why hasn't my payment made with card <CREDIT_CARD_1> been processed yet?,1,9,0.8710322380065918
+790,test-001602,"My card <CREDIT_CARD_1> payment is showing as pending, and the charge was made to account <ACCOUNT_NUMBER_1>.",1,9,0.9185945987701416
+791,test-001604,My card <CREDIT_CARD_1> payment is showing as pending—can you tell me why?,1,9,0.9222115278244019
+792,test-001605,Can you tell me why my payment from account <ACCOUNT_NUMBER_1> is still pending?,1,9,0.977229118347168
+793,test-001606,I'd like to know the status of my pending card payment for card number <CREDIT_CARD_1>.,1,9,0.8829019665718079
+794,test-001607,I see that a payment I made with card <CREDIT_CARD_1> is pending; please tell me what that means.,1,9,0.8921942710876465
+795,test-001609,Can you tell me when the pending card <CREDIT_CARD_1> payment will be processed?,1,9,0.8844696283340454
+796,test-001610,"I submitted a payment several days back, but it hasn't gone through yet on account <ACCOUNT_NUMBER_1>.",1,9,0.8822947144508362
+797,test-001611,The card payment I made is showing as pending on my account <ACCOUNT_NUMBER_1>.,1,9,0.944133460521698
+798,test-001612,The transaction with my card <CREDIT_CARD_1> is appearing as pending right now.,1,9,0.8666573762893677
+799,test-001613,"I bought a few things this morning, and the payment is still pending on card number <CREDIT_CARD_1>.",1,9,0.90471351146698
+800,test-001614,"A payment is still pending, and I'm waiting for it to clear on my card <CREDIT_CARD_1>.",1,9,0.8815751075744629
+801,test-001617,Can you tell me the reason my card <CREDIT_CARD_1> purchases from this morning are still showing as pending?,1,9,0.893936276435852
+802,test-001618,I see a pending transaction on my card and I'm confused about it. Can you check why it's pending for account <ACCOUNT_NUMBER_1>?,1,9,0.9080609083175659
+803,test-001619,My card <CREDIT_CARD_1> payment is still pending.,1,9,0.9292089939117432
+804,test-001620,I noticed a transaction on account <ACCOUNT_NUMBER_1> is pending—why is that?,1,9,0.9064111709594727
+805,test-001621,My transaction with card <CREDIT_CARD_1> is listed as pending. What does that status indicate?,1,9,0.8738357424736023
+806,test-001625,I'm still waiting for my payment on card <CREDIT_CARD_1> to process.,1,9,0.8574913740158081
+807,test-001626,"The second charge on card <CREDIT_CARD_1> is pending because I was charged twice. Once refunded, how long until the money is credited back?",0,9,0.8377031087875366
+808,test-001627,"My payment with card <CREDIT_CARD_1> has not cleared yet, though 15 days have passed.",0,9,0.832846999168396
+809,test-001630,Can you tell me why the transactions with my card <CREDIT_CARD_1> are pending?,1,9,0.9062181711196899
+810,test-001631,"I've waited a while, but the transaction on account <ACCOUNT_NUMBER_1> still hasn't gone through.",1,9,0.8727176189422607
+811,test-001632,"I made a payment a few days ago using card <CREDIT_CARD_1>, but it's still pending. How long does it usually take?",1,9,0.8985118269920349
+812,test-001633,The purchases I made this morning are pending on card <CREDIT_CARD_1>.,0,9,0.843367338180542
+813,test-001635,There's a payment I made with card <CREDIT_CARD_1> that hasn't gone through yet; when is it supposed to go through?,1,9,0.8553575277328491
+814,test-001637,My card <CREDIT_CARD_1> payment is still showing as pending even though I already paid. Please investigate and let me know when it will go through.,1,9,0.9198102355003357
+815,test-001638,"I paid a while back, but the payment on my card <CREDIT_CARD_1> is still pending. Why hasn't it gone through yet?",1,9,0.9142656326293945
+816,test-001639,My card <CREDIT_CARD_1> shows a pending payment from what I bought this morning on account <ACCOUNT_NUMBER_1>.,1,9,0.9103758931159973
+817,test-001640,My mobile phone associated with phone number <PHONE_NUMBER_1> has been stolen.,0,5,0.6786796450614929
+818,test-001641,"My phone with the registered number <PHONE_NUMBER_1> got stolen yesterday, so what is the next step?",0,12,0.6922151446342468
+819,test-001643,I believe the phone registered under phone number <PHONE_NUMBER_1> has been lost or stolen.,0,5,0.7354927659034729
+820,test-001645,"I can't locate my phone, which is registered under phone number <PHONE_NUMBER_1>.",0,13,0.6902565360069275
+821,test-001646,It seems my phone with phone number <PHONE_NUMBER_1> is lost or has been stolen.,0,5,0.7166229486465454
+822,test-001647,"I can't tell if my phone is lost or stolen, but the registered number <PHONE_NUMBER_1> is for that phone.",0,5,0.7470217943191528
+823,test-001649,"What should I do now that my phone, registered under phone number <PHONE_NUMBER_1>, has been stolen?",0,5,0.704588770866394
+824,test-001650,"My phone is lost and I'm worried about unauthorized use, so can you block the phone registered under phone number <PHONE_NUMBER_1>?",0,11,0.6952705383300781
+825,test-001651,I lost my phone registered under phone number <PHONE_NUMBER_1> and need help securing it for customer ID <CUSTOMER_ID_1>.,0,12,0.7059541344642639
+826,test-001652,"I can't access the app because my phone, which was registered under phone number <PHONE_NUMBER_1>, has been stolen.",0,5,0.7011991143226624
+827,test-001653,My phone registered under phone number <PHONE_NUMBER_1> was left behind at a hotel. Now I can't use the app. What steps should I take to access my account?,0,14,0.7316752672195435
+828,test-001654,"Can I use the app even though my phone, registered under phone number <PHONE_NUMBER_1>, is not with me?",0,12,0.7027394771575928
+829,test-001655,"I've lost my phone, which is registered with phone number <PHONE_NUMBER_1>.",0,5,0.7040407657623291
+830,test-001656,"Since the phone registered to phone number <PHONE_NUMBER_1> is not with me at the moment, I'm unable to access the app.",0,0,0.6932364106178284
+831,test-001659,I lost my phone that is registered under phone number <PHONE_NUMBER_1>. Is my account still accessible?,0,0,0.7351933121681213
+832,test-001660,"The hotel called to say I left my phone in the room, and it's registered under phone number <PHONE_NUMBER_1>.",0,5,0.634243369102478
+833,test-001661,"I had my phone stolen yesterday, the one with phone number <PHONE_NUMBER_1>. Is there anything I should do?",0,5,0.6947444677352905
+834,test-001662,I've lost the phone associated with phone number <PHONE_NUMBER_1>; please secure my account so no one else can get in.,0,11,0.7360743284225464
+835,test-001672,I need to report stolen cards. The phone involved in the theft is registered to phone number <PHONE_NUMBER_1>.,0,5,0.7491785883903503
+836,test-001680,This refund is urgent; the merchant has been unhelpful. How can I get it resolved quickly using account <ACCOUNT_NUMBER_1> and card <CREDIT_CARD_1>?,1,7,0.8975242376327515
+837,test-001681,Is it possible to get a refund for my item with card <CREDIT_CARD_1>?,1,7,0.9096612930297852
+838,test-001682,Can you refund the item to my account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>?,1,7,0.9375308752059937
+839,test-001685,I need a refund for an item I never received; can I just cancel the payment with card <CREDIT_CARD_1>? I'm not sure how to do that.,1,7,0.8718289136886597
+840,test-001689,"The amount I paid for an item wasn't right, so how do I correct that for my card <CREDIT_CARD_1>?",0,5,0.8173895478248596
+841,test-001690,Can you cancel my latest order on account <ACCOUNT_NUMBER_1> and set up the refund urgently?,1,11,0.8541203737258911
+842,test-001691,I need to stop the purchase from account <ACCOUNT_NUMBER_1>.,1,11,0.90641188621521
+843,test-001692,"I want a refund because my package is taking too long, what should I do for account <ACCOUNT_NUMBER_1>?",1,7,0.8565460443496704
+844,test-001695,I've had enough of waiting for an online order that never came. Refund the charge made with card <CREDIT_CARD_1> back to my account <ACCOUNT_NUMBER_1>.,1,7,0.8744192123413086
+845,test-001698,I'd like to cancel my order because I'm dissatisfied with the purchase. Can you guide me using account <ACCOUNT_NUMBER_1> and card <CREDIT_CARD_1>?,1,7,0.8797046542167664
+846,test-001699,"I need a refund for a purchase I made, and I used card <CREDIT_CARD_1> to pay. Can you tell me how to proceed with account <ACCOUNT_NUMBER_1>?",1,7,0.9313843250274658
+847,test-001701,Can you cancel my purchase from account <ACCOUNT_NUMBER_1>?,1,11,0.9269969463348389
+848,test-001702,Can you tell me how to request a refund for a charge on card <CREDIT_CARD_1>?,1,7,0.9168495535850525
+849,test-001703,I want my purchase refunded to the card <CREDIT_CARD_1>.,1,7,0.950790524482727
+850,test-001705,I don't want this item because I bought it accidentally. Please refund the amount to account <ACCOUNT_NUMBER_1>.,1,11,0.8706708550453186
+851,test-001706,I need to get my money back for something I bought recently and have changed my mind about. Please cancel the transaction made with card <CREDIT_CARD_1> and issue a refund as soon as possible.,1,7,0.8808295726776123
+852,test-001707,"I'd like to get my money back for a product I bought from you, into account <ACCOUNT_NUMBER_1>.",1,7,0.8877521753311157
+853,test-001708,Can you process a refund because I'm unhappy with this product? Please send it to account <ACCOUNT_NUMBER_1>.,1,7,0.8568743467330933
+854,test-001709,Can you reverse the charge made with card <CREDIT_CARD_1> and put the money back into my account?,1,7,0.8866075277328491
+855,test-001710,Can you help me cancel my order and refund the amount to card <CREDIT_CARD_1> immediately?,1,7,0.8872247934341431
+856,test-001711,Please reverse the purchase on my card <CREDIT_CARD_1>.,1,7,0.8877078294754028
+857,test-001712,I'm deeply upset that an old order never arrived. I need all my money back into account <ACCOUNT_NUMBER_1>.,0,11,0.8024181127548218
+858,test-001713,There's a mistake in how much I was charged for my purchase; please refund the difference to account <ACCOUNT_NUMBER_1>.,1,7,0.8754317164421082
+859,test-001714,Could you cancel the payment I made from account <ACCOUNT_NUMBER_1>? I bought something days ago and still haven't received it.,1,11,0.8794568777084351
+860,test-001716,Can I get my money back for the purchase I made from account <ACCOUNT_NUMBER_1>?,1,7,0.913095235824585
+861,test-001718,Can I get a refund for that item using card <CREDIT_CARD_1>?,1,7,0.9105359315872192
+862,test-001719,I'd like to cancel the purchase I made with card <CREDIT_CARD_1>.,1,7,0.8918730616569519
+863,test-001720,"I tried to transfer from account <ACCOUNT_NUMBER_1>, but it got declined. What happened?",1,0,0.9283923506736755
+864,test-001721,"Last night and again this morning, I tried to make purchases with my credit card, but they were declined both times. Please investigate account <ACCOUNT_NUMBER_1>.",1,14,0.8736526370048523
+865,test-001722,My transfers keep being declined even though I've verified <PERSON_1>'s details multiple times on account <ACCOUNT_NUMBER_1>.,1,0,0.8550499677658081
+866,test-001723,Please explain why my transfer from account <ACCOUNT_NUMBER_1> got declined.,1,0,0.925021767616272
+867,test-001725,"My transfers from account <ACCOUNT_NUMBER_1> keep getting declined. Everything was fine until now, but when I tried to buy something, the card was declined, and it happened again on multiple tries.",1,0,0.8738746643066406
+868,test-001726,"My card got declined twice, so how can I get it working again for account <ACCOUNT_NUMBER_1>?",1,14,0.901221513748169
+869,test-001728,"Transfers from account <ACCOUNT_NUMBER_1> keep getting declined. It has always worked for me until now, and I've tried several times.",1,0,0.9080041646957397
+870,test-001729,Can you tell me why my transfer from account <ACCOUNT_NUMBER_1> was declined?,1,0,0.9277863502502441
+871,test-001730,"I attempted an online purchase yesterday, but the card on account <ACCOUNT_NUMBER_1> was declined two times.",1,14,0.8902918696403503
+872,test-001731,What else could cause my transfer from account <ACCOUNT_NUMBER_1> to be declined if the details have already been reviewed and confirmed as correct?,1,0,0.8902760148048401
+873,test-001732,Why did my transfer from account <ACCOUNT_NUMBER_1> get declined?,1,0,0.9265393614768982
+874,test-001733,Can you explain why my transfer from account <ACCOUNT_NUMBER_1> was declined?,1,0,0.9286531805992126
+875,test-001735,"I tried to make a purchase a couple of times, but the card was declined each time. This has never happened with account <ACCOUNT_NUMBER_1> before.",1,14,0.9023661613464355
+876,test-001736,"I tried to make a transfer from account <ACCOUNT_NUMBER_1>, but it didn't work. Why?",1,0,0.9365508556365967
+877,test-001739,"My card keeps getting declined when I attempt to buy something, and this is happening on account <ACCOUNT_NUMBER_1>.",1,14,0.8939850330352783
+878,test-001740,The transfer I tried to make from account number <ACCOUNT_NUMBER_1> was declined.,1,0,0.8962846994400024
+879,test-001741,"Transfers from account <ACCOUNT_NUMBER_1> are being declined, and I have already reviewed all the information I put in.",1,0,0.8520705699920654
+880,test-001743,I'd like to know why a transfer from account <ACCOUNT_NUMBER_1> would be declined.,1,0,0.9212950468063354
+881,test-001744,My transfer from account <ACCOUNT_NUMBER_1> was declined.,1,0,0.903718113899231
+882,test-001745,A transfer I made from account <ACCOUNT_NUMBER_1> has been declined.,1,0,0.8988345861434937
+883,test-001746,My attempt to transfer funds was declined for account <ACCOUNT_NUMBER_1>.,1,0,0.8881735801696777
+884,test-001747,I need an explanation for why my transfer from account <ACCOUNT_NUMBER_1> got declined.,1,0,0.9281873106956482
+885,test-001748,"I attempted a transfer from account <ACCOUNT_NUMBER_1>, but it got declined. Why did that happen?",1,0,0.9318440556526184
+886,test-001749,Can you tell me the reason my transfer from account <ACCOUNT_NUMBER_1> was declined?,1,0,0.9261695146560669
+887,test-001750,"I expected the transfer from account <ACCOUNT_NUMBER_1> to go through, but it was declined.",1,0,0.9144514799118042
+888,test-001752,"I'm trying to make a transfer from account <ACCOUNT_NUMBER_1>, but it won't go through.",1,0,0.9426325559616089
+889,test-001753,"I entered all the correct information for account <ACCOUNT_NUMBER_1>, so why has my transfer still been declined?",1,0,0.9063327312469482
+890,test-001754,"Yesterday I attempted to buy something online, but the payment from my account <ACCOUNT_NUMBER_1> kept being declined. I tried once more today with the same result.",1,14,0.8800196647644043
+891,test-001755,I tried an online purchase yesterday and it wouldn't stop declining. I tried again today and got the same result on account <ACCOUNT_NUMBER_1>. What's wrong?,0,14,0.8323602676391602
+892,test-001756,"When I attempt an online payment, my card is declined. Could you look into account <ACCOUNT_NUMBER_1> for any issues?",1,14,0.9220017194747925
+893,test-001757,Is there something on account <ACCOUNT_NUMBER_1> that restricts transfers and might be causing mine to be declined?,1,0,0.8816896677017212
+894,test-001758,"On eBay yesterday I tried to buy a golf club, but my credit card was declined, and the same happened this morning. Please look into my account <ACCOUNT_NUMBER_1>.",0,14,0.82563316822052
+895,test-001759,I see my transfer from account <ACCOUNT_NUMBER_1> was declined; what's the reason?,1,0,0.9251217246055603
+896,test-001760,The money that was supposed to be refunded hasn't appeared on my card <CREDIT_CARD_1>.,0,7,0.8382197618484497
+897,test-001761,My account <ACCOUNT_NUMBER_1> statement is missing the refund.,1,7,0.8637528419494629
+898,test-001762,The refund I requested hasn't been credited to account <ACCOUNT_NUMBER_1>. How can I resolve this?,1,7,0.8678110241889954
+899,test-001763,I'm missing a refund in account <ACCOUNT_NUMBER_1> that was supposed to be credited after my purchase on card <CREDIT_CARD_1>.,1,7,0.9189797639846802
+900,test-001764,A refund is not showing up on my statement for card <CREDIT_CARD_1> and account <ACCOUNT_NUMBER_1>.,1,7,0.8513356447219849
+901,test-001765,"I need help because I asked a merchant for a refund a while back, but the money still hasn't appeared in account <ACCOUNT_NUMBER_1>. What should I do now?",1,7,0.8601230382919312
+902,test-001766,The refund I'm expecting isn't visible in account <ACCOUNT_NUMBER_1> yet.,0,7,0.8315788507461548
+903,test-001768,"There is no refund from the seller in my account, even though I requested it earlier. I need assistance with card <CREDIT_CARD_1>.",1,7,0.9095382690429688
+904,test-001769,Could you tell me why my refund isn't showing on the statement of card <CREDIT_CARD_1>?,1,7,0.8639274835586548
+905,test-001770,"My refund from last week hasn't appeared yet, and I made the purchase with card <CREDIT_CARD_1>. Please assist.",1,7,0.8907405138015747
+906,test-001771,"I expected a refund, but it's missing from account <ACCOUNT_NUMBER_1> statement.",1,7,0.8729895353317261
+907,test-001772,I haven't received the refund for card <CREDIT_CARD_1> yet.,1,7,0.8598916530609131
+908,test-001773,My refund for card <CREDIT_CARD_1> is missing.,1,7,0.8954639434814453
+909,test-001774,"Per your suggestion, I had the seller initiate the refund, but after seven days the funds have not appeared on my card <CREDIT_CARD_1>. Can you advise?",0,7,0.8324260115623474
+910,test-001775,The refund from a return I made still isn't showing on card <CREDIT_CARD_1>.,0,7,0.84571373462677
+911,test-001776,I got my statement and the refund isn't showing up on card <CREDIT_CARD_1>. Any idea when I'll get it?,0,7,0.8224606513977051
+912,test-001777,Can you tell me why the recent refund isn't showing on the statement for account <ACCOUNT_NUMBER_1>?,0,0,0.8422340154647827
+913,test-001778,How do I locate the refund in my account <ACCOUNT_NUMBER_1>?,1,7,0.8764103651046753
+914,test-001779,"My card <CREDIT_CARD_1> was supposed to receive a refund, but the balance hasn't updated. What's the reason?",0,7,0.8390833139419556
+915,test-001780,"It's been days since I requested a refund from a merchant, and it's still not visible in my account <ACCOUNT_NUMBER_1>.",0,7,0.8274699449539185
+916,test-001781,"I'm waiting for a refund to account <ACCOUNT_NUMBER_1> from my card <CREDIT_CARD_1>, but it's not there.",1,7,0.9004212617874146
+917,test-001782,Has my refund been processed? It's not showing up on the statement for card <CREDIT_CARD_1>.,0,7,0.8499404788017273
+918,test-001783,The refund hasn't appeared on my card <CREDIT_CARD_1> statement.,1,7,0.8529534935951233
+919,test-001784,Still waiting for the store to refund the money to my card <CREDIT_CARD_1>; it hasn't shown up.,0,7,0.8181578516960144
+920,test-001785,I have not received a refund to my account with card <CREDIT_CARD_1> yet.,1,7,0.8638967275619507
+921,test-001786,I'm missing a refund that should have gone to account <ACCOUNT_NUMBER_1>.,1,7,0.8873044848442078
+922,test-001787,"I don't see my refund on the statement for card <CREDIT_CARD_1>, and it should have arrived by now from account <ACCOUNT_NUMBER_1>.",1,7,0.8847038745880127
+923,test-001788,The refund hasn't appeared in my account statement for card <CREDIT_CARD_1>.,1,7,0.8702337741851807
+924,test-001789,Can you check why the refund hasn't appeared on my statement for card <CREDIT_CARD_1>?,1,7,0.8687435388565063
+925,test-001790,"You said to reach out to the seller for the refund, which I did, but I'm still waiting. A week has passed and no funds have appeared on card <CREDIT_CARD_1>, so please refund me.",1,7,0.8623771667480469
+926,test-001791,Where is the refund that should be on card <CREDIT_CARD_1>? I've looked all day and it's not there.,1,7,0.8654069900512695
+927,test-001792,"I've completed everything required over the past week, but the refund still hasn't appeared. The seller hasn't replied, so I'd appreciate it if you could put the money back on my card <CREDIT_CARD_1>.",0,7,0.8478889465332031
+928,test-001793,My refund is missing from account <ACCOUNT_NUMBER_1>; please check card <CREDIT_CARD_1>.,1,7,0.9090502262115479
+929,test-001794,"I returned an item I bought with card <CREDIT_CARD_1>, but I don't see the refund credited to my account.",1,7,0.8960842490196228
+930,test-001795,A refund from a seller that I requested is missing from my card <CREDIT_CARD_1> statements. Please make sure I receive it.,1,7,0.8880417346954346
+931,test-001796,It's been a week with no reply from the seller. Could you assist me in getting a refund to account <ACCOUNT_NUMBER_1>?,1,7,0.8582309484481812
+932,test-001797,I need help getting a refund from a seller for account <ACCOUNT_NUMBER_1>; it's still not on my statement despite requesting it ages ago.,1,7,0.8793138265609741
+933,test-001799,The refund I was expecting hasn't posted to my card <CREDIT_CARD_1>.,1,7,0.8601108193397522
+934,test-001800,A charge was rejected on my card <CREDIT_CARD_1>.,1,14,0.8508014678955078
+935,test-001801,"I tried to pay for dinner with my friend yesterday using card <CREDIT_CARD_1>, but it was declined, and the charge to account <ACCOUNT_NUMBER_1> failed, leaving me disappointed.",1,14,0.8749814629554749
+936,test-001802,Can you tell me why my payment didn't go through on account <ACCOUNT_NUMBER_1>?,1,14,0.9160448312759399
+937,test-001803,"I attempted to buy something at the store today, but my card <CREDIT_CARD_1> got declined. What's the reason?",1,14,0.8523112535476685
+938,test-001804,"Despite thinking this was fixed, my payment with card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1> was declined again.",1,14,0.9088881015777588
+939,test-001805,"I attempted a purchase in a store, but the payment with card <CREDIT_CARD_1> was declined.",1,14,0.8602735996246338
+940,test-001806,Can you tell me why the payment from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1> was declined?,1,14,0.9538570642471313
+941,test-001807,"I tried to pay with card <CREDIT_CARD_1>, but it was declined for account <ACCOUNT_NUMBER_1>.",1,14,0.942105770111084
+942,test-001808,Can you check why my card <CREDIT_CARD_1> got declined?,1,14,0.8946576118469238
+943,test-001809,My new card was declined when I tried to pay today from account <ACCOUNT_NUMBER_1>. This is so sad; can you tell me what's going on?,1,14,0.9086270332336426
+944,test-001810,A transaction from account <ACCOUNT_NUMBER_1> was refused on my card. Can you explain why?,1,14,0.9131423234939575
+945,test-001811,"My new card <CREDIT_CARD_1> keeps getting declined, and I was excited to use it for the first time today. Why is this happening with account <ACCOUNT_NUMBER_1>?",1,14,0.9015856385231018
+946,test-001812,"My latest payment from account <ACCOUNT_NUMBER_1> was declined, even though I was told everything was back to working order. What went wrong?",1,14,0.8932119607925415
+947,test-001813,"I have sufficient balance in account <ACCOUNT_NUMBER_1>, but my card payment failed. How can I fix this?",1,14,0.8893284797668457
+948,test-001814,My card payment isn't going through with card <CREDIT_CARD_1>. Why is that?,1,9,0.8648345470428467
+949,test-001815,I'm really stuck because my card payment has not gone through with card <CREDIT_CARD_1>.,0,9,0.8440719842910767
+950,test-001816,"A transaction using card <CREDIT_CARD_1> was declined, but I don't understand why.",1,14,0.9014343023300171
+951,test-001817,My card <CREDIT_CARD_1> was declined on account <ACCOUNT_NUMBER_1>; do you know the reason?,1,14,0.9409270882606506
+952,test-001819,"My card <CREDIT_CARD_1> was just declined, but it worked fine until now. What's the issue?",1,3,0.8728241920471191
+953,test-001820,"The payment I attempted with card <CREDIT_CARD_1> didn't go through, and I don't know the reason.",1,14,0.8602654337882996
+954,test-001821,My card <CREDIT_CARD_1> didn't work for a payment.,1,3,0.8994885683059692
+955,test-001822,"I have funds in account <ACCOUNT_NUMBER_1>, but my debit card is being declined. Why is that happening?",1,14,0.9007819890975952
+956,test-001823,"I tried to pay with my card, but it was rejected for account <ACCOUNT_NUMBER_1>.",1,14,0.9189340472221375
+957,test-001824,"The payment on my card <CREDIT_CARD_1> didn't work, and I don't know the reason.",1,3,0.8800134658813477
+958,test-001825,Please help with my failed card payment: card <CREDIT_CARD_1> and account <ACCOUNT_NUMBER_1> are involved.,1,14,0.8866655826568604
+959,test-001826,Could you look into why card <CREDIT_CARD_1> was rejected during my purchase? Please also review account <ACCOUNT_NUMBER_1>.,1,14,0.884987473487854
+960,test-001827,Please explain the decline of my card <CREDIT_CARD_1>.,1,14,0.8672763109207153
+961,test-001828,"Every time I try to pay with my card <CREDIT_CARD_1>, the transaction is declined. Can you help?",1,14,0.8610881567001343
+962,test-001829,I'm trying to understand why my card payment got declined on account <ACCOUNT_NUMBER_1>.,1,14,0.9832301139831543
+963,test-001830,Why was my payment declined when I used card <CREDIT_CARD_1> and account <ACCOUNT_NUMBER_1>?,1,14,0.9416903257369995
+964,test-001831,"I attempted a purchase, but card <CREDIT_CARD_1> was rejected.",1,3,0.8524374961853027
+965,test-001832,What caused my card payment to be declined on account <ACCOUNT_NUMBER_1>?,1,14,0.9718265533447266
+966,test-001833,"My new card finally arrived and I was excited to use it, yet my payment was declined every time. Can you tell me why account <ACCOUNT_NUMBER_1> is having this problem?",1,14,0.9219497442245483
+967,test-001834,My payment using card <CREDIT_CARD_1> was not completed.,1,3,0.866133987903595
+968,test-001835,"I tried to pay at a store, but the transaction failed for account <ACCOUNT_NUMBER_1>.",1,14,0.8773066997528076
+969,test-001836,"I tried to pay using card <CREDIT_CARD_1>, but it got declined.",1,14,0.8957240581512451
+970,test-001837,My card number <CREDIT_CARD_1> is being declined every time I try to use it. Can you tell me why?,1,14,0.8785367012023926
+971,test-001838,How would I resolve a problem with a payment using card <CREDIT_CARD_1>?,1,3,0.8998746871948242
+972,test-001839,Can you tell me why my card payments on account <ACCOUNT_NUMBER_1> are not going through despite my repeated attempts?,1,9,0.9140434265136719
+973,test-001840,"I sent money from account <ACCOUNT_NUMBER_1>, and it's still showing as pending. Why hasn't it completed?",1,9,0.9044077396392822
+974,test-001842,Can you tell me why my transfer from account <ACCOUNT_NUMBER_1> is still pending?,1,0,0.9091722965240479
+975,test-001843,I have an outgoing transfer from my account <ACCOUNT_NUMBER_1> that is pending.,1,0,0.8785959482192993
+976,test-001844,I'm waiting for a pending transfer to process on account <ACCOUNT_NUMBER_1>.,1,0,0.8697986602783203
+977,test-001845,"I transferred money from account <ACCOUNT_NUMBER_1>, and the status is still pending.",1,0,0.8731063604354858
+978,test-001846,There is a transfer pending on account <ACCOUNT_NUMBER_1>; could you tell me how long it will take?,1,0,0.8903505802154541
+979,test-001847,"The transfer from account <ACCOUNT_NUMBER_1> finally went through, but it's been pending for a while now—how much longer do I need to wait? It's pretty urgent.",1,0,0.8973065614700317
+980,test-001848,My transfer out of account <ACCOUNT_NUMBER_1> is still pending.,1,0,0.885301947593689
+981,test-001849,My transfer from account <ACCOUNT_NUMBER_1> has been pending for quite a while. What's taking so long for it to complete?,1,0,0.893808126449585
+982,test-001850,My transfer from account <ACCOUNT_NUMBER_1> is pending—how can I get it processed more quickly?,1,0,0.8874044418334961
+983,test-001852,I see that my transfer from account <ACCOUNT_NUMBER_1> remains pending.,1,0,0.8969305753707886
+984,test-001853,"My international transfer from account <ACCOUNT_NUMBER_1> is stuck pending instead of being sent, even though the account details are correct. Please help me.",1,0,0.8578833341598511
+985,test-001854,"I know the account numbers are right, but the transfer from account <ACCOUNT_NUMBER_1> is still pending.",1,0,0.8806500434875488
+986,test-001855,I transferred money yesterday and it's still pending; can you check account <ACCOUNT_NUMBER_1>?,1,0,0.8840351104736328
+987,test-001858,Why hasn't my transfer gone through yet from account <ACCOUNT_NUMBER_1>?,1,0,0.9457851052284241
+988,test-001859,What's the expected time for the transfer from account <ACCOUNT_NUMBER_1> to complete?,1,0,0.8759341835975647
+989,test-001860,Can you explain why the transfer from account <ACCOUNT_NUMBER_1> appears as pending?,1,0,0.9130629301071167
+990,test-001861,"The account details for account <ACCOUNT_NUMBER_1> are definitely right, yet the transfer has been pending for a long time. What steps should I take?",1,0,0.9047566652297974
+991,test-001862,Can you tell me when the transfer from account <ACCOUNT_NUMBER_1> will be completed?,1,0,0.8996569514274597
+992,test-001863,Why is the transfer from account <ACCOUNT_NUMBER_1> showing as pending?,1,0,0.898689866065979
+993,test-001864,Can you tell me when the transfer from account <ACCOUNT_NUMBER_1> will finish?,1,0,0.90694260597229
+994,test-001865,Is there a transfer still pending on account <ACCOUNT_NUMBER_1>?,1,0,0.9004883170127869
+995,test-001866,Can you help me understand why my payment from account <ACCOUNT_NUMBER_1> is still pending?,1,9,0.976690411567688
+996,test-001867,Money that someone transferred to me is not showing up in account <ACCOUNT_NUMBER_1>.,1,0,0.8981252908706665
+997,test-001869,Can you explain why my transfer from account <ACCOUNT_NUMBER_1> is still pending 12 hours later?,1,0,0.8860833644866943
+998,test-001870,Why does my transfer from account <ACCOUNT_NUMBER_1> show a pending status?,1,0,0.8874915838241577
+999,test-001872,When should I expect the pending transfer from account <ACCOUNT_NUMBER_1> to complete?,1,0,0.8833449482917786
+1000,test-001873,"It shouldn't take this long to send money abroad; my transfer from 2018 is still pending, and I've already verified the account details for account <ACCOUNT_NUMBER_1>.",0,0,0.8151997923851013
+1001,test-001874,I don't see my pending transfer from account <ACCOUNT_NUMBER_1>; why is it missing?,1,0,0.8944873809814453
+1002,test-001875,"For account <ACCOUNT_NUMBER_1>, the transfer is pending and the payment is due today; am I going to be charged a fee?",1,9,0.8580935001373291
+1003,test-001876,I'm still waiting for the money to appear in account <ACCOUNT_NUMBER_1>.,1,4,0.8560359477996826
+1004,test-001877,It seems my transfer from account <ACCOUNT_NUMBER_1> hasn't been processed yet.,1,0,0.9200546741485596
+1005,test-001878,I'm puzzled that the transfer out of account <ACCOUNT_NUMBER_1> remains in pending status.,1,0,0.905646800994873
+1006,test-001880,Could you please close account <ACCOUNT_NUMBER_1> for me?,1,11,0.8851407766342163
+1007,test-001881,"I want to close my account <ACCOUNT_NUMBER_1>, yet I might want to open another account in the future—what do you recommend?",0,11,0.8316155672073364
+1008,test-001882,I would like to permanently delete my account <ACCOUNT_NUMBER_1>.,0,11,0.8438246250152588
+1009,test-001883,I'd like to close account <ACCOUNT_NUMBER_1> please.,1,11,0.9005062580108643
+1010,test-001884,What is the process to terminate my account <ACCOUNT_NUMBER_1>?,1,11,0.8952643871307373
+1011,test-001885,Please close account <ACCOUNT_NUMBER_1> because I'm tired of dealing with all these problems.,0,11,0.8195244669914246
+1012,test-001886,I want you to close account <ACCOUNT_NUMBER_1> immediately.,1,11,0.8630558252334595
+1013,test-001887,I want to terminate my account <ACCOUNT_NUMBER_1>.,1,11,0.9002997875213623
+1014,test-001888,"I am not happy with your service, so what is the process to delete account <ACCOUNT_NUMBER_1>?",0,11,0.8357686996459961
+1015,test-001889,Can you terminate my account <ACCOUNT_NUMBER_1>?,1,11,0.9007168412208557
+1016,test-001890,I can't stand this bank anymore and need to remove account <ACCOUNT_NUMBER_1> from your system.,0,11,0.8358362317085266
+1017,test-001891,Close account <ACCOUNT_NUMBER_1> because I have no interest in staying with your company.,0,11,0.8211561441421509
+1018,test-001892,I'd like to terminate my account <ACCOUNT_NUMBER_1> permanently.,1,11,0.8760049939155579
+1019,test-001893,Can you remove account <ACCOUNT_NUMBER_1>? I'm really unhappy with this company.,1,11,0.8873602151870728
+1020,test-001894,Please delete my account <ACCOUNT_NUMBER_1>; I'm unhappy with this bank.,0,11,0.8387563228607178
+1021,test-001895,"I'm unhappy with the service, so please remove account <ACCOUNT_NUMBER_1>.",0,11,0.8400111198425293
+1022,test-001896,I need your help to delete my account <ACCOUNT_NUMBER_1>.,1,11,0.8509374856948853
+1023,test-001897,I can't stand this company's service anymore and must close account <ACCOUNT_NUMBER_1>.,0,11,0.8046835660934448
+1024,test-001898,Can you delete account <ACCOUNT_NUMBER_1> for me?,1,11,0.8586339950561523
+1025,test-001899,How can I permanently delete account <ACCOUNT_NUMBER_1> right away?,0,11,0.8282225728034973
+1026,test-001900,I'd like to remove account <ACCOUNT_NUMBER_1> because this company isn't good.,1,11,0.8571681976318359
+1027,test-001901,Could you please delete account <ACCOUNT_NUMBER_1> for me?,1,11,0.8549867272377014
+1028,test-001902,Please delete my account <ACCOUNT_NUMBER_1> because I'm not happy with your services.,0,11,0.7948523759841919
+1029,test-001903,Please delete my account <ACCOUNT_NUMBER_1>. I'm not happy with the service from your company.,0,11,0.8355731964111328
+1030,test-001904,Could you terminate account <ACCOUNT_NUMBER_1> for me?,1,11,0.9063427448272705
+1031,test-001905,I'm fed up with this damn company and want to terminate my account <ACCOUNT_NUMBER_1>.,0,11,0.8418854475021362
+1032,test-001906,Please terminate my account <ACCOUNT_NUMBER_1>; your service has been unsatisfactory.,0,11,0.8380846977233887
+1033,test-001907,I'd like to delete account <ACCOUNT_NUMBER_1> permanently.,0,11,0.8402822017669678
+1034,test-001908,I can't stand this terrible service. Kindly terminate account <ACCOUNT_NUMBER_1>.,0,11,0.8104349374771118
+1035,test-001909,I want my account <ACCOUNT_NUMBER_1> to be terminated.,1,11,0.8816776871681213
+1036,test-001910,I can't stand this app anymore; please close account <ACCOUNT_NUMBER_1>.,0,11,0.7930247783660889
+1037,test-001911,Can you tell me how to delete account <ACCOUNT_NUMBER_1>?,1,11,0.8596624135971069
+1038,test-001912,I hate this bank! Please close account <ACCOUNT_NUMBER_1> for me.,0,11,0.8386411666870117
+1039,test-001913,"I am not happy with your service, so I wish to close my account <ACCOUNT_NUMBER_1>.",0,11,0.8236691951751709
+1040,test-001914,What steps do I take to permanently close account <ACCOUNT_NUMBER_1>?,1,11,0.8658914566040039
+1041,test-001915,How do I go about deleting my account <ACCOUNT_NUMBER_1> because I don't find your services useful anymore?,0,11,0.7993441820144653
+1042,test-001916,"Please close account <ACCOUNT_NUMBER_1>, as this company is not working for me.",1,11,0.8644329905509949
+1043,test-001917,Please delete my account <ACCOUNT_NUMBER_1>. I'm unhappy with the service you're providing.,0,11,0.8332922458648682
+1044,test-001918,Please explain how I can permanently close account <ACCOUNT_NUMBER_1>.,1,11,0.8670789003372192
+1045,test-001919,"I'm fed up with this company, so please close my account <ACCOUNT_NUMBER_1>.",0,11,0.8321079015731812
+1046,test-001922,The card <CREDIT_CARD_1> got stuck when I was trying to get some cash out.,1,8,0.869216799736023
+1047,test-001923,My card <CREDIT_CARD_1> got stuck in the machine; how do I get another one?,1,3,0.8843531608581543
+1048,test-001924,How can I recover card <CREDIT_CARD_1> that was pulled into the ATM?,1,8,0.8558288216590881
+1049,test-001925,I need help because the ATM retained my card <CREDIT_CARD_1>.,1,8,0.8800226449966431
+1050,test-001926,Can I get my card <CREDIT_CARD_1> returned from the ATM?,1,8,0.8614131212234497
+1051,test-001927,My card <CREDIT_CARD_1> got stuck in the ATM and never came back.,1,8,0.8554935455322266
+1052,test-001928,My card <CREDIT_CARD_1> got stuck in the ATM and wasn't returned.,1,8,0.8761279582977295
+1053,test-001929,How do I recover my card <CREDIT_CARD_1> that the machine kept?,1,3,0.8667997121810913
+1054,test-001930,My card <CREDIT_CARD_1> is stuck in the machine and won't come out.,1,3,0.8757420778274536
+1055,test-001931,How do I retrieve my card <CREDIT_CARD_1> from the ATM?,1,8,0.8704895377159119
+1056,test-001932,The cash machine took my card <CREDIT_CARD_1>.,0,3,0.8104923963546753
+1057,test-001933,How do I retrieve my card <CREDIT_CARD_1> that got swallowed at the Metro bank ATM on High St. Kensington?,0,8,0.7987022399902344
+1058,test-001934,My card <CREDIT_CARD_1> got stuck in the ATM and I need guidance.,1,8,0.8765921592712402
+1059,test-001935,My card <CREDIT_CARD_1> got stuck in the machine and wasn't returned.,1,3,0.8555994033813477
+1060,test-001936,My card <CREDIT_CARD_1> is stuck in the ATM and won't come out.,1,8,0.8693850040435791
+1061,test-001937,An ATM swallowed my card <CREDIT_CARD_1>. Can you help me retrieve it?,1,8,0.8634828925132751
+1062,test-001939,My card <CREDIT_CARD_1> hasn't come out of the ATM yet.,1,8,0.8674471378326416
+1063,test-001942,I'm unable to remove my card <CREDIT_CARD_1> from the ATM. Please help me.,1,8,0.8857368230819702
+1064,test-001943,I need help because the ATM kept my card <CREDIT_CARD_1>.,1,8,0.8809792995452881
+1065,test-001945,An ATM took my card <CREDIT_CARD_1>.,1,8,0.8558087348937988
+1066,test-001946,I need assistance: the ATM isn't returning my card <CREDIT_CARD_1>.,1,8,0.8682337999343872
+1067,test-001947,"The ATM just ate my card <CREDIT_CARD_1>, so please send me a new card as soon as possible.",0,8,0.8323121666908264
+1068,test-001949,"The ATM swallowed my card <CREDIT_CARD_1>, how can I get it back?",1,8,0.8630104064941406
+1069,test-001950,"I got cash, but now the ATM won't give back my card <CREDIT_CARD_1>.",1,8,0.8875976800918579
+1070,test-001952,An ATM took my card <CREDIT_CARD_1> and I can't get it back.,1,8,0.8774978518486023
+1071,test-001953,"When I took out funds, the machine failed to give back my card <CREDIT_CARD_1>.",0,3,0.8352780342102051
+1072,test-001955,"After using the Metro bank ATM on High St. Kensington, my card <CREDIT_CARD_1> was not returned. What can I do now that the bank is closed?",0,8,0.8031341433525085
+1073,test-001956,The machine is holding my card <CREDIT_CARD_1> and won't release it.,0,3,0.8464053869247437
+1074,test-001957,I'm reporting that my card <CREDIT_CARD_1> was swallowed by an ATM.,0,8,0.8246450424194336
+1075,test-001958,"At the Metro bank on High St. Kensington, the ATM swallowed my card <CREDIT_CARD_1> right after I attempted a withdrawal. Since the bank was already closed, what should I do to retrieve it?",0,8,0.8377360105514526
+1076,test-001960,My payment went through twice on account <ACCOUNT_NUMBER_1>; what should I do?,1,5,0.8739057779312134
+1077,test-001961,"Fresh from a food-focused trip to the USA and Canada, I'm seeing a lot of pending and duplicate transactions hitting my account <ACCOUNT_NUMBER_1> and card <CREDIT_CARD_1>. There must be a mistake—could you review it?",0,9,0.8308833837509155
+1078,test-001962,My restaurant payment was taken twice from account <ACCOUNT_NUMBER_1>. Can you look into it?,1,5,0.8666598796844482
+1079,test-001966,"Why is there more than one charge on my card <CREDIT_CARD_1> when I only paid for one, and how can I fix it?",1,1,0.8744932413101196
+1080,test-001973,"This week, a couple of my purchases were charged twice. Can you investigate and return the extra charges to my account <ACCOUNT_NUMBER_1>?",1,1,0.8698940277099609
+1081,test-001974,"While looking over my account activity, I found a double charge from a restaurant visit earlier this week. Can one of the charges be taken off so I'm refunded the amount to card <CREDIT_CARD_1>?",0,1,0.8422517776489258
+1082,test-001978,I see duplicate charges on account <ACCOUNT_NUMBER_1> for a single purchase; can you explain why?,1,1,0.8896723985671997
+1083,test-001979,My duplicate card caused a double charge on account <ACCOUNT_NUMBER_1>. What should I do to fix it?,1,1,0.8910351991653442
+1084,test-001980,"After reviewing transactions on account <ACCOUNT_NUMBER_1>, I noticed a duplicate restaurant charge on card <CREDIT_CARD_1> and want it reversed.",1,1,0.8696393966674805
+1085,test-001981,My card <CREDIT_CARD_1> has been charged twice for the same transaction. What's going on?,1,1,0.8788480162620544
+1086,test-001982,Could you review account <ACCOUNT_NUMBER_1>? My card shows a couple of double charges this week that need to be returned.,1,5,0.873991847038269
+1087,test-001983,Please review the payments on my card. I see a duplicate charge on account <ACCOUNT_NUMBER_1> even though I only bought it once.,1,5,0.8787538409233093
+1088,test-001985,My account <ACCOUNT_NUMBER_1> shows the same transaction repeated several times.,1,11,0.8512160778045654
+1089,test-001987,I see that my card <CREDIT_CARD_1> was charged two times for one purchase.,1,1,0.8673290610313416
+1090,test-001988,I see a duplicate payment entry for account <ACCOUNT_NUMBER_1>. Why is that?,1,5,0.8809803128242493
+1091,test-001993,"I tried to pay at the store, got declined, then it worked the second time, but there's still a pending charge on account <ACCOUNT_NUMBER_1>. Please remove it.",0,9,0.8402217030525208
+1092,test-001994,I see the same transaction listed multiple times on account <ACCOUNT_NUMBER_1>.,1,1,0.859839916229248
+1093,test-001996,"My account <ACCOUNT_NUMBER_1> shows multiple identical transactions, and I used card <CREDIT_CARD_1> for the original one.",1,5,0.8702754974365234
+1094,test-001997,My account <ACCOUNT_NUMBER_1> shows a payment that went through twice using card <CREDIT_CARD_1>.,1,5,0.9081119894981384
+1095,test-002067,I sent a bank transfer from Europe to <PERSON_1>; how long will it take from account <ACCOUNT_NUMBER_1>?,0,0,0.849392294883728
+1096,test-002080,I believe the payment on my card <CREDIT_CARD_1> has been halted.,0,5,0.8312032222747803
+1097,test-002081,I noticed a reverted card payment on account <ACCOUNT_NUMBER_1>. What caused this?,1,14,0.9138895273208618
+1098,test-002082,My app reversed the payment I made with card <CREDIT_CARD_1>.,0,3,0.8449116349220276
+1099,test-002083,My card payment did not go through and was cancelled for account <ACCOUNT_NUMBER_1>.,1,14,0.9223873615264893
+1100,test-002085,"I made a payment from account <ACCOUNT_NUMBER_1>, but the app reverted it.",1,14,0.8890489339828491
+1101,test-002086,"A payment I made was reverted by the app, coming out of account <ACCOUNT_NUMBER_1>.",1,14,0.8650268316268921
+1102,test-002089,What caused the cancellation of the transaction using my card <CREDIT_CARD_1>?,1,14,0.8574381470680237
+1103,test-002092,I'm seeing my card declined for a purchase after it worked before; do you know what's going on with account <ACCOUNT_NUMBER_1>?,1,14,0.9195311069488525
+1104,test-002093,Why was my card payment reverted on card <CREDIT_CARD_1>?,1,14,0.8670226335525513
+1105,test-002094,Can you explain why an approved payment on my card <CREDIT_CARD_1> was rejected by the app?,1,14,0.8631491661071777
+1106,test-002095,I'd like to know why the card payment on account <ACCOUNT_NUMBER_1> was reverted.,1,14,0.9201008081436157
+1107,test-002096,A payment for a purchase was cancelled by my credit card for account <ACCOUNT_NUMBER_1>.,1,14,0.8948410749435425
+1108,test-002099,My card payment using card <CREDIT_CARD_1> appears to have been returned.,1,7,0.8720029592514038
+1109,test-002102,"I am trying to make an online purchase, but my card is not working even though I know there are funds in account <ACCOUNT_NUMBER_1>. Is this an issue on the bank's end?",0,14,0.8431724309921265
+1110,test-002103,Can you explain what caused the cancellation of my card payment using card <CREDIT_CARD_1>?,1,14,0.8797867894172668
+1111,test-002104,I noticed the transaction using card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1> got reverted. Why?,1,1,0.8731542825698853
+1112,test-002105,Can you explain why my card got cancelled? I suspect something is wrong with account <ACCOUNT_NUMBER_1>.,1,14,0.9108335971832275
+1113,test-002106,I made a purchase and then noticed the funds returned to account <ACCOUNT_NUMBER_1>. What's the reason?,1,0,0.8525487184524536
+1114,test-002107,My account <ACCOUNT_NUMBER_1> shows the card payment as cancelled.,1,14,0.9134731888771057
+1115,test-002108,"My card payment was cancelled, and I'm not sure why. Can you check for card <CREDIT_CARD_1>?",1,14,0.8735247254371643
+1116,test-002109,Can you tell me why the payment from my card <CREDIT_CARD_1> was canceled?,1,14,0.8706897497177124
+1117,test-002110,"As a regular customer with no past issues, I was surprised to see the purchase amount for a delivered item back in account <ACCOUNT_NUMBER_1>. Please check if there was an issue with card <CREDIT_CARD_1>.",1,5,0.8600062727928162
+1118,test-002111,I noticed my card payment was reverted. What caused that for account <ACCOUNT_NUMBER_1>?,1,14,0.9292593002319336
+1119,test-002113,"I made a payment using card <CREDIT_CARD_1>, but the app reversed it.",0,14,0.8457494974136353
+1120,test-002115,"I noticed that a charge on my card was reverted, and it's associated with account <ACCOUNT_NUMBER_1>.",1,1,0.8960111737251282
+1121,test-002116,My card <CREDIT_CARD_1> had a transaction for an item that got returned to my account.,1,7,0.8904788494110107
+1122,test-002117,I want to report that a payment from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1> was stopped by someone else.,1,5,0.8672859072685242
+1123,test-002119,Why did my payment get returned from account <ACCOUNT_NUMBER_1>?,1,14,0.8957892656326294
+1124,test-002123,I need to change my PIN for my card <CREDIT_CARD_1> while I'm traveling internationally. How do I do that?,0,10,0.8459622859954834
+1125,test-002124,Can I update my PIN using an ATM with my card <CREDIT_CARD_1>?,0,10,0.820544421672821
+1126,test-002125,Can you help me change the PIN on my card <CREDIT_CARD_1>?,1,10,0.9367339611053467
+1127,test-002126,I'm overseas at the moment and need to change the PIN for card <CREDIT_CARD_1>.,1,10,0.8649671673774719
+1128,test-002127,I'd like to request a PIN change for my card <CREDIT_CARD_1>.,1,10,0.8848754167556763
+1129,test-002128,Could you assist me in creating a new PIN for card number <CREDIT_CARD_1>?,1,10,0.9090753793716431
+1130,test-002129,I'm overseas on vacation right now and I urgently want to change my PIN. How do I do that for my card <CREDIT_CARD_1>?,0,10,0.8362240791320801
+1131,test-002130,What steps do I need to follow to update the PIN on my card <CREDIT_CARD_1>?,1,10,0.9001322984695435
+1132,test-002131,Where can I go nearby to update the PIN for my card <CREDIT_CARD_1>?,1,10,0.869047999382019
+1133,test-002132,Which ATMs allow me to change the PIN for my card <CREDIT_CARD_1>?,0,10,0.8396933078765869
+1134,test-002133,I'd like to replace the current PIN on my card <CREDIT_CARD_1>.,1,10,0.8830947279930115
+1135,test-002134,I'd like to know how to create a new PIN for card <CREDIT_CARD_1>.,1,10,0.8948433995246887
+1136,test-002135,Can you tell me how to set a new PIN for card <CREDIT_CARD_1>?,1,10,0.9252585172653198
+1137,test-002136,I'd like to know the steps to change my PIN for card <CREDIT_CARD_1>.,1,10,0.896302342414856
+1138,test-002137,Can you assist me with setting a new PIN for card <CREDIT_CARD_1>?,1,10,0.9397647380828857
+1139,test-002138,I'd like to change the PIN on my card <CREDIT_CARD_1>.,1,10,0.9064130783081055
+1140,test-002139,I'd like to set a new PIN for my card <CREDIT_CARD_1>.,1,10,0.9025521278381348
+1141,test-002140,Can I modify the PIN on my card <CREDIT_CARD_1> at any ATM?,0,10,0.8294962644577026
+1142,test-002141,"I still have two weeks of travel left, but I need to change my PIN immediately. What steps should I take with card <CREDIT_CARD_1>?",0,10,0.8210866451263428
+1143,test-002142,Can I update the PIN for my card <CREDIT_CARD_1> at a cash machine?,0,10,0.8479946851730347
+1144,test-002145,Can you help me update the PIN on card number <CREDIT_CARD_1>?,1,10,0.9191620349884033
+1145,test-002146,Is it possible to set a new PIN on my card <CREDIT_CARD_1>?,1,10,0.8894884586334229
+1146,test-002148,Can you help me reset the PIN on card number <CREDIT_CARD_1>?,1,10,0.9292594194412231
+1147,test-002150,I'm in Austria now and need to update the PIN for my card <CREDIT_CARD_1> urgently; is that allowed from here?,0,10,0.8255834579467773
+1148,test-002152,Can I update the PIN for my card <CREDIT_CARD_1> even though I'm traveling?,0,10,0.8492462038993835
+1149,test-002153,How can I set a new PIN for the card <CREDIT_CARD_1> on my account?,1,10,0.9110265970230103
+1150,test-002154,I'd like to set a new PIN on my card <CREDIT_CARD_1>.,1,10,0.8922638893127441
+1151,test-002160,"Every time I try to transfer funds from account <ACCOUNT_NUMBER_1>, the transfer fails. What's the reason?",1,0,0.9240447878837585
+1152,test-002161,"I've made transfers from account <ACCOUNT_NUMBER_1> before without any problems, but now I'm getting an error saying it's not possible. Why is that?",1,0,0.9139477014541626
+1153,test-002162,I'm having trouble transferring money to <PERSON_1>'s account.,1,0,0.8693563342094421
+1154,test-002163,I couldn't send funds from account <ACCOUNT_NUMBER_1> to a different account.,1,0,0.8747162818908691
+1155,test-002164,"I tried to transfer money from account <ACCOUNT_NUMBER_1>, but it got blocked.",1,0,0.8915743827819824
+1156,test-002167,"My transfer to <PERSON_1> was rejected, but I've sent money to them before without trouble. Please fix this for me.",1,0,0.8855512738227844
+1157,test-002168,"For some reason, the app doesn't permit me to purchase crypto, which I really want to exchange. What's going on with account <ACCOUNT_NUMBER_1>?",0,0,0.8161976933479309
+1158,test-002169,"My transfer to <PERSON_1> wouldn't go through. I've made this same transfer before without issue, so why isn't it working now?",1,0,0.9061050415039062
+1159,test-002171,Transferring to a beneficiary from account <ACCOUNT_NUMBER_1> isn't working for me.,1,0,0.8925936222076416
+1160,test-002173,I keep getting an error message when trying to transfer to <PERSON_1>. Why isn't it working?,0,0,0.8025532960891724
+1161,test-002176,Trying to send money from account <ACCOUNT_NUMBER_1> to <PERSON_1> results in an error every time. Can you let me know what is wrong and how to correct it?,1,0,0.858461856842041
+1162,test-002177,The cryptocurrency exchange I attempted from account <ACCOUNT_NUMBER_1> is not going through; please assist.,0,0,0.8419673442840576
+1163,test-002178,What prevented me from sending money from account <ACCOUNT_NUMBER_1> to <PERSON_1>?,1,0,0.8744975328445435
+1164,test-002179,The money would not transfer to <PERSON_1>.,0,0,0.8088412284851074
+1165,test-002180,Why is transferring from account <ACCOUNT_NUMBER_1> not allowed right now? I just keep getting an error message.,1,0,0.8986518979072571
+1166,test-002181,My transfer to <PERSON_1> from account <ACCOUNT_NUMBER_1> failed.,1,0,0.8916122913360596
+1167,test-002182,"I tried to send money to account <ACCOUNT_NUMBER_1>, but the transfer was rejected.",1,0,0.90611332654953
+1168,test-002183,Can you tell me why I received an error message when trying to transfer to <PERSON_1>?,0,0,0.8276633024215698
+1169,test-002185,My transfer to <PERSON_1> was unsuccessful.,1,0,0.8613049983978271
+1170,test-002186,"Why is my transfer failing? It says it's not possible, but I've always been able to do it before with account <ACCOUNT_NUMBER_1>.",1,0,0.9201275706291199
+1171,test-002187,I couldn't send money to <PERSON_1>.,0,0,0.809417724609375
+1172,test-002188,The beneficiary I added to account <ACCOUNT_NUMBER_1> was denied; is that a standard outcome?,0,0,0.8402910232543945
+1173,test-002190,My attempt to transfer to <PERSON_1> didn't go through.,1,0,0.8731507062911987
+1174,test-002191,Can you tell me why <PERSON_1> is not allowed as a beneficiary on account <ACCOUNT_NUMBER_1>?,0,0,0.8034841418266296
+1175,test-002196,Why am I unable to make a transfer to <PERSON_1>?,0,0,0.819424033164978
+1176,test-002197,"I want to buy cryptocurrency, but the app is blocking me. What's the reason for account <ACCOUNT_NUMBER_1>?",0,14,0.7912274599075317
+1177,test-002198,My transfer to a beneficiary from account <ACCOUNT_NUMBER_1> failed.,1,0,0.8890669345855713
+1178,test-002200,I noticed a fee after transferring from account <ACCOUNT_NUMBER_1>. What's the reason?,1,1,0.8853088021278381
+1179,test-002201,I was charged a fee for the transfer from account <ACCOUNT_NUMBER_1>.,1,1,0.8658828735351562
+1180,test-002202,Why did I incur a fee when transferring from account <ACCOUNT_NUMBER_1>?,1,0,0.8820775747299194
+1181,test-002203,There's a charge for transferring from account <ACCOUNT_NUMBER_1>. What's the reason?,1,1,0.8835829496383667
+1182,test-002204,I had to pay a fee for transferring from account <ACCOUNT_NUMBER_1>.,1,0,0.8567538261413574
+1183,test-002206,I was charged more than expected for a transfer from account <ACCOUNT_NUMBER_1>. Why is that?,1,1,0.8870478272438049
+1184,test-002207,I don't agree to pay this transfer fee for account <ACCOUNT_NUMBER_1>.,1,0,0.8608241677284241
+1185,test-002208,"I see a transfer fee on account <ACCOUNT_NUMBER_1>, but I thought there was no fee for transfers.",1,0,0.8800488710403442
+1186,test-002210,"I see two transfer fees on account <ACCOUNT_NUMBER_1>, even though I believed transfers were free.",0,0,0.8456971645355225
+1187,test-002211,Could you tell me why account <ACCOUNT_NUMBER_1> was charged a fee for transferring money?,1,1,0.8881690502166748
+1188,test-002213,"I recently got a new place abroad and have been using account <ACCOUNT_NUMBER_1> to handle payments, but the fees have suddenly gone up. Can you explain where these additional fees are coming from?",1,1,0.8651984930038452
+1189,test-002214,"After my transfer, the account of <PERSON_1> was credited with less than expected. I will send the difference, but please look into what went wrong.",1,0,0.8911294937133789
+1190,test-002215,There is a charge on account <ACCOUNT_NUMBER_1> for an online purchase I made internationally. Why wasn't it covered as I expected?,1,1,0.8512814044952393
+1191,test-002216,Why did my transfer from account <ACCOUNT_NUMBER_1> incur additional charges?,1,1,0.9236959218978882
+1192,test-002217,"When I transferred money from account <ACCOUNT_NUMBER_1>, I was charged an additional fee.",1,1,0.9066082835197449
+1193,test-002219,Can you explain the extra charge for my transfer from account <ACCOUNT_NUMBER_1>?,1,1,0.8925255537033081
+1194,test-002220,"I noticed a fee on a transfer made from account <ACCOUNT_NUMBER_1>, but I thought transfers were free.",1,0,0.8551493287086487
+1195,test-002221,My receipt shows an additional fee for the transfer from account <ACCOUNT_NUMBER_1>; can you explain why?,1,1,0.8977586030960083
+1196,test-002222,"A fee was charged when I made this transfer from account <ACCOUNT_NUMBER_1>, but I believe it shouldn't have been.",1,1,0.8568522334098816
+1197,test-002223,I made a transfer from account <ACCOUNT_NUMBER_1> and noticed an extra charge. What's that for?,1,1,0.9137893915176392
+1198,test-002224,I noticed a transfer fee on my account <ACCOUNT_NUMBER_1>. What's it for?,1,1,0.8540668487548828
+1199,test-002225,"When I transferred money from account <ACCOUNT_NUMBER_1>, I noticed an extra fee was applied.",1,1,0.8906340003013611
+1200,test-002227,I noticed a fee on my transfer from account <ACCOUNT_NUMBER_1>. Can you explain why?,1,0,0.8759249448776245
+1201,test-002228,There's a fee on my transfer from account <ACCOUNT_NUMBER_1>. Why is that?,1,0,0.8773273229598999
+1202,test-002229,Can you explain why there was a fee on the transfer I made from account <ACCOUNT_NUMBER_1>?,1,0,0.8953937292098999
+1203,test-002230,Is it expected that a fee applies when I make a transfer from account <ACCOUNT_NUMBER_1>?,1,0,0.8573359251022339
+1204,test-002231,"I've been using account <ACCOUNT_NUMBER_1> frequently for payments on my new holiday villa, but now the fees have suddenly gone up a lot. Is there a rewards programme for frequent users?",0,9,0.7755674719810486
+1205,test-002232,Could you explain why my transfer from account <ACCOUNT_NUMBER_1> was subject to a fee?,1,0,0.8841522932052612
+1206,test-002234,"After buying something online from abroad, I saw a fee on account <ACCOUNT_NUMBER_1> even though transfers are supposed to be free. What is it and can it be removed?",1,1,0.8556981682777405
+1207,test-002235,Can you tell me why I incurred a fee when transferring money from account <ACCOUNT_NUMBER_1>?,1,0,0.8893495202064514
+1208,test-002236,My account <ACCOUNT_NUMBER_1> has a fee for a transfer that caught me off guard.,1,1,0.8611932396888733
+1209,test-002237,Why is there a fee on my transfer from account <ACCOUNT_NUMBER_1> when I was told there wouldn't be one for my purchase from a site in China? This is really upsetting.,0,0,0.8241530656814575
+1210,test-002238,There was an extra fee charged on my transfer from account <ACCOUNT_NUMBER_1>. Why did that happen?,1,1,0.910173773765564
+1211,test-002280,Can you explain why my transfer from account <ACCOUNT_NUMBER_1> failed?,1,0,0.9412745237350464
+1212,test-002281,I keep getting an error when I try to make my initial mortgage payment for my new flat. Can you help me transfer from account <ACCOUNT_NUMBER_1>?,0,0,0.8410636186599731
+1213,test-002282,"I tried to transfer money from account <ACCOUNT_NUMBER_1>, but it failed.",1,0,0.9188482761383057
+1214,test-002283,"I've tried to make transfers from account <ACCOUNT_NUMBER_1> five times, but they keep failing. Please fix your system.",1,0,0.880820631980896
+1215,test-002284,Can you explain the reason my transfer from account <ACCOUNT_NUMBER_1> didn't go through?,1,0,0.9864283800125122
+1216,test-002285,My transfer from account <ACCOUNT_NUMBER_1> didn't go through.,1,0,0.9671013355255127
+1217,test-002286,I couldn't finish the transfer from account <ACCOUNT_NUMBER_1>. Why did that happen?,1,0,0.9445654153823853
+1218,test-002288,Can you tell me why the transfer from account <ACCOUNT_NUMBER_1> did not go through?,1,0,0.9898097515106201
+1219,test-002289,"I attempted a transfer from account <ACCOUNT_NUMBER_1>, but it failed.",1,0,0.9264194965362549
+1220,test-002290,Why didn't my transfer from account <ACCOUNT_NUMBER_1> go through correctly?,1,0,0.9626446962356567
+1221,test-002291,My transfer from account <ACCOUNT_NUMBER_1> didn't work. What went wrong?,1,0,0.9506644010543823
+1222,test-002292,"My money transfer from account <ACCOUNT_NUMBER_1> did not go through, and I'd like to know why.",1,0,0.9621334075927734
+1223,test-002293,Can you tell me why the transfer from account <ACCOUNT_NUMBER_1> didn't go through?,1,0,0.9902583360671997
+1224,test-002294,Can you tell me why the transfer from account <ACCOUNT_NUMBER_1> failed?,1,0,0.9466301202774048
+1225,test-002295,Can you tell me why the transfer from account <ACCOUNT_NUMBER_1> hasn't been made yet?,1,0,0.9339221715927124
+1226,test-002296,My transfer from account number <ACCOUNT_NUMBER_1> will not go through.,1,0,0.9463498592376709
+1227,test-002297,Transfers from account <ACCOUNT_NUMBER_1> keep failing. Can you please sort it out so I can transfer the money?,1,0,0.9242860078811646
+1228,test-002301,I've been unable to complete a transfer from account <ACCOUNT_NUMBER_1>. Is the service down?,1,0,0.911605954170227
+1229,test-002302,My transfer attempt from account <ACCOUNT_NUMBER_1> didn't go through.,1,0,0.9495556354522705
+1230,test-002303,Can you explain why my transfer from account <ACCOUNT_NUMBER_1> wouldn't go through?,1,0,0.9785807728767395
+1231,test-002304,It looks like my transfer from account <ACCOUNT_NUMBER_1> didn't work.,1,0,0.9451130628585815
+1232,test-002305,What issue is preventing my funds from leaving account <ACCOUNT_NUMBER_1>?,1,11,0.851012110710144
+1233,test-002306,"Every time I check on my mortgage payment for the flat I'm buying, it just shows an error. Is there a way to get this transfer from account <ACCOUNT_NUMBER_1> to go through?",1,0,0.8516390323638916
+1234,test-002307,"I attempted a transfer from account <ACCOUNT_NUMBER_1>, but the transaction failed.",1,0,0.9217122793197632
+1235,test-002308,My attempts to transfer from account <ACCOUNT_NUMBER_1> are not going through. What am I doing wrong?,1,0,0.9288238883018494
+1236,test-002309,Please assist me because my transfers to friends from account <ACCOUNT_NUMBER_1> keep failing.,1,0,0.8526681661605835
+1237,test-002310,I can't complete a transfer from account <ACCOUNT_NUMBER_1>; can you tell me the reason?,1,0,0.9439470767974854
+1238,test-002311,My attempt to send a transfer from account <ACCOUNT_NUMBER_1> didn't work.,1,0,0.9269300103187561
+1239,test-002312,"I've now made five tries to transfer from account <ACCOUNT_NUMBER_1>, and it's still not working. Is your system broken?",1,0,0.9170940518379211
+1240,test-002313,Can you help me figure out why my transfer from account <ACCOUNT_NUMBER_1> didn't go through?,1,0,0.9780898094177246
+1241,test-002314,It says my transfer from account <ACCOUNT_NUMBER_1> was not completed. Can you check why?,1,0,0.9534953832626343
+1242,test-002315,What caused my transfer from account <ACCOUNT_NUMBER_1> to fail?,1,0,0.9346048831939697
+1243,test-002316,Can you tell me why my transfer didn't go through from account <ACCOUNT_NUMBER_1>?,1,0,0.9842292666435242
+1244,test-002317,"I attempted a straightforward transfer from account <ACCOUNT_NUMBER_1> five times, but it keeps failing. Can you tell me what's going on? Is the system down?",1,0,0.9045811295509338
+1245,test-002318,Can you explain the reason my transfer from account <ACCOUNT_NUMBER_1> failed?,1,0,0.9427096843719482
+1246,test-002319,"I tried to transfer money from account <ACCOUNT_NUMBER_1>, but it didn't work.",1,0,0.9320428967475891
+1247,test-002354,My account <ACCOUNT_NUMBER_1> is out of money when I checked today. What is the process to transfer money into it?,1,0,0.8788067102432251
+1248,test-002357,Can you help me transfer money into account <ACCOUNT_NUMBER_1>?,1,0,0.8829540610313416
+1249,test-002358,Can I bring over money from my account <ACCOUNT_NUMBER_1> with a different bank into this one?,0,0,0.778584897518158
+1250,test-002383,I haven't received the code to verify my top-up for account <ACCOUNT_NUMBER_1>.,0,2,0.8397455215454102
+1251,test-002389,Could you help me locate the verification code for the top-up card associated with account <ACCOUNT_NUMBER_1>?,1,2,0.8681774139404297
+1252,test-002390,Can you explain the verification requirement for the top-up on my card <CREDIT_CARD_1>?,1,2,0.8754249215126038
+1253,test-002393,I'm missing the code needed to verify the top-up on account <ACCOUNT_NUMBER_1>.,0,2,0.8449100255966187
+1254,test-002395,Help me find the verification code for the top-up on card number <CREDIT_CARD_1>.,0,2,0.8452354669570923
+1255,test-002397,Please help me find where the verification code is for card <CREDIT_CARD_1> used in my top-up.,0,2,0.8486216068267822
+1256,test-002400,Can I get another card for account <ACCOUNT_NUMBER_1>?,0,1,0.8422113656997681
+1257,test-002402,I want to get an additional card for account <ACCOUNT_NUMBER_1>.,1,1,0.8610472083091736
+1258,test-002405,I need extra physical cards for the account <ACCOUNT_NUMBER_1>.,0,13,0.8206325769424438
+1259,test-002406,I'd like a few more physical cards sent to me for account <ACCOUNT_NUMBER_1>.,0,13,0.8039705753326416
+1260,test-002407,How do I obtain a second card for account <ACCOUNT_NUMBER_1> after already having one?,0,13,0.823030948638916
+1261,test-002409,Could I get another card for account <ACCOUNT_NUMBER_1>?,0,1,0.8418655395507812
+1262,test-002413,I would like to order more physical cards on account <ACCOUNT_NUMBER_1>.,0,13,0.8087700605392456
+1263,test-002414,Would you be able to provide me with a spare card for account <ACCOUNT_NUMBER_1> for my daughter's use?,0,7,0.769886314868927
+1264,test-002416,Can I have another card associated with account <ACCOUNT_NUMBER_1>?,0,13,0.8332895040512085
+1265,test-002417,I'd like my daughter to receive a card as well — how do we set that up for account <ACCOUNT_NUMBER_1>?,0,12,0.7979140281677246
+1266,test-002418,How do I go about getting a spare card for my daughter from account <ACCOUNT_NUMBER_1>?,0,14,0.7619117498397827
+1267,test-002419,Can I get a spare card for the account <ACCOUNT_NUMBER_1>?,0,14,0.834121823310852
+1268,test-002421,How do I order extra cards for account <ACCOUNT_NUMBER_1>?,0,1,0.8359217047691345
+1269,test-002422,Can you tell me where I can get a second card for account <ACCOUNT_NUMBER_1>?,0,13,0.8115953207015991
+1270,test-002423,I wanted to buy a spare card today for account <ACCOUNT_NUMBER_1>.,0,7,0.8465527296066284
+1271,test-002424,I need several extra physical cards on account <ACCOUNT_NUMBER_1>.,0,1,0.8095260858535767
+1272,test-002426,Am I able to buy additional non-digital cards through account <ACCOUNT_NUMBER_1>?,0,1,0.8075717687606812
+1273,test-002428,Could I get an additional card for account <ACCOUNT_NUMBER_1>?,1,1,0.8505452871322632
+1274,test-002433,Could I get a spare card for my account <ACCOUNT_NUMBER_1>?,0,14,0.8319495916366577
+1275,test-002508,Can you tell me where to order my card for customer ID <CUSTOMER_ID_1>?,0,12,0.7964333891868591
+1276,test-002512,"How do I go about getting an actual card that is mine, to be sent to <STREET_ADDRESS_1>?",1,13,0.8701305389404297
+1277,test-002518,Can you tell me how to obtain an actual card for account <ACCOUNT_NUMBER_1>?,0,13,0.8352068662643433
+1278,test-002519,How can I get a physical card for account <ACCOUNT_NUMBER_1>?,0,13,0.8285591006278992
+1279,test-002520,I'm seeing denials on my disposable virtual card <CREDIT_CARD_1>; what's the reason?,0,3,0.8014237880706787
+1280,test-002521,"The disposable virtual card I have, card <CREDIT_CARD_1>, appears to be malfunctioning.",1,3,0.8584176301956177
+1281,test-002522,"My virtual card, which is disposable, seems to be broken: card <CREDIT_CARD_1>.",1,3,0.8834961652755737
+1282,test-002523,I'm having trouble using my non-physical card <CREDIT_CARD_1>.,1,3,0.877950131893158
+1283,test-002524,The gym subscription payment I attempted with my disposable virtual card <CREDIT_CARD_1> was declined. Why did that happen?,0,14,0.8335742354393005
+1284,test-002525,Could you explain why my virtual card <CREDIT_CARD_1> keeps getting declined?,0,14,0.8356293439865112
+1285,test-002526,I'm having issues with my disposable card <CREDIT_CARD_1>. Could it be restricted?,0,3,0.8477416634559631
+1286,test-002527,My virtual card <CREDIT_CARD_1> isn't working when I try to use it.,1,3,0.8693976998329163
+1287,test-002528,"I tried to use my virtual card <CREDIT_CARD_1> at the store, but it failed. What should I do?",1,3,0.8535965085029602
+1288,test-002529,There's an issue with my disposable virtual card <CREDIT_CARD_1>; it isn't working.,1,3,0.8517884612083435
+1289,test-002530,I can't use my disposable virtual card <CREDIT_CARD_1>.,0,3,0.845392107963562
+1290,test-002532,Could you explain why my virtual card <CREDIT_CARD_1> was rejected during automatic billing setup?,0,3,0.8323134183883667
+1291,test-002533,I can't get my disposable virtual card <CREDIT_CARD_1> to work. What's wrong?,0,3,0.8401370048522949
+1292,test-002534,Why are subscription services not accepting my virtual card <CREDIT_CARD_1>?,0,3,0.7875109910964966
+1293,test-002535,Can you tell me why my virtual card <CREDIT_CARD_1> is not functioning?,1,3,0.8708938360214233
+1294,test-002536,Using my virtual card <CREDIT_CARD_1> for transactions doesn't work at all.,0,3,0.826013445854187
+1295,test-002537,My virtual card <CREDIT_CARD_1> isn't working for some reason.,1,3,0.8746988773345947
+1296,test-002538,A merchant turned down my disposable virtual card <CREDIT_CARD_1> earlier today. How should I proceed?,0,3,0.8120818138122559
+1297,test-002539,How can I resolve an issue where my virtual card <CREDIT_CARD_1> is being rejected?,1,3,0.8576647043228149
+1298,test-002540,I'm having trouble with my virtual card <CREDIT_CARD_1>. How do I fix it?,1,3,0.8945082426071167
+1299,test-002543,I'm unable to use my virtual card <CREDIT_CARD_1>; what could be wrong?,1,3,0.8561115264892578
+1300,test-002544,The card <CREDIT_CARD_1> isn't working for me currently.,1,3,0.9394579529762268
+1301,test-002545,My disposable card <CREDIT_CARD_1> seems not to be working; is there something I'm doing wrong?,1,3,0.8621976971626282
+1302,test-002546,Payments from my virtual card <CREDIT_CARD_1> are being rejected repeatedly.,0,3,0.8129425048828125
+1303,test-002547,My disposable virtual card <CREDIT_CARD_1> isn't working for point of sale transactions. What should I do?,0,3,0.8018646240234375
+1304,test-002548,My disposable virtual card <CREDIT_CARD_1> was declined when I tried to use it. What should I do next?,0,3,0.8250694274902344
+1305,test-002549,There's an issue with my disposable virtual card <CREDIT_CARD_1>.,1,3,0.856170654296875
+1306,test-002551,The transaction for my gym subscription using my disposable virtual card <CREDIT_CARD_1> was declined. What's the reason?,0,14,0.8216667175292969
+1307,test-002552,"I'm trying to pay with my disposable virtual card <CREDIT_CARD_1>, but it doesn't work.",0,3,0.8303403854370117
+1308,test-002553,"A merchant refused my disposable virtual card <CREDIT_CARD_1>, what should I do?",0,3,0.8193721771240234
+1309,test-002554,There's a problem with my virtual card <CREDIT_CARD_1>.,1,3,0.8974666595458984
+1310,test-002555,I need to know why my virtual disposable card <CREDIT_CARD_1> is not working.,0,3,0.8488258719444275
+1311,test-002556,"My virtual card <CREDIT_CARD_1> isn't working, and I need some help.",1,3,0.891971230506897
+1312,test-002557,I tried to pay with my virtual card <CREDIT_CARD_1> and it got declined; what can I do?,0,14,0.839742124080658
+1313,test-002559,There's a problem with my virtual card <CREDIT_CARD_1> - it's not functioning.,1,3,0.8882575035095215
+1314,test-002584,My ATM withdrawal of foreign currency using card <CREDIT_CARD_1> had an incorrect conversion rate.,1,6,0.8748512268066406
+1315,test-002586,I was charged the wrong exchange rate for my cash withdrawal from account <ACCOUNT_NUMBER_1>.,1,6,0.9462547302246094
+1316,test-002587,I used my card <CREDIT_CARD_1> to withdraw cash from the ATM over the holiday and noticed outrageous fees. I wouldn't have made the withdrawal if I had known about these charges.,0,8,0.8467397689819336
+1317,test-002588,My withdrawal with card <CREDIT_CARD_1> debited from account <ACCOUNT_NUMBER_1> used an incorrect exchange rate that doesn't reflect the real rate.,1,6,0.8989194631576538
+1318,test-002589,Can you explain your exchange rate policy? I don't think I received the correct amount of cash in my ATM transaction with card <CREDIT_CARD_1>.,1,6,0.8776036500930786
+1319,test-002590,I was given the wrong exchange rate for a cash withdrawal from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.,1,6,0.9372313022613525
+1320,test-002591,I expected a higher exchange rate when I withdrew money from account <ACCOUNT_NUMBER_1>. Can you tell me current exchange rates?,1,6,0.8860760927200317
+1321,test-002592,The rate applied to my transaction at the ATM was wrong when I used card <CREDIT_CARD_1>.,0,6,0.8396070599555969
+1322,test-002593,"For my cash withdrawal, the rate of exchange used isn't right on account <ACCOUNT_NUMBER_1>.",1,6,0.9500788450241089
+1323,test-002594,The exchange rate for my cash withdrawal overseas using card <CREDIT_CARD_1> was not correct.,1,6,0.9123983383178711
+1324,test-002595,"I was given an incorrect exchange rate for a cash withdrawal at a foreign ATM, on card <CREDIT_CARD_1>.",1,6,0.9029780626296997
+1325,test-002596,How do you calculate exchange rates? I noticed one was wrong when I withdrew cash from account <ACCOUNT_NUMBER_1>.,1,6,0.9099389910697937
+1326,test-002597,"The ATM gave me cash for holiday shopping, but the exchange rate applied to my withdrawal from account <ACCOUNT_NUMBER_1> was outrageous. I never would have used card <CREDIT_CARD_1> at the ATM if I had realized.",0,8,0.8352698087692261
+1327,test-002598,"With card <CREDIT_CARD_1>, the cash withdrawal's exchange rate doesn't look correct.",1,6,0.8647513389587402
+1328,test-002611,What are my options for getting a disposable virtual card on account <ACCOUNT_NUMBER_1>?,0,7,0.7759840488433838
+1329,test-002612,I just got a disposable virtual card. Can I start using it for online transactions right now with account <ACCOUNT_NUMBER_1>?,0,13,0.7579030990600586
+1330,test-002614,Please tell me how to get a disposable virtual card on account <ACCOUNT_NUMBER_1>.,0,7,0.7693396806716919
+1331,test-002618,May I receive a disposable virtual card for account <ACCOUNT_NUMBER_1> in addition?,0,7,0.7914609909057617
+1332,test-002621,"I have a disposable virtual card, so what should I do with it for account <ACCOUNT_NUMBER_1>?",0,11,0.762096643447876
+1333,test-002640,"I tried to top up using card <CREDIT_CARD_1>, but the app denied it.",1,2,0.9025404453277588
+1334,test-002641,"I tried to top up using my card today, but the payment didn't go through from account <ACCOUNT_NUMBER_1>. It worked a few days ago, so can you look into this?",1,2,0.9038873910903931
+1335,test-002642,My top up from account <ACCOUNT_NUMBER_1> wasn't successful. Why is that?,1,2,0.9124711751937866
+1336,test-002643,"Topping up my card <CREDIT_CARD_1> failed today, yet it worked fine a couple of days back. Can you double-check and explain what's happening?",1,3,0.8794454336166382
+1337,test-002644,Can you tell me why the app rejected my top up with card <CREDIT_CARD_1>?,1,2,0.9119458198547363
+1338,test-002645,Please tell me why the top-up attempt using my card <CREDIT_CARD_1> was unsuccessful.,1,2,0.9355201721191406
+1339,test-002646,I can't top up with card number <CREDIT_CARD_1> right now.,1,2,0.88154137134552
+1340,test-002647,My attempt to add money to account <ACCOUNT_NUMBER_1> with card <CREDIT_CARD_1> was declined by the app.,1,14,0.8837860226631165
+1341,test-002648,Can you tell me the reason my top-up for account <ACCOUNT_NUMBER_1> didn't go through?,1,2,0.9167064428329468
+1342,test-002649,Can you tell me why my top-up failed when I used card <CREDIT_CARD_1>?,1,2,0.9391368627548218
+1343,test-002650,How can I verify whether my top-up went through on card <CREDIT_CARD_1>?,1,2,0.8950796723365784
+1344,test-002651,My top up via card <CREDIT_CARD_1> was unsuccessful.,1,2,0.9172452092170715
+1345,test-002652,My top up didn't go through with card <CREDIT_CARD_1>.,1,2,0.9047813415527344
+1346,test-002653,Why would my top-up with card <CREDIT_CARD_1> not go through?,1,2,0.9119546413421631
+1347,test-002654,I'm trying to understand why my top up failed using card <CREDIT_CARD_1>.,1,2,0.9513380527496338
+1348,test-002655,Can you tell me why my top up using card <CREDIT_CARD_1> failed?,1,2,0.9342900514602661
+1349,test-002656,My top-up didn't go through with card <CREDIT_CARD_1>; what went wrong?,1,2,0.9280687570571899
+1350,test-002657,"I attempted to add funds to account <ACCOUNT_NUMBER_1>, but the transaction failed.",1,0,0.8709949851036072
+1351,test-002658,Can you tell me why my credit card didn't go through for the top up on account <ACCOUNT_NUMBER_1>?,1,2,0.9480770230293274
+1352,test-002659,My top-up with card <CREDIT_CARD_1> was not accepted by the app.,1,2,0.893234133720398
+1353,test-002660,The app wouldn't let me top up account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.,1,2,0.9077240228652954
+1354,test-002661,I think the top up failed on my card <CREDIT_CARD_1>.,1,2,0.9163080453872681
+1355,test-002662,The mobile app rejected my top-up attempt from account <ACCOUNT_NUMBER_1>.,1,2,0.8615196347236633
+1356,test-002668,"I attempted a top up with my card <CREDIT_CARD_1>, but it was declined. Why is it not going through?",1,2,0.8871996402740479
+1357,test-002675,"My card <CREDIT_CARD_1> is declining my top-up attempt. I really need this today, please help.",1,2,0.9029566049575806
+1358,test-002680,"I transferred money from account <ACCOUNT_NUMBER_1> a few hours ago, but the balance hasn't updated yet. Can you look into this?",1,4,0.9193894863128662
+1359,test-002681,The balance on my account <ACCOUNT_NUMBER_1> stayed the same after I made a transfer.,1,0,0.8813245296478271
+1360,test-002683,My account <ACCOUNT_NUMBER_1> balance hasn't updated following a transfer I made.,1,0,0.906602680683136
+1361,test-002686,"I just completed a transfer from account <ACCOUNT_NUMBER_1> and it is not showing up at all, so I'm wondering if everything is okay.",1,0,0.9226894378662109
+1362,test-002687,How long until my bank transfer shows up in account <ACCOUNT_NUMBER_1>?,1,0,0.8719921112060547
+1363,test-002688,I transferred funds but they never arrived in account <ACCOUNT_NUMBER_1>.,1,0,0.8964512348175049
+1364,test-002689,My balance hasn't updated after I made a bank transfer from account <ACCOUNT_NUMBER_1>.,1,4,0.9164814949035645
+1365,test-002690,"After transferring money out of account <ACCOUNT_NUMBER_1>, the balance still shows the old amount, so I'm concerned the funds went missing.",1,0,0.8759139776229858
+1366,test-002692,"I transferred money from my UK account <ACCOUNT_NUMBER_1> a couple of hours ago, and it still doesn't show. Can you check on its status?",1,0,0.8769505023956299
+1367,test-002693,I'm still waiting for my balance to update after the transfer from account <ACCOUNT_NUMBER_1>.,1,4,0.8765130043029785
+1368,test-002694,I made a transfer out of the country and it hasn't went through yet from account <ACCOUNT_NUMBER_1>.,1,0,0.9125549793243408
+1369,test-002695,"I made a transfer, but the balance on account <ACCOUNT_NUMBER_1> hasn't changed.",1,0,0.9101964831352234
+1370,test-002696,"I sent a transfer from my UK bank account <ACCOUNT_NUMBER_1> a few hours ago, but the balance hasn't updated. Please check.",1,4,0.8731421828269958
+1371,test-002697,"I received a cash transfer, yet the balance on account <ACCOUNT_NUMBER_1> didn't update.",1,4,0.9412201046943665
+1372,test-002698,My latest bank transfer hasn't shown up for account <ACCOUNT_NUMBER_1>.,1,0,0.8900081515312195
+1373,test-002699,My bank transfer is still not showing up in account <ACCOUNT_NUMBER_1>.,1,0,0.9006729125976562
+1374,test-002700,My transfer went through but account <ACCOUNT_NUMBER_1> balance was not updated.,1,0,0.9194943904876709
+1375,test-002701,I sent money from account <ACCOUNT_NUMBER_1> and it still hasn't shown up.,1,4,0.8898665308952332
+1376,test-002702,"After making a transfer from account <ACCOUNT_NUMBER_1>, my balance remained unchanged.",1,0,0.8825265765190125
+1377,test-002703,My transfer is missing from account <ACCOUNT_NUMBER_1>.,1,0,0.9193264842033386
+1378,test-002704,I'm not seeing the transfer in the balance for account <ACCOUNT_NUMBER_1>. Why is that?,1,0,0.9248218536376953
+1379,test-002705,The balance on account <ACCOUNT_NUMBER_1> hasn't updated after my bank transfer.,1,4,0.9129831790924072
+1380,test-002706,"I've completed a transfer from account <ACCOUNT_NUMBER_1>, but it's not reflected in my balance.",1,0,0.9227356910705566
+1381,test-002707,The transfer I made into account <ACCOUNT_NUMBER_1> isn't showing up in my balance.,1,0,0.9097715616226196
+1382,test-002709,Can you tell me why my balance transfer isn't displayed on account <ACCOUNT_NUMBER_1>?,1,0,0.9170154929161072
+1383,test-002710,"A few hours ago I made a bank transfer from my UK account, but it still hasn't shown up. Please verify that it was sent from account <ACCOUNT_NUMBER_1>.",1,0,0.8506566286087036
+1384,test-002711,"I transferred money, but the balance on account <ACCOUNT_NUMBER_1> hasn't updated yet.",1,4,0.9359970092773438
+1385,test-002712,My UK account transfer from a few hours ago still hasn't shown up. Can you check account number <ACCOUNT_NUMBER_1> to confirm everything is alright?,1,0,0.8779076337814331
+1386,test-002713,"I transferred money from [country], but the funds haven't appeared in account <ACCOUNT_NUMBER_1> yet.",1,4,0.8940113186836243
+1387,test-002714,"I made a transfer from account <ACCOUNT_NUMBER_1>, but the new balance isn't reflected.",1,0,0.8987097144126892
+1388,test-002715,My transfer hasn't been credited to account <ACCOUNT_NUMBER_1>; where is the money?,1,0,0.9017833471298218
+1389,test-002716,How long does a UK transfer usually take? I made one from account <ACCOUNT_NUMBER_1> and it still hasn't shown up.,1,0,0.8660693168640137
+1390,test-002717,"I made a transfer from account <ACCOUNT_NUMBER_1>, but my balance hasn't updated.",1,4,0.9206045269966125
+1391,test-002718,"I transferred money into account <ACCOUNT_NUMBER_1>, but the balance hasn't increased yet.",1,4,0.9312167763710022
+1392,test-002720,It seems someone withdrew cash with my card <CREDIT_CARD_1>. What do I need to do?,1,8,0.9094040393829346
+1393,test-002722,I lost my wallet and now see cash withdrawals from account <ACCOUNT_NUMBER_1> happening. What's the fastest way to halt them?,0,8,0.8254290819168091
+1394,test-002730,How can I freeze card <CREDIT_CARD_1>? I see a strange withdrawal from account <ACCOUNT_NUMBER_1>.,0,8,0.8482998609542847
+1395,test-002735,"Someone stole my wallet, and now I think they are using my card <CREDIT_CARD_1> to take out cash. What should I do? It's urgent.",0,8,0.8227685689926147
+1396,test-002744,I don't recognize a withdrawal that was made using my card <CREDIT_CARD_1>.,1,8,0.8601596355438232
+1397,test-002750,My card <CREDIT_CARD_1> shows a cash withdrawal that I didn't make.,1,8,0.8793505430221558
+1398,test-002752,I don't recognize a cash withdrawal made with my card <CREDIT_CARD_1>.,1,8,0.8911827206611633
+1399,test-002755,My app shows a cash withdrawal I didn't make with card <CREDIT_CARD_1>.,1,8,0.9022400379180908
+1400,test-002758,There's an unrecognized cash withdrawal on my card <CREDIT_CARD_1> that I didn't perform.,1,8,0.8755788803100586
+1401,test-002802,I got charged for using a US issued card. Can you tell me why and which cards have no fee for adding money to account <ACCOUNT_NUMBER_1>?,1,1,0.8533063530921936
+1402,test-002810,Is there a fee for the card top-up I just completed using account <ACCOUNT_NUMBER_1>?,1,2,0.8843972086906433
+1403,test-002840,Can you activate card number <CREDIT_CARD_1> for me?,1,12,0.9419721961021423
+1404,test-002841,"I need my card <CREDIT_CARD_1> activated, please do it now.",1,12,0.9390097856521606
+1405,test-002842,My new card <CREDIT_CARD_1> needs activation. How do I do that?,1,12,0.9533073902130127
+1406,test-002843,Can you guide me through activating my new card <CREDIT_CARD_1>?,1,12,0.9319534301757812
+1407,test-002844,How can I get my card <CREDIT_CARD_1> activated?,1,12,0.958404541015625
+1408,test-002846,How should I go about activating my card <CREDIT_CARD_1>?,1,12,0.9408582448959351
+1409,test-002847,What do I need to do to activate card <CREDIT_CARD_1> that just came in?,1,12,0.9694957733154297
+1410,test-002849,Could you tell me how to activate the card <CREDIT_CARD_1> I just received?,1,12,0.9637178182601929
+1411,test-002850,Can you tell me why I can't activate card number <CREDIT_CARD_1>?,1,12,0.9139702320098877
+1412,test-002853,"I have a new card <CREDIT_CARD_1>, where should I go to activate it?",1,12,0.9379640817642212
+1413,test-002854,Can you help me activate the card <CREDIT_CARD_1> so I can start using it?,1,12,0.948594331741333
+1414,test-002855,I'm trying to activate my card <CREDIT_CARD_1> and need assistance.,1,12,0.9539974927902222
+1415,test-002856,How do I go about activating card <CREDIT_CARD_1>?,1,12,0.9440311193466187
+1416,test-002857,Could you activate my card <CREDIT_CARD_1> for me?,1,12,0.954075038433075
+1417,test-002858,"I attempted to activate card <CREDIT_CARD_1>, but it didn't go through.",1,12,0.9206368327140808
+1418,test-002859,I just got my card in the mail and need to activate it before using it. What steps should I take for card <CREDIT_CARD_1>?,1,12,0.9284060001373291
+1419,test-002860,I have a new card <CREDIT_CARD_1> and need it activated.,1,12,0.9543778896331787
+1420,test-002861,Please help me activate card <CREDIT_CARD_1>.,1,12,0.9688875079154968
+1421,test-002862,I need help activating card <CREDIT_CARD_1>.,1,12,0.9584712982177734
+1422,test-002863,What steps should I take to activate my card <CREDIT_CARD_1> and begin using it?,1,12,0.9256830215454102
+1423,test-002864,I need to activate my card <CREDIT_CARD_1>.,1,12,0.9818839430809021
+1424,test-002865,Can you tell me when my card <CREDIT_CARD_1> will be activated?,1,12,0.921306848526001
+1425,test-002866,Could you guide me through activating my card <CREDIT_CARD_1>?,1,12,0.9425315856933594
+1426,test-002867,Could you walk me through activating my card <CREDIT_CARD_1>?,1,12,0.9386815428733826
+1427,test-002868,I need to activate my new card <CREDIT_CARD_1>. What's the process?,1,12,0.9477400779724121
+1428,test-002869,Could you tell me the steps to activate my card <CREDIT_CARD_1>?,1,12,0.9507830142974854
+1429,test-002870,Can someone help me activate card <CREDIT_CARD_1>?,1,12,0.9667209386825562
+1430,test-002871,What steps should I follow to activate the card <CREDIT_CARD_1>?,1,12,0.9453114867210388
+1431,test-002872,Can you explain how to start using my card <CREDIT_CARD_1>?,1,12,0.8810624480247498
+1432,test-002873,I'm unsure if my card <CREDIT_CARD_1> requires activation. Could you guide me on how to activate it if needed?,1,12,0.9399683475494385
+1433,test-002875,I'd like to activate my card <CREDIT_CARD_1> for immediate use; can you assist?,1,12,0.9380325078964233
+1434,test-002877,I need help activating my new card <CREDIT_CARD_1> that I just received.,1,12,0.938210129737854
+1435,test-002878,"My new card <CREDIT_CARD_1> arrived, and I need to activate it. What should I do?",1,12,0.9459459185600281
+1436,test-002879,What steps should I follow to activate card number <CREDIT_CARD_1>?,1,12,0.9233413934707642
+1437,test-002883,Can you tell me what this charge for a cash withdrawal from account <ACCOUNT_NUMBER_1> is?,0,1,0.8440757989883423
+1438,test-002884,"Earlier today after shopping, I withdrew money from account <ACCOUNT_NUMBER_1> and was charged a fee that didn't exist previously. What's the reason for cash withdrawal fees?",0,1,0.8417575359344482
+1439,test-002885,I withdrew cash from account <ACCOUNT_NUMBER_1> following a grocery purchase today and noticed a fee that wasn't there before. What is the reason for this charge?,1,1,0.8618707060813904
+1440,test-002888,Why is there an extra charge on the withdrawal from account <ACCOUNT_NUMBER_1>?,1,1,0.9061627984046936
+1441,test-002889,Could you tell me why I was charged for withdrawing money from account <ACCOUNT_NUMBER_1>?,1,1,0.8835148811340332
+1442,test-002890,Can you explain the fee on my cash withdrawal from account <ACCOUNT_NUMBER_1> with card <CREDIT_CARD_1>?,1,8,0.8559056520462036
+1443,test-002891,Why was I charged an unexpected fee when withdrawing cash from account <ACCOUNT_NUMBER_1>?,1,1,0.8797883987426758
+1444,test-002892,I had to pay a fee when I got cash using my card <CREDIT_CARD_1>; can you explain why?,0,1,0.8319422006607056
+1445,test-002893,"I didn't realize I'd be charged for taking cash out of account <ACCOUNT_NUMBER_1> with card <CREDIT_CARD_1>, but the ATM slip shows a fee—can you help me fix this?",1,8,0.8722611665725708
+1446,test-002894,There was a fee charged on my recent withdrawal from my card <CREDIT_CARD_1>.,1,1,0.8520649671554565
+1447,test-002896,Can you tell me why a fee was applied to my cash withdrawal from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>?,1,8,0.8616154789924622
+1448,test-002899,Why was I charged for withdrawing cash with card <CREDIT_CARD_1>?,1,8,0.860398530960083
+1449,test-002900,Can you explain the ATM fee I was charged for using card <CREDIT_CARD_1>?,0,1,0.8356534242630005
+1450,test-002901,Can you tell me why there's a charge on account <ACCOUNT_NUMBER_1> for a cash withdrawal?,1,1,0.8635087013244629
+1451,test-002924,The expiration date for my card <CREDIT_CARD_1> is coming up soon.,0,13,0.8028059601783752
+1452,test-002925,"My card <CREDIT_CARD_1> is about to expire, what should I expect?",0,3,0.8258495330810547
+1453,test-002926,"My card <CREDIT_CARD_1> is expiring shortly, and I would like to know what I should do.",1,3,0.8704573512077332
+1454,test-002929,My card <CREDIT_CARD_1> is almost expired; what does a new one cost and how fast can I get it?,0,3,0.8190773129463196
+1455,test-002930,"Could you tell me how to replace my card <CREDIT_CARD_1>, which is about to expire?",1,3,0.8608112335205078
+1456,test-002931,"Since my card is close to expiring, can you tell me the fee and how long it takes to issue a new one for account <ACCOUNT_NUMBER_1>?",0,1,0.8209180235862732
+1457,test-002935,I need a new card since my current card <CREDIT_CARD_1> is about to expire.,0,3,0.8296927213668823
+1458,test-002936,It looks like my card <CREDIT_CARD_1> will expire next month. Could I order a replacement card?,0,3,0.817113995552063
+1459,test-002937,"I see that my card <CREDIT_CARD_1> is expiring soon. How much would a new card cost, and how quickly can I get it? I can provide the account number <ACCOUNT_NUMBER_1> for verification.",0,12,0.7809667587280273
+1460,test-002939,"My card <CREDIT_CARD_1> is about to expire, so what is the process to order a replacement?",0,3,0.8429620265960693
+1461,test-002941,"With card <CREDIT_CARD_1> expiring next month, should I order a new card?",0,13,0.7878248691558838
+1462,test-002944,"My card <CREDIT_CARD_1> is nearing expiration, so I'd like a replacement card.",1,3,0.8571701049804688
+1463,test-002945,My card <CREDIT_CARD_1> is nearly expired; when can I order a replacement and what is the process?,0,3,0.8377422094345093
+1464,test-002946,"I'd like to order a new card since mine, card <CREDIT_CARD_1>, is expiring. How much will it cost and when will I get it?",0,3,0.7754209041595459
+1465,test-002950,I just noticed that card <CREDIT_CARD_1> will expire shortly.,0,3,0.8020961284637451
+1466,test-002951,I need a new card quickly because card <CREDIT_CARD_1> is nearing its expiration date.,0,3,0.8260034918785095
+1467,test-002952,I need to get a new card since the card <CREDIT_CARD_1> I have is about to expire.,0,3,0.8340284824371338
+1468,test-002953,The expiry date on my card <CREDIT_CARD_1> is coming up soon.,0,13,0.7991726398468018
+1469,test-002954,I would like to find out the cost and timeframe to replace my expiring card on account <ACCOUNT_NUMBER_1>.,0,13,0.7840743660926819
+1470,test-002956,I'm in China and need a new card because card <CREDIT_CARD_1> is about to expire.,0,3,0.8037680387496948
+1471,test-002958,"Since my card <CREDIT_CARD_1> is about to expire, what is the process for obtaining a new one?",0,3,0.8453537225723267
+1472,test-002959,Can you tell me the cost and expected arrival date for the new card replacing my card <CREDIT_CARD_1>?,0,13,0.8088300228118896
+1473,test-002962,The top-up to my Google Pay account with card <CREDIT_CARD_1> is not working.,1,2,0.8619025349617004
+1474,test-002966,I can't add money to Google Pay from account <ACCOUNT_NUMBER_1>.,0,0,0.8004250526428223
+1475,test-002972,My American Express card won't work with Apple Pay even though I just received it. Please help with account <ACCOUNT_NUMBER_1>.,0,14,0.7854551672935486
+1476,test-002974,What's preventing me from topping up account <ACCOUNT_NUMBER_1> via Apple Pay using my American Express?,0,2,0.8287307024002075
+1477,test-002978,"My American Express account <ACCOUNT_NUMBER_1> is not working with Apple Pay for top ups, can you fix it?",0,2,0.8296827077865601
+1478,test-002979,The top-up for Apple Pay fails when I use my card <CREDIT_CARD_1>.,1,2,0.8665163516998291
+1479,test-002986,Adding money via Apple Pay with my American Express card <CREDIT_CARD_1> isn't working.,0,3,0.7600846886634827
+1480,test-002987,"I have my American Express in Apple Pay, and top up isn't working. Please check card <CREDIT_CARD_1>.",0,2,0.8014310598373413
+1481,test-002988,"I've got my American Express in Apple Pay, but the top up from account <ACCOUNT_NUMBER_1> is not working.",0,2,0.8340307474136353
+1482,test-002991,"My American Express is in my Apple Pay, yet the top up for account <ACCOUNT_NUMBER_1> is not going through. Can you explain why?",0,2,0.8369894027709961
+1483,test-002997,Can you explain why my top up fails when I use the American Express card <CREDIT_CARD_1> I have in Apple Pay?,0,2,0.8472900986671448
+1484,test-003008,The bank messaged me about needing identity verification. Can you help me with that for customer ID <CUSTOMER_ID_1>? My registered email is <EMAIL_ADDRESS_1>.,0,14,0.7604677677154541

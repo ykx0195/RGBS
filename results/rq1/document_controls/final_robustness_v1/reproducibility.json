@@ -1,0 +1,15 @@
+{
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pyarrow": "26.0.0"
+  },
+  "scripts_sha256": {
+    "code\\supplement_final_robustness.py": "5d0e8efa56ea7500821d34ff2484e11829a90ce00efcdb6aadb8e4d6d9df994c",
+    "code\\summarize_final_robustness.py": "e758d65a0058cde9abd3625d3435f80eb546af7fb682412d56345abdf7491a83",
+    "code\\update_current_summary.py": "01a01804bc491479c26e3ff85c1da1e0da7c425070fc0550d6cdfae72c2e39f0"
+  },
+  "embedding_source": "results/mechanism_presidio_gpu_v1/results",
+  "records_and_models": "Same common-token-filtered records and stored model outputs; no encoder inference in this round.",
+  "code_syntax_checked": 38
+}

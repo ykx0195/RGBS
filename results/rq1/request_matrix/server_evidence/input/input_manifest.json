@@ -1,0 +1,59 @@
+{
+  "span_provenance": "Exact source-aligned raw/materialized versus placeholder template alignment; reconstruction asserted for every record. These are derived benchmark PII fields, not independent human PII annotations.",
+  "inputs": [
+    {
+      "dataset": "banking77",
+      "split": "train",
+      "records": 4924,
+      "sources": 4924,
+      "spans": 5368,
+      "raw_sha256": "b4779b894f10f01128176727fd8b6fb435a77e169673f4d597acab99ec3b79ba",
+      "delex_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df"
+    },
+    {
+      "dataset": "banking77",
+      "split": "test",
+      "records": 1485,
+      "sources": 1485,
+      "spans": 1596,
+      "raw_sha256": "6e1f68813fa2e908f1e6fdcce21c3bc72d4aa23ff561aea442c9ef6cc6f58997",
+      "delex_sha256": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461"
+    },
+    {
+      "dataset": "abcd",
+      "split": "train",
+      "records": 3834,
+      "sources": 3834,
+      "spans": 6353,
+      "raw_sha256": "71349b3361a65dd7c5858b16fb15a4ed433c1ef840e1728be38eac4172b59514",
+      "delex_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6"
+    },
+    {
+      "dataset": "abcd",
+      "split": "test",
+      "records": 476,
+      "sources": 476,
+      "spans": 780,
+      "raw_sha256": "59eed2e4a7e6647fd7dd118d3aeedefe357bc09798abf3931ed3e10316b1bb9c",
+      "delex_sha256": "c0cb1dfc04566724390c7f47cdd1e5cf03d3aa8f184d0ba9704f793f54065996"
+    },
+    {
+      "dataset": "multidogo",
+      "split": "train",
+      "records": 3993,
+      "sources": 3993,
+      "spans": 7438,
+      "raw_sha256": "61ed77d22b6c68c71d1d49b4dcd603b918a563142e4cde2e110e6163dd804c5f",
+      "delex_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c"
+    },
+    {
+      "dataset": "multidogo",
+      "split": "test",
+      "records": 1094,
+      "sources": 1094,
+      "spans": 2034,
+      "raw_sha256": "3b69bf45e4ef20d1e5786d014100736701776362ed945e3fde08e65ca0d88d1c",
+      "delex_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "text": "Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet.",
+    "key_id": "banking77:constructed:0",
+    "category": null
+  },
+  {
+    "text": "There's a similar charge regarding my card transactions; why did it appear in my account <ACCOUNT_NUMBER_1>?",
+    "key_id": "banking77:constructed:1",
+    "category": null
+  },
+  {
+    "text": "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+    "key_id": "banking77:constructed:2",
+    "category": null
+  },
+  {
+    "text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now.",
+    "key_id": "banking77:constructed:3",
+    "category": null
+  },
+  {
+    "text": "Could you clarify why the money from account <ACCOUNT_NUMBER_1> hasn't turned up in my balance yet?",
+    "key_id": "banking77:constructed:4",
+    "category": null
+  },
+  {
+    "text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+    "key_id": "banking77:constructed:5",
+    "category": null
+  },
+  {
+    "text": "I spotted a payment to the incorrect account number <ACCOUNT_NUMBER_1>, please assist.",
+    "key_id": "banking77:constructed:6",
+    "category": null
+  },
+  {
+    "text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?",
+    "key_id": "banking77:constructed:7",
+    "category": null
+  },
+  {
+    "text": "However, could you guide me in reactivating a card for account <ACCOUNT_NUMBER_1> now?",
+    "key_id": "banking77:constructed:8",
+    "category": null
+  },
+  {
+    "text": "Could you inform me how to cancel the transaction for account <ACCOUNT_NUMBER_1>?",
+    "key_id": "banking77:constructed:9",
+    "category": null
+  },
+  {
+    "text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+    "key_id": "banking77:constructed:10",
+    "category": null
+  },
+  {
+    "text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I unfortunately haven't received.",
+    "key_id": "banking77:constructed:11",
+    "category": null
+  },
+  {
+    "text": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+    "key_id": "banking77:constructed:12",
+    "category": null
+  },
+  {
+    "text": "Can you confirm why a currency exchange fee was given on my account <ACCOUNT_NUMBER_1>?",
+    "key_id": "banking77:constructed:13",
+    "category": null
+  },
+  {
+    "text": "Perhaps the card payment has been declined? Can you give me info on why for account <ACCOUNT_NUMBER_1>?",
+    "key_id": "banking77:constructed:14",
+    "category": null
+  }
+]

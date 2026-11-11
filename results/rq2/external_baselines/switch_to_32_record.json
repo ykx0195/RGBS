@@ -1,0 +1,14 @@
+{
+  "stamp": "20261103_022145",
+  "stopped_controllers": [
+    8440,
+    10679
+  ],
+  "stopped_workers": [
+    9080,
+    9164,
+    9958
+  ],
+  "history": "/root/autodl-tmp/vldb_supplement_20261102/history/switch_to_32_20261103_022145",
+  "reason": "User requested all remaining GASLITE and Flu searches use 32 rounds; completed 100-round results retained."
+}

@@ -1,0 +1,22 @@
+% PREVIEW ONLY: not yet inserted into the manuscript.
+\begin{table}[!htb]
+\caption{Frozen main-portfolio coverage (\%) across encoders at $\tau=0.85$}
+\label{tab:cross-encoder-coverage}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrr@{}}
+\toprule
+Encoder & Banking77 & ABCD & MultiDoGO \\
+\midrule
+BGE-small (source) & 74.68 & 64.71 & 83.09 \\
+MiniLM-L6 & 4.78 & 2.31 & 20.84 \\
+GTE-small & 98.79 & 97.27 & 99.09 \\
+E5-small-v2 & 99.73 & 98.74 & 98.99 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{2pt}
+\begin{minipage}{\columnwidth}\footnotesize
+The same main BGE text sets are frozen across encoders. A common numerical threshold does not imply comparable operating points.
+\end{minipage}
+\end{table}

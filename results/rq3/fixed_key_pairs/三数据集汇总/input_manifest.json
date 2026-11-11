@@ -1,0 +1,23 @@
+[
+  {
+    "dataset": "banking77",
+    "report": "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\banking77\\coverage_summary.json",
+    "source_report_sha256": "7a5634256c630a457bc486b0c3c7993665b306fc4a5b5b5d5df48c4d1c2f30d6",
+    "task_summary_sha256": "c55bee5e52c5cb8a558f0e23f74f0d3f9351f470c8f35647d015b9da3fae8f25",
+    "key_texts_sha256": "2b5c1520c34698dd451ff1e10f0582fc017a2a0cb0e59561872c3c46e757d3be"
+  },
+  {
+    "dataset": "abcd",
+    "report": "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\ABCD补充\\abcd\\coverage_summary.json",
+    "source_report_sha256": "d16385f9af12ee9ddc464f991af8b59394f49777c0fca2fa48ed05f960b50bf8",
+    "task_summary_sha256": "e06bbe9d486870962c864c5f6beb887f5a7a55206afca5c4c3ca2951625683b9",
+    "key_texts_sha256": "f0bf02c912557ba3450fcd56dd2237d026b4a18d796a4a8e6f5a536996517be4"
+  },
+  {
+    "dataset": "dogo",
+    "report": "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\dogo\\coverage_summary.json",
+    "source_report_sha256": "9f2c3ebe0cf15a1a066317ac12d101ec33a059ff7a41c9a3bd3f0f824fd154e9",
+    "task_summary_sha256": "70307935c62eba5cbc23e944513192d81e605c65c2c8a27935c99436aca7c245",
+    "key_texts_sha256": "f73ce37e3981680b35757a6e84485a7aedd8f3dfea7b2b65292612b9c68603ed"
+  }
+]

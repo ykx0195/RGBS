@@ -1,0 +1,7 @@
+{
+  "model": "e5",
+  "dataset": "multidogo",
+  "field": "presidio_mask_length",
+  "encoded": 49409,
+  "seconds": 134.54811310768127
+}

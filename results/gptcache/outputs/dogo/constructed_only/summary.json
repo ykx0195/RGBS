@@ -1,0 +1,17 @@
+{
+  "dataset": "dogo",
+  "condition": "constructed_only",
+  "source_entries": 10,
+  "unique_cache_entries": 10,
+  "test_total": 1094,
+  "cache_hits": 909,
+  "hit_rate_percent": 83.08957952468008,
+  "oracle_hits": 909,
+  "oracle_disagreements": 0,
+  "cache_rows_before": 10,
+  "cache_rows_after": 10,
+  "embedding_callback_calls": 1104,
+  "distinct_returned_entries": 10,
+  "answer_validity_evaluated": false,
+  "admission_evaluated": false
+}

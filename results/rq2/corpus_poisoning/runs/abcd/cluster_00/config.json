@@ -1,0 +1,19 @@
+{
+  "dataset": "abcd",
+  "cluster": 0,
+  "seed": 42,
+  "max_iterations": 5000,
+  "num_candidates": 100,
+  "query_batch": 64,
+  "candidate_batch": 32,
+  "threshold": 0.85,
+  "train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+  "vectors_sha256": "b7cbb882801589fd2316b97f428c7edeec4d6cdccaf3de2972d751327ccdb47c",
+  "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "official_commit": "main-snapshot-with-file-sha256",
+  "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+  "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+  "device": "cuda",
+  "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+  "smoke": false
+}

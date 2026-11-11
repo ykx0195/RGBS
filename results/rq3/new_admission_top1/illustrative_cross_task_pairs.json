@@ -1,0 +1,295 @@
+[
+  {
+    "pair_id": "case-000017",
+    "dataset": "banking77",
+    "test_index": 19,
+    "source_id": "test-000021",
+    "key_index": 9,
+    "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+    "query_text": "Could you provide the status of my card order for account <ACCOUNT_NUMBER_1>?",
+    "selected_cosine": 0.87236487865448,
+    "returned_answer": "I cannot access your account records or perform actions on your behalf. To reactivate a card, please log in to your bank’s mobile app or online banking portal and look for an option labeled \"Manage Cards,\" \"Unblock Card,\" or \"Reactivate.\" If you do not see this option, contact your bank’s customer support directly via the phone number listed on the back of your card or their official website.",
+    "content_sha256": "5873905a01ba52de0a9ac8eaed9c22bf9f0a227e0571b0bc144a91b23a38575e",
+    "consensus": "BOTH_DIFFERENT_TASK",
+    "reused": false,
+    "prior_judgments": [],
+    "qwen_label": "DIFFERENT_TASK",
+    "deepseek_label": "DIFFERENT_TASK",
+    "qwen_reason": "Question A requests guidance on reactivating a card, while Question B asks for the status of a card order. These are different actions (reactivation vs. status check) and objects (existing card vs. ordered card).",
+    "deepseek_reason": "Reactivating a card vs checking status of a card order are different operations.",
+    "label_origin": "new_two_model_judgment"
+  },
+  {
+    "pair_id": "case-000027",
+    "dataset": "banking77",
+    "test_index": 30,
+    "source_id": "test-000034",
+    "key_index": 9,
+    "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+    "query_text": "Is there a tracking option for the card you sent to account <ACCOUNT_NUMBER_1>?",
+    "selected_cosine": 0.8610225319862366,
+    "returned_answer": "I cannot access your account records or perform actions on your behalf. To reactivate a card, please log in to your bank’s mobile app or online banking portal and look for an option labeled \"Manage Cards,\" \"Unblock Card,\" or \"Reactivate.\" If you do not see this option, contact your bank’s customer support directly via the phone number listed on the back of your card or their official website.",
+    "content_sha256": "5eae7104eae634def4a8e5c15215866269da55461fd03bcdb366e7a8a0435405",
+    "consensus": "BOTH_DIFFERENT_TASK",
+    "reused": false,
+    "prior_judgments": [],
+    "qwen_label": "DIFFERENT_TASK",
+    "deepseek_label": "DIFFERENT_TASK",
+    "qwen_reason": "Question A requests guidance on reactivating a card, while Question B asks about tracking options for a sent card. Reactivation is an account/card state change, whereas tracking is an information request regarding shipment.",
+    "deepseek_reason": "Reactivating a card vs asking about tracking for a sent card are different requests.",
+    "label_origin": "new_two_model_judgment"
+  },
+  {
+    "pair_id": "case-000030",
+    "dataset": "banking77",
+    "test_index": 35,
+    "source_id": "test-000040",
+    "key_index": 6,
+    "key_text": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+    "query_text": "Why isn't my card showing up in the app for account <ACCOUNT_NUMBER_1>?",
+    "selected_cosine": 0.8694039583206177,
+    "returned_answer": "I am unable to access your account records or verify the delivery status of your card.\n\nPlease check the tracking information provided in your original shipping confirmation email. If the card has not arrived within the expected timeframe, contact your bank's customer support directly to report the issue and request a replacement.",
+    "content_sha256": "1429de368c82c1865a943dc1b4cd44ccfc2e8763119d09f81fafd90614f26b0a",
+    "consensus": "BOTH_DIFFERENT_TASK",
+    "reused": true,
+    "prior_judgments": [
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\banking77\\task_pair_audit.csv",
+        "source_pair_id": "banking77:35:12",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\联合组件消融_20261031\\all_task_pair_audit.csv",
+        "source_pair_id": "joint-ablation:banking77:35:817f95bf7c0ac24cb1f2",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\task_audit_completed_pairs.csv",
+        "source_pair_id": "banking77:35:12",
+        "qwen_label": "",
+        "deepseek_label": ""
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\阈值扩展_080_0825_085_20261031\\banking77\\all_task_pair_audit.csv",
+        "source_pair_id": "banking77:35:12",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      }
+    ],
+    "qwen_label": "DIFFERENT_TASK",
+    "deepseek_label": "DIFFERENT_TASK",
+    "label_origin": "exact_content_reuse"
+  },
+  {
+    "pair_id": "case-001083",
+    "dataset": "abcd",
+    "test_index": 0,
+    "source_id": "abcd-test-10012",
+    "key_index": 4,
+    "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+    "query_text": "I'd like to check the status of a refund for a recent return. I don't know my account ID, but my username is <USERNAME_1> and the order ID is <ORDER_ID_1>.",
+    "selected_cosine": 0.8572015166282654,
+    "returned_answer": "I cannot access your account or process returns directly. To return order <ORDER_ID_1> for a refund, please log in to your account and navigate to the \"Order History\" section. Select the specific order, choose the items you wish to return, and follow the prompts to generate a return label. Ensure you include all original tags and packaging when shipping the items back.",
+    "content_sha256": "ca26342e203a18253a2e8633a85afd0c117e8d095b2f37faea2805638f935cc2",
+    "consensus": "BOTH_DIFFERENT_TASK",
+    "reused": false,
+    "prior_judgments": [],
+    "qwen_label": "DIFFERENT_TASK",
+    "deepseek_label": "DIFFERENT_TASK",
+    "qwen_reason": "Question A requests initiating a return/refund process due to wrong item color, while Question B requests checking the status of an already existing refund. One is an action request (initiate), the other is an information query (status).",
+    "deepseek_reason": "A requests returning an order for a refund due to wrong shade; B requests checking status of an existing refund, different action and state.",
+    "label_origin": "new_two_model_judgment"
+  },
+  {
+    "pair_id": "case-001086",
+    "dataset": "abcd",
+    "test_index": 3,
+    "source_id": "abcd-test-10091",
+    "key_index": 0,
+    "key_text": "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+    "query_text": "I'd like to cancel my order <ORDER_ID_1> instead of changing my address. My account ID is <ACCOUNT_ID_1>, and the order is out for delivery.",
+    "selected_cosine": 0.8890117406845093,
+    "returned_answer": "I cannot access your account or modify orders directly. To change the shipping address for an unshipped order, please log in to your account and check if there is an option to \"Edit Address\" or \"Cancel Order\" under your recent purchases. If these options are unavailable, contact customer support immediately via the platform's help center or chat feature, as changes are often only possible before the item ships.",
+    "content_sha256": "55b6f66692337d6480356713fd480fb8117ab5ecfcbc033a1afdbcca901607ab",
+    "consensus": "BOTH_DIFFERENT_TASK",
+    "reused": true,
+    "prior_judgments": [
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\ABCD补充\\abcd\\task_pair_audit.csv",
+        "source_pair_id": "abcd:3:0",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\联合组件消融_20261031\\all_task_pair_audit.csv",
+        "source_pair_id": "joint-ablation:abcd:3:4b8770008c36e9639e0e",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\task_audit_completed_pairs.csv",
+        "source_pair_id": "abcd:3:0",
+        "qwen_label": "",
+        "deepseek_label": ""
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\阈值扩展_080_0825_085_20261031\\abcd\\all_task_pair_audit.csv",
+        "source_pair_id": "abcd:3:0",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      }
+    ],
+    "qwen_label": "DIFFERENT_TASK",
+    "deepseek_label": "DIFFERENT_TASK",
+    "label_origin": "exact_content_reuse"
+  },
+  {
+    "pair_id": "case-001091",
+    "dataset": "abcd",
+    "test_index": 10,
+    "source_id": "abcd-test-1020",
+    "key_index": 1,
+    "key_text": "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+    "query_text": "My subscription isn't active and I have an amount due. I'd like to pay it right now by credit card on file for account <ACCOUNT_ID_1>.",
+    "selected_cosine": 0.860938310623169,
+    "returned_answer": "I cannot access your account records or process refunds directly. To address the charge, please check your subscription settings to see if you can cancel immediately to prevent future fees. For a refund of the recent charge, contact customer support through the app’s help section or official website, providing your account ID and transaction details.",
+    "content_sha256": "6a043ced8f9f234b67a86ed4e9b1fef6dd905eb5c2cfaa6dba09515c915731c8",
+    "consensus": "BOTH_DIFFERENT_TASK",
+    "reused": true,
+    "prior_judgments": [
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\ABCD补充\\abcd\\task_pair_audit.csv",
+        "source_pair_id": "abcd:10:1",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\联合组件消融_20261031\\all_task_pair_audit.csv",
+        "source_pair_id": "joint-ablation:abcd:10:79fe277ad22507935b5b",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\task_audit_completed_pairs.csv",
+        "source_pair_id": "abcd:10:1",
+        "qwen_label": "",
+        "deepseek_label": ""
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\阈值扩展_080_0825_085_20261031\\abcd\\all_task_pair_audit.csv",
+        "source_pair_id": "abcd:10:1",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      }
+    ],
+    "qwen_label": "DIFFERENT_TASK",
+    "deepseek_label": "DIFFERENT_TASK",
+    "label_origin": "exact_content_reuse"
+  },
+  {
+    "pair_id": "case-001388",
+    "dataset": "dogo",
+    "test_index": 0,
+    "source_id": "multidogo-airline-test-00ac978c-2227-4a33-a94e-a10b42e16721",
+    "key_index": 0,
+    "key_text": "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+    "query_text": "I'd like to book a flight ticket from California to New York for one passenger. You can reach me at <EMAIL_ADDRESS_1>.",
+    "selected_cosine": 0.8537176847457886,
+    "returned_answer": "I cannot access your booking records or send documents directly. To obtain your boarding pass, please log in to the airline’s website or mobile app using your booking reference and email address. You can also check your email for a link from the airline or visit the airport kiosk on the day of travel.",
+    "content_sha256": "391a3df5cac4ae292c38c2951953934228d3f549d356f4c1a8c31505a36a155e",
+    "consensus": "BOTH_DIFFERENT_TASK",
+    "reused": true,
+    "prior_judgments": [
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\task_audit_completed_pairs.csv",
+        "source_pair_id": "dogo:0:0",
+        "qwen_label": "",
+        "deepseek_label": ""
+      }
+    ],
+    "qwen_label": "",
+    "deepseek_label": "",
+    "label_origin": "exact_content_reuse"
+  },
+  {
+    "pair_id": "case-001391",
+    "dataset": "dogo",
+    "test_index": 5,
+    "source_id": "multidogo-airline-test-05db6719-7edc-4693-8ee0-31da31c02889",
+    "key_index": 8,
+    "key_text": "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+    "query_text": "I'm <PERSON_1> and I already booked a ticket with booking ID <BOOKING_ID_1>, but I need to change my seat.",
+    "selected_cosine": 0.9215132594108582,
+    "returned_answer": "I do not have access to your booking records or personal account details. To find your seat number, please check the confirmation email sent by the airline or travel provider, or log in to their website/app using your booking reference <BOOKING_ID_1>. You can also contact the airline's customer support directly for assistance.",
+    "content_sha256": "ecae8de526a6963fa7c5a802d88310efa49adf0d39f1be16e20db495d24b1efa",
+    "consensus": "BOTH_DIFFERENT_TASK",
+    "reused": true,
+    "prior_judgments": [
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\联合组件消融_20261031\\all_task_pair_audit.csv",
+        "source_pair_id": "joint-ablation:dogo:5:60d300cfe3cb34528e9e",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\task_audit_completed_pairs.csv",
+        "source_pair_id": "dogo:5:8",
+        "qwen_label": "",
+        "deepseek_label": ""
+      }
+    ],
+    "qwen_label": "DIFFERENT_TASK",
+    "deepseek_label": "DIFFERENT_TASK",
+    "label_origin": "exact_content_reuse"
+  },
+  {
+    "pair_id": "case-001393",
+    "dataset": "dogo",
+    "test_index": 7,
+    "source_id": "multidogo-airline-test-08a12014-b040-4e08-89f3-ce7958663f76",
+    "key_index": 8,
+    "key_text": "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+    "query_text": "I have a seat assignment and I've decided to change it. My confirmation number is <BOOKING_ID_1>.",
+    "selected_cosine": 0.9006475806236267,
+    "returned_answer": "I do not have access to your booking records or personal account details. To find your seat number, please check the confirmation email sent by the airline or travel provider, or log in to their website/app using your booking reference <BOOKING_ID_1>. You can also contact the airline's customer support directly for assistance.",
+    "content_sha256": "be6b761231dc1e8e4070a794b7b60531ac658a61d59d815a4494e5a5e08654aa",
+    "consensus": "BOTH_DIFFERENT_TASK",
+    "reused": true,
+    "prior_judgments": [
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\联合组件消融_20261031\\all_task_pair_audit.csv",
+        "source_pair_id": "joint-ablation:dogo:7:60d300cfe3cb34528e9e",
+        "qwen_label": "DIFFERENT_TASK",
+        "deepseek_label": "DIFFERENT_TASK"
+      },
+      {
+        "consensus": "BOTH_DIFFERENT_TASK",
+        "source_csv": "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\task_audit_completed_pairs.csv",
+        "source_pair_id": "dogo:7:8",
+        "qwen_label": "",
+        "deepseek_label": ""
+      }
+    ],
+    "qwen_label": "DIFFERENT_TASK",
+    "deepseek_label": "DIFFERENT_TASK",
+    "label_origin": "exact_content_reuse"
+  }
+]

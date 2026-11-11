@@ -1,0 +1,50 @@
+{
+  "freeze_sha256": "dd867be03d6a4519f0a0580c7efeba0f2bb4cc18f08e3f0909d03cd42ef6c3cb",
+  "heldout_loaded": true,
+  "source_main_reproduced": true,
+  "gpu_used": false,
+  "new_api_calls": 0,
+  "test_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+  "encoder_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "code_sha256": "0a478332969e740d08d75f0c6b7baaa57f3770dcb58415661a0d4b3888322738",
+  "seconds": 4.260671615600586,
+  "metrics": [
+    {
+      "dataset": "dogo",
+      "variant": "full_main",
+      "k": 10,
+      "threshold": 0.85,
+      "train_covered": 3316,
+      "train_total": 3993,
+      "test_covered": 909,
+      "test_total": 1094,
+      "test_coverage_pct": 83.08957952468006,
+      "delta_vs_main_pp": 0.0
+    },
+    {
+      "dataset": "dogo",
+      "variant": "without_final_global_reselection",
+      "k": 10,
+      "threshold": 0.85,
+      "train_covered": 2994,
+      "train_total": 3993,
+      "test_covered": 846,
+      "test_total": 1094,
+      "test_coverage_pct": 77.3308957952468,
+      "delta_vs_main_pp": -5.7586837294332724
+    },
+    {
+      "dataset": "dogo",
+      "variant": "without_generated_candidates_seed_pool",
+      "k": 10,
+      "threshold": 0.85,
+      "train_covered": 3314,
+      "train_total": 3993,
+      "test_covered": 907,
+      "test_total": 1094,
+      "test_coverage_pct": 82.90676416819012,
+      "delta_vs_main_pp": -0.18281535648994515
+    }
+  ],
+  "interpretation": "Post-hoc frozen-archive controls. Natural-seed candidate-pool restriction keeps Train selection and final reselection, not a recorded K-text initialization or a full fresh zero-rewrite rerun. Before-reselection texts are the archived sequential prefix."
+}

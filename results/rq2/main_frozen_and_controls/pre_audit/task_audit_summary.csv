@@ -1,0 +1,4 @@
+dataset,threshold,main_total_covered,test_total,main_matched_pairs,main_judged_pairs,main_missing_pairs,raw_delex_union_pairs,union_judged_pairs,union_missing_pairs,audit_complete,any_different_task_queries,confirmed_different_task_query_lower_bound,all_matches_different_task_queries
+banking77,0.85,1109,1485,1805,1805,0,1805,1805,0,True,593,593,303
+abcd,0.85,308,476,344,344,0,344,344,0,True,158,158,145
+dogo,0.85,909,1094,945,614,331,945,614,331,False,,232,

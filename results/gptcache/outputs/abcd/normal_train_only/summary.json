@@ -1,0 +1,17 @@
+{
+  "dataset": "abcd",
+  "condition": "normal_train_only",
+  "source_entries": 3834,
+  "unique_cache_entries": 3834,
+  "test_total": 476,
+  "cache_hits": 473,
+  "hit_rate_percent": 99.36974789915966,
+  "oracle_hits": 473,
+  "oracle_disagreements": 0,
+  "cache_rows_before": 3834,
+  "cache_rows_after": 3834,
+  "embedding_callback_calls": 4310,
+  "distinct_returned_entries": 411,
+  "answer_validity_evaluated": false,
+  "admission_evaluated": false
+}

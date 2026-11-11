@@ -1,0 +1,41 @@
+{
+  "frozen_reused_texts": 5087,
+  "newly_encoded_texts": [
+    "i'm <PERSON_1> and i need the status of my claims. my insurance number is <POLICY_ID_1>."
+  ],
+  "frozen_source_manifest": {
+    "sources": {
+      "C:\\Users\\ykx01\\Desktop\\results\\优先补充实验_20261031\\baselines\\dogo\\train_vectors.npy": "ac68c7fbf409e0a8e898a5aa34c6b37d938e36ee7a9a90e5c2e896e4c48df689",
+      "C:\\Users\\ykx01\\Desktop\\results\\优先补充实验_20261031\\baselines\\dogo\\train_vectors_identity.json": "e394b8e318ca293b4b6a67ce7d4225a5aa113ca730ee6860c68f5fc2c2c767b2",
+      "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\dogo\\embeddings.npz": "89546762d3f6bc054a0c75c7b8ee1eea18589719b1e1401638939f257d9f2737",
+      "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\dogo\\embedding_identity.json": "b790d69557950fbf5aa1b8e9790352ba5e6ecc193fa45a65593036e23a8cb97d"
+    },
+    "train_identity": {
+      "train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+      "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "encoder_code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+      "max_seq_length": 512,
+      "pooling": "CLS",
+      "device": "cpu",
+      "dtype": "float32"
+    },
+    "paired_identity": {
+      "source_report_sha256": "9f2c3ebe0cf15a1a066317ac12d101ec33a059ff7a41c9a3bd3f0f824fd154e9",
+      "key_texts_sha256": "f73ce37e3981680b35757a6e84485a7aedd8f3dfea7b2b65292612b9c68603ed",
+      "raw_test_sha256": "3b69bf45e4ef20d1e5786d014100736701776362ed945e3fde08e65ca0d88d1c",
+      "delex_test_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+      "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "pooling_sha256": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+      "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "max_seq_length": 512,
+      "code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+      "torch": "2.12.1+cpu",
+      "transformers": "4.57.6",
+      "device": "cpu",
+      "dtype": "float32",
+      "batch_size": 64
+    },
+    "vectors": 5087,
+    "output_sha256": "cefeff7a4d72160a6710300649d0025c5e39216d8ef4fed908b5ec49772f4cd1"
+  }
+}

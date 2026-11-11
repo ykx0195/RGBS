@@ -1,0 +1,41 @@
+{
+  "pid": 3530,
+  "started": 1793628367.7490191,
+  "mode": "parallel_datasets",
+  "jobs": [
+    {
+      "dataset": "abcd",
+      "status": "running",
+      "attempts": [],
+      "started": 1793628367.7504122,
+      "out": "/root/autodl-tmp/vldb_supplement_20261102/runs/simple_existing_config/abcd",
+      "child_pid": 3378,
+      "adopted": true
+    },
+    {
+      "dataset": "dogo",
+      "status": "completed",
+      "attempts": [
+        {
+          "attempt": 0,
+          "exit_code": 0,
+          "ended": 1793638425.9580197
+        }
+      ],
+      "started": 1793628367.7555459,
+      "out": "/root/autodl-tmp/vldb_supplement_20261102/runs/simple_existing_config/dogo",
+      "child_pid": 3534,
+      "adopted": false,
+      "ended": 1793638425.958549
+    },
+    {
+      "dataset": "banking77",
+      "status": "running",
+      "attempts": [],
+      "started": 1793628367.7568798,
+      "out": "/root/autodl-tmp/vldb_supplement_20261102/runs/simple_existing_config/banking77",
+      "child_pid": 3535,
+      "adopted": false
+    }
+  ]
+}

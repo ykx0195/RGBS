@@ -1,0 +1,11 @@
+objective,origin,sample_rows,distinct_texts,structural_pass,ppl_pass,local_quality_pass
+mean_cosine,final_optimized_text,5,5,5,0,0
+mean_cosine,natural_seed,5,5,5,5,4
+mean_cosine,random_archive_sample,50,50,50,1,1
+mean_cosine,raw_train_selected,5,5,5,0,0
+mean_cosine,top_train_objective,50,50,50,0,0
+soft_threshold,final_optimized_text,5,5,5,0,0
+soft_threshold,natural_seed,5,5,5,5,4
+soft_threshold,random_archive_sample,50,50,50,0,0
+soft_threshold,raw_train_selected,5,5,5,0,0
+soft_threshold,top_train_objective,50,50,50,0,0

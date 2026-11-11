@@ -1,0 +1,45 @@
+{
+  "config": {
+    "dataset": "abcd",
+    "cluster": 3,
+    "seed": 42,
+    "max_iterations": 5000,
+    "num_candidates": 100,
+    "query_batch": 64,
+    "candidate_batch": 32,
+    "threshold": 0.85,
+    "train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+    "vectors_sha256": "b7cbb882801589fd2316b97f428c7edeec4d6cdccaf3de2972d751327ccdb47c",
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "official_commit": "main-snapshot-with-file-sha256",
+    "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+    "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+    "device": "cuda",
+    "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+    "smoke": false
+  },
+  "initial": {
+    "cluster_id": 3,
+    "train_index": 1743,
+    "source_id": "abcd-train-4852",
+    "text": "I think there's an extra charge on my order <ORDER_ID_1> and I'd like it looked into. I don't have my account ID available right now.",
+    "cluster_size": 738,
+    "initial_center_cosine": 0.9390808939933777
+  },
+  "selected": {
+    "text": "unfortunately incorrect it perhaps damagedively pointless charge about my new <ORDER_ID_1> i tried so would like probably tread orders partly somewhat apparel ; someone backs unexpected account price. helping thanks dude",
+    "full_cluster_mean_cosine": 0.8659504055976868,
+    "selected_at_iteration": 2838
+  },
+  "completed_iterations": 5000,
+  "termination": "iteration_budget_exhausted",
+  "accepted_updates": 654,
+  "proposed_candidates": 500000,
+  "valid_candidates": 499601,
+  "active_seconds": 590.6992214843631,
+  "forward_texts": 504603,
+  "backward_calls": 5000,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "finished_at_utc": "2026-10-31T10:44:55.290932+00:00"
+}

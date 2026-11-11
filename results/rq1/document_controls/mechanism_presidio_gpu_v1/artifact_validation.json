@@ -1,0 +1,46 @@
+{
+  "embedding_files": 720,
+  "max_norm_deviation": 1.1920928955078125e-07,
+  "domains": [
+    {
+      "domain": "healthcare",
+      "records": 2648,
+      "embedding_files": 144
+    },
+    {
+      "domain": "finance",
+      "records": 2043,
+      "embedding_files": 144
+    },
+    {
+      "domain": "banking",
+      "records": 2465,
+      "embedding_files": 144
+    },
+    {
+      "domain": "insurance",
+      "records": 4320,
+      "embedding_files": 144
+    },
+    {
+      "domain": "legal",
+      "records": 1268,
+      "embedding_files": 144
+    }
+  ],
+  "archive_sha256": {
+    "input_bundle.tar.gz": "5df1c84b0aa65f5eb7ebfa92a26a9e8ec3441b818f6dfa32301f230424e43768",
+    "metadata_bundle.tar.gz": "030f007b45500a5ce5d996ae84f68851c9d9651fd980f7fcd234496b96b91832",
+    "result_bundle.tar.gz": "74bc5aa3403a673382ad411ccbc8eafcb327344e221056e767a881f25faef137"
+  },
+  "source_sha256": {
+    "plot_mechanism_presidio.py": "63a61c62cc0efa18c062c697150d4c5b1d0bc3e9d0e508b56a5cad000766f44a",
+    "prepare_mechanism_inputs.py": "0e2323fb0b21610b2a31db0e11b2fb0c1fb1147aa721af4026821db81c73d1b2",
+    "report_mechanism_presidio.py": "5662ea25cd89412c7facd4e61ca86cde98d1215d59b0bdae0142c7fd8efe071f",
+    "run_mechanism_presidio_gpu.py": "4c335eba922aa1320f9de5a05de7484f00a4afac9bc7f41987c66464e993aacd",
+    "summarize_mechanism_presidio.py": "679157423a1abf69948a6949b0e2dd5b59bd891b2395ce88ffa5eef33968f22e",
+    "update_summary_with_mechanism.py": "a17a7abf92e758ff6830ac7919d127e67b3976ff2fee8c1318acadc62089a7fb",
+    "verify_mechanism_artifacts.py": "2917c009846d9ebe2bf2224b63969779c58982bb174f278e149f71a2d7396818",
+    "prepare_presidio_variants.py": "72da1b7d472a99cecc459945dbf99ea64b714b9d69ca88ba5b9d3eb53ca685db"
+  }
+}

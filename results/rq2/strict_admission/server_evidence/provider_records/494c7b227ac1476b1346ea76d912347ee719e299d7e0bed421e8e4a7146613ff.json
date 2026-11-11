@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "How do I unblock my card for account <ACCOUNT_NUMBER_1>?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-ef8b1914-b08c-9d22-9a1b-a4a3363959ea",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I cannot access your account records or perform actions on your behalf. To unblock your card, please contact your bank’s customer support directly via the phone number listed on the back of your card or through their official mobile app/website. You may also be able to unlock it instantly using your bank's online banking portal if that feature is available.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793877798,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 69,
+      "prompt_tokens": 93,
+      "total_tokens": 162,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 93
+      }
+    }
+  },
+  "answer": "I cannot access your account records or perform actions on your behalf. To unblock your card, please contact your bank’s customer support directly via the phone number listed on the back of your card or through their official mobile app/website. You may also be able to unlock it instantly using your bank's online banking portal if that feature is available.",
+  "created_utc_epoch": 1793877800.5340319
+}

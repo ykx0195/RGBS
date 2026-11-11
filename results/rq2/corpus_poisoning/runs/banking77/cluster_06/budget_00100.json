@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "can whoever solved me pisaaring transfer through account <ACCOUNT_NUMBER_1> something perhaps declined?",
+    "full_cluster_mean_cosine": 0.9024671316146851,
+    "selected_at_iteration": 99
+  },
+  "accepted_updates": 24,
+  "active_seconds": 9.729900233447552,
+  "heldout_loaded": false
+}

@@ -1,0 +1,38 @@
+{
+  "slot": 5,
+  "target_index": 4,
+  "starting_text": "Can you check the status of order <ORDER_ID_1> for account <ACCOUNT_ID_1>? The shipping cost was high, and I'm wondering if I could cancel it instead.",
+  "selected": {
+    "text": "Can you check the status of order <ORDER_ID_1> for account <ACCOUNT_ID_1>? The shipping cost was high, and I'm wondering if I could cancel it instead.",
+    "target_cosine": 0.9093197584152222,
+    "train_covered": 657,
+    "ppl": 24.117721938271043
+  },
+  "baseline_replacement_gain": 206,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 6,
+      "passed_ppl": 0,
+      "best_replacement_gain": 206,
+      "net_union_change": 0,
+      "beam": [
+        "Can you check the status of order <ORDER_ID_1> for account <ACCOUNT_ID_1>? The shipping cost was high, and I'm wondering if I could cancel it instead."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 2
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 206,
+      "net_union_change": 0,
+      "beam": [
+        "Can you check the status of order <ORDER_ID_1> for account <ACCOUNT_ID_1>? The shipping cost was high, and I'm wondering if I could cancel it instead."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 4
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "scope": "actual deidentified-query Top-1 selected entries from NEW admitted portfolios",
+  "source_service": "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\strict085_admission\\server_evidence",
+  "source_verification_sha256": "ceb22e629a2507d962f7c5303f5c48509f716588f6c6657210b65230f7ee21e5",
+  "summary": [
+    {
+      "dataset": "banking77",
+      "test_total": 1485,
+      "actual_top1_hits": 1083,
+      "reused": 460,
+      "pending": 623,
+      "conflicting": 0
+    },
+    {
+      "dataset": "abcd",
+      "test_total": 476,
+      "actual_top1_hits": 305,
+      "reused": 222,
+      "pending": 83,
+      "conflicting": 0
+    },
+    {
+      "dataset": "dogo",
+      "test_total": 1094,
+      "actual_top1_hits": 909,
+      "reused": 794,
+      "pending": 115,
+      "conflicting": 0
+    }
+  ],
+  "total_pairs": 2297,
+  "reused_pairs": 1476,
+  "pending_pairs": 821,
+  "prior_audit_sources": {
+    "C:\\Users\\ykx01\\Desktop\\results\\优先补充实验_20261031\\baselines\\all_baseline_task_pair_audit.csv": "a9d94911bd8f42b7bb3d145336b660347015f10413fe05e6017ef24793436e42",
+    "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\ABCD补充\\abcd\\task_pair_audit.csv": "af93d7401ce79f90ee70cbd95bfa1556dff25c1455aa8fbf547938320b875b64",
+    "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\banking77\\task_pair_audit.csv": "3c78b68bb6e13d05264b94e28c54b744bf009b7a1e4c4d6fdcce0841e8d690f5",
+    "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\dogo\\task_pair_audit.csv": "c6ee8e0bc581613d6d9d773f204fd3ca96a41a6371074594ffb77628404cae01",
+    "C:\\Users\\ykx01\\Desktop\\results\\联合组件消融_20261031\\all_task_pair_audit.csv": "1863677cc999785d63276fa2e2a24a94878faf45d22d18a9a67d673632a6da2e",
+    "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\task_audit_completed_pairs.csv": "89778d9a539b8b96015e6975a2dbf53c5a3a871b61e1eb4e29ad4eb684212b2d",
+    "C:\\Users\\ykx01\\Desktop\\results\\阈值扩展_080_0825_085_20261031\\abcd\\all_task_pair_audit.csv": "1c540f8f8352c5e8f5481f520e447de1381044332c0218fee333b148b6b82101",
+    "C:\\Users\\ykx01\\Desktop\\results\\阈值扩展_080_0825_085_20261031\\banking77\\all_task_pair_audit.csv": "c97808bbb6a1c2e7c65709b791b363a8c5c666b0db591284b9288b1f642f748d",
+    "C:\\Users\\ykx01\\Desktop\\results\\阈值扩展_080_0825_085_20261031\\dogo\\all_task_pair_audit.csv": "277499de2560a9804b4ff1e599e299294e26786e28f913d202f8901290463517"
+  },
+  "instruction_source": "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\code\\remote_fixed_task_audit.py",
+  "new_question_generation": false,
+  "answer_validity_assessed": false,
+  "selection_fixed": true,
+  "reuse_rule": "exact ordered key/query texts, consistent existing two-model consensus; conflicts rejudged",
+  "judge_visible_fields": "opaque case ID and two question texts only; no benchmark, scores, source category, returned answer, or selection state"
+}

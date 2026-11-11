@@ -1,0 +1,10 @@
+dataset,method,threshold,raw_covered,delex_covered,total,delta_pp,source_bootstrap_low_pp,source_bootstrap_high_pp,scope
+banking77,RKGB,0.85,626,1109,1485,32.525252525252526,29.96632996632997,35.28619528619529,"Frozen independently constructed pools; source-paired Test uncertainty only, not search-seed uncertainty."
+banking77,greedy_train,0.85,511,980,1485,31.582491582491585,28.888888888888886,34.20875420875421,"Frozen independently constructed pools; source-paired Test uncertainty only, not search-seed uncertainty."
+banking77,greedy_train_swap4,0.85,516,998,1485,32.45791245791245,29.898989898989896,34.94949494949495,"Frozen independently constructed pools; source-paired Test uncertainty only, not search-seed uncertainty."
+abcd,RKGB,0.85,206,308,476,21.42857142857143,17.22689075630252,25.42016806722689,"Frozen independently constructed pools; source-paired Test uncertainty only, not search-seed uncertainty."
+abcd,greedy_train,0.85,163,231,476,14.285714285714285,10.294117647058822,18.487394957983195,"Frozen independently constructed pools; source-paired Test uncertainty only, not search-seed uncertainty."
+abcd,greedy_train_swap4,0.85,163,237,476,15.546218487394958,11.76470588235294,19.95798319327731,"Frozen independently constructed pools; source-paired Test uncertainty only, not search-seed uncertainty."
+dogo,RKGB,0.85,667,909,1094,22.120658135283357,19.378427787934186,24.77148080438757,"Frozen independently constructed pools; source-paired Test uncertainty only, not search-seed uncertainty."
+dogo,greedy_train,0.85,666,885,1094,20.018281535648995,17.276051188299817,22.943327239488116,"Frozen independently constructed pools; source-paired Test uncertainty only, not search-seed uncertainty."
+dogo,greedy_train_swap4,0.85,666,893,1094,20.749542961608782,18.005027422303478,23.583180987202926,"Frozen independently constructed pools; source-paired Test uncertainty only, not search-seed uncertainty."

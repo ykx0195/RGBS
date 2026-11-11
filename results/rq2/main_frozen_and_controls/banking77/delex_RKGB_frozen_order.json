@@ -1,0 +1,41 @@
+{
+  "texts": [
+    "Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet.",
+    "There's a similar charge regarding my card transactions; why did it appear in my account <ACCOUNT_NUMBER_1>?",
+    "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+    "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now.",
+    "Could you clarify why the money from account <ACCOUNT_NUMBER_1> hasn't turned up in my balance yet?",
+    "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+    "I spotted a payment to the incorrect account number <ACCOUNT_NUMBER_1>, please assist.",
+    "I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?",
+    "However, could you guide me in reactivating a card for account <ACCOUNT_NUMBER_1> now?",
+    "Could you inform me how to cancel the transaction for account <ACCOUNT_NUMBER_1>?",
+    "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+    "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I unfortunately haven't received.",
+    "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+    "Can you confirm why a currency exchange fee was given on my account <ACCOUNT_NUMBER_1>?",
+    "Perhaps the card payment has been declined? Can you give me info on why for account <ACCOUNT_NUMBER_1>?"
+  ],
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    5,
+    4,
+    8,
+    7,
+    11,
+    9,
+    13,
+    12,
+    10,
+    14
+  ],
+  "selection_split": "train",
+  "test_used_for_selection": false,
+  "selection_threshold": 0.85,
+  "pool_size": 15,
+  "train_covered": 3863
+}

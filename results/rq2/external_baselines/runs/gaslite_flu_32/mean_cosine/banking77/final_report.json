@@ -1,0 +1,303 @@
+{
+  "config": {
+    "dataset": "banking77",
+    "k": 15,
+    "threshold": 0.85,
+    "seed": 42,
+    "objective": "mean_cosine",
+    "official_commit": "8dc7646f1ac8cd68f38463df01578c74fff22795",
+    "n_iter": 32,
+    "n_grad": 50,
+    "k_candidates": 256,
+    "beam_candidates": 128,
+    "beam_width": 1,
+    "n_flip": 20,
+    "flu_alpha": 0.025,
+    "readable_token_filter": 300,
+    "author_lm_batch_size": 16,
+    "fluency_assets": {
+      "checkpoint_repo": "MatanBT/nanoGPT-BERT-Tokenizer",
+      "revision": "1f5966c89d321fc512fb70d6f601eb582a28769a",
+      "checkpoint_sha256": "0ca14aed7ee89bf9fe86d23fc0ff73722f6494b425ba7dcfb7228d2ed60887ad",
+      "checkpoint_size": 1310260186,
+      "tokenizer_repo": "intfloat/e5-base-v2",
+      "tokenizer_revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+      "tokenizer_git_blob_sha1": {
+        "config.json": "24b4776266ab6abf7a9d6672f42b77f06ef77b87",
+        "special_tokens_map.json": "a8b3208c2884c4efb86e49300fdd3dc877220cdf",
+        "tokenizer.json": "688882a79f44442ddc1f60d70334a7ff5df0fb47",
+        "tokenizer_config.json": "8046d4d4aff4529a10e0ad47043bdabd6304fb58",
+        "vocab.txt": "fb140275c155a9c7c5a3b3e0e77a9e839594a938"
+      },
+      "transport": "hf-mirror.com, verified against primary huggingface.co API revision and object hashes",
+      "seconds": 534.6143352985382
+    },
+    "common_train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+    "common_seed_sha256": "8f1e068efed8587599bd65d0660085319256b21b0baa1c174b513485ec55cc55",
+    "quality_archive_cap_per_slot": 256,
+    "quality_accept_cap_per_slot": 20,
+    "include_seed_and_official_outputs_in_screen": true,
+    "quality_scorer_device": "cpu",
+    "quality_precision": "float32",
+    "quality": {
+      "ppl": 150,
+      "relative_ppl": 1.5,
+      "total_word_edits": 10,
+      "local_readability": true,
+      "two_api_scope_judges": true
+    },
+    "note": "Author GASLITE-Flu alpha=.025 and top-300 token filter, with released auxiliary GPT2. Whole-query/shared-initialization and threshold coverage remain explicit task adaptations. Quality screen additionally includes seeds and official outputs; no Test tuning."
+  },
+  "raw_selected": [
+    {
+      "text": "hadookt me a payment not at <ACCOUNT_NUMBER_1>.",
+      "ppl": null
+    },
+    {
+      "text": "or more, my id & verification to correct <ACCOUNT_NUMBER_1>?",
+      "ppl": null
+    },
+    {
+      "text": "either was because i withdrew cash using incorrect atm, but i haven't. can you help me with the <CREDIT_CARD_1>?",
+      "ppl": null
+    },
+    {
+      "text": "i change, personal id & address to correct <ACCOUNT_NUMBER_1>?",
+      "ppl": null
+    },
+    {
+      "text": "edit : ) trying to ; what going wrong with my top - up from account <ACCOUNT_NUMBER_1> on account <CREDIT_CARD_1>?",
+      "ppl": null
+    },
+    {
+      "text": "i ] the exchange number <ACCOUNT_NUMBER_1> gave me transfer wrong rate.",
+      "ppl": null
+    },
+    {
+      "text": "that might s an mystery charge for my card transactions, why did that happen to the <ACCOUNT_NUMBER_1>?",
+      "ppl": null
+    },
+    {
+      "text": "following up to my trouble with the pin to my <CREDIT_CARD_1>. can you getting me?",
+      "ppl": null
+    },
+    {
+      "text": "it was <ACCOUNT_NUMBER_1> an invalid payment? credit cards <CREDIT_CARD_1> falls wasn't pending?",
+      "ppl": null
+    },
+    {
+      "text": ": > > please help to cancel the money from \" <ACCOUNT_NUMBER_1> \"",
+      "ppl": null
+    },
+    {
+      "text": "where card mentioned didn't get yet. can you do that with account <ACCOUNT_NUMBER_1>?",
+      "ppl": null
+    },
+    {
+      "text": "about to tell me why the money from account <ACCOUNT_NUMBER_1> hasn't gone exactly?",
+      "ppl": null
+    },
+    {
+      "text": "was that <ACCOUNT_NUMBER_1> an return payment? credit card <CREDIT_CARD_1> it wasn't yet?",
+      "ppl": null
+    },
+    {
+      "text": "had the <CREDIT_CARD_1> is here. please help me.",
+      "ppl": null
+    },
+    {
+      "text": "~ please, wondering why the transfer from account <ACCOUNT_NUMBER_1> hasn't completed unfortunately.",
+      "ppl": null
+    }
+  ],
+  "screened_selected": [
+    {
+      "text": "can you tell me why the transaction from account <ACCOUNT_NUMBER_1> hasn't gone through?",
+      "ppl": 38.97471427868628
+    },
+    {
+      "text": "There's an additional charge on my card transaction; why did it happen to account <ACCOUNT_NUMBER_1>?",
+      "ppl": 122.99108272249791
+    },
+    {
+      "text": "I'm trying to understand what went wrong with the top-up from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.",
+      "ppl": 34.81034450379944
+    },
+    {
+      "text": "I sent money to an incorrect account number <ACCOUNT_NUMBER_1>.",
+      "ppl": 79.24858741366496
+    },
+    {
+      "text": "my card payment didn't go through. can you explain why for account <ACCOUNT_NUMBER_1>?",
+      "ppl": 54.182150735420905
+    },
+    {
+      "text": "I'm having trouble with the PIN for card <CREDIT_CARD_1>, can you help me?",
+      "ppl": 32.51532080475505
+    },
+    {
+      "text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+      "ppl": 73.2752451147461
+    },
+    {
+      "text": "My account <ACCOUNT_NUMBER_1> shows a payment made with card <CREDIT_CARD_1> that wasn't me.",
+      "ppl": 65.16678964393621
+    },
+    {
+      "text": "I'm wondering why the transfer from account <ACCOUNT_NUMBER_1> hasn't completed yet.",
+      "ppl": 64.61675358271387
+    },
+    {
+      "text": "how do i reactivate my card for account <ACCOUNT_NUMBER_1>?",
+      "ppl": 77.94517295044214
+    },
+    {
+      "text": "Can you tell me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "ppl": 29.395447772221782
+    },
+    {
+      "text": "perhaps please tell me if this transfer problem is due to account <ACCOUNT_NUMBER_1>?",
+      "ppl": 96.47219915524794
+    },
+    {
+      "text": "new card transaction didn't go through. can you explain why for account <ACCOUNT_NUMBER_1>?",
+      "ppl": 72.45734798029115
+    },
+    {
+      "text": "Could you tell me why a transfer fee was applied to account <ACCOUNT_NUMBER_1>?",
+      "ppl": 67.02171108918415
+    },
+    {
+      "text": "new card transactions didn't go through. can you explain why for account <ACCOUNT_NUMBER_1>?",
+      "ppl": 74.24069786506797
+    }
+  ],
+  "quality_screen": [
+    {
+      "slot": 1,
+      "archive": 18653,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 2,
+      "archive": 8906,
+      "considered": 258,
+      "ppl_and_local_eligible": 3,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 3,
+      "archive": 40686,
+      "considered": 258,
+      "ppl_and_local_eligible": 5,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 4,
+      "archive": 32484,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 5,
+      "archive": 48144,
+      "considered": 258,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 6,
+      "archive": 22223,
+      "considered": 257,
+      "ppl_and_local_eligible": 3,
+      "two_judge_accepted": 2
+    },
+    {
+      "slot": 7,
+      "archive": 22461,
+      "considered": 258,
+      "ppl_and_local_eligible": 7,
+      "two_judge_accepted": 5
+    },
+    {
+      "slot": 8,
+      "archive": 42531,
+      "considered": 257,
+      "ppl_and_local_eligible": 20,
+      "two_judge_accepted": 5
+    },
+    {
+      "slot": 9,
+      "archive": 11124,
+      "considered": 256,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    },
+    {
+      "slot": 10,
+      "archive": 39031,
+      "considered": 259,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 11,
+      "archive": 49789,
+      "considered": 259,
+      "ppl_and_local_eligible": 2,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 12,
+      "archive": 27042,
+      "considered": 259,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 13,
+      "archive": 40120,
+      "considered": 259,
+      "ppl_and_local_eligible": 6,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 14,
+      "archive": 32394,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 15,
+      "archive": 27069,
+      "considered": 257,
+      "ppl_and_local_eligible": 10,
+      "two_judge_accepted": 1
+    }
+  ],
+  "screened_key_count": 15,
+  "heldout_loaded": true,
+  "train": {
+    "raw": 3869,
+    "screened": 2932
+  },
+  "test_sha256": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461",
+  "test": {
+    "raw": {
+      "covered": 1111,
+      "total": 1485,
+      "coverage": 0.7481481481481481,
+      "key_count": 15
+    },
+    "screened": {
+      "covered": 841,
+      "total": 1485,
+      "coverage": 0.5663299663299664,
+      "key_count": 15
+    }
+  }
+}

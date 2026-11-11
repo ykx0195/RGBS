@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-f5645b88-0e00-95ad-b0c4-d48d23558e40",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I cannot access your account details or reset your PIN directly. To regain access, please use the \"Forgot PIN\" option in your bank’s mobile app or online banking portal, or contact your card issuer’s customer support line for identity verification and a new PIN issuance.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793877790,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 100,
+      "total_tokens": 153,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 100
+      }
+    }
+  },
+  "answer": "I cannot access your account details or reset your PIN directly. To regain access, please use the \"Forgot PIN\" option in your bank’s mobile app or online banking portal, or contact your card issuer’s customer support line for identity verification and a new PIN issuance.",
+  "created_utc_epoch": 1793877792.441463
+}

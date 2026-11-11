@@ -1,0 +1,15 @@
+{
+  "model": "gte-small",
+  "encoder_kind": "gte",
+  "model_sha256": "9a1eb90bbac323ea08aa5629b624fe6ae75db121b904799c2266a1e2c2de22d2",
+  "pooling_sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+  "sequence_sha256": "948201d8329907aae938fa62f9ceeed53f5694dacc2b87b9f3b78b37ee986529",
+  "tokenizer_sha256": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+  "prefix": "",
+  "device": "cuda",
+  "dtype": "float32",
+  "batch_size": 64,
+  "encoder_code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+  "max_length": 512,
+  "api_calls": 0
+}

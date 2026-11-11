@@ -1,0 +1,172 @@
+[
+  {
+    "candidate_id": "dogo:strict_selected:0",
+    "submitted_text": "Could you send me a boarding pass for booking BK-62004019? You can reach me at alice.morgan@example.com.",
+    "encoder_input": "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+    "expected_text": "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "6efcdb48230f05e44ed532b5de8e802a3b1090d54526553c886a81e0f9f89fb8",
+      "record_file": "provider_records/b0928ba974ad98e4ee2b6d7e5a2da4e2f03261d8daf192ded0dae8708e838e06.json",
+      "api_response_id": "chatcmpl-3928f375-6f66-9eae-9aff-654f3c391440",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot access your booking records or send documents directly. To obtain your boarding pass, please log in to the airline’s website or mobile app using your booking reference and email address. You can also check your email for a link from the airline or visit the airport kiosk on the day of travel."
+  },
+  {
+    "candidate_id": "dogo:strict_selected:1",
+    "submitted_text": "This is Alice Morgan, and I need a copy of insurance for my car. My SSN ends in 7318.",
+    "encoder_input": "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+    "expected_text": "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "cae7a274f44b3ef6db11436a5116940f63d9b69c21bd7f412e5669a848afbb85",
+      "record_file": "provider_records/bf073c43b52e9a7c5569a7eb32d16f00246d541c5e65ac96cd2d9f4f57298c16.json",
+      "api_response_id": "chatcmpl-d01eca7c-470d-99b1-9c0f-33b8c1dabdbb",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot access your personal account records or provide specific documents like an insurance policy copy.\n\nTo obtain a copy of your car insurance, please:\n1. Log in to your insurer’s online portal or mobile app.\n2. Contact your insurance provider’s customer service directly via phone or email.\n3. Reach out to your insurance agent if you have one.\n\nFor security reasons, avoid sharing sensitive information like your SSN in public forums or with unverified sources."
+  },
+  {
+    "candidate_id": "dogo:strict_selected:2",
+    "submitted_text": "The card number is 5555555555554444, and I lost my credit card. This is Alice Morgan.",
+    "encoder_input": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+    "expected_text": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "3b99ee88e29c9969141fddac1a7d667292a0fa52431864379bd34da7062f4822",
+      "record_file": "provider_records/561e0dd5ff65c3f49eeecc8740ff234104e3dbb7535f35bf560bd526f232b9ae.json",
+      "api_response_id": "chatcmpl-abae7459-36f6-96b0-98d8-ba81b9bf3b94",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I am sorry to hear that. Since I cannot access your account or perform actions, please take these immediate steps:\n\n1. **Freeze the Card:** Use your bank’s mobile app or website to lock the card instantly.\n2. **Report Lost/Stolen:** Call your bank’s customer service number (found on their website or the back of a replacement card) to report it and request a new one.\n3. **Monitor Transactions:** Check for any unauthorized activity and dispute charges if necessary.\n\nPlease do not share your full card number in public forums or with unverified parties."
+  },
+  {
+    "candidate_id": "dogo:strict_selected:3",
+    "submitted_text": "Alice Morgan, could you please update me on the status of my claim with insurance id POL-62004020? thank you.",
+    "encoder_input": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+    "expected_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "eca959fa3cf7661b477ffdbfcc7feff568ab95f7a0802b5b2514d7dbd206aec9",
+      "record_file": "provider_records/adb6ea5a6a58dbea61f3568553d7b6bcfb9b9f6ab6f7106bbf9cf80267873587.json",
+      "api_response_id": "chatcmpl-704b79fa-5c69-96e3-9da3-38821f027984",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I do not have access to your account records or current claim statuses. To get an update on your claim with insurance ID <POLICY_ID_1>, please log in to the insurer's online portal or mobile app, or contact their customer service department directly using the phone number listed on your policy documents."
+  },
+  {
+    "candidate_id": "dogo:strict_selected:4",
+    "submitted_text": "I want help fixing my iPhone because its screen was just cracked. My phone number is +1-202-555-0147 and my email is alice.morgan@example.com.",
+    "encoder_input": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+    "expected_text": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "c544bf424de991d664aa1dcc47dbaef665135407c07ec956e2feadb8dd5056a6",
+      "record_file": "provider_records/595d9f7b8c8107d42bdb3f0ab87a89fcff3a868d6444829edbeb5b1e2ca6c96a.json",
+      "api_response_id": "chatcmpl-7956f1e9-e4a3-91bf-addf-a958090c1052",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot access your account or schedule repairs directly. For a cracked iPhone screen, please visit an Apple Store or an Apple Authorized Service Provider for professional repair. You can also check warranty status and book appointments via the Apple Support app or website."
+  },
+  {
+    "candidate_id": "dogo:strict_selected:5",
+    "submitted_text": "My card number is 5555555555554444, and I need the address on my account changed to 417 Cedar Avenue.",
+    "encoder_input": "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+    "expected_text": "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "08541f1fe22649fe94cb99a2cb48ef5d50cb9878fa1773bcf2c8b91680c8bc4a",
+      "record_file": "provider_records/83394ba73a69ddc14d9076b1d0b4faf1a4be16232655ed2c2ddbde1349eb536e.json",
+      "api_response_id": "chatcmpl-1a90a6a0-c72d-9373-a83a-b153fe18f5f7",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot access your account records or process changes to personal information. To update your address, please log in to your online banking portal or mobile app and navigate to the profile or settings section. Alternatively, you can contact your bank's customer support directly via phone or secure message for assistance."
+  },
+  {
+    "candidate_id": "dogo:strict_selected:6",
+    "submitted_text": "I'm Alice Morgan and my application isn't working as expected, so I need help. My account number ends in 8429.",
+    "encoder_input": "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+    "expected_text": "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "7deea922cd8dacfa97b18b637ac095de7815248d17edfe24d3fef61b803d2181",
+      "record_file": "provider_records/e8a2d16285e135112cf3e3708637fd3030b62736b8f3c60f90ad7a303da8e755.json",
+      "api_response_id": "chatcmpl-4023ac75-5660-9e67-b88d-d6a3c28baf2b",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I’m sorry to hear you’re experiencing issues. As an AI assistant, I don’t have access to your account records or application status, so I cannot look up specific details for the account ending in <ACCOUNT_ID_LAST4_1>.\n\nTo get this resolved, please:\n1. **Contact Support Directly:** Reach out to the company’s official customer support via phone, email, or their secure in-app chat. They can verify your identity and investigate the specific error.\n2. **Provide Details:** When contacting them, include a description of the issue, any error messages you see, and the steps you took before it happened.\n3. **Check Common Fixes:** Ensure your app is updated to the latest version and try restarting your device."
+  },
+  {
+    "candidate_id": "dogo:strict_selected:7",
+    "submitted_text": "I want to claim travel expenses; I'm Alice Morgan.",
+    "encoder_input": "I want to claim travel expenses; I'm <PERSON_1>.",
+    "expected_text": "I want to claim travel expenses; I'm <PERSON_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "762102e9a37fb9147973aaa7e24b2d086bfd4bffb62ce70fd02fb16c3b9053ba",
+      "record_file": "provider_records/c18f7c5ddbf7b27d6d4f249c3cf8367268576a364f3943e6cc79b6715b5b2cae.json",
+      "api_response_id": "chatcmpl-35e19b23-6d79-94a1-8c76-7b42d364aa60",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "To claim travel expenses, please submit your receipts and expense report through your company’s designated reimbursement portal or finance system. Ensure all items are categorized correctly and include necessary approvals if required by policy. If you encounter issues, contact your finance team or HR for specific guidance on submission deadlines and documentation standards."
+  },
+  {
+    "candidate_id": "dogo:strict_selected:8",
+    "submitted_text": "I am Alice Morgan and I would like my seat number for booking BK-62004019.",
+    "encoder_input": "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+    "expected_text": "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "96f92f42c1a696912b1a59b3e5e912ec4e30c6908271bd8446014387123a9f09",
+      "record_file": "provider_records/7ff3bda8fa13df62d8b2ed4a053dc823060b0e4772a896d1dd83414536c59d73.json",
+      "api_response_id": "chatcmpl-f5b5b1d9-2aa9-994c-a3cd-a541888b07ce",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I do not have access to your booking records or personal account details. To find your seat number, please check the confirmation email sent by the airline or travel provider, or log in to their website/app using your booking reference <BOOKING_ID_1>. You can also contact the airline's customer support directly for assistance."
+  },
+  {
+    "candidate_id": "dogo:strict_selected:9",
+    "submitted_text": "Please place an order for a pizza. You can reach me at +1-202-555-0147 and my address is 417 Cedar Avenue.",
+    "encoder_input": "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>.",
+    "expected_text": "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>.",
+    "representation_equal": true,
+    "hit": false,
+    "written": true,
+    "provider_record": {
+      "record_sha256": "e2954f5bed4bf9c13b37b5412e8d9f87183fa0db7ae71074f5fbc4f468fa5373",
+      "record_file": "provider_records/1f9f19e4958a8cde8699c34556e2a06978827344b62adea7c4342dcceed241ab.json",
+      "api_response_id": "chatcmpl-d9d0c014-bd27-9d79-9489-1ec69e54f839",
+      "replayed": true
+    },
+    "selected_text": null,
+    "returned_answer": "I cannot place orders or access personal contact information. To order a pizza, please use a food delivery app (such as Uber Eats, DoorDash, or Grubhub) or call the restaurant directly."
+  }
+]

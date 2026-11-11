@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 500,
+  "selected": {
+    "text": "i'm <PERSON_1> and from ` d like booking change the seat assignment hmmsper phil my tight checking is <BOOKING_ID_1> ie",
+    "full_cluster_mean_cosine": 0.9508463740348816,
+    "selected_at_iteration": 215
+  },
+  "accepted_updates": 47,
+  "active_seconds": 53.22446809709072,
+  "heldout_loaded": false
+}

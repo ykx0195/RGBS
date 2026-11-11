@@ -1,0 +1,20 @@
+{
+  "test_total": 1094,
+  "actual_hits": 909,
+  "full_portfolio_hits": 909,
+  "admitted_entries": 10,
+  "rows_after_test": 10,
+  "oracle_disagreements": 0,
+  "test_model_calls": 0,
+  "test_writes": 0,
+  "dataset": "dogo",
+  "condition": "materialized_saved_order",
+  "submitted_candidates": 10,
+  "early_hits": 0,
+  "representations_preserved": 10,
+  "actual_coverage_percent": 83.08957952468008,
+  "offline_expected_hits": 909,
+  "offline_expected_coverage_percent": 83.08957952468006,
+  "pairwise_max": 0.84705126551599,
+  "selection_freeze_sha256": "34b8eb72b28cc3f8ecfcd73f64ad00e7fcca7b720355f81752e3294270450d3e"
+}

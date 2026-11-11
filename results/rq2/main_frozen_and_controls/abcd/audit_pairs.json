@@ -1,0 +1,5 @@
+{
+  "protocol": "Same prior blinded operation/object/state task protocol. Exact content-based cache reuse; only unjudged or conflicting pairs need new judgments.",
+  "threshold": 0.85,
+  "pairs": []
+}

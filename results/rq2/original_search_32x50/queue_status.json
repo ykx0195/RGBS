@@ -1,0 +1,28 @@
+{
+  "started_at_utc": "2026-10-31T10:32:16.520559+00:00",
+  "server_port": 34868,
+  "protocol": "Materialized Train/Test; same BGE/quality gate as desensitized 32x50; Train-only global selection; final Test",
+  "jobs": {
+    "banking77": {
+      "status": "running",
+      "device": "cuda",
+      "attempts": 1,
+      "started_at_utc": "2026-10-31T10:32:16.581946+00:00",
+      "pid": 10042
+    },
+    "abcd": {
+      "status": "running",
+      "device": "cpu",
+      "attempts": 1,
+      "started_at_utc": "2026-10-31T10:32:31.598735+00:00",
+      "pid": 10135
+    },
+    "dogo": {
+      "status": "running",
+      "device": "cpu",
+      "attempts": 1,
+      "started_at_utc": "2026-10-31T10:32:31.600086+00:00",
+      "pid": 10136
+    }
+  }
+}

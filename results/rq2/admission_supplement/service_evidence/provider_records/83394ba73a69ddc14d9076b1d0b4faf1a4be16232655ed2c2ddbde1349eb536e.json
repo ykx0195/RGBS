@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-1a90a6a0-c72d-9373-a83a-b153fe18f5f7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I cannot access your account records or process changes to personal information. To update your address, please log in to your online banking portal or mobile app and navigate to the profile or settings section. Alternatively, you can contact your bank's customer support directly via phone or secure message for assistance.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876761,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 57,
+      "prompt_tokens": 105,
+      "total_tokens": 162,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 105
+      }
+    }
+  },
+  "answer": "I cannot access your account records or process changes to personal information. To update your address, please log in to your online banking portal or mobile app and navigate to the profile or settings section. Alternatively, you can contact your bank's customer support directly via phone or secure message for assistance.",
+  "created_utc_epoch": 1793876763.6459973
+}

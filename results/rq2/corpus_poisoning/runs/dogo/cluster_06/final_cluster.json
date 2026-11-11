@@ -1,0 +1,45 @@
+{
+  "config": {
+    "dataset": "dogo",
+    "cluster": 6,
+    "seed": 42,
+    "max_iterations": 5000,
+    "num_candidates": 100,
+    "query_batch": 64,
+    "candidate_batch": 32,
+    "threshold": 0.85,
+    "train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+    "vectors_sha256": "ac68c7fbf409e0a8e898a5aa34c6b37d938e36ee7a9a90e5c2e896e4c48df689",
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "official_commit": "main-snapshot-with-file-sha256",
+    "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+    "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+    "device": "cuda",
+    "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+    "smoke": false
+  },
+  "initial": {
+    "cluster_id": 6,
+    "train_index": 1505,
+    "source_id": "multidogo-finance-train-4c9799ae-88e1-4337-b774-692d16b129b3",
+    "text": "Please update the address on my credit card account, <CARD_NUMBER_1>, to <STREET_ADDRESS_1>.",
+    "cluster_size": 252,
+    "initial_center_cosine": 0.9754832983016968
+  },
+  "selected": {
+    "text": "please update the address anyway yours / credit account somewhere <CARD_NUMBER_1> changing to <STREET_ADDRESS_1> given",
+    "full_cluster_mean_cosine": 0.922000527381897,
+    "selected_at_iteration": 453
+  },
+  "completed_iterations": 5000,
+  "termination": "iteration_budget_exhausted",
+  "accepted_updates": 63,
+  "proposed_candidates": 500000,
+  "valid_candidates": 499418,
+  "active_seconds": 509.2597036063671,
+  "forward_texts": 504420,
+  "backward_calls": 5000,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "finished_at_utc": "2026-10-31T11:01:43.127553+00:00"
+}

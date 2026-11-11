@@ -1,0 +1,1139 @@
+{
+  "banking77": {
+    "k": 15,
+    "portfolios": {
+      "0": [
+        {
+          "cluster": 0,
+          "text": "I lost my phone, which is registered under phone number <PHONE_NUMBER_1>.",
+          "full_cluster_mean_cosine": 0.8715294003486633,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 1,
+          "text": "Can you explain the extra charge that appeared on my card <CREDIT_CARD_1> statement?",
+          "full_cluster_mean_cosine": 0.8690924644470215,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 2,
+          "text": "I'm wondering why the transfer from account <ACCOUNT_NUMBER_1> hasn't completed yet.",
+          "full_cluster_mean_cosine": 0.899556577205658,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 3,
+          "text": "The card <CREDIT_CARD_1> is broken, please assist me.",
+          "full_cluster_mean_cosine": 0.8464483022689819,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 4,
+          "text": "I see an unfamiliar charge on account <ACCOUNT_NUMBER_1>.",
+          "full_cluster_mean_cosine": 0.8617409467697144,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 5,
+          "text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+          "full_cluster_mean_cosine": 0.8524413108825684,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 6,
+          "text": "Can you tell me why a transfer from account <ACCOUNT_NUMBER_1> might be declined?",
+          "full_cluster_mean_cosine": 0.8925755023956299,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 7,
+          "text": "Could you tell me why the payment from account <ACCOUNT_NUMBER_1> using my card <CREDIT_CARD_1> was cancelled?",
+          "full_cluster_mean_cosine": 0.8463077545166016,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 8,
+          "text": "I'm trying to understand what went wrong with the top-up from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.",
+          "full_cluster_mean_cosine": 0.8791889548301697,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 9,
+          "text": "I'm having trouble with the PIN for card <CREDIT_CARD_1>, can you help me?",
+          "full_cluster_mean_cosine": 0.871970534324646,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 10,
+          "text": "When should I expect the new card associated with account <ACCOUNT_NUMBER_1> to arrive at <STREET_ADDRESS_1>?",
+          "full_cluster_mean_cosine": 0.8413410186767578,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 11,
+          "text": "I deposited cash but the balance on account <ACCOUNT_NUMBER_1> hasn't updated.",
+          "full_cluster_mean_cosine": 0.887949526309967,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 12,
+          "text": "As <PERSON_1>, I'm having trouble verifying my identity for customer ID <CUSTOMER_ID_1>.",
+          "full_cluster_mean_cosine": 0.8156100511550903,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 13,
+          "text": "The exchange rate applied to my transaction on account <ACCOUNT_NUMBER_1> was not right.",
+          "full_cluster_mean_cosine": 0.9180643558502197,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 14,
+          "text": "I want to cancel my transfer from account <ACCOUNT_NUMBER_1>.",
+          "full_cluster_mean_cosine": 0.8818239569664001,
+          "selected_at_iteration": 0
+        }
+      ],
+      "100": [
+        {
+          "cluster": 0,
+          "text": "i lost my phone concerning something being registered under using number <PHONE_NUMBER_1> .",
+          "full_cluster_mean_cosine": 0.8815324306488037,
+          "selected_at_iteration": 80
+        },
+        {
+          "cluster": 1,
+          "text": "interesting you explain questionable extra charge that identified though my card <CREDIT_CARD_1> firstly?",
+          "full_cluster_mean_cosine": 0.8844276666641235,
+          "selected_at_iteration": 70
+        },
+        {
+          "cluster": 2,
+          "text": "im'm wondering about the transfer from account <ACCOUNT_NUMBER_1> seems't arrive meantime.",
+          "full_cluster_mean_cosine": 0.9051415920257568,
+          "selected_at_iteration": 65
+        },
+        {
+          "cluster": 3,
+          "text": "the card <CREDIT_CARD_1> ' does now please assist me somewhere",
+          "full_cluster_mean_cosine": 0.8597235679626465,
+          "selected_at_iteration": 99
+        },
+        {
+          "cluster": 4,
+          "text": "i experienced perhaps confused charge on transaction <ACCOUNT_NUMBER_1> further",
+          "full_cluster_mean_cosine": 0.8724005222320557,
+          "selected_at_iteration": 28
+        },
+        {
+          "cluster": 5,
+          "text": "the implementations says i withdrew cash amounts an atm perhaps but probably sadly entirely differently. reason you issue someone received card <CREDIT_CARD_1> ?",
+          "full_cluster_mean_cosine": 0.8742277026176453,
+          "selected_at_iteration": 89
+        },
+        {
+          "cluster": 6,
+          "text": "can whoever solved me pisaaring transfer through account <ACCOUNT_NUMBER_1> something perhaps declined?",
+          "full_cluster_mean_cosine": 0.9024671316146851,
+          "selected_at_iteration": 99
+        },
+        {
+          "cluster": 7,
+          "text": "none seem wise respects nor the payment coming using <ACCOUNT_NUMBER_1> had my card <CREDIT_CARD_1> sometime cancelled?",
+          "full_cluster_mean_cosine": 0.8695523142814636,
+          "selected_at_iteration": 74
+        },
+        {
+          "cluster": 8,
+          "text": "i'possibly trying temporarily? what done fails with the top - up supposed indicates <ACCOUNT_NUMBER_1> via card <CREDIT_CARD_1> .",
+          "full_cluster_mean_cosine": 0.8926856517791748,
+          "selected_at_iteration": 100
+        },
+        {
+          "cluster": 9,
+          "text": "accidentally'm having dealing with the pin for having <CREDIT_CARD_1> , couldn location give anybody suggesting",
+          "full_cluster_mean_cosine": 0.8856894969940186,
+          "selected_at_iteration": 67
+        },
+        {
+          "cluster": 10,
+          "text": "stuck could anyone get presumably new card associated my account <ACCOUNT_NUMBER_1> appropriate shortly by <STREET_ADDRESS_1> ?",
+          "full_cluster_mean_cosine": 0.8599717617034912,
+          "selected_at_iteration": 96
+        },
+        {
+          "cluster": 11,
+          "text": "i deposited money but presumably balance towards » <ACCOUNT_NUMBER_1> hasn accounts t updated.",
+          "full_cluster_mean_cosine": 0.8927560448646545,
+          "selected_at_iteration": 82
+        },
+        {
+          "cluster": 12,
+          "text": "as <PERSON_1> details i'm vacated struggling authenticing updated addressced stupid id <CUSTOMER_ID_1> though",
+          "full_cluster_mean_cosine": 0.8313624262809753,
+          "selected_at_iteration": 86
+        },
+        {
+          "cluster": 13,
+          "text": "the exchange rate uses to my transaction for account <ACCOUNT_NUMBER_1> was not right.",
+          "full_cluster_mean_cosine": 0.9222359657287598,
+          "selected_at_iteration": 40
+        },
+        {
+          "cluster": 14,
+          "text": "i want folk cancel concerning transfer towards account <ACCOUNT_NUMBER_1> .",
+          "full_cluster_mean_cosine": 0.8867968320846558,
+          "selected_at_iteration": 32
+        }
+      ],
+      "500": [
+        {
+          "cluster": 0,
+          "text": "i lost my phone concerning something having registered under using number <PHONE_NUMBER_1> .",
+          "full_cluster_mean_cosine": 0.8816388845443726,
+          "selected_at_iteration": 227
+        },
+        {
+          "cluster": 1,
+          "text": "card you explained perhaps unusual charge intended did subsequently my fee <CREDIT_CARD_1> though?",
+          "full_cluster_mean_cosine": 0.8888419270515442,
+          "selected_at_iteration": 387
+        },
+        {
+          "cluster": 2,
+          "text": "im'm wondering about the transfer from account <ACCOUNT_NUMBER_1> seems't arrive meantime.",
+          "full_cluster_mean_cosine": 0.9051415920257568,
+          "selected_at_iteration": 65
+        },
+        {
+          "cluster": 3,
+          "text": "the card <CREDIT_CARD_1> 」 do now — assist me troubles",
+          "full_cluster_mean_cosine": 0.8630801439285278,
+          "selected_at_iteration": 163
+        },
+        {
+          "cluster": 4,
+          "text": "i experienced perhaps confused charge on money <ACCOUNT_NUMBER_1> further downstreamiciantly",
+          "full_cluster_mean_cosine": 0.8776887655258179,
+          "selected_at_iteration": 368
+        },
+        {
+          "cluster": 5,
+          "text": "the seems suggests i withdrew cash amounts someplace atm thus but instead stakes shrug doomed. smarter frustrating issue someone received account <CREDIT_CARD_1> ?",
+          "full_cluster_mean_cosine": 0.8788431882858276,
+          "selected_at_iteration": 464
+        },
+        {
+          "cluster": 6,
+          "text": "can whoever solved me ﬂury transfer using account <ACCOUNT_NUMBER_1> something perhaps declined?",
+          "full_cluster_mean_cosine": 0.903838574886322,
+          "selected_at_iteration": 204
+        },
+        {
+          "cluster": 7,
+          "text": "none seem well give 、 the payment waiting considering <ACCOUNT_NUMBER_1> was my card <CREDIT_CARD_1> eventual reverted?",
+          "full_cluster_mean_cosine": 0.8742159605026245,
+          "selected_at_iteration": 306
+        },
+        {
+          "cluster": 8,
+          "text": "i're trying temporarily? what happened ideally have the top - up supposed implies <ACCOUNT_NUMBER_1> via card <CREDIT_CARD_1> .",
+          "full_cluster_mean_cosine": 0.8962528109550476,
+          "selected_at_iteration": 495
+        },
+        {
+          "cluster": 9,
+          "text": "accidentally'm havingosis with the pin for having <CREDIT_CARD_1> card sorry location hopefully blocking information",
+          "full_cluster_mean_cosine": 0.886788547039032,
+          "selected_at_iteration": 471
+        },
+        {
+          "cluster": 10,
+          "text": "stable could anyone get specific new card accordingly mywhile <ACCOUNT_NUMBER_1> delivered presumably upon <STREET_ADDRESS_1> `",
+          "full_cluster_mean_cosine": 0.8630192279815674,
+          "selected_at_iteration": 483
+        },
+        {
+          "cluster": 11,
+          "text": "i deposited cash containing you balance towards although <ACCOUNT_NUMBER_1> hasn accounts not updated.",
+          "full_cluster_mean_cosine": 0.896050214767456,
+          "selected_at_iteration": 369
+        },
+        {
+          "cluster": 12,
+          "text": "account <PERSON_1> information have messed mine otherwise help authenticing updated addressibly goddamn declaring <CUSTOMER_ID_1> though",
+          "full_cluster_mean_cosine": 0.8406593799591064,
+          "selected_at_iteration": 394
+        },
+        {
+          "cluster": 13,
+          "text": "the exchange rate uses to my transaction similarly basically <ACCOUNT_NUMBER_1> was not right.",
+          "full_cluster_mean_cosine": 0.9233583211898804,
+          "selected_at_iteration": 241
+        },
+        {
+          "cluster": 14,
+          "text": "i needperson cancel about transfer towards account <ACCOUNT_NUMBER_1> .",
+          "full_cluster_mean_cosine": 0.88991379737854,
+          "selected_at_iteration": 380
+        }
+      ],
+      "1000": [
+        {
+          "cluster": 0,
+          "text": "i lost my phone concerning something having registered under using number <PHONE_NUMBER_1> .",
+          "full_cluster_mean_cosine": 0.8816388845443726,
+          "selected_at_iteration": 227
+        },
+        {
+          "cluster": 1,
+          "text": "card you explained perhaps miscellaneous charge causing did presumably my fee <CREDIT_CARD_1> appeared?",
+          "full_cluster_mean_cosine": 0.8890661001205444,
+          "selected_at_iteration": 671
+        },
+        {
+          "cluster": 2,
+          "text": "i'm wondering ars the transfer on account <ACCOUNT_NUMBER_1> seems't received until.",
+          "full_cluster_mean_cosine": 0.9059877991676331,
+          "selected_at_iteration": 987
+        },
+        {
+          "cluster": 3,
+          "text": "the card <CREDIT_CARD_1> 」 do now — assist me troubles",
+          "full_cluster_mean_cosine": 0.8630801439285278,
+          "selected_at_iteration": 163
+        },
+        {
+          "cluster": 4,
+          "text": "i experienced perhaps confused charge on money <ACCOUNT_NUMBER_1> further downstreamiciantly",
+          "full_cluster_mean_cosine": 0.8776887655258179,
+          "selected_at_iteration": 368
+        },
+        {
+          "cluster": 5,
+          "text": "seemingly seems probably i withdrew card amounts someplace atm though but instead stakes cash doomed. consequentlyingly issue someone gives account <CREDIT_CARD_1> ?",
+          "full_cluster_mean_cosine": 0.8805220127105713,
+          "selected_at_iteration": 888
+        },
+        {
+          "cluster": 6,
+          "text": "can whoever solved me ﬂury transfer using account <ACCOUNT_NUMBER_1> something perhaps declined?",
+          "full_cluster_mean_cosine": 0.903838574886322,
+          "selected_at_iteration": 204
+        },
+        {
+          "cluster": 7,
+          "text": "none specifically plus concluded tres the payment waiting about <ACCOUNT_NUMBER_1> did my card <CREDIT_CARD_1> consequently reverted?",
+          "full_cluster_mean_cosine": 0.874455451965332,
+          "selected_at_iteration": 531
+        },
+        {
+          "cluster": 8,
+          "text": "i'hasn trying temporarily? what happened ideally have the top - up roughly implies <ACCOUNT_NUMBER_1> through card <CREDIT_CARD_1> .",
+          "full_cluster_mean_cosine": 0.8973243832588196,
+          "selected_at_iteration": 874
+        },
+        {
+          "cluster": 9,
+          "text": "fra'm havingosis with the pin necessitated about <CREDIT_CARD_1> card sorry unofficial somewhat blocking information",
+          "full_cluster_mean_cosine": 0.8868664503097534,
+          "selected_at_iteration": 930
+        },
+        {
+          "cluster": 10,
+          "text": "awesome do somebody haveuer new card towards aforementioned purely <ACCOUNT_NUMBER_1> delivered presumably until <STREET_ADDRESS_1> help",
+          "full_cluster_mean_cosine": 0.86460942029953,
+          "selected_at_iteration": 773
+        },
+        {
+          "cluster": 11,
+          "text": "i deposited cash trough your balance onwards although <ACCOUNT_NUMBER_1> seems accounts not updated.",
+          "full_cluster_mean_cosine": 0.8977588415145874,
+          "selected_at_iteration": 928
+        },
+        {
+          "cluster": 12,
+          "text": "account <PERSON_1> information have messed mine otherwise help authenticing updated addressibly goddamn declaring <CUSTOMER_ID_1> though",
+          "full_cluster_mean_cosine": 0.8406593799591064,
+          "selected_at_iteration": 394
+        },
+        {
+          "cluster": 13,
+          "text": "the exchange rate used throughout my transaction ensued considering <ACCOUNT_NUMBER_1> isn not right.",
+          "full_cluster_mean_cosine": 0.9234275221824646,
+          "selected_at_iteration": 956
+        },
+        {
+          "cluster": 14,
+          "text": "i needperson cancel about transfer towards account <ACCOUNT_NUMBER_1> .",
+          "full_cluster_mean_cosine": 0.88991379737854,
+          "selected_at_iteration": 380
+        }
+      ],
+      "2500": [
+        {
+          "cluster": 0,
+          "text": "i lost my phone concerning something having registered under using number <PHONE_NUMBER_1> .",
+          "full_cluster_mean_cosine": 0.8816388845443726,
+          "selected_at_iteration": 227
+        },
+        {
+          "cluster": 1,
+          "text": "fees you explained perhaps unusual charge intended caused presumably i receiving <CREDIT_CARD_1> around?",
+          "full_cluster_mean_cosine": 0.8897602558135986,
+          "selected_at_iteration": 1057
+        },
+        {
+          "cluster": 2,
+          "text": "i'm wonderingnie the transfer on account <ACCOUNT_NUMBER_1> seems't received until please",
+          "full_cluster_mean_cosine": 0.9066233038902283,
+          "selected_at_iteration": 1132
+        },
+        {
+          "cluster": 3,
+          "text": "the card <CREDIT_CARD_1> 」 do now — assist me troubles",
+          "full_cluster_mean_cosine": 0.8630801439285278,
+          "selected_at_iteration": 163
+        },
+        {
+          "cluster": 4,
+          "text": "i experienced perhaps confused charge on money <ACCOUNT_NUMBER_1> further downstreamiciantly",
+          "full_cluster_mean_cosine": 0.8776887655258179,
+          "selected_at_iteration": 368
+        },
+        {
+          "cluster": 5,
+          "text": "perhaps problem assumes i withdrew card purely essentially atm though and came expecting cash elsewhere. seemingly i issuearionises account <CREDIT_CARD_1> ?",
+          "full_cluster_mean_cosine": 0.8816453218460083,
+          "selected_at_iteration": 2397
+        },
+        {
+          "cluster": 6,
+          "text": "can whoever solved me ﬂury transfer using account <ACCOUNT_NUMBER_1> something perhaps declined?",
+          "full_cluster_mean_cosine": 0.903838574886322,
+          "selected_at_iteration": 204
+        },
+        {
+          "cluster": 7,
+          "text": "none specifically plus concluded tres the payment waiting about <ACCOUNT_NUMBER_1> did my card <CREDIT_CARD_1> consequently reverted?",
+          "full_cluster_mean_cosine": 0.874455451965332,
+          "selected_at_iteration": 531
+        },
+        {
+          "cluster": 8,
+          "text": "i'hasn trying temporarily? what happened ideally have the top - up directly implies <ACCOUNT_NUMBER_1> through card <CREDIT_CARD_1> .",
+          "full_cluster_mean_cosine": 0.8974152207374573,
+          "selected_at_iteration": 1203
+        },
+        {
+          "cluster": 9,
+          "text": "really'm reposis with my pin because of <CREDIT_CARD_1> card sorry wondering handy locationsily",
+          "full_cluster_mean_cosine": 0.8906481266021729,
+          "selected_at_iteration": 2222
+        },
+        {
+          "cluster": 10,
+          "text": "awesome does someonegallfast other card based fairly specified <ACCOUNT_NUMBER_1> arrive presumably now <STREET_ADDRESS_1> help",
+          "full_cluster_mean_cosine": 0.8680720925331116,
+          "selected_at_iteration": 1886
+        },
+        {
+          "cluster": 11,
+          "text": "i deposited cash trough your balance onwards although <ACCOUNT_NUMBER_1> seems accounts not updated.",
+          "full_cluster_mean_cosine": 0.8977588415145874,
+          "selected_at_iteration": 928
+        },
+        {
+          "cluster": 12,
+          "text": "account <PERSON_1> otherwise troubles granting myself wanna # potentially missed changing addresses of authentic identification <CUSTOMER_ID_1> tho",
+          "full_cluster_mean_cosine": 0.8417114615440369,
+          "selected_at_iteration": 1836
+        },
+        {
+          "cluster": 13,
+          "text": "the exchange rate do to my transaction ensued surrounding <ACCOUNT_NUMBER_1> isnits right.",
+          "full_cluster_mean_cosine": 0.924444854259491,
+          "selected_at_iteration": 2241
+        },
+        {
+          "cluster": 14,
+          "text": "someone help please cancel from transferically an <ACCOUNT_NUMBER_1> ك",
+          "full_cluster_mean_cosine": 0.8919130563735962,
+          "selected_at_iteration": 2180
+        }
+      ],
+      "5000": [
+        {
+          "cluster": 0,
+          "text": "i lost my phone concerning something having registered under using number <PHONE_NUMBER_1> .",
+          "full_cluster_mean_cosine": 0.8816388845443726,
+          "selected_at_iteration": 227
+        },
+        {
+          "cluster": 1,
+          "text": "card you mentions inadvertently basically fee occurrence presentted i charged <CREDIT_CARD_1> although baffled",
+          "full_cluster_mean_cosine": 0.8921091556549072,
+          "selected_at_iteration": 4925
+        },
+        {
+          "cluster": 2,
+          "text": "unfortunatelyicalyi wondering clearly the transfer on account <ACCOUNT_NUMBER_1> seems't received until /",
+          "full_cluster_mean_cosine": 0.9069121479988098,
+          "selected_at_iteration": 3155
+        },
+        {
+          "cluster": 3,
+          "text": "the card <CREDIT_CARD_1> 」 do now — assist me troubles",
+          "full_cluster_mean_cosine": 0.8630801439285278,
+          "selected_at_iteration": 163
+        },
+        {
+          "cluster": 4,
+          "text": "my brief notable confused charge on transactions <ACCOUNT_NUMBER_1> ensuing elsewherebankily",
+          "full_cluster_mean_cosine": 0.8801799416542053,
+          "selected_at_iteration": 3720
+        },
+        {
+          "cluster": 5,
+          "text": "additionally ideally thus i withdrew amount affectinged atm gotten and their account cash refuses. perhaps strangeraring me inadvertently have <CREDIT_CARD_1> ?",
+          "full_cluster_mean_cosine": 0.883594810962677,
+          "selected_at_iteration": 4992
+        },
+        {
+          "cluster": 6,
+          "text": "can whoever solved me ﬂury transfer using account <ACCOUNT_NUMBER_1> something perhaps declined?",
+          "full_cluster_mean_cosine": 0.903838574886322,
+          "selected_at_iteration": 204
+        },
+        {
+          "cluster": 7,
+          "text": "none and refereesugh pending disappointing my payment with <ACCOUNT_NUMBER_1> just wondering tis <CREDIT_CARD_1> back presently?",
+          "full_cluster_mean_cosine": 0.8767806887626648,
+          "selected_at_iteration": 4479
+        },
+        {
+          "cluster": 8,
+          "text": "i might either trying temporarily? what happened effectively hasn the top - up anywhere implies <ACCOUNT_NUMBER_1> through card <CREDIT_CARD_1> ?",
+          "full_cluster_mean_cosine": 0.8979365229606628,
+          "selected_at_iteration": 4473
+        },
+        {
+          "cluster": 9,
+          "text": "really - ill resfervable my pin though of <CREDIT_CARD_1> card thanks curious essentially option please",
+          "full_cluster_mean_cosine": 0.8912562727928162,
+          "selected_at_iteration": 4495
+        },
+        {
+          "cluster": 10,
+          "text": "awesome does someonegallfast other card based fairly specified <ACCOUNT_NUMBER_1> arrive presumably now <STREET_ADDRESS_1> help",
+          "full_cluster_mean_cosine": 0.8680720925331116,
+          "selected_at_iteration": 1886
+        },
+        {
+          "cluster": 11,
+          "text": "i deposited cash trough your balance onwards although <ACCOUNT_NUMBER_1> seems accounts not updated.",
+          "full_cluster_mean_cosine": 0.8977588415145874,
+          "selected_at_iteration": 928
+        },
+        {
+          "cluster": 12,
+          "text": "account <PERSON_1> otherwise i craving needing verify rather imagined changed updated addresses of identification ) <CUSTOMER_ID_1> stuck",
+          "full_cluster_mean_cosine": 0.8432289958000183,
+          "selected_at_iteration": 4760
+        },
+        {
+          "cluster": 13,
+          "text": "the exchange rate do to my transaction ensued surrounding <ACCOUNT_NUMBER_1> isnits right.",
+          "full_cluster_mean_cosine": 0.924444854259491,
+          "selected_at_iteration": 2241
+        },
+        {
+          "cluster": 14,
+          "text": "someone help please cancel from transferically an <ACCOUNT_NUMBER_1> ك",
+          "full_cluster_mean_cosine": 0.8919130563735962,
+          "selected_at_iteration": 2180
+        }
+      ]
+    },
+    "selection_uses_test": false,
+    "checkpoint_rule": "Full-cluster Train mean score only"
+  },
+  "abcd": {
+    "k": 5,
+    "portfolios": {
+      "0": [
+        {
+          "cluster": 0,
+          "text": "I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is <ACCOUNT_ID_1>.",
+          "full_cluster_mean_cosine": 0.846487283706665,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 1,
+          "text": "I don't need the item I purchased anymore, so I'd like to return it and get a refund for order <ORDER_ID_1>. My username is <USERNAME_1>.",
+          "full_cluster_mean_cosine": 0.8669154644012451,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 2,
+          "text": "I've forgotten my username and can't access my account. Can you help me recover it? I can verify with my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1>.",
+          "full_cluster_mean_cosine": 0.8591598868370056,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 3,
+          "text": "I think there's an extra charge on my order <ORDER_ID_1> and I'd like it looked into. I don't have my account ID available right now.",
+          "full_cluster_mean_cosine": 0.8299363851547241,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 4,
+          "text": "I'd like to check on order <ORDER_ID_1> because I got an email saying all the items didn't ship. My account ID is <ACCOUNT_ID_1>.",
+          "full_cluster_mean_cosine": 0.834778904914856,
+          "selected_at_iteration": 0
+        }
+      ],
+      "100": [
+        {
+          "cluster": 0,
+          "text": "mater'm hosting the premium subscription and received recurring payment letter incurred tho, so i sharpe d like finish charges it nonetheless now. my account id is <ACCOUNT_ID_1> available",
+          "full_cluster_mean_cosine": 0.8648130893707275,
+          "selected_at_iteration": 99
+        },
+        {
+          "cluster": 1,
+          "text": "might messed't distribute the item i purchasedishly successes so je'd like to return it and get a refund for order <ORDER_ID_1> . my worn situation is <USERNAME_1> .",
+          "full_cluster_mean_cosine": 0.8789612650871277,
+          "selected_at_iteration": 80
+        },
+        {
+          "cluster": 2,
+          "text": "i ve equally forgotten my username likely can'tpass my account. can yours help thereby recover it? i will verify with something currently ordered <PHONE_NUMBER_1> and zip code <ZIP_CODE_1> key",
+          "full_cluster_mean_cosine": 0.8685481548309326,
+          "selected_at_iteration": 79
+        },
+        {
+          "cluster": 3,
+          "text": "hopefully corrected there alternative s a abnormal charge that my dressed <ORDER_ID_1> and i'd prefer hoping disagree orders. i didn dudetrust remember my account price please even extension.",
+          "full_cluster_mean_cosine": 0.855575442314148,
+          "selected_at_iteration": 95
+        },
+        {
+          "cluster": 4,
+          "text": "i actually basically want to check on order <ORDER_ID_1> because i wasn figuring essentially nun rather quick delivery won changes t ship. my account id is <ACCOUNT_ID_1> .",
+          "full_cluster_mean_cosine": 0.8651217818260193,
+          "selected_at_iteration": 93
+        }
+      ],
+      "500": [
+        {
+          "cluster": 0,
+          "text": "bo'm paying the premium subscription as handling renewed payment grounds short nonetheless, so i basically wouldn like ● chargesately figuring important. my account has held <ACCOUNT_ID_1> count",
+          "full_cluster_mean_cosine": 0.871816873550415,
+          "selected_at_iteration": 406
+        },
+        {
+          "cluster": 1,
+          "text": "unfortunately bunny't distribution the item i purchasesishly ) so generally'd like to return order and get corrected refund just see <ORDER_ID_1> . my worn situation is <USERNAME_1> equivalent",
+          "full_cluster_mean_cosine": 0.8812844157218933,
+          "selected_at_iteration": 432
+        },
+        {
+          "cluster": 2,
+          "text": "i ve plainly forgotten my username really can'tpass my account so can you helpve recover situation? otherably check huh an registered which <PHONE_NUMBER_1> ¢ physically both <ZIP_CODE_1> item",
+          "full_cluster_mean_cosine": 0.8708174228668213,
+          "selected_at_iteration": 444
+        },
+        {
+          "cluster": 3,
+          "text": "hopefully incorrect it wound around partially costly charge concerning my dressed <ORDER_ID_1> and kinda'd prefer freshly rejected orders. somebody options slightly grandson backs unexpected account price please helpful functionality too",
+          "full_cluster_mean_cosine": 0.8584598302841187,
+          "selected_at_iteration": 476
+        },
+        {
+          "cluster": 4,
+          "text": "i actually basically want to checknig order <ORDER_ID_1> plus i wasn hoping * adoris rather timely delivery won changes t ship. my account earlier creating <ACCOUNT_ID_1> .",
+          "full_cluster_mean_cosine": 0.8667659759521484,
+          "selected_at_iteration": 317
+        }
+      ],
+      "1000": [
+        {
+          "cluster": 0,
+          "text": "bo'm paying the premium subscription as handling renewed payment grounds short nonetheless, so i basically wouldn like ● chargesately figuring important. my account has held <ACCOUNT_ID_1> count",
+          "full_cluster_mean_cosine": 0.871816873550415,
+          "selected_at_iteration": 406
+        },
+        {
+          "cluster": 1,
+          "text": "unfortunately bunny't distributionlty material i wearishly ) so somehow'd like to return order until acquiring corrected refund just see <ORDER_ID_1> . my overall situation is <USERNAME_1> equivalent",
+          "full_cluster_mean_cosine": 0.8819252252578735,
+          "selected_at_iteration": 529
+        },
+        {
+          "cluster": 2,
+          "text": "i have technically forgotten my username hoping to cannotcinpass my account so can you helpand recovervalent? otherably check huh gotta registered as <PHONE_NUMBER_1> emailately both <ZIP_CODE_1> item",
+          "full_cluster_mean_cosine": 0.8721705079078674,
+          "selected_at_iteration": 623
+        },
+        {
+          "cluster": 3,
+          "text": "hopefully incorrect it partially thored costly charge about my dressed <ORDER_ID_1> and sadly'd prefer narrowly rejected orders. somebody dwarf still li backs unexpected account price please tips functionality ;",
+          "full_cluster_mean_cosine": 0.8597705364227295,
+          "selected_at_iteration": 906
+        },
+        {
+          "cluster": 4,
+          "text": "i also basically want to oually order <ORDER_ID_1> cause i wasngrad waited hoping weekdayily fancy delivery transactions changes gives shipping. currently wrong but whether <ACCOUNT_ID_1> .",
+          "full_cluster_mean_cosine": 0.8696976900100708,
+          "selected_at_iteration": 955
+        }
+      ],
+      "2500": [
+        {
+          "cluster": 0,
+          "text": "currently're providing a premium subscription as keeping inexpensivency fee liftcute indefinitely thus i just wouldn like ● deadlineerly knowledge that. my account was payment <ACCOUNT_ID_1> count",
+          "full_cluster_mean_cosine": 0.8729439973831177,
+          "selected_at_iteration": 1970
+        },
+        {
+          "cluster": 1,
+          "text": "unfortunately balls't colorllsgling something garmentths so entirely i would like to return order or expecting some refund shifted with <ORDER_ID_1> . my completely situation comes <USERNAME_1> too",
+          "full_cluster_mean_cosine": 0.8875735402107239,
+          "selected_at_iteration": 2075
+        },
+        {
+          "cluster": 2,
+          "text": "i have actually forgotten my username hoping i candopassoms account so mach oh help wen recoverright? besides / verify that having registered as <PHONE_NUMBER_1> email our thing <ZIP_CODE_1> retail",
+          "full_cluster_mean_cosine": 0.8734260201454163,
+          "selected_at_iteration": 2287
+        },
+        {
+          "cluster": 3,
+          "text": "unfortunately incorrect it encountered surprisingly rather odd charge about my current <ORDER_ID_1> and tried so would like otherwise hazards orders rather partly apparel ; someone backs unexpected account price. assistance thanks bro",
+          "full_cluster_mean_cosine": 0.8645327091217041,
+          "selected_at_iteration": 2494
+        },
+        {
+          "cluster": 4,
+          "text": "i also basically want to ou me order <ORDER_ID_1> cause i quicklyden waited something pythonrly today delivery finding changes gives shipping. please doubts behind whether <ACCOUNT_ID_1> .",
+          "full_cluster_mean_cosine": 0.87102210521698,
+          "selected_at_iteration": 1198
+        }
+      ],
+      "5000": [
+        {
+          "cluster": 0,
+          "text": "ill're providing a premium subscription as otherwise sparkatable fee turnover stilldate so i also would like. st does somebody fr championshipeson til was payment <ACCOUNT_ID_1> account",
+          "full_cluster_mean_cosine": 0.8757051825523376,
+          "selected_at_iteration": 4970
+        },
+        {
+          "cluster": 1,
+          "text": "unfortunately balls't colorllsgling something garmentths so entirely i would like to return order or expecting some refund shifted with <ORDER_ID_1> . my completely situation comes <USERNAME_1> too",
+          "full_cluster_mean_cosine": 0.8875735402107239,
+          "selected_at_iteration": 2075
+        },
+        {
+          "cluster": 2,
+          "text": "currently tho vastly forgotten my username otherwise i can pin password accesspiece so ill awesome help theo recoverctive? because \\ verify that having accounts got <PHONE_NUMBER_1> email our both <ZIP_CODE_1> retail",
+          "full_cluster_mean_cosine": 0.8743128180503845,
+          "selected_at_iteration": 4089
+        },
+        {
+          "cluster": 3,
+          "text": "unfortunately incorrect it perhaps damagedively pointless charge about my new <ORDER_ID_1> i tried so would like probably tread orders partly somewhat apparel ; someone backs unexpected account price. helping thanks dude",
+          "full_cluster_mean_cosine": 0.8659504055976868,
+          "selected_at_iteration": 2838
+        },
+        {
+          "cluster": 4,
+          "text": "reallyk dude want to however vaguely order <ORDER_ID_1> cause waiting wasndating current delivery few dayshers locations gives changes giving shipping. stuck unsuccessful arose whether <ACCOUNT_ID_1> .",
+          "full_cluster_mean_cosine": 0.871198296546936,
+          "selected_at_iteration": 4390
+        }
+      ]
+    },
+    "selection_uses_test": false,
+    "checkpoint_rule": "Full-cluster Train mean score only"
+  },
+  "dogo": {
+    "k": 10,
+    "portfolios": {
+      "0": [
+        {
+          "cluster": 0,
+          "text": "My credit card is lost, and I'm <PERSON_1>. Please report it; the card number is <CARD_NUMBER_1>.",
+          "full_cluster_mean_cosine": 0.8974153995513916,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 1,
+          "text": "I'd like a boarding pass for booking <BOOKING_ID_1>, please send it to <EMAIL_ADDRESS_1>.",
+          "full_cluster_mean_cosine": 0.898425817489624,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 2,
+          "text": "My phone screen was cracked, and I want to fix it. You can reach me at <PHONE_NUMBER_1> or <EMAIL_ADDRESS_1>.",
+          "full_cluster_mean_cosine": 0.9098390936851501,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 3,
+          "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+          "full_cluster_mean_cosine": 0.9296337962150574,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 4,
+          "text": "I'm <PERSON_1> and I'd like to change my seat assignment, please. My booking ID is <BOOKING_ID_1>.",
+          "full_cluster_mean_cosine": 0.9425802230834961,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 5,
+          "text": "Can I know the status of my claim? My policy is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>.",
+          "full_cluster_mean_cosine": 0.9488309621810913,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 6,
+          "text": "Please update the address on my credit card account, <CARD_NUMBER_1>, to <STREET_ADDRESS_1>.",
+          "full_cluster_mean_cosine": 0.9171150326728821,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 7,
+          "text": "I'm <PERSON_1>, and my account ends in <ACCOUNT_ID_LAST4_1>. I use Outlook and I need software updates.",
+          "full_cluster_mean_cosine": 0.8516924381256104,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 8,
+          "text": "I need to report travel expenses; I'm <PERSON_1>.",
+          "full_cluster_mean_cosine": 0.9182400703430176,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 9,
+          "text": "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>.",
+          "full_cluster_mean_cosine": 0.8823046684265137,
+          "selected_at_iteration": 0
+        }
+      ],
+      "100": [
+        {
+          "cluster": 0,
+          "text": "ultimately credit card been lost, but i'm <PERSON_1> . please report tae from the cardname is <CARD_NUMBER_1> number",
+          "full_cluster_mean_cosine": 0.9022854566574097,
+          "selected_at_iteration": 62
+        },
+        {
+          "cluster": 1,
+          "text": "i'd like a boarding pass luckily til <BOOKING_ID_1> otherwise please contacthering onto <EMAIL_ADDRESS_1> .",
+          "full_cluster_mean_cosine": 0.9035884141921997,
+          "selected_at_iteration": 26
+        },
+        {
+          "cluster": 2,
+          "text": "my iphone screen was cracked, and similarly want then fix it. you le reach me regarding <PHONE_NUMBER_1> or <EMAIL_ADDRESS_1> .",
+          "full_cluster_mean_cosine": 0.9192951917648315,
+          "selected_at_iteration": 93
+        },
+        {
+          "cluster": 3,
+          "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+          "full_cluster_mean_cosine": 0.9296337962150574,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 4,
+          "text": "i'm <PERSON_1> and i'd like booking change the seat assignment pinkead ty my hopefully checking is <BOOKING_ID_1> .",
+          "full_cluster_mean_cosine": 0.94813472032547,
+          "selected_at_iteration": 96
+        },
+        {
+          "cluster": 5,
+          "text": "can quite know the status of my claim? my policy is <POLICY_ID_1> and the claim number aka <CLAIM_ID_1> .",
+          "full_cluster_mean_cosine": 0.9509932994842529,
+          "selected_at_iteration": 83
+        },
+        {
+          "cluster": 6,
+          "text": "please update the address somehow my credit card account, <CARD_NUMBER_1> , to <STREET_ADDRESS_1> .",
+          "full_cluster_mean_cosine": 0.919518768787384,
+          "selected_at_iteration": 80
+        },
+        {
+          "cluster": 7,
+          "text": "i re wanting <PERSON_1> , and my account ends in <ACCOUNT_ID_LAST4_1> though # applicable situations transfer calls and comparing tricky software updates correctly",
+          "full_cluster_mean_cosine": 0.8645634651184082,
+          "selected_at_iteration": 100
+        },
+        {
+          "cluster": 8,
+          "text": "i need to reporting travel expenses ; i re am <PERSON_1> .",
+          "full_cluster_mean_cosine": 0.9207497835159302,
+          "selected_at_iteration": 34
+        },
+        {
+          "cluster": 9,
+          "text": "please supply basically order for a pizza. you can send me onto <PHONE_NUMBER_1> thus my address featuring <STREET_ADDRESS_1> .",
+          "full_cluster_mean_cosine": 0.8881677985191345,
+          "selected_at_iteration": 94
+        }
+      ],
+      "500": [
+        {
+          "cluster": 0,
+          "text": "ultimately credit card been lost, so i'm <PERSON_1> . please report to somewhere close objectedname with <CARD_NUMBER_1> number",
+          "full_cluster_mean_cosine": 0.906844973564148,
+          "selected_at_iteration": 277
+        },
+        {
+          "cluster": 1,
+          "text": "i land would like a boarding pass luckily with <BOOKING_ID_1> also please send knowing considering <EMAIL_ADDRESS_1> .",
+          "full_cluster_mean_cosine": 0.903681755065918,
+          "selected_at_iteration": 230
+        },
+        {
+          "cluster": 2,
+          "text": "my iphone screen was cracked fixed whilst also need broken fix around. you en reach me regarding <PHONE_NUMBER_1> specifically <EMAIL_ADDRESS_1> phone",
+          "full_cluster_mean_cosine": 0.921809196472168,
+          "selected_at_iteration": 326
+        },
+        {
+          "cluster": 3,
+          "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+          "full_cluster_mean_cosine": 0.9296337962150574,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 4,
+          "text": "i'm <PERSON_1> and from ` d like booking change the seat assignment hmmsper phil my tight checking is <BOOKING_ID_1> ie",
+          "full_cluster_mean_cosine": 0.9508463740348816,
+          "selected_at_iteration": 215
+        },
+        {
+          "cluster": 5,
+          "text": "can me know the status of my claim? my policy is <POLICY_ID_1> and the claim number → <CLAIM_ID_1> .",
+          "full_cluster_mean_cosine": 0.9518872499465942,
+          "selected_at_iteration": 192
+        },
+        {
+          "cluster": 6,
+          "text": "please update the address anyway yours / credit account somewhere <CARD_NUMBER_1> changing to <STREET_ADDRESS_1> given",
+          "full_cluster_mean_cosine": 0.922000527381897,
+          "selected_at_iteration": 453
+        },
+        {
+          "cluster": 7,
+          "text": "i u wanting <PERSON_1> , and my account ends in <ACCOUNT_ID_LAST4_1> though ― help davies transfer calls or comparing software implementing updatends",
+          "full_cluster_mean_cosine": 0.870832085609436,
+          "selected_at_iteration": 306
+        },
+        {
+          "cluster": 8,
+          "text": "i need to reporting travel expenses ; i re am <PERSON_1> .",
+          "full_cluster_mean_cosine": 0.9207497835159302,
+          "selected_at_iteration": 34
+        },
+        {
+          "cluster": 9,
+          "text": "please supply basically order for a pizza. you can send me to <PHONE_NUMBER_1> therefore my address involving <STREET_ADDRESS_1> .",
+          "full_cluster_mean_cosine": 0.8893267512321472,
+          "selected_at_iteration": 188
+        }
+      ],
+      "1000": [
+        {
+          "cluster": 0,
+          "text": "ultimately credit card is lost previously so i'm <PERSON_1> . please report to somewhere close objectedname with <CARD_NUMBER_1> number",
+          "full_cluster_mean_cosine": 0.906854510307312,
+          "selected_at_iteration": 662
+        },
+        {
+          "cluster": 1,
+          "text": "i land would like a boarding pass hence given <BOOKING_ID_1> fortunately please contact person using <EMAIL_ADDRESS_1> thankfully",
+          "full_cluster_mean_cosine": 0.9040525555610657,
+          "selected_at_iteration": 977
+        },
+        {
+          "cluster": 2,
+          "text": "my phone screen was cracked fixed or iphone causing broken necessary properly. you can reach me about <PHONE_NUMBER_1> instead <EMAIL_ADDRESS_1> number",
+          "full_cluster_mean_cosine": 0.926003098487854,
+          "selected_at_iteration": 988
+        },
+        {
+          "cluster": 3,
+          "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+          "full_cluster_mean_cosine": 0.9296337962150574,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 4,
+          "text": "i'm <PERSON_1> ou furthermore anticipating would like booking change there seat assignment thanksgon otherwise my tight checking is <BOOKING_ID_1> name",
+          "full_cluster_mean_cosine": 0.9512906074523926,
+          "selected_at_iteration": 714
+        },
+        {
+          "cluster": 5,
+          "text": "can me know the status of my claim? my policy is <POLICY_ID_1> and the claim number → <CLAIM_ID_1> .",
+          "full_cluster_mean_cosine": 0.9518872499465942,
+          "selected_at_iteration": 192
+        },
+        {
+          "cluster": 6,
+          "text": "please update the address anyway yours / credit account somewhere <CARD_NUMBER_1> changing to <STREET_ADDRESS_1> given",
+          "full_cluster_mean_cosine": 0.922000527381897,
+          "selected_at_iteration": 453
+        },
+        {
+          "cluster": 7,
+          "text": "i u wanting <PERSON_1> , and my account ends in <ACCOUNT_ID_LAST4_1> though ― help davies transfer calls or comparing software implementing updatends",
+          "full_cluster_mean_cosine": 0.870832085609436,
+          "selected_at_iteration": 306
+        },
+        {
+          "cluster": 8,
+          "text": "i need its issuing travel expenses came i teinated <PERSON_1> .",
+          "full_cluster_mean_cosine": 0.9217727184295654,
+          "selected_at_iteration": 655
+        },
+        {
+          "cluster": 9,
+          "text": "please — basically order for a pizza. you can send me to <PHONE_NUMBER_1> which distribute however asking <STREET_ADDRESS_1> \\",
+          "full_cluster_mean_cosine": 0.8906959295272827,
+          "selected_at_iteration": 863
+        }
+      ],
+      "2500": [
+        {
+          "cluster": 0,
+          "text": "basically credit card is lostrence so i m got <PERSON_1> . please report out someplace away objected tan with <CARD_NUMBER_1> number",
+          "full_cluster_mean_cosine": 0.9085556268692017,
+          "selected_at_iteration": 2414
+        },
+        {
+          "cluster": 1,
+          "text": "i land would like a boarding pass hence having <BOOKING_ID_1> . hope please sending from <EMAIL_ADDRESS_1> inform careful nadu mmm cleverlity",
+          "full_cluster_mean_cosine": 0.9066678881645203,
+          "selected_at_iteration": 2429
+        },
+        {
+          "cluster": 2,
+          "text": "my phone screen was cracked fixed / iphone causing broken necessaryably. you can reach me about <PHONE_NUMBER_1> instead <EMAIL_ADDRESS_1> number",
+          "full_cluster_mean_cosine": 0.9262867569923401,
+          "selected_at_iteration": 1447
+        },
+        {
+          "cluster": 3,
+          "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+          "full_cluster_mean_cosine": 0.9296337962150574,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 4,
+          "text": "i'm <PERSON_1> ou furthermore anticipating would like booking change there seat assignment thanksgon otherwise my tight checking is <BOOKING_ID_1> name",
+          "full_cluster_mean_cosine": 0.9512906074523926,
+          "selected_at_iteration": 714
+        },
+        {
+          "cluster": 5,
+          "text": "can me know the status of my claim? my policy is <POLICY_ID_1> and the claim number → <CLAIM_ID_1> .",
+          "full_cluster_mean_cosine": 0.9518872499465942,
+          "selected_at_iteration": 192
+        },
+        {
+          "cluster": 6,
+          "text": "please update the address anyway yours / credit account somewhere <CARD_NUMBER_1> changing to <STREET_ADDRESS_1> given",
+          "full_cluster_mean_cosine": 0.922000527381897,
+          "selected_at_iteration": 453
+        },
+        {
+          "cluster": 7,
+          "text": "i u wanting <PERSON_1> , and my account ends in <ACCOUNT_ID_LAST4_1> though ― help davies transfer calls or comparing software implementing updatends",
+          "full_cluster_mean_cosine": 0.870832085609436,
+          "selected_at_iteration": 306
+        },
+        {
+          "cluster": 8,
+          "text": "i need its issuing travel expenses came i teinated <PERSON_1> .",
+          "full_cluster_mean_cosine": 0.9217727184295654,
+          "selected_at_iteration": 655
+        },
+        {
+          "cluster": 9,
+          "text": "please — basically order for a pizza. you can send me to <PHONE_NUMBER_1> which distribute however asking <STREET_ADDRESS_1> \\",
+          "full_cluster_mean_cosine": 0.8906959295272827,
+          "selected_at_iteration": 863
+        }
+      ],
+      "5000": [
+        {
+          "cluster": 0,
+          "text": "basically credit card is lostrence so i m got <PERSON_1> . please report out someplace away objected tan with <CARD_NUMBER_1> number",
+          "full_cluster_mean_cosine": 0.9085556268692017,
+          "selected_at_iteration": 2414
+        },
+        {
+          "cluster": 1,
+          "text": "i land would like the boarding pass hence going <BOOKING_ID_1> . edit eh sending given <EMAIL_ADDRESS_1> hope nam kindly ideally fearsrgy",
+          "full_cluster_mean_cosine": 0.9079498648643494,
+          "selected_at_iteration": 4966
+        },
+        {
+          "cluster": 2,
+          "text": "my phone screen got cracked fixed or iphone wrongly or otherwise. you can reach me about <PHONE_NUMBER_1> as <EMAIL_ADDRESS_1> needed",
+          "full_cluster_mean_cosine": 0.9267585277557373,
+          "selected_at_iteration": 4552
+        },
+        {
+          "cluster": 3,
+          "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+          "full_cluster_mean_cosine": 0.9296337962150574,
+          "selected_at_iteration": 0
+        },
+        {
+          "cluster": 4,
+          "text": "i'm <PERSON_1> ; ideally dimensionst need booking change the seat assignment til cool confirmation my can get is <BOOKING_ID_1> id",
+          "full_cluster_mean_cosine": 0.9514501094818115,
+          "selected_at_iteration": 4434
+        },
+        {
+          "cluster": 5,
+          "text": "can me know the status of my claim? my policy is <POLICY_ID_1> and the claim number → <CLAIM_ID_1> .",
+          "full_cluster_mean_cosine": 0.9518872499465942,
+          "selected_at_iteration": 192
+        },
+        {
+          "cluster": 6,
+          "text": "please update the address anyway yours / credit account somewhere <CARD_NUMBER_1> changing to <STREET_ADDRESS_1> given",
+          "full_cluster_mean_cosine": 0.922000527381897,
+          "selected_at_iteration": 453
+        },
+        {
+          "cluster": 7,
+          "text": "i skyually <PERSON_1> account anyway but is ends in <ACCOUNT_ID_LAST4_1> , help would maybe overseas （ updategging voice outlook across software struggles transaction",
+          "full_cluster_mean_cosine": 0.8727628588676453,
+          "selected_at_iteration": 4250
+        },
+        {
+          "cluster": 8,
+          "text": "i need my issuing travel expenses came i recining <PERSON_1> .",
+          "full_cluster_mean_cosine": 0.9249017238616943,
+          "selected_at_iteration": 3215
+        },
+        {
+          "cluster": 9,
+          "text": "please — specifically order ala a pizza. you similarly ship me towards <PHONE_NUMBER_1> will give particular two <STREET_ADDRESS_1> can",
+          "full_cluster_mean_cosine": 0.8925687074661255,
+          "selected_at_iteration": 3623
+        }
+      ]
+    },
+    "selection_uses_test": false,
+    "checkpoint_rule": "Full-cluster Train mean score only"
+  }
+}

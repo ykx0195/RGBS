@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-a485ea18-9752-9dfc-89ac-e3f86ced52b3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I do not have access to your account records or transaction history, so I cannot verify the specific status of this transfer.\n\nGenerally, transfers may be delayed due to:\n*   **Processing times:** Bank-to-bank transfers can take 1–5 business days depending on the method used (e.g., ACH vs. wire).\n*   **Weekends/Holidays:** Transactions are often paused during non-business days.\n*   **Incorrect details:** Errors in the recipient’s account number or routing information can cause delays or returns.\n*   **Security reviews:** Large or unusual transactions may undergo additional verification.\n\n**Next steps:**\n1. Check your bank’s online portal for any pending status or error messages.\n2. Verify that the account number and other details were entered correctly.\n3. Contact your bank’s customer support directly with the transaction reference number for a precise update.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876664,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 183,
+      "prompt_tokens": 98,
+      "total_tokens": 281,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 98
+      }
+    }
+  },
+  "answer": "I do not have access to your account records or transaction history, so I cannot verify the specific status of this transfer.\n\nGenerally, transfers may be delayed due to:\n*   **Processing times:** Bank-to-bank transfers can take 1–5 business days depending on the method used (e.g., ACH vs. wire).\n*   **Weekends/Holidays:** Transactions are often paused during non-business days.\n*   **Incorrect details:** Errors in the recipient’s account number or routing information can cause delays or returns.\n*   **Security reviews:** Large or unusual transactions may undergo additional verification.\n\n**Next steps:**\n1. Check your bank’s online portal for any pending status or error messages.\n2. Verify that the account number and other details were entered correctly.\n3. Contact your bank’s customer support directly with the transaction reference number for a precise update.",
+  "created_utc_epoch": 1793876667.7278838
+}

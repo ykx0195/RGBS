@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "My credit card is lost, and I'm <PERSON_1>. Please report it; the card number is <CARD_NUMBER_1>.",
+    "full_cluster_mean_cosine": 0.8974153995513916,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0007144808769226074,
+  "heldout_loaded": false
+}

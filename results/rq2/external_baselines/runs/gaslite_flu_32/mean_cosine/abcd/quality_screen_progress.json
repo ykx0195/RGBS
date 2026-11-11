@@ -1,0 +1,40 @@
+{
+  "completed_slots": 5,
+  "slots": [
+    {
+      "slot": 1,
+      "archive": 29410,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 2,
+      "archive": 39200,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 3,
+      "archive": 46043,
+      "considered": 258,
+      "ppl_and_local_eligible": 1,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 4,
+      "archive": 23096,
+      "considered": 258,
+      "ppl_and_local_eligible": 2,
+      "two_judge_accepted": 1
+    },
+    {
+      "slot": 5,
+      "archive": 19638,
+      "considered": 259,
+      "ppl_and_local_eligible": 0,
+      "two_judge_accepted": 0
+    }
+  ]
+}

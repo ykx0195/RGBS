@@ -1,0 +1,9 @@
+{
+  "stage": "mirror_download_running",
+  "switched_at": "2026-10-31T21:16:02.1800727+08:00",
+  "old_upload_pid": 9908,
+  "old_upload_stopped": true,
+  "mirror_server_pid": 11655,
+  "existing_partial_shards_reused": true,
+  "hash_verification": "full SHA-256 against official revision before GPU startup"
+}

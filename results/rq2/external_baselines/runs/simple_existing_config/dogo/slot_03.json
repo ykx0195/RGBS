@@ -1,0 +1,38 @@
+{
+  "slot": 3,
+  "target_index": 2,
+  "starting_text": "I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>.",
+  "selected": {
+    "text": "I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>.",
+    "target_cosine": 0.9615108370780945,
+    "train_covered": 473,
+    "ppl": 77.29984982120259
+  },
+  "baseline_replacement_gain": 240,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 8,
+      "passed_ppl": 0,
+      "best_replacement_gain": 240,
+      "net_union_change": 0,
+      "beam": [
+        "I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 2
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 240,
+      "net_union_change": 0,
+      "beam": [
+        "I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 4
+    }
+  ]
+}

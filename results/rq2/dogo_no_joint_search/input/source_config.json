@@ -1,0 +1,154 @@
+{
+  "experiment_name": "multidogo_riemann_k10_t0p85_s42_dataset_scope_v1",
+  "seed": 42,
+  "device": "cuda",
+  "paths": {
+    "source_targets": "/root/autodl-tmp/ykx/v10_current/multidogo/results/runs/_sources/multidogo_riemann_k10_t0p85_s42_dataset_scope_v1/source",
+    "embedding_model": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+    "language_model": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "runs_dir": "/root/autodl-tmp/ykx/v10_current/multidogo/results/runs"
+  },
+  "targets": {
+    "ids": [
+      "riemann_01",
+      "riemann_02",
+      "riemann_03",
+      "riemann_04",
+      "riemann_05",
+      "riemann_06",
+      "riemann_07",
+      "riemann_08",
+      "riemann_09",
+      "riemann_10"
+    ],
+    "seed_lengths": [
+      null
+    ],
+    "source_mode": "v7_frozen",
+    "seed_count": 20,
+    "retrieval_pool": 256,
+    "anchor_alignment_weight": 0.05
+  },
+  "coverage": {
+    "threshold": 0.85,
+    "report_thresholds": [
+      0.85
+    ]
+  },
+  "portfolio": {
+    "budgets": [
+      10
+    ],
+    "swap_passes": 12,
+    "initialization": "global_greedy"
+  },
+  "search": {
+    "methods": [
+      "gradient_residual_retention"
+    ],
+    "iterations": 8,
+    "beam_size": 4,
+    "exploration_slots": 1,
+    "coordinates_per_step": 4,
+    "top_k": 16,
+    "edit_orders": [
+      1,
+      2,
+      3
+    ],
+    "combination_top_k": 8,
+    "max_combination_trials": 1024,
+    "max_candidates_per_step": 160,
+    "embedding_batch_size": 32,
+    "max_encoder_texts": 10000,
+    "max_gradient_calls": 128,
+    "language_prefilter": 48,
+    "rewrite_reserve": 48,
+    "rewrite_prefilter": 24,
+    "rewrite_parent_count": 2,
+    "natural_beam_slots": 1,
+    "coverage_temperature": 0.02,
+    "coverage_alignment_weight": 0.05,
+    "residual_alignment_weight": 0.05,
+    "retention_weight": 0.25,
+    "retention_gap_weight": 1.0,
+    "near_window": 0.02,
+    "margin": 0.005,
+    "near_weight": 2.0,
+    "protect_weight": 3.0,
+    "max_coverage_jaccard": 0.9,
+    "protect_placeholders": true,
+    "exclude_unused_tokens": true,
+    "cpu_threads": 4,
+    "prefer_rewrite_beam": true,
+    "rewrite_prefilter_per_model": 4,
+    "residual_focus_centers": 8,
+    "residual_focus_pool": 256
+  },
+  "language": {
+    "enabled": true,
+    "rewrite_enabled": true,
+    "readability_enabled": true,
+    "enforce_slot_roles": true,
+    "preserve_parent_placeholders": false,
+    "min_words": 3,
+    "max_words": 40,
+    "min_alpha_ratio": 0.55,
+    "max_repeat_fraction": 0.5,
+    "ppl_calibration_size": 256,
+    "ppl_quantile": 0.95,
+    "ppl_max_tokens": 64,
+    "max_input_tokens": 2048,
+    "rewrite_every": 2,
+    "rewrite_count": 8,
+    "rewrite_example_count": 4,
+    "rewrite_max_new_tokens": 96,
+    "rewrite_temperature": 0.8,
+    "rewrite_top_p": 0.9,
+    "local_rewrite_enabled": true,
+    "allow_placeholder_substitution": true,
+    "natural_placeholder_context": true,
+    "api_quality_judge_enabled": true,
+    "api_generators": [
+      {
+        "name": "qwen_api",
+        "model": "qwen3.8-flash",
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "key_envs": [
+          "QWEN_API_KEY"
+        ],
+        "key_file": "keys/qwen_api.key",
+        "extra_body": {
+          "enable_thinking": false
+        }
+      },
+      {
+        "name": "deepseek_api",
+        "model": "deepseek-flash",
+        "base_url": "https://api.deepseek.com",
+        "key_envs": [
+          "DEEPSEEK_API_KEY"
+        ],
+        "key_file": "keys/deepseek_api.key",
+        "extra_body": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      }
+    ],
+    "rewrite_scope": "residual_focus",
+    "allowed_domains": [
+      "airline",
+      "fastfood",
+      "finance",
+      "insurance",
+      "media",
+      "software"
+    ]
+  },
+  "dataset_key": "multidogo",
+  "constraint_policy": "dataset_scope_v1",
+  "vector_method": "riemann",
+  "encoder_fingerprint": "7e81ae503fbfceb4a46ee91641dda2e815fa653f361c4fb079c71452fef2ebbc"
+}

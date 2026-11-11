@@ -1,0 +1,17 @@
+{
+  "dataset": "banking77",
+  "condition": "normal_train_only",
+  "source_entries": 4924,
+  "unique_cache_entries": 4924,
+  "test_total": 1485,
+  "cache_hits": 1484,
+  "hit_rate_percent": 99.93265993265993,
+  "oracle_hits": 1484,
+  "oracle_disagreements": 0,
+  "cache_rows_before": 4924,
+  "cache_rows_after": 4924,
+  "embedding_callback_calls": 6409,
+  "distinct_returned_entries": 1109,
+  "answer_validity_evaluated": false,
+  "admission_evaluated": false
+}

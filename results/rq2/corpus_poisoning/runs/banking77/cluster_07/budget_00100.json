@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "none seem wise respects nor the payment coming using <ACCOUNT_NUMBER_1> had my card <CREDIT_CARD_1> sometime cancelled?",
+    "full_cluster_mean_cosine": 0.8695523142814636,
+    "selected_at_iteration": 74
+  },
+  "accepted_updates": 18,
+  "active_seconds": 10.813136219978333,
+  "heldout_loaded": false
+}

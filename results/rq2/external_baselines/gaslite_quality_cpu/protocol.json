@@ -1,0 +1,26 @@
+{
+  "dataset": "abcd",
+  "sampling_seed": 20261102,
+  "source_hashes": {
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/mean_cosine/abcd/train_report.json": "05a7c1fcdd6f6c5d4af14c26fd3268c3b371150923edeb8f46b3bb67473fbcde",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/mean_cosine/abcd/slot_01.json": "214fa4f543439cb613cbcf2b13dcb530188358d702e19216683fff169caaa979",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/mean_cosine/abcd/slot_02.json": "19476a76c2adc95380c3f782b6cc2943ad85556bad70fca9384ec8d9c1cfa5b8",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/mean_cosine/abcd/slot_03.json": "27b9e5c3c0e6f6a9c9ec17495bfa00133c23c683cea1937d4135b695212640cf",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/mean_cosine/abcd/slot_04.json": "ed35e6dce7028304228c1dd25c6cea5869371d992a15b71480e8ccca9268b9da",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/mean_cosine/abcd/slot_05.json": "0e1847a37739a521e246daaeac2e78afcda2bc16a58c4a8baa08c53b79ed90fe",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/soft_threshold/abcd/train_report.json": "464ade5bf31ea7b8e028bea66e2f630aed3981690750ff943f025fb719c759f3",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/soft_threshold/abcd/slot_01.json": "2375474f4eb0601c9a7c58f964964d8137e97dc6b2ff59f3659ee71701303c7c",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/soft_threshold/abcd/slot_02.json": "517bfcf83f550b8a161b7cbbafaedd687ed715360e2a1b8fc57c287f92350b74",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/soft_threshold/abcd/slot_03.json": "7b2df624fd8d8a4cf8110ab17f23cba0e80f4287b1b50641426ee331b851438d",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/soft_threshold/abcd/slot_04.json": "f48586618c1532d120739ad0a223fde297c97def71376bd052471b4e293a49e9",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/soft_threshold/abcd/slot_05.json": "cdf72fa6663382f4ba9a7e883957afec2c4e2fdb5f8ff3921ab1702bf1af28d3"
+  },
+  "sample_rows": 230,
+  "uses_train_and_archived_outputs_only": true,
+  "test_read": false,
+  "gpu_used": false,
+  "role": "Diagnostic sample, not an archive-wide pass rate or new baseline selection.",
+  "sampling": "Per objective and slot: natural seed, final text, raw Train-selected keys belonging to slot, top 10 Train-objective archive candidates, uniform random 10 archive candidates.",
+  "quality_rules": "Existing shared structure, total 10 word edits, PPL<=150 and <=1.5*seed PPL; local readability only for candidates passing preceding gates. No threshold retuning.",
+  "precision": "CPU float32 language model; the original search scored GPU float16. Scores may differ slightly."
+}

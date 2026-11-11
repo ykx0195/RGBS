@@ -1,0 +1,32 @@
+[
+  {
+    "text": "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::abcd::constructed_only::000000"
+  },
+  {
+    "text": "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::abcd::constructed_only::000001"
+  },
+  {
+    "text": "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::abcd::constructed_only::000002"
+  },
+  {
+    "text": "Yep, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong tone, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::abcd::constructed_only::000003"
+  },
+  {
+    "text": "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::abcd::constructed_only::000004"
+  }
+]

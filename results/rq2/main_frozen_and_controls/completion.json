@@ -1,0 +1,18 @@
+{
+  "cpu_analyses_complete": true,
+  "elapsed_seconds": 166.31200000015087,
+  "gpu_used": false,
+  "api_calls": null,
+  "test_used_for_selection": false,
+  "new_generation_search": false,
+  "main_test_counts": {
+    "banking77": 1109,
+    "abcd": 308,
+    "dogo": 909
+  },
+  "task_audit_complete_at_085": true,
+  "new_api_judgments": 662,
+  "new_api_batches": 56,
+  "validation_all_passed": true,
+  "api_call_count_note": "56 successful API batches; HTTP retries not separately measured."
+}

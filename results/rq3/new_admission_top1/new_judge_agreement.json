@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "banking77",
+    "new_pairs": 623,
+    "exact_label_agreement": 501,
+    "exact_label_agreement_pct": 80.41733547351525,
+    "either_uncertain": 23,
+    "same_vs_different_disagreement": 99
+  },
+  {
+    "dataset": "abcd",
+    "new_pairs": 83,
+    "exact_label_agreement": 74,
+    "exact_label_agreement_pct": 89.1566265060241,
+    "either_uncertain": 0,
+    "same_vs_different_disagreement": 9
+  },
+  {
+    "dataset": "dogo",
+    "new_pairs": 115,
+    "exact_label_agreement": 100,
+    "exact_label_agreement_pct": 86.95652173913044,
+    "either_uncertain": 3,
+    "same_vs_different_disagreement": 12
+  }
+]

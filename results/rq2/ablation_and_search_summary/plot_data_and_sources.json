@@ -1,0 +1,214 @@
+{
+  "main_reference": {
+    "path": "C:\\Users\\ykx01\\Desktop\\ICDE_v1\\main.tex",
+    "sha256": "55ba933909ce764228165b9bbd080be82afc777eca4abf3bb4314b7cc2856a2f",
+    "counts": [
+      [
+        1109,
+        1485
+      ],
+      [
+        308,
+        476
+      ],
+      [
+        909,
+        1094
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "path": "C:\\Users\\ykx01\\Desktop\\results\\去黎曼_seed42_独立复跑_20261101\\runs\\banking77\\final_report.json",
+      "sha256": "d8855c57871d27d99692186299f4c73e161f447f57aeeab033e5432bb7af4238",
+      "dataset": "banking77",
+      "covered": 1090,
+      "total": 1485
+    },
+    {
+      "path": "C:\\Users\\ykx01\\Desktop\\results\\去黎曼_seed42_独立复跑_20261101\\runs\\abcd\\final_report.json",
+      "sha256": "87646e9ea57b80d3b8938cbbc119bb0956a6b9ca73a00d5c1f6b26d3f2cd752b",
+      "dataset": "abcd",
+      "covered": 288,
+      "total": 476
+    },
+    {
+      "path": "C:\\Users\\ykx01\\Desktop\\results\\去黎曼_seed42_独立复跑_20261101\\runs\\dogo\\final_report.json",
+      "sha256": "e02761379629b0f98e0e9a3979d693735a2667a9bd2c1ab1f8f2958eb73ed85d",
+      "dataset": "dogo",
+      "covered": 899,
+      "total": 1094
+    },
+    {
+      "path": "C:\\Users\\ykx01\\Desktop\\results\\VLDB补充方法对比_20261102\\runs\\simple_existing_config\\banking77\\final_report.json",
+      "sha256": "36bc7ee49c2c86e993477f5e1388432a4ab689b6696d0fea66348f45f0e8317b",
+      "dataset": "banking77",
+      "covered": 1118,
+      "total": 1485
+    },
+    {
+      "path": "C:\\Users\\ykx01\\Desktop\\results\\VLDB补充方法对比_20261102\\runs\\simple_existing_config\\abcd\\final_report.json",
+      "sha256": "4f7e61fcd7581c34ab1ccbc143f1289611c9db02c80ab472f11155ddef8211be",
+      "dataset": "abcd",
+      "covered": 255,
+      "total": 476
+    },
+    {
+      "path": "C:\\Users\\ykx01\\Desktop\\results\\VLDB补充方法对比_20261102\\runs\\simple_existing_config\\dogo\\final_report.json",
+      "sha256": "ebb6c68e2f11122c042666e584360b7c1c3dddf0c7c993002a85867310646613",
+      "dataset": "dogo",
+      "covered": 864,
+      "total": 1094
+    },
+    {
+      "path": "C:\\Users\\ykx01\\Desktop\\ICDE_v1\\figures\\search_sensitivity_data.json",
+      "sha256": "e30adeabdaf8b9b48e50e891ca92ea0d9641c10fdbacbd44a7f6fc7b6f113485"
+    }
+  ],
+  "notes": [
+    "No new experiment was run.",
+    "Controls are independent single runs, not a paired estimate of component effects.",
+    "MultiDoGO control selection implementation differs from the designated main run.",
+    "Banking77 no-Riemann uses the completed independent rerun (73.40%), not the historical 73.94% run."
+  ],
+  "ablation_values_pct": {
+    "RKGB (main reference)": {
+      "Banking77": 74.680135,
+      "ABCD": 64.705882,
+      "MultiDoGO": 83.08958
+    },
+    "w/o Riemann refinement": {
+      "Banking77": 73.400673,
+      "ABCD": 60.504202,
+      "MultiDoGO": 82.175503
+    },
+    "w/o gradient hints": {
+      "Banking77": 75.286195,
+      "ABCD": 53.571429,
+      "MultiDoGO": 78.976234
+    }
+  },
+  "sensitivity": {
+    "beam_width": [
+      [
+        1,
+        67.68,
+        48.32,
+        78.34
+      ],
+      [
+        5,
+        70.77,
+        54.41,
+        79.25
+      ],
+      [
+        10,
+        72.26,
+        56.09,
+        80.71
+      ],
+      [
+        20,
+        71.99,
+        51.89,
+        80.71
+      ],
+      [
+        30,
+        73.67,
+        59.45,
+        79.16
+      ],
+      [
+        40,
+        73.87,
+        60.92,
+        80.9
+      ],
+      [
+        50,
+        74.68,
+        64.71,
+        83.09
+      ]
+    ],
+    "rounds": [
+      [
+        1,
+        68.28,
+        47.48,
+        77.97
+      ],
+      [
+        4,
+        70.1,
+        48.32,
+        78.79
+      ],
+      [
+        8,
+        71.25,
+        51.68,
+        80.16
+      ],
+      [
+        12,
+        72.79,
+        53.99,
+        80.44
+      ],
+      [
+        16,
+        74.34,
+        60.29,
+        80.62
+      ],
+      [
+        20,
+        73.8,
+        56.72,
+        80.99
+      ],
+      [
+        24,
+        75.29,
+        57.14,
+        82.45
+      ],
+      [
+        28,
+        75.76,
+        55.67,
+        81.08
+      ],
+      [
+        32,
+        74.68,
+        64.71,
+        83.09
+      ]
+    ],
+    "datasets": [
+      "Banking77",
+      "ABCD",
+      "MultiDoGO"
+    ],
+    "missing": {},
+    "protocol": "Independent Train-only searches; main reference at 32 rounds / width 50; no interpolation across missing reports.",
+    "width40_source": {
+      "path": "C:\\Users\\ykx01\\Desktop\\results\\banking77_beam_ablation_32_20261031\\bw40\\final_report.json",
+      "sha256": "db6d46361764e0554c2cdb7c1caafd4e30eff63e814c46c372d9edb852d91ab7",
+      "covered": 1097,
+      "total": 1485,
+      "source": "existing completed run synchronized from port 31447; no rerun"
+    },
+    "round28_source": {
+      "path": "C:\\Users\\ykx01\\Desktop\\results\\三数据集_全局选句_轮数12_20_24_28_20261031\\runs\\banking77_r28\\final_report.json",
+      "sha256": "3ae4228768c979d1339744fc76a753feba708d36c7f4d33ed4ba90ca4f170109",
+      "covered": 1125,
+      "total": 1485,
+      "source": "existing completed run synchronized from port 31447; no rerun"
+    }
+  }
+}

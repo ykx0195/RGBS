@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "As <PERSON_1>, I'm having trouble verifying my identity for customer ID <CUSTOMER_ID_1>.",
+    "full_cluster_mean_cosine": 0.8156100511550903,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006413683295249939,
+  "heldout_loaded": false
+}

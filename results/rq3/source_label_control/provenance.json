@@ -1,0 +1,82 @@
+{
+  "protocol": "Frozen source IDs selected on deidentified Train; natural Train keys and source-aligned Test queries both switch raw/deidentified representation; original source labels are proxy labels, not human judgments of generated RKGB keys.",
+  "thresholds": [
+    0.75,
+    0.775,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9
+  ],
+  "primary_threshold": 0.85,
+  "methods": [
+    "greedy_train",
+    "greedy_train_swap4",
+    "riemann_nearest",
+    "random_train_seed42"
+  ],
+  "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "encoder_code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+  "pooling_sha256": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+  "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+  "max_seq_length": 512,
+  "dtype": "float32",
+  "device": "cpu",
+  "bootstrap": "5000 paired Test-query resamples, conditional on frozen keys, source labels, and threshold; excludes label error and search variation",
+  "datasets": {
+    "banking77": {
+      "train": 4924,
+      "test": 1485,
+      "label_fields": [
+        "category"
+      ],
+      "input_sha256": {
+        "raw_train": "b4779b894f10f01128176727fd8b6fb435a77e169673f4d597acab99ec3b79ba",
+        "delex_train": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+        "raw_test": "6e1f68813fa2e908f1e6fdcce21c3bc72d4aa23ff561aea442c9ef6cc6f58997",
+        "delex_test": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461"
+      },
+      "selection_sha256": "687b536f3b5466f71cbcaa6ba293e9214d2628c10d2ea484563742a4192d5ce1",
+      "test_embedding_sha256": "b0c799f441960e7eb82d7880b99252b68a6c258e0944cd024dca72d2df17f6f1",
+      "encoded_unique_key_sources": 43,
+      "max_abs_cached_delex_train_vector_difference": 1.1920928955078125e-07
+    },
+    "abcd": {
+      "train": 3834,
+      "test": 476,
+      "label_fields": [
+        "category",
+        "flow"
+      ],
+      "input_sha256": {
+        "raw_train": "71349b3361a65dd7c5858b16fb15a4ed433c1ef840e1728be38eac4172b59514",
+        "delex_train": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+        "raw_test": "59eed2e4a7e6647fd7dd118d3aeedefe357bc09798abf3931ed3e10316b1bb9c",
+        "delex_test": "c0cb1dfc04566724390c7f47cdd1e5cf03d3aa8f184d0ba9704f793f54065996"
+      },
+      "selection_sha256": "270e3a76c35322d9594ae0fce8672b6f90d05e16b2aea06a9fb84b98f63263cb",
+      "test_embedding_sha256": "3e61b7a7499e4e58a689fa04c39e686d5d36d0144d54aea8c6c7c4bc3f502169",
+      "encoded_unique_key_sources": 14,
+      "max_abs_cached_delex_train_vector_difference": 1.1920928955078125e-07
+    },
+    "dogo": {
+      "train": 3993,
+      "test": 1094,
+      "label_fields": [
+        "category",
+        "domain"
+      ],
+      "input_sha256": {
+        "raw_train": "61ed77d22b6c68c71d1d49b4dcd603b918a563142e4cde2e110e6163dd804c5f",
+        "delex_train": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+        "raw_test": "3b69bf45e4ef20d1e5786d014100736701776362ed945e3fde08e65ca0d88d1c",
+        "delex_test": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc"
+      },
+      "selection_sha256": "c780ed8715e64b6cfa557a09bc386b24fdb0cb7bbd95a39648c01f6d65cbef6b",
+      "test_embedding_sha256": "89546762d3f6bc054a0c75c7b8ee1eea18589719b1e1401638939f257d9f2737",
+      "encoded_unique_key_sources": 33,
+      "max_abs_cached_delex_train_vector_difference": 1.4901161193847656e-07
+    }
+  }
+}

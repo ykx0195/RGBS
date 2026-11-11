@@ -1,0 +1,48 @@
+{
+  "pid": 8598,
+  "phase": "running",
+  "started": 1793637673.1423688,
+  "max_parallel": 2,
+  "fixed_settings": {
+    "objective": "mean_cosine",
+    "flu_alpha": 0.025,
+    "readable_token_filter": 300,
+    "iterations": 100,
+    "n_grad": 50,
+    "candidate_tokens": 256,
+    "beam_candidates": 128,
+    "retained_K": {
+      "abcd": 5,
+      "dogo": 10,
+      "banking77": 15
+    }
+  },
+  "jobs": [
+    {
+      "dataset": "abcd",
+      "status": "running",
+      "attempts": [],
+      "started": 1793638432.747369,
+      "child_pid": 9080,
+      "log": "/root/autodl-tmp/vldb_supplement_20261102/logs/gaslite_flu_abcd_attempt0.log"
+    },
+    {
+      "dataset": "dogo",
+      "status": "running",
+      "attempts": [],
+      "started": 1793638452.8281484,
+      "child_pid": 9164,
+      "log": "/root/autodl-tmp/vldb_supplement_20261102/logs/gaslite_flu_dogo_attempt0.log"
+    },
+    {
+      "dataset": "banking77",
+      "status": "queued",
+      "attempts": []
+    }
+  ],
+  "smoke_pid": 8599,
+  "real_checkpoint_smoke_passed": true,
+  "free_gpu_mib": 5670,
+  "required_free_mib": 6500,
+  "existing_base_gpu_jobs": 1
+}

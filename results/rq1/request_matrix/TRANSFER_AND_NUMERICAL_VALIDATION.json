@@ -1,0 +1,36 @@
+{
+  "archive_sha256": "a55b7474e321a038d4c8fb481fc08c298d041c1e88ff250f13d859c599d409ee",
+  "verified_transferred_files": 512,
+  "hash_mismatches": [],
+  "legacy_boundary_comparisons": 42,
+  "max_embedding_coordinate_difference": 4.76837158203125e-07,
+  "max_pair_cosine_difference": 7.748603820800781e-07,
+  "max_flipped_distance_to_threshold": 2.384185791015625e-07,
+  "boundary_conclusion": "Count differences occur only for pairs extremely close to the threshold under CPU/GPU float32 numerical variation; all original source records retained.",
+  "server_validation": {
+    "matrix_rows": 1080,
+    "missing_cells": 0,
+    "duplicate_cells": 0,
+    "verified_embedding_files": 156,
+    "independent_generic_recounts": 24,
+    "sampled_direct_delete_one_checks": 72,
+    "unique_test_field_alignments": 3055,
+    "ambiguous_train_field_alignments": [
+      {
+        "dataset": "multidogo",
+        "split": "train",
+        "record_id": "multidogo-finance-train-8a18bf43-6d2e-441a-9cdf-68a0ce799d99-selected"
+      }
+    ],
+    "alignment_note": "One ambiguous training-only field boundary is unused: calibration encodes original Train text only. All 3055 transformed Test records have unique recoverable boundaries.",
+    "record_count_identity": true,
+    "source_disjoint_train_test": true,
+    "test_records_retained": {
+      "banking77": 1485,
+      "abcd": 476,
+      "multidogo": 1094
+    },
+    "positive_primary_cells": 100,
+    "negative_primary_cells": 20
+  }
+}

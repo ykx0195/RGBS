@@ -1,0 +1,38 @@
+{
+  "slot": 7,
+  "target_index": 6,
+  "starting_text": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+  "selected": {
+    "text": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+    "target_cosine": 0.9610071182250977,
+    "train_covered": 287,
+    "ppl": 24.8065263342816
+  },
+  "baseline_replacement_gain": 287,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 8,
+      "passed_ppl": 0,
+      "best_replacement_gain": 287,
+      "net_union_change": 0,
+      "beam": [
+        "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 2
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 287,
+      "net_union_change": 0,
+      "beam": [
+        "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>."
+      ],
+      "positive_feedback": [],
+      "generation_calls_cumulative": 4
+    }
+  ]
+}

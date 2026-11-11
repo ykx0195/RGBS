@@ -1,0 +1,11 @@
+{
+  "input_sha256": "7aeae8f7036d74c381c8987764ccebba452137d579bf06deae8385205225c699",
+  "span_provenance": "Strict exact raw/template alignment from derived benchmark materialization; not independent human PII labels.",
+  "methods": [
+    "generic",
+    "typed",
+    "typed_numbered",
+    "delete",
+    "mask_length"
+  ]
+}

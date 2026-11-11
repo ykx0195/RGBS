@@ -1,0 +1,20 @@
+{
+  "model": "all-MiniLM-L6-v2",
+  "encoder_kind": "minilm",
+  "model_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+  "pooling_sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+  "sequence_sha256": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+  "tokenizer_sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+  "prefix": "",
+  "device": "cpu",
+  "dtype": "float32",
+  "batch_size": 32,
+  "encoder_code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+  "frozen_input_sha256": "6e2c85b38beb17b15798074a3719d4b3e085df4dedc3fc22ddeee0440273cc61",
+  "current_frozen_inputs_sha256": "f169ebc1b65a0674cf85235b1d866fa797ab766266ea8de560e22791a794f1bd",
+  "cached_encoded_texts_sha256": "9d3012a2a7183fed97457411269b0bac624d0fb908daa80584827b887432f60b",
+  "cached_vectors_sha256": "ac27445ed5ab14c95540e6647b57efb3bbf649fd7cda0b7e8a17c3ba0975f580",
+  "new_key_embeddings": 7,
+  "cached_query_count": 1094,
+  "seconds": 0.9529999999795109
+}

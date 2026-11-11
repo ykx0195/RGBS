@@ -1,0 +1,36 @@
+{
+  "split": "train",
+  "count": 256,
+  "quantile": 0.95,
+  "limit": 143.92018632906786,
+  "median": 38.80098037555363,
+  "maximum": 403.4378349765037,
+  "rules_enabled": true,
+  "ppl_enabled": true,
+  "rewrite_enabled": true,
+  "local_rewrite_enabled": true,
+  "api_models": [
+    {
+      "provider": "qwen_api",
+      "model": "qwen3.8-flash"
+    },
+    {
+      "provider": "deepseek_api",
+      "model": "deepseek-flash"
+    }
+  ],
+  "readability_enabled": true,
+  "api_quality_judge_enabled": true,
+  "rewrite_scope": "residual_focus",
+  "allowed_domains": [
+    "airline",
+    "fastfood",
+    "finance",
+    "insurance",
+    "media",
+    "software"
+  ],
+  "slot_roles_enabled": true,
+  "test_loaded": false,
+  "validation_loaded": false
+}

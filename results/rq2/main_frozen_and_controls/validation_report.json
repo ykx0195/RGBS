@@ -1,0 +1,93 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "dataset": "banking77",
+      "check": "main_count_exact",
+      "actual": 1109,
+      "expected": 1109,
+      "passed": true
+    },
+    {
+      "dataset": "banking77",
+      "check": "raw_frozen_report_exact",
+      "actual": 626,
+      "expected": 626,
+      "passed": true
+    },
+    {
+      "dataset": "banking77",
+      "check": "budget_set_union_independent",
+      "actual": "all prefixes",
+      "expected": "CSV",
+      "passed": true
+    },
+    {
+      "dataset": "banking77",
+      "check": "all_main_pairs_judged_partition",
+      "actual": 1805,
+      "expected": 1805,
+      "passed": true
+    },
+    {
+      "dataset": "abcd",
+      "check": "main_count_exact",
+      "actual": 308,
+      "expected": 308,
+      "passed": true
+    },
+    {
+      "dataset": "abcd",
+      "check": "raw_frozen_report_exact",
+      "actual": 206,
+      "expected": 206,
+      "passed": true
+    },
+    {
+      "dataset": "abcd",
+      "check": "budget_set_union_independent",
+      "actual": "all prefixes",
+      "expected": "CSV",
+      "passed": true
+    },
+    {
+      "dataset": "abcd",
+      "check": "all_main_pairs_judged_partition",
+      "actual": 344,
+      "expected": 344,
+      "passed": true
+    },
+    {
+      "dataset": "dogo",
+      "check": "main_count_exact",
+      "actual": 909,
+      "expected": 909,
+      "passed": true
+    },
+    {
+      "dataset": "dogo",
+      "check": "raw_frozen_report_exact",
+      "actual": 667,
+      "expected": 667,
+      "passed": true
+    },
+    {
+      "dataset": "dogo",
+      "check": "budget_set_union_independent",
+      "actual": "all prefixes",
+      "expected": "CSV",
+      "passed": true
+    },
+    {
+      "dataset": "dogo",
+      "check": "all_main_pairs_judged_partition",
+      "actual": 945,
+      "expected": 945,
+      "passed": true
+    }
+  ],
+  "source_inputs_unchanged": true,
+  "coverage_order_uses_train_only": true,
+  "new_judgments_complete": true,
+  "new_judgment_pairs": 331
+}

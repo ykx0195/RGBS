@@ -1,0 +1,123 @@
+{
+  "question_rows": 10,
+  "columns": [
+    "id",
+    "question",
+    "create_on",
+    "last_access",
+    "embedding_data",
+    "deleted"
+  ],
+  "rows": [
+    [
+      1,
+      "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+      "2026-11-05 19:23:35.200218",
+      "2026-11-05 19:23:35.880891",
+      {
+        "blob_bytes": 1536,
+        "sha256": "b1c873a40fdb04ccc8ed366e1abbe8d56527122efd3709adc99bc52b0eb0d0ef"
+      },
+      0
+    ],
+    [
+      2,
+      "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+      "2026-11-05 19:23:35.208111",
+      "2026-11-05 19:23:37.452180",
+      {
+        "blob_bytes": 1536,
+        "sha256": "b964684976201fbea8746574781d0b8849be69ee96bfc828d2705717b62366ff"
+      },
+      0
+    ],
+    [
+      3,
+      "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+      "2026-11-05 19:23:35.212408",
+      "2026-11-05 19:23:36.708940",
+      {
+        "blob_bytes": 1536,
+        "sha256": "729791397ce140cb0da3966a1cf114146553e44d69074d4c3a550400e4a536c3"
+      },
+      0
+    ],
+    [
+      4,
+      "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "2026-11-05 19:23:35.216540",
+      "2026-11-05 19:23:37.404602",
+      {
+        "blob_bytes": 1536,
+        "sha256": "ac6f1203f6a67f7de87cd3b5be217147cdc06e36ec8ef9ba81355758034d10b7"
+      },
+      0
+    ],
+    [
+      5,
+      "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+      "2026-11-05 19:23:35.220844",
+      "2026-11-05 19:23:37.406905",
+      {
+        "blob_bytes": 1536,
+        "sha256": "50e2b59dd7b150690885a165608079bd081acd5176300e6988ff61afbc6a905a"
+      },
+      0
+    ],
+    [
+      6,
+      "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+      "2026-11-05 19:23:35.224902",
+      "2026-11-05 19:23:37.444953",
+      {
+        "blob_bytes": 1536,
+        "sha256": "5f4567b6fd7eea91d1ebf158f2722410da98c6f1ea75903824402c01524314dd"
+      },
+      0
+    ],
+    [
+      7,
+      "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+      "2026-11-05 19:23:35.229277",
+      "2026-11-05 19:23:37.830594",
+      {
+        "blob_bytes": 1536,
+        "sha256": "e13e9180227d0e63e5868e106a5dde9cffb41817df3f4487587880af5cfac3c0"
+      },
+      0
+    ],
+    [
+      8,
+      "I want to claim travel expenses; I'm <PERSON_1>.",
+      "2026-11-05 19:23:35.233711",
+      "2026-11-05 19:23:37.842102",
+      {
+        "blob_bytes": 1536,
+        "sha256": "72cda7bac71eb2eb3025e994b7634639b89fd137f53d0d553953dc5df1ce14a3"
+      },
+      0
+    ],
+    [
+      9,
+      "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+      "2026-11-05 19:23:35.238140",
+      "2026-11-05 19:23:37.660802",
+      {
+        "blob_bytes": 1536,
+        "sha256": "c9853510bb6d6222bc771de484568a7b97517671d440432ba46ed22a0c9e42dd"
+      },
+      0
+    ],
+    [
+      10,
+      "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>.",
+      "2026-11-05 19:23:35.242767",
+      "2026-11-05 19:23:37.447255",
+      {
+        "blob_bytes": 1536,
+        "sha256": "d6750fb67ca61c279b7c9a7bfeb7b706caf4219d2c931aee8a97d373857a6def"
+      },
+      0
+    ]
+  ]
+}

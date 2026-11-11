@@ -1,0 +1,36 @@
+{
+  "slot": 1,
+  "target_index": 0,
+  "starting_text": "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",
+  "selected": {
+    "text": "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",
+    "target_cosine": 0.9039751291275024,
+    "train_covered": 431,
+    "ppl": 40.788074991325246
+  },
+  "baseline_replacement_gain": 178,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 8,
+      "passed_ppl": 0,
+      "best_replacement_gain": 178,
+      "net_union_change": 0,
+      "beam": [
+        "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>."
+      ],
+      "positive_feedback": []
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 178,
+      "net_union_change": 0,
+      "beam": [
+        "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>."
+      ],
+      "positive_feedback": []
+    }
+  ]
+}

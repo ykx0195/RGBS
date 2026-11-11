@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "interesting you explain questionable extra charge that identified though my card <CREDIT_CARD_1> firstly?",
+    "full_cluster_mean_cosine": 0.8844276666641235,
+    "selected_at_iteration": 70
+  },
+  "accepted_updates": 13,
+  "active_seconds": 9.389123737812042,
+  "heldout_loaded": false
+}

@@ -1,0 +1,1901 @@
+{
+  "created_at_utc": "2026-10-31T11:40:07.227752+00:00",
+  "files": {
+    "adapter_local_validation.json": {
+      "sha256": "72007d0d7bd7e9283ccc5041934cd0a452fbfb7082fe7b957547957685e0a1b3",
+      "bytes": 937
+    },
+    "artifact_validation.json": {
+      "sha256": "701dbe5f8e2de3e8cc5230233010d682f9b47613e7476d60174a3c5d43266ba1",
+      "bytes": 524
+    },
+    "code/corpus_hotflip_worker.py": {
+      "sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+      "bytes": 13483
+    },
+    "code/hybrid_search.py": {
+      "sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+      "bytes": 30674
+    },
+    "code/official_hotflip_core.py": {
+      "sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+      "bytes": 1885
+    },
+    "code/portfolio.py": {
+      "sha256": "dfcbd1e789d15dcd8c3e524f7729a48eb359c1ceb1bedf31b36e34137909be8f",
+      "bytes": 3931
+    },
+    "code/riemann_common.py": {
+      "sha256": "587b0e7927a03e682780c9cbb32bcac17ad68108a4f2a0183ba9f41e4d5fee44",
+      "bytes": 6524
+    },
+    "code_manifest.json": {
+      "sha256": "f4c320787605327bd97f3c7351c82bbe5637989318a14ba68556a9308b1058f7",
+      "bytes": 374
+    },
+    "completed_search_results.tar.gz": {
+      "sha256": "9af546b8c24520e4ff8596d9e599d995f83ed8b198a3edebc49fc863e08de211",
+      "bytes": 499925
+    },
+    "control_code/archive_corpus_hotflip.py": {
+      "sha256": "07a9e8d0b53301e428dea5a36176c7d4a7b258603d0823f4fb61564ac4e06efb",
+      "bytes": 1609
+    },
+    "control_code/corpus_hotflip_quality.py": {
+      "sha256": "46568906d74bc902319bafaf0fc91f58790fcc9476c7ccc1b2c255c0c59d935b",
+      "bytes": 2133
+    },
+    "control_code/corpus_hotflip_scheduler.py": {
+      "sha256": "3ae68b7245c1cfc6598173a7c1252a746237a4bae42aa3df6e4aab795a68eecf",
+      "bytes": 7705
+    },
+    "control_code/corpus_hotflip_worker.py": {
+      "sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+      "bytes": 13483
+    },
+    "control_code/deploy_corpus_hotflip.py": {
+      "sha256": "1eaff9bd3bfcbc03a176025afbb005022dd1bf9a65862c148f36c5291a59262e",
+      "bytes": 4375
+    },
+    "control_code/evaluate_corpus_hotflip.py": {
+      "sha256": "695a9998981546f2a5d4ac9df771c018ff47c86a9f01727c3b70477d88a3a6f2",
+      "bytes": 5572
+    },
+    "control_code/plot_corpus_hotflip.py": {
+      "sha256": "95b30257539befa0b98af8d0bf541a2cf736992fb62b44236c153f05c22f415c",
+      "bytes": 1785
+    },
+    "control_code/prepare_corpus_hotflip_bundle.py": {
+      "sha256": "305331b8957915493f94f2d3ab74c5946a58dbda88557a5a2ad2dfd02522f1e9",
+      "bytes": 8018
+    },
+    "control_code/prepare_hotflip_environment.py": {
+      "sha256": "026cefda363038c80930d1f75aa7c35afb94eaedfa7424521b0d2ae02d6bada4",
+      "bytes": 1244
+    },
+    "control_code/summarize_corpus_hotflip.py": {
+      "sha256": "f4f62bf74d2e7d3d6dfc32adcbf8f3a1f09e3b4409b1a6ad0f612ec72e0dcbc6",
+      "bytes": 6669
+    },
+    "control_code/switch_hotflip_gpu_only.py": {
+      "sha256": "cf564341990ce0758167b48b8cba3421559462cf0195be7dc2c7016b660c9886",
+      "bytes": 9484
+    },
+    "control_code/validate_corpus_hotflip.py": {
+      "sha256": "5180cc66839401d6590d6ba489170c9e34fe730b4e3133bdc777e485d7bbc0f9",
+      "bytes": 4345
+    },
+    "control_code/verify_hotflip_adapter_local.py": {
+      "sha256": "9f03eaf6a9f7a6298e4ecc79a56c2d6c7cc84edcdc8e22690c137068201447b8",
+      "bytes": 3668
+    },
+    "control_code/watch_corpus_hotflip.py": {
+      "sha256": "a7d904c0a6feef3dac54c07aa0609efc50813368d9d2a65a59ea20b6eeae8a81",
+      "bytes": 6757
+    },
+    "control_code_sha256.json": {
+      "sha256": "2885e4aaa92a72d62cfadd4998cc75e01f4cb9738fc4522cce0a79b3b99e4419",
+      "bytes": 1322
+    },
+    "corpus_hotflip_comparison.png": {
+      "sha256": "40c8b4294e9be2cdb34310cde0d339d4f4b030892e5e95f9b892b408167c5ac9",
+      "bytes": 95588
+    },
+    "corpus_hotflip_comparison.svg": {
+      "sha256": "b62f2e9eea02b630f38a3a7094b42905441ec87aa55804cdd1131054717a1ed4",
+      "bytes": 62967
+    },
+    "corpus_hotflip_scheduler.py": {
+      "sha256": "3ae68b7245c1cfc6598173a7c1252a746237a4bae42aa3df6e4aab795a68eecf",
+      "bytes": 7705
+    },
+    "deployment_manifest.json": {
+      "sha256": "5a62f9a5788181cd91c7acdc7ea644d92d331bd522af9eee6a4e7bbad40490ac",
+      "bytes": 3660
+    },
+    "device_migrations/20261031T102448Z/abcd_cluster01/budget_00000.json": {
+      "sha256": "58d52a19b05387df34a7a5f0954c9d0b38120211c63be240687267f4ad8e1816",
+      "bytes": 380
+    },
+    "device_migrations/20261031T102448Z/abcd_cluster01/budget_00100.json": {
+      "sha256": "5af330206bb6d0ee8ba529f8239eedf2391b8b02b3892c4a7c42e1e82a9893d5",
+      "bytes": 409
+    },
+    "device_migrations/20261031T102448Z/abcd_cluster01/config.json": {
+      "sha256": "50212d71a591e4e117ad1834565b5a808c2668e549a0133ae4b1b77bcc158a9c",
+      "bytes": 795
+    },
+    "device_migrations/20261031T102448Z/abcd_cluster01/preflight.json": {
+      "sha256": "4ff0064e077f270c7a09175a76c29102596924eaa3348bbcb735a63b54c59eb9",
+      "bytes": 222
+    },
+    "device_migrations/20261031T102448Z/abcd_cluster01/run.log": {
+      "sha256": "f29b2cbe256305d5d255c228b5139be404d7c533f0de75945e962c36df92b2a9",
+      "bytes": 237
+    },
+    "device_migrations/20261031T102448Z/abcd_cluster01/state.json": {
+      "sha256": "cffc757b84c7600704c5143763965954daa98fbf0063fc70a14d39fc15df08fb",
+      "bytes": 12990
+    },
+    "device_migrations/20261031T102448Z/abcd_cluster01/trace.jsonl": {
+      "sha256": "295ac92479bf724c270d605ab8078677fd88d98c5b0c9cfd473d4961062bb610",
+      "bytes": 3441
+    },
+    "device_migrations/20261031T102448Z/dogo_cluster01/budget_00000.json": {
+      "sha256": "3420f2ca04c61a6a8aa71d167cb64fc54b59ce17f70083fdfdfdb0ec884433e7",
+      "bytes": 331
+    },
+    "device_migrations/20261031T102448Z/dogo_cluster01/budget_00100.json": {
+      "sha256": "b9ba083a4e84976784ef4f4a38bc7a33df51314345d98437548d2166dfe88645",
+      "bytes": 350
+    },
+    "device_migrations/20261031T102448Z/dogo_cluster01/budget_00500.json": {
+      "sha256": "7832e9b9e5d444e25e86fcf249af935ef5783abec984dccf81964be043bbd69d",
+      "bytes": 362
+    },
+    "device_migrations/20261031T102448Z/dogo_cluster01/config.json": {
+      "sha256": "8ad81dd76a6a9ccb016822bed983cf7a10ce29591baccf5b991927a7c3499972",
+      "bytes": 795
+    },
+    "device_migrations/20261031T102448Z/dogo_cluster01/preflight.json": {
+      "sha256": "1502a6622cfb4c2110bd7ab9a1cc285a3216bc433dc501f4cc37cf6bb99b6eab",
+      "bytes": 228
+    },
+    "device_migrations/20261031T102448Z/dogo_cluster01/run.log": {
+      "sha256": "1bcb67774216a86e805ab65858d83b0ced96462d485cb312a4e0db58309e30ea",
+      "bytes": 355
+    },
+    "device_migrations/20261031T102448Z/dogo_cluster01/state.json": {
+      "sha256": "d7d66f1922b945460e5c0a85c0b2495fbd632dd3ee6c9ee030b8fa62cac436e3",
+      "bytes": 12889
+    },
+    "device_migrations/20261031T102448Z/dogo_cluster01/trace.jsonl": {
+      "sha256": "83b01d2a5bc3fb8513fb8f6bf23952b8d2810a65c9c5b8b12100e3a64ef17ab5",
+      "bytes": 5270
+    },
+    "device_migrations/20261031T102448Z/experiment_plan_before.json": {
+      "sha256": "a2380e6578dfc0e42b3d7e8ca532e0bbbedbfb352465f4079af882fed00a1b3d",
+      "bytes": 2719
+    },
+    "device_migrations/20261031T102448Z/queue_status_before.json": {
+      "sha256": "844413fbdbbf74c03947994bb4270e45e4e8d2d9642ea914db0668de2a0b4d13",
+      "bytes": 11297
+    },
+    "device_migrations/20261031T102448Z/scheduler_before.py": {
+      "sha256": "63da3461e61a79178824020f71661152816aacf19a0a6e5425ee09308f4d86df",
+      "bytes": 7504
+    },
+    "environment.json": {
+      "sha256": "b6682aa2c7d18c162393911d27b7d315ce547af13e6a2e64bbaad1dfdba2191b",
+      "bytes": 217
+    },
+    "evaluation/abcd/key_texts.json": {
+      "sha256": "36268e988df3f3597f5850f77f0483aad57683ee8e1f28beead4715b8d79a9fe",
+      "bytes": 5433
+    },
+    "evaluation/abcd/key_vectors.npz": {
+      "sha256": "3e63f9ccd11994bb506ee6c5ab36e16837cd77620c3625f138cc79c752eca9f5",
+      "bytes": 40236
+    },
+    "evaluation/abcd/test_similarities.npz": {
+      "sha256": "9fb36de5e8c1a70469deda492a8cd2bca24dd466c9ba9947a874a57a7f1e7ffc",
+      "bytes": 49134
+    },
+    "evaluation/all_budget_coverage.csv": {
+      "sha256": "fb1340b0c57dbc17f225c399a9f035ce6067fbbd1d55980dc5a6738ef89697bd",
+      "bytes": 7975
+    },
+    "evaluation/banking77/key_texts.json": {
+      "sha256": "2f3cd959f026a00bf8dc0fa32ed86bd280e0f5ad5638c69d2b2e5297051f6ce0",
+      "bytes": 7849
+    },
+    "evaluation/banking77/key_vectors.npz": {
+      "sha256": "1da928508360b0b686bd3ad06163fea264d5fdd997960fff6159b8ecb3d37e80",
+      "bytes": 100131
+    },
+    "evaluation/banking77/test_similarities.npz": {
+      "sha256": "e39aa5683d19cae7d8a064e643a13f5a665b953d2d3f72aa136bdfd7262aaff6",
+      "bytes": 447242
+    },
+    "evaluation/compute_accounting.csv": {
+      "sha256": "a276648cc97315d43afbd7ee1ed417bdf1ad429dffc4cccead8fd994ad6ffb19",
+      "bytes": 771
+    },
+    "evaluation/dogo/key_texts.json": {
+      "sha256": "2040f8cb8d8e29b841f25d65227dc72a2e5a8001c7335fd0fd6e0ed79902dd1c",
+      "bytes": 5207
+    },
+    "evaluation/dogo/key_vectors.npz": {
+      "sha256": "a1345e1c86a0a4f41940ae257a8134e32cbaa9d34c1e654746569f5a828e9549",
+      "bytes": 60222
+    },
+    "evaluation/dogo/test_similarities.npz": {
+      "sha256": "878155df5eb88142be3118ae55dee95b907c36c842b43afb93dc885c60832f1d",
+      "bytes": 220216
+    },
+    "evaluation/frozen_portfolios.json": {
+      "sha256": "46fbf3dc50a256bb97ff86ffae1748b9df911d8ab1c59525df600635906cb58a",
+      "bytes": 53128
+    },
+    "evaluation/local_quality_details.csv": {
+      "sha256": "0cfd388115ce08396e9f4994337059b7bfa8ad81fbf4c490fcbf8254a20fa6de",
+      "bytes": 10884
+    },
+    "evaluation/primary_comparison.csv": {
+      "sha256": "0f48b81ea94f3fe1baec40fb4578714d2aa8ffe46ba110667e721a7de2666785",
+      "bytes": 1303
+    },
+    "evaluation/primary_raw_comparison.csv": {
+      "sha256": "9a965fc21f89374b78e6ea7cbe3d3db858923ebe573a414d7016a70a801be55b",
+      "bytes": 614
+    },
+    "evaluation/raw_summary.json": {
+      "sha256": "942a7df0b7e8d91a84b1f25e958d4a2cb258b6139a1238b38b5473f5d7367cd6",
+      "bytes": 78661
+    },
+    "experiment_plan.json": {
+      "sha256": "5ac5b0fc4da88a12247205f2e9aca47ba6986f11196c19a34a42532f26ba348a",
+      "bytes": 2819
+    },
+    "gpu_migration_manifest.json": {
+      "sha256": "59464fd73cc37118ddcef2ebe22c54d036febebccc2e49d6e2b6dbb0d1f1f10c",
+      "bytes": 2511
+    },
+    "gpu_only_verification.json": {
+      "sha256": "adb8788cbf9538ed4419704c0342b52509077f28190100f41dff8c92461b3b22",
+      "bytes": 698
+    },
+    "host_config.json": {
+      "sha256": "c6040788648550cb7c9060f85597320b93f3b201f35067bb09666456e65aa23c",
+      "bytes": 214
+    },
+    "inputs/abcd/cluster_labels.npy": {
+      "sha256": "a2e47e451376808e4d10a13b751fc218536c7f808a169c2a08c79b0ba5e8d70c",
+      "bytes": 15464
+    },
+    "inputs/abcd/input_identity.json": {
+      "sha256": "d3f7edb8d3b54d7fb58bb72459de59a8cfa61c94c633c883f280be130ceb1298",
+      "bytes": 411
+    },
+    "inputs/abcd/kmeans_centers.npy": {
+      "sha256": "25e8f362dd46d9e173a1542b32d0fede0a829cd93d215787d5b4f7e257cfec26",
+      "bytes": 7808
+    },
+    "inputs/abcd/seed_selection.json": {
+      "sha256": "b00179d7a07f10b43d780ae5fa923064e9984730d1a68a84c4492a1b314ff5fd",
+      "bytes": 2203
+    },
+    "inputs/abcd/train.jsonl": {
+      "sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+      "bytes": 1838323
+    },
+    "inputs/abcd/train_vectors.npy": {
+      "sha256": "b7cbb882801589fd2316b97f428c7edeec4d6cdccaf3de2972d751327ccdb47c",
+      "bytes": 5889152
+    },
+    "inputs/abcd/train_vectors_identity.json": {
+      "sha256": "8a04b0b96424daa89e9e677331892eca16661a0f166b1ee6475f4631c741c268",
+      "bytes": 363
+    },
+    "inputs/banking77/cluster_labels.npy": {
+      "sha256": "5e7d9237f4a6f61312ad7e6bd5aea816346160e1509d5f41a9ea567977263f5b",
+      "bytes": 19824
+    },
+    "inputs/banking77/input_identity.json": {
+      "sha256": "c34f3c9af8f93dd5af35c5e6842d18f39facc6ddc59ea27055ab48d960f4bffa",
+      "bytes": 411
+    },
+    "inputs/banking77/kmeans_centers.npy": {
+      "sha256": "df034f0de9616a8e0efd85caaf29a2627e7e791b7fbfe33f7f615b7a9f6b944a",
+      "bytes": 23168
+    },
+    "inputs/banking77/seed_selection.json": {
+      "sha256": "7f5752f75fe7edb180e8ccac796be26a3c64f2b781f8917a7c9f9b05149dc5b1",
+      "bytes": 4859
+    },
+    "inputs/banking77/train.jsonl": {
+      "sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+      "bytes": 1895318
+    },
+    "inputs/banking77/train_vectors.npy": {
+      "sha256": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+      "bytes": 7563392
+    },
+    "inputs/banking77/train_vectors_identity.json": {
+      "sha256": "1dc01c9a080ad439e02dbd0454aca35d9312a06431236f516d3bf0b6a975487f",
+      "bytes": 363
+    },
+    "inputs/dogo/cluster_labels.npy": {
+      "sha256": "5e122a6d83da57545dd857a008d7b1918ceba7a3b2fd6fd95aa5f5c802811411",
+      "bytes": 16100
+    },
+    "inputs/dogo/input_identity.json": {
+      "sha256": "2567f374b96812768a765a2d72ae2141d42927751a374ef80806539f6702c9c3",
+      "bytes": 411
+    },
+    "inputs/dogo/kmeans_centers.npy": {
+      "sha256": "4fb41099fe0aa406469a946359f622aecb6d5fb0f5457d5b2313ce5d99c639d0",
+      "bytes": 15488
+    },
+    "inputs/dogo/seed_selection.json": {
+      "sha256": "896550a1a775e82922423b9fd6b5d41498ac7597a7436d8c88edbbfca97399c6",
+      "bytes": 3963
+    },
+    "inputs/dogo/train.jsonl": {
+      "sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+      "bytes": 2144712
+    },
+    "inputs/dogo/train_vectors.npy": {
+      "sha256": "ac68c7fbf409e0a8e898a5aa34c6b37d938e36ee7a9a90e5c2e896e4c48df689",
+      "bytes": 6133376
+    },
+    "inputs/dogo/train_vectors_identity.json": {
+      "sha256": "e394b8e318ca293b4b6a67ce7d4225a5aa113ca730ee6860c68f5fc2c2c767b2",
+      "bytes": 363
+    },
+    "official_source/LICENSE": {
+      "sha256": "8872dbf8660b00890b5e07ce1ea1f7a44fa7ae4e1857da56caba172b51dab3cb",
+      "bytes": 1094
+    },
+    "official_source/provenance.json": {
+      "sha256": "996e82e2223961ddab919a4f7eb96330ab75b2a2b0ceba3de292d62a854da04b",
+      "bytes": 590
+    },
+    "official_source/README.md": {
+      "sha256": "9bd08068758e00c4fb99f7bafe7c65485b316705bc1085da5b658c13cc85629c",
+      "bytes": 7716
+    },
+    "official_source/requirements.txt": {
+      "sha256": "a0b653307745288f040f58f40c8e74dc6d112f01a70d0d3d86f5f755c011b2f0",
+      "bytes": 214
+    },
+    "official_source/src/attack_poison.py": {
+      "sha256": "ab248eecd3c4a12a8fc2d1a3f4a1018ea2f4c7c40779ac0ade649a5a1ac58ba6",
+      "bytes": 16736
+    },
+    "official_source/src/utils.py": {
+      "sha256": "d43e20fac8b14f3bbab4ecee1acb118a39923a33d26de3cf37ea6a8423e75f43",
+      "bytes": 2528
+    },
+    "pending_gpu_migrations.json": {
+      "sha256": "a27cff3253018cf56c7061d57db37e95f13474f4a1ee0a2e8f39bba26b0e031a",
+      "bytes": 1950
+    },
+    "quality_inputs.json": {
+      "sha256": "6b70cd5c0b33b07c3f7921f56ae2c82017797a0e33820fb3bd1a1fcb0aa23daa",
+      "bytes": 14178
+    },
+    "quality_results.json": {
+      "sha256": "8255b1f39be161edd01528982b3288550207090b438e5f663402e9d01893eda7",
+      "bytes": 21692
+    },
+    "queue_status.json": {
+      "sha256": "92575753c09e02c7c6b7e39ab6beb06555c47d185de6582f93b366a1eedd9796",
+      "bytes": 27615
+    },
+    "runs/abcd/cluster_00/budget_00000.json": {
+      "sha256": "5328e761f5a5c5cd9870108635051d072968919f033933bd196f09ae1a767c67",
+      "bytes": 380
+    },
+    "runs/abcd/cluster_00/budget_00100.json": {
+      "sha256": "65049484bc0e22dc286204105cb550656e4e2669cccf92db0bcd1dceb83c3afb",
+      "bytes": 432
+    },
+    "runs/abcd/cluster_00/budget_00500.json": {
+      "sha256": "88b9b308c3bdbce99981c759918bc0efda334d186ac53c517bf0ad09b7e25ab6",
+      "bytes": 440
+    },
+    "runs/abcd/cluster_00/budget_01000.json": {
+      "sha256": "6d3a3eb4c42ae43e7000ba25310b3a993e61e49e2800127e2b5b50c47b41e736",
+      "bytes": 441
+    },
+    "runs/abcd/cluster_00/budget_02500.json": {
+      "sha256": "4b14e34e6d20f947f3c4be023c189ecbc29701e52af5ee3d0923598fd9bb7bfb",
+      "bytes": 446
+    },
+    "runs/abcd/cluster_00/budget_05000.json": {
+      "sha256": "ecb4e0f8c2095c34acc385a58ae4f27ce371726fc16ee692a2366bc1dca6acdf",
+      "bytes": 431
+    },
+    "runs/abcd/cluster_00/config.json": {
+      "sha256": "a6df2a368468b05cd28b1dbb93abdda73edb859fd997cb4a1a7eeac2f7a3704c",
+      "bytes": 796
+    },
+    "runs/abcd/cluster_00/final_cluster.json": {
+      "sha256": "201bc7782bb99ed26fa98a07f3cfe30a5d3af742f7a7b91c01369dc182de598b",
+      "bytes": 1847
+    },
+    "runs/abcd/cluster_00/preflight.json": {
+      "sha256": "2f47581b737ba6729fae18ab49f25ecfb48760c393a8eed013295d9da228ea22",
+      "bytes": 201
+    },
+    "runs/abcd/cluster_00/run.log": {
+      "sha256": "1bbf037a1b8edfa0cb652ff8e55825d93da77f0c94e2143926843d7e8ad26581",
+      "bytes": 3143
+    },
+    "runs/abcd/cluster_00/state.json": {
+      "sha256": "5ad5c87e1b1abeba226b0466cf7f854c9cffb8530804408de59dab5392e70d13",
+      "bytes": 13072
+    },
+    "runs/abcd/cluster_00/trace.jsonl": {
+      "sha256": "84aacbc9a0d2508fe402ee96a288fcdbf5c07b83b10bfae9bfb36a167e0536e6",
+      "bytes": 46544
+    },
+    "runs/abcd/cluster_01/budget_00000.json": {
+      "sha256": "58d52a19b05387df34a7a5f0954c9d0b38120211c63be240687267f4ad8e1816",
+      "bytes": 380
+    },
+    "runs/abcd/cluster_01/budget_00100.json": {
+      "sha256": "5af330206bb6d0ee8ba529f8239eedf2391b8b02b3892c4a7c42e1e82a9893d5",
+      "bytes": 409
+    },
+    "runs/abcd/cluster_01/budget_00500.json": {
+      "sha256": "a0d3f68161e16725e46c01a3e9b040e5593c6d11fbd9c08cdf94f6e27bb98a3c",
+      "bytes": 437
+    },
+    "runs/abcd/cluster_01/budget_01000.json": {
+      "sha256": "0023cf2dae4a2167c6d056879af88c9a6b8c6861bc6941a565a014fd99fb3558",
+      "bytes": 445
+    },
+    "runs/abcd/cluster_01/budget_02500.json": {
+      "sha256": "8c0025939e478d50341568385638a3b64b07c005c00e49b83220612c7289a4e3",
+      "bytes": 444
+    },
+    "runs/abcd/cluster_01/budget_05000.json": {
+      "sha256": "e63604fae68dac680e5a5d17236f6de6b367533cde5493ead94e38fce1bdcd01",
+      "bytes": 445
+    },
+    "runs/abcd/cluster_01/config.json": {
+      "sha256": "63c74aa3351e0e613e3bad8f77d0f939cfe3a1fa277c8c7bddc2dcc5861ef65b",
+      "bytes": 796
+    },
+    "runs/abcd/cluster_01/device_migration.json": {
+      "sha256": "628e8b574658c8d7683e45f87813de738b31ec409952bb7ecfc667fbc10b8d49",
+      "bytes": 1033
+    },
+    "runs/abcd/cluster_01/final_cluster.json": {
+      "sha256": "efe5f9380b93225c895e1afdd4907628a7782ba0a50095fc8cd797b084d66db4",
+      "bytes": 1860
+    },
+    "runs/abcd/cluster_01/preflight.json": {
+      "sha256": "4ff0064e077f270c7a09175a76c29102596924eaa3348bbcb735a63b54c59eb9",
+      "bytes": 222
+    },
+    "runs/abcd/cluster_01/run.log": {
+      "sha256": "5097fc31c57b3d59ec12cfaa42439ea1cd2084bd3d7a1d78f168c0499c460e1d",
+      "bytes": 3202
+    },
+    "runs/abcd/cluster_01/state.json": {
+      "sha256": "245efcd765565213985d68a65ae77a76edee5cccb0df323a3398824e5dc9e5cc",
+      "bytes": 13090
+    },
+    "runs/abcd/cluster_01/trace.jsonl": {
+      "sha256": "84f4fbf5f9558191a5604f02a61513406408717ce7d569463c1f0984a6ca9c79",
+      "bytes": 46921
+    },
+    "runs/abcd/cluster_02/budget_00000.json": {
+      "sha256": "c49fb3dd53aa1698ff7a9c6cc221ffde3ea8313cbcb6136247601cd18b3c2f50",
+      "bytes": 404
+    },
+    "runs/abcd/cluster_02/budget_00100.json": {
+      "sha256": "8aabe8b58280f6048a15645a9ae3e36a94f0f84f386749d5ec5138c166c2a68d",
+      "bytes": 433
+    },
+    "runs/abcd/cluster_02/budget_00500.json": {
+      "sha256": "e4f8dce4b1766e3888fdb69b635cdde6c88d18c93871931729c19bbf2a293fd7",
+      "bytes": 437
+    },
+    "runs/abcd/cluster_02/budget_01000.json": {
+      "sha256": "959fbf474883ca406adca0c854f02ea14a179f630802203342c016caf2916d82",
+      "bytes": 447
+    },
+    "runs/abcd/cluster_02/budget_02500.json": {
+      "sha256": "975278f46bde20796e70693e9d29800a8fbf4e69aea75a51fcced4a6bb1acd6d",
+      "bytes": 445
+    },
+    "runs/abcd/cluster_02/budget_05000.json": {
+      "sha256": "6b1c3fbfb66e5ea9ea72ecdad6ca0b9b307f6638002c573fd408b29d2c6c5983",
+      "bytes": 464
+    },
+    "runs/abcd/cluster_02/config.json": {
+      "sha256": "c3289f52cd0cbafaf68085e00ccb77020f17baba2e0de90ac28c92b8f515f018",
+      "bytes": 796
+    },
+    "runs/abcd/cluster_02/final_cluster.json": {
+      "sha256": "3095e856b20e80a459088f42a5d8581e66a8949b29ca23ac3179deaa416df352",
+      "bytes": 1903
+    },
+    "runs/abcd/cluster_02/preflight.json": {
+      "sha256": "d7602663804b3ceae1cbddd77299841f4fb0d45fec9308813367ec0db94d8e96",
+      "bytes": 227
+    },
+    "runs/abcd/cluster_02/run.log": {
+      "sha256": "ee1b0efd7d16fe29cbed3c7ec75fe7aa11b46f6acfd61ce6099cf2b4528bfd70",
+      "bytes": 3139
+    },
+    "runs/abcd/cluster_02/state.json": {
+      "sha256": "882fafa22c94056b3b0e70cf60c05d131f7b60570477c7cb90c051ef553ed968",
+      "bytes": 13111
+    },
+    "runs/abcd/cluster_02/trace.jsonl": {
+      "sha256": "32eb9c720914aa7dad647385a4bfd3d7fc9a586591ccb81619f8dec8048d9579",
+      "bytes": 46547
+    },
+    "runs/abcd/cluster_03/budget_00000.json": {
+      "sha256": "3d1bee1f435e739535efe1169861973e10678aa1fffcafb3bee2cb40f19fd017",
+      "bytes": 374
+    },
+    "runs/abcd/cluster_03/budget_00100.json": {
+      "sha256": "5d639ad2bd8ea03467d0b5a599aab12f4eb54c65348935d3cff62ce8bc54d293",
+      "bytes": 434
+    },
+    "runs/abcd/cluster_03/budget_00500.json": {
+      "sha256": "ef8c5db669866584b58f4fbf3727cf67d551c8ac0fde706f278a67f11acd0577",
+      "bytes": 481
+    },
+    "runs/abcd/cluster_03/budget_01000.json": {
+      "sha256": "71b62995b0f6ae4dd22d49a859398bed64ef9742dc4e6ded5d8e71103c99a345",
+      "bytes": 458
+    },
+    "runs/abcd/cluster_03/budget_02500.json": {
+      "sha256": "d7d6f761432a421785dcc3e4d1dcc35cb1dc957c55b11883c5fe1da6413896a4",
+      "bytes": 482
+    },
+    "runs/abcd/cluster_03/budget_05000.json": {
+      "sha256": "7497daaa662ec77d82332409d0f3948a62b48465b7728e1a648a299f778c4e53",
+      "bytes": 465
+    },
+    "runs/abcd/cluster_03/config.json": {
+      "sha256": "392b53f1e90db3ec5195e57df3960bbc415b7514a6a9d87c2719ad49d527cddc",
+      "bytes": 796
+    },
+    "runs/abcd/cluster_03/final_cluster.json": {
+      "sha256": "d7e258743f3b531b3550a7c5669d9a6401ea56f01b7fc144c92955ae55d539a3",
+      "bytes": 1878
+    },
+    "runs/abcd/cluster_03/preflight.json": {
+      "sha256": "b28607369c5b4e28cdd30e23107d94536af875b8532ce987e93c7da8c16140bc",
+      "bytes": 199
+    },
+    "runs/abcd/cluster_03/run.log": {
+      "sha256": "1608d83ea20e9695655afd73d1989828442cfac81f886a3579e9038e9625de73",
+      "bytes": 3120
+    },
+    "runs/abcd/cluster_03/state.json": {
+      "sha256": "faa915a39116fd33e147faa2bf725fb437bfc76552eb39d8fe200a9ac54dd047",
+      "bytes": 13121
+    },
+    "runs/abcd/cluster_03/trace.jsonl": {
+      "sha256": "77e9120e4ad3661f435a68fb9f79875eae9736ee8d74d555fb862e0c86264e36",
+      "bytes": 46548
+    },
+    "runs/abcd/cluster_04/budget_00000.json": {
+      "sha256": "d6f4b9e5f21fd9ad5a905d7f67ee03ba4ccc102305479c40f706bf5552703f9d",
+      "bytes": 371
+    },
+    "runs/abcd/cluster_04/budget_00100.json": {
+      "sha256": "cfef858f20c514e1163c6d99c97a562f4c6fd8642b6339a6bc4874532fcabeba",
+      "bytes": 416
+    },
+    "runs/abcd/cluster_04/budget_00500.json": {
+      "sha256": "6c2a1be12d13c476c351582a43aadf4689e9603dfc4556e09149f9385a7b99f4",
+      "bytes": 416
+    },
+    "runs/abcd/cluster_04/budget_01000.json": {
+      "sha256": "1ba86d3b4d7d7f0588648ae2e9c79a8a45caa24f9d22c39ed381753b8514ff28",
+      "bytes": 435
+    },
+    "runs/abcd/cluster_04/budget_02500.json": {
+      "sha256": "6efe67ad4ed86b00d9b23f5caecf77e2ba3176fc3b82ac8ae11c8c6506245d65",
+      "bytes": 433
+    },
+    "runs/abcd/cluster_04/budget_05000.json": {
+      "sha256": "ea3a84db26e9a817bb22cc2e3ced2812cd4837d6f5a6e0aad188b9234477fece",
+      "bytes": 447
+    },
+    "runs/abcd/cluster_04/config.json": {
+      "sha256": "5d8a835f759a7fdf1f68ba52f46de54212337cca2926c38e9e23f259c02b5ce1",
+      "bytes": 796
+    },
+    "runs/abcd/cluster_04/final_cluster.json": {
+      "sha256": "2388046a59477303427e8acddb0a70da0c6558fa4cb9339882e8835f5ee2b05d",
+      "bytes": 1855
+    },
+    "runs/abcd/cluster_04/preflight.json": {
+      "sha256": "2508eca21f7e6fca13df41129584792618751aa26a88cb8c683eb2b7dacb657b",
+      "bytes": 225
+    },
+    "runs/abcd/cluster_04/run.log": {
+      "sha256": "bed4fb756d8f3e4beefb6d30e6dac8682c2832754a81eed83da1a3940fb49cd9",
+      "bytes": 3143
+    },
+    "runs/abcd/cluster_04/state.json": {
+      "sha256": "88feffa1cdacbaec85e5c32fcbf23209fd18c2c2e461cb444fb15b64ca32987c",
+      "bytes": 13081
+    },
+    "runs/abcd/cluster_04/trace.jsonl": {
+      "sha256": "5065a8c90dfb9f7305061b876b88688613dda09640045caa89d9347b0ef9e661",
+      "bytes": 46304
+    },
+    "runs/banking77/cluster_00/budget_00000.json": {
+      "sha256": "b8af32c726b82386a4b7d384b87741d1a48431a9d3e8fe0eaf2569c3bf620932",
+      "bytes": 316
+    },
+    "runs/banking77/cluster_00/budget_00100.json": {
+      "sha256": "1053c92eeaaba1fad7921c89644727f7f21b2861fd817740382f43790ad0cf05",
+      "bytes": 333
+    },
+    "runs/banking77/cluster_00/budget_00500.json": {
+      "sha256": "a1081e8f6678eae333d1c3e2c5580eb60270b0a51766abfec68aae3dc02dfe2a",
+      "bytes": 336
+    },
+    "runs/banking77/cluster_00/budget_01000.json": {
+      "sha256": "e7abcf2684272dcbe57e8d248cfb7b99ae178c7271bdf60673f9b7e15007ef67",
+      "bytes": 336
+    },
+    "runs/banking77/cluster_00/budget_02500.json": {
+      "sha256": "a6b913638302b73e8787910eb923e15211b5c18bca9ce140f58275bde6879374",
+      "bytes": 338
+    },
+    "runs/banking77/cluster_00/budget_05000.json": {
+      "sha256": "f8fdbf06ee48a86e661fc2ee6eadbce18d69fc9c3128bee258d08818a9b90729",
+      "bytes": 336
+    },
+    "runs/banking77/cluster_00/config.json": {
+      "sha256": "40957fdfe90ce1a29ca3741c5945cc5188f113347136b3f82b723214aaedd7a6",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_00/final_cluster.json": {
+      "sha256": "9a3614d132094187eaf878f9c56524af60885544d458757c4d66b948449924cb",
+      "bytes": 1690
+    },
+    "runs/banking77/cluster_00/preflight.json": {
+      "sha256": "c67475ec58ffced95f0a147f224367439e02f51e7acf9ef1de84c363de42be6f",
+      "bytes": 203
+    },
+    "runs/banking77/cluster_00/run.log": {
+      "sha256": "fe9c258390283080044adb9c7415315b37f367b4091015a8d2d6e963cb20010f",
+      "bytes": 3348
+    },
+    "runs/banking77/cluster_00/state.json": {
+      "sha256": "e5e89252aa4ea6a52a917aab1922fc970ddfbdd4c5861539cb095b6ceb85e1c1",
+      "bytes": 12885
+    },
+    "runs/banking77/cluster_00/trace.jsonl": {
+      "sha256": "755ea15408f242bed03127616cec5093597d602ef5eb789f64e9c9a5eb6a46d9",
+      "bytes": 46376
+    },
+    "runs/banking77/cluster_01/budget_00000.json": {
+      "sha256": "7fb062543c9b583270817848e961b0695d28201e482d9ab21c0afee1a94a22ce",
+      "bytes": 327
+    },
+    "runs/banking77/cluster_01/budget_00100.json": {
+      "sha256": "695abc25fcf573f01a14a7521357f14d429c94e268e313911bcdc2c063dcf65e",
+      "bytes": 348
+    },
+    "runs/banking77/cluster_01/budget_00500.json": {
+      "sha256": "f73f43dcc53dae9d8a84ea22e412fee6b80f3f00ced8ef4e19e0228761ee83fc",
+      "bytes": 342
+    },
+    "runs/banking77/cluster_01/budget_01000.json": {
+      "sha256": "dc0a8949ae6509a34f719aa9a59dac4ca1fc9ccbdad327c490e5767f98d45c59",
+      "bytes": 348
+    },
+    "runs/banking77/cluster_01/budget_02500.json": {
+      "sha256": "e6bfea80dc507b1bdd2051029b24c94ec776d9e4b6548926f5f15b9c47a1c6aa",
+      "bytes": 352
+    },
+    "runs/banking77/cluster_01/budget_05000.json": {
+      "sha256": "86f71dc8dc8a205369998ebde0ea0e95d12368f1f92b64a2d5c8b7d2510a6c54",
+      "bytes": 358
+    },
+    "runs/banking77/cluster_01/config.json": {
+      "sha256": "bffcfc7d7faa30fa966c86cfd445f7af74ac454bcb417e9652790e14ed036f27",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_01/final_cluster.json": {
+      "sha256": "7401a85fb0ecf6485a84d2005c1f859e71e0fbaed1b648b171cc490d0d5c7bec",
+      "bytes": 1721
+    },
+    "runs/banking77/cluster_01/preflight.json": {
+      "sha256": "585a3456ef40cb206415dbf2406799fa7ee628ec60b28bb4bb11413fb283d847",
+      "bytes": 203
+    },
+    "runs/banking77/cluster_01/run.log": {
+      "sha256": "5ca41faadc8f3a7a3554ef4fac0c3caf9ec05e2365fddfa298d4a06d360c4f8e",
+      "bytes": 3370
+    },
+    "runs/banking77/cluster_01/state.json": {
+      "sha256": "31d0704ac0681919077ab51b5fe3a94f5576eefe16e2b176eccceca96c563558",
+      "bytes": 12905
+    },
+    "runs/banking77/cluster_01/trace.jsonl": {
+      "sha256": "2cee68afc1a8d175bac0abefe959d61f631d65e08af3e22b37be2624213f0192",
+      "bytes": 46547
+    },
+    "runs/banking77/cluster_02/budget_00000.json": {
+      "sha256": "48a2dd14d052e7d798558bbdd0b1ddb1ae15460defb04dcf1b876bb5c4ef3deb",
+      "bytes": 325
+    },
+    "runs/banking77/cluster_02/budget_00100.json": {
+      "sha256": "ce2f2cd5a45f8d4e78f3afa764855d35a0467a1d2141c02466c36c246760fac2",
+      "bytes": 332
+    },
+    "runs/banking77/cluster_02/budget_00500.json": {
+      "sha256": "470b3fb84be2f6c24a53362f060c432136ecf3028e19046eed79cb700c8aa4a3",
+      "bytes": 333
+    },
+    "runs/banking77/cluster_02/budget_01000.json": {
+      "sha256": "75e45f547dcce07d59b05c59ca18103fe5d122b00925693c9705f6f4bc2c1436",
+      "bytes": 329
+    },
+    "runs/banking77/cluster_02/budget_02500.json": {
+      "sha256": "8d7aadd80b73d1c7337dfec613b77f4af12a5887a22e04119f7f0b271fc72748",
+      "bytes": 335
+    },
+    "runs/banking77/cluster_02/budget_05000.json": {
+      "sha256": "268d38582eb273210468ae5e2d9df33f9e0ce132d0aa2ee966b920749952e792",
+      "bytes": 352
+    },
+    "runs/banking77/cluster_02/config.json": {
+      "sha256": "0026bd4a10dc2fba0595e191d3dc38f433add304e9c45d0550db00481785a71a",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_02/final_cluster.json": {
+      "sha256": "8e7dffb41e1eb3efba28fd888e483003ba08799fb479404799a60dce1776f78e",
+      "bytes": 1716
+    },
+    "runs/banking77/cluster_02/preflight.json": {
+      "sha256": "7c832c2b520f564b52b099e97382c3c813cf4b6435f52db705797e3d99659cbf",
+      "bytes": 206
+    },
+    "runs/banking77/cluster_02/run.log": {
+      "sha256": "0ce751f83c9f823ac63c73aa5e3ec1487af74f22d60ae40d94ceaf63daaf9deb",
+      "bytes": 3377
+    },
+    "runs/banking77/cluster_02/state.json": {
+      "sha256": "dc047d2c12467fe4aacb651d35f410a535f8e0b365a059ab681a5ddf61b5ae5c",
+      "bytes": 12893
+    },
+    "runs/banking77/cluster_02/trace.jsonl": {
+      "sha256": "e81401d36aa409531b48702521daee08b114302c0fdfb7bf98893f21950e0dca",
+      "bytes": 46469
+    },
+    "runs/banking77/cluster_03/budget_00000.json": {
+      "sha256": "aa1d62ed06724ce02b9af3eeb0e98b348a0672b7743102b5bb22b873ff5b1969",
+      "bytes": 296
+    },
+    "runs/banking77/cluster_03/budget_00100.json": {
+      "sha256": "9ec8a5b60a84e1d6708ca286db808a90fef57a8d8c6796dc3718547d83765772",
+      "bytes": 304
+    },
+    "runs/banking77/cluster_03/budget_00500.json": {
+      "sha256": "cb02a83864a31f08978663c55d510199514c7f143cca176e7e60d89c7a7fcd2d",
+      "bytes": 303
+    },
+    "runs/banking77/cluster_03/budget_01000.json": {
+      "sha256": "6e6cdf58b4491ddcbba57d9afd5cca9e3775f251ff98aa153ff56b805721bc41",
+      "bytes": 303
+    },
+    "runs/banking77/cluster_03/budget_02500.json": {
+      "sha256": "a3843451fc5808d7b4f31aa789bd1cacc8b3389f782dacff128d7441f36b1648",
+      "bytes": 304
+    },
+    "runs/banking77/cluster_03/budget_05000.json": {
+      "sha256": "8a4ea41636a47a89cc50d9e85afa2107786bb8b743784db2c5d950c2e39d1e56",
+      "bytes": 303
+    },
+    "runs/banking77/cluster_03/config.json": {
+      "sha256": "09e11f6530264a1ea83466507dc0a5b11ec0cc024baca13b116e3479ce123a99",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_03/final_cluster.json": {
+      "sha256": "4b2dc4a7faa95fafcec9b468ff575bbca606e6748a79796983a617f79663f8fe",
+      "bytes": 1636
+    },
+    "runs/banking77/cluster_03/preflight.json": {
+      "sha256": "f6f0b8320b9b4989061cbb870d802fe55cf251139da657c667a529fff0fa021e",
+      "bytes": 202
+    },
+    "runs/banking77/cluster_03/run.log": {
+      "sha256": "5416edbab9cf710c7905675edc52ecc6412e8c1ad039fbe0a4a387bb31a0526c",
+      "bytes": 3311
+    },
+    "runs/banking77/cluster_03/state.json": {
+      "sha256": "fad1b6592aef224d0d185632939cf4e9baabd95ae5740449c1ba0e57a1440809",
+      "bytes": 12797
+    },
+    "runs/banking77/cluster_03/trace.jsonl": {
+      "sha256": "4c0e413dd0265b53d10e9a92ec7a4bb6fd831068c630a686cf913c426c0b5b4a",
+      "bytes": 46415
+    },
+    "runs/banking77/cluster_04/budget_00000.json": {
+      "sha256": "4318f62032f7dd670416d171a12ef5de69618de92a1241a98d00405233205bfe",
+      "bytes": 300
+    },
+    "runs/banking77/cluster_04/budget_00100.json": {
+      "sha256": "00fa8d7f437ef1ef4e261453697bff2ffae6e57d07dbcc76a275a8af04133a69",
+      "bytes": 322
+    },
+    "runs/banking77/cluster_04/budget_00500.json": {
+      "sha256": "5f310efd8c13372cdc9bea49fe40fa8651e165da0e7b7f2515594e3ef88d7d10",
+      "bytes": 336
+    },
+    "runs/banking77/cluster_04/budget_01000.json": {
+      "sha256": "9fb5ae9864f7eae584637ce51981859724f72c13256b5ad66a4e673cd02526ca",
+      "bytes": 337
+    },
+    "runs/banking77/cluster_04/budget_02500.json": {
+      "sha256": "5b99f8e97d8de3b6737a311e02b76637cc67ce54c53d56de9ad165ce0c109ecd",
+      "bytes": 339
+    },
+    "runs/banking77/cluster_04/budget_05000.json": {
+      "sha256": "31a8b2f2c66e346fe305da2be74418b5826f43a4c44444f942ad9b5655837434",
+      "bytes": 339
+    },
+    "runs/banking77/cluster_04/config.json": {
+      "sha256": "6001988d653e6e8c81e267d4765eb90d330c8aade251e17ad9a6514261bb41b9",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_04/final_cluster.json": {
+      "sha256": "8aa18a2ed66fe986c876745e781020ccd56b2e9cb530e1b997c11abe5201e5c4",
+      "bytes": 1677
+    },
+    "runs/banking77/cluster_04/preflight.json": {
+      "sha256": "18b9588b522a87451c64df74aafced26659c55755b8b7afde3e21445fc5eaae2",
+      "bytes": 205
+    },
+    "runs/banking77/cluster_04/run.log": {
+      "sha256": "c7f30c3cc3e3767002c4356328055fc861e6da0dacaee799c35001b2940092af",
+      "bytes": 3380
+    },
+    "runs/banking77/cluster_04/state.json": {
+      "sha256": "76ff4a7f8a697c5fd70823fcba1eba916b3d1fe88b22acf0794a50c52d2dd1d1",
+      "bytes": 12879
+    },
+    "runs/banking77/cluster_04/trace.jsonl": {
+      "sha256": "7c3f56a3d2a4d51f5b4b8e1bf1e9e1f05f1d420038a0efbfb4f5a637135b8b84",
+      "bytes": 46550
+    },
+    "runs/banking77/cluster_05/budget_00000.json": {
+      "sha256": "cb94484b9b8ec549f603152baea06f1cdf6bedb8c9be9c53810bc78489e39e5e",
+      "bytes": 341
+    },
+    "runs/banking77/cluster_05/budget_00100.json": {
+      "sha256": "d9a9b805663c4d01e01e9f2b970bfde122772cf9d243b63f3b658e8c34f0aa9d",
+      "bytes": 405
+    },
+    "runs/banking77/cluster_05/budget_00500.json": {
+      "sha256": "cce1ff5c0d015f658a70e773ff7b1a5a73699b38d512a4d2e419dd851603f2a7",
+      "bytes": 407
+    },
+    "runs/banking77/cluster_05/budget_01000.json": {
+      "sha256": "7b2ae1c317e975545c4995a41468623e53e705b88e25ad37a854163c309b728f",
+      "bytes": 411
+    },
+    "runs/banking77/cluster_05/budget_02500.json": {
+      "sha256": "9d79ccaa1984b6f1686fc5a6b3e20f3fe24314ddd72a22dbe087fb49b810adfb",
+      "bytes": 404
+    },
+    "runs/banking77/cluster_05/budget_05000.json": {
+      "sha256": "a061fd7af7178bcb29770f393927f14d1b1f898c02acb3ae8fd405177a477ba2",
+      "bytes": 406
+    },
+    "runs/banking77/cluster_05/config.json": {
+      "sha256": "2676f3bb52e62c8449ddfc27c50cf030d84d9243162948680db9280e0c92e7d2",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_05/final_cluster.json": {
+      "sha256": "9cc4bacd383c85225e38ec0de752a04958ff90af00d77d45576756c360268a80",
+      "bytes": 1784
+    },
+    "runs/banking77/cluster_05/preflight.json": {
+      "sha256": "590fbca8f4bc5ee89e61c67500105ea5afb1edc468c00cdd6690624c29bcf5f2",
+      "bytes": 202
+    },
+    "runs/banking77/cluster_05/run.log": {
+      "sha256": "45e134d2c7d301df3efa5ecaf1298d1c3c4c5356c888292c01337fff181ee9f6",
+      "bytes": 3400
+    },
+    "runs/banking77/cluster_05/state.json": {
+      "sha256": "8edbf2c904118f6d235ae9012e567c03e2ec1f7c3522fb1de1031b4d770296ec",
+      "bytes": 13013
+    },
+    "runs/banking77/cluster_05/trace.jsonl": {
+      "sha256": "ba9cd64f1e6c1746803ef28ef0268423feb19d0766e9f9153981e383edcd831e",
+      "bytes": 46552
+    },
+    "runs/banking77/cluster_06/budget_00000.json": {
+      "sha256": "9d3ae13e19afb3146e4d3caa3b898ede83aa83b3c51709bc38f042329d3da5c9",
+      "bytes": 324
+    },
+    "runs/banking77/cluster_06/budget_00100.json": {
+      "sha256": "923980b42663ec10245081ce6f3178d5b3073738d89bfd32259b28a940b99fd3",
+      "bytes": 346
+    },
+    "runs/banking77/cluster_06/budget_00500.json": {
+      "sha256": "92fcad399782958eafc8181df26e85e932fd22eb7337c06c6fb0d214221a0842",
+      "bytes": 341
+    },
+    "runs/banking77/cluster_06/budget_01000.json": {
+      "sha256": "50e490d928ac887ddbbee2969783f0b041b89426d0a9db1c90f8d15d74225460",
+      "bytes": 340
+    },
+    "runs/banking77/cluster_06/budget_02500.json": {
+      "sha256": "ad191217a7676e4cd2f612c368c24f089add7bef40a6f7b7034286ad8b159143",
+      "bytes": 343
+    },
+    "runs/banking77/cluster_06/budget_05000.json": {
+      "sha256": "d641309f2f363df6385a2e3fef064236cc8f3255365bca468fcf6b742624f009",
+      "bytes": 344
+    },
+    "runs/banking77/cluster_06/config.json": {
+      "sha256": "e44d0e55514f989c8406ae9a89b747bbc9896e493d0faf3306d15586da94419e",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_06/final_cluster.json": {
+      "sha256": "0ca898f437f85a24e8dd3faa7d1d187bc8ba503a2dc7c6961c155d21e41b7aa6",
+      "bytes": 1705
+    },
+    "runs/banking77/cluster_06/preflight.json": {
+      "sha256": "856b5788c799f5ce0eeae6bc5d1975460302a54d025cae1fdc2aea8d698a0f74",
+      "bytes": 206
+    },
+    "runs/banking77/cluster_06/run.log": {
+      "sha256": "8ebf7df72f38b7f9d2a37e6c235ae9352daa247bce76b63811dd6600febcbdc0",
+      "bytes": 3375
+    },
+    "runs/banking77/cluster_06/state.json": {
+      "sha256": "c2846805a575b5a776c19321ce5625d6a5048d7c0d2d492c52179f47dc44fc2e",
+      "bytes": 12890
+    },
+    "runs/banking77/cluster_06/trace.jsonl": {
+      "sha256": "da7e5d22690de8ca6840bd9c133005dc51275e272f149f39c4bec23b42cba629",
+      "bytes": 46266
+    },
+    "runs/banking77/cluster_07/budget_00000.json": {
+      "sha256": "71f05b322669cc98c97fcd1caf33622a76e9cc72bfaee6cb81b0033e08455c7b",
+      "bytes": 353
+    },
+    "runs/banking77/cluster_07/budget_00100.json": {
+      "sha256": "5da543de5d3d6a1d1abe34bbda9fa75da6b1794b285baee66786b7d2392f370f",
+      "bytes": 363
+    },
+    "runs/banking77/cluster_07/budget_00500.json": {
+      "sha256": "b48bd3d4fa438250feb2f913d6f8cc4ebd48aaea3a77590a0ff5b3df3e38a5bb",
+      "bytes": 365
+    },
+    "runs/banking77/cluster_07/budget_01000.json": {
+      "sha256": "e62a82cc19a90b7de70443cc6d5dd6afc0811b31524b7b11b79b945a5e38ad61",
+      "bytes": 378
+    },
+    "runs/banking77/cluster_07/budget_02500.json": {
+      "sha256": "0a51f34f9abe7076088a4a3f8bad8a1d3d39b5162f1be4bea9deb345fbcdcc59",
+      "bytes": 378
+    },
+    "runs/banking77/cluster_07/budget_05000.json": {
+      "sha256": "2a4bcb1284b6a879a34527598e313a424252b2f43a8cf85b79c7c925f65db455",
+      "bytes": 375
+    },
+    "runs/banking77/cluster_07/config.json": {
+      "sha256": "6994691ed21125f9a3025435b8c721ca551c575cf32e9dfc7ae6d4d8cec99631",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_07/final_cluster.json": {
+      "sha256": "9765290f91be694b7ed51102030c370ec6ee0f6905cc9e90f0017f001517908f",
+      "bytes": 1765
+    },
+    "runs/banking77/cluster_07/preflight.json": {
+      "sha256": "ed7751d3ea0e64e9e7d73f8228382a4bd072e9d720be98bce7905f328f540e85",
+      "bytes": 232
+    },
+    "runs/banking77/cluster_07/run.log": {
+      "sha256": "4ec646a3793100dd366d09d5ff95ef7b3c8a69150d7d09ca11c386a9469fb518",
+      "bytes": 3389
+    },
+    "runs/banking77/cluster_07/state.json": {
+      "sha256": "eff889dc570a4740be64d1ff62fe0f3c01eca16a76ffa00825aca0d97b415f5a",
+      "bytes": 12933
+    },
+    "runs/banking77/cluster_07/trace.jsonl": {
+      "sha256": "b94fdedcdab6505e153d45a6693c29dabf42c1e39daf8da7a34b3bfe865ffdbb",
+      "bytes": 46465
+    },
+    "runs/banking77/cluster_08/budget_00000.json": {
+      "sha256": "93e29d0e53844937273527726e9f0a1685f53bb9fc87bb4e91c9652d205642ed",
+      "bytes": 359
+    },
+    "runs/banking77/cluster_08/budget_00100.json": {
+      "sha256": "2226bc40ab51900ed985236ff2bddf8974fd2d5b08c9dba8b42f4dec103498f9",
+      "bytes": 374
+    },
+    "runs/banking77/cluster_08/budget_00500.json": {
+      "sha256": "e63d6a85ad440666b6ff5624fea0ad7038a060fc3ed6a25700d0f22c986b64b3",
+      "bytes": 372
+    },
+    "runs/banking77/cluster_08/budget_01000.json": {
+      "sha256": "1a9fc4ff1b4460bd369d96b392a30f00f0afa86c392a47fbf593a5845b9e48b0",
+      "bytes": 378
+    },
+    "runs/banking77/cluster_08/budget_02500.json": {
+      "sha256": "a32ad948dbf83a0928efb4a1e204fc0640353336f53e98a535b389f4c2eb0575",
+      "bytes": 380
+    },
+    "runs/banking77/cluster_08/budget_05000.json": {
+      "sha256": "9637d44d4faba4d00043061e0c162654605cee09fe83add8d3cebe620a0dad33",
+      "bytes": 392
+    },
+    "runs/banking77/cluster_08/config.json": {
+      "sha256": "48448fffdb40ad151cb4739e5225c01c67be3e5394100ab6ad117d82dee0c4f8",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_08/final_cluster.json": {
+      "sha256": "96d9bf417db839b4fe0c7dd0dd0e73e7ee307b6478112d7e2c3cd7e54be3fc1e",
+      "bytes": 1787
+    },
+    "runs/banking77/cluster_08/preflight.json": {
+      "sha256": "92beebfdd9ef930925adfe0b713028712e42e00f35a4e0be9f5e3f1bba2d0b42",
+      "bytes": 230
+    },
+    "runs/banking77/cluster_08/run.log": {
+      "sha256": "f9e5d9dd3b99c7770ea86ee0f6db2b83e28693a4ad7770d3d22c7961a08c9b55",
+      "bytes": 3364
+    },
+    "runs/banking77/cluster_08/state.json": {
+      "sha256": "3437fc38084c7dbae660c31478d26c3c4233d95878f7756fe7de3f042284125a",
+      "bytes": 12959
+    },
+    "runs/banking77/cluster_08/trace.jsonl": {
+      "sha256": "16d0b4da8e7b67f935f60deef482e2d3144f0dffad05319d8e9e270eb2d0b797",
+      "bytes": 46450
+    },
+    "runs/banking77/cluster_09/budget_00000.json": {
+      "sha256": "b9e8b194af8dc3ba60005f4a02c019b917fcad4649c8fc729f5a3725c1448109",
+      "bytes": 316
+    },
+    "runs/banking77/cluster_09/budget_00100.json": {
+      "sha256": "b6a70fa8e84b0a46d46ab123705578f8a95b4c20c84e5c054493a7b10f99f55d",
+      "bytes": 354
+    },
+    "runs/banking77/cluster_09/budget_00500.json": {
+      "sha256": "74d74d6dfe46dc19f0d46317cd4bff4b3c54c542f0200c0211628729c3f01fb6",
+      "bytes": 359
+    },
+    "runs/banking77/cluster_09/budget_01000.json": {
+      "sha256": "ee91dfcc74ffbbd26f1dba3bcdb7aca192d41fed05c9935832de72704238ffab",
+      "bytes": 361
+    },
+    "runs/banking77/cluster_09/budget_02500.json": {
+      "sha256": "a806a69ea16dabd1468af53193c3c07e8d599900e77b04d50f542d30627368d3",
+      "bytes": 343
+    },
+    "runs/banking77/cluster_09/budget_05000.json": {
+      "sha256": "c9dacbcdbe18149715323362ee53dc211ee9c5f0852f8c1d0c2108c07af68965",
+      "bytes": 350
+    },
+    "runs/banking77/cluster_09/config.json": {
+      "sha256": "4bac97934c4e1b6ec5e9a75a2765e7010b31c077ff8cf280e4aec7e39ff793ab",
+      "bytes": 801
+    },
+    "runs/banking77/cluster_09/final_cluster.json": {
+      "sha256": "73c40eb6fc61c2d7646452642d4dee3c2585efc9e75492d8342ce5e457df1455",
+      "bytes": 1703
+    },
+    "runs/banking77/cluster_09/preflight.json": {
+      "sha256": "06af9f717bb410daf852966e78d35e8c1333f00a25ea2f1bc2e362328d7701a4",
+      "bytes": 203
+    },
+    "runs/banking77/cluster_09/run.log": {
+      "sha256": "29bc08a680ce5d0e5db24f451b3f6b957cf2562ab8a79647ffba32f425e8a147",
+      "bytes": 3387
+    },
+    "runs/banking77/cluster_09/state.json": {
+      "sha256": "52716e83e38f5aecc995d92cd2f5d6c7d5c47bb4244da96113b162b91ab6a6eb",
+      "bytes": 12903
+    },
+    "runs/banking77/cluster_09/trace.jsonl": {
+      "sha256": "924869c811c4c276141d3729eefdcd62420dfd8f8ff52b128e9c4ceaa7306492",
+      "bytes": 46487
+    },
+    "runs/banking77/cluster_10/budget_00000.json": {
+      "sha256": "7b04e6cf588f7579c2adffae5ceb77cd9f3a6e53a9c33f7c27d93b0c7c5ce45c",
+      "bytes": 351
+    },
+    "runs/banking77/cluster_10/budget_00100.json": {
+      "sha256": "e720769db786dc0d437ce44a3348960f9251c6c528681f1465f8320b1c326a9a",
+      "bytes": 371
+    },
+    "runs/banking77/cluster_10/budget_00500.json": {
+      "sha256": "55e050a68ec9d10ea98fbb592925350aaeb61b46f9ca6a3a5d2f678f7fc6b896",
+      "bytes": 371
+    },
+    "runs/banking77/cluster_10/budget_01000.json": {
+      "sha256": "bb2e53cbe08b7da0ced586675e6a543977b45ff3b8cff2ea1d1b1ba0a3d06ef8",
+      "bytes": 381
+    },
+    "runs/banking77/cluster_10/budget_02500.json": {
+      "sha256": "f6eb944d38de001e21f2a8a6707fab5e0829ae8ef85b0c586631339204e5d41b",
+      "bytes": 374
+    },
+    "runs/banking77/cluster_10/budget_05000.json": {
+      "sha256": "973b13741e8b5be58965eede912c2ba913864e28cc6887a07f63ac59baf298ef",
+      "bytes": 374
+    },
+    "runs/banking77/cluster_10/config.json": {
+      "sha256": "3533dd5c61026185beaa23e9d0e6f73455d35e4220b091d1d57113e20d20e5cb",
+      "bytes": 802
+    },
+    "runs/banking77/cluster_10/final_cluster.json": {
+      "sha256": "5578e38cc8d34b8f79f029ba8255e9e9d7efa03e890b903eddd041980b6f151e",
+      "bytes": 1765
+    },
+    "runs/banking77/cluster_10/preflight.json": {
+      "sha256": "29b37feab1b12623bfb33e2ab9efe35a934a9f882fd0b5950fdfa0be5f62d1a6",
+      "bytes": 235
+    },
+    "runs/banking77/cluster_10/run.log": {
+      "sha256": "951398cdcd7b6f3c3a3435f1e0996e050e5f0b335baec4a98502232d139341dc",
+      "bytes": 3454
+    },
+    "runs/banking77/cluster_10/state.json": {
+      "sha256": "88bc5b67ee7186f98a72b20bf3293481651607d8c7dce90d12113ce63bec9b63",
+      "bytes": 12942
+    },
+    "runs/banking77/cluster_10/trace.jsonl": {
+      "sha256": "97f7a142e31eee7f82fa45b69d912bfdae6a28a6d3172cf924647e543c762ad9",
+      "bytes": 46538
+    },
+    "runs/banking77/cluster_11/budget_00000.json": {
+      "sha256": "73c0e0d08ae22a6e9e631a0dd036af20217cb61fec5dc6aef440a643c45c3222",
+      "bytes": 319
+    },
+    "runs/banking77/cluster_11/budget_00100.json": {
+      "sha256": "231ea723d83d417ff76f2e726b039534106d5fa7256f408ebffe7c7aedf50544",
+      "bytes": 337
+    },
+    "runs/banking77/cluster_11/budget_00500.json": {
+      "sha256": "ddd49406d0fc0941f708dfcff6de460d189da2411db79d5f16a2a69d3e19a43e",
+      "bytes": 345
+    },
+    "runs/banking77/cluster_11/budget_01000.json": {
+      "sha256": "fa9688e23bbba12bc7195de2e80577274683dda15ff67566c4979b2e28a7dbbc",
+      "bytes": 345
+    },
+    "runs/banking77/cluster_11/budget_02500.json": {
+      "sha256": "bd4ce003e8e3ad9ab4f8c8b9c3d59203179053eef938e11186bffc90a6bfd4c0",
+      "bytes": 346
+    },
+    "runs/banking77/cluster_11/budget_05000.json": {
+      "sha256": "083f7f25aeccb7ceae653383818bb033354be48c01831abe9e88b911431ce4ce",
+      "bytes": 346
+    },
+    "runs/banking77/cluster_11/config.json": {
+      "sha256": "8a55c78e318056f0bf9463e3e4e8176f9bf0cffe6153f98ce5807bf82dbe19f4",
+      "bytes": 802
+    },
+    "runs/banking77/cluster_11/final_cluster.json": {
+      "sha256": "54e6d66862507d6335cb8a9169ef0f97fad01dae4ada7079df327d7a08fdfbbb",
+      "bytes": 1707
+    },
+    "runs/banking77/cluster_11/preflight.json": {
+      "sha256": "f6e9078ebc472075a8ab5cad0e8f1f6206c9261276b2291ae73d05a59034a568",
+      "bytes": 205
+    },
+    "runs/banking77/cluster_11/run.log": {
+      "sha256": "1c5228e227577278cd65f29aa2cdb28e67f24c418144095246a4aabfbea48eeb",
+      "bytes": 3427
+    },
+    "runs/banking77/cluster_11/state.json": {
+      "sha256": "7a35e85051ad556bca5a25f7d141cccaa2a9e87e370af9e1f02c6bc273f34e8d",
+      "bytes": 12858
+    },
+    "runs/banking77/cluster_11/trace.jsonl": {
+      "sha256": "e1c3bc1bdbaf908527eff272f747fae66eaa8f72336772f25df78a3fa245fe26",
+      "bytes": 46496
+    },
+    "runs/banking77/cluster_12/budget_00000.json": {
+      "sha256": "bf4805521485215d28c2de678fabe65bc8ce5a4b8d298b83fb15ac087ca3b4e3",
+      "bytes": 331
+    },
+    "runs/banking77/cluster_12/budget_00100.json": {
+      "sha256": "221a443ba3ccd5d89dd3de4fe730e36adfefd66c56ae4266e8b5bc22e37c9ee8",
+      "bytes": 353
+    },
+    "runs/banking77/cluster_12/budget_00500.json": {
+      "sha256": "20f3af342547374834f10b7bf149ca4f43e8d5e2c8397765b6fd8ec1d7cb6d06",
+      "bytes": 381
+    },
+    "runs/banking77/cluster_12/budget_01000.json": {
+      "sha256": "169a36004e735529c89f0db5c7c301aa55f22432b8668899ec6abab4ccb6d519",
+      "bytes": 382
+    },
+    "runs/banking77/cluster_12/budget_02500.json": {
+      "sha256": "40078da3095bc2a187b9fcb0645764dcf532ba3589ddc1917d9804ea0e4c1df8",
+      "bytes": 394
+    },
+    "runs/banking77/cluster_12/budget_05000.json": {
+      "sha256": "1eea977470f74d17a33fedcec24474f6c39a2a80a13f3c32efe02c506c8a1b04",
+      "bytes": 385
+    },
+    "runs/banking77/cluster_12/config.json": {
+      "sha256": "355f40ea470fbd8806144f2ca210cdc6f0fb67b837ede84a2be9dba4f1eb7f80",
+      "bytes": 802
+    },
+    "runs/banking77/cluster_12/final_cluster.json": {
+      "sha256": "1951e09454e73c2a3167d8efb995de90b19929718c71f4ead2abe8330cdeef68",
+      "bytes": 1753
+    },
+    "runs/banking77/cluster_12/preflight.json": {
+      "sha256": "f28440f40740a9e75eeb8ca23412fc5325e9f604a4a59eb1822660da74508d03",
+      "bytes": 224
+    },
+    "runs/banking77/cluster_12/run.log": {
+      "sha256": "9b182ac4de0fcbd2c2719440b56da8eef6c50a55133219af3d24bd13dffb2a4e",
+      "bytes": 3451
+    },
+    "runs/banking77/cluster_12/state.json": {
+      "sha256": "acdc3c4bc691da8956d95f06ec3fd493ffd3ea60038a92b7e98ab2c7dcde718b",
+      "bytes": 12961
+    },
+    "runs/banking77/cluster_12/trace.jsonl": {
+      "sha256": "16a27c304f8190e96b59e66c5620fe0c748a6f6dbbfc61f60099c3d06ab24103",
+      "bytes": 46567
+    },
+    "runs/banking77/cluster_13/budget_00000.json": {
+      "sha256": "286311d1b218a0ccba6bb6cb6b1aff7d0ac23e215cea1d5f4426e9b034bb18d4",
+      "bytes": 331
+    },
+    "runs/banking77/cluster_13/budget_00100.json": {
+      "sha256": "ce58f1a9a079515842e6f1d9a42ee82afa2de68dcfe7b9d110473ef27ec094c3",
+      "bytes": 326
+    },
+    "runs/banking77/cluster_13/budget_00500.json": {
+      "sha256": "57c2b5951bb003cd9c2f1786dd1e5459e36d8985eac62e1ecb16823bf4fe504e",
+      "bytes": 339
+    },
+    "runs/banking77/cluster_13/budget_01000.json": {
+      "sha256": "f7f2ad406d7add9285a32e1010c230488392597c9903edced308701d8a754616",
+      "bytes": 346
+    },
+    "runs/banking77/cluster_13/budget_02500.json": {
+      "sha256": "6a77ab0b679410f0eab070cd493c1e5f1abcf0f9bf79cdb802923d5f648b14d0",
+      "bytes": 336
+    },
+    "runs/banking77/cluster_13/budget_05000.json": {
+      "sha256": "c1e52e728313ca158d8df5566b1f347e996bf4292316db6a6e29f1fa499c17a9",
+      "bytes": 336
+    },
+    "runs/banking77/cluster_13/config.json": {
+      "sha256": "56a3b5bd29a2ab22cfdc3da24425571938557fb67c6aa5a68eed5dd619e654e0",
+      "bytes": 802
+    },
+    "runs/banking77/cluster_13/final_cluster.json": {
+      "sha256": "9652fe67fb21d98eb53cace904ecbd457fe7ee947404349f27df87cce3e1e0f8",
+      "bytes": 1706
+    },
+    "runs/banking77/cluster_13/preflight.json": {
+      "sha256": "7baf93ba087a3a622b4d22f947451f661d31fc5587c13cb5080945ab92366a69",
+      "bytes": 205
+    },
+    "runs/banking77/cluster_13/run.log": {
+      "sha256": "f87ca883dcf7d4d46f0168c2d081b09e9b07f3cade7c0b0b7fb188df2c7a4e4b",
+      "bytes": 3409
+    },
+    "runs/banking77/cluster_13/state.json": {
+      "sha256": "93d2f22edddd841f9007717b8874092a9b18cc04ec8b27f3fe7ec66b82dc70fb",
+      "bytes": 12848
+    },
+    "runs/banking77/cluster_13/trace.jsonl": {
+      "sha256": "5e0f467f70e178b46556df0a51b2e446f671146f32c7f969cbef79f30abedad8",
+      "bytes": 46286
+    },
+    "runs/banking77/cluster_14/budget_00000.json": {
+      "sha256": "9dd2e5ee52ec6475138ec22925e65dc80d8e52a05f74cb4da429fa2e66a8bf94",
+      "bytes": 304
+    },
+    "runs/banking77/cluster_14/budget_00100.json": {
+      "sha256": "77d8e5250dd6c8bf437c19f593605875845dbdad9e57887c4279763e76803198",
+      "bytes": 317
+    },
+    "runs/banking77/cluster_14/budget_00500.json": {
+      "sha256": "a4a47c57b444061843f10d6a81c977ca9bd3ee5897ac11e94a6d5d0db33b2661",
+      "bytes": 314
+    },
+    "runs/banking77/cluster_14/budget_01000.json": {
+      "sha256": "ef2226184db13afd905913e2cb60c42265eca8640552cdaac2af4fe017eda882",
+      "bytes": 314
+    },
+    "runs/banking77/cluster_14/budget_02500.json": {
+      "sha256": "afa362f2034ae63215ccd5c8ae3f24d3f9b315ce491db1ea752e1f8b63775af9",
+      "bytes": 318
+    },
+    "runs/banking77/cluster_14/budget_05000.json": {
+      "sha256": "d94beb6cc68acfa33dc183415a59d7541e00d784797e6b262410daf302ddd235",
+      "bytes": 318
+    },
+    "runs/banking77/cluster_14/config.json": {
+      "sha256": "1396ba2f238da858b5dc4883acd389968a1eed3b25daad5bfe1b6e47f00bf263",
+      "bytes": 802
+    },
+    "runs/banking77/cluster_14/final_cluster.json": {
+      "sha256": "3976910fb546058009010c370623d7d8d79ee5290aad79028858ed9069372e5a",
+      "bytes": 1660
+    },
+    "runs/banking77/cluster_14/preflight.json": {
+      "sha256": "2860343a8d4dc7d1f93364629ca4ccbbd8eecb9b7e8a75c18ef9cdd5492933fa",
+      "bytes": 205
+    },
+    "runs/banking77/cluster_14/run.log": {
+      "sha256": "0436e2bafdf11d7e2e6c4307cf886fdd028cf745c5159085be8286cdf62a535e",
+      "bytes": 3429
+    },
+    "runs/banking77/cluster_14/state.json": {
+      "sha256": "41b7ede86c85eb7f69cb7f40bb62ca90cf1305f3ff1bb148d3809beb9385a76c",
+      "bytes": 12848
+    },
+    "runs/banking77/cluster_14/trace.jsonl": {
+      "sha256": "a1106e84454d93a80261f421922a60008203fde896af4fad1697ae2a1045eb4b",
+      "bytes": 46414
+    },
+    "runs/dogo/cluster_00/budget_00000.json": {
+      "sha256": "9c71ece8b8c1717e5a72f4dd672c1e6eb9eaf7a25c840249486ea349d2604f11",
+      "bytes": 340
+    },
+    "runs/dogo/cluster_00/budget_00100.json": {
+      "sha256": "37726621994a1c54b341ea7b40484711be26b2dac0cbf64706ea695c8e5a0150",
+      "bytes": 360
+    },
+    "runs/dogo/cluster_00/budget_00500.json": {
+      "sha256": "3b9d93ca47f53effc2c9b24527194502f22e62994b7f7c28d65a34b4e65686f9",
+      "bytes": 370
+    },
+    "runs/dogo/cluster_00/budget_01000.json": {
+      "sha256": "0fd36e63a0feb163ab5d45f4fa5fb1d5b364cfefac52addd57e1eccb8a11d780",
+      "bytes": 380
+    },
+    "runs/dogo/cluster_00/budget_02500.json": {
+      "sha256": "cf0d5574bab3e6183180ec28db6d9fda1935be4d7997ff179619cbe80e76a840",
+      "bytes": 379
+    },
+    "runs/dogo/cluster_00/budget_05000.json": {
+      "sha256": "2dfe08030fac0ec20aa52eb0dcaab00c3b61f29172176d3c87a9a1dfe8b8ddda",
+      "bytes": 379
+    },
+    "runs/dogo/cluster_00/config.json": {
+      "sha256": "a13d7e6736e419e88afe779a2329f73ad5deee2454c40051c39565d5707ce736",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_00/final_cluster.json": {
+      "sha256": "12e6d288b7c86e1920dbb0bc99d72938fa86ba4cf4b42c4bfa4a1b4788c27b4e",
+      "bytes": 1799
+    },
+    "runs/dogo/cluster_00/preflight.json": {
+      "sha256": "1466ec33d314900035c303eb9e3ddac2798bad116c08533551909ed37bd31ef5",
+      "bytes": 224
+    },
+    "runs/dogo/cluster_00/run.log": {
+      "sha256": "31b67c3e28719c23af59ebf0d32738ca60cc024d69409518231852867949566d",
+      "bytes": 3130
+    },
+    "runs/dogo/cluster_00/state.json": {
+      "sha256": "0797bc89a81de4eff42f562febd79e2e613fb0bec87c16d06e8e23085df2a07b",
+      "bytes": 12942
+    },
+    "runs/dogo/cluster_00/trace.jsonl": {
+      "sha256": "849adeab49c1264de70b3c08d255e04d40fbd2d1a4517a586850429250997f46",
+      "bytes": 46510
+    },
+    "runs/dogo/cluster_01/budget_00000.json": {
+      "sha256": "3420f2ca04c61a6a8aa71d167cb64fc54b59ce17f70083fdfdfdb0ec884433e7",
+      "bytes": 331
+    },
+    "runs/dogo/cluster_01/budget_00100.json": {
+      "sha256": "b9ba083a4e84976784ef4f4a38bc7a33df51314345d98437548d2166dfe88645",
+      "bytes": 350
+    },
+    "runs/dogo/cluster_01/budget_00500.json": {
+      "sha256": "7832e9b9e5d444e25e86fcf249af935ef5783abec984dccf81964be043bbd69d",
+      "bytes": 362
+    },
+    "runs/dogo/cluster_01/budget_01000.json": {
+      "sha256": "d84321012b84ba9f6b8b76fe61a57bb80f51da0d8fc5f8698a2e01e6f1c6c17b",
+      "bytes": 375
+    },
+    "runs/dogo/cluster_01/budget_02500.json": {
+      "sha256": "dd6bd92d0742a13e3a5260fa8d9b98093389cad9e0cf52ba4f527e40dfa52d9d",
+      "bytes": 388
+    },
+    "runs/dogo/cluster_01/budget_05000.json": {
+      "sha256": "b9f7fdde7159dae7a7919b593264137b81e5f6bd35c555769aa4ccfa7c127b6c",
+      "bytes": 384
+    },
+    "runs/dogo/cluster_01/config.json": {
+      "sha256": "21c52779b62d67da5d31a6028b58de88646925723122ab8bc4ad4caed0ae5e7b",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_01/device_migration.json": {
+      "sha256": "a885fa1174cbea47dc37ff73dd7fb58479407cf0069997af8f5dc4824f0ba460",
+      "bytes": 1033
+    },
+    "runs/dogo/cluster_01/final_cluster.json": {
+      "sha256": "b75a795978555e362465884d8ff73bc998d0988eb317387ab3fcff8e5b79e263",
+      "bytes": 1794
+    },
+    "runs/dogo/cluster_01/preflight.json": {
+      "sha256": "1502a6622cfb4c2110bd7ab9a1cc285a3216bc433dc501f4cc37cf6bb99b6eab",
+      "bytes": 228
+    },
+    "runs/dogo/cluster_01/run.log": {
+      "sha256": "8930553c9187f09220012bab4c5981a2b22a5ca9f0afd3068b19e7145a707f20",
+      "bytes": 3193
+    },
+    "runs/dogo/cluster_01/state.json": {
+      "sha256": "47496c95c5d62e1f13e777a70e9dfd471484bff921eec6c688c59f292f7edb3c",
+      "bytes": 12950
+    },
+    "runs/dogo/cluster_01/trace.jsonl": {
+      "sha256": "511b4b57d96da7a9dffac580a4325342eec267b0e203e70c8eb4d80422d879fb",
+      "bytes": 46873
+    },
+    "runs/dogo/cluster_02/budget_00000.json": {
+      "sha256": "ea890e0bf6510862bcbdfd553f6a053bcefd75ad0e4a1cbfc01a0fe730916df0",
+      "bytes": 352
+    },
+    "runs/dogo/cluster_02/budget_00100.json": {
+      "sha256": "b920aca6459675955a070567458774d146aec92902861d44a40611d56d545002",
+      "bytes": 371
+    },
+    "runs/dogo/cluster_02/budget_00500.json": {
+      "sha256": "fc165d2ba80f906c3b9ce757192968e74d4c7a1b1467b13288022d500e654aa2",
+      "bytes": 394
+    },
+    "runs/dogo/cluster_02/budget_01000.json": {
+      "sha256": "3e9082038bd9bc2922aed2f253af8b959f18565b9e0daf19acb63acc4227d0b0",
+      "bytes": 397
+    },
+    "runs/dogo/cluster_02/budget_02500.json": {
+      "sha256": "2acfab2dedbd8e7553466005da7e3552cb3d67c7d5d07b51ab7729840867771c",
+      "bytes": 393
+    },
+    "runs/dogo/cluster_02/budget_05000.json": {
+      "sha256": "6b364bc93fcddc54fd4ada1260a522002b2802e2d7f9624c465841632ca0f398",
+      "bytes": 380
+    },
+    "runs/dogo/cluster_02/config.json": {
+      "sha256": "db5ae42e75d70bf85d8f5209003bfcddd110f1b2fe69d293df81d34b9080a18e",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_02/final_cluster.json": {
+      "sha256": "677454395080f38c40395f221eedd46e82a569096eacd7616d52da26fc8ba5d2",
+      "bytes": 1814
+    },
+    "runs/dogo/cluster_02/preflight.json": {
+      "sha256": "121906a9b6d47de84f6013b9cd8441e9149b3662405077701e9da476ec3f9644",
+      "bytes": 232
+    },
+    "runs/dogo/cluster_02/run.log": {
+      "sha256": "87792abfb05d17f780b22e386fa80ff7d37a4e63f162eeb7c57ce8c2ddad71ae",
+      "bytes": 3141
+    },
+    "runs/dogo/cluster_02/state.json": {
+      "sha256": "fa531d7daaa5e078e7d334f099dfeda3ab61a5520eb2bd396a9a1c644cc44866",
+      "bytes": 12935
+    },
+    "runs/dogo/cluster_02/trace.jsonl": {
+      "sha256": "0866ce37b734451fd9dc38f80931ef2ccf301b05a6d0a3ba336b0175502dca61",
+      "bytes": 46550
+    },
+    "runs/dogo/cluster_03/budget_00000.json": {
+      "sha256": "3f434791a7a187bccf7c492aa13eb520d9f033a2e3262777f90bdd20217717b6",
+      "bytes": 331
+    },
+    "runs/dogo/cluster_03/budget_00100.json": {
+      "sha256": "3d9d48ba1e43726ade52059da7d20509d71fe5e783e4b4a46d3f2c1a757efc40",
+      "bytes": 330
+    },
+    "runs/dogo/cluster_03/budget_00500.json": {
+      "sha256": "31cceb9aec00677cc7191ebf6ef70164640b06c06a29a061a741439fcf6f5006",
+      "bytes": 329
+    },
+    "runs/dogo/cluster_03/budget_01000.json": {
+      "sha256": "f6040163474094bc7e7c691ee3a5b9e6d29ed7cc609791c8fa78359d8cdd0cf7",
+      "bytes": 330
+    },
+    "runs/dogo/cluster_03/budget_02500.json": {
+      "sha256": "05089b3c9e3aa29e00160a1d82327919539cf8482896fa9eb65b8ac35a95f180",
+      "bytes": 331
+    },
+    "runs/dogo/cluster_03/budget_05000.json": {
+      "sha256": "091ed1cc6715558201069f5a716785fe3dedb4e1ea2eed7c6be5681f8748f546",
+      "bytes": 332
+    },
+    "runs/dogo/cluster_03/config.json": {
+      "sha256": "8090a5d6ce3c4c9b21a5dc7e776f483ba807aac8a7b34539cbe11b0e6f150d16",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_03/final_cluster.json": {
+      "sha256": "19e2ffcb89a6a2c63c6d7516a8ddf599eede2fa246ecb9e3b417faf46d064678",
+      "bytes": 1745
+    },
+    "runs/dogo/cluster_03/preflight.json": {
+      "sha256": "cc365bef27b5f43bc3935e6708aaeafcb79e22abfcce6fbba1dc9dccbcfa8c89",
+      "bytes": 221
+    },
+    "runs/dogo/cluster_03/run.log": {
+      "sha256": "207be1d8c0c4de1e7a727698b1b52fdee5f69d88cb40d63086c1406e6830aad4",
+      "bytes": 3073
+    },
+    "runs/dogo/cluster_03/state.json": {
+      "sha256": "aa47096ffaf8d2d4d99242bd13e553e537fe41bcc01d0b2b2a0fbd3103e7f45a",
+      "bytes": 12869
+    },
+    "runs/dogo/cluster_03/trace.jsonl": {
+      "sha256": "f319f83a02b81eeb1985e2a8dea9886907783e99d111c09c0c8c593fe34f16bb",
+      "bytes": 46307
+    },
+    "runs/dogo/cluster_04/budget_00000.json": {
+      "sha256": "049e5f637575984b273ee58f0b028fd91165d659f59582b502e7f0f3f5818563",
+      "bytes": 341
+    },
+    "runs/dogo/cluster_04/budget_00100.json": {
+      "sha256": "a03746076966b1f1e0c7b92dfc326ce5857fbc8598483d89311c03de53eebf7c",
+      "bytes": 357
+    },
+    "runs/dogo/cluster_04/budget_00500.json": {
+      "sha256": "43b9d16e7eee76150a5759527f44afd2532a1a978256e1939aa38b5e51005988",
+      "bytes": 363
+    },
+    "runs/dogo/cluster_04/budget_01000.json": {
+      "sha256": "6025b5285d3ec4b85236684c59ae55bfe2e5e04525309ff0eb0bc8f8c23257aa",
+      "bytes": 397
+    },
+    "runs/dogo/cluster_04/budget_02500.json": {
+      "sha256": "84c6ead848a24f4d6a9e042dd175719a5f2a1b063e661c623295a7c2cc25ce76",
+      "bytes": 398
+    },
+    "runs/dogo/cluster_04/budget_05000.json": {
+      "sha256": "a46ee756ef48207fe870204d3970c93bc0869bb264bea7cb79cd5fad5264990e",
+      "bytes": 377
+    },
+    "runs/dogo/cluster_04/config.json": {
+      "sha256": "84ed86b8facfaa932e03385039e1c2ff8075c8287ca5f0e46960522a30a81523",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_04/final_cluster.json": {
+      "sha256": "82097ddd2dd3bd0dd4377d771d45e58cb902ad2f8a005e26c5597e77957d43f9",
+      "bytes": 1797
+    },
+    "runs/dogo/cluster_04/preflight.json": {
+      "sha256": "50f4a7790a14d2043aebe0fcc566df14618bbf3377ff13bd1bad3ccfb94a4d75",
+      "bytes": 222
+    },
+    "runs/dogo/cluster_04/run.log": {
+      "sha256": "7b08ea1454fbc8db45efd1fe657bf6ec0b99bc8198862fa95eec7192c264e78c",
+      "bytes": 3133
+    },
+    "runs/dogo/cluster_04/state.json": {
+      "sha256": "fabd9205a042cf46ef9fb2cb8c081a0093178e1a2eec3a4c0167c35c94617158",
+      "bytes": 12939
+    },
+    "runs/dogo/cluster_04/trace.jsonl": {
+      "sha256": "a2badd2f0589b19cdd7616b68c2fa1ef40b5fabc1021d781da5b8d138ebf48c7",
+      "bytes": 46536
+    },
+    "runs/dogo/cluster_05/budget_00000.json": {
+      "sha256": "787c512f475ce8c5b33ee049fdb8194828c91783bb78f23fa5e80cc91acce32b",
+      "bytes": 342
+    },
+    "runs/dogo/cluster_05/budget_00100.json": {
+      "sha256": "0b0cb2e1c332d92d3e5d1fe9ae0e45d52de027e77b3b30a2c442716f5eb5857d",
+      "bytes": 348
+    },
+    "runs/dogo/cluster_05/budget_00500.json": {
+      "sha256": "d2c63bc765c7716fc3964b8e41f30d61d09ea39f63f05f635df2fe4259b85e66",
+      "bytes": 347
+    },
+    "runs/dogo/cluster_05/budget_01000.json": {
+      "sha256": "953cd1dfec4af465fe9c053c97f6eca00272a381b2e78fb43af1a513615f6888",
+      "bytes": 348
+    },
+    "runs/dogo/cluster_05/budget_02500.json": {
+      "sha256": "d826ab0000a9fa2867b9c0e7a5f69f69a7ec9560a614ef37fe27e77a73aed14f",
+      "bytes": 347
+    },
+    "runs/dogo/cluster_05/budget_05000.json": {
+      "sha256": "cb1af2ba3ec897be5fab408b9ac3b9452dfcab44232af93cf27d1f01f30e0996",
+      "bytes": 346
+    },
+    "runs/dogo/cluster_05/config.json": {
+      "sha256": "836db0528b0dab28048e7542d17079e10e79c6bd9b51f0d6d43845379ed36112",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_05/final_cluster.json": {
+      "sha256": "7dca2178885a6795d1c25fe225fe1c03fa40320eaa880a2eb1458d8252b8b0f3",
+      "bytes": 1770
+    },
+    "runs/dogo/cluster_05/preflight.json": {
+      "sha256": "51e65ffb64ee810ab64e37c3bb60608f8d9582793c7c366461b0e14b8408319e",
+      "bytes": 223
+    },
+    "runs/dogo/cluster_05/run.log": {
+      "sha256": "ae683ccad52701719297ee3aef3bd19e3d0b532e8f168c9f1df6b44ccd1ea6d6",
+      "bytes": 3099
+    },
+    "runs/dogo/cluster_05/state.json": {
+      "sha256": "0d47cb22d43b899807b6d55b215a21e1129635cb5995bcea977ce4828aa1298b",
+      "bytes": 12889
+    },
+    "runs/dogo/cluster_05/trace.jsonl": {
+      "sha256": "050a8231fc933c6320af832806109259b6f6439e4bcb8e9e98021a718008e7f4",
+      "bytes": 46394
+    },
+    "runs/dogo/cluster_06/budget_00000.json": {
+      "sha256": "bc3312f22ea0aa35d0c6782dd50858043272dbffd678cfa247f9c1ec554bd807",
+      "bytes": 335
+    },
+    "runs/dogo/cluster_06/budget_00100.json": {
+      "sha256": "d39a0d48f77df08e68557854718a7eb815124d4849a638ddb3b70bcded149b60",
+      "bytes": 340
+    },
+    "runs/dogo/cluster_06/budget_00500.json": {
+      "sha256": "20896c17a9d2f52ca23e419263ff1cf15ade5b663a92d875c7ebb404a7417ad4",
+      "bytes": 361
+    },
+    "runs/dogo/cluster_06/budget_01000.json": {
+      "sha256": "4c8f9e01d4308969d9b3c25c826de8b30070dc4582af53fb2a13518de8fa4a7c",
+      "bytes": 362
+    },
+    "runs/dogo/cluster_06/budget_02500.json": {
+      "sha256": "f2ffaa8f7f1f51ce9d5abc9f21249a7c80dce728c186d71224dfd5454dc8ef8f",
+      "bytes": 363
+    },
+    "runs/dogo/cluster_06/budget_05000.json": {
+      "sha256": "407855cadd5de1fb690d5cdc87b7fbd30a4830a877c06308337b402b3e84cd1f",
+      "bytes": 362
+    },
+    "runs/dogo/cluster_06/config.json": {
+      "sha256": "ad2d3474d3338de86d7a8a555aa1d3a9a170b8588b4e14c03d469156352d5755",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_06/final_cluster.json": {
+      "sha256": "199185bd48b1363498bbea40f96a2b75bd702d1003ce2c2250fa005ec104a197",
+      "bytes": 1777
+    },
+    "runs/dogo/cluster_06/preflight.json": {
+      "sha256": "6da3e2f0aec714a86343465788ca93854c1145baf74c9f9eaf22aae6544c9f3f",
+      "bytes": 232
+    },
+    "runs/dogo/cluster_06/run.log": {
+      "sha256": "50baf344145b6b658df5091fe4fafbfdecedf7b82fc31ad86537de8ce81154c9",
+      "bytes": 3098
+    },
+    "runs/dogo/cluster_06/state.json": {
+      "sha256": "a84d34d5dbbca27f74ae3d5e7239538c748bc499b7b6ed4dd5eccdcf299625f0",
+      "bytes": 12935
+    },
+    "runs/dogo/cluster_06/trace.jsonl": {
+      "sha256": "0240bbc64931540055e5e940c3ba681bd918e95fc147167d998276eca43f88f0",
+      "bytes": 46212
+    },
+    "runs/dogo/cluster_07/budget_00000.json": {
+      "sha256": "93907edebb3e561441898957cbfd512834505ae154a5ca379bc8014d2c588de5",
+      "bytes": 346
+    },
+    "runs/dogo/cluster_07/budget_00100.json": {
+      "sha256": "b56f5d9eb23eb6016032b3c8fe70a34184195f04c940d27c8696543670a73fb9",
+      "bytes": 408
+    },
+    "runs/dogo/cluster_07/budget_00500.json": {
+      "sha256": "0a265a41a93b5e84616f14ab873731f98cd1309790faf31b42bebbb2fa60a615",
+      "bytes": 394
+    },
+    "runs/dogo/cluster_07/budget_01000.json": {
+      "sha256": "d93509559e777dbdef2cddae1e7d20eebb9603499c29d49f35800dc0565aec36",
+      "bytes": 397
+    },
+    "runs/dogo/cluster_07/budget_02500.json": {
+      "sha256": "3404c5913e3d5d3f01a66f708717f73eac27495eec37fe7eee04b53d6095303e",
+      "bytes": 396
+    },
+    "runs/dogo/cluster_07/budget_05000.json": {
+      "sha256": "a0b00c4915197fa717b494400ae5a8be6303c0bff43ec02eb58a0fe30be96bd0",
+      "bytes": 415
+    },
+    "runs/dogo/cluster_07/config.json": {
+      "sha256": "e1b630f5860bd5b810be9e4406e710f250d9a07e574e32c3d993dd92d9ea4cba",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_07/final_cluster.json": {
+      "sha256": "24e369488ac0baff0db7fff632235e0bf4e2cb49232817b323c73ad992b170f5",
+      "bytes": 1842
+    },
+    "runs/dogo/cluster_07/preflight.json": {
+      "sha256": "47363038ce69325caa17ad763da46013817acdd1e892545412bf01e67a5c5a5f",
+      "bytes": 228
+    },
+    "runs/dogo/cluster_07/run.log": {
+      "sha256": "d90487b5ae387db34a1b2b8614e6b6fab8753996391b7bb4d46ffdbc4f794652",
+      "bytes": 3145
+    },
+    "runs/dogo/cluster_07/state.json": {
+      "sha256": "039371ac540925ed4e90cd8e82db1ef5cdb6c7271cc48312d571bc3aa1413e1f",
+      "bytes": 13025
+    },
+    "runs/dogo/cluster_07/trace.jsonl": {
+      "sha256": "0515c2a55b5203778058cce33d0a2b470a2905ea0f0ac5d8a013812b481421bd",
+      "bytes": 46460
+    },
+    "runs/dogo/cluster_08/budget_00000.json": {
+      "sha256": "07f34037cc951be459fcd04099905ecbbb6d301f36eb6bd752e9a83242396ec6",
+      "bytes": 292
+    },
+    "runs/dogo/cluster_08/budget_00100.json": {
+      "sha256": "93cb0252ed05f4f5717821232ef035372177bdc6dc44e232be75585e483a3cfb",
+      "bytes": 300
+    },
+    "runs/dogo/cluster_08/budget_00500.json": {
+      "sha256": "7e5a6d276301ddb8385add666f352e9a5790f080b30709c7df431e079a6ef12e",
+      "bytes": 300
+    },
+    "runs/dogo/cluster_08/budget_01000.json": {
+      "sha256": "47f62f4d643beddacdc7c86b1dbcf04c3bb8bbde729974c180f0f2cf5c6b4dc0",
+      "bytes": 308
+    },
+    "runs/dogo/cluster_08/budget_02500.json": {
+      "sha256": "84bfc2304476151839263729ca42a45f7b5dd1b8cacd1e83282706ded4ed4707",
+      "bytes": 309
+    },
+    "runs/dogo/cluster_08/budget_05000.json": {
+      "sha256": "391886c395ba81df029df9d94ea2d04af56f033d48c1c714879e12c28fb47e1c",
+      "bytes": 309
+    },
+    "runs/dogo/cluster_08/config.json": {
+      "sha256": "e16887e42253ac210d1e9de8da14261f141f719b74fbe657a88ea3860f3b1167",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_08/final_cluster.json": {
+      "sha256": "c29f61735377505928908b9f92e5ee16760f6d1c882593696a17bd98d968b38d",
+      "bytes": 1681
+    },
+    "runs/dogo/cluster_08/preflight.json": {
+      "sha256": "e255786f8a99ca1c62b4f9e7a51b8efb6e3e50977ea725ef1f914c76b13a7925",
+      "bytes": 197
+    },
+    "runs/dogo/cluster_08/run.log": {
+      "sha256": "d7094859ed6198f426d17b08b9b92edb3d8056d8a6176bef42e9c24053676564",
+      "bytes": 3089
+    },
+    "runs/dogo/cluster_08/state.json": {
+      "sha256": "d4fe9d277986c8560e459925acf45c53ec3066dfbf7adf3f46816a12c244c384",
+      "bytes": 12800
+    },
+    "runs/dogo/cluster_08/trace.jsonl": {
+      "sha256": "e21142db000feb6fb864770293ea288a75f3e45862548c3b0eb396836fd48b0d",
+      "bytes": 46381
+    },
+    "runs/dogo/cluster_09/budget_00000.json": {
+      "sha256": "d1823a540350251f11dcc0f0d40de48ed3c79a95566acc093f296226172b1793",
+      "bytes": 352
+    },
+    "runs/dogo/cluster_09/budget_00100.json": {
+      "sha256": "754c14681daae315c9178926f25c680e5378759d790bcae62fbb85d034b12e6e",
+      "bytes": 370
+    },
+    "runs/dogo/cluster_09/budget_00500.json": {
+      "sha256": "229f781e6e071bd8419b710258dc5f13d9e122a454f22628ab0afa9d6a8e6000",
+      "bytes": 374
+    },
+    "runs/dogo/cluster_09/budget_01000.json": {
+      "sha256": "c6d49549e306d66f94511968b69a6b910340bdd4618a8c3617bc7b08d87546e3",
+      "bytes": 375
+    },
+    "runs/dogo/cluster_09/budget_02500.json": {
+      "sha256": "bcc3e720d565ef1e91d045834345f7fc68d6253a9e7984e752921a34d0555429",
+      "bytes": 375
+    },
+    "runs/dogo/cluster_09/budget_05000.json": {
+      "sha256": "d6315e72421cf2eba3056b7145de519c2533d262775730be8b030207a7cb61f2",
+      "bytes": 384
+    },
+    "runs/dogo/cluster_09/config.json": {
+      "sha256": "4a3c34b14be03d2774bd4004ed2aaf00e28216028e02a2d5b301f81a3ea7268b",
+      "bytes": 796
+    },
+    "runs/dogo/cluster_09/final_cluster.json": {
+      "sha256": "1c710d76a7d0c42b11a9cde78eb839e531946a0ab1203a3affc119c13db41702",
+      "bytes": 1817
+    },
+    "runs/dogo/cluster_09/preflight.json": {
+      "sha256": "e9b92ca1f3eff8fd85bc464ed71b606423ac0d2cfb2936337abdbe61b5bf4dbb",
+      "bytes": 233
+    },
+    "runs/dogo/cluster_09/run.log": {
+      "sha256": "617a10cb100c9c4f20063d50b5ee0e70050e7fc2014f2bf5aef2499e9ad89bc7",
+      "bytes": 3120
+    },
+    "runs/dogo/cluster_09/state.json": {
+      "sha256": "fb05cd03ec7743f331c92e3777ec896d462a551c2b32291ee6f72b5602ccf0a1",
+      "bytes": 12961
+    },
+    "runs/dogo/cluster_09/trace.jsonl": {
+      "sha256": "bdcd2db4211aebb6c958dccdb35d36f56e33b9173149fee20d5ceb5aac3313d8",
+      "bytes": 46462
+    },
+    "scheduler.log": {
+      "sha256": "2d5d01c878776f75942224c898308509421a2f5fcfcc2e07f5fc0d212b7b61f1",
+      "bytes": 1765
+    },
+    "smoke/banking77/cluster_00/budget_00000.json": {
+      "sha256": "f9ab60ea6a42cf820d5b3ab8136db672991a2b87eb747f0f47a76cfc81a128c2",
+      "bytes": 316
+    },
+    "smoke/banking77/cluster_00/budget_00002.json": {
+      "sha256": "08b79b2157d6f1a39879af2f83768f494826a8c152c6fff99ddf14f1a6179371",
+      "bytes": 314
+    },
+    "smoke/banking77/cluster_00/config.json": {
+      "sha256": "f6bbb1d6124eb72c7985d3bdd4a445df68f4519880a9cc9ea42ee62aca60c7d6",
+      "bytes": 797
+    },
+    "smoke/banking77/cluster_00/final_cluster.json": {
+      "sha256": "18fea6721b2b3304c2fc9a3d9e135dce8b196a08dfc5b7443ec2892045f4443c",
+      "bytes": 1651
+    },
+    "smoke/banking77/cluster_00/preflight.json": {
+      "sha256": "c67475ec58ffced95f0a147f224367439e02f51e7acf9ef1de84c363de42be6f",
+      "bytes": 203
+    },
+    "smoke/banking77/cluster_00/state.json": {
+      "sha256": "aaac105cfe690e0ac656e1c485a597fd29fc0265887efd5a996c1e35514ab5fa",
+      "bytes": 12787
+    },
+    "smoke/banking77/cluster_00/trace.jsonl": {
+      "sha256": "c8564b673deb0d6bf23757f3531ccea5d36eb057f895269ce1cbea1698040173",
+      "bytes": 457
+    },
+    "smoke.log": {
+      "sha256": "682f449ff5a8e0a6d07e618a04340fdead976b3a1a5e831a2a4703706d645126",
+      "bytes": 174
+    },
+    "smoke_verified.json": {
+      "sha256": "aeea868e7272ec1ece854f140af4bd809b601328fb6f4c2b641bbbf749782963",
+      "bytes": 223
+    },
+    "summary.json": {
+      "sha256": "20910bc7f7587ed12038c9c4fe850f2234eaef7251c5b19194ffd97f0e08d432",
+      "bytes": 5703
+    },
+    "实验报告.md": {
+      "sha256": "d4ecaba16e5acd19f44d1366e98f8144bdb91c884c75e4ff56235733566ef83a",
+      "bytes": 3411
+    },
+    "运行状态.md": {
+      "sha256": "36b8da41504eefcbf3bdd7037b36a5cf5afe344571f7825e59482d9c67238757",
+      "bytes": 682
+    },
+    "适配说明.md": {
+      "sha256": "11152fdebba47164e77a7d4c8928ab44bc3ab86e8e04c726892bf1eb4fc5ff22",
+      "bytes": 3026
+    }
+  }
+}

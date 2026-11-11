@@ -1,0 +1,92 @@
+[
+  {
+    "text": "Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000000"
+  },
+  {
+    "text": "There's a similar charge regarding my card transactions; why did it appear in my account <ACCOUNT_NUMBER_1>?",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000001"
+  },
+  {
+    "text": "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000002"
+  },
+  {
+    "text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000003"
+  },
+  {
+    "text": "Could you clarify why the money from account <ACCOUNT_NUMBER_1> hasn't turned up in my balance yet?",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000004"
+  },
+  {
+    "text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000005"
+  },
+  {
+    "text": "I spotted a payment to the incorrect account number <ACCOUNT_NUMBER_1>, please assist.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000006"
+  },
+  {
+    "text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000007"
+  },
+  {
+    "text": "However, could you guide me in reactivating a card for account <ACCOUNT_NUMBER_1> now?",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000008"
+  },
+  {
+    "text": "Could you inform me how to cancel the transaction for account <ACCOUNT_NUMBER_1>?",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000009"
+  },
+  {
+    "text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000010"
+  },
+  {
+    "text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I unfortunately haven't received.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000011"
+  },
+  {
+    "text": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000012"
+  },
+  {
+    "text": "Can you confirm why a currency exchange fee was given on my account <ACCOUNT_NUMBER_1>?",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000013"
+  },
+  {
+    "text": "Perhaps the card payment has been declined? Can you give me info on why for account <ACCOUNT_NUMBER_1>?",
+    "source_id": null,
+    "category": null,
+    "marker": "CACHE_ENTRY::banking77::constructed_only::000014"
+  }
+]

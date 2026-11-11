@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "i'possibly trying temporarily? what done fails with the top - up supposed indicates <ACCOUNT_NUMBER_1> via card <CREDIT_CARD_1> .",
+    "full_cluster_mean_cosine": 0.8926856517791748,
+    "selected_at_iteration": 100
+  },
+  "accepted_updates": 20,
+  "active_seconds": 11.375371299684048,
+  "heldout_loaded": false
+}

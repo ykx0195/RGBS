@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 500,
+  "selected": {
+    "text": "my iphone screen was cracked fixed whilst also need broken fix around. you en reach me regarding <PHONE_NUMBER_1> specifically <EMAIL_ADDRESS_1> phone",
+    "full_cluster_mean_cosine": 0.921809196472168,
+    "selected_at_iteration": 326
+  },
+  "accepted_updates": 57,
+  "active_seconds": 57.020798586308956,
+  "heldout_loaded": false
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "official_core_ast_identical": true,
+  "test_data_loaded": false,
+  "api_calls": 0,
+  "checks": [
+    {
+      "dataset": "banking77",
+      "initial_cache_max_abs_delta": 6.705522537231445e-08,
+      "forward_gradient_paths_agree": true,
+      "placeholder_preserving_candidate_checks": 100,
+      "finite_difference_relative_error": 1.5832008682557118e-05
+    },
+    {
+      "dataset": "abcd",
+      "initial_cache_max_abs_delta": 7.82310962677002e-08,
+      "forward_gradient_paths_agree": true,
+      "placeholder_preserving_candidate_checks": 100,
+      "finite_difference_relative_error": 0.005896049293633371
+    },
+    {
+      "dataset": "dogo",
+      "initial_cache_max_abs_delta": 5.960464477539063e-08,
+      "forward_gradient_paths_agree": true,
+      "placeholder_preserving_candidate_checks": 100,
+      "finite_difference_relative_error": 0.003038145819606294
+    }
+  ]
+}

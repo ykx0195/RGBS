@@ -1,0 +1,3119 @@
+{
+  "pairs": [
+    {
+      "pair_id": "case-000017",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you provide the status of my card order for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000027",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Is there a tracking option for the card you sent to account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000031",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please reactivate card <CREDIT_CARD_1> for me."
+    },
+    {
+      "pair_id": "case-000032",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Where should I go to link my new card <CREDIT_CARD_1> to account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000033",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you assist me with putting my new card into the app for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000034",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Is it possible to add my old card back to account <ACCOUNT_NUMBER_1>? I found it."
+    },
+    {
+      "pair_id": "case-000035",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How can I reactivate the card I misplaced but now found for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000036",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I have my card again; how do I add it to the app for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000037",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How do I sync my newly received card with the app for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000038",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I've found my card <CREDIT_CARD_1>; can you reactivate it for me?"
+    },
+    {
+      "pair_id": "case-000039",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How do I associate card <CREDIT_CARD_1> with account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000041",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please tell me how to link my current card to account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000042",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you guide me through linking my card to account number <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000043",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Where can I find the option to link my card to account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000044",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How do I link a new card with account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000045",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Is there a way to link my old card <CREDIT_CARD_1> to account <ACCOUNT_NUMBER_1> in the app?"
+    },
+    {
+      "pair_id": "case-000047",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you reactivate my card <CREDIT_CARD_1>? It had been lost, but I located it in my jacket this morning."
+    },
+    {
+      "pair_id": "case-000048",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I've got an existing card from you; what steps do I take to link card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000049",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Is it possible to add another card to my account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000050",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I made a purchase in a foreign currency, but the exchange rate applied to account <ACCOUNT_NUMBER_1> seems incorrect."
+    },
+    {
+      "pair_id": "case-000051",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "For account <ACCOUNT_NUMBER_1>, the exchange rate used on the card payment doesn't look right."
+    },
+    {
+      "pair_id": "case-000052",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed that the currency conversion rate for a purchase I made abroad was incorrect on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000053",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My purchase from account <ACCOUNT_NUMBER_1> was processed with an incorrect exchange rate."
+    },
+    {
+      "pair_id": "case-000054",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Are you sure you're using the right exchange rate? The rate on my account <ACCOUNT_NUMBER_1> is too low."
+    },
+    {
+      "pair_id": "case-000055",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "After buying something, I noticed the currency conversion for account <ACCOUNT_NUMBER_1> appears wrong."
+    },
+    {
+      "pair_id": "case-000056",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I think the rate applied to my overseas transaction was wrong on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000057",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I made a purchase in a foreign currency using account <ACCOUNT_NUMBER_1>, but the exchange rate they applied seems wrong."
+    },
+    {
+      "pair_id": "case-000058",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I swapped Rubles for pounds, but the exchange rate on account <ACCOUNT_NUMBER_1> was not right and I was overcharged."
+    },
+    {
+      "pair_id": "case-000059",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My purchase from account <ACCOUNT_NUMBER_1> was processed at an exchange rate that was not right."
+    },
+    {
+      "pair_id": "case-000060",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "The exchange rate applied to my card payment from account <ACCOUNT_NUMBER_1> is wrong."
+    },
+    {
+      "pair_id": "case-000061",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "The exchange rate used for my purchase was wrong on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000062",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why did the exchange rate on my foreign purchase from account <ACCOUNT_NUMBER_1> come out wrong?"
+    },
+    {
+      "pair_id": "case-000063",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed the exchange rate was wrong after buying something with account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000064",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I made an overseas purchase and the statement shows an incorrect exchange rate for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000065",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My transaction last Saturday used a wrong exchange rate, so I got charged extra on account <ACCOUNT_NUMBER_1>. Please fix it."
+    },
+    {
+      "pair_id": "case-000066",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I think the exchange rate on my card payment from account <ACCOUNT_NUMBER_1> is not right."
+    },
+    {
+      "pair_id": "case-000067",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why did my account <ACCOUNT_NUMBER_1> get charged an additional fee?"
+    },
+    {
+      "pair_id": "case-000068",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I bought something and the exchange rate applied to my purchase was wrong for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000069",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "The exchange rate used for my card payment on account <ACCOUNT_NUMBER_1> doesn't look right."
+    },
+    {
+      "pair_id": "case-000070",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I was charged more than expected for a purchase last Saturday. Was the exchange rate applied to account <ACCOUNT_NUMBER_1> correct?"
+    },
+    {
+      "pair_id": "case-000071",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> shows a purchase with an exchange rate that is not correct."
+    },
+    {
+      "pair_id": "case-000072",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My card payment's exchange rate appears to be off for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000073",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My payment from last Saturday was overcharged, probably because an incorrect exchange rate was applied to account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000074",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "This transaction's exchange rate seems wrong on my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000075",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I was given an incorrect exchange rate after buying something with account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000076",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "The exchange rate used for my purchase was wrong, and it affected account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000077",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I've noticed the conversion value for card payments from account <ACCOUNT_NUMBER_1> is incorrect."
+    },
+    {
+      "pair_id": "case-000078",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I bought something in a foreign currency and the exchange rate applied was incorrect for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000079",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I paid for something in a foreign currency using account <ACCOUNT_NUMBER_1> and the exchange rate applied is wrong."
+    },
+    {
+      "pair_id": "case-000080",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I made a foreign purchase and the exchange rate applied was incorrect on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000081",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "The exchange rate applied to my last purchase seems off. Can you check account <ACCOUNT_NUMBER_1> for the details?"
+    },
+    {
+      "pair_id": "case-000082",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why did I get an incorrect exchange rate on my purchase from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000083",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to know how to see the exchange rate used for a card payment from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000084",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "The exchange rate applied to my card payment on account <ACCOUNT_NUMBER_1> is completely incorrect."
+    },
+    {
+      "pair_id": "case-000085",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "An item I purchased in another currency got an incorrect rate. Could you correct it on account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000086",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed the wrong exchange rate was used for my transaction abroad on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000087",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "A charge of one dollar has shown up on my card <CREDIT_CARD_1> statement."
+    },
+    {
+      "pair_id": "case-000088",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why did I get a fee for an extra pound on the statement associated with account <ACCOUNT_NUMBER_1> and card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000089",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My statement shows a fee for card <CREDIT_CARD_1>, and I'm not okay with that charge."
+    },
+    {
+      "pair_id": "case-000090",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why did my card <CREDIT_CARD_1> get charged an additional dollar?"
+    },
+    {
+      "pair_id": "case-000091",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain this unrecognized fee on my statement for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000092",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What is this unexpected $1 charge on my card <CREDIT_CARD_1> for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000093",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain the $1 charge on my statement for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000094",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see extra charges on the statement for account <ACCOUNT_NUMBER_1>; can you explain them?"
+    },
+    {
+      "pair_id": "case-000095",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "A 1£ amount appears on my statement for account <ACCOUNT_NUMBER_1> even though I don't recall any such purchase. Could you explain this charge?"
+    },
+    {
+      "pair_id": "case-000096",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My app shows a £1 charge I didn't expect. What is this extra charge on account <ACCOUNT_NUMBER_1> for?"
+    },
+    {
+      "pair_id": "case-000097",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me the reason for a $1 charge on the statement of card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000098",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain the source of this fee that appeared on account <ACCOUNT_NUMBER_1> after I used card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000099",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why does my card <CREDIT_CARD_1> statement show an extra $1 charge?"
+    },
+    {
+      "pair_id": "case-000100",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain why card <CREDIT_CARD_1> has an extra €1 charge on my statement?"
+    },
+    {
+      "pair_id": "case-000101",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you explain why my card <CREDIT_CARD_1> has an extra 1 pound fee?"
+    },
+    {
+      "pair_id": "case-000102",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I don't understand why there are so many fees on my account <ACCOUNT_NUMBER_1> statement."
+    },
+    {
+      "pair_id": "case-000103",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me why I'm seeing an additional fee on the statement for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000104",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain the 1 euro charge that appeared on my statement for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000105",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed a €1 fee on my statement that shouldn't be there, and it's on card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000106",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed a 1 euro charge on the statement of account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000107",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's a pound overcharge on my account <ACCOUNT_NUMBER_1>. Can you explain it?"
+    },
+    {
+      "pair_id": "case-000108",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed an extra pound charge on my card <CREDIT_CARD_1> that seems like an error."
+    },
+    {
+      "pair_id": "case-000109",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's an unexplained extra charge on my statement for card <CREDIT_CARD_1>; what is it for?"
+    },
+    {
+      "pair_id": "case-000110",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's an unanticipated fee on account <ACCOUNT_NUMBER_1> that I never agreed to or knew about."
+    },
+    {
+      "pair_id": "case-000111",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's an extra charge on my card <CREDIT_CARD_1> statement. What is that for?"
+    },
+    {
+      "pair_id": "case-000112",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain this €1 fee appearing in my statement for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000113",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I just opened my account and saw an unfamiliar charge on my app with card <CREDIT_CARD_1>; can you explain why it's there?"
+    },
+    {
+      "pair_id": "case-000114",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed my card <CREDIT_CARD_1> was charged an extra dollar for some reason."
+    },
+    {
+      "pair_id": "case-000115",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain why $1 was charged to my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000116",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I have a £1 charge on card <CREDIT_CARD_1> that won't go away from the statement view on the app. It's stuck as \"Pending\" for two days now; can you investigate account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000117",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain the extra charge on my card <CREDIT_CARD_1> statement?"
+    },
+    {
+      "pair_id": "case-000118",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I was charged an extra $1 on card <CREDIT_CARD_1>, and it shows on my statement. What's the reason?"
+    },
+    {
+      "pair_id": "case-000119",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see an unexpected €1 charge on my statement; could you clarify what it is for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000120",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why hasn't the $1.00 charge on my card <CREDIT_CARD_1> been reversed after two weeks? Please review account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000121",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you look into why there's an extra fee on my statement for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000122",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My withdrawal from account <ACCOUNT_NUMBER_1> with card <CREDIT_CARD_1> is still pending. Why?"
+    },
+    {
+      "pair_id": "case-000123",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My card <CREDIT_CARD_1> was rejected at an ATM today, and the transaction appears as pending. I never received the money, so please cancel the pending transaction."
+    },
+    {
+      "pair_id": "case-000124",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My card <CREDIT_CARD_1> shows a cash withdrawal that is still pending."
+    },
+    {
+      "pair_id": "case-000131",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My cash withdrawal from account <ACCOUNT_NUMBER_1> is still showing as pending."
+    },
+    {
+      "pair_id": "case-000132",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I withdrew cash using card <CREDIT_CARD_1>, and it's showing as a pending transaction on account <ACCOUNT_NUMBER_1>. What's going on?"
+    },
+    {
+      "pair_id": "case-000133",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The cash machine wasn't working when I tried to withdraw, but the transaction is still showing as pending. Please check account <ACCOUNT_NUMBER_1> and ensure I'm not charged for money that wasn't dispensed."
+    },
+    {
+      "pair_id": "case-000134",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My card <CREDIT_CARD_1> didn't work at the city centre theatre ATM and I received no cash, yet the transaction appears as pending in my account. What does that indicate?"
+    },
+    {
+      "pair_id": "case-000136",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "When I tried to get cash with card <CREDIT_CARD_1>, the transaction didn't go through, but I see it's still in progress. Can you explain?"
+    },
+    {
+      "pair_id": "case-000149",
+      "key_text": "How do I unblock my card for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me how to remove the block from my card <CREDIT_CARD_1> through the app?"
+    },
+    {
+      "pair_id": "case-000202",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you guide me through unlocking the PIN for my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000203",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Where do I find the PIN associated with card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000204",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Please reactivate the PIN on my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000205",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "My PIN for card <CREDIT_CARD_1> got blocked by mistake. What steps should I take to reset it?"
+    },
+    {
+      "pair_id": "case-000206",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I need to unblock the PIN on my card <CREDIT_CARD_1> after too many incorrect attempts. How do I do that?"
+    },
+    {
+      "pair_id": "case-000207",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "After too many incorrect PIN attempts, card <CREDIT_CARD_1> is now blocked. Can you tell me how to unblock it?"
+    },
+    {
+      "pair_id": "case-000208",
+      "key_text": "How do I unblock my card for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you help me unblock card <CREDIT_CARD_1>? I blocked it while drunk."
+    },
+    {
+      "pair_id": "case-000209",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I can't use my card <CREDIT_CARD_1>; how can I reset its PIN?"
+    },
+    {
+      "pair_id": "case-000210",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I entered the wrong PIN too many times and got locked out, so could you help me unblock my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000211",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "My PIN for card <CREDIT_CARD_1> is blocked. What should I do to make it usable?"
+    },
+    {
+      "pair_id": "case-000212",
+      "key_text": "How do I unblock my card for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What steps do I need to take to unblock the pin on card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000213",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "The ATM is not accepting my PIN for card <CREDIT_CARD_1>. What is the next step?"
+    },
+    {
+      "pair_id": "case-000214",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Please unlock the PIN for my card <CREDIT_CARD_1> after too many incorrect attempts."
+    },
+    {
+      "pair_id": "case-000215",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "What steps should I take for a blocked PIN with my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000216",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "My card <CREDIT_CARD_1> got retained by the machine because I was too intoxicated to enter the PIN properly. What's the timeline for getting it back?"
+    },
+    {
+      "pair_id": "case-000217",
+      "key_text": "How do I unblock my card for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to know if I can unblock card <CREDIT_CARD_1> using the app."
+    },
+    {
+      "pair_id": "case-000218",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "What steps should I take to unlock the PIN on card <CREDIT_CARD_1> after multiple failed attempts?"
+    },
+    {
+      "pair_id": "case-000219",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I need assistance because my card <CREDIT_CARD_1> is blocked due to a forgotten PIN."
+    },
+    {
+      "pair_id": "case-000220",
+      "key_text": "How do I unblock my card for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I can't access my account because it's blocked; what should I do to log in using card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000222",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "My card <CREDIT_CARD_1> has a blocked PIN; can you unlock it?"
+    },
+    {
+      "pair_id": "case-000223",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Could you help me unblock the PIN for my card <CREDIT_CARD_1>? I entered it incorrectly several times."
+    },
+    {
+      "pair_id": "case-000224",
+      "key_text": "How do I unblock my card for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "After too many incorrect PIN attempts, my card <CREDIT_CARD_1> is now blocked. Please help me unblock it."
+    },
+    {
+      "pair_id": "case-000225",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I think my PIN is blocked. Please unblock card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000226",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I need my PIN unblocked on card <CREDIT_CARD_1> due to multiple incorrect entries."
+    },
+    {
+      "pair_id": "case-000227",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Could you help me unblock the PIN for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000228",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "The PIN on my card <CREDIT_CARD_1> is blocked. What do I need to do to fix this?"
+    },
+    {
+      "pair_id": "case-000229",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "How do I get my PIN working again for card number <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000230",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Could you tell me how to reset my card <CREDIT_CARD_1> PIN?"
+    },
+    {
+      "pair_id": "case-000231",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Could you help me unblock the PIN associated with card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000232",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "How can I get the PIN unblocked for card number <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000234",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you tell me how to unlock the PIN on my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000235",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "My PIN is blocked; would you assist me in unblocking it for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000236",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "The PIN for my card <CREDIT_CARD_1> isn't functioning; can you assist me?"
+    },
+    {
+      "pair_id": "case-000237",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "How can I get my PIN unblocked for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000242",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My card <CREDIT_CARD_1> was topped up this morning, but I can't see the money. What went wrong?"
+    },
+    {
+      "pair_id": "case-000243",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "There's a delay with the top-up I made to account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000244",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Why is my top up with card <CREDIT_CARD_1> still pending for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000245",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Card <CREDIT_CARD_1> top-up is pending; can you check on it?"
+    },
+    {
+      "pair_id": "case-000246",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Why is my top-up still pending on account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000247",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I topped up earlier, but account <ACCOUNT_NUMBER_1> still doesn't show the funds. What could be wrong?"
+    },
+    {
+      "pair_id": "case-000248",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Why is my top-up from account <ACCOUNT_NUMBER_1> still showing as pending? I use your system all the time."
+    },
+    {
+      "pair_id": "case-000249",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My account <ACCOUNT_NUMBER_1> still shows no processed top-up."
+    },
+    {
+      "pair_id": "case-000250",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top up didn't complete even though I used card <CREDIT_CARD_1> and chose account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000252",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I topped up using card <CREDIT_CARD_1> more than three hours ago, but the payment is still pending. Could you look into it?"
+    },
+    {
+      "pair_id": "case-000253",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you explain why my top-up from account <ACCOUNT_NUMBER_1> is pending? I've never encountered this before."
+    },
+    {
+      "pair_id": "case-000254",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top up still hasn't gone through on account <ACCOUNT_NUMBER_1>—why is that?"
+    },
+    {
+      "pair_id": "case-000255",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I used card <CREDIT_CARD_1> to top up some time ago, but it's still pending. Isn't it supposed to be done already?"
+    },
+    {
+      "pair_id": "case-000256",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top-up hasn't gone through yet. Can you check account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000257",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I attempted a top up with card <CREDIT_CARD_1>, but it did not go through."
+    },
+    {
+      "pair_id": "case-000258",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I just topped up my card, but the balance hasn't changed on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000259",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top up with card number <CREDIT_CARD_1> is showing as pending. Why?"
+    },
+    {
+      "pair_id": "case-000260",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I tried to top up account <ACCOUNT_NUMBER_1>, but it's still pending after an hour."
+    },
+    {
+      "pair_id": "case-000261",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Why hasn't my top-up cleared on account <ACCOUNT_NUMBER_1>? It's still showing as outstanding."
+    },
+    {
+      "pair_id": "case-000262",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top up I did with card <CREDIT_CARD_1> still says pending. What does that indicate?"
+    },
+    {
+      "pair_id": "case-000263",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top up from account <ACCOUNT_NUMBER_1> is still pending after a couple hours."
+    },
+    {
+      "pair_id": "case-000264",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top-up with card <CREDIT_CARD_1> appears not to have completed."
+    },
+    {
+      "pair_id": "case-000265",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top-up I made from card <CREDIT_CARD_1> hasn't arrived. Where is the money I added?"
+    },
+    {
+      "pair_id": "case-000266",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you check why the top-up from my card <CREDIT_CARD_1> hasn't been completed yet?"
+    },
+    {
+      "pair_id": "case-000267",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I am waiting for my top-up to finish; can you tell me when it will process for card <CREDIT_CARD_1> and account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000268",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I've never had problems before, but the top-up I made using card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1> just keeps showing pending."
+    },
+    {
+      "pair_id": "case-000269",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I added money but it's showing as pending on account <ACCOUNT_NUMBER_1>. Since I want to buy something immediately, how do I resolve this?"
+    },
+    {
+      "pair_id": "case-000270",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "This morning I transferred money from account <ACCOUNT_NUMBER_1> to <PERSON_1>, and I'd like to undo it."
+    },
+    {
+      "pair_id": "case-000271",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How do I cancel a transaction on account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000272",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My transaction went to <PERSON_1> instead of the intended account, so I want to cancel it."
+    },
+    {
+      "pair_id": "case-000273",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please stop the transfer to <PERSON_1> that I made with the incorrect account number since the app won't allow me to cancel it."
+    },
+    {
+      "pair_id": "case-000274",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please revert the payment I sent this morning from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000276",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I want to cancel a transfer from account <ACCOUNT_NUMBER_1> as soon as possible. Please assist."
+    },
+    {
+      "pair_id": "case-000277",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need to cancel my transaction on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000278",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you reverse the transaction I sent to <PERSON_1> a while ago?"
+    },
+    {
+      "pair_id": "case-000279",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I want to cancel the transfer from account <ACCOUNT_NUMBER_1> that went through this morning."
+    },
+    {
+      "pair_id": "case-000280",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you cancel the transfer I set up from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000281",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I made a transfer to <PERSON_1> with an incorrect amount and want it canceled."
+    },
+    {
+      "pair_id": "case-000282",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I transferred to <PERSON_1> from account <ACCOUNT_NUMBER_1> by mistake; what can I do now?"
+    },
+    {
+      "pair_id": "case-000283",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What steps should I take to cancel a transfer from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000284",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need to cancel a transaction I made by mistake with account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000285",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I made a transfer to an account that isn't <PERSON_1>'s and want to cancel it."
+    },
+    {
+      "pair_id": "case-000286",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I mistakenly sent a transfer to <PERSON_1> and need it cancelled before it processes."
+    },
+    {
+      "pair_id": "case-000287",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you cancel the transfer I executed this morning from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000288",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me how to cancel my transaction with <PERSON_1>?"
+    },
+    {
+      "pair_id": "case-000289",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need to cancel the transaction associated with account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000290",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you urgently cancel the transfer to <PERSON_1>? I didn't mean to send it."
+    },
+    {
+      "pair_id": "case-000291",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need to cancel a transfer I made by mistake from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000292",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I want to cancel the last transaction sent from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000293",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need to stop a transfer from account <ACCOUNT_NUMBER_1> right away because I made an error."
+    },
+    {
+      "pair_id": "case-000294",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need to cancel the transfer that was going to <PERSON_1>."
+    },
+    {
+      "pair_id": "case-000295",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please cancel the transaction to <PERSON_1>; I don't want it to go through now."
+    },
+    {
+      "pair_id": "case-000296",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How do I cancel a payment from account <ACCOUNT_NUMBER_1> that I made with an incorrect amount?"
+    },
+    {
+      "pair_id": "case-000297",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Help me cancel a transaction on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000311",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's an extra charge on my account <ACCOUNT_NUMBER_1> after I paid with card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000312",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I used my card <CREDIT_CARD_1> and then noticed a fee was charged, but it wasn't supposed to happen."
+    },
+    {
+      "pair_id": "case-000314",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I used my card and now I see an additional fee on account <ACCOUNT_NUMBER_1>; why did that happen?"
+    },
+    {
+      "pair_id": "case-000315",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "After using card <CREDIT_CARD_1> for a transaction, I noticed a fee charged to account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000316",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's a charge on my card <CREDIT_CARD_1> that I didn't expect. Could you look into account <ACCOUNT_NUMBER_1> and clarify why it was added?"
+    },
+    {
+      "pair_id": "case-000317",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What caused the extra fee on my card payment for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000318",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain the extra charge on account <ACCOUNT_NUMBER_1> for using my card?"
+    },
+    {
+      "pair_id": "case-000319",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain the additional fee on my card <CREDIT_CARD_1> payment?"
+    },
+    {
+      "pair_id": "case-000320",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I used my card <CREDIT_CARD_1> to make a payment and now a fee appears. What is it for?"
+    },
+    {
+      "pair_id": "case-000321",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> shows a fee for a card payment I made."
+    },
+    {
+      "pair_id": "case-000322",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I paid with card and noticed a fee on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000323",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "When I paid by card, I noticed a fee was added to my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000324",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I got charged a fee for using my card to pay from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000325",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "This is the first time I've seen a fee on my account; how do I know when you charge such fees to card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000326",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There was an unexpected charge on a payment using my card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1> that I was never made aware of."
+    },
+    {
+      "pair_id": "case-000327",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "After I paid using card <CREDIT_CARD_1>, a separate fee was deducted from account <ACCOUNT_NUMBER_1>. Can you explain why?"
+    },
+    {
+      "pair_id": "case-000328",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why did paying with my card incur a fee on account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000329",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain the fee that appeared on my account for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000330",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain why I was charged a fee when I paid with card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000331",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed a card payment fee on account <ACCOUNT_NUMBER_1>; what's it for?"
+    },
+    {
+      "pair_id": "case-000332",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "A fee was added because I paid with card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000361",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you help me find the virtual card associated with account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000363",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you help me get a virtual card for my account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000364",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How would I go about getting the virtual card for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000365",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to get one of those virtual cards for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000366",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I need a refund because my top-up was cancelled, and it was paid with card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000367",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "What should I do if a top up from account <ACCOUNT_NUMBER_1> gets reverted?"
+    },
+    {
+      "pair_id": "case-000368",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Could you tell me if the top up made with card <CREDIT_CARD_1> has reverted?"
+    },
+    {
+      "pair_id": "case-000369",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I seem to have topped up twice without meaning to. Could you please help me get a refund for the extra payment on account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000370",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you check if the top up on my account <ACCOUNT_NUMBER_1> was actually reverted?"
+    },
+    {
+      "pair_id": "case-000371",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "After topping up, I saw a confirmation, yet the balance no longer shows the funds. Where did my money go after using card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000372",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I think my top up failed using card <CREDIT_CARD_1>. Did something go wrong on your side?"
+    },
+    {
+      "pair_id": "case-000373",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top-up I made into account <ACCOUNT_NUMBER_1> was reverted. Why did that happen?"
+    },
+    {
+      "pair_id": "case-000374",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Please tell me if the top-up for account <ACCOUNT_NUMBER_1> got cancelled."
+    },
+    {
+      "pair_id": "case-000375",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I noticed my top-up was reversed on account <ACCOUNT_NUMBER_1> after I used card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000376",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top-up was reverted by the application with card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000377",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top-up from account <ACCOUNT_NUMBER_1> was cancelled, I think."
+    },
+    {
+      "pair_id": "case-000378",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top up I made using card <CREDIT_CARD_1> was reverted by the app."
+    },
+    {
+      "pair_id": "case-000379",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top-up isn't there anymore. Was the money returned to account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000380",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "What happened to my top-up made with card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000381",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Why did my top up via card <CREDIT_CARD_1> end up reverted?"
+    },
+    {
+      "pair_id": "case-000382",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top-up was canceled for account <ACCOUNT_NUMBER_1>; what happened?"
+    },
+    {
+      "pair_id": "case-000383",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top up was reverted by the app, and it was funded using card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000384",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Is it true that my top up for account <ACCOUNT_NUMBER_1> got reversed?"
+    },
+    {
+      "pair_id": "case-000385",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I noticed my top-up got canceled, but what was the reason for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000386",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Could you tell me whether the top-up on card <CREDIT_CARD_1> has been reversed?"
+    },
+    {
+      "pair_id": "case-000387",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Has the top-up I made from account <ACCOUNT_NUMBER_1> been cancelled?"
+    },
+    {
+      "pair_id": "case-000388",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top-up on my account <ACCOUNT_NUMBER_1> was reverted."
+    },
+    {
+      "pair_id": "case-000389",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I topped up with card <CREDIT_CARD_1>, but the app reverted that transaction."
+    },
+    {
+      "pair_id": "case-000390",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Has my top-up been reverted from account <ACCOUNT_NUMBER_1> with card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000391",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I'm really frustrated because my top-up was canceled without any explanation, and it involved account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000392",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top-up was reverted from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000393",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I noticed my latest top-up wasn't successful for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000394",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top-up on my account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1> was reverted; why did that happen?"
+    },
+    {
+      "pair_id": "case-000395",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I deposited a cheque yesterday, but it seems the balance hasn't been updated. Please review account <ACCOUNT_NUMBER_1> and let me know what's happening."
+    },
+    {
+      "pair_id": "case-000396",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "Can you tell me why the deposit isn't reflected in account <ACCOUNT_NUMBER_1> yet?"
+    },
+    {
+      "pair_id": "case-000397",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "Why is account <ACCOUNT_NUMBER_1> not showing the updated balance after my cheque deposit?"
+    },
+    {
+      "pair_id": "case-000398",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "My deposit from a week ago hasn't appeared in account <ACCOUNT_NUMBER_1> yet, and I really need access to that cash now."
+    },
+    {
+      "pair_id": "case-000399",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "It's been nearly a week since I made a cash deposit to account <ACCOUNT_NUMBER_1>, and the funds are still not showing. Can you fix this immediately? I really need that money."
+    },
+    {
+      "pair_id": "case-000400",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "There's no sign of my cash deposit in account <ACCOUNT_NUMBER_1>. What happened to it?"
+    },
+    {
+      "pair_id": "case-000401",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "After depositing cash this morning, how long until it appears in my available balance for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000402",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I made a cash deposit this morning and it hasn't been credited to account <ACCOUNT_NUMBER_1> yet."
+    },
+    {
+      "pair_id": "case-000403",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "Can you tell me why the funds from my cheque deposit aren't showing in account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000404",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I deposited cash at the bank, but it's not appearing in my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000405",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "After depositing cheques and cash, my account <ACCOUNT_NUMBER_1> still shows the old balance."
+    },
+    {
+      "pair_id": "case-000406",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I made a deposit this morning, yet the funds are not reflected in account <ACCOUNT_NUMBER_1> yet."
+    },
+    {
+      "pair_id": "case-000408",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I put money into account <ACCOUNT_NUMBER_1> and it's still not showing up."
+    },
+    {
+      "pair_id": "case-000409",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "Is it possible to deposit a cheque into my account <ACCOUNT_NUMBER_1>? Mine didn't seem to work."
+    },
+    {
+      "pair_id": "case-000410",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I deposited a cheque but my balance on account <ACCOUNT_NUMBER_1> hasn't changed."
+    },
+    {
+      "pair_id": "case-000411",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> hasn't been updated after my cash deposit yet."
+    },
+    {
+      "pair_id": "case-000412",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "It's been a couple of days since I deposited a cheque, but account <ACCOUNT_NUMBER_1> still doesn't reflect it. Could you find out what the problem might be?"
+    },
+    {
+      "pair_id": "case-000415",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "The cash I deposited into account <ACCOUNT_NUMBER_1> seven days ago hasn't appeared. I need that money urgently—what's the fastest you can sort this out?"
+    },
+    {
+      "pair_id": "case-000416",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "My balance still doesn't reflect the cash or cheque deposit I made to account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000417",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "The cash I deposited isn't showing up in account <ACCOUNT_NUMBER_1>. Why is that?"
+    },
+    {
+      "pair_id": "case-000418",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> still doesn't reflect the cash and check deposit I made."
+    },
+    {
+      "pair_id": "case-000421",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I deposited a cheque into account <ACCOUNT_NUMBER_1>, but the balance hasn't been updated yet."
+    },
+    {
+      "pair_id": "case-000422",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I deposited a cheque into account <ACCOUNT_NUMBER_1> and it hasn't posted yet; when will my balance update?"
+    },
+    {
+      "pair_id": "case-000423",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "My cash deposit to account <ACCOUNT_NUMBER_1> still hasn't shown up in the balance."
+    },
+    {
+      "pair_id": "case-000424",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "My account hasn't reflected the cheque I deposited a few days ago. Can you please investigate account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000425",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "Is the check I deposited available in account <ACCOUNT_NUMBER_1> yet? I want to get the cash."
+    },
+    {
+      "pair_id": "case-000426",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "Why hasn't my cash deposit shown up yet? I deposited into account <ACCOUNT_NUMBER_1> and this is unacceptable—I need that money immediately."
+    },
+    {
+      "pair_id": "case-000427",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "Cash went into account <ACCOUNT_NUMBER_1> this morning, and I'm still waiting for the balance to reflect it."
+    },
+    {
+      "pair_id": "case-000428",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "After depositing a cheque or cash, my account <ACCOUNT_NUMBER_1> balance still hasn't changed."
+    },
+    {
+      "pair_id": "case-000429",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "The cash I put into account <ACCOUNT_NUMBER_1> isn't showing up yet."
+    },
+    {
+      "pair_id": "case-000430",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I deposited a cheque two days ago and nothing has been credited to account <ACCOUNT_NUMBER_1> yet. This is unacceptable."
+    },
+    {
+      "pair_id": "case-000432",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's a charge showing in my app that I don't recognize on account <ACCOUNT_NUMBER_1>. What should I do?"
+    },
+    {
+      "pair_id": "case-000434",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I spotted a payment on my account <ACCOUNT_NUMBER_1> that I didn't approve."
+    },
+    {
+      "pair_id": "case-000435",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I have no memory of that transaction on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000436",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's a payment I don't recognize on my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000437",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "A transaction on account <ACCOUNT_NUMBER_1> wasn't authorized by me."
+    },
+    {
+      "pair_id": "case-000439",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I can see a card payment on account <ACCOUNT_NUMBER_1> that I don't recognize."
+    },
+    {
+      "pair_id": "case-000440",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see a transaction on account <ACCOUNT_NUMBER_1> made by card <CREDIT_CARD_1> that I don't recognise."
+    },
+    {
+      "pair_id": "case-000442",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's a charge on my account <ACCOUNT_NUMBER_1> that I don't recognize, and I need help with it."
+    },
+    {
+      "pair_id": "case-000444",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I don't recognize a payment that was made from account <ACCOUNT_NUMBER_1> using my card."
+    },
+    {
+      "pair_id": "case-000445",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I found a purchase I didn't make on my card <CREDIT_CARD_1>, and the money was taken from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000446",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "A payment in the app for account <ACCOUNT_NUMBER_1> was not made by me."
+    },
+    {
+      "pair_id": "case-000447",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see a transaction on my card <CREDIT_CARD_1> and I don't know where it came from."
+    },
+    {
+      "pair_id": "case-000448",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed an unrecognized charge on my account <ACCOUNT_NUMBER_1> and I'm worried it might be compromised."
+    },
+    {
+      "pair_id": "case-000449",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see a purchase on my account <ACCOUNT_NUMBER_1> from card <CREDIT_CARD_1> that wasn't me."
+    },
+    {
+      "pair_id": "case-000450",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I don't recognize a recent charge on my card, and I've never seen that company name before. Could you investigate this for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000452",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "A fraudulent charge appeared on my statement for card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000453",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you clarify a transaction on my account that I never authorized? It involves card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000454",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I am struggling to verify my identity as <PERSON_1>."
+    },
+    {
+      "pair_id": "case-000456",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I am unable to verify my identity through phone number <PHONE_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000457",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "As <PERSON_1>, I'm unable to complete the ID verification process."
+    },
+    {
+      "pair_id": "case-000458",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please help me verify my identity associated with customer ID <CUSTOMER_ID_1>."
+    },
+    {
+      "pair_id": "case-000459",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I can't verify my identity as <PERSON_1>."
+    },
+    {
+      "pair_id": "case-000460",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'm having trouble verifying my identity as <PERSON_1>."
+    },
+    {
+      "pair_id": "case-000461",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'm having issues confirming my identity under the name <PERSON_1>."
+    },
+    {
+      "pair_id": "case-000462",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I can't verify my identity with the phone number <PHONE_NUMBER_1> you have on file."
+    },
+    {
+      "pair_id": "case-000463",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I can't get my identity verified for the address <STREET_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-000464",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I am unable to verify my identity on the account associated with <EMAIL_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-000465",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I tried verifying my ID associated with <EMAIL_ADDRESS_1>, but the system won't let me."
+    },
+    {
+      "pair_id": "case-000466",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain how to verify my identity using <EMAIL_ADDRESS_1>?"
+    },
+    {
+      "pair_id": "case-000467",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'm struggling to verify my identity under <PERSON_1> and customer ID <CUSTOMER_ID_1>."
+    },
+    {
+      "pair_id": "case-000469",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "As <PERSON_1>, I'm running into trouble getting my identity verified."
+    },
+    {
+      "pair_id": "case-000470",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why can't I get my ID verified for the account associated with <EMAIL_ADDRESS_1>?"
+    },
+    {
+      "pair_id": "case-000471",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I am having trouble verifying my identity as <PERSON_1>."
+    },
+    {
+      "pair_id": "case-000472",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why am I unable to verify my identity as <PERSON_1> with customer ID <CUSTOMER_ID_1>?"
+    },
+    {
+      "pair_id": "case-000473",
+      "key_text": "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's an issue with verifying my identity, even with <PERSON_1> on the account."
+    },
+    {
+      "pair_id": "case-000474",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'm unable to locate my PIN, and I'm seeking guidance for my account associated with customer ID <CUSTOMER_ID_1>."
+    },
+    {
+      "pair_id": "case-000475",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Please help me locate my PIN for the account registered at <STREET_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-000476",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you guide me through configuring the PIN on my new card that's registered at <STREET_ADDRESS_1>?"
+    },
+    {
+      "pair_id": "case-000477",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I just received my new card but I'm not sure how to check its PIN, and I need help with customer ID <CUSTOMER_ID_1>."
+    },
+    {
+      "pair_id": "case-000478",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you tell me the PIN of my card associated with account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000480",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> isn't showing my PIN; why is that?"
+    },
+    {
+      "pair_id": "case-000481",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'm still waiting for my PIN; can you tell me why it isn't available for customer ID <CUSTOMER_ID_1>?"
+    },
+    {
+      "pair_id": "case-000482",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I need assistance finding the PIN associated with account <ACCOUNT_NUMBER_1>, please."
+    },
+    {
+      "pair_id": "case-000483",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "As customer ID <CUSTOMER_ID_1>, I still don't have my PIN."
+    },
+    {
+      "pair_id": "case-000484",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you help me locate my card's PIN? My address on file is <STREET_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-000485",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'm requesting my PIN for the account at <STREET_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-000486",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Help me locate the PIN for my card on account <ACCOUNT_NUMBER_1>. The address you have on file is <STREET_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-000487",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I can't find the PIN that was supposed to be delivered to <STREET_ADDRESS_1> for my card."
+    },
+    {
+      "pair_id": "case-000488",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "The PIN for my card at <STREET_ADDRESS_1> is not showing up; why is that?"
+    },
+    {
+      "pair_id": "case-000489",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Please let me know where my card PIN is, as I can't find it for customer ID <CUSTOMER_ID_1>."
+    },
+    {
+      "pair_id": "case-000490",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "What is the PIN for my card associated with account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000491",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The money I used from account <ACCOUNT_NUMBER_1> for a card top-up never arrived. Where is it?"
+    },
+    {
+      "pair_id": "case-000492",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I tried to top up using card <CREDIT_CARD_1> as instructed, but the money vanished and I'm not sure what went wrong."
+    },
+    {
+      "pair_id": "case-000493",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My card <CREDIT_CARD_1> was charged, yet the top-up amount isn't reflected in my account. What happened?"
+    },
+    {
+      "pair_id": "case-000494",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I used my card to add money, but the amount has disappeared from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000495",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "When I attempted a card top-up, the funds vanished from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000496",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Top up with my card <CREDIT_CARD_1> is not accessible to me."
+    },
+    {
+      "pair_id": "case-000497",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top up I made using account <ACCOUNT_NUMBER_1> is missing from my wallet."
+    },
+    {
+      "pair_id": "case-000498",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top-up I made with card <CREDIT_CARD_1> isn't appearing; why can't I see the amount?"
+    },
+    {
+      "pair_id": "case-000502",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Charges were made on my card <CREDIT_CARD_1> that I didn't approve."
+    },
+    {
+      "pair_id": "case-000504",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My card <CREDIT_CARD_1> has charges I don't recognize, and I wasn't even in the location listed. Please help me stop them."
+    },
+    {
+      "pair_id": "case-000507",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My card <CREDIT_CARD_1> has charges I didn't make, so I suspect someone got my card information and used it."
+    },
+    {
+      "pair_id": "case-000511",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Some of the charges on my card <CREDIT_CARD_1> look suspicious, so I think someone else may have used it."
+    },
+    {
+      "pair_id": "case-000515",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can I request a replacement card for account <ACCOUNT_NUMBER_1> if I think my card details have been compromised?"
+    },
+    {
+      "pair_id": "case-000520",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Help! My account <ACCOUNT_NUMBER_1> has a direct debit that I didn't create."
+    },
+    {
+      "pair_id": "case-000521",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's an unfamiliar direct debit listed on my account <ACCOUNT_NUMBER_1> statement."
+    },
+    {
+      "pair_id": "case-000522",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's an unrecognized debit on my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000523",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I might have an unauthorized charge on the debit statement of my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000524",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> has some odd debits showing up."
+    },
+    {
+      "pair_id": "case-000525",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What is this direct debit I am seeing on account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000526",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There is a direct debit payment taken from account <ACCOUNT_NUMBER_1> that I don't recognize."
+    },
+    {
+      "pair_id": "case-000527",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see a payment I don't recognize on account <ACCOUNT_NUMBER_1>; how can I cancel it?"
+    },
+    {
+      "pair_id": "case-000528",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "This debit charge on account <ACCOUNT_NUMBER_1> doesn't look like something I made."
+    },
+    {
+      "pair_id": "case-000529",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see an unfamiliar direct debit on my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000530",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "This direct debit wasn't made by me, so please investigate the charge on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000531",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's an unauthorized direct debit from my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000532",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'm sorry this is so late. Going through my transactions from the past two months, I spotted a large charge on account <ACCOUNT_NUMBER_1> that I'm sure wasn't mine. Can I still dispute it somehow?"
+    },
+    {
+      "pair_id": "case-000533",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I've noticed a direct debit for account <ACCOUNT_NUMBER_1> that I don't recall creating, and I'd like to cancel it."
+    },
+    {
+      "pair_id": "case-000564",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My card <CREDIT_CARD_1> payment is showing as pending, and the charge was made to account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000565",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My card <CREDIT_CARD_1> payment is showing as pending—can you tell me why?"
+    },
+    {
+      "pair_id": "case-000566",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Can you tell me why my payment from account <ACCOUNT_NUMBER_1> is still pending?"
+    },
+    {
+      "pair_id": "case-000567",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I'd like to know the status of my pending card payment for card number <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000568",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I see that a payment I made with card <CREDIT_CARD_1> is pending; please tell me what that means."
+    },
+    {
+      "pair_id": "case-000569",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I submitted a payment several days back, but it hasn't gone through yet on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000570",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The card payment I made is showing as pending on my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000571",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The transaction with my card <CREDIT_CARD_1> is appearing as pending right now."
+    },
+    {
+      "pair_id": "case-000572",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I bought a few things this morning, and the payment is still pending on card number <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000573",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "A payment is still pending, and I'm waiting for it to clear on my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000574",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Can you tell me the reason my card <CREDIT_CARD_1> purchases from this morning are still showing as pending?"
+    },
+    {
+      "pair_id": "case-000575",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I see a pending transaction on my card and I'm confused about it. Can you check why it's pending for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000576",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My card <CREDIT_CARD_1> payment is still pending."
+    },
+    {
+      "pair_id": "case-000578",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My transaction with card <CREDIT_CARD_1> is listed as pending. What does that status indicate?"
+    },
+    {
+      "pair_id": "case-000579",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The second charge on card <CREDIT_CARD_1> is pending because I was charged twice. Once refunded, how long until the money is credited back?"
+    },
+    {
+      "pair_id": "case-000580",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Can you tell me why the transactions with my card <CREDIT_CARD_1> are pending?"
+    },
+    {
+      "pair_id": "case-000582",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The purchases I made this morning are pending on card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000583",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My card <CREDIT_CARD_1> payment is still showing as pending even though I already paid. Please investigate and let me know when it will go through."
+    },
+    {
+      "pair_id": "case-000584",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I paid a while back, but the payment on my card <CREDIT_CARD_1> is still pending. Why hasn't it gone through yet?"
+    },
+    {
+      "pair_id": "case-000585",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My card <CREDIT_CARD_1> shows a pending payment from what I bought this morning on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000586",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "This refund is urgent; the merchant has been unhelpful. How can I get it resolved quickly using account <ACCOUNT_NUMBER_1> and card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000588",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you refund the item to my account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000589",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you cancel my latest order on account <ACCOUNT_NUMBER_1> and set up the refund urgently?"
+    },
+    {
+      "pair_id": "case-000590",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need to stop the purchase from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000591",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I've had enough of waiting for an online order that never came. Refund the charge made with card <CREDIT_CARD_1> back to my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000592",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to cancel my order because I'm dissatisfied with the purchase. Can you guide me using account <ACCOUNT_NUMBER_1> and card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000593",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need a refund for a purchase I made, and I used card <CREDIT_CARD_1> to pay. Can you tell me how to proceed with account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000594",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you cancel my purchase from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000596",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I don't want this item because I bought it accidentally. Please refund the amount to account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000597",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I need to get my money back for something I bought recently and have changed my mind about. Please cancel the transaction made with card <CREDIT_CARD_1> and issue a refund as soon as possible."
+    },
+    {
+      "pair_id": "case-000598",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you reverse the charge made with card <CREDIT_CARD_1> and put the money back into my account?"
+    },
+    {
+      "pair_id": "case-000599",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's a mistake in how much I was charged for my purchase; please refund the difference to account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000600",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you cancel the payment I made from account <ACCOUNT_NUMBER_1>? I bought something days ago and still haven't received it."
+    },
+    {
+      "pair_id": "case-000601",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can I get my money back for the purchase I made from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000603",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to cancel the purchase I made with card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000629",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The money that was supposed to be refunded hasn't appeared on my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000630",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My account <ACCOUNT_NUMBER_1> statement is missing the refund."
+    },
+    {
+      "pair_id": "case-000631",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The refund I requested hasn't been credited to account <ACCOUNT_NUMBER_1>. How can I resolve this?"
+    },
+    {
+      "pair_id": "case-000632",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I'm missing a refund in account <ACCOUNT_NUMBER_1> that was supposed to be credited after my purchase on card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000633",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "A refund is not showing up on my statement for card <CREDIT_CARD_1> and account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000634",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I need help because I asked a merchant for a refund a while back, but the money still hasn't appeared in account <ACCOUNT_NUMBER_1>. What should I do now?"
+    },
+    {
+      "pair_id": "case-000635",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The refund I'm expecting isn't visible in account <ACCOUNT_NUMBER_1> yet."
+    },
+    {
+      "pair_id": "case-000636",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "There is no refund from the seller in my account, even though I requested it earlier. I need assistance with card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000637",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Could you tell me why my refund isn't showing on the statement of card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000638",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My refund from last week hasn't appeared yet, and I made the purchase with card <CREDIT_CARD_1>. Please assist."
+    },
+    {
+      "pair_id": "case-000639",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I expected a refund, but it's missing from account <ACCOUNT_NUMBER_1> statement."
+    },
+    {
+      "pair_id": "case-000640",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I haven't received the refund for card <CREDIT_CARD_1> yet."
+    },
+    {
+      "pair_id": "case-000641",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My refund for card <CREDIT_CARD_1> is missing."
+    },
+    {
+      "pair_id": "case-000642",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Per your suggestion, I had the seller initiate the refund, but after seven days the funds have not appeared on my card <CREDIT_CARD_1>. Can you advise?"
+    },
+    {
+      "pair_id": "case-000643",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The refund from a return I made still isn't showing on card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000644",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I got my statement and the refund isn't showing up on card <CREDIT_CARD_1>. Any idea when I'll get it?"
+    },
+    {
+      "pair_id": "case-000645",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Can you tell me why the recent refund isn't showing on the statement for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000646",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "How do I locate the refund in my account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000647",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My card <CREDIT_CARD_1> was supposed to receive a refund, but the balance hasn't updated. What's the reason?"
+    },
+    {
+      "pair_id": "case-000648",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "It's been days since I requested a refund from a merchant, and it's still not visible in my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000649",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I'm waiting for a refund to account <ACCOUNT_NUMBER_1> from my card <CREDIT_CARD_1>, but it's not there."
+    },
+    {
+      "pair_id": "case-000650",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Has my refund been processed? It's not showing up on the statement for card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000651",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The refund hasn't appeared on my card <CREDIT_CARD_1> statement."
+    },
+    {
+      "pair_id": "case-000652",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Still waiting for the store to refund the money to my card <CREDIT_CARD_1>; it hasn't shown up."
+    },
+    {
+      "pair_id": "case-000653",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I have not received a refund to my account with card <CREDIT_CARD_1> yet."
+    },
+    {
+      "pair_id": "case-000654",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I'm missing a refund that should have gone to account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000655",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I don't see my refund on the statement for card <CREDIT_CARD_1>, and it should have arrived by now from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000656",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The refund hasn't appeared in my account statement for card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000657",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Can you check why the refund hasn't appeared on my statement for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000658",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "You said to reach out to the seller for the refund, which I did, but I'm still waiting. A week has passed and no funds have appeared on card <CREDIT_CARD_1>, so please refund me."
+    },
+    {
+      "pair_id": "case-000659",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Where is the refund that should be on card <CREDIT_CARD_1>? I've looked all day and it's not there."
+    },
+    {
+      "pair_id": "case-000660",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I've completed everything required over the past week, but the refund still hasn't appeared. The seller hasn't replied, so I'd appreciate it if you could put the money back on my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000661",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My refund is missing from account <ACCOUNT_NUMBER_1>; please check card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000662",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I returned an item I bought with card <CREDIT_CARD_1>, but I don't see the refund credited to my account."
+    },
+    {
+      "pair_id": "case-000663",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "A refund from a seller that I requested is missing from my card <CREDIT_CARD_1> statements. Please make sure I receive it."
+    },
+    {
+      "pair_id": "case-000664",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "It's been a week with no reply from the seller. Could you assist me in getting a refund to account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000665",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "I need help getting a refund from a seller for account <ACCOUNT_NUMBER_1>; it's still not on my statement despite requesting it ages ago."
+    },
+    {
+      "pair_id": "case-000666",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "The refund I was expecting hasn't posted to my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000668",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you tell me why my payment didn't go through on account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000674",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "A transaction from account <ACCOUNT_NUMBER_1> was refused on my card. Can you explain why?"
+    },
+    {
+      "pair_id": "case-000676",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My latest payment from account <ACCOUNT_NUMBER_1> was declined, even though I was told everything was back to working order. What went wrong?"
+    },
+    {
+      "pair_id": "case-000690",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'm trying to understand why my card payment got declined on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000693",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What caused my card payment to be declined on account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000698",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you tell me why my card payments on account <ACCOUNT_NUMBER_1> are not going through despite my repeated attempts?"
+    },
+    {
+      "pair_id": "case-000721",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "Can you help me understand why my payment from account <ACCOUNT_NUMBER_1> is still pending?"
+    },
+    {
+      "pair_id": "case-000728",
+      "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "query_text": "I'm still waiting for the money to appear in account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000731",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you please close account <ACCOUNT_NUMBER_1> for me?"
+    },
+    {
+      "pair_id": "case-000732",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to close account <ACCOUNT_NUMBER_1> please."
+    },
+    {
+      "pair_id": "case-000733",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What is the process to terminate my account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000734",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I want you to close account <ACCOUNT_NUMBER_1> immediately."
+    },
+    {
+      "pair_id": "case-000735",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I want to terminate my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000736",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you terminate my account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000737",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to terminate my account <ACCOUNT_NUMBER_1> permanently."
+    },
+    {
+      "pair_id": "case-000738",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you remove account <ACCOUNT_NUMBER_1>? I'm really unhappy with this company."
+    },
+    {
+      "pair_id": "case-000739",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need your help to delete my account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000740",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you delete account <ACCOUNT_NUMBER_1> for me?"
+    },
+    {
+      "pair_id": "case-000741",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to remove account <ACCOUNT_NUMBER_1> because this company isn't good."
+    },
+    {
+      "pair_id": "case-000742",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you please delete account <ACCOUNT_NUMBER_1> for me?"
+    },
+    {
+      "pair_id": "case-000743",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you terminate account <ACCOUNT_NUMBER_1> for me?"
+    },
+    {
+      "pair_id": "case-000744",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I want my account <ACCOUNT_NUMBER_1> to be terminated."
+    },
+    {
+      "pair_id": "case-000745",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me how to delete account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000746",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What steps do I take to permanently close account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000747",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please close account <ACCOUNT_NUMBER_1>, as this company is not working for me."
+    },
+    {
+      "pair_id": "case-000748",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please explain how I can permanently close account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000771",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My payment went through twice on account <ACCOUNT_NUMBER_1>; what should I do?"
+    },
+    {
+      "pair_id": "case-000772",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My restaurant payment was taken twice from account <ACCOUNT_NUMBER_1>. Can you look into it?"
+    },
+    {
+      "pair_id": "case-000773",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why is there more than one charge on my card <CREDIT_CARD_1> when I only paid for one, and how can I fix it?"
+    },
+    {
+      "pair_id": "case-000774",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "This week, a couple of my purchases were charged twice. Can you investigate and return the extra charges to my account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000775",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "While looking over my account activity, I found a double charge from a restaurant visit earlier this week. Can one of the charges be taken off so I'm refunded the amount to card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000776",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see duplicate charges on account <ACCOUNT_NUMBER_1> for a single purchase; can you explain why?"
+    },
+    {
+      "pair_id": "case-000777",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My duplicate card caused a double charge on account <ACCOUNT_NUMBER_1>. What should I do to fix it?"
+    },
+    {
+      "pair_id": "case-000778",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "After reviewing transactions on account <ACCOUNT_NUMBER_1>, I noticed a duplicate restaurant charge on card <CREDIT_CARD_1> and want it reversed."
+    },
+    {
+      "pair_id": "case-000779",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My card <CREDIT_CARD_1> has been charged twice for the same transaction. What's going on?"
+    },
+    {
+      "pair_id": "case-000780",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you review account <ACCOUNT_NUMBER_1>? My card shows a couple of double charges this week that need to be returned."
+    },
+    {
+      "pair_id": "case-000781",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please review the payments on my card. I see a duplicate charge on account <ACCOUNT_NUMBER_1> even though I only bought it once."
+    },
+    {
+      "pair_id": "case-000782",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> shows the same transaction repeated several times."
+    },
+    {
+      "pair_id": "case-000783",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see that my card <CREDIT_CARD_1> was charged two times for one purchase."
+    },
+    {
+      "pair_id": "case-000784",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see a duplicate payment entry for account <ACCOUNT_NUMBER_1>. Why is that?"
+    },
+    {
+      "pair_id": "case-000785",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see the same transaction listed multiple times on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000786",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> shows multiple identical transactions, and I used card <CREDIT_CARD_1> for the original one."
+    },
+    {
+      "pair_id": "case-000787",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> shows a payment that went through twice using card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000790",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed a reverted card payment on account <ACCOUNT_NUMBER_1>. What caused this?"
+    },
+    {
+      "pair_id": "case-000792",
+      "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "query_text": "My card payment did not go through and was cancelled for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000793",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I made a payment from account <ACCOUNT_NUMBER_1>, but the app reverted it."
+    },
+    {
+      "pair_id": "case-000797",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to know why the card payment on account <ACCOUNT_NUMBER_1> was reverted."
+    },
+    {
+      "pair_id": "case-000798",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "A payment for a purchase was cancelled by my credit card for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000801",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed the transaction using card <CREDIT_CARD_1> from account <ACCOUNT_NUMBER_1> got reverted. Why?"
+    },
+    {
+      "pair_id": "case-000803",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> shows the card payment as cancelled."
+    },
+    {
+      "pair_id": "case-000806",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed my card payment was reverted. What caused that for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000808",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed that a charge on my card was reverted, and it's associated with account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000810",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why did my payment get returned from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000811",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you help me change the PIN on my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000812",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'm overseas at the moment and need to change the PIN for card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000813",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'd like to request a PIN change for my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000814",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Could you assist me in creating a new PIN for card number <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000815",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "What steps do I need to follow to update the PIN on my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000816",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Where can I go nearby to update the PIN for my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000817",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'd like to replace the current PIN on my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000818",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'd like to know how to create a new PIN for card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000819",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you tell me how to set a new PIN for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000820",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'd like to know the steps to change my PIN for card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000821",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you assist me with setting a new PIN for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000822",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'd like to change the PIN on my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000823",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'd like to set a new PIN for my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000824",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can I update the PIN for my card <CREDIT_CARD_1> at a cash machine?"
+    },
+    {
+      "pair_id": "case-000825",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you help me update the PIN on card number <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000826",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Is it possible to set a new PIN on my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000827",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "Can you help me reset the PIN on card number <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000828",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "How can I set a new PIN for the card <CREDIT_CARD_1> on my account?"
+    },
+    {
+      "pair_id": "case-000829",
+      "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "query_text": "I'd like to set a new PIN on my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000847",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed a fee after transferring from account <ACCOUNT_NUMBER_1>. What's the reason?"
+    },
+    {
+      "pair_id": "case-000848",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I was charged a fee for the transfer from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000849",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why did I incur a fee when transferring from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000851",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I had to pay a fee for transferring from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000853",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I don't agree to pay this transfer fee for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000854",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see a transfer fee on account <ACCOUNT_NUMBER_1>, but I thought there was no fee for transfers."
+    },
+    {
+      "pair_id": "case-000855",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I see two transfer fees on account <ACCOUNT_NUMBER_1>, even though I believed transfers were free."
+    },
+    {
+      "pair_id": "case-000856",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you tell me why account <ACCOUNT_NUMBER_1> was charged a fee for transferring money?"
+    },
+    {
+      "pair_id": "case-000857",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I recently got a new place abroad and have been using account <ACCOUNT_NUMBER_1> to handle payments, but the fees have suddenly gone up. Can you explain where these additional fees are coming from?"
+    },
+    {
+      "pair_id": "case-000859",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There is a charge on account <ACCOUNT_NUMBER_1> for an online purchase I made internationally. Why wasn't it covered as I expected?"
+    },
+    {
+      "pair_id": "case-000860",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why did my transfer from account <ACCOUNT_NUMBER_1> incur additional charges?"
+    },
+    {
+      "pair_id": "case-000861",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "When I transferred money from account <ACCOUNT_NUMBER_1>, I was charged an additional fee."
+    },
+    {
+      "pair_id": "case-000862",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain the extra charge for my transfer from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000863",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed a fee on a transfer made from account <ACCOUNT_NUMBER_1>, but I thought transfers were free."
+    },
+    {
+      "pair_id": "case-000864",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My receipt shows an additional fee for the transfer from account <ACCOUNT_NUMBER_1>; can you explain why?"
+    },
+    {
+      "pair_id": "case-000865",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "A fee was charged when I made this transfer from account <ACCOUNT_NUMBER_1>, but I believe it shouldn't have been."
+    },
+    {
+      "pair_id": "case-000866",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I made a transfer from account <ACCOUNT_NUMBER_1> and noticed an extra charge. What's that for?"
+    },
+    {
+      "pair_id": "case-000867",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed a transfer fee on my account <ACCOUNT_NUMBER_1>. What's it for?"
+    },
+    {
+      "pair_id": "case-000868",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "When I transferred money from account <ACCOUNT_NUMBER_1>, I noticed an extra fee was applied."
+    },
+    {
+      "pair_id": "case-000869",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I noticed a fee on my transfer from account <ACCOUNT_NUMBER_1>. Can you explain why?"
+    },
+    {
+      "pair_id": "case-000870",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There's a fee on my transfer from account <ACCOUNT_NUMBER_1>. Why is that?"
+    },
+    {
+      "pair_id": "case-000871",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain why there was a fee on the transfer I made from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000872",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Is it expected that a fee applies when I make a transfer from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000873",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you explain why my transfer from account <ACCOUNT_NUMBER_1> was subject to a fee?"
+    },
+    {
+      "pair_id": "case-000874",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "After buying something online from abroad, I saw a fee on account <ACCOUNT_NUMBER_1> even though transfers are supposed to be free. What is it and can it be removed?"
+    },
+    {
+      "pair_id": "case-000875",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me why I incurred a fee when transferring money from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000876",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My account <ACCOUNT_NUMBER_1> has a fee for a transfer that caught me off guard."
+    },
+    {
+      "pair_id": "case-000877",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There was an extra fee charged on my transfer from account <ACCOUNT_NUMBER_1>. Why did that happen?"
+    },
+    {
+      "pair_id": "case-000898",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What issue is preventing my funds from leaving account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000914",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I haven't received the code to verify my top-up for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000915",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Could you help me locate the verification code for the top-up card associated with account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000916",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you explain the verification requirement for the top-up on my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000917",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I'm missing the code needed to verify the top-up on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000918",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Help me find the verification code for the top-up on card number <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000919",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Please help me find where the verification code is for card <CREDIT_CARD_1> used in my top-up."
+    },
+    {
+      "pair_id": "case-000920",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can I get another card for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000921",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I want to get an additional card for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000922",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need extra physical cards for the account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000923",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How do I obtain a second card for account <ACCOUNT_NUMBER_1> after already having one?"
+    },
+    {
+      "pair_id": "case-000924",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could I get another card for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000925",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can I have another card associated with account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000926",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like my daughter to receive a card as well — how do we set that up for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000927",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can I get a spare card for the account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000928",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How do I order extra cards for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000929",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me where I can get a second card for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000930",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I wanted to buy a spare card today for account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000931",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need several extra physical cards on account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000932",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Am I able to buy additional non-digital cards through account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000933",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could I get an additional card for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000934",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could I get a spare card for my account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000936",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me how to obtain an actual card for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000937",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How can I get a physical card for account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000955",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain your exchange rate policy? I don't think I received the correct amount of cash in my ATM transaction with card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000957",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I expected a higher exchange rate when I withdrew money from account <ACCOUNT_NUMBER_1>. Can you tell me current exchange rates?"
+    },
+    {
+      "pair_id": "case-000960",
+      "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How do you calculate exchange rates? I noticed one was wrong when I withdrew cash from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000961",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I tried to top up using card <CREDIT_CARD_1>, but the app denied it."
+    },
+    {
+      "pair_id": "case-000962",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I tried to top up using my card today, but the payment didn't go through from account <ACCOUNT_NUMBER_1>. It worked a few days ago, so can you look into this?"
+    },
+    {
+      "pair_id": "case-000963",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top up from account <ACCOUNT_NUMBER_1> wasn't successful. Why is that?"
+    },
+    {
+      "pair_id": "case-000965",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you tell me why the app rejected my top up with card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000966",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Please tell me why the top-up attempt using my card <CREDIT_CARD_1> was unsuccessful."
+    },
+    {
+      "pair_id": "case-000967",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I can't top up with card number <CREDIT_CARD_1> right now."
+    },
+    {
+      "pair_id": "case-000968",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you tell me the reason my top-up for account <ACCOUNT_NUMBER_1> didn't go through?"
+    },
+    {
+      "pair_id": "case-000969",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you tell me why my top-up failed when I used card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000970",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "How can I verify whether my top-up went through on card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-000971",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top up via card <CREDIT_CARD_1> was unsuccessful."
+    },
+    {
+      "pair_id": "case-000972",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top up didn't go through with card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000973",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Why would my top-up with card <CREDIT_CARD_1> not go through?"
+    },
+    {
+      "pair_id": "case-000974",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I'm trying to understand why my top up failed using card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000975",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you tell me why my top up using card <CREDIT_CARD_1> failed?"
+    },
+    {
+      "pair_id": "case-000976",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top-up didn't go through with card <CREDIT_CARD_1>; what went wrong?"
+    },
+    {
+      "pair_id": "case-000977",
+      "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I attempted to add funds to account <ACCOUNT_NUMBER_1>, but the transaction failed."
+    },
+    {
+      "pair_id": "case-000978",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you tell me why my credit card didn't go through for the top up on account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-000979",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My top-up with card <CREDIT_CARD_1> was not accepted by the app."
+    },
+    {
+      "pair_id": "case-000980",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The app wouldn't let me top up account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000981",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I think the top up failed on my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-000982",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The mobile app rejected my top-up attempt from account <ACCOUNT_NUMBER_1>."
+    },
+    {
+      "pair_id": "case-000983",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I attempted a top up with my card <CREDIT_CARD_1>, but it was declined. Why is it not going through?"
+    },
+    {
+      "pair_id": "case-000984",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My card <CREDIT_CARD_1> is declining my top-up attempt. I really need this today, please help."
+    },
+    {
+      "pair_id": "case-001025",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I got charged for using a US issued card. Can you tell me why and which cards have no fee for adding money to account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-001026",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Is there a fee for the card top-up I just completed using account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-001027",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you activate card number <CREDIT_CARD_1> for me?"
+    },
+    {
+      "pair_id": "case-001028",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need my card <CREDIT_CARD_1> activated, please do it now."
+    },
+    {
+      "pair_id": "case-001029",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My new card <CREDIT_CARD_1> needs activation. How do I do that?"
+    },
+    {
+      "pair_id": "case-001030",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you guide me through activating my new card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001031",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How can I get my card <CREDIT_CARD_1> activated?"
+    },
+    {
+      "pair_id": "case-001032",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How should I go about activating my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001033",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What do I need to do to activate card <CREDIT_CARD_1> that just came in?"
+    },
+    {
+      "pair_id": "case-001034",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you tell me how to activate the card <CREDIT_CARD_1> I just received?"
+    },
+    {
+      "pair_id": "case-001035",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me why I can't activate card number <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001036",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I have a new card <CREDIT_CARD_1>, where should I go to activate it?"
+    },
+    {
+      "pair_id": "case-001037",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you help me activate the card <CREDIT_CARD_1> so I can start using it?"
+    },
+    {
+      "pair_id": "case-001038",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'm trying to activate my card <CREDIT_CARD_1> and need assistance."
+    },
+    {
+      "pair_id": "case-001039",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "How do I go about activating card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001040",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you activate my card <CREDIT_CARD_1> for me?"
+    },
+    {
+      "pair_id": "case-001042",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I just got my card in the mail and need to activate it before using it. What steps should I take for card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001043",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I have a new card <CREDIT_CARD_1> and need it activated."
+    },
+    {
+      "pair_id": "case-001044",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Please help me activate card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-001045",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need help activating card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-001046",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What steps should I take to activate my card <CREDIT_CARD_1> and begin using it?"
+    },
+    {
+      "pair_id": "case-001047",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need to activate my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-001048",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me when my card <CREDIT_CARD_1> will be activated?"
+    },
+    {
+      "pair_id": "case-001049",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you guide me through activating my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001050",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you walk me through activating my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001051",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need to activate my new card <CREDIT_CARD_1>. What's the process?"
+    },
+    {
+      "pair_id": "case-001052",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you tell me the steps to activate my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001053",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can someone help me activate card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001054",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What steps should I follow to activate the card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001055",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain how to start using my card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001056",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'm unsure if my card <CREDIT_CARD_1> requires activation. Could you guide me on how to activate it if needed?"
+    },
+    {
+      "pair_id": "case-001057",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I'd like to activate my card <CREDIT_CARD_1> for immediate use; can you assist?"
+    },
+    {
+      "pair_id": "case-001058",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I need help activating my new card <CREDIT_CARD_1> that I just received."
+    },
+    {
+      "pair_id": "case-001059",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "My new card <CREDIT_CARD_1> arrived, and I need to activate it. What should I do?"
+    },
+    {
+      "pair_id": "case-001060",
+      "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "query_text": "What steps should I follow to activate card number <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001062",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Earlier today after shopping, I withdrew money from account <ACCOUNT_NUMBER_1> and was charged a fee that didn't exist previously. What's the reason for cash withdrawal fees?"
+    },
+    {
+      "pair_id": "case-001063",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "I withdrew cash from account <ACCOUNT_NUMBER_1> following a grocery purchase today and noticed a fee that wasn't there before. What is the reason for this charge?"
+    },
+    {
+      "pair_id": "case-001064",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why is there an extra charge on the withdrawal from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-001065",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Could you tell me why I was charged for withdrawing money from account <ACCOUNT_NUMBER_1>?"
+    },
+    {
+      "pair_id": "case-001069",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "There was a fee charged on my recent withdrawal from my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-001070",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you tell me why a fee was applied to my cash withdrawal from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001071",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Why was I charged for withdrawing cash with card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001072",
+      "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "query_text": "Can you explain the ATM fee I was charged for using card <CREDIT_CARD_1>?"
+    },
+    {
+      "pair_id": "case-001077",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top-up to my Google Pay account with card <CREDIT_CARD_1> is not working."
+    },
+    {
+      "pair_id": "case-001078",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My American Express account <ACCOUNT_NUMBER_1> is not working with Apple Pay for top ups, can you fix it?"
+    },
+    {
+      "pair_id": "case-001079",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "The top-up for Apple Pay fails when I use my card <CREDIT_CARD_1>."
+    },
+    {
+      "pair_id": "case-001080",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "I've got my American Express in Apple Pay, but the top up from account <ACCOUNT_NUMBER_1> is not working."
+    },
+    {
+      "pair_id": "case-001081",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "My American Express is in my Apple Pay, yet the top up for account <ACCOUNT_NUMBER_1> is not going through. Can you explain why?"
+    },
+    {
+      "pair_id": "case-001082",
+      "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "query_text": "Can you explain why my top up fails when I use the American Express card <CREDIT_CARD_1> I have in Apple Pay?"
+    }
+  ]
+}

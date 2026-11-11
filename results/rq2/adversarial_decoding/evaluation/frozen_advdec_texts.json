@@ -1,0 +1,281 @@
+{
+  "selection_uses_test": false,
+  "datasets": {
+    "banking77": [
+      {
+        "cluster": 0,
+        "text": "My card number was stolen while using my phone registered under phoneNumber_xyz_abcdefghijklmnopqrstuvwxyz, please instruct me as I have just reset it from lost.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8450202941894531,
+        "readability_score": 0.09870887130362349,
+        "active_seconds": 70.72671072930098,
+        "source_sha256": "e3343f1a4fecc9efea5370478b9e8812ad4551f3aa238f1027a2da5fd355ed21"
+      },
+      {
+        "cluster": 1,
+        "text": "I received charges on card account ****** which look unusual for one-time transactions made by another card number; please check why those charges applied to me.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8596939444541931,
+        "readability_score": 0.34124629080118696,
+        "active_seconds": 71.92389370501041,
+        "source_sha256": "826f5da142e20eb6c863a6df83b7d23a1d173ec97497291715250966e96c3dd0"
+      },
+      {
+        "cluster": 2,
+        "text": "My transfer appears pending from account number _ _ _, when could that process normally resolve, please, or why might it still be taking time without completing?",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8826861381530762,
+        "readability_score": 0.342453260373917,
+        "active_seconds": 71.81892641633749,
+        "source_sha256": "cc136c14d2bb15ec61a4599fabcacdf2ad53391bc31f4a4657581f6e6719140a"
+      },
+      {
+        "cluster": 3,
+        "text": "My bank card seems unauthorized and I need a quick fix now; please resolve, thanks!",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.7724424004554749,
+        "readability_score": 0.2633398142147332,
+        "active_seconds": 71.13243620842695,
+        "source_sha256": "fdb31b1f12b4069409fc060e276ff465883b0cb9ef7f8d57921da300b2298b82"
+      },
+      {
+        "cluster": 4,
+        "text": "Is account transaction charged from me incorrectly, or could someone provide context of this unusual transaction for number/account number _ ACCOUNT_NUMBER_A, pls?",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8607861399650574,
+        "readability_score": 0.2786309784993418,
+        "active_seconds": 71.26435763388872,
+        "source_sha256": "12118ddd37041829e4d10607c261ae6432fe86f0a4dc53375204c9aae7e7f05a"
+      },
+      {
+        "cluster": 5,
+        "text": "The ATM statement showed me withdrawing cash using card _ but that didnít happen, please resolve account discrepancy for me _ .",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.847556471824646,
+        "readability_score": 0.08200636942675159,
+        "active_seconds": 73.22272974997759,
+        "source_sha256": "0e72cd0676faf46b928dd9e28b411e66bbd8c46e9692943a436ed7e01333c34b"
+      },
+      {
+        "cluster": 6,
+        "text": "My transfer attempted from Account _Number_\\_\\_.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8617879748344421,
+        "readability_score": 0.08503679476696648,
+        "active_seconds": 71.43113010376692,
+        "source_sha256": "4aaf7a148a139623c9364049ba21b037a1670b2d4af74214b7b8f0f52f2ded9d"
+      },
+      {
+        "cluster": 7,
+        "text": "Did my card/payment from Account_NUMBER cancel, or was another problem encountered that you have documented for me, please clarify for case #_CASE_XXX))?",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8446769714355469,
+        "readability_score": 0.17748562037797863,
+        "active_seconds": 72.11862450838089,
+        "source_sha256": "12fb18bc78339e5e1d6ab634ebbed59f112a40286c747fc7df569b713ea27592"
+      },
+      {
+        "cluster": 8,
+        "text": "My account top-up from card ******* seems failed to go though; please clarify regarding this instance.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8714699745178223,
+        "readability_score": 0.2651564185544768,
+        "active_seconds": 72.51672357320786,
+        "source_sha256": "85edf384fd21a7bce8beb8cff2763d7d62910f71965212bf2f28c982a634b51d"
+      },
+      {
+        "cluster": 9,
+        "text": "Need support updating PIN from card account #: #### ##_## - forgot previous one used, please.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8513182997703552,
+        "readability_score": 0.19602154993783671,
+        "active_seconds": 70.09461423009634,
+        "source_sha256": "ac48b774df6ab0b2f1f44448ea7a077b50f3596fa58ac0e3f1ca6a8d3b426cb9"
+      },
+      {
+        "cluster": 10,
+        "text": "Have my card for Account Numbers _ arrived, as requested in this support inquiry for _ Street please]?",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8337640762329102,
+        "readability_score": 0.07951807228915662,
+        "active_seconds": 71.16400051116943,
+        "source_sha256": "012654c64ecfa7dea6588a09f7bf5e4a02f27bb5b3897175969d7741fffc31e2"
+      },
+      {
+        "cluster": 11,
+        "text": "I deposited cash to account number _ but still see a balance that hasn\\' t updated in one of its accounts __.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8778864145278931,
+        "readability_score": 0.07034372501998401,
+        "active_seconds": 71.00041143596172,
+        "source_sha256": "bf4d59b2e25865a54d65a06bcbf884e73004fcfbb19e88d72d6b35efe80ec027"
+      },
+      {
+        "cluster": 12,
+        "text": "Is My identity verification issue for customer_id_*** being addressed, or could I have an alternate way to update personal details associated to ***, please?",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8052840232849121,
+        "readability_score": 0.21713688610240334,
+        "active_seconds": 72.06477445363998,
+        "source_sha256": "9a5f2a77b8f716a7e865c1d7be3e3b65ff069e1680a6337f98c3fb26b9b50748"
+      },
+      {
+        "cluster": 13,
+        "text": "My international payment had incorrect exchange Rates on account _account_ _.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8969477415084839,
+        "readability_score": 0.05087505087505088,
+        "active_seconds": 70.92210228741169,
+        "source_sha256": "4c15eba2dc52299b852cbf7ceeb317311bfa420630d6c06826f5c02f86fb15af"
+      },
+      {
+        "cluster": 14,
+        "text": "Please help cancel the transfer from_account_number_one for me, which was intended for Account ****   **.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8831637501716614,
+        "readability_score": 0.27512427058569267,
+        "active_seconds": 69.78414949774742,
+        "source_sha256": "df8254abd965f8b9ec85da34d050792275cf5943564e8319e32e9d5ba75ee45d"
+      }
+    ],
+    "abcd": [
+      {
+        "cluster": 0,
+        "text": "My subscription payment for account ID _ _ _.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8296065330505371,
+        "readability_score": 0.176519052523172,
+        "active_seconds": 74.07938426733017,
+        "source_sha256": "01a8a63b5bd4bd51f96942ba705682c21d44648af829ce74d3bf5692f340ecaa"
+      },
+      {
+        "cluster": 1,
+        "text": "My order for an incorrect item from an account with username, needs return, refund info please; reference order: _PLACE_HERE_; thanks so.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8503159284591675,
+        "readability_score": 0.15932746196957567,
+        "active_seconds": 75.61320205777884,
+        "source_sha256": "837d96edc1a2b0d29dd6b6a5f4f671a9020d8aecdf2c8b6c24bfb9923f020ad0"
+      },
+      {
+        "cluster": 2,
+        "text": "I misplaced my account number or username; please verify and recover access to one if you're unable to remember both for a password-reset email to help.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8461116552352905,
+        "readability_score": 0.1812577065351418,
+        "active_seconds": 77.31026827543974,
+        "source_sha256": "bfb671b848abf19cc3317264b058c53594a3bdbf2b6ab9604aa32a4dbf6e78fb"
+      },
+      {
+        "cluster": 3,
+        "text": "My account was charged an item for order id: O_####_**XyzzyPudding**:_****-******-.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8121967315673828,
+        "readability_score": 0.061036789297658864,
+        "active_seconds": 75.54630602896214,
+        "source_sha256": "f2b6d648e9f3003f31a84439b6ed0a2d090ecf185117dd36b3935cb3bb8e5393"
+      },
+      {
+        "cluster": 4,
+        "text": "My order tracking information for orderId:OrderId\\_XYZ hasn's changed, I'd appreciate you confirming it was correctly assigned once, thanks so very urgent!",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8097522258758545,
+        "readability_score": 0.05997647981183849,
+        "active_seconds": 75.70552300661802,
+        "source_sha256": "818147fe6fbcc967c96715908b5a42cbbd5b7a995695e51116b6950c0c317aff"
+      }
+    ],
+    "dogo": [
+      {
+        "cluster": 0,
+        "text": "My account with number _ _ - #### _ _.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.7841441631317139,
+        "readability_score": 0.12795436022819887,
+        "active_seconds": 73.6880060583353,
+        "source_sha256": "866d0e3945a45682ba96e3900615202dbedde7ddcd1b6630cc4031cf15bf91c9"
+      },
+      {
+        "cluster": 1,
+        "text": "I received my flight details email for Booking_ID, could you send me boardingpass_ for that specific travel instance, ideally to boardemail_address please.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8713840842247009,
+        "readability_score": 0.1305037683458945,
+        "active_seconds": 72.52649598568678,
+        "source_sha256": "eb6ef0ad90053d770b9d27a730d3d925730a0092924776eea692c3026453f0af"
+      },
+      {
+        "cluster": 2,
+        "text": "Please resolve my issue; I am contacting you from phone _ _ _.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8187453746795654,
+        "readability_score": 0.09836065573770492,
+        "active_seconds": 73.927017852664,
+        "source_sha256": "fbb78b3c416b1ec01b174b5d85a2c5b0c7a30d20466ac93f29b984c35e2c33bb"
+      },
+      {
+        "cluster": 3,
+        "text": "May someone verify my identity for insurance proof with last-four digits SSN being XYZW_YYYY, and car insurance related issues only, pleae.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8966025114059448,
+        "readability_score": 0.06515580736543909,
+        "active_seconds": 74.85090407729149,
+        "source_sha256": "4e024f5ae46a938455b24ba014437e05374908e588727ffb370ea35476188465"
+      },
+      {
+        "cluster": 4,
+        "text": "My flight booking needs changing to seat A, please—booking id mentioned in your database is appreciated if you ask me.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8980278968811035,
+        "readability_score": 0.25932276039434204,
+        "active_seconds": 73.76389294117689,
+        "source_sha256": "7e592cbcb5b51e792a773fbb866e814e8c404dd89d6f809c41e72fee80988a06"
+      },
+      {
+        "cluster": 5,
+        "text": "Is my claim with policy id number __POLICY ID_/status number _.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.913418710231781,
+        "readability_score": 0.06196078431372549,
+        "active_seconds": 74.7672169804573,
+        "source_sha256": "199d1d940c37761835afd4adf900d56ae9019bca437aad4476bb01df8aefce15"
+      },
+      {
+        "cluster": 6,
+        "text": "Please update your address for account number _ to Street_address_one_, with card _ as identifier for this change, including any necessary updates like my name.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8989436626434326,
+        "readability_score": 0.16451546814177423,
+        "active_seconds": 72.06725099682808,
+        "source_sha256": "d44b38325f920edea1950db7c36876c831103bc13811e5ab3d0f757e76557c57"
+      },
+      {
+        "cluster": 7,
+        "text": "Is your account number ending at _X__ with regards\tto my current issue, as that seems specific to such account IDs, especially given software updates?",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8074125051498413,
+        "readability_score": 0.12337662337662338,
+        "active_seconds": 73.97687292098999,
+        "source_sha256": "2460b3f92a5ee8565a577aa032287d801c8e62e0af21a78f40d5f90101315ca7"
+      },
+      {
+        "cluster": 8,
+        "text": "May my travel expenses claim please be addressed by someone who can assist in this process for me named _ PERSON\\_ONE_ in my account.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.899977445602417,
+        "readability_score": 0.2554497354497354,
+        "active_seconds": 71.17027574032545,
+        "source_sha256": "8798044fd3a4ec21beff531e260dab938e5b368de7732ab56e31a0ddcd757083"
+      },
+      {
+        "cluster": 9,
+        "text": "May my order's delivery address for pizzas, please include another street address, since we'll need that one specifically delivered instead at  ___.",
+        "complete_sentence": true,
+        "train_mean_cosine": 0.8513190150260925,
+        "readability_score": 0.13956262425447316,
+        "active_seconds": 73.6009640917182,
+        "source_sha256": "6feef5bf0b2342776b71f933eb23025c8562c81f9f41f4d9357a137d322c197b"
+      }
+    ]
+  }
+}

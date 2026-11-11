@@ -1,0 +1,338 @@
+{
+  "design": "All previous main records; common <=256 token filter over all 36 versions and four tokenizers. Parent 60/40 membership retained after filtering.",
+  "dose": "Same >=3-gold-span records for one, ceil(n/2), all; nested hash-ranked spans; deterministic seed pii_span_nested_ablation_20261018",
+  "type": "One hash-ranked eligible span per type; only records containing that group evaluated; full-domain original thresholds shared; cohorts differ, so cross-type magnitude is descriptive.",
+  "groups": {
+    "person": [
+      "PERSON",
+      "first_name",
+      "full_name",
+      "last_name",
+      "middle_name"
+    ],
+    "temporal": [
+      "DATETIME",
+      "date",
+      "date_of_birth",
+      "date_time",
+      "time"
+    ],
+    "identifier": [
+      "CODE",
+      "account_number",
+      "bank_routing_number",
+      "credit_debit_card",
+      "customer_id",
+      "cvv",
+      "drivers_license_number",
+      "health_plan_beneficiary_number",
+      "medical_record_number",
+      "national_id",
+      "passport_number",
+      "ssn",
+      "swift_bic",
+      "tax_id"
+    ]
+  },
+  "thresholds": {
+    "tail_targets": [
+      0.001,
+      0.01
+    ],
+    "fixed": [
+      0.75,
+      0.775,
+      0.8,
+      0.825,
+      0.85,
+      0.875,
+      0.9
+    ]
+  },
+  "models": [
+    "minilm",
+    "gte",
+    "e5",
+    "bge"
+  ],
+  "methods": [
+    "generic",
+    "typed",
+    "typed_numbered",
+    "delete",
+    "star"
+  ],
+  "fields": [
+    "source_text",
+    "gold_all_generic",
+    "gold_all_typed",
+    "gold_all_typed_numbered",
+    "gold_all_delete",
+    "gold_all_star",
+    "dose_one_generic",
+    "dose_one_typed",
+    "dose_one_typed_numbered",
+    "dose_one_delete",
+    "dose_one_star",
+    "dose_half_generic",
+    "dose_half_typed",
+    "dose_half_typed_numbered",
+    "dose_half_delete",
+    "dose_half_star",
+    "type_person_generic",
+    "type_person_typed",
+    "type_person_typed_numbered",
+    "type_person_delete",
+    "type_person_star",
+    "type_temporal_generic",
+    "type_temporal_typed",
+    "type_temporal_typed_numbered",
+    "type_temporal_delete",
+    "type_temporal_star",
+    "type_identifier_generic",
+    "type_identifier_typed",
+    "type_identifier_typed_numbered",
+    "type_identifier_delete",
+    "type_identifier_star",
+    "presidio_generic",
+    "presidio_typed",
+    "presidio_typed_numbered",
+    "presidio_delete",
+    "presidio_star"
+  ],
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "audits": [
+    {
+      "domain": "healthcare",
+      "candidate_records": 2661,
+      "retained_records": 2648,
+      "token_audit": {
+        "minilm": {
+          "max_tokens": 370,
+          "excluded": 10
+        },
+        "gte": {
+          "max_tokens": 370,
+          "excluded": 10
+        },
+        "e5": {
+          "max_tokens": 372,
+          "excluded": 13
+        },
+        "bge": {
+          "max_tokens": 370,
+          "excluded": 10
+        }
+      },
+      "cohorts": {
+        "full": {
+          "cal_records": 1587,
+          "test_records": 1061
+        },
+        "dose_ge_3": {
+          "cal_records": 1578,
+          "test_records": 1056
+        },
+        "type_person": {
+          "cal_records": 1412,
+          "test_records": 942
+        },
+        "type_temporal": {
+          "cal_records": 1345,
+          "test_records": 878
+        },
+        "type_identifier": {
+          "cal_records": 1385,
+          "test_records": 941
+        }
+      }
+    },
+    {
+      "domain": "finance",
+      "candidate_records": 2069,
+      "retained_records": 2043,
+      "token_audit": {
+        "minilm": {
+          "max_tokens": 308,
+          "excluded": 16
+        },
+        "gte": {
+          "max_tokens": 308,
+          "excluded": 16
+        },
+        "e5": {
+          "max_tokens": 310,
+          "excluded": 26
+        },
+        "bge": {
+          "max_tokens": 308,
+          "excluded": 16
+        }
+      },
+      "cohorts": {
+        "full": {
+          "cal_records": 1225,
+          "test_records": 818
+        },
+        "dose_ge_3": {
+          "cal_records": 1219,
+          "test_records": 816
+        },
+        "type_person": {
+          "cal_records": 163,
+          "test_records": 111
+        },
+        "type_temporal": {
+          "cal_records": 741,
+          "test_records": 468
+        },
+        "type_identifier": {
+          "cal_records": 1207,
+          "test_records": 811
+        }
+      }
+    },
+    {
+      "domain": "banking",
+      "candidate_records": 2491,
+      "retained_records": 2465,
+      "token_audit": {
+        "minilm": {
+          "max_tokens": 275,
+          "excluded": 18
+        },
+        "gte": {
+          "max_tokens": 275,
+          "excluded": 18
+        },
+        "e5": {
+          "max_tokens": 277,
+          "excluded": 26
+        },
+        "bge": {
+          "max_tokens": 275,
+          "excluded": 18
+        }
+      },
+      "cohorts": {
+        "full": {
+          "cal_records": 1479,
+          "test_records": 986
+        },
+        "dose_ge_3": {
+          "cal_records": 1467,
+          "test_records": 973
+        },
+        "type_person": {
+          "cal_records": 695,
+          "test_records": 461
+        },
+        "type_temporal": {
+          "cal_records": 771,
+          "test_records": 495
+        },
+        "type_identifier": {
+          "cal_records": 1435,
+          "test_records": 951
+        }
+      }
+    },
+    {
+      "domain": "insurance",
+      "candidate_records": 4354,
+      "retained_records": 4320,
+      "token_audit": {
+        "minilm": {
+          "max_tokens": 278,
+          "excluded": 23
+        },
+        "gte": {
+          "max_tokens": 278,
+          "excluded": 23
+        },
+        "e5": {
+          "max_tokens": 280,
+          "excluded": 34
+        },
+        "bge": {
+          "max_tokens": 278,
+          "excluded": 23
+        }
+      },
+      "cohorts": {
+        "full": {
+          "cal_records": 2592,
+          "test_records": 1728
+        },
+        "dose_ge_3": {
+          "cal_records": 2578,
+          "test_records": 1721
+        },
+        "type_person": {
+          "cal_records": 1617,
+          "test_records": 1074
+        },
+        "type_temporal": {
+          "cal_records": 1974,
+          "test_records": 1335
+        },
+        "type_identifier": {
+          "cal_records": 1988,
+          "test_records": 1293
+        }
+      }
+    },
+    {
+      "domain": "legal",
+      "candidate_records": 1268,
+      "retained_records": 1268,
+      "token_audit": {
+        "minilm": {
+          "max_tokens": 228,
+          "excluded": 0
+        },
+        "gte": {
+          "max_tokens": 228,
+          "excluded": 0
+        },
+        "e5": {
+          "max_tokens": 230,
+          "excluded": 0
+        },
+        "bge": {
+          "max_tokens": 228,
+          "excluded": 0
+        }
+      },
+      "cohorts": {
+        "full": {
+          "cal_records": 761,
+          "test_records": 507
+        },
+        "dose_ge_3": {
+          "cal_records": 337,
+          "test_records": 238
+        },
+        "type_person": {
+          "cal_records": 189,
+          "test_records": 139
+        },
+        "type_temporal": {
+          "cal_records": 657,
+          "test_records": 426
+        },
+        "type_identifier": {
+          "cal_records": 70,
+          "test_records": 47
+        }
+      }
+    }
+  ],
+  "software": {
+    "torch": "2.1.2+cu121",
+    "numpy": "1.26.3",
+    "sentence-transformers": "3.0.1",
+    "transformers": "4.44.2"
+  },
+  "uncertainty": "Record-delete jackknife normal pointwise 95% interval; original calibration threshold held fixed; no multiple-comparison correction."
+}

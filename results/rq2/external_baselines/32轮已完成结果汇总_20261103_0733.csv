@@ -1,0 +1,11 @@
+method,dataset,objective,rounds,variant,covered,total,coverage_pct,key_count,source
+gaslite_32,banking77,soft_threshold,32,raw,1160,1485,78.11447811447812,15,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\gaslite_32\soft_threshold\banking77\final_report.json
+gaslite_32,banking77,soft_threshold,32,screened,373,1485,25.117845117845118,8,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\gaslite_32\soft_threshold\banking77\final_report.json
+gaslite_flu_32,abcd,mean_cosine,32,raw,292,476,61.34453781512605,5,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\gaslite_flu_32\mean_cosine\abcd\final_report.json
+gaslite_flu_32,abcd,mean_cosine,32,screened,176,476,36.97478991596639,4,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\gaslite_flu_32\mean_cosine\abcd\final_report.json
+gaslite_flu_32,banking77,mean_cosine,32,raw,1111,1485,74.81481481481481,15,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\gaslite_flu_32\mean_cosine\banking77\final_report.json
+gaslite_flu_32,banking77,mean_cosine,32,screened,841,1485,56.63299663299664,15,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\gaslite_flu_32\mean_cosine\banking77\final_report.json
+gaslite_flu_32,dogo,mean_cosine,32,raw,936,1094,85.55758683729434,10,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\gaslite_flu_32\mean_cosine\dogo\final_report.json
+gaslite_flu_32,dogo,mean_cosine,32,screened,372,1094,34.003656307129795,7,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\gaslite_flu_32\mean_cosine\dogo\final_report.json
+simple_existing_config,abcd,,32,final,255,476,53.57142857142857,5,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\simple_existing_config\abcd\final_report.json
+simple_existing_config,dogo,,32,final,864,1094,78.97623400365632,10,C:\Users\ykx01\Desktop\results\VLDB补充方法对比_20261102\runs\simple_existing_config\dogo\final_report.json

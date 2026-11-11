@@ -1,0 +1,38 @@
+{
+  "slot": 6,
+  "target_index": 5,
+  "starting_text": "My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381.",
+  "selected": {
+    "text": "My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381.",
+    "target_cosine": 0.9384421706199646,
+    "train_covered": 220,
+    "ppl": 22.451827051531605
+  },
+  "baseline_replacement_gain": 207,
+  "trace": [
+    {
+      "step": 1,
+      "api_proposals": 8,
+      "passed_ppl": 0,
+      "best_replacement_gain": 207,
+      "net_union_change": 0,
+      "beam": [
+        "My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381."
+      ],
+      "accepted_texts": [],
+      "positive_feedback": []
+    },
+    {
+      "step": 2,
+      "api_proposals": 0,
+      "passed_ppl": 0,
+      "best_replacement_gain": 207,
+      "net_union_change": 0,
+      "beam": [
+        "My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381."
+      ],
+      "accepted_texts": [],
+      "positive_feedback": []
+    }
+  ]
+}

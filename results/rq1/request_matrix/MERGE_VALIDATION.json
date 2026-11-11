@@ -1,0 +1,18 @@
+{
+  "request_new_cells": 1080,
+  "document_existing_cells": 1800,
+  "combined_cells": 2880,
+  "primary_cells": 320,
+  "missing_cells": 0,
+  "duplicate_cells": 0,
+  "existing_bge_comparisons": 21,
+  "existing_bge_exact_count_comparisons": 16,
+  "existing_bge_exact_primary_comparisons": 3,
+  "primary_positive": 296,
+  "primary_negative": 24,
+  "source_files": {
+    "C:\\Users\\ykx01\\Desktop\\results\\RQ1_等长遮罩与伪实体_20261022\\existing_rules_matched_cohort.csv": "cf52cbcb6b2b96e086e37d138465568959afe3849de9e466c6bd3036f6d1f934",
+    "C:\\Users\\ykx01\\Desktop\\results\\RQ1_等长遮罩与伪实体_20261022\\collision_results_all_thresholds.csv": "6e33d13a89a2663f7a191da35c82cef0f2f612ac08fd422272988b731658f98e",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\ICDE\\rq1_request_matrix\\download\\collision_results_all_thresholds.csv": "295ea3ec4ae3afd6d1068da164dd18c5d335f424dab2e8196d5a92a871bc9b75"
+  }
+}

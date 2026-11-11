@@ -1,0 +1,30 @@
+{
+  "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "pooling_sha256": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+  "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+  "max_length": 512,
+  "pooling": "CLS",
+  "normalize": true,
+  "dtype": "float32",
+  "device": "cpu",
+  "versions": {
+    "gptcache": "0.1.44",
+    "torch": "2.1.2+cu121",
+    "transformers": "4.40.2",
+    "faiss-cpu": "1.15.1",
+    "numpy": "1.26.3",
+    "sqlalchemy": "2.0.57"
+  },
+  "threshold": 0.85,
+  "top_k": 1,
+  "postprocess": "first",
+  "vector_index": "FAISS IndexFlatL2 via GPTCache",
+  "test_cache_writes": false,
+  "answer_payload": "unique provenance marker; no generated answers; no validity assessment",
+  "admission": "direct put (force preload), not user-query admission",
+  "latency_scope": "lookup with precomputed BGE embeddings, NOT end-to-end serving latency",
+  "input_manifest_sha256": "aee49fd56b0d9633e320e22c0c089c5edebacdf7019ab5fa7699392244951bc8",
+  "script_sha256": "bdda1354dfa96bcd89918ee50854d6e89212f3d27f959f7b18b80d64c1668737",
+  "frozen_embedding_manifest_sha256": "0f063a66c90e5695798cab32e493d2559c26468e9c2c4314ceea5b9d6d39d1ee",
+  "encoding_source": "verified frozen paper embeddings; only missing main-set strings re-encoded"
+}

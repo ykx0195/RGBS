@@ -1,0 +1,45 @@
+{
+  "config": {
+    "dataset": "banking77",
+    "cluster": 0,
+    "seed": 42,
+    "max_iterations": 2,
+    "num_candidates": 100,
+    "query_batch": 64,
+    "candidate_batch": 32,
+    "threshold": 0.85,
+    "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+    "vectors_sha256": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "official_commit": "main-snapshot-with-file-sha256",
+    "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+    "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+    "device": "cuda",
+    "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+    "smoke": true
+  },
+  "initial": {
+    "cluster_id": 0,
+    "train_index": 3822,
+    "source_id": "train-006613",
+    "text": "I lost my phone, which is registered under phone number <PHONE_NUMBER_1>.",
+    "cluster_size": 114,
+    "initial_center_cosine": 0.9602887630462646
+  },
+  "selected": {
+    "text": "I lost my phone, which is registered under phone number <PHONE_NUMBER_1>.",
+    "full_cluster_mean_cosine": 0.8715294003486633,
+    "selected_at_iteration": 0
+  },
+  "completed_iterations": 2,
+  "termination": "iteration_budget_exhausted",
+  "accepted_updates": 0,
+  "proposed_candidates": 200,
+  "valid_candidates": 199,
+  "active_seconds": 0.27173127233982086,
+  "forward_texts": 203,
+  "backward_calls": 2,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "finished_at_utc": "2026-10-31T10:16:28.415364+00:00"
+}

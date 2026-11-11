@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "conditions": [
+    {
+      "dataset": "banking77",
+      "condition": "placeholder_saved_order",
+      "entries": 15,
+      "early_hits": 0,
+      "actual_hits": 1083,
+      "queries": 1485,
+      "physical_questions_match": true,
+      "passed": true
+    },
+    {
+      "dataset": "banking77",
+      "condition": "materialized_saved_order",
+      "entries": 15,
+      "early_hits": 0,
+      "actual_hits": 1083,
+      "queries": 1485,
+      "physical_questions_match": true,
+      "passed": true
+    },
+    {
+      "dataset": "abcd",
+      "condition": "placeholder_saved_order",
+      "entries": 5,
+      "early_hits": 0,
+      "actual_hits": 305,
+      "queries": 476,
+      "physical_questions_match": true,
+      "passed": true
+    },
+    {
+      "dataset": "abcd",
+      "condition": "materialized_saved_order",
+      "entries": 5,
+      "early_hits": 0,
+      "actual_hits": 305,
+      "queries": 476,
+      "physical_questions_match": true,
+      "passed": true
+    },
+    {
+      "dataset": "dogo",
+      "condition": "placeholder_saved_order",
+      "entries": 10,
+      "early_hits": 0,
+      "actual_hits": 909,
+      "queries": 1094,
+      "physical_questions_match": true,
+      "passed": true
+    },
+    {
+      "dataset": "dogo",
+      "condition": "materialized_saved_order",
+      "entries": 10,
+      "early_hits": 0,
+      "actual_hits": 909,
+      "queries": 1094,
+      "physical_questions_match": true,
+      "passed": true
+    }
+  ],
+  "verified_queries": 6110,
+  "all_candidates_admitted": true,
+  "strict_pair_constraint_verified": true,
+  "actual_return_coverage_matches_offline": true,
+  "verify_script_sha256": "d73e26506f275e95ff9442046c83ea76b3a055b04ea76e0c8e64bba81ae44244"
+}

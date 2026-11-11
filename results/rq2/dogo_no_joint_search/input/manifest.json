@@ -1,0 +1,34 @@
+{
+  "dataset": "dogo",
+  "source_run": "C:\\Users\\ykx01\\Desktop\\results\\ykx现行实验\\v10_current\\multidogo\\results\\runs\\multidogo_riemann_k10_t0p85_s42_dataset_scope_v1",
+  "source_main_covered": 909,
+  "test_total": 1094,
+  "k": 10,
+  "threshold": 0.85,
+  "protocol": "Disable every text-search iteration on the original ten geometric guides and their seed lists; replay frozen seed eligibility; retain original Train global greedy selection and 12 one-swap passes. Freeze before held-out access.",
+  "scope": "Independent rerun of a frozen-input zero-search counterfactual, not a fresh generation or a fresh PPL audit.",
+  "heldout_hash": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+  "expected_test_vector_sha256": "e4f0baecc37494cb7b9c4f3885b9bedf0a5647aa697aebaffc6687f0058bd517",
+  "input_sha256": {
+    "frozen_seed_eligibility.json": "9101eb1164bdbc680a571f5803449613a93c649bf45b39139cc1e99d26b9a1d5",
+    "source_candidates.jsonl": "0b115ed218968c8bce140c59c88b2204aeadff0c31009f333e485466c66171a8",
+    "source_candidate_vectors.npy": "d320f377a916cbacca7797bb07123a4d9ddcb0696f91aa4cac75a311de27d409",
+    "source_config.json": "12905727ce6b141993c1d0065f4b11ba8fb4005fb00732b25b83fb9a063dcf81",
+    "source_language_gate.json": "33fcbb4a9f710d5946fa33eabbfcc56483ced37aa5182b5ecfad67399fbf3b52",
+    "source_main_report.json": "7ded0d73f1b433a6d036c0a8beae9dc3a298bfbb3fa413a2b7e8e715892104dc",
+    "source_portfolios.json": "d99bbbff50944d979760e98652c98c282c7e33072c160fe450c2327815cecc46",
+    "source_prefix.json": "e5ef7f3801b0b64a083cc2bfa5de9c25aa7eca1a091ff0ffb1560cf38e44851b",
+    "targets.jsonl": "fbed92c1e2b6d6a9900eab68e08d58905db73227b8dc38c56690e0e5173cafa6",
+    "target_vectors.npy": "b217f22e56cb9d2a2bef4cff759effb26b90ba46e771b32ad6e26609b2cb5687",
+    "train.jsonl": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+    "train.npy": "7fd9c2d7b6630c6ebf38ba0e644c1a499666bbfeed4679edae23b0fc0508efc9"
+  },
+  "code_sha256": {
+    "common.py": "53979f3e9111cc69d6cf4b3d15129a4c68153839d2204742abad73ea0e7511f9",
+    "encoder.py": "cb83b5b4450152577adb5ad47405a323e81455d2e6e06ce41a99b01b9e9df266",
+    "gradient_search.py": "6f930dbaac52945d5d24ec666aa7ef8f4c4bddcb4ce0c5f7c1b09c63e840b330",
+    "objectives.py": "05ea60e80d9263dadc6e05b56541228f6723c323028e9b0ec68b0ddca990e805",
+    "portfolio.py": "52f7d58ab8c366533e0ae16a760dde20194355de54a0129f309fc9a437a948c6",
+    "__init__.py": "38cba4f272e01aa853907e3c1032fd66d0ef6e4ca77daf545f61f8005f775fa7"
+  }
+}

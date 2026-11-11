@@ -1,0 +1,6 @@
+{
+  "bootstrap_rows": 400,
+  "holdout_rows": 960,
+  "group_splits": 12,
+  "checks": "unique grids, disjoint source types and record IDs, paired net-count arithmetic passed"
+}

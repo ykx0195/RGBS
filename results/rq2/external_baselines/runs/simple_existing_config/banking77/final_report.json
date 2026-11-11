@@ -1,0 +1,156 @@
+{
+  "config": {
+    "comparison_mode": "simple",
+    "generation_cap_per_slot": 0,
+    "dataset": "banking77",
+    "representation": "delexed",
+    "encoder": "bge",
+    "k": 15,
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "allowed_domains": "banking support",
+    "local_readability_judge": true,
+    "api_http_timeout_s": 60,
+    "api_hard_timeout_s": 90,
+    "api_max_consecutive_failures": 3,
+    "domain_judges": [
+      "qwen_api",
+      "deepseek_api"
+    ],
+    "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+    "target_sha256": "55cd9db6133b3ba7b578956e9fc8ec2c6227a64aaf808da209ec16091a1780b5",
+    "seeds_sha256": "8f1e068efed8587599bd65d0660085319256b21b0baa1c174b513485ec55cc55",
+    "api_config_sha256": "80ad81be615dc511887eb50c50fcfc5c995a73f7bc522421e62e0a533660dd68",
+    "model_dir": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+    "lm_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "threshold": 0.85,
+    "smoke_train_limit": 0,
+    "steps_per_slot": 32,
+    "beam_width": 50,
+    "positions_per_parent": 8,
+    "tokens_per_position": 4,
+    "max_words_per_step": 3,
+    "max_total_word_changes": 10,
+    "rewrites_per_api": 4,
+    "prompt_examples": 6,
+    "feedback_examples": 4,
+    "focus_size": 128,
+    "temperature": 0.02,
+    "align_weight": 0.1,
+    "max_ppl": 150.0,
+    "relative_ppl": 1.5,
+    "ppl_prefilter": 20,
+    "swap_passes": 4,
+    "batch_size": 64,
+    "seed": 42
+  },
+  "portfolio_source": "global_greedy_swap",
+  "baseline_train_covered": 3267,
+  "selected": [
+    {
+      "text": "I'm wondering why the transfer from account <ACCOUNT_NUMBER_1> hasn't been received.",
+      "target_cosine": 0.9607411623001099,
+      "train_covered": 779,
+      "ppl": 68.60107470317605
+    },
+    {
+      "text": "I notice an unfamiliar charge on my card transaction; why did this happen with <ACCOUNT_NUMBER_1> account?",
+      "target_cosine": 0.9423518180847168,
+      "train_covered": 611,
+      "ppl": 117.48130570942062
+    },
+    {
+      "text": "I'm attempting to figure out what went wrong with the top-up for account <ACCOUNT_NUMBER_1> via my card <CREDIT_CARD_1> just now.",
+      "target_cosine": 0.9641456604003906,
+      "train_covered": 436,
+      "ppl": 50.681451602703
+    },
+    {
+      "text": "The recent ATM cash withdrawal using card <ACCOUNT_NUMBER_1> gave me an inaccurate amount.",
+      "target_cosine": 0.8633861541748047,
+      "train_covered": 328,
+      "ppl": 102.63204831089148
+    },
+    {
+      "text": "The card <CREDIT_CARD_1> has an issue, could you kindly assist me.",
+      "target_cosine": 0.9451391696929932,
+      "train_covered": 401,
+      "ppl": 104.28839114310011
+    },
+    {
+      "text": "My account <ACCOUNT_NUMBER_1> has a refund pending for card <CREDIT_CARD_1>, so I haven't received it yet.",
+      "target_cosine": 0.9486615061759949,
+      "train_covered": 432,
+      "ppl": 36.02971123718307
+    },
+    {
+      "text": "Could you please help me to cancel that transaction of <ACCOUNT_NUMBER_1>.",
+      "target_cosine": 0.9585787057876587,
+      "train_covered": 304,
+      "ppl": 35.83833447829901
+    },
+    {
+      "text": "I'm stuck with a PIN for my card <CREDIT_CARD_1>, can you assist me?",
+      "target_cosine": 0.9541743397712708,
+      "train_covered": 183,
+      "ppl": 45.940563844692576
+    },
+    {
+      "text": "Could you guide me to have my new card activated for that account <ACCOUNT_NUMBER_1>.",
+      "target_cosine": 0.8315064907073975,
+      "train_covered": 216,
+      "ppl": 93.94601585110505
+    },
+    {
+      "text": "I noticed a payment going to an incorrect account number <ACCOUNT_NUMBER_1>.",
+      "target_cosine": 0.9387865662574768,
+      "train_covered": 508,
+      "ppl": 65.77511838281617
+    },
+    {
+      "text": "Could you please look into why the money deposited into account <ACCOUNT_NUMBER_1> still hasn't appeared?",
+      "target_cosine": 0.9536895155906677,
+      "train_covered": 587,
+      "ppl": 54.87209232855428
+    },
+    {
+      "text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+      "target_cosine": 0.9438877701759338,
+      "train_covered": 264,
+      "ppl": 37.75290806752772
+    },
+    {
+      "text": "Was the card payment declined? Could you indicate why this happened for account <ACCOUNT_NUMBER_1>?",
+      "target_cosine": 0.8884167671203613,
+      "train_covered": 585,
+      "ppl": 104.84184176708911
+    },
+    {
+      "text": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+      "target_cosine": 0.8143544793128967,
+      "train_covered": 129,
+      "ppl": 91.05738099338504
+    },
+    {
+      "text": "My card <CREDIT_CARD_1> is stolen, please assist me.",
+      "target_cosine": 0.9143033027648926,
+      "train_covered": 117,
+      "ppl": 103.2574751635743
+    }
+  ],
+  "metrics": {
+    "train": {
+      "covered": 3790,
+      "total": 4924,
+      "coverage": 0.7696994313566207
+    },
+    "test": {
+      "covered": 1118,
+      "total": 1485,
+      "coverage": 0.7528619528619529
+    }
+  },
+  "heldout_loaded": true,
+  "note": "Final coverage is Test cosine-threshold union coverage. Train was used for optimization and selection; Test was opened only after freezing. This is not cache Top-1 or attack success.",
+  "final_coverage_split": "test",
+  "test_sha256": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461"
+}

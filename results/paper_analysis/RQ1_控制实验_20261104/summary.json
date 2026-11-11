@@ -1,0 +1,31 @@
+{
+  "threshold": 0.85,
+  "protocol": "Fixed threshold on previously saved embeddings and evaluation memberships. CPU float32 dot products; no threshold estimation, text generation or re-encoding.",
+  "matched_nonpii": {
+    "cells": 100,
+    "positive": 75,
+    "positive_ci_lower": 46
+  },
+  "filters": {
+    "different_document_type": {
+      "cells": 80,
+      "positive": 77,
+      "positive_ci_lower": 72
+    },
+    "non_pii_lexical_below_0_5": {
+      "cells": 100,
+      "positive": 96,
+      "positive_ci_lower": 94
+    },
+    "non_pii_lexical_below_0_8": {
+      "cells": 100,
+      "positive": 96,
+      "positive_ci_lower": 96
+    }
+  },
+  "source_code_sha256": {
+    "C:\\Users\\ykx01\\Desktop\\ykx\\\u8bed\u4e49\u7f13\u5b58\u8131\u654f\u7814\u7a76\\code\\run_matched_nonpii_gpu.py": "fab9bbce4048600bae70e39b824a48b16501b1d1128f55c2776f09920b803195",
+    "C:\\Users\\ykx01\\Desktop\\ykx\\\u8bed\u4e49\u7f13\u5b58\u8131\u654f\u7814\u7a76\\code\\lexical_template_control.py": "08d5fb13dfdf68323f639fddade95a62614ba274070649fd314c6645af3cbb09",
+    "C:\\Users\\ykx01\\Documents\\ChatGPT\\VLDB\\tmp\\fixed_threshold_controls_20261103.py": "6e7aee428271f2c16f70a3ca1292aea0a954ee2c33e94ac8af3dd28e983798ee"
+  }
+}

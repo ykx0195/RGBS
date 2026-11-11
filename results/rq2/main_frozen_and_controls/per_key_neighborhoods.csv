@@ -1,0 +1,181 @@
+dataset,representation,method,key_index,train_rank,covered_queries,exclusive_queries,test_total,text
+banking77,raw,RKGB,0,1,104,18,1485,A transfer from account 8100057961 doesn't seem to have been handled correctly. Can you clarify the issue?
+banking77,raw,RKGB,1,2,44,35,1485,"I tried to get cash from the ATM with my card on account 63-0011-5881, but the amount I withdrew was wrong."
+banking77,raw,RKGB,2,3,66,61,1485,"My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381."
+banking77,raw,RKGB,3,4,51,20,1485,"I think an extra charge appears to be on the card, and I'd like to clarify why it happened to my account 63-0012-5821."
+banking77,raw,RKGB,4,6,54,43,1485,"I tried a card payment using 4708 1103 5577 8782, and that transaction got declined for account 902000111751."
+banking77,raw,RKGB,5,5,43,39,1485,I believe my recent abroad cash transaction got the incorrect exchange rate for account 63-0008-4301.
+banking77,raw,RKGB,6,7,48,37,1485,"I just deposited cash this morning to account 70032781, and the balance still isn't shown."
+banking77,raw,RKGB,7,8,40,36,1485,Could you let me know why the card refund to account 902000108351 still hasn't shown up?
+banking77,raw,RKGB,8,9,27,26,1485,"I believe there's an unknown direct debit from account 8100047671, definitely help me with this."
+banking77,raw,RKGB,9,10,40,40,1485,I was caught after all past attempts using my card 3460 616903 78935. Could you assist me in changing the PIN?
+banking77,raw,RKGB,10,11,45,30,1485,"I am seeing a card transaction still pending for the account number 63-0008-1171, please check."
+banking77,raw,RKGB,11,12,75,29,1485,I believe a fee was charged on my card transaction for account 902000033561; could you indicate the exact reason.
+banking77,raw,RKGB,12,13,35,27,1485,"The transaction regarding account 70045891 went through incorrectly; I'd like to cancel that now, thanks."
+banking77,raw,RKGB,13,14,102,21,1485,I'm trying to figure out why the transfer from account 63-0008-9921 now hasn't been completed properly yet.
+banking77,raw,RKGB,14,15,14,14,1485,My phone registered under phone number (202) 555-0182 is either lost or stolen.
+banking77,raw,greedy_train,0,1,92,33,1485,Can you tell me the reason my transfer from account 902000082881 didn't go through?
+banking77,raw,greedy_train,1,2,66,63,1485,"My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381."
+banking77,raw,greedy_train,2,3,40,40,1485,I think my recent overseas transaction got the wrong exchange rate on account 63-0008-4301.
+banking77,raw,greedy_train,3,4,73,25,1485,I'm wondering why the transfer from account 63-0008-9921 hasn't completed yet.
+banking77,raw,greedy_train,4,5,32,30,1485,I noticed a $1 extra charge on my statement from account 902000076081 with card 6554 3242 5186 7488.
+banking77,raw,greedy_train,5,6,36,16,1485,I tried to withdraw cash but it hasn't shown up in account 902000096781.
+banking77,raw,greedy_train,6,7,30,30,1485,"Even though I keep checking, the refund hasn't appeared in account 63-0006-7461; please help me get the money back from the seller, as the payment was made with card 3716 650627 42193."
+banking77,raw,greedy_train,7,8,29,29,1485,I don't recognize a Direct Debit payment taken from account 8100041801.
+banking77,raw,greedy_train,8,9,34,31,1485,"I tried to pay using card 4708 1103 5577 8782, but the transaction was declined for account 902000111751."
+banking77,raw,greedy_train,9,10,44,28,1485,Can you explain why there was a fee on my transfer from account 8100069501?
+banking77,raw,greedy_train,10,11,31,26,1485,Can you explain why my card payment is still pending on account 63-0009-7111?
+banking77,raw,greedy_train,11,12,19,14,1485,"I withdrew from account 63-0007-6531 at an ATM today, and I received more cash than I requested. How can this be corrected?"
+banking77,raw,greedy_train,12,13,16,16,1485,How do I activate my card 6563 1608 6796 8214?
+banking77,raw,greedy_train,13,14,33,33,1485,"I'd like to cancel account 8100081391, please."
+banking77,raw,greedy_train,14,15,26,15,1485,"I deposited a cheque or cash, but the balance on account 70073661 hasn't updated."
+banking77,raw,greedy_train_swap4,0,4,71,33,1485,The transfer from account 70045891 failed; I'd like to know why.
+banking77,raw,greedy_train_swap4,1,2,66,64,1485,"My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381."
+banking77,raw,greedy_train_swap4,2,3,42,41,1485,My card payment's exchange rate looks incorrect; it was taken from account 902000079741.
+banking77,raw,greedy_train_swap4,3,1,73,35,1485,I'm wondering why the transfer from account 63-0008-9921 hasn't completed yet.
+banking77,raw,greedy_train_swap4,4,5,32,29,1485,I noticed a $1 extra charge on my statement from account 902000076081 with card 6554 3242 5186 7488.
+banking77,raw,greedy_train_swap4,5,14,22,13,1485,"The app says I withdrew cash from an ATM, but I didn't. Can you help me with card 6011 7590 6937 9589?"
+banking77,raw,greedy_train_swap4,6,7,30,30,1485,"Even though I keep checking, the refund hasn't appeared in account 63-0006-7461; please help me get the money back from the seller, as the payment was made with card 3716 650627 42193."
+banking77,raw,greedy_train_swap4,7,10,29,29,1485,I don't recognize a Direct Debit payment taken from account 8100041801.
+banking77,raw,greedy_train_swap4,8,8,34,31,1485,"I tried to pay using card 4708 1103 5577 8782, but the transaction was declined for account 902000111751."
+banking77,raw,greedy_train_swap4,9,12,44,27,1485,Can you explain why there was a fee on my transfer from account 8100069501?
+banking77,raw,greedy_train_swap4,10,11,31,26,1485,Can you explain why my card payment is still pending on account 63-0009-7111?
+banking77,raw,greedy_train_swap4,11,9,19,10,1485,"I withdrew from account 63-0007-6531 at an ATM today, and I received more cash than I requested. How can this be corrected?"
+banking77,raw,greedy_train_swap4,12,13,16,16,1485,How do I activate my card 6563 1608 6796 8214?
+banking77,raw,greedy_train_swap4,13,15,33,33,1485,"I'd like to cancel account 8100081391, please."
+banking77,raw,greedy_train_swap4,14,6,43,35,1485,"I deposited cash this morning into account 70032781, but the balance is still not updated."
+banking77,delex,RKGB,0,1,204,75,1485,Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet.
+banking77,delex,RKGB,1,2,166,44,1485,There's a similar charge regarding my card transactions; why did it appear in my account <ACCOUNT_NUMBER_1>?
+banking77,delex,RKGB,2,3,208,89,1485,"The card <CREDIT_CARD_1> had an issue, so please assist me."
+banking77,delex,RKGB,3,4,118,65,1485,I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now.
+banking77,delex,RKGB,4,7,159,28,1485,Could you clarify why the money from account <ACCOUNT_NUMBER_1> hasn't turned up in my balance yet?
+banking77,delex,RKGB,5,6,71,38,1485,"The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?"
+banking77,delex,RKGB,6,5,137,28,1485,"I spotted a payment to the incorrect account number <ACCOUNT_NUMBER_1>, please assist."
+banking77,delex,RKGB,7,9,69,59,1485,"I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?"
+banking77,delex,RKGB,8,8,84,54,1485,"However, could you guide me in reactivating a card for account <ACCOUNT_NUMBER_1> now?"
+banking77,delex,RKGB,9,11,76,40,1485,Could you inform me how to cancel the transaction for account <ACCOUNT_NUMBER_1>?
+banking77,delex,RKGB,10,14,56,7,1485,The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.
+banking77,delex,RKGB,11,10,124,42,1485,Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I unfortunately haven't received.
+banking77,delex,RKGB,12,13,45,25,1485,"At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>."
+banking77,delex,RKGB,13,12,97,22,1485,Can you confirm why a currency exchange fee was given on my account <ACCOUNT_NUMBER_1>?
+banking77,delex,RKGB,14,15,191,24,1485,Perhaps the card payment has been declined? Can you give me info on why for account <ACCOUNT_NUMBER_1>?
+banking77,delex,greedy_train,0,1,210,108,1485,"The transfer from account <ACCOUNT_NUMBER_1> didn't go through, and I wasn't told why. Could you explain?"
+banking77,delex,greedy_train,1,2,129,54,1485,There's an additional charge on my card transaction; why did it happen to account <ACCOUNT_NUMBER_1>?
+banking77,delex,greedy_train,2,3,100,76,1485,I'm trying to understand what went wrong with the top-up from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.
+banking77,delex,greedy_train,3,4,139,34,1485,A card payment of mine hasn't worked for some reason. Can you help me look into what happened with account <ACCOUNT_NUMBER_1>?
+banking77,delex,greedy_train,4,5,51,14,1485,I got the wrong amount of cash from the ATM when withdrawing from account <ACCOUNT_NUMBER_1>.
+banking77,delex,greedy_train,5,6,127,69,1485,"The card <CREDIT_CARD_1> is broken, please assist me."
+banking77,delex,greedy_train,6,7,78,50,1485,Please help me cancel the transaction on account <ACCOUNT_NUMBER_1>.
+banking77,delex,greedy_train,7,8,88,34,1485,"I deposited cash into account <ACCOUNT_NUMBER_1>, but the balance hasn't updated yet."
+banking77,delex,greedy_train,8,9,60,39,1485,I was debited using the wrong exchange rate for my purchase from account <ACCOUNT_NUMBER_1>.
+banking77,delex,greedy_train,9,10,65,50,1485,Can you tell me the steps to reactivate my PIN for my card <CREDIT_CARD_1>?
+banking77,delex,greedy_train,10,11,60,38,1485,"Even though I keep checking, the refund hasn't appeared in account <ACCOUNT_NUMBER_1>; please help me get the money back from the seller, as the payment was made with card <CREDIT_CARD_1>."
+banking77,delex,greedy_train,11,12,71,46,1485,"The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?"
+banking77,delex,greedy_train,12,13,101,35,1485,Please look into a strange card payment from my account <ACCOUNT_NUMBER_1>.
+banking77,delex,greedy_train,13,14,32,29,1485,When should I expect the new card associated with account <ACCOUNT_NUMBER_1> to arrive at <STREET_ADDRESS_1>?
+banking77,delex,greedy_train,14,15,16,16,1485,"I lost my phone, which is registered under phone number <PHONE_NUMBER_1>."
+banking77,delex,greedy_train_swap4,0,1,210,81,1485,"The transfer from account <ACCOUNT_NUMBER_1> didn't go through, and I wasn't told why. Could you explain?"
+banking77,delex,greedy_train_swap4,1,2,129,60,1485,There's an additional charge on my card transaction; why did it happen to account <ACCOUNT_NUMBER_1>?
+banking77,delex,greedy_train_swap4,2,3,100,68,1485,I'm trying to understand what went wrong with the top-up from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.
+banking77,delex,greedy_train_swap4,3,12,100,26,1485,Can you explain why my card payment is still pending on account <ACCOUNT_NUMBER_1>?
+banking77,delex,greedy_train_swap4,4,14,125,29,1485,"My card payment was declined, and I'd like to know the reason for account <ACCOUNT_NUMBER_1>."
+banking77,delex,greedy_train_swap4,5,4,127,90,1485,"The card <CREDIT_CARD_1> is broken, please assist me."
+banking77,delex,greedy_train_swap4,6,10,78,49,1485,Please help me cancel the transaction on account <ACCOUNT_NUMBER_1>.
+banking77,delex,greedy_train_swap4,7,8,107,36,1485,Why hasn't the cash I deposited appeared in account <ACCOUNT_NUMBER_1>?
+banking77,delex,greedy_train_swap4,8,7,55,44,1485,I was given the wrong exchange rate for my cash withdrawal from account <ACCOUNT_NUMBER_1>.
+banking77,delex,greedy_train_swap4,9,11,65,50,1485,Can you tell me the steps to reactivate my PIN for my card <CREDIT_CARD_1>?
+banking77,delex,greedy_train_swap4,10,9,60,40,1485,"Even though I keep checking, the refund hasn't appeared in account <ACCOUNT_NUMBER_1>; please help me get the money back from the seller, as the payment was made with card <CREDIT_CARD_1>."
+banking77,delex,greedy_train_swap4,11,5,71,52,1485,"The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?"
+banking77,delex,greedy_train_swap4,12,6,101,46,1485,Please look into a strange card payment from my account <ACCOUNT_NUMBER_1>.
+banking77,delex,greedy_train_swap4,13,13,32,26,1485,When should I expect the new card associated with account <ACCOUNT_NUMBER_1> to arrive at <STREET_ADDRESS_1>?
+banking77,delex,greedy_train_swap4,14,15,16,16,1485,"I lost my phone, which is registered under phone number <PHONE_NUMBER_1>."
+abcd,raw,RKGB,0,1,62,37,476,"I'd want a fee refund for order 8737473365, which hasn't arrived yet. I changed my mind right after I paid, and my account user ID is tristanb0."
+abcd,raw,RKGB,1,3,63,42,476,"I'd like to return my order 0368883358 because the figured apparel came in the wrong color, and I want to send them back by mail. My username is giantname698."
+abcd,raw,RKGB,2,4,30,30,476,I've forgotten my username and can't access my account. Can you help me recover it? I can verify with my phone number (768) 599-6783 and zip code 68626.
+abcd,raw,RKGB,3,5,25,25,476,"I'm on the premium site and my recurring subscription fee was due today, so I'd like to handle the charges right now. My account ID is FThhKAFXK."
+abcd,raw,RKGB,4,2,54,47,476,I have to change the shipping status for order 6286689229 so I can get it sooner. My account ID is RVJTWZKAP6.
+abcd,raw,greedy_train,0,1,51,39,476,"I'd like a refund for order 8737473365, which hasn't arrived yet. I changed my mind right after placing it, and my username is normanb0."
+abcd,raw,greedy_train,1,2,30,30,476,"I forgot my password and can't access my account history. I don't have an email address, but I can give you my PIN 306871 and ZIP code 31778 to verify my identity."
+abcd,raw,greedy_train,2,3,38,36,476,I'd like to change the shipping on my order 6286689229 so I can receive it faster. My account ID is RVJTWZKAP6.
+abcd,raw,greedy_train,3,4,38,28,476,"I'd like to return my order 0368883358 because the Guess Jeans arrived in the wrong color, and I want to send them back by mail. My username is rodriguezdomingo698."
+abcd,raw,greedy_train,4,5,18,18,476,"I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is FTSCHKAFXK."
+abcd,raw,greedy_train_swap4,0,1,51,39,476,"I'd like a refund for order 8737473365, which hasn't arrived yet. I changed my mind right after placing it, and my username is normanb0."
+abcd,raw,greedy_train_swap4,1,2,30,30,476,"I forgot my password and can't access my account history. I don't have an email address, but I can give you my PIN 306871 and ZIP code 31778 to verify my identity."
+abcd,raw,greedy_train_swap4,2,3,38,36,476,I'd like to change the shipping on my order 6286689229 so I can receive it faster. My account ID is RVJTWZKAP6.
+abcd,raw,greedy_train_swap4,3,4,38,28,476,"I'd like to return my order 0368883358 because the Guess Jeans arrived in the wrong color, and I want to send them back by mail. My username is rodriguezdomingo698."
+abcd,raw,greedy_train_swap4,4,5,18,18,476,"I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is FTSCHKAFXK."
+abcd,delex,RKGB,0,5,52,35,476,"I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>."
+abcd,delex,RKGB,1,3,57,56,476,"I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>."
+abcd,delex,RKGB,2,4,48,48,476,"I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?"
+abcd,delex,RKGB,3,1,95,75,476,"Yep, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong tone, and I want to send them back for a refund. My account username is <USERNAME_1>."
+abcd,delex,RKGB,4,2,92,62,476,"Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now."
+abcd,delex,greedy_train,0,1,83,57,476,"I'd like a refund for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after placing it, and my username is <USERNAME_1>."
+abcd,delex,greedy_train,1,2,42,42,476,"I forgot my password and can't access my account history. I don't have an email address, but I can give you my PIN <PIN_NUMBER_1> and ZIP code <ZIP_CODE_1> to verify my identity."
+abcd,delex,greedy_train,2,3,66,37,476,"Can you check the status of order <ORDER_ID_1> for account <ACCOUNT_ID_1>? The shipping cost was high, and I'm wondering if I could cancel it instead."
+abcd,delex,greedy_train,3,4,29,29,476,"I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is <ACCOUNT_ID_1>."
+abcd,delex,greedy_train,4,5,45,36,476,I'd like to change the shipping on my order <ORDER_ID_1> so I can receive it faster. My account ID is <ACCOUNT_ID_1>.
+abcd,delex,greedy_train_swap4,0,1,80,63,476,"I don't need the item I purchased anymore, so I'd like to return it and get a refund for order <ORDER_ID_1>. My username is <USERNAME_1>."
+abcd,delex,greedy_train_swap4,1,3,42,42,476,"I forgot my password and can't access my account history. I don't have an email address, but I can give you my PIN <PIN_NUMBER_1> and ZIP code <ZIP_CODE_1> to verify my identity."
+abcd,delex,greedy_train_swap4,2,2,66,42,476,"Can you check the status of order <ORDER_ID_1> for account <ACCOUNT_ID_1>? The shipping cost was high, and I'm wondering if I could cancel it instead."
+abcd,delex,greedy_train_swap4,3,4,29,29,476,"I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is <ACCOUNT_ID_1>."
+abcd,delex,greedy_train_swap4,4,5,45,37,476,I'd like to change the shipping on my order <ORDER_ID_1> so I can receive it faster. My account ID is <ACCOUNT_ID_1>.
+dogo,raw,RKGB,0,1,112,112,1094,"My booking confirmation number is BOO80071801, and I'm Chris Grimes. I'd like to switch the seat assignment right now, please."
+dogo,raw,RKGB,1,2,92,91,1094,"My name is Alicia Shaw, and I'm requesting proof of insurance for one of my cars. My SSN ends in 5306."
+dogo,raw,RKGB,2,3,81,81,1094,My booking is BOO13112387 and I'd like to get my boarding pass; you can reach me at customer9958601@example.test.
+dogo,raw,RKGB,3,4,101,101,1094,"I'm inquiring about the status of my claim, with policy ID POL35208143 and claim number CLA28346767, please."
+dogo,raw,RKGB,4,5,79,79,1094,"My credit card got accidentally misplaced, and I'm Simone Bradshaw. Please help me report it now; the card number is 4111115306090850."
+dogo,raw,RKGB,5,6,71,71,1094,My phone screen just got cracked. You can reach me at 2025554990 or customer1546436@example.test.
+dogo,raw,RKGB,6,7,69,69,1094,"My card address has updated, so kindly change it to 6472 Cedar Avenue on my personal account 4111117998083979."
+dogo,raw,RKGB,7,8,18,18,1094,"I'm James Hernandez, and I'm having a problem with Skype. My account ends in 3816."
+dogo,raw,RKGB,8,9,27,27,1094,"Guys, my name is Tracy Patricia. I want to report my travel expenses."
+dogo,raw,RKGB,9,10,18,17,1094,"Let me check my bill. My username is user7844167, and the last four digits of my SSN are 1053."
+dogo,raw,greedy_train,0,1,92,92,1094,"My name is Alicia Shaw, and I'm requesting proof of insurance for one of my cars. My SSN ends in 5306."
+dogo,raw,greedy_train,1,2,108,108,1094,"My booking confirmation number is BOO80071801, and I'm Patrick Mitchell. I'd like to change my seat assignment."
+dogo,raw,greedy_train,2,3,81,81,1094,My booking is BOO13112387 and I'd like to get my boarding pass; you can reach me at customer9958601@example.test.
+dogo,raw,greedy_train,3,4,96,96,1094,"I need the status of my claim, with policy ID POL35208143 and claim ID CLA28346767."
+dogo,raw,greedy_train,4,5,71,71,1094,My phone screen just got cracked. You can reach me at 2025554990 or customer1546436@example.test.
+dogo,raw,greedy_train,5,6,70,69,1094,"My address has changed, so please update it to 6472 Cedar Avenue for my card 4111117998083979."
+dogo,raw,greedy_train,6,7,50,46,1094,"My credit card is lost, and I'm Robert Mclean. Please report it; the card number is 4111115306090850."
+dogo,raw,greedy_train,7,8,44,44,1094,Please place an order for pizzas. You can reach me at 2025550021 and deliver to 3411 Cedar Avenue.
+dogo,raw,greedy_train,8,9,40,37,1094,"Hi, my name is Brian Roberts. My credit card bill shows an error, and I'd like help getting the charge removed. My card number is 4111117193094151."
+dogo,raw,greedy_train,9,10,18,18,1094,"I'm James Hernandez, and I'm having a problem with Skype. My account ends in 3816."
+dogo,raw,greedy_train_swap4,0,1,92,92,1094,"My name is Alicia Shaw, and I'm requesting proof of insurance for one of my cars. My SSN ends in 5306."
+dogo,raw,greedy_train_swap4,1,2,108,108,1094,"My booking confirmation number is BOO80071801, and I'm Patrick Mitchell. I'd like to change my seat assignment."
+dogo,raw,greedy_train_swap4,2,3,81,81,1094,My booking is BOO13112387 and I'd like to get my boarding pass; you can reach me at customer9958601@example.test.
+dogo,raw,greedy_train_swap4,3,4,96,96,1094,"I need the status of my claim, with policy ID POL35208143 and claim ID CLA28346767."
+dogo,raw,greedy_train_swap4,4,5,71,71,1094,My phone screen just got cracked. You can reach me at 2025554990 or customer1546436@example.test.
+dogo,raw,greedy_train_swap4,5,6,70,69,1094,"My address has changed, so please update it to 6472 Cedar Avenue for my card 4111117998083979."
+dogo,raw,greedy_train_swap4,6,7,50,46,1094,"My credit card is lost, and I'm Robert Mclean. Please report it; the card number is 4111115306090850."
+dogo,raw,greedy_train_swap4,7,8,44,44,1094,Please place an order for pizzas. You can reach me at 2025550021 and deliver to 3411 Cedar Avenue.
+dogo,raw,greedy_train_swap4,8,9,40,37,1094,"Hi, my name is Brian Roberts. My credit card bill shows an error, and I'd like help getting the charge removed. My card number is 4111117193094151."
+dogo,raw,greedy_train_swap4,9,10,18,18,1094,"I'm James Hernandez, and I'm having a problem with Skype. My account ends in 3816."
+dogo,delex,RKGB,0,7,95,76,1094,Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.
+dogo,delex,RKGB,1,2,120,108,1094,"This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>."
+dogo,delex,RKGB,2,3,130,116,1094,"The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>."
+dogo,delex,RKGB,3,4,116,113,1094,i'm <PERSON_1> and i need the status of my claims. my insurance number is <POLICY_ID_1>.
+dogo,delex,RKGB,4,6,71,71,1094,I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.
+dogo,delex,RKGB,5,8,72,71,1094,"My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>."
+dogo,delex,RKGB,6,5,81,77,1094,"I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>."
+dogo,delex,RKGB,7,9,65,65,1094,I want to claim travel expenses; I'm <PERSON_1>.
+dogo,delex,RKGB,8,1,144,125,1094,I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.
+dogo,delex,RKGB,9,10,51,51,1094,Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>.
+dogo,delex,greedy_train,0,1,186,186,1094,"My booking is <BOOKING_ID_1>, and I need a boarding pass; my name is <PERSON_1>."
+dogo,delex,greedy_train,1,2,140,37,1094,"I'm <PERSON_1>, and I lost my credit card. The last four digits of my SSN are <SSN_LAST4_1>."
+dogo,delex,greedy_train,2,3,111,98,1094,Can you provide proof of insurance regarding my claim <CLAIM_ID_1>? My policy number is <POLICY_ID_1>.
+dogo,delex,greedy_train,3,4,81,77,1094,"I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>."
+dogo,delex,greedy_train,4,5,112,79,1094,"I'm <PERSON_1>, and there's an error on my credit card bill that I want to dispute. My card number is <CARD_NUMBER_1>."
+dogo,delex,greedy_train,5,6,71,71,1094,I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.
+dogo,delex,greedy_train,6,7,72,72,1094,"My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>."
+dogo,delex,greedy_train,7,8,74,71,1094,"I'm <PERSON_1>, and I want to submit a claim for my travel expenses."
+dogo,delex,greedy_train,8,9,49,49,1094,Please place an order for pizzas. You can reach me at <PHONE_NUMBER_1> and deliver to <STREET_ADDRESS_1>.
+dogo,delex,greedy_train,9,10,107,29,1094,"I need proof of insurance for one of your cars. My SSN is <SSN_1>, and I'm <PERSON_1>."
+dogo,delex,greedy_train_swap4,0,1,186,186,1094,"My booking is <BOOKING_ID_1>, and I need a boarding pass; my name is <PERSON_1>."
+dogo,delex,greedy_train_swap4,1,10,88,41,1094,"I'm <PERSON_1>, and I want to report an error on my credit card bill. The last four digits of my SSN are <SSN_LAST4_1>."
+dogo,delex,greedy_train_swap4,2,5,112,111,1094,Could you give me the status for my claim <CLAIM_ID_1>? My policy number is <POLICY_ID_1>.
+dogo,delex,greedy_train_swap4,3,4,81,75,1094,"I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>."
+dogo,delex,greedy_train_swap4,4,3,112,94,1094,"I'm <PERSON_1>, and there's an error on my credit card bill that I want to dispute. My card number is <CARD_NUMBER_1>."
+dogo,delex,greedy_train_swap4,5,6,71,71,1094,I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.
+dogo,delex,greedy_train_swap4,6,7,72,72,1094,"My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>."
+dogo,delex,greedy_train_swap4,7,8,65,65,1094,"<PERSON_1> here, and I need to claim travel expenses."
+dogo,delex,greedy_train_swap4,8,9,49,49,1094,Please place an order for pizzas. You can reach me at <PHONE_NUMBER_1> and deliver to <STREET_ADDRESS_1>.
+dogo,delex,greedy_train_swap4,9,2,107,80,1094,"I need proof of insurance for one of your cars. My SSN is <SSN_1>, and I'm <PERSON_1>."

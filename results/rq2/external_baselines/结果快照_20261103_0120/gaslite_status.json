@@ -1,0 +1,83 @@
+{
+  "lane": "gaslite",
+  "mode": "parallel_by_dataset",
+  "pid": 8440,
+  "started": 1793637652.1659029,
+  "jobs": [
+    {
+      "dataset": "abcd",
+      "objective": "mean_cosine",
+      "status": "completed",
+      "queued": 1793627408.4342203,
+      "started": 1793627408.434391,
+      "child_pid": 2963,
+      "exit_code": 0,
+      "ended": 1793629210.671877
+    },
+    {
+      "dataset": "abcd",
+      "objective": "soft_threshold",
+      "status": "completed",
+      "queued": 1793629210.6722078,
+      "started": 1793629210.6723864,
+      "child_pid": 3895,
+      "exit_code": 0,
+      "ended": 1793630968.210746
+    },
+    {
+      "dataset": "dogo",
+      "objective": "mean_cosine",
+      "status": "completed",
+      "queued": 1793637652.166394,
+      "attempts": [],
+      "reused_completed": true
+    },
+    {
+      "dataset": "banking77",
+      "objective": "mean_cosine",
+      "status": "completed",
+      "queued": 1793637652.166854,
+      "attempts": [
+        {
+          "attempt": 0,
+          "exit_code": 0,
+          "ended": 1793639618.4160817
+        }
+      ],
+      "started": 1793637652.1679628,
+      "child_pid": 8443,
+      "adopted": false,
+      "log": "/root/autodl-tmp/vldb_supplement_20261102/logs/parallel_gaslite_banking77_mean_cosine_attempt0.log",
+      "ended": 1793639618.416757
+    },
+    {
+      "dataset": "dogo",
+      "objective": "soft_threshold",
+      "status": "completed",
+      "queued": 1793637652.168073,
+      "attempts": [
+        {
+          "attempt": 0,
+          "exit_code": 0,
+          "ended": 1793638826.1178577
+        }
+      ],
+      "started": 1793637652.1685996,
+      "child_pid": 8444,
+      "adopted": false,
+      "log": "/root/autodl-tmp/vldb_supplement_20261102/logs/parallel_gaslite_dogo_soft_threshold_attempt0.log",
+      "ended": 1793638826.118867
+    },
+    {
+      "dataset": "banking77",
+      "objective": "soft_threshold",
+      "status": "running",
+      "queued": 1793639618.4169567,
+      "attempts": [],
+      "started": 1793639618.4171734,
+      "child_pid": 9958,
+      "adopted": false,
+      "log": "/root/autodl-tmp/vldb_supplement_20261102/logs/parallel_gaslite_banking77_soft_threshold_attempt0.log"
+    }
+  ]
+}

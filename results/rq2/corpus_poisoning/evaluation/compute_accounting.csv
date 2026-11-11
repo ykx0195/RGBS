@@ -1,0 +1,4 @@
+dataset,clusters,iteration_budget_per_cluster,accepted_updates,encoded_candidate_and_gradient_texts,backward_calls,sum_cluster_active_seconds,devices,cpu_to_gpu_migrated_clusters,saved_cpu_prefix_seconds,api_calls,note
+banking77,15,5000,3113,7570516,75000,7060.34406299144,cuda,0,0,0,"Summed concurrent worker active intervals, not end-to-end elapsed time or an equal-budget RKGB comparison."
+abcd,5,5000,2619,2523242,25000,3390.999972909689,cuda,1,415.6519364863634,0,"Summed concurrent worker active intervals, not end-to-end elapsed time or an equal-budget RKGB comparison."
+dogo,10,5000,2537,5045622,50000,5576.509600885212,cuda,1,447.4380234256387,0,"Summed concurrent worker active intervals, not end-to-end elapsed time or an equal-budget RKGB comparison."

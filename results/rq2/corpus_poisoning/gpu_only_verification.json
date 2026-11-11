@@ -1,0 +1,37 @@
+{
+  "verified_gpu_only": true,
+  "active_workers": [
+    {
+      "pid": 2258,
+      "dataset": "abcd",
+      "cluster": 0,
+      "device": "cuda"
+    },
+    {
+      "pid": 2259,
+      "dataset": "dogo",
+      "cluster": 0,
+      "device": "cuda"
+    },
+    {
+      "pid": 3007,
+      "dataset": "banking77",
+      "cluster": 2,
+      "device": "cuda"
+    },
+    {
+      "pid": 3008,
+      "dataset": "abcd",
+      "cluster": 2,
+      "device": "cuda"
+    }
+  ],
+  "pending_gpu_jobs": 24,
+  "policy": {
+    "max_gpu_workers": 4,
+    "max_cpu_workers": 0,
+    "gpu_headroom_per_worker_mib": 4000,
+    "threads_per_worker": 4,
+    "gpu_only_requested": true
+  }
+}

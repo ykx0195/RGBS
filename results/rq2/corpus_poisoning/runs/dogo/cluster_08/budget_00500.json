@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 500,
+  "selected": {
+    "text": "i need to reporting travel expenses ; i re am <PERSON_1> .",
+    "full_cluster_mean_cosine": 0.9207497835159302,
+    "selected_at_iteration": 34
+  },
+  "accepted_updates": 8,
+  "active_seconds": 44.49039850383997,
+  "heldout_loaded": false
+}

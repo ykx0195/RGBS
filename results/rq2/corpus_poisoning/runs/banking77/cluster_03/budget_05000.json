@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 5000,
+  "selected": {
+    "text": "the card <CREDIT_CARD_1> 」 do now — assist me troubles",
+    "full_cluster_mean_cosine": 0.8630801439285278,
+    "selected_at_iteration": 163
+  },
+  "accepted_updates": 34,
+  "active_seconds": 438.2776053324342,
+  "heldout_loaded": false
+}

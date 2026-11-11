@@ -1,0 +1,20 @@
+{
+  "model": "e5-small-v2",
+  "encoder_kind": "e5",
+  "model_sha256": "45bfa60070649aae2244fbc9d508537779b93b6f353c17b0f95ceccb1c5116c1",
+  "pooling_sha256": "987f7a67a38fa564c849bb5d277c52ab9088a84368fc0be31a354125aebb12a0",
+  "sequence_sha256": "948201d8329907aae938fa62f9ceeed53f5694dacc2b87b9f3b78b37ee986529",
+  "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+  "prefix": "query: ",
+  "device": "cpu",
+  "dtype": "float32",
+  "batch_size": 32,
+  "encoder_code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+  "frozen_input_sha256": "6e2c85b38beb17b15798074a3719d4b3e085df4dedc3fc22ddeee0440273cc61",
+  "current_frozen_inputs_sha256": "f169ebc1b65a0674cf85235b1d866fa797ab766266ea8de560e22791a794f1bd",
+  "cached_encoded_texts_sha256": "9d3012a2a7183fed97457411269b0bac624d0fb908daa80584827b887432f60b",
+  "cached_vectors_sha256": "d3a4c2ba946a9159068732a11596fa93dcd27d2a212c1f598b6321649bddbe47",
+  "new_key_embeddings": 7,
+  "cached_query_count": 1094,
+  "seconds": 0.5
+}

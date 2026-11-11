@@ -1,0 +1,207 @@
+{
+  "banking77": {
+    "status": "complete",
+    "interpretation": "truncate each completed 32-step slot trace at cutoff; later slots remain conditioned on 32-step predecessors; coordinate-beam selection only",
+    "cases": {
+      "26": {
+        "covered": 1101,
+        "total": 1485,
+        "coverage": 0.7414141414141414,
+        "selected_texts": [
+          "I observed a payment to the incorrect account number <ACCOUNT_NUMBER_1>, kindly help.",
+          "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+          "Could you tell me why the money received in account <ACCOUNT_NUMBER_1> hasn't been reflected on my statement yet?",
+          "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I sadly haven't received.",
+          "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+          "However, can you assist me in reactivating a card for account <ACCOUNT_NUMBER_1> now?",
+          "Could you possibly confirm why a currency exchange fee was applied to my account <ACCOUNT_NUMBER_1>?",
+          "Maybe the card transaction have been declined? Can you provide information on why for account <ACCOUNT_NUMBER_1>?",
+          "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+          "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now.",
+          "I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?",
+          "Could you assist me with how to terminate the transfer to account <ACCOUNT_NUMBER_1>?",
+          "There's a similar charge regarding my card transactions; why did it appear in the account <ACCOUNT_NUMBER_1>?",
+          "I'm wondering why the transfer from <ACCOUNT_NUMBER_1> hasn't gone through correctly yet.",
+          "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount."
+        ],
+        "early_stopped_slots": [
+          1,
+          5,
+          9,
+          10,
+          11,
+          12,
+          15
+        ]
+      },
+      "28": {
+        "covered": 1101,
+        "total": 1485,
+        "coverage": 0.7414141414141414,
+        "selected_texts": [
+          "I observed a payment to the incorrect account number <ACCOUNT_NUMBER_1>, kindly help.",
+          "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+          "Could you tell me why the money received in account <ACCOUNT_NUMBER_1> hasn't been reflected on my statement yet?",
+          "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I sadly haven't received.",
+          "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+          "However, can you assist me in reactivating a card for account <ACCOUNT_NUMBER_1> now?",
+          "Could you possibly confirm why a currency exchange fee was applied to my account <ACCOUNT_NUMBER_1>?",
+          "Maybe the card transaction have been declined? Can you provide information on why for account <ACCOUNT_NUMBER_1>?",
+          "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+          "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now.",
+          "I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?",
+          "Could you assist me with how to terminate the transfer to account <ACCOUNT_NUMBER_1>?",
+          "There's a similar charge regarding my card transactions; why did it appear in the account <ACCOUNT_NUMBER_1>?",
+          "I'm wondering why the transfer from <ACCOUNT_NUMBER_1> hasn't gone through correctly yet.",
+          "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount."
+        ],
+        "early_stopped_slots": [
+          1,
+          5,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15
+        ]
+      },
+      "32": {
+        "covered": 1101,
+        "total": 1485,
+        "coverage": 0.7414141414141414,
+        "selected_texts": [
+          "I observed a payment to the incorrect account number <ACCOUNT_NUMBER_1>, kindly help.",
+          "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+          "Could you tell me why the money received in account <ACCOUNT_NUMBER_1> hasn't been reflected on my account yet?",
+          "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I sadly haven't received.",
+          "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+          "However, can you assist me in reactivating a card for account <ACCOUNT_NUMBER_1> now?",
+          "Could you possibly confirm why a currency exchange fee was applied to my account <ACCOUNT_NUMBER_1>?",
+          "Might the card transaction have been declined? Can you give me information on why for account <ACCOUNT_NUMBER_1>?",
+          "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+          "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now.",
+          "I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?",
+          "Could you assist me with how to terminate the transfer to account <ACCOUNT_NUMBER_1>?",
+          "There's a similar charge regarding my card transactions; why did it appear in the account <ACCOUNT_NUMBER_1>?",
+          "I'm wondering why the transfer from <ACCOUNT_NUMBER_1> hasn't gone through correctly yet.",
+          "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount."
+        ],
+        "early_stopped_slots": [
+          1,
+          5,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15
+        ]
+      }
+    },
+    "published_32x50_final": {
+      "covered": 1109,
+      "total": 1485,
+      "coverage": 0.7468013468013468
+    },
+    "published_32x50_selection": "global_greedy_swap"
+  },
+  "dogo": {
+    "status": "complete",
+    "interpretation": "truncate each completed 32-step slot trace at cutoff; later slots remain conditioned on 32-step predecessors; coordinate-beam selection only",
+    "cases": {
+      "26": {
+        "covered": 885,
+        "total": 1094,
+        "coverage": 0.8089579524680073,
+        "selected_texts": [
+          "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",
+          "Quick, could you send me my boarding ticket for the flight <BOOKING_ID_1>; my email contact is <PERSON_1>, please.",
+          "I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>.",
+          "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+          "I am <PERSON_1> and I need to check my seat assignment for booking <BOOKING_ID_1> please.",
+          "Maybe you can help me find out the status of my claim? The claim ID is <CLAIM_ID_1> and my account is <POLICY_ID_1>.",
+          "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+          "I want to claim travel expenses; I'm <PERSON_1>.",
+          "My card number is <CARD_NUMBER_1>, and I'm now at <STREET_ADDRESS_1>. I'd like to update the address on my bill, thanks.",
+          "Our account ends in <ACCOUNT_ID_LAST4_1>, and also I need to update my mailing address to <STREET_ADDRESS_1>."
+        ],
+        "early_stopped_slots": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "28": {
+        "covered": 886,
+        "total": 1094,
+        "coverage": 0.8098720292504571,
+        "selected_texts": [
+          "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",
+          "Quick, could you send me my boarding ticket for that flight <BOOKING_ID_1>; my contact email address is <PERSON_1>, please.",
+          "I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>.",
+          "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+          "I am <PERSON_1> and I need to check my seat assignment for booking <BOOKING_ID_1> please.",
+          "Maybe you can help me find out the status of my claim? The claim ID is <CLAIM_ID_1> and my account is <POLICY_ID_1>.",
+          "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+          "I want to claim travel expenses; I'm <PERSON_1>.",
+          "My card number is <CARD_NUMBER_1>, and I'm now at <STREET_ADDRESS_1>. I'd like to update the address on my bill, thanks.",
+          "Our account ends in <ACCOUNT_ID_LAST4_1>, and also I need to update my mailing address to <STREET_ADDRESS_1>."
+        ],
+        "early_stopped_slots": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "32": {
+        "covered": 887,
+        "total": 1094,
+        "coverage": 0.8107861060329068,
+        "selected_texts": [
+          "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",
+          "Alright, could you email me my boarding ticket for the flight booking <BOOKING_ID_1>; my contact number is <PERSON_1>.",
+          "I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>.",
+          "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+          "I am <PERSON_1> and I need to check my seat assignment for booking <BOOKING_ID_1> please.",
+          "Maybe you can help me find out the status of my claim? The claim ID is <CLAIM_ID_1> and my account is <POLICY_ID_1>.",
+          "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+          "I want to claim travel expenses; I'm <PERSON_1>.",
+          "My card number is <CARD_NUMBER_1>, and I'm now at <STREET_ADDRESS_1>. I'd like to update the address on my bill, thanks.",
+          "My account ends with <ACCOUNT_ID_LAST4_1>, and I maybe need to update my mailing address to <STREET_ADDRESS_1>."
+        ],
+        "early_stopped_slots": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "published_32x50_final": {
+      "covered": 888,
+      "total": 1094,
+      "coverage": 0.8117001828153565
+    },
+    "published_32x50_selection": "global_greedy_swap"
+  },
+  "abcd": {
+    "status": "incomplete",
+    "completed_slots": 3,
+    "required_slots": 5
+  }
+}

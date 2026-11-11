@@ -1,0 +1,49 @@
+{
+  "complete": false,
+  "rows": [
+    {
+      "dataset": "dogo",
+      "encoder": "bge-small-en-v1.5",
+      "threshold": 0.85,
+      "k": 10,
+      "covered_queries": 909,
+      "test_total": 1094,
+      "coverage": 0.8308957952468007,
+      "coverage_pct": 83.08957952468006,
+      "source": "verified frozen main reference"
+    },
+    {
+      "dataset": "dogo",
+      "encoder": "all-MiniLM-L6-v2",
+      "threshold": 0.85,
+      "k": 10,
+      "covered_queries": 228,
+      "test_total": 1094,
+      "coverage": 0.20840950639853748,
+      "coverage_pct": 20.840950639853748,
+      "source": "same designated main frozen texts; target-encoder cached Test vectors"
+    },
+    {
+      "dataset": "dogo",
+      "encoder": "gte-small",
+      "threshold": 0.85,
+      "k": 10,
+      "covered_queries": 1084,
+      "test_total": 1094,
+      "coverage": 0.9908592321755028,
+      "coverage_pct": 99.08592321755027,
+      "source": "same designated main frozen texts; target-encoder cached Test vectors"
+    },
+    {
+      "dataset": "dogo",
+      "encoder": "e5-small-v2",
+      "threshold": 0.85,
+      "k": 10,
+      "covered_queries": 1083,
+      "test_total": 1094,
+      "coverage": 0.9899451553930531,
+      "coverage_pct": 98.99451553930531,
+      "source": "same designated main frozen texts; target-encoder cached Test vectors"
+    }
+  ]
+}

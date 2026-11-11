@@ -1,0 +1,59 @@
+{
+  "request": {
+    "model": "qwen3.8-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a customer-support assistant. Answer the customer request in concise natural English. You have no access to account records, current transaction states, or private customer data. Do not claim to have accessed records or performed actions. Give relevant general next steps. Typed placeholders are opaque; do not invent personal facts."
+      },
+      {
+        "role": "user",
+        "content": "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 384,
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "response": {
+    "id": "chatcmpl-4023ac75-5660-9e67-b88d-d6a3c28baf2b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I’m sorry to hear you’re experiencing issues. As an AI assistant, I don’t have access to your account records or application status, so I cannot look up specific details for the account ending in <ACCOUNT_ID_LAST4_1>.\n\nTo get this resolved, please:\n1. **Contact Support Directly:** Reach out to the company’s official customer support via phone, email, or their secure in-app chat. They can verify your identity and investigate the specific error.\n2. **Provide Details:** When contacting them, include a description of the issue, any error messages you see, and the steps you took before it happened.\n3. **Check Common Fixes:** Ensure your app is updated to the latest version and try restarting your device.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1793876763,
+    "model": "qwen3.8-flash",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 112,
+      "total_tokens": 265,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": 112
+      }
+    }
+  },
+  "answer": "I’m sorry to hear you’re experiencing issues. As an AI assistant, I don’t have access to your account records or application status, so I cannot look up specific details for the account ending in <ACCOUNT_ID_LAST4_1>.\n\nTo get this resolved, please:\n1. **Contact Support Directly:** Reach out to the company’s official customer support via phone, email, or their secure in-app chat. They can verify your identity and investigate the specific error.\n2. **Provide Details:** When contacting them, include a description of the issue, any error messages you see, and the steps you took before it happened.\n3. **Check Common Fixes:** Ensure your app is updated to the latest version and try restarting your device.",
+  "created_utc_epoch": 1793876766.5531595
+}

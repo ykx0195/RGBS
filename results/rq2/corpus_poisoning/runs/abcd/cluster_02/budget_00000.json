@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "I've forgotten my username and can't access my account. Can you help me recover it? I can verify with my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1>.",
+    "full_cluster_mean_cosine": 0.8591598868370056,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006465315818786621,
+  "heldout_loaded": false
+}

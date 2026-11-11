@@ -1,0 +1,7 @@
+{
+  "model": "gte",
+  "dataset": "multidogo",
+  "field": "presidio_mask_length",
+  "encoded": 49409,
+  "seconds": 134.1271026134491
+}

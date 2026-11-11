@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "stuck could anyone get presumably new card associated my account <ACCOUNT_NUMBER_1> appropriate shortly by <STREET_ADDRESS_1> ?",
+    "full_cluster_mean_cosine": 0.8599717617034912,
+    "selected_at_iteration": 96
+  },
+  "accepted_updates": 26,
+  "active_seconds": 10.153035260736942,
+  "heldout_loaded": false
+}

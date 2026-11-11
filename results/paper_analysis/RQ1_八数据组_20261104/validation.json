@@ -1,0 +1,26 @@
+{
+  "matrix_rows": 1080,
+  "missing_cells": 0,
+  "duplicate_cells": 0,
+  "verified_embedding_files": 156,
+  "independent_generic_recounts": 24,
+  "sampled_direct_delete_one_checks": 72,
+  "unique_test_field_alignments": 3055,
+  "ambiguous_train_field_alignments": [
+    {
+      "dataset": "multidogo",
+      "split": "train",
+      "record_id": "multidogo-finance-train-8a18bf43-6d2e-441a-9cdf-68a0ce799d99-selected"
+    }
+  ],
+  "alignment_note": "One ambiguous training-only field boundary is unused: calibration encodes original Train text only. All 3055 transformed Test records have unique recoverable boundaries.",
+  "record_count_identity": true,
+  "source_disjoint_train_test": true,
+  "test_records_retained": {
+    "banking77": 1485,
+    "abcd": 476,
+    "multidogo": 1094
+  },
+  "positive_primary_cells": 100,
+  "negative_primary_cells": 20
+}

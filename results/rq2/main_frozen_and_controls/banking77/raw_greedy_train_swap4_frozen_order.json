@@ -1,0 +1,41 @@
+{
+  "texts": [
+    "The transfer from account 70045891 failed; I'd like to know why.",
+    "My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381.",
+    "My card payment's exchange rate looks incorrect; it was taken from account 902000079741.",
+    "I'm wondering why the transfer from account 63-0008-9921 hasn't completed yet.",
+    "I noticed a $1 extra charge on my statement from account 902000076081 with card 6554 3242 5186 7488.",
+    "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card 6011 7590 6937 9589?",
+    "Even though I keep checking, the refund hasn't appeared in account 63-0006-7461; please help me get the money back from the seller, as the payment was made with card 3716 650627 42193.",
+    "I don't recognize a Direct Debit payment taken from account 8100041801.",
+    "I tried to pay using card 4708 1103 5577 8782, but the transaction was declined for account 902000111751.",
+    "Can you explain why there was a fee on my transfer from account 8100069501?",
+    "Can you explain why my card payment is still pending on account 63-0009-7111?",
+    "I withdrew from account 63-0007-6531 at an ATM today, and I received more cash than I requested. How can this be corrected?",
+    "How do I activate my card 6563 1608 6796 8214?",
+    "I'd like to cancel account 8100081391, please.",
+    "I deposited cash this morning into account 70032781, but the balance is still not updated."
+  ],
+  "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    14,
+    6,
+    8,
+    11,
+    7,
+    10,
+    9,
+    12,
+    5,
+    13
+  ],
+  "selection_split": "train",
+  "test_used_for_selection": false,
+  "selection_threshold": 0.85,
+  "pool_size": 15,
+  "train_covered": 1868
+}

@@ -1,0 +1,21 @@
+{
+  "job": "dogo_cluster01",
+  "dataset": "dogo",
+  "cluster": 1,
+  "source_pid": 2262,
+  "out_dir": "/root/autodl-tmp/corpus_hotflip_baseline_20261031/runs/dogo/cluster_01",
+  "backup_dir": "/root/autodl-tmp/corpus_hotflip_baseline_20261031/device_migrations/20261031T102448Z/dogo_cluster01",
+  "completed_iterations": 500,
+  "source_config_sha256": "8ad81dd76a6a9ccb016822bed983cf7a10ce29591baccf5b991927a7c3499972",
+  "source_state_sha256": "d7d66f1922b945460e5c0a85c0b2495fbd632dd3ee6c9ee030b8fa62cac436e3",
+  "source_active_seconds": 447.4380234256387,
+  "source_device": "cpu",
+  "target_device": "cuda",
+  "reason": "User requests GPU-only queuing; resume last complete atomic checkpoint; unsaved iterations are rerun.",
+  "migrated_at_utc": "2026-10-31T10:24:49.519172+00:00",
+  "saved_best_cpu_score": 0.903681755065918,
+  "rebased_best_cuda_score": 0.9036818742752075,
+  "ranking_rebase_abs_difference": 1.1920928955078125e-07,
+  "text_and_rng_unchanged": true,
+  "source_device_history_remains_part_of_experiment": true
+}

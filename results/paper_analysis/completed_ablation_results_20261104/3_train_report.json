@@ -1,0 +1,117 @@
+{
+  "config": {
+    "dataset": "dogo",
+    "representation": "delexed",
+    "encoder": "bge",
+    "k": 10,
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "allowed_domains": "airline, fast food, finance, insurance, media, or software support",
+    "local_readability_judge": true,
+    "api_http_timeout_s": 60,
+    "api_hard_timeout_s": 90,
+    "api_max_consecutive_failures": 3,
+    "domain_judges": [
+      "qwen_api",
+      "deepseek_api"
+    ],
+    "train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+    "target_sha256": "0b90c8ec38c9a3063ab7af901a947d82731cf98822021e0d7c8504a275903f00",
+    "seeds_sha256": "1057e73a99eb411cbd9db0c8910f285a3a6059960063f95b25bc337d647c75a7",
+    "api_config_sha256": "80ad81be615dc511887eb50c50fcfc5c995a73f7bc522421e62e0a533660dd68",
+    "model_dir": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+    "lm_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "threshold": 0.85,
+    "smoke_train_limit": 0,
+    "steps_per_slot": 32,
+    "beam_width": 50,
+    "positions_per_parent": 8,
+    "tokens_per_position": 4,
+    "max_words_per_step": 3,
+    "max_total_word_changes": 10,
+    "rewrites_per_api": 4,
+    "prompt_examples": 6,
+    "feedback_examples": 4,
+    "focus_size": 128,
+    "temperature": 0.02,
+    "align_weight": 0.1,
+    "max_ppl": 150.0,
+    "relative_ppl": 1.5,
+    "ppl_prefilter": 20,
+    "swap_passes": 4,
+    "batch_size": 64,
+    "seed": 42
+  },
+  "portfolio_source": "coordinate_beam",
+  "baseline_train_covered": 3155,
+  "selected": [
+    {
+      "text": "Great, can you email me my boarding ticket for the travelling flight <BOOKING_ID_1>; my email contact is <PERSON_1>.",
+      "target_cosine": 0.9510159492492676,
+      "train_covered": 452,
+      "ppl": 119.52789625753783
+    },
+    {
+      "text": "This is <PERSON_1>, and I'd like help with my current account update. The final four digits of my account are <ACCOUNT_ID_LAST4_1>.",
+      "target_cosine": 0.9535399675369263,
+      "train_covered": 386,
+      "ppl": 67.27562129140742
+    },
+    {
+      "text": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+      "target_cosine": 0.9676299095153809,
+      "train_covered": 435,
+      "ppl": 34.424812218445716
+    },
+    {
+      "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+      "target_cosine": 0.9885160326957703,
+      "train_covered": 514,
+      "ppl": 74.97819386884977
+    },
+    {
+      "text": "Oh, could you help me check the status of my claim? The claim ID is <CLAIM_ID_1> and my account is <POLICY_ID_1>.",
+      "target_cosine": 0.9685958027839661,
+      "train_covered": 341,
+      "ppl": 22.889797560299034
+    },
+    {
+      "text": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+      "target_cosine": 0.9606319665908813,
+      "train_covered": 287,
+      "ppl": 24.8065263342816
+    },
+    {
+      "text": "This is <PERSON_1> and I would like to book my seat number regarding flight <BOOKING_ID_1>.",
+      "target_cosine": 0.9410989284515381,
+      "train_covered": 655,
+      "ppl": 73.08332491207099
+    },
+    {
+      "text": "I want to claim travel expenses; I'm <PERSON_1>.",
+      "target_cosine": 0.971015453338623,
+      "train_covered": 193,
+      "ppl": 121.39930336058765
+    },
+    {
+      "text": "I'd like to update the address for my account, <CARD_NUMBER_1>, to <STREET_ADDRESS_1>, thanks.",
+      "target_cosine": 0.8034911751747131,
+      "train_covered": 246,
+      "ppl": 36.42280374531834
+    },
+    {
+      "text": "I see an error in my credit card bill for the card <CARD_NUMBER_1>, and I need help getting the charge removed. My address is <STREET_ADDRESS_1>.",
+      "target_cosine": 0.8592306971549988,
+      "train_covered": 159,
+      "ppl": 27.854882003759894
+    }
+  ],
+  "metrics": {
+    "train": {
+      "covered": 3306,
+      "total": 3993,
+      "coverage": 0.8279489105935387
+    }
+  },
+  "heldout_loaded": false,
+  "note": "Selection used Train only. Test is loaded after this portfolio is frozen."
+}

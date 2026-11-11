@@ -1,0 +1,77 @@
+{
+  "complete": true,
+  "protocol": {
+    "frozen_keys": [
+      "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+      "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+      "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+      "i'm <PERSON_1> and i need the status of my claims. my insurance number is <POLICY_ID_1>.",
+      "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+      "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+      "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+      "I want to claim travel expenses; I'm <PERSON_1>.",
+      "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+      "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>."
+    ],
+    "frozen_source": "C:\\Users\\ykx01\\Desktop\\results\\递进主线补充实验_20261101\\dogo\\main_frozen_texts.json",
+    "frozen_source_sha256": "b5942afc8ae3632c47664c695fa944995941225be1cabe61838204a8483a4d5b",
+    "test_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
+    "test_total": 1094,
+    "threshold": 0.85,
+    "source_reference_covered": 909,
+    "selection": "Existing exact main set; no reselection or new generation",
+    "api_calls": 0,
+    "device": "cpu",
+    "calibration_performed": false,
+    "task_audit_performed": false
+  },
+  "metrics": [
+    {
+      "dataset": "dogo",
+      "encoder": "bge-small-en-v1.5",
+      "threshold": 0.85,
+      "k": 10,
+      "covered_queries": 909,
+      "test_total": 1094,
+      "coverage": 0.8308957952468007,
+      "coverage_pct": 83.08957952468006,
+      "source": "verified frozen main reference"
+    },
+    {
+      "dataset": "dogo",
+      "encoder": "all-MiniLM-L6-v2",
+      "threshold": 0.85,
+      "k": 10,
+      "covered_queries": 228,
+      "test_total": 1094,
+      "coverage": 0.20840950639853748,
+      "coverage_pct": 20.840950639853748,
+      "source": "same designated main frozen texts; target-encoder cached Test vectors"
+    },
+    {
+      "dataset": "dogo",
+      "encoder": "gte-small",
+      "threshold": 0.85,
+      "k": 10,
+      "covered_queries": 1084,
+      "test_total": 1094,
+      "coverage": 0.9908592321755028,
+      "coverage_pct": 99.08592321755027,
+      "source": "same designated main frozen texts; target-encoder cached Test vectors"
+    },
+    {
+      "dataset": "dogo",
+      "encoder": "e5-small-v2",
+      "threshold": 0.85,
+      "k": 10,
+      "covered_queries": 1083,
+      "test_total": 1094,
+      "coverage": 0.9899451553930531,
+      "coverage_pct": 98.99451553930531,
+      "source": "same designated main frozen texts; target-encoder cached Test vectors"
+    }
+  ],
+  "task_audit_performed": false,
+  "api_calls": 0,
+  "new_search": false
+}

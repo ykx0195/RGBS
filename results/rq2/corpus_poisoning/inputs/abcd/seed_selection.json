@@ -1,0 +1,59 @@
+{
+  "dataset": "abcd",
+  "k": 5,
+  "seed": 42,
+  "train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+  "train_vectors_sha256": "b7cbb882801589fd2316b97f428c7edeec4d6cdccaf3de2972d751327ccdb47c",
+  "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "kmeans_n_init": 10,
+  "selection_uses_Train_only": true,
+  "selected": [
+    {
+      "cluster_id": 0,
+      "train_index": 1106,
+      "source_id": "abcd-train-3312",
+      "text": "I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is <ACCOUNT_ID_1>.",
+      "cluster_size": 609,
+      "initial_center_cosine": 0.9462772011756897
+    },
+    {
+      "cluster_id": 1,
+      "train_index": 3728,
+      "source_id": "abcd-train-9750",
+      "text": "I don't need the item I purchased anymore, so I'd like to return it and get a refund for order <ORDER_ID_1>. My username is <USERNAME_1>.",
+      "cluster_size": 855,
+      "initial_center_cosine": 0.9592028260231018
+    },
+    {
+      "cluster_id": 2,
+      "train_index": 3667,
+      "source_id": "abcd-train-9610",
+      "text": "I've forgotten my username and can't access my account. Can you help me recover it? I can verify with my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1>.",
+      "cluster_size": 631,
+      "initial_center_cosine": 0.9585036039352417
+    },
+    {
+      "cluster_id": 3,
+      "train_index": 1743,
+      "source_id": "abcd-train-4852",
+      "text": "I think there's an extra charge on my order <ORDER_ID_1> and I'd like it looked into. I don't have my account ID available right now.",
+      "cluster_size": 738,
+      "initial_center_cosine": 0.9390808939933777
+    },
+    {
+      "cluster_id": 4,
+      "train_index": 2571,
+      "source_id": "abcd-train-6971",
+      "text": "I'd like to check on order <ORDER_ID_1> because I got an email saying all the items didn't ship. My account ID is <ACCOUNT_ID_1>.",
+      "cluster_size": 1001,
+      "initial_center_cosine": 0.9410791397094727
+    }
+  ],
+  "cluster_sizes": [
+    609,
+    855,
+    631,
+    738,
+    1001
+  ]
+}

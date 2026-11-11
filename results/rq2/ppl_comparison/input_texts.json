@@ -1,0 +1,1082 @@
+[
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "i lost my phone concerning something having registered under using number <PHONE_NUMBER_1> ."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "card you mentions inadvertently basically fee occurrence presentted i charged <CREDIT_CARD_1> although baffled"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "unfortunatelyicalyi wondering clearly the transfer on account <ACCOUNT_NUMBER_1> seems't received until /"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "the card <CREDIT_CARD_1> 」 do now — assist me troubles"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "my brief notable confused charge on transactions <ACCOUNT_NUMBER_1> ensuing elsewherebankily"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "5",
+    "variant_id": "",
+    "text": "additionally ideally thus i withdrew amount affectinged atm gotten and their account cash refuses. perhaps strangeraring me inadvertently have <CREDIT_CARD_1> ?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "6",
+    "variant_id": "",
+    "text": "can whoever solved me ﬂury transfer using account <ACCOUNT_NUMBER_1> something perhaps declined?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "7",
+    "variant_id": "",
+    "text": "none and refereesugh pending disappointing my payment with <ACCOUNT_NUMBER_1> just wondering tis <CREDIT_CARD_1> back presently?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "8",
+    "variant_id": "",
+    "text": "i might either trying temporarily? what happened effectively hasn the top - up anywhere implies <ACCOUNT_NUMBER_1> through card <CREDIT_CARD_1> ?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "9",
+    "variant_id": "",
+    "text": "really - ill resfervable my pin though of <CREDIT_CARD_1> card thanks curious essentially option please"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "10",
+    "variant_id": "",
+    "text": "awesome does someonegallfast other card based fairly specified <ACCOUNT_NUMBER_1> arrive presumably now <STREET_ADDRESS_1> help"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "11",
+    "variant_id": "",
+    "text": "i deposited cash trough your balance onwards although <ACCOUNT_NUMBER_1> seems accounts not updated."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "12",
+    "variant_id": "",
+    "text": "account <PERSON_1> otherwise i craving needing verify rather imagined changed updated addresses of identification ) <CUSTOMER_ID_1> stuck"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "13",
+    "variant_id": "",
+    "text": "the exchange rate do to my transaction ensued surrounding <ACCOUNT_NUMBER_1> isnits right."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "14",
+    "variant_id": "",
+    "text": "someone help please cancel from transferically an <ACCOUNT_NUMBER_1> ك"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "My card number was stolen while using my phone registered under phoneNumber_xyz_abcdefghijklmnopqrstuvwxyz, please instruct me as I have just reset it from lost."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "I received charges on card account ****** which look unusual for one-time transactions made by another card number; please check why those charges applied to me."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "My transfer appears pending from account number _ _ _, when could that process normally resolve, please, or why might it still be taking time without completing?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "My bank card seems unauthorized and I need a quick fix now; please resolve, thanks!"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "Is account transaction charged from me incorrectly, or could someone provide context of this unusual transaction for number/account number _ ACCOUNT_NUMBER_A, pls?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "5",
+    "variant_id": "",
+    "text": "The ATM statement showed me withdrawing cash using card _ but that didnít happen, please resolve account discrepancy for me _ ."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "6",
+    "variant_id": "",
+    "text": "My transfer attempted from Account _Number_\\_\\_."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "7",
+    "variant_id": "",
+    "text": "Did my card/payment from Account_NUMBER cancel, or was another problem encountered that you have documented for me, please clarify for case #_CASE_XXX))?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "8",
+    "variant_id": "",
+    "text": "My account top-up from card ******* seems failed to go though; please clarify regarding this instance."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "9",
+    "variant_id": "",
+    "text": "Need support updating PIN from card account #: #### ##_## - forgot previous one used, please."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "10",
+    "variant_id": "",
+    "text": "Have my card for Account Numbers _ arrived, as requested in this support inquiry for _ Street please]?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "11",
+    "variant_id": "",
+    "text": "I deposited cash to account number _ but still see a balance that hasn\\' t updated in one of its accounts __."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "12",
+    "variant_id": "",
+    "text": "Is My identity verification issue for customer_id_*** being addressed, or could I have an alternate way to update personal details associated to ***, please?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "13",
+    "variant_id": "",
+    "text": "My international payment had incorrect exchange Rates on account _account_ _."
+  },
+  {
+    "dataset": "banking77",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "14",
+    "variant_id": "",
+    "text": "Please help cancel the transfer from_account_number_one for me, which was intended for Account ****   **."
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "hadookt me a payment not at <ACCOUNT_NUMBER_1>."
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "or more, my id & verification to correct <ACCOUNT_NUMBER_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "either was because i withdrew cash using incorrect atm, but i haven't. can you help me with the <CREDIT_CARD_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "i change, personal id & address to correct <ACCOUNT_NUMBER_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "edit : ) trying to ; what going wrong with my top - up from account <ACCOUNT_NUMBER_1> on account <CREDIT_CARD_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "5",
+    "variant_id": "",
+    "text": "i ] the exchange number <ACCOUNT_NUMBER_1> gave me transfer wrong rate."
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "6",
+    "variant_id": "",
+    "text": "that might s an mystery charge for my card transactions, why did that happen to the <ACCOUNT_NUMBER_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "7",
+    "variant_id": "",
+    "text": "following up to my trouble with the pin to my <CREDIT_CARD_1>. can you getting me?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "8",
+    "variant_id": "",
+    "text": "it was <ACCOUNT_NUMBER_1> an invalid payment? credit cards <CREDIT_CARD_1> falls wasn't pending?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "9",
+    "variant_id": "",
+    "text": ": > > please help to cancel the money from \" <ACCOUNT_NUMBER_1> \""
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "10",
+    "variant_id": "",
+    "text": "where card mentioned didn't get yet. can you do that with account <ACCOUNT_NUMBER_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "11",
+    "variant_id": "",
+    "text": "about to tell me why the money from account <ACCOUNT_NUMBER_1> hasn't gone exactly?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "12",
+    "variant_id": "",
+    "text": "was that <ACCOUNT_NUMBER_1> an return payment? credit card <CREDIT_CARD_1> it wasn't yet?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "13",
+    "variant_id": "",
+    "text": "had the <CREDIT_CARD_1> is here. please help me."
+  },
+  {
+    "dataset": "banking77",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "14",
+    "variant_id": "",
+    "text": "~ please, wondering why the transfer from account <ACCOUNT_NUMBER_1> hasn't completed unfortunately."
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet."
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "There's a similar charge regarding my card transactions; why did it appear in my account <ACCOUNT_NUMBER_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "The card <CREDIT_CARD_1> had an issue, so please assist me."
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now."
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "Could you clarify why the money from account <ACCOUNT_NUMBER_1> hasn't turned up in my balance yet?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "5",
+    "variant_id": "",
+    "text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "6",
+    "variant_id": "",
+    "text": "I spotted a payment to the incorrect account number <ACCOUNT_NUMBER_1>, please assist."
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "7",
+    "variant_id": "",
+    "text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "8",
+    "variant_id": "",
+    "text": "However, could you guide me in reactivating a card for account <ACCOUNT_NUMBER_1> now?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "9",
+    "variant_id": "",
+    "text": "Could you inform me how to cancel the transaction for account <ACCOUNT_NUMBER_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "10",
+    "variant_id": "",
+    "text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount."
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "11",
+    "variant_id": "",
+    "text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I unfortunately haven't received."
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "12",
+    "variant_id": "",
+    "text": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>."
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "13",
+    "variant_id": "",
+    "text": "Can you confirm why a currency exchange fee was given on my account <ACCOUNT_NUMBER_1>?"
+  },
+  {
+    "dataset": "banking77",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "14",
+    "variant_id": "",
+    "text": "Perhaps the card payment has been declined? Can you give me info on why for account <ACCOUNT_NUMBER_1>?"
+  },
+  {
+    "dataset": "abcd",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "ill're providing a premium subscription as otherwise sparkatable fee turnover stilldate so i also would like. st does somebody fr championshipeson til was payment <ACCOUNT_ID_1> account"
+  },
+  {
+    "dataset": "abcd",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "unfortunately balls't colorllsgling something garmentths so entirely i would like to return order or expecting some refund shifted with <ORDER_ID_1> . my completely situation comes <USERNAME_1> too"
+  },
+  {
+    "dataset": "abcd",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "currently tho vastly forgotten my username otherwise i can pin password accesspiece so ill awesome help theo recoverctive? because \\ verify that having accounts got <PHONE_NUMBER_1> email our both <ZIP_CODE_1> retail"
+  },
+  {
+    "dataset": "abcd",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "unfortunately incorrect it perhaps damagedively pointless charge about my new <ORDER_ID_1> i tried so would like probably tread orders partly somewhat apparel ; someone backs unexpected account price. helping thanks dude"
+  },
+  {
+    "dataset": "abcd",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "reallyk dude want to however vaguely order <ORDER_ID_1> cause waiting wasndating current delivery few dayshers locations gives changes giving shipping. stuck unsuccessful arose whether <ACCOUNT_ID_1> ."
+  },
+  {
+    "dataset": "abcd",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "My subscription payment for account ID _ _ _."
+  },
+  {
+    "dataset": "abcd",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "My order for an incorrect item from an account with username, needs return, refund info please; reference order: _PLACE_HERE_; thanks so."
+  },
+  {
+    "dataset": "abcd",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "I misplaced my account number or username; please verify and recover access to one if you're unable to remember both for a password-reset email to help."
+  },
+  {
+    "dataset": "abcd",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "My account was charged an item for order id: O_####_**XyzzyPudding**:_****-******-."
+  },
+  {
+    "dataset": "abcd",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "My order tracking information for orderId:OrderId\\_XYZ hasn's changed, I'd appreciate you confirming it was correctly assigned once, thanks so very urgent!"
+  },
+  {
+    "dataset": "abcd",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "that'd - ll erund and send <ORDER_ID_1>, which hasn't arrived yet. i changed my mind right after account it, since my order id is <USERNAME_1>."
+  },
+  {
+    "dataset": "abcd",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "' s still on a premium subscription, my first payment was due now, so i'd like to support for this charge. my account id is <ACCOUNT_ID_1>."
+  },
+  {
+    "dataset": "abcd",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "i'' t access my account because i forgot my password now because i can't remember my username. i email my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1> for verification, so can you help me get back 2!"
+  },
+  {
+    "dataset": "abcd",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "both your prices / status of \" <ORDER_ID_1> \" and <ACCOUNT_ID_1>? the item charges was high, and i'm wondering if i could cancel it now."
+  },
+  {
+    "dataset": "abcd",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "may currently back me to return my order <ORDER_ID_1> because the first buy was in the wrong color cost and i want to get them back by mail. my username is <USERNAME_1>."
+  },
+  {
+    "dataset": "abcd",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>."
+  },
+  {
+    "dataset": "abcd",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>."
+  },
+  {
+    "dataset": "abcd",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?"
+  },
+  {
+    "dataset": "abcd",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "Yep, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong tone, and I want to send them back for a refund. My account username is <USERNAME_1>."
+  },
+  {
+    "dataset": "abcd",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "basically credit card is lostrence so i m got <PERSON_1> . please report out someplace away objected tan with <CARD_NUMBER_1> number"
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "i land would like the boarding pass hence going <BOOKING_ID_1> . edit eh sending given <EMAIL_ADDRESS_1> hope nam kindly ideally fearsrgy"
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "my phone screen got cracked fixed or iphone wrongly or otherwise. you can reach me about <PHONE_NUMBER_1> as <EMAIL_ADDRESS_1> needed"
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "i'm <PERSON_1> ; ideally dimensionst need booking change the seat assignment til cool confirmation my can get is <BOOKING_ID_1> id"
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "5",
+    "variant_id": "",
+    "text": "can me know the status of my claim? my policy is <POLICY_ID_1> and the claim number → <CLAIM_ID_1> ."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "6",
+    "variant_id": "",
+    "text": "please update the address anyway yours / credit account somewhere <CARD_NUMBER_1> changing to <STREET_ADDRESS_1> given"
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "7",
+    "variant_id": "",
+    "text": "i skyually <PERSON_1> account anyway but is ends in <ACCOUNT_ID_LAST4_1> , help would maybe overseas （ updategging voice outlook across software struggles transaction"
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "8",
+    "variant_id": "",
+    "text": "i need my issuing travel expenses came i recining <PERSON_1> ."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Corpus poisoning",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "9",
+    "variant_id": "",
+    "text": "please — specifically order ala a pizza. you similarly ship me towards <PHONE_NUMBER_1> will give particular two <STREET_ADDRESS_1> can"
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "My account with number _ _ - #### _ _."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "I received my flight details email for Booking_ID, could you send me boardingpass_ for that specific travel instance, ideally to boardemail_address please."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "Please resolve my issue; I am contacting you from phone _ _ _."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "May someone verify my identity for insurance proof with last-four digits SSN being XYZW_YYYY, and car insurance related issues only, pleae."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "My flight booking needs changing to seat A, please—booking id mentioned in your database is appreciated if you ask me."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "5",
+    "variant_id": "",
+    "text": "Is my claim with policy id number __POLICY ID_/status number _."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "6",
+    "variant_id": "",
+    "text": "Please update your address for account number _ to Street_address_one_, with card _ as identifier for this change, including any necessary updates like my name."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "7",
+    "variant_id": "",
+    "text": "Is your account number ending at _X__ with regards\tto my current issue, as that seems specific to such account IDs, especially given software updates?"
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "8",
+    "variant_id": "",
+    "text": "May my travel expenses claim please be addressed by someone who can assist in this process for me named _ PERSON\\_ONE_ in my account."
+  },
+  {
+    "dataset": "dogo",
+    "method": "Adversarial Decoding",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "9",
+    "variant_id": "",
+    "text": "May my order's delivery address for pizzas, please include another street address, since we'll need that one specifically delivered instead at  ___."
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "also email for a seat pass to the <BOOKING_ID_1>. my id is <PERSON_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "little next is <PERSON_1>. and i need you to one my account balance but id lastn ends in <SSN_LAST4_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": ". s there is <CARD_NUMBER_1>, and i mis my credit card. this is <PERSON_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "Can you help me find out the status of my claim? The claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "* want help fixing bitch iphone because its screen was just cracked. my phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "5",
+    "variant_id": "",
+    "text": "* card _ # <ACCOUNT_ID_LAST4_1> ) > i'd like to update my address as <STREET_ADDRESS_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "6",
+    "variant_id": "",
+    "text": "> * help claim travel expenses. i'm <PERSON_1>?"
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "7",
+    "variant_id": "",
+    "text": "< for my and number orders <CARD_NUMBER_1> > product i'm down to <STREET_ADDRESS_1>. please send pizza address on."
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "8",
+    "variant_id": "",
+    "text": "or that is <PERSON_1> ', i need help to do the account update. id last4 ends email <SSN_LAST4_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "GASLITE-Flu",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "9",
+    "variant_id": "",
+    "text": "i'at <PERSON_1>, and i'd like proof of insurance for one of my cars. my ssn february in <SSN_LAST4_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "0",
+    "variant_id": "",
+    "text": "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "1",
+    "variant_id": "",
+    "text": "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "2",
+    "variant_id": "",
+    "text": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "3",
+    "variant_id": "",
+    "text": "i'm <PERSON_1> and i need the status of my claims. my insurance number is <POLICY_ID_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "4",
+    "variant_id": "",
+    "text": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "5",
+    "variant_id": "",
+    "text": "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "6",
+    "variant_id": "",
+    "text": "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "7",
+    "variant_id": "",
+    "text": "I want to claim travel expenses; I'm <PERSON_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "8",
+    "variant_id": "",
+    "text": "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>."
+  },
+  {
+    "dataset": "dogo",
+    "method": "RKGB",
+    "split": "generated",
+    "representation": "deidentified",
+    "source_id": "9",
+    "variant_id": "",
+    "text": "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "dataset": "abcd",
+  "condition": "constructed_only",
+  "source_entries": 5,
+  "unique_cache_entries": 5,
+  "test_total": 476,
+  "cache_hits": 308,
+  "hit_rate_percent": 64.70588235294117,
+  "oracle_hits": 308,
+  "oracle_disagreements": 0,
+  "cache_rows_before": 5,
+  "cache_rows_after": 5,
+  "embedding_callback_calls": 481,
+  "distinct_returned_entries": 5,
+  "answer_validity_evaluated": false,
+  "admission_evaluated": false
+}

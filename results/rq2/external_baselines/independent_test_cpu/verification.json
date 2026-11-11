@@ -1,0 +1,77 @@
+{
+  "split": "test",
+  "dataset": "abcd",
+  "threshold": 0.85,
+  "encoder": "bge-small-en-v1.5",
+  "gpu_used": false,
+  "no_search": true,
+  "no_quality_rescreening": true,
+  "quality_screen_scope": "Preserves each original saved screened portfolio, including zero keys. Does not adjudicate fairness or validate quality scorer.",
+  "test_sha256": "c0cb1dfc04566724390c7f47cdd1e5cf03d3aa8f184d0ba9704f793f54065996",
+  "encoder_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "code_sha256": "cc20317eb6dce372a04864f1ff59bad5dcafea5bb2e5cac663c1a66b298b2881",
+  "seconds": 2.6485273838043213,
+  "metrics": [
+    {
+      "method": "RKGB_main",
+      "split": "test",
+      "key_count": 5,
+      "covered": 308,
+      "total": 476,
+      "coverage_pct": 64.70588235294117,
+      "source_report_covered": 308,
+      "exact_count_reproduced": true,
+      "delta_vs_main_pp": 0.0,
+      "minimum_distance_from_threshold": 0.00014001131057739258
+    },
+    {
+      "method": "GASLITE_mean_cosine_raw",
+      "split": "test",
+      "key_count": 5,
+      "covered": 324,
+      "total": 476,
+      "coverage_pct": 68.0672268907563,
+      "source_report_covered": 324,
+      "exact_count_reproduced": true,
+      "delta_vs_main_pp": 3.361344537815126,
+      "minimum_distance_from_threshold": 0.00030362606048583984
+    },
+    {
+      "method": "GASLITE_mean_cosine_screened",
+      "split": "test",
+      "key_count": 0,
+      "covered": 0,
+      "total": 476,
+      "coverage_pct": 0.0,
+      "source_report_covered": 0,
+      "exact_count_reproduced": true,
+      "delta_vs_main_pp": -64.70588235294117,
+      "minimum_distance_from_threshold": null
+    },
+    {
+      "method": "GASLITE_soft_threshold_raw",
+      "split": "test",
+      "key_count": 5,
+      "covered": 327,
+      "total": 476,
+      "coverage_pct": 68.69747899159664,
+      "source_report_covered": 327,
+      "exact_count_reproduced": true,
+      "delta_vs_main_pp": 3.991596638655462,
+      "minimum_distance_from_threshold": 0.00010091066360473633
+    },
+    {
+      "method": "GASLITE_soft_threshold_screened",
+      "split": "test",
+      "key_count": 0,
+      "covered": 0,
+      "total": 476,
+      "coverage_pct": 0.0,
+      "source_report_covered": 0,
+      "exact_count_reproduced": true,
+      "delta_vs_main_pp": -64.70588235294117,
+      "minimum_distance_from_threshold": null
+    }
+  ],
+  "all_counts_reproduced": true
+}

@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "conditions_completed": 6,
+  "new_api_calls": 12,
+  "api_response_replays": 48,
+  "copied_previous_response_count": 18,
+  "distinct_saved_response_count": 30,
+  "all_candidates_admitted": true,
+  "all_coverage_matches_offline": true,
+  "unexpected_encoding_calls": [],
+  "new_text_generation_search_calls": 0,
+  "completed_epoch": 1793877817.8588915
+}

@@ -1,0 +1,50 @@
+{
+  "input_sha256": "b07e45321bfb5b71153be344099612e124807a171b4d27db1b17ce0b49b81657",
+  "backup": "C:\\Users\\ykx01\\Desktop\\ICDE_v1\\history\\before_completed_ablation_20261104_162904",
+  "pages": 16,
+  "sources": [
+    {
+      "source": "C:\\Users\\ykx01\\Desktop\\results\\VLDB补充方法对比_20261102\\runs\\simple_existing_config\\banking77\\final_report.json",
+      "sha256": "36bc7ee49c2c86e993477f5e1388432a4ab689b6696d0fea66348f45f0e8317b",
+      "train_source_sha256": "98f3ed46b5ec69f561dae64a5ec69ac3c9deb0a22b95033f6839db87f770fbbf",
+      "covered": 1118,
+      "total": 1485,
+      "percent": 75.29,
+      "frozen_selected_verified": true
+    },
+    {
+      "source": "C:\\Users\\ykx01\\Desktop\\results\\去黎曼_seed42_独立复跑_20261101\\runs\\abcd\\final_report.json",
+      "sha256": "87646e9ea57b80d3b8938cbbc119bb0956a6b9ca73a00d5c1f6b26d3f2cd752b",
+      "train_source_sha256": "15ff08b80ebd232a53f8883ad0e3a272100725719f8c0cac5bf5e78b0466eb1e",
+      "covered": 288,
+      "total": 476,
+      "percent": 60.5,
+      "frozen_selected_verified": true
+    },
+    {
+      "source": "C:\\Users\\ykx01\\Desktop\\results\\去黎曼_seed42_独立复跑_20261101\\runs\\dogo\\final_report.json",
+      "sha256": "e02761379629b0f98e0e9a3979d693735a2667a9bd2c1ab1f8f2958eb73ed85d",
+      "train_source_sha256": "2b1d8c565190627f661390edbfdaf81264f153d3a5f1159d79fc4644b7fb93f0",
+      "covered": 899,
+      "total": 1094,
+      "percent": 82.18,
+      "frozen_selected_verified": true
+    }
+  ],
+  "protocol": "C:\\Users\\ykx01\\Desktop\\results\\VLDB补充方法对比_20261102\\实验协议.md",
+  "protocol_sha256": "6a71ae1d17fb2d8ca7a84a62d971b43c21bf900709e178353b2966fd8b0d87a1",
+  "review_pages": [
+    11,
+    13
+  ],
+  "selected_riemann_values": {
+    "banking77": 73.94,
+    "abcd": 60.5,
+    "dogo": 82.18
+  },
+  "historical_runs_retained_in_prose_and_archive": true,
+  "banking77_no_gradient_result": 75.29,
+  "undefined_references": false,
+  "overfull_boxes": false,
+  "latex_warnings": false
+}

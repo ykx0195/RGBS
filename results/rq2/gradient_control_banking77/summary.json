@@ -1,0 +1,37 @@
+{
+  "historical_run": "paper_no_gradient_085",
+  "search_iterations": 20,
+  "beam_width": 4,
+  "k": 15,
+  "threshold": 0.85,
+  "selected_on": "train",
+  "frozen_before_current_test_evaluation": true,
+  "validation_covered": 605,
+  "validation_total": 875,
+  "test_covered": 1007,
+  "test_total": 1485,
+  "test_coverage_pct": 67.8114478114478,
+  "metric": "fraction of Test queries with at least one key at cosine >= 0.85",
+  "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+  "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+  "pooling": "CLS, L2 normalization",
+  "max_length": 512,
+  "device": "cpu",
+  "dtype": "float32",
+  "prefix": "",
+  "cached_test_sample_checked": 32,
+  "cached_test_sample_max_abs_error": 1.1920928955078125e-07,
+  "float64_threshold_decisions_agree": true,
+  "selected_origin_counts": {
+    "seed": 15
+  },
+  "source_hashes": {
+    "C:\\Users\\ykx01\\Desktop\\results\\ykx现行实验\\v10_kmeans_riemann_beam\\paper_supplement_20261018\\exports\\extracted_15246\\v10_method\\runs\\paper_no_gradient_085\\03_portfolio_evaluation\\portfolios.json": "66a8769329b715d58ab3722a12fd4e50bc4f97eb0aed74c7e58495fa054ae97f",
+    "C:\\Users\\ykx01\\Desktop\\results\\ykx现行实验\\v10_kmeans_riemann_beam\\paper_supplement_20261018\\exports\\extracted_15246\\v10_method\\runs\\paper_no_gradient_085\\03_portfolio_evaluation\\report.json": "efb6777f43fb32c6dcd13a9cbeaca3290923e7d94405bfd22988aac9aa2844ae",
+    "C:\\Users\\ykx01\\Desktop\\results\\ykx现行实验\\v10_kmeans_riemann_beam\\paper_supplement_20261018\\exports\\extracted_15246\\v10_method\\runs\\paper_no_gradient_085\\config_snapshot.json": "9fa9c99b78d79587bba6add7c39855219ce446fad92814d9d0d09c0784337b1b",
+    "C:\\Users\\ykx01\\Desktop\\results\\ykx现行实验\\v10_kmeans_riemann_beam\\paper_supplement_20261018\\data\\test.jsonl": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461",
+    "C:\\Users\\ykx01\\Desktop\\results\\ykx现行实验\\v10_kmeans_riemann_beam\\paper_supplement_20261018\\data\\validation.jsonl": "a81eb1b820ea22e715721dc06314482675b705dd8f3c3fa6962f64a2ecc54d0a",
+    "C:\\Users\\ykx01\\Desktop\\results\\ykx现行实验\\v10_kmeans_riemann_beam\\paper_supplement_20261018\\data\\validation.npy": "313a30c38500f2adc361a7721b8ff534f7719d7d4b15bd29dcc7bed3d88696e9",
+    "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\banking77\\embeddings.npz": "b0c799f441960e7eb82d7880b99252b68a6c258e0944cd024dca72d2df17f6f1"
+  }
+}

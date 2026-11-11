@@ -1,0 +1,178 @@
+{
+  "question_rows": 15,
+  "columns": [
+    "id",
+    "question",
+    "create_on",
+    "last_access",
+    "embedding_data",
+    "deleted"
+  ],
+  "rows": [
+    [
+      1,
+      "Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet.",
+      "2026-11-05 19:23:24.025545",
+      "2026-11-05 19:23:27.254384",
+      {
+        "blob_bytes": 1536,
+        "sha256": "00ae243820d8263f0934b6ca4fd4782586a08ff7ef79a64171d44e6ac9c5a222"
+      },
+      0
+    ],
+    [
+      2,
+      "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+      "2026-11-05 19:23:24.033741",
+      "2026-11-05 19:23:27.386147",
+      {
+        "blob_bytes": 1536,
+        "sha256": "fb4792fcf5c8499cc89c31e4ea90736f3740aa2ab5a6f954e214c73c7d2c258b"
+      },
+      0
+    ],
+    [
+      3,
+      "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+      "2026-11-05 19:23:24.037844",
+      "2026-11-05 19:23:27.438030",
+      {
+        "blob_bytes": 1536,
+        "sha256": "70a20a8ed73818773bda0eb8741ca12288fd31656595723b624159ad47b2f625"
+      },
+      0
+    ],
+    [
+      4,
+      "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+      "2026-11-05 19:23:24.041976",
+      "2026-11-05 19:23:27.377075",
+      {
+        "blob_bytes": 1536,
+        "sha256": "7b28b61d274c13be9a2478e394616da15eddc09fca3e8b7239073a6b092fae61"
+      },
+      0
+    ],
+    [
+      5,
+      "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+      "2026-11-05 19:23:24.045987",
+      "2026-11-05 19:23:27.160983",
+      {
+        "blob_bytes": 1536,
+        "sha256": "fa3a98c93d96aef8c733c91f085bb751f3d63a02bf4b070a249e34c70920ed0b"
+      },
+      0
+    ],
+    [
+      6,
+      "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+      "2026-11-05 19:23:24.050199",
+      "2026-11-05 19:23:27.388411",
+      {
+        "blob_bytes": 1536,
+        "sha256": "ad7e60da1655a8fb0612a498b05932fb86fe659ddf61ae76913eb76cb6d736c4"
+      },
+      0
+    ],
+    [
+      7,
+      "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+      "2026-11-05 19:23:24.054324",
+      "2026-11-05 19:23:26.993650",
+      {
+        "blob_bytes": 1536,
+        "sha256": "e1566bd388f82cd937789bb7c7a6010b69246d78b60640d3146044bbe3138dec"
+      },
+      0
+    ],
+    [
+      8,
+      "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+      "2026-11-05 19:23:24.058650",
+      "2026-11-05 19:23:27.462676",
+      {
+        "blob_bytes": 1536,
+        "sha256": "2977b5e9963955b0f781c077c1d14e43d09031182aaec4037481d7b53785ebbf"
+      },
+      0
+    ],
+    [
+      9,
+      "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+      "2026-11-05 19:23:24.062996",
+      "2026-11-05 19:23:27.061623",
+      {
+        "blob_bytes": 1536,
+        "sha256": "e9953ec02c4dd1b53c7d94c8f4099f95ff09739b5d9c33cdca4791bb1b0b0385"
+      },
+      0
+    ],
+    [
+      10,
+      "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+      "2026-11-05 19:23:24.067267",
+      "2026-11-05 19:23:27.444713",
+      {
+        "blob_bytes": 1536,
+        "sha256": "19b9fbc966adf065af8a48b821d9eda9e3aa70492edf176049a7a272efad6bca"
+      },
+      0
+    ],
+    [
+      11,
+      "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+      "2026-11-05 19:23:24.071614",
+      "2026-11-05 19:23:26.705834",
+      {
+        "blob_bytes": 1536,
+        "sha256": "3289ed1ce99a035c2e361a8360c891966c87619cae843473599fb484b84ca59a"
+      },
+      0
+    ],
+    [
+      12,
+      "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+      "2026-11-05 19:23:24.076434",
+      "2026-11-05 19:23:27.104566",
+      {
+        "blob_bytes": 1536,
+        "sha256": "af4efe7a4547a9581284655c65992004f209bf9c43f524884d6e28f35715d79a"
+      },
+      0
+    ],
+    [
+      13,
+      "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+      "2026-11-05 19:23:24.081070",
+      "2026-11-05 19:23:26.371177",
+      {
+        "blob_bytes": 1536,
+        "sha256": "e620b826cacfefeaf0714e42ac980dffdce2bba5ddfb2cee42c41c3d673bd15d"
+      },
+      0
+    ],
+    [
+      14,
+      "How do I verify my identity for account <ACCOUNT_NUMBER_1>?",
+      "2026-11-05 19:23:24.085479",
+      "2026-11-05 19:23:27.464952",
+      {
+        "blob_bytes": 1536,
+        "sha256": "2c205d515289d9579640dc2b3854381f1748edc38c6885ed057b757425e0aeb1"
+      },
+      0
+    ],
+    [
+      15,
+      "How do I unblock my card for account <ACCOUNT_NUMBER_1>?",
+      "2026-11-05 19:23:24.089964",
+      "2026-11-05 19:23:26.764905",
+      {
+        "blob_bytes": 1536,
+        "sha256": "e96d0d6ca04b556cc7c0776019a4685bcb33cb37e9b3717237472e95972f0094"
+      },
+      0
+    ]
+  ]
+}

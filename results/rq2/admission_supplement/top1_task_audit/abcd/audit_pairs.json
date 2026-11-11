@@ -1,0 +1,419 @@
+{
+  "pairs": [
+    {
+      "pair_id": "case-001083",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to check the status of a refund for a recent return. I don't know my account ID, but my username is <USERNAME_1> and the order ID is <ORDER_ID_1>."
+    },
+    {
+      "pair_id": "case-001087",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the jacket from order <ORDER_ID_1> because it's the wrong size, and I want to send it back by mail. My account username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001088",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return a jacket from order <ORDER_ID_1> and get a refund to my card. It wasn't what I expected, and I'd prefer to send it back by mail. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001093",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return the wrong-size item from order <ORDER_ID_1> on my account <USERNAME_1> by mail. It's still in the original packaging."
+    },
+    {
+      "pair_id": "case-001094",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like a refund for order <ORDER_ID_1> because I changed my mind after purchasing it, and please issue it to the credit card on file. My account username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001096",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like a refund for order <ORDER_ID_1> under username <USERNAME_1> because I changed my mind, and I'm trying to get it before the item ships. Please send the refund to the card on the account."
+    },
+    {
+      "pair_id": "case-001100",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I want to return an item from order <ORDER_ID_1> because it arrived in the wrong color. My username is <USERNAME_1>, and I'd like to send it back by mail."
+    },
+    {
+      "pair_id": "case-001114",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the Guess Jeans from order <ORDER_ID_1> because they had a stain when I went to wash them. My username is <USERNAME_1> if you need it to validate the purchase."
+    },
+    {
+      "pair_id": "case-001117",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I received a pair of jeans with a stain on them and want to return them; I need them for an event next week. My username is <USERNAME_1> and the order is <ORDER_ID_1>."
+    },
+    {
+      "pair_id": "case-001120",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "For order <ORDER_ID_1> under account <ACCOUNT_ID_1>, I meant to order only the boots but the jacket was included by mistake. The order has already been delivered, so I need to return the jacket and would like to know if a free shipping label is provided."
+    },
+    {
+      "pair_id": "case-001122",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I changed my mind about order <ORDER_ID_1> and would like a refund sent directly to my credit card. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001133",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return the shirt from order <ORDER_ID_1> because it is too big, and I'd like the refund amount put on my account as credit for future use. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001138",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I bought a pair of Guess jeans on 2019-12-19 and changed my mind, so I want a refund for order <ORDER_ID_1> to my credit card. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001145",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the unworn jeans that arrived with a red stain and get a proper pair instead. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001146",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I accidentally ordered the wrong size jacket and it has already arrived; I'd like to return the jacket from order <ORDER_ID_1>. My username is <USERNAME_1> and I'm a Gold member."
+    },
+    {
+      "pair_id": "case-001152",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I don't have my account ID, but my username is <USERNAME_1>. Please add the jeans to my pending refund for order <ORDER_ID_1>; I'd like to do this in chat."
+    },
+    {
+      "pair_id": "case-001154",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I bought a shirt and later saw it for a lot cheaper elsewhere. Can you refund me the price difference on my account <ACCOUNT_ID_1>?"
+    },
+    {
+      "pair_id": "case-001155",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the jeans from order <ORDER_ID_1> because they're the wrong color. Please process it as a mail return, and my username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001156",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Can I return an item from order <ORDER_ID_1> that arrived in the wrong color? I'm a guest, my username is <USERNAME_1>, and the purchase date was 12/27/2019."
+    },
+    {
+      "pair_id": "case-001158",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Can I get a refund just for the shipping costs on order <ORDER_ID_1>? My account username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001162",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the jacket from order <ORDER_ID_1> under username <USERNAME_1> because it doesn't fit. I bought it less than 90 days ago, though it's not in the original packaging, and I'd prefer to send it back by mail."
+    },
+    {
+      "pair_id": "case-001163",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Please refund $59 to my credit card for the Tommy Hilfiger shirt I no longer want, order <ORDER_ID_1>, username <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001165",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I want to cancel my unshipped shirt order <ORDER_ID_1> and get a refund to my debit card, since I need a bigger size. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001169",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return a pair of Michael Kors boots because they are the wrong size. My order ID is <ORDER_ID_1> and my username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001170",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Could you check the refund status for order <ORDER_ID_1>? I returned the item and have been waiting a few days; my username is <USERNAME_1> and my membership level is Bronze."
+    },
+    {
+      "pair_id": "case-001171",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return an item from order <ORDER_ID_1> because it's the wrong size, and I want the return processed by mail. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001173",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'm expecting a shirt today but ordered the wrong one; my nephew wants a different one. Can I add the shirt he wants to order <ORDER_ID_1>? My account is <ACCOUNT_ID_1>."
+    },
+    {
+      "pair_id": "case-001176",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return a pair of jeans I purchased as a birthday present because they're the wrong color. My username is <USERNAME_1> and the order ID is <ORDER_ID_1>."
+    },
+    {
+      "pair_id": "case-001177",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to add the Michael Kors jacket, which is two sizes too big, to my existing refund of $100 for order <ORDER_ID_1> under username <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001179",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I recently made a return and now I'd like to add the Calvin Klein Jeans for $49 to that same return. My order is <ORDER_ID_1> under username <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001182",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return the Michael Kors boots I ordered for $54 in black and brown because I wanted bright red instead. The order ID is <ORDER_ID_1> and the username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001186",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the Tommy Hilfiger jacket from order <ORDER_ID_1> because it's too small. I'm a guest and my username is <USERNAME_1>; I have the receipt."
+    },
+    {
+      "pair_id": "case-001190",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Can I return the jacket in order <ORDER_ID_1>? I mistakenly ordered a small but now wear a medium, and I still have the original packaging. My account username is <USERNAME_1>, and I can mail it back."
+    },
+    {
+      "pair_id": "case-001192",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return the item from order <ORDER_ID_1> because it arrived in the wrong color, and I'd like to send it back by mail. My account username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001195",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the stained Calvin Klein jacket from order <ORDER_ID_1> for a refund. It was stained in shipping, I have the original packaging, and I want to mail it back. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001198",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to start a return for the boots I received in the wrong size from order <ORDER_ID_1>, under username <USERNAME_1>. I bought them in size 9 but they hurt my feet, and I want the return processed through mail rather than in store."
+    },
+    {
+      "pair_id": "case-001201",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "The boots on order <ORDER_ID_1> came in the wrong color, so I want to return them and receive a paper check refund. You can find my account under <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001203",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return an item I received in the wrong color. My username is <USERNAME_1> and the order ID is <ORDER_ID_1>."
+    },
+    {
+      "pair_id": "case-001208",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the shirt from order <ORDER_ID_1> because the size is wrong. I don't have a receipt, but I have a credit card statement as proof of purchase."
+    },
+    {
+      "pair_id": "case-001215",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I returned the jeans but haven't been credited my money back yet. My username is <USERNAME_1> and the order ID is <ORDER_ID_1>; I'm a guest and have been waiting a few days."
+    },
+    {
+      "pair_id": "case-001216",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I accidentally ordered the wrong item and want to cancel my order <ORDER_ID_1> on account <ACCOUNT_ID_1>. It was already delivered, and the shirt was the wrong size while the jeans had unexpected details."
+    },
+    {
+      "pair_id": "case-001224",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "My refund for a Tommy Hilfiger shirt on order <ORDER_ID_1> still hasn't reversed after ten days, and I initiated it by phone. Can you expedite this on my account, <USERNAME_1>?"
+    },
+    {
+      "pair_id": "case-001226",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I was billed for a shirt that is two sizes too big before I could remove it from my cart, and it just arrived. I'd like to return it and get refunded for order <ORDER_ID_1>."
+    },
+    {
+      "pair_id": "case-001228",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Please cancel order <ORDER_ID_1> for the shirt I no longer want and refund the $59.00 back to my debit card. You can find my account under <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001229",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Please cancel and refund my unshipped jacket order <ORDER_ID_1>; it's still 'order received'. You can find it under username <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001232",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I want to return an item I ordered that came in the wrong size. The order ID is <ORDER_ID_1>, and my username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001240",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the Guess boots from order <ORDER_ID_1> because I bought the wrong color. My username is <USERNAME_1>, and I have the receipt."
+    },
+    {
+      "pair_id": "case-001241",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like a refund for order <ORDER_ID_1> because the shipping cost is too high. My username is <USERNAME_1>, and the order status is still 'Order Received'."
+    },
+    {
+      "pair_id": "case-001245",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Hi, I'm expecting a refund for order <ORDER_ID_1> and would like to check its status. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001249",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I want to know when to expect my refund for the Guess jacket on order <ORDER_ID_1>. My username is <USERNAME_1>, and I just need the refund status."
+    },
+    {
+      "pair_id": "case-001255",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the jacket from order <ORDER_ID_1> because it arrived stained before I received it. My username is <USERNAME_1> and my membership level is Bronze."
+    },
+    {
+      "pair_id": "case-001258",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I have an existing refund of $100 and I want to add a Calvin Klein jacket I bought for $59 that didn't fit to it. My order ID is <ORDER_ID_1> and my account ID is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001263",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return the Guess shirt from order <ORDER_ID_1> because it arrived with a stain on it. Please process the return by mail, and my username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001269",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return an item from order <ORDER_ID_1> because I changed my mind. My username is <USERNAME_1>, and I want to process the return in store."
+    },
+    {
+      "pair_id": "case-001270",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to add a Guess Jacket to my current refund for order <ORDER_ID_1> because it doesn't fit well. The original refund was $100 and the jacket is $94, and my username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001271",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return an item for order <ORDER_ID_1> due to wrong size. I'm a guest, username <USERNAME_1>, no receipt, and the purchase date is November 26, 2019."
+    },
+    {
+      "pair_id": "case-001283",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Please cancel my shirt order <ORDER_ID_1> and refund the 79 to my debit card, since my husband doesn't like it. I'm <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001296",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Could you check the refund status for order <ORDER_ID_1>? My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001297",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I accidentally ordered a second item in the wrong size on order <ORDER_ID_1>, and I only want to keep one item. The order status is 'Order Received'; can you remove the mistaken item from my account <ACCOUNT_ID_1>?"
+    },
+    {
+      "pair_id": "case-001302",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I changed my mind about the Michael Kors jeans and want a refund for order <ORDER_ID_1> before it ships. My username is <USERNAME_1> if you need it to validate the purchase."
+    },
+    {
+      "pair_id": "case-001303",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return an item from order <ORDER_ID_1> under username <USERNAME_1> because I received the wrong color. It was purchased on 2020-03-22, and I'd prefer to return it via mail."
+    },
+    {
+      "pair_id": "case-001307",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return an item from order <ORDER_ID_1> because it's the wrong size, and I have the original packaging. My username is <USERNAME_1>, and I purchased it on 2020-02-03; can I process this return in store?"
+    },
+    {
+      "pair_id": "case-001310",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to add a Calvin Klein jacket to order <ORDER_ID_1>. My account ID is <ACCOUNT_ID_1>."
+    },
+    {
+      "pair_id": "case-001316",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Please add a Tommy Hilfiger boot to the refund for order <ORDER_ID_1>. You can verify my account with username <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001321",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "My Michael Kors boots came in the wrong color, so I want to return them. The order ID is <ORDER_ID_1> and my username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001324",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I forgot to add the jeans I love to my order <ORDER_ID_1>. Can you help me adjust it to add that extra item? My account ID is <ACCOUNT_ID_1>."
+    },
+    {
+      "pair_id": "case-001327",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return an item from order <ORDER_ID_1> because it arrived in the wrong color, and I'd like to send it back by mail. My account username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001328",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I completed a return and would like to check the status of my refund for order <ORDER_ID_1>. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001330",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return an item because I bought the wrong size. I will drop off the return at the center. Please use order <ORDER_ID_1> and username <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001346",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return an item from order <ORDER_ID_1> on account <ACCOUNT_ID_1> because I ordered it by mistake. Please refund the $79 to the credit card on file."
+    },
+    {
+      "pair_id": "case-001347",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I don't like my Calvin Klein jacket and want to add it to my existing $100 refund for order <ORDER_ID_1>. The jacket cost $54, and my username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001349",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return a pair of Michael Kors jeans from order <ORDER_ID_1> because they're the wrong size. The order was placed on 2019-09-14, and I don't have the receipt. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001351",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I've been expecting a refund for order <ORDER_ID_1> and want to double-check its status. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001358",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return the jacket I purchased because it's the wrong color. Please send a shipping label for order <ORDER_ID_1> under username <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001359",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Hi, I made a return and would like to check the refund status for order <ORDER_ID_1>. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001360",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "Please help me return the jacket from order <ORDER_ID_1>; it has a huge stain and isn't up to my standards. I'm a guest with the receipt and prefer to return by mail. You can reach me at <EMAIL_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-001362",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to return an item that's still in its original packaging because I just don't want it anymore, and I want the refund sent back to my card. My username is <USERNAME_1> and my email is <EMAIL_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-001367",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I received an item in the wrong color and want to return it by mail. My username is <USERNAME_1> and the order ID is <ORDER_ID_1>."
+    },
+    {
+      "pair_id": "case-001368",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I want to return a stained item from order <ORDER_ID_1>—it's unworn and still in its original packaging. You can find my account under <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001371",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I'd like to check the status of my refund for order <ORDER_ID_1> under username <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001374",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return a Calvin Klein shirt I bought as a gift because the color was unsatisfactory. Please process the return by mail as fast as possible for order <ORDER_ID_1> under username <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001386",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "I need to return order <ORDER_ID_1> because it arrived in the wrong color. My username is <USERNAME_1>."
+    },
+    {
+      "pair_id": "case-001387",
+      "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "query_text": "The shirt I ordered for a wedding party came in the wrong size, so I want to return it by mail. Can you process the return for order <ORDER_ID_1> under my username <USERNAME_1>?"
+    }
+  ]
+}

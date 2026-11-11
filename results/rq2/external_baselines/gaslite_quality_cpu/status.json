@@ -1,0 +1,101 @@
+{
+  "phase": "complete",
+  "completed_rows": 230,
+  "total_rows": 230,
+  "seconds": 89.40413665771484,
+  "gpu_used": false,
+  "test_read": false,
+  "portfolios_changed": false,
+  "summary": [
+    {
+      "objective": "mean_cosine",
+      "origin": "final_optimized_text",
+      "sample_rows": 5,
+      "distinct_texts": 5,
+      "structural_pass": 5,
+      "ppl_pass": 0,
+      "local_quality_pass": 0
+    },
+    {
+      "objective": "mean_cosine",
+      "origin": "natural_seed",
+      "sample_rows": 5,
+      "distinct_texts": 5,
+      "structural_pass": 5,
+      "ppl_pass": 5,
+      "local_quality_pass": 4
+    },
+    {
+      "objective": "mean_cosine",
+      "origin": "random_archive_sample",
+      "sample_rows": 50,
+      "distinct_texts": 50,
+      "structural_pass": 50,
+      "ppl_pass": 1,
+      "local_quality_pass": 1
+    },
+    {
+      "objective": "mean_cosine",
+      "origin": "raw_train_selected",
+      "sample_rows": 5,
+      "distinct_texts": 5,
+      "structural_pass": 5,
+      "ppl_pass": 0,
+      "local_quality_pass": 0
+    },
+    {
+      "objective": "mean_cosine",
+      "origin": "top_train_objective",
+      "sample_rows": 50,
+      "distinct_texts": 50,
+      "structural_pass": 50,
+      "ppl_pass": 0,
+      "local_quality_pass": 0
+    },
+    {
+      "objective": "soft_threshold",
+      "origin": "final_optimized_text",
+      "sample_rows": 5,
+      "distinct_texts": 5,
+      "structural_pass": 5,
+      "ppl_pass": 0,
+      "local_quality_pass": 0
+    },
+    {
+      "objective": "soft_threshold",
+      "origin": "natural_seed",
+      "sample_rows": 5,
+      "distinct_texts": 5,
+      "structural_pass": 5,
+      "ppl_pass": 5,
+      "local_quality_pass": 4
+    },
+    {
+      "objective": "soft_threshold",
+      "origin": "random_archive_sample",
+      "sample_rows": 50,
+      "distinct_texts": 50,
+      "structural_pass": 50,
+      "ppl_pass": 0,
+      "local_quality_pass": 0
+    },
+    {
+      "objective": "soft_threshold",
+      "origin": "raw_train_selected",
+      "sample_rows": 5,
+      "distinct_texts": 5,
+      "structural_pass": 5,
+      "ppl_pass": 0,
+      "local_quality_pass": 0
+    },
+    {
+      "objective": "soft_threshold",
+      "origin": "top_train_objective",
+      "sample_rows": 50,
+      "distinct_texts": 50,
+      "structural_pass": 50,
+      "ppl_pass": 0,
+      "local_quality_pass": 0
+    }
+  ]
+}

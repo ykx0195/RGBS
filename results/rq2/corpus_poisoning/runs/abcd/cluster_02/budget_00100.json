@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "i ve equally forgotten my username likely can'tpass my account. can yours help thereby recover it? i will verify with something currently ordered <PHONE_NUMBER_1> and zip code <ZIP_CODE_1> key",
+    "full_cluster_mean_cosine": 0.8685481548309326,
+    "selected_at_iteration": 79
+  },
+  "accepted_updates": 20,
+  "active_seconds": 12.667057082057,
+  "heldout_loaded": false
+}

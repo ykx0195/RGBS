@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "i experienced perhaps confused charge on transaction <ACCOUNT_NUMBER_1> further",
+    "full_cluster_mean_cosine": 0.8724005222320557,
+    "selected_at_iteration": 28
+  },
+  "accepted_updates": 17,
+  "active_seconds": 8.891317807137966,
+  "heldout_loaded": false
+}

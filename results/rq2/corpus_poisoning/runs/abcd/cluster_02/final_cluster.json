@@ -1,0 +1,45 @@
+{
+  "config": {
+    "dataset": "abcd",
+    "cluster": 2,
+    "seed": 42,
+    "max_iterations": 5000,
+    "num_candidates": 100,
+    "query_batch": 64,
+    "candidate_batch": 32,
+    "threshold": 0.85,
+    "train_sha256": "701bc13ed4d2bab2bdc800a612994844bb57e6bac36d4d9dc02b99dc0190f3e6",
+    "vectors_sha256": "b7cbb882801589fd2316b97f428c7edeec4d6cdccaf3de2972d751327ccdb47c",
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "official_commit": "main-snapshot-with-file-sha256",
+    "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+    "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+    "device": "cuda",
+    "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+    "smoke": false
+  },
+  "initial": {
+    "cluster_id": 2,
+    "train_index": 3667,
+    "source_id": "abcd-train-9610",
+    "text": "I've forgotten my username and can't access my account. Can you help me recover it? I can verify with my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1>.",
+    "cluster_size": 631,
+    "initial_center_cosine": 0.9585036039352417
+  },
+  "selected": {
+    "text": "currently tho vastly forgotten my username otherwise i can pin password accesspiece so ill awesome help theo recoverctive? because \\ verify that having accounts got <PHONE_NUMBER_1> email our both <ZIP_CODE_1> retail",
+    "full_cluster_mean_cosine": 0.8743128180503845,
+    "selected_at_iteration": 4089
+  },
+  "completed_iterations": 5000,
+  "termination": "iteration_budget_exhausted",
+  "accepted_updates": 394,
+  "proposed_candidates": 500000,
+  "valid_candidates": 499709,
+  "active_seconds": 635.5070303454995,
+  "forward_texts": 504711,
+  "backward_calls": 5000,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "finished_at_utc": "2026-10-31T10:34:51.800658+00:00"
+}

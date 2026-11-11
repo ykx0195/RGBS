@@ -1,0 +1,92 @@
+[
+  {
+    "text": "Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet.",
+    "target_cosine": 0.9649373888969421,
+    "train_covered": 771,
+    "ppl": 84.09737592802648
+  },
+  {
+    "text": "There's a similar charge regarding my card transactions; why did it appear in my account <ACCOUNT_NUMBER_1>?",
+    "target_cosine": 0.9525140523910522,
+    "train_covered": 661,
+    "ppl": 104.547649581549
+  },
+  {
+    "text": "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+    "target_cosine": 0.9522215723991394,
+    "train_covered": 549,
+    "ppl": 148.5938004343339
+  },
+  {
+    "text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via the payment card <CREDIT_CARD_1> right now.",
+    "target_cosine": 0.9644317030906677,
+    "train_covered": 441,
+    "ppl": 40.35749119410042
+  },
+  {
+    "text": "Could you clarify why the money from account <ACCOUNT_NUMBER_1> hasn't turned up in my balance yet?",
+    "target_cosine": 0.9570752382278442,
+    "train_covered": 659,
+    "ppl": 45.43660397370117
+  },
+  {
+    "text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+    "target_cosine": 0.9438877701759338,
+    "train_covered": 264,
+    "ppl": 37.75290806752772
+  },
+  {
+    "text": "I spotted a payment to the incorrect account number <ACCOUNT_NUMBER_1>, please assist.",
+    "target_cosine": 0.9430419206619263,
+    "train_covered": 557,
+    "ppl": 100.12377449139944
+  },
+  {
+    "text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, could you assist me?",
+    "target_cosine": 0.955722987651825,
+    "train_covered": 189,
+    "ppl": 48.254906276153164
+  },
+  {
+    "text": "However, could you guide me in reactivating a card for account <ACCOUNT_NUMBER_1> now?",
+    "target_cosine": 0.8481511473655701,
+    "train_covered": 244,
+    "ppl": 79.20808830995742
+  },
+  {
+    "text": "Could you inform me how to cancel the transaction for account <ACCOUNT_NUMBER_1>?",
+    "target_cosine": 0.9470672607421875,
+    "train_covered": 296,
+    "ppl": 42.9451387504163
+  },
+  {
+    "text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+    "target_cosine": 0.8748397827148438,
+    "train_covered": 303,
+    "ppl": 73.35901005814968
+  },
+  {
+    "text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending for card <CREDIT_CARD_1> that I unfortunately haven't received.",
+    "target_cosine": 0.9526886343955994,
+    "train_covered": 464,
+    "ppl": 79.00891692267862
+  },
+  {
+    "text": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+    "target_cosine": 0.8143545389175415,
+    "train_covered": 129,
+    "ppl": 91.05738099338504
+  },
+  {
+    "text": "Can you confirm why a currency exchange fee was given on my account <ACCOUNT_NUMBER_1>?",
+    "target_cosine": 0.8663106560707092,
+    "train_covered": 356,
+    "ppl": 98.09693246859831
+  },
+  {
+    "text": "Perhaps the card payment has been declined? Can you give me info on why for account <ACCOUNT_NUMBER_1>?",
+    "target_cosine": 0.8989875912666321,
+    "train_covered": 582,
+    "ppl": 77.57446011075186
+  }
+]

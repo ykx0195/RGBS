@@ -1,0 +1,39 @@
+{
+  "frozen_reused_texts": 6421,
+  "newly_encoded_texts": [],
+  "frozen_source_manifest": {
+    "sources": {
+      "C:\\Users\\ykx01\\Desktop\\results\\优先补充实验_20261031\\baselines\\banking77\\train_vectors.npy": "1e636d03cf73fa57d303329a61153681ff828cf705dd35a5f8169dc06105ad10",
+      "C:\\Users\\ykx01\\Desktop\\results\\优先补充实验_20261031\\baselines\\banking77\\train_vectors_identity.json": "1dc01c9a080ad439e02dbd0454aca35d9312a06431236f516d3bf0b6a975487f",
+      "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\banking77\\embeddings.npz": "b0c799f441960e7eb82d7880b99252b68a6c258e0944cd024dca72d2df17f6f1",
+      "C:\\Users\\ykx01\\Desktop\\results\\固定文本_原文脱敏配对_20261031\\banking77\\embedding_identity.json": "f8b7d0ab1386980b3dae78c193724fa620a11d76abe230d4ca0c0c931dc553f0"
+    },
+    "train_identity": {
+      "train_sha256": "24ed385f7d6c37814ca197b02bf81cc0a42ae474da26b7d2f16f498787d194df",
+      "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "encoder_code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+      "max_seq_length": 512,
+      "pooling": "CLS",
+      "device": "cpu",
+      "dtype": "float32"
+    },
+    "paired_identity": {
+      "source_report_sha256": "7a5634256c630a457bc486b0c3c7993665b306fc4a5b5b5d5df48c4d1c2f30d6",
+      "key_texts_sha256": "2b5c1520c34698dd451ff1e10f0582fc017a2a0cb0e59561872c3c46e757d3be",
+      "raw_test_sha256": "6e1f68813fa2e908f1e6fdcce21c3bc72d4aa23ff561aea442c9ef6cc6f58997",
+      "delex_test_sha256": "0cc4388ceb341244e49d16bfc0c8d53a8aefa26eefeb87b3bd882ad0b0bee461",
+      "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "pooling_sha256": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c",
+      "tokenizer_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "max_seq_length": 512,
+      "code_sha256": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+      "torch": "2.12.1+cpu",
+      "transformers": "4.57.6",
+      "device": "cpu",
+      "dtype": "float32",
+      "batch_size": 64
+    },
+    "vectors": 6424,
+    "output_sha256": "95102ad4c543c329f73e30601f0f3840e20f8a2eb593c91736eabe50f2b766ce"
+  }
+}

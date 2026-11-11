@@ -1,0 +1,155 @@
+{
+  "config": {
+    "dataset": "banking77",
+    "representation": "materialized",
+    "encoder": "bge",
+    "k": 15,
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "allowed_domains": "banking support",
+    "local_readability_judge": true,
+    "api_http_timeout_s": 60,
+    "api_hard_timeout_s": 90,
+    "api_max_consecutive_failures": 3,
+    "domain_judges": [
+      "qwen_api",
+      "deepseek_api"
+    ],
+    "train_sha256": "b4779b894f10f01128176727fd8b6fb435a77e169673f4d597acab99ec3b79ba",
+    "target_sha256": "229aa114285dda76a174292a211746f4f99277ec51d3b6313fe59567847d161e",
+    "seeds_sha256": "25cdc1bc3eed5d69ebdecfd94ae67e384f03b3ec53593338f8ba6f5dd4220e20",
+    "api_config_sha256": "80ad81be615dc511887eb50c50fcfc5c995a73f7bc522421e62e0a533660dd68",
+    "model_dir": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
+    "lm_dir": "/root/autodl-tmp/liman/models/Qwen2.5-1.5B-Instruct",
+    "threshold": 0.85,
+    "smoke_train_limit": 0,
+    "steps_per_slot": 32,
+    "beam_width": 50,
+    "positions_per_parent": 8,
+    "tokens_per_position": 4,
+    "max_words_per_step": 3,
+    "max_total_word_changes": 10,
+    "rewrites_per_api": 4,
+    "prompt_examples": 6,
+    "feedback_examples": 4,
+    "focus_size": 128,
+    "temperature": 0.02,
+    "align_weight": 0.1,
+    "max_ppl": 150.0,
+    "relative_ppl": 1.5,
+    "ppl_prefilter": 20,
+    "swap_passes": 4,
+    "batch_size": 64,
+    "seed": 42,
+    "selection_mode": "global_greedy_swap"
+  },
+  "portfolio_source": "global_greedy_swap",
+  "baseline_train_covered": 1698,
+  "selected": [
+    {
+      "text": "A transfer from account 8100057961 doesn't seem to have been handled correctly. Can you clarify the issue?",
+      "target_cosine": 0.9295976161956787,
+      "train_covered": 390,
+      "ppl": 26.37394987246462
+    },
+    {
+      "text": "I tried to get cash from the ATM with my card on account 63-0011-5881, but the amount I withdrew was wrong.",
+      "target_cosine": 0.9457771182060242,
+      "train_covered": 226,
+      "ppl": 16.29646789805885
+    },
+    {
+      "text": "My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381.",
+      "target_cosine": 0.9384421706199646,
+      "train_covered": 220,
+      "ppl": 22.451827051531605
+    },
+    {
+      "text": "I think an extra charge appears to be on the card, and I'd like to clarify why it happened to my account 63-0012-5821.",
+      "target_cosine": 0.949933648109436,
+      "train_covered": 214,
+      "ppl": 27.878826891219035
+    },
+    {
+      "text": "I tried a card payment using 4708 1103 5577 8782, and that transaction got declined for account 902000111751.",
+      "target_cosine": 0.92530357837677,
+      "train_covered": 192,
+      "ppl": 19.493342259761977
+    },
+    {
+      "text": "I believe my recent abroad cash transaction got the incorrect exchange rate for account 63-0008-4301.",
+      "target_cosine": 0.9572635293006897,
+      "train_covered": 176,
+      "ppl": 72.739619981855
+    },
+    {
+      "text": "I just deposited cash this morning to account 70032781, and the balance still isn't shown.",
+      "target_cosine": 0.9354286193847656,
+      "train_covered": 169,
+      "ppl": 43.604217413785385
+    },
+    {
+      "text": "Could you let me know why the card refund to account 902000108351 still hasn't shown up?",
+      "target_cosine": 0.9295175075531006,
+      "train_covered": 130,
+      "ppl": 24.301311015355424
+    },
+    {
+      "text": "I believe there's an unknown direct debit from account 8100047671, definitely help me with this.",
+      "target_cosine": 0.9311134815216064,
+      "train_covered": 120,
+      "ppl": 49.87279007507507
+    },
+    {
+      "text": "I was caught after all past attempts using my card 3460 616903 78935. Could you assist me in changing the PIN?",
+      "target_cosine": 0.9353938698768616,
+      "train_covered": 110,
+      "ppl": 37.08191473706423
+    },
+    {
+      "text": "I am seeing a card transaction still pending for the account number 63-0008-1171, please check.",
+      "target_cosine": 0.8774141073226929,
+      "train_covered": 154,
+      "ppl": 34.22287817620133
+    },
+    {
+      "text": "I believe a fee was charged on my card transaction for account 902000033561; could you indicate the exact reason.",
+      "target_cosine": 0.9319733381271362,
+      "train_covered": 243,
+      "ppl": 40.775259936127796
+    },
+    {
+      "text": "The transaction regarding account 70045891 went through incorrectly; I'd like to cancel that now, thanks.",
+      "target_cosine": 0.9296111464500427,
+      "train_covered": 114,
+      "ppl": 63.40839172609165
+    },
+    {
+      "text": "I'm trying to figure out why the transfer from account 63-0008-9921 now hasn't been completed properly yet.",
+      "target_cosine": 0.9428348541259766,
+      "train_covered": 354,
+      "ppl": 34.44992816396264
+    },
+    {
+      "text": "My phone registered under phone number (202) 555-0182 is either lost or stolen.",
+      "target_cosine": 0.8702251315116882,
+      "train_covered": 61,
+      "ppl": 16.965712588245587
+    }
+  ],
+  "metrics": {
+    "train": {
+      "covered": 2320,
+      "total": 4924,
+      "coverage": 0.471161657189277
+    },
+    "test": {
+      "covered": 626,
+      "total": 1485,
+      "coverage": 0.42154882154882156
+    }
+  },
+  "heldout_loaded": true,
+  "note": "Final coverage is Test cosine-threshold union coverage. Train was used for optimization and selection; Test was opened only after freezing. This is not cache Top-1 or attack success.",
+  "final_coverage_split": "test",
+  "test_sha256": "6e1f68813fa2e908f1e6fdcce21c3bc72d4aa23ff561aea442c9ef6cc6f58997"
+}

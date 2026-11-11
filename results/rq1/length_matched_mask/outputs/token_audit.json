@@ -1,0 +1,1386 @@
+{
+  "filtered_banking": {
+    "n_original_eval": 996,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 254,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 368,
+          "over256": 148
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 254,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 368,
+          "over256": 148
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 256,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 370,
+          "over256": 153
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 254,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 368,
+          "over256": 148
+        }
+      }
+    },
+    "n_retained_eval": 843,
+    "excluded_ids": [
+      "test:299",
+      "test:627",
+      "test:1010",
+      "test:2714",
+      "test:2754",
+      "test:3078",
+      "test:3458",
+      "test:4234",
+      "test:4663",
+      "test:5904",
+      "test:9155",
+      "test:9435",
+      "test:9803",
+      "test:10493",
+      "test:10849",
+      "test:10902",
+      "test:11066",
+      "test:11180",
+      "test:12391",
+      "test:12555",
+      "test:13058",
+      "test:13700",
+      "test:14791",
+      "test:15742",
+      "test:15835",
+      "test:16465",
+      "test:16710",
+      "test:16777",
+      "test:17094",
+      "test:17127",
+      "test:17603",
+      "test:18219",
+      "test:19044",
+      "test:19616",
+      "test:20383",
+      "test:21357",
+      "test:22746",
+      "test:22928",
+      "test:24086",
+      "test:24422",
+      "test:24853",
+      "test:25229",
+      "test:25569",
+      "test:26188",
+      "test:26256",
+      "test:27103",
+      "test:27615",
+      "test:28519",
+      "test:28638",
+      "test:30302",
+      "test:30346",
+      "test:30531",
+      "test:32479",
+      "test:34778",
+      "test:34786",
+      "test:35084",
+      "test:35515",
+      "test:35762",
+      "test:37469",
+      "test:37527",
+      "test:38316",
+      "test:39223",
+      "test:39251",
+      "test:39698",
+      "test:39744",
+      "test:40415",
+      "test:41229",
+      "test:42353",
+      "test:42776",
+      "test:43090",
+      "test:44399",
+      "test:44459",
+      "test:46100",
+      "test:46449",
+      "test:46807",
+      "test:47929",
+      "test:49163",
+      "test:49320",
+      "test:50525",
+      "test:50627",
+      "test:50987",
+      "test:51515",
+      "test:52071",
+      "test:53015",
+      "test:53458",
+      "test:54032",
+      "test:55031",
+      "test:55212",
+      "test:55881",
+      "test:56506",
+      "test:59435",
+      "test:59502",
+      "test:61066",
+      "test:61183",
+      "test:62100",
+      "test:62287",
+      "test:64417",
+      "test:64791",
+      "test:66578",
+      "test:66597",
+      "test:66920",
+      "test:67574",
+      "test:67856",
+      "test:68510",
+      "test:69044",
+      "test:69637",
+      "test:72304",
+      "test:72789",
+      "test:73710",
+      "test:74529",
+      "test:75157",
+      "test:75569",
+      "test:75847",
+      "test:77517",
+      "test:77731",
+      "test:78119",
+      "test:78458",
+      "test:78770",
+      "test:78787",
+      "test:79346",
+      "test:80302",
+      "test:80358",
+      "test:81598",
+      "test:82462",
+      "test:82471",
+      "test:82479",
+      "test:83091",
+      "test:83419",
+      "test:85124",
+      "test:85427",
+      "test:85518",
+      "test:85809",
+      "test:85895",
+      "test:86877",
+      "test:87150",
+      "test:88139",
+      "test:88224",
+      "test:90623",
+      "test:90938",
+      "test:92066",
+      "test:92702",
+      "test:93100",
+      "test:93263",
+      "test:93358",
+      "test:94143",
+      "test:94812",
+      "test:95082",
+      "test:95802",
+      "test:96860",
+      "test:98417",
+      "test:98581",
+      "test:99560",
+      "test:99598"
+    ]
+  },
+  "filtered_finance": {
+    "n_original_eval": 828,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 254,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 404,
+          "over256": 218
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 254,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 404,
+          "over256": 218
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 256,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 406,
+          "over256": 226
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 254,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 404,
+          "over256": 218
+        }
+      }
+    },
+    "n_retained_eval": 602,
+    "excluded_ids": [
+      "train:141",
+      "train:566",
+      "train:1040",
+      "train:3450",
+      "train:3491",
+      "train:3793",
+      "train:4093",
+      "train:4516",
+      "train:4519",
+      "train:4719",
+      "train:5748",
+      "train:5993",
+      "train:6118",
+      "train:6435",
+      "train:6636",
+      "train:6986",
+      "train:8063",
+      "train:8481",
+      "train:8751",
+      "train:9101",
+      "train:10580",
+      "train:10956",
+      "train:11109",
+      "train:11354",
+      "train:11687",
+      "train:13372",
+      "train:13957",
+      "train:14019",
+      "train:14680",
+      "train:15552",
+      "train:15651",
+      "train:16171",
+      "train:16312",
+      "train:17161",
+      "train:17172",
+      "train:17450",
+      "train:17553",
+      "train:17913",
+      "train:18358",
+      "train:18851",
+      "train:18852",
+      "train:19087",
+      "train:19548",
+      "train:20213",
+      "train:20578",
+      "train:20902",
+      "train:21227",
+      "train:22500",
+      "train:22558",
+      "train:22743",
+      "train:23130",
+      "train:23206",
+      "train:23757",
+      "train:24421",
+      "train:24798",
+      "train:25828",
+      "train:27139",
+      "train:27230",
+      "train:27259",
+      "train:27817",
+      "train:27892",
+      "train:29172",
+      "train:30505",
+      "train:30857",
+      "train:31134",
+      "train:31175",
+      "train:31677",
+      "train:32419",
+      "train:32547",
+      "train:33070",
+      "train:33467",
+      "train:33498",
+      "train:33822",
+      "train:34760",
+      "train:35050",
+      "train:35145",
+      "train:35627",
+      "train:35686",
+      "train:35806",
+      "train:36007",
+      "train:36316",
+      "train:36320",
+      "train:36628",
+      "train:37006",
+      "train:37604",
+      "train:38071",
+      "train:38333",
+      "train:39673",
+      "train:40620",
+      "train:41441",
+      "train:41507",
+      "train:41577",
+      "train:41717",
+      "train:42294",
+      "train:42546",
+      "train:42665",
+      "train:42774",
+      "train:42827",
+      "train:42834",
+      "train:43513",
+      "train:45268",
+      "train:46155",
+      "train:46244",
+      "train:46313",
+      "train:46683",
+      "train:46822",
+      "train:46922",
+      "train:47329",
+      "train:47684",
+      "train:48611",
+      "train:49269",
+      "train:49540",
+      "train:49571",
+      "train:49920",
+      "train:50511",
+      "train:50889",
+      "train:51100",
+      "train:51153",
+      "train:51203",
+      "train:51236",
+      "train:52036",
+      "train:52791",
+      "train:53450",
+      "train:53491",
+      "train:53705",
+      "train:53863",
+      "train:54428",
+      "train:54469",
+      "train:55084",
+      "train:55550",
+      "train:56146",
+      "train:56993",
+      "train:57127",
+      "train:58120",
+      "train:59096",
+      "train:59379",
+      "train:59924",
+      "train:60580",
+      "train:62042",
+      "train:63015",
+      "train:63319",
+      "train:63372",
+      "train:64680",
+      "train:65147",
+      "train:65328",
+      "train:66141",
+      "train:66171",
+      "train:66312",
+      "train:66678",
+      "train:67621",
+      "train:67844",
+      "train:67913",
+      "train:68293",
+      "train:68452",
+      "train:69112",
+      "train:69924",
+      "train:70229",
+      "train:70261",
+      "train:70751",
+      "train:72800",
+      "train:72827",
+      "train:73199",
+      "train:73547",
+      "train:76241",
+      "train:76423",
+      "train:76549",
+      "train:76924",
+      "train:77196",
+      "train:77231",
+      "train:77583",
+      "train:77829",
+      "train:78557",
+      "train:78876",
+      "train:79527",
+      "train:80214",
+      "train:80215",
+      "train:80751",
+      "train:81175",
+      "train:81365",
+      "train:81463",
+      "train:81677",
+      "train:82156",
+      "train:82162",
+      "train:82182",
+      "train:82683",
+      "train:82792",
+      "train:82804",
+      "train:83165",
+      "train:83498",
+      "train:83670",
+      "train:84307",
+      "train:84338",
+      "train:84460",
+      "train:85050",
+      "train:85105",
+      "train:85109",
+      "train:85166",
+      "train:85995",
+      "train:86454",
+      "train:87604",
+      "train:88709",
+      "train:88913",
+      "train:89087",
+      "train:89192",
+      "train:89277",
+      "train:89753",
+      "train:90970",
+      "train:91054",
+      "train:91941",
+      "train:92319",
+      "train:93020",
+      "train:93513",
+      "train:93996",
+      "train:94200",
+      "train:94926",
+      "train:94987",
+      "train:95033",
+      "train:95329",
+      "train:96669",
+      "train:96704",
+      "train:97484",
+      "train:97566",
+      "train:98289",
+      "train:98478",
+      "train:98913",
+      "train:99571"
+    ]
+  },
+  "filtered_healthcare": {
+    "n_original_eval": 1064,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 247,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 341,
+          "over256": 85
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 247,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 341,
+          "over256": 85
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 249,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 343,
+          "over256": 90
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 247,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 341,
+          "over256": 85
+        }
+      }
+    },
+    "n_retained_eval": 974,
+    "excluded_ids": [
+      "train:39",
+      "train:433",
+      "train:1142",
+      "train:1464",
+      "train:1855",
+      "train:3543",
+      "train:8578",
+      "train:9045",
+      "train:9342",
+      "train:9345",
+      "train:9411",
+      "train:11046",
+      "train:14250",
+      "train:15255",
+      "train:15846",
+      "train:16898",
+      "train:19243",
+      "train:21078",
+      "train:21437",
+      "train:21581",
+      "train:22353",
+      "train:23097",
+      "train:27005",
+      "train:27526",
+      "train:27868",
+      "train:28470",
+      "train:29648",
+      "train:29818",
+      "train:37593",
+      "train:38703",
+      "train:40059",
+      "train:42629",
+      "train:42955",
+      "train:43663",
+      "train:43930",
+      "train:46388",
+      "train:47647",
+      "train:49225",
+      "train:52349",
+      "train:52524",
+      "train:52696",
+      "train:52808",
+      "train:53166",
+      "train:55355",
+      "train:55520",
+      "train:56949",
+      "train:59936",
+      "train:60030",
+      "train:60338",
+      "train:61605",
+      "train:62000",
+      "train:63353",
+      "train:65255",
+      "train:66117",
+      "train:66872",
+      "train:67583",
+      "train:68466",
+      "train:69126",
+      "train:69227",
+      "train:69488",
+      "train:69957",
+      "train:70441",
+      "train:70831",
+      "train:71436",
+      "train:73097",
+      "train:74471",
+      "train:76051",
+      "train:77052",
+      "train:77704",
+      "train:78470",
+      "train:79695",
+      "train:80374",
+      "train:81357",
+      "train:82000",
+      "train:82147",
+      "train:82338",
+      "train:83655",
+      "train:86318",
+      "train:89666",
+      "train:90670",
+      "train:91730",
+      "train:92544",
+      "train:93663",
+      "train:94651",
+      "train:95855",
+      "train:96186",
+      "train:96857",
+      "train:96928",
+      "train:96932",
+      "train:98526"
+    ]
+  },
+  "filtered_insurance": {
+    "n_original_eval": 1742,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 254,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 445,
+          "over256": 297
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 254,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 445,
+          "over256": 297
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 256,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 447,
+          "over256": 308
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 254,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 445,
+          "over256": 297
+        }
+      }
+    },
+    "n_retained_eval": 1434,
+    "excluded_ids": [
+      "train:61",
+      "train:250",
+      "train:1228",
+      "train:2872",
+      "train:3509",
+      "train:3806",
+      "train:4198",
+      "train:5000",
+      "train:5023",
+      "train:5694",
+      "train:5895",
+      "train:6768",
+      "train:8009",
+      "train:8741",
+      "train:8827",
+      "train:9275",
+      "train:9689",
+      "train:10359",
+      "train:11072",
+      "train:11904",
+      "train:13030",
+      "train:14584",
+      "train:14826",
+      "train:15132",
+      "train:15652",
+      "train:15826",
+      "train:16161",
+      "train:16620",
+      "train:17264",
+      "train:20055",
+      "train:20793",
+      "train:21269",
+      "train:22730",
+      "train:23327",
+      "train:23697",
+      "train:24087",
+      "train:24221",
+      "train:25348",
+      "train:25363",
+      "train:25447",
+      "train:27383",
+      "train:28115",
+      "train:28130",
+      "train:28666",
+      "train:30183",
+      "train:30834",
+      "train:31985",
+      "train:32641",
+      "train:33125",
+      "train:34034",
+      "train:34042",
+      "train:34688",
+      "train:34807",
+      "train:35326",
+      "train:35391",
+      "train:35760",
+      "train:36066",
+      "train:36405",
+      "train:37919",
+      "train:39558",
+      "train:40665",
+      "train:40732",
+      "train:41930",
+      "train:42184",
+      "train:42363",
+      "train:43377",
+      "train:44965",
+      "train:45575",
+      "train:46330",
+      "train:47025",
+      "train:47594",
+      "train:48112",
+      "train:49178",
+      "train:49556",
+      "train:49779",
+      "train:51379",
+      "train:51768",
+      "train:52472",
+      "train:52872",
+      "train:53489",
+      "train:53508",
+      "train:53547",
+      "train:55010",
+      "train:55090",
+      "train:55718",
+      "train:56779",
+      "train:57101",
+      "train:57797",
+      "train:58413",
+      "train:58732",
+      "train:59016",
+      "train:59022",
+      "train:59100",
+      "train:59607",
+      "train:59614",
+      "train:61235",
+      "train:62362",
+      "train:62940",
+      "train:62993",
+      "train:63029",
+      "train:63855",
+      "train:64568",
+      "train:64938",
+      "train:64995",
+      "train:66157",
+      "train:67449",
+      "train:69546",
+      "train:70534",
+      "train:70632",
+      "train:71878",
+      "train:72554",
+      "train:73186",
+      "train:76121",
+      "train:77048",
+      "train:77074",
+      "train:77111",
+      "train:77651",
+      "train:78079",
+      "train:78186",
+      "train:78403",
+      "train:79179",
+      "train:79847",
+      "train:81804",
+      "train:81835",
+      "train:83125",
+      "train:83659",
+      "train:84145",
+      "train:84973",
+      "train:85655",
+      "train:86894",
+      "train:86992",
+      "train:87336",
+      "train:87747",
+      "train:87913",
+      "train:89243",
+      "train:89865",
+      "train:89921",
+      "train:89987",
+      "train:90080",
+      "train:90270",
+      "train:90868",
+      "train:91237",
+      "train:91679",
+      "train:92351",
+      "train:92564",
+      "train:93541",
+      "train:94144",
+      "train:94579",
+      "train:96156",
+      "train:96517",
+      "train:97327",
+      "train:97827",
+      "train:98504",
+      "train:98655",
+      "train:98993",
+      "train:99178",
+      "train:99297",
+      "train:99556",
+      "test:112",
+      "test:2732",
+      "test:3190",
+      "test:5035",
+      "test:6360",
+      "test:6711",
+      "test:6736",
+      "test:7221",
+      "test:8703",
+      "test:8807",
+      "test:10582",
+      "test:10783",
+      "test:11512",
+      "test:13178",
+      "test:13967",
+      "test:15846",
+      "test:17129",
+      "test:17186",
+      "test:17670",
+      "test:18272",
+      "test:18471",
+      "test:21914",
+      "test:22545",
+      "test:22894",
+      "test:23268",
+      "test:23653",
+      "test:25712",
+      "test:25784",
+      "test:25807",
+      "test:26084",
+      "test:26199",
+      "test:28260",
+      "test:28882",
+      "test:30664",
+      "test:31230",
+      "test:31779",
+      "test:31845",
+      "test:32405",
+      "test:33145",
+      "test:33742",
+      "test:34094",
+      "test:35165",
+      "test:35852",
+      "test:35886",
+      "test:38096",
+      "test:38401",
+      "test:39006",
+      "test:39679",
+      "test:40045",
+      "test:40672",
+      "test:40691",
+      "test:40947",
+      "test:41180",
+      "test:41509",
+      "test:42672",
+      "test:43098",
+      "test:43176",
+      "test:44814",
+      "test:46107",
+      "test:47075",
+      "test:47360",
+      "test:48002",
+      "test:48416",
+      "test:49265",
+      "test:49830",
+      "test:50859",
+      "test:51203",
+      "test:51525",
+      "test:51876",
+      "test:53118",
+      "test:55502",
+      "test:56711",
+      "test:56725",
+      "test:57214",
+      "test:57371",
+      "test:57552",
+      "test:59685",
+      "test:59838",
+      "test:60380",
+      "test:60880",
+      "test:62542",
+      "test:63178",
+      "test:64513",
+      "test:64517",
+      "test:64700",
+      "test:65489",
+      "test:65705",
+      "test:66621",
+      "test:66726",
+      "test:67088",
+      "test:67944",
+      "test:67990",
+      "test:68157",
+      "test:68272",
+      "test:69039",
+      "test:69383",
+      "test:72252",
+      "test:72568",
+      "test:72587",
+      "test:72771",
+      "test:73111",
+      "test:73249",
+      "test:73268",
+      "test:74854",
+      "test:76051",
+      "test:76140",
+      "test:76543",
+      "test:77075",
+      "test:78063",
+      "test:78244",
+      "test:78499",
+      "test:78609",
+      "test:78990",
+      "test:79219",
+      "test:79256",
+      "test:80228",
+      "test:80890",
+      "test:81041",
+      "test:81335",
+      "test:81910",
+      "test:82249",
+      "test:83977",
+      "test:85683",
+      "test:85978",
+      "test:86189",
+      "test:86215",
+      "test:86372",
+      "test:86800",
+      "test:86902",
+      "test:87178",
+      "test:87560",
+      "test:87801",
+      "test:88127",
+      "test:88754",
+      "test:88933",
+      "test:89006",
+      "test:90045",
+      "test:91306",
+      "test:91589",
+      "test:91905",
+      "test:91977",
+      "test:92291",
+      "test:92936",
+      "test:94814",
+      "test:96150",
+      "test:96553",
+      "test:98570",
+      "test:99252",
+      "test:99465",
+      "test:99905"
+    ]
+  },
+  "filtered_legal": {
+    "n_original_eval": 507,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 191,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 290,
+          "over256": 4
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 191,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 290,
+          "over256": 4
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 193,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 292,
+          "over256": 4
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 191,
+          "over256": 0
+        },
+        "mask_length": {
+          "max_tokens": 290,
+          "over256": 4
+        }
+      }
+    },
+    "n_retained_eval": 503,
+    "excluded_ids": [
+      "001-58069",
+      "001-59861",
+      "001-58086",
+      "001-57901"
+    ]
+  },
+  "matched_banking": {
+    "n_original_eval": 993,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 250,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 269,
+          "over256": 3
+        },
+        "control_mask_length": {
+          "max_tokens": 269,
+          "over256": 8
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 250,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 269,
+          "over256": 3
+        },
+        "control_mask_length": {
+          "max_tokens": 269,
+          "over256": 8
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 252,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 271,
+          "over256": 4
+        },
+        "control_mask_length": {
+          "max_tokens": 271,
+          "over256": 10
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 250,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 269,
+          "over256": 3
+        },
+        "control_mask_length": {
+          "max_tokens": 269,
+          "over256": 8
+        }
+      }
+    },
+    "n_retained_eval": 983,
+    "excluded_ids": [
+      "test:2754",
+      "test:17603",
+      "test:27615",
+      "test:34778",
+      "test:35515",
+      "test:39744",
+      "test:61183",
+      "test:80302",
+      "test:85518",
+      "test:96860"
+    ]
+  },
+  "matched_finance": {
+    "n_original_eval": 822,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 251,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 271,
+          "over256": 8
+        },
+        "control_mask_length": {
+          "max_tokens": 271,
+          "over256": 14
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 251,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 271,
+          "over256": 8
+        },
+        "control_mask_length": {
+          "max_tokens": 271,
+          "over256": 14
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 253,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 273,
+          "over256": 11
+        },
+        "control_mask_length": {
+          "max_tokens": 273,
+          "over256": 15
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 251,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 271,
+          "over256": 8
+        },
+        "control_mask_length": {
+          "max_tokens": 271,
+          "over256": 14
+        }
+      }
+    },
+    "n_retained_eval": 807,
+    "excluded_ids": [
+      "train:3793",
+      "train:4519",
+      "train:11354",
+      "train:20902",
+      "train:33822",
+      "train:41717",
+      "train:64680",
+      "train:66312",
+      "train:68293",
+      "train:73199",
+      "train:76423",
+      "train:80215",
+      "train:85166",
+      "train:95329",
+      "train:99571"
+    ]
+  },
+  "matched_healthcare": {
+    "n_original_eval": 1063,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 246,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 253,
+          "over256": 0
+        },
+        "control_mask_length": {
+          "max_tokens": 261,
+          "over256": 1
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 246,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 253,
+          "over256": 0
+        },
+        "control_mask_length": {
+          "max_tokens": 261,
+          "over256": 1
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 248,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 255,
+          "over256": 0
+        },
+        "control_mask_length": {
+          "max_tokens": 263,
+          "over256": 2
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 246,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 253,
+          "over256": 0
+        },
+        "control_mask_length": {
+          "max_tokens": 261,
+          "over256": 1
+        }
+      }
+    },
+    "n_retained_eval": 1061,
+    "excluded_ids": [
+      "train:91730",
+      "train:98526"
+    ]
+  },
+  "matched_insurance": {
+    "n_original_eval": 1732,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 253,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 275,
+          "over256": 8
+        },
+        "control_mask_length": {
+          "max_tokens": 281,
+          "over256": 14
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 253,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 275,
+          "over256": 8
+        },
+        "control_mask_length": {
+          "max_tokens": 281,
+          "over256": 14
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 255,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 277,
+          "over256": 11
+        },
+        "control_mask_length": {
+          "max_tokens": 283,
+          "over256": 16
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 253,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 275,
+          "over256": 8
+        },
+        "control_mask_length": {
+          "max_tokens": 281,
+          "over256": 14
+        }
+      }
+    },
+    "n_retained_eval": 1715,
+    "excluded_ids": [
+      "train:5694",
+      "train:15826",
+      "train:24087",
+      "train:35391",
+      "train:47025",
+      "train:49556",
+      "train:52872",
+      "train:56779",
+      "train:64995",
+      "train:86894",
+      "train:97327",
+      "test:32405",
+      "test:64513",
+      "test:73249",
+      "test:78063",
+      "test:80228",
+      "test:92936"
+    ]
+  },
+  "matched_legal": {
+    "n_original_eval": 500,
+    "models": {
+      "minilm": {
+        "source_text": {
+          "max_tokens": 191,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 195,
+          "over256": 0
+        },
+        "control_mask_length": {
+          "max_tokens": 197,
+          "over256": 0
+        }
+      },
+      "gte": {
+        "source_text": {
+          "max_tokens": 191,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 195,
+          "over256": 0
+        },
+        "control_mask_length": {
+          "max_tokens": 197,
+          "over256": 0
+        }
+      },
+      "e5": {
+        "source_text": {
+          "max_tokens": 193,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 197,
+          "over256": 0
+        },
+        "control_mask_length": {
+          "max_tokens": 199,
+          "over256": 0
+        }
+      },
+      "bge": {
+        "source_text": {
+          "max_tokens": 191,
+          "over256": 0
+        },
+        "pii_mask_length": {
+          "max_tokens": 195,
+          "over256": 0
+        },
+        "control_mask_length": {
+          "max_tokens": 197,
+          "over256": 0
+        }
+      }
+    },
+    "n_retained_eval": 500,
+    "excluded_ids": []
+  }
+}

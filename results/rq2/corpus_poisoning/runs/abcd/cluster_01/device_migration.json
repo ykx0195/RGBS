@@ -1,0 +1,21 @@
+{
+  "job": "abcd_cluster01",
+  "dataset": "abcd",
+  "cluster": 1,
+  "source_pid": 2261,
+  "out_dir": "/root/autodl-tmp/corpus_hotflip_baseline_20261031/runs/abcd/cluster_01",
+  "backup_dir": "/root/autodl-tmp/corpus_hotflip_baseline_20261031/device_migrations/20261031T102448Z/abcd_cluster01",
+  "completed_iterations": 300,
+  "source_config_sha256": "50212d71a591e4e117ad1834565b5a808c2668e549a0133ae4b1b77bcc158a9c",
+  "source_state_sha256": "cffc757b84c7600704c5143763965954daa98fbf0063fc70a14d39fc15df08fb",
+  "source_active_seconds": 415.6519364863634,
+  "source_device": "cpu",
+  "target_device": "cuda",
+  "reason": "User requests GPU-only queuing; resume last complete atomic checkpoint; unsaved iterations are rerun.",
+  "migrated_at_utc": "2026-10-31T10:24:49.517682+00:00",
+  "saved_best_cpu_score": 0.8789612650871277,
+  "rebased_best_cuda_score": 0.8789613246917725,
+  "ranking_rebase_abs_difference": 5.960464477539063e-08,
+  "text_and_rng_unchanged": true,
+  "source_device_history_remains_part_of_experiment": true
+}

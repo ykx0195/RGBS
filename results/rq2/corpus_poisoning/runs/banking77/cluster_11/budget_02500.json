@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 2500,
+  "selected": {
+    "text": "i deposited cash trough your balance onwards although <ACCOUNT_NUMBER_1> seems accounts not updated.",
+    "full_cluster_mean_cosine": 0.8977588415145874,
+    "selected_at_iteration": 928
+  },
+  "accepted_updates": 91,
+  "active_seconds": 238.75165133178234,
+  "heldout_loaded": false
+}

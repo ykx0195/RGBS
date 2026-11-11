@@ -1,0 +1,10 @@
+{
+  "max_abs_initial_embedding_delta": 6.193295121192932e-08,
+  "initial_train_index": 3728,
+  "placeholder_count": {
+    "<ORDER_ID_1>": 1,
+    "<USERNAME_1>": 1
+  },
+  "cluster_queries": 855,
+  "heldout_loaded": false
+}

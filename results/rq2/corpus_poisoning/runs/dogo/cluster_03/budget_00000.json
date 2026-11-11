@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "<PERSON_1> here, and I need proof of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+    "full_cluster_mean_cosine": 0.9296337962150574,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006406381726264954,
+  "heldout_loaded": false
+}

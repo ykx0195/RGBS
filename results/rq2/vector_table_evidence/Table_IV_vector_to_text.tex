@@ -1,0 +1,28 @@
+% Snapshot of the table currently in main.tex; edit the manuscript as the source of truth.
+\begin{table}[!htb]
+\caption{Coverage (\%) of vector-space methods and text realization at $\tau=0.85$}
+\label{tab:stage-coverage}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrr@{}}
+\toprule
+Method / stage & Banking77 & ABCD & MultiDoGO \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{(a) Vector-space comparison: Validation}} \\
+\midrule
+Natural-query Greedy & 68.00 & 57.50 & 79.25 \\
+KMeans & 95.89 & 89.38 & 93.83 \\
+Riemann & 95.31 & 91.67 & 92.90 \\
+\textbf{KMeans+Riemann} & \textbf{97.03} & \textbf{93.54} & \textbf{96.07} \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{(b) Vector-to-text realization: Test}} \\
+\midrule
+Guides & 96.63 & 92.44 & 96.44 \\
+Natural anchors & 63.97 & 45.38 & 81.63 \\
+Final texts & 74.68 & 64.71 & 83.09 \\
+\bottomrule
+\end{tabular*}
+\par\smallskip
+\parbox{\columnwidth}{\footnotesize Both panels use $K=15$, $5$, and $10$, respectively. Panel (a) is a separate Validation diagnostic; panel (b) evaluates the main pipeline on Test.}
+\end{table}

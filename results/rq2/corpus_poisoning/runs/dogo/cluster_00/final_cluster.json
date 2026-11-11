@@ -1,0 +1,45 @@
+{
+  "config": {
+    "dataset": "dogo",
+    "cluster": 0,
+    "seed": 42,
+    "max_iterations": 5000,
+    "num_candidates": 100,
+    "query_batch": 64,
+    "candidate_batch": 32,
+    "threshold": 0.85,
+    "train_sha256": "3cf79269680ccbba4716427850472ace207eb771598f750c76441cf1889eb49c",
+    "vectors_sha256": "ac68c7fbf409e0a8e898a5aa34c6b37d938e36ee7a9a90e5c2e896e4c48df689",
+    "model_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+    "official_commit": "main-snapshot-with-file-sha256",
+    "search_code_sha256": "93a4b53d166003f70007e904baf7f063ba0e403acbdf3c32885706e7976eb89c",
+    "official_core_sha256": "ae6af64bd792d70b6ee726d8bc19a7e17783f723f13d1d562e81351589b25eed",
+    "device": "cuda",
+    "checkpoint_selection": "highest full cluster Train mean cosine; no heldout used",
+    "smoke": false
+  },
+  "initial": {
+    "cluster_id": 0,
+    "train_index": 1933,
+    "source_id": "multidogo-finance-train-b40753ec-cc22-4e43-8f08-96854b1b4eee",
+    "text": "My credit card is lost, and I'm <PERSON_1>. Please report it; the card number is <CARD_NUMBER_1>.",
+    "cluster_size": 539,
+    "initial_center_cosine": 0.9705659747123718
+  },
+  "selected": {
+    "text": "basically credit card is lostrence so i m got <PERSON_1> . please report out someplace away objected tan with <CARD_NUMBER_1> number",
+    "full_cluster_mean_cosine": 0.9085556268692017,
+    "selected_at_iteration": 2414
+  },
+  "completed_iterations": 5000,
+  "termination": "iteration_budget_exhausted",
+  "accepted_updates": 220,
+  "proposed_candidates": 500000,
+  "valid_candidates": 499790,
+  "active_seconds": 523.9350578337908,
+  "forward_texts": 504792,
+  "backward_calls": 5000,
+  "heldout_loaded": false,
+  "api_calls": 0,
+  "finished_at_utc": "2026-10-31T10:25:16.950919+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "purpose": "Independent verification, no optimization, no Train reads or Test-based portfolio choice.",
+  "sources": {
+    "/root/autodl-tmp/vldb_supplement_20261102/abcd_main_frozen_texts.json": "12c345d9351f857e30de5acee41d6f6aeb7570605e9a8f7de56b65096544b86d",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/mean_cosine/abcd/train_report.json": "05a7c1fcdd6f6c5d4af14c26fd3268c3b371150923edeb8f46b3bb67473fbcde",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/mean_cosine/abcd/final_report.json": "aaa44daca30afa129b168d318b2d87bd6e593d0bb2d9db95500687a3d7d9d2d6",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/soft_threshold/abcd/train_report.json": "464ade5bf31ea7b8e028bea66e2f630aed3981690750ff943f025fb719c759f3",
+    "/root/autodl-tmp/vldb_supplement_20261102/runs/gaslite/soft_threshold/abcd/final_report.json": "5e9e86992511c0e05463f6241537c986ce7124b8421c3e9e9cd2cceb602bed35"
+  },
+  "selected": {
+    "RKGB_main": [
+      "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+      "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+      "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",
+      "Yep, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong tone, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+      "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now."
+    ],
+    "GASLITE_mean_cosine_raw": [
+      "reallyege perhaps know just shiptimeently order <ORDER_ID_1>, which id'replaces arrived yet. manually changed my mind ( street placing it 1 and account username is <USERNAME_1>.",
+      "framelaiically particularly concerning premium subscription as freaking 1 payment was ongoing chargedpoints so i'd like pennming it right now. my account id is <ACCOUNT_ID_1> =",
+      "i cantooth t access my account because primarily forgot my password, and playfully realized't remember hasn username. i gifts my phone number <PHONE_NUMBER_1> two zip code <ZIP_CODE_1> into verification, so can you help pointed get back in?",
+      "concluded'd like to return its order <ORDER_ID_1> because supposedly check clothing kinda in the faulty graphics hell and i want to money them back by mail. my username is <USERNAME_1>.",
+      "supposed you damn assured recent price wearing <ORDER_ID_1> for account <ACCOUNT_ID_1>? difference shipping cost resulted high, and i'm wondering if convenience could cancel it charges instead"
+    ],
+    "GASLITE_mean_cosine_screened": [],
+    "GASLITE_soft_threshold_raw": [
+      "gently simply vesee dirzierheeently for order <ORDER_ID_1>, which them't arrived yet. change changed my mind question enoughpg ships it and my accountord is <USERNAME_1>",
+      "eh'd like to return their order <ORDER_ID_1> because basically figured buy arrived in the refwear withdrew and i want to bones colored back by mail. my username is <USERNAME_1> determines",
+      "unlesstly simply clarifyging helpful subscription because my usual fees was continuingoff bug so i'd like to pay it right now. my account id possess <ACCOUNT_ID_1>.",
+      ", rather specifically t access my account similarly obviously forgot my password email and accidentally pin'd remember my username. i gifts my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1> for verification, so can you help simpler get back in?",
+      "trying somewhat perhaps previously status that charging <ORDER_ID_1> for account <ACCOUNT_ID_1>? the shipping price switched high, and y'op wondering purse i could cancel it instead."
+    ],
+    "GASLITE_soft_threshold_screened": []
+  }
+}

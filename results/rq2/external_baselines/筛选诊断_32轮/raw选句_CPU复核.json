@@ -1,0 +1,876 @@
+{
+  "protocol": "CPU float32 recomputation on frozen raw selected texts; no API calls or reoptimization. Test not used. For multiple origin seeds, PPL pass means at least one origin passes. Not an exact reconstruction of shortlist membership, early stopping or original GPU judgments.",
+  "summaries": [
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "abcd",
+      "raw_selected_count": 5,
+      "cpu_raw_diagnosis": {
+        "fails_ppl": 5
+      },
+      "original_screen_counts": {
+        "archive": 157387,
+        "considered": 1291,
+        "ppl_and_local_eligible": 5,
+        "two_judge_accepted": 4
+      }
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "raw_selected_count": 15,
+      "cpu_raw_diagnosis": {
+        "fails_ppl": 14,
+        "fails_local_readability": 1
+      },
+      "original_screen_counts": {
+        "archive": 462657,
+        "considered": 3869,
+        "ppl_and_local_eligible": 61,
+        "two_judge_accepted": 22
+      }
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "raw_selected_count": 10,
+      "cpu_raw_diagnosis": {
+        "fails_local_readability": 1,
+        "fails_ppl": 8,
+        "passes_local_quality": 1
+      },
+      "original_screen_counts": {
+        "archive": 274676,
+        "considered": 2578,
+        "ppl_and_local_eligible": 9,
+        "two_judge_accepted": 7
+      }
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "raw_selected_count": 15,
+      "cpu_raw_diagnosis": {
+        "fails_ppl": 15
+      },
+      "original_screen_counts": {
+        "archive": 414987,
+        "considered": 3840,
+        "ppl_and_local_eligible": 46,
+        "two_judge_accepted": 8
+      }
+    }
+  ],
+  "rows": [
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "abcd",
+      "text": "that'd - ll erund and send <ORDER_ID_1>, which hasn't arrived yet. i changed my mind right after account it, since my order id is <USERNAME_1>.",
+      "ppl": 173.63787136482412,
+      "origins": [
+        {
+          "slot": 1,
+          "seed": "I'd like a refund for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after placing it, and my username is <USERNAME_1>.",
+          "seed_ppl": 26.68672091390132,
+          "ppl_limit": 40.030081370851974
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "abcd",
+      "text": "' s still on a premium subscription, my first payment was due now, so i'd like to support for this charge. my account id is <ACCOUNT_ID_1>.",
+      "ppl": 76.34330687289795,
+      "origins": [
+        {
+          "slot": 2,
+          "seed": "I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is <ACCOUNT_ID_1>.",
+          "seed_ppl": 25.540157515127284,
+          "ppl_limit": 38.31023627269093
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "abcd",
+      "text": "i'' t access my account because i forgot my password now because i can't remember my username. i email my phone number <PHONE_NUMBER_1> and zip code <ZIP_CODE_1> for verification, so can you help me get back 2!",
+      "ppl": 45.221528467854746,
+      "origins": [
+        {
+          "slot": 3,
+          "seed": "I can't access my account because I forgot my password, and I don't remember my username. I gave my phone number <PHONE_NUMBER_1> and ZIP code <ZIP_CODE_1> for verification, so can you help me get back in?",
+          "seed_ppl": 12.559451261163922,
+          "ppl_limit": 18.839176891745883
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "abcd",
+      "text": "both your prices / status of \" <ORDER_ID_1> \" and <ACCOUNT_ID_1>? the item charges was high, and i'm wondering if i could cancel it now.",
+      "ppl": 74.08428546432445,
+      "origins": [
+        {
+          "slot": 5,
+          "seed": "Can you check the status of order <ORDER_ID_1> for account <ACCOUNT_ID_1>? The shipping cost was high, and I'm wondering if I could cancel it instead.",
+          "seed_ppl": 24.125514600050074,
+          "ppl_limit": 36.18827190007511
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "abcd",
+      "text": "may currently back me to return my order <ORDER_ID_1> because the first buy was in the wrong color cost and i want to get them back by mail. my username is <USERNAME_1>.",
+      "ppl": 102.19044775880594,
+      "origins": [
+        {
+          "slot": 4,
+          "seed": "I'd like to return my order <ORDER_ID_1> because the Guess Jeans arrived in the wrong color, and I want to send them back by mail. My username is <USERNAME_1>.",
+          "seed_ppl": 37.22401390944674,
+          "ppl_limit": 55.83602086417011
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "hadookt me a payment not at <ACCOUNT_NUMBER_1>.",
+      "ppl": 318.3329230811651,
+      "origins": [
+        {
+          "slot": 1,
+          "seed": "I sent money to an incorrect account number <ACCOUNT_NUMBER_1>.",
+          "seed_ppl": 79.24858741366496,
+          "ppl_limit": 118.87288112049745
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "or more, my id & verification to correct <ACCOUNT_NUMBER_1>?",
+      "ppl": 683.9986944426363,
+      "origins": [
+        {
+          "slot": 6,
+          "seed": "How do I reactivate my card for account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 86.84800212478625,
+          "ppl_limit": 130.27200318717937
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "either was because i withdrew cash using incorrect atm, but i haven't. can you help me with the <CREDIT_CARD_1>?",
+      "ppl": 106.55569362252412,
+      "origins": [
+        {
+          "slot": 5,
+          "seed": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+          "seed_ppl": 37.68266672302851,
+          "ppl_limit": 56.52400008454276
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "i change, personal id & address to correct <ACCOUNT_NUMBER_1>?",
+      "ppl": 689.8391760797292,
+      "origins": [
+        {
+          "slot": 6,
+          "seed": "How do I reactivate my card for account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 86.84800212478625,
+          "ppl_limit": 130.27200318717937
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "edit : ) trying to ; what going wrong with my top - up from account <ACCOUNT_NUMBER_1> on account <CREDIT_CARD_1>?",
+      "ppl": 163.54736491588352,
+      "origins": [
+        {
+          "slot": 10,
+          "seed": "I'm trying to understand what went wrong with the top-up from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.",
+          "seed_ppl": 34.81036940210697,
+          "ppl_limit": 52.21555410316046
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "i ] the exchange number <ACCOUNT_NUMBER_1> gave me transfer wrong rate.",
+      "ppl": 1312.6125736660701,
+      "origins": [
+        {
+          "slot": 15,
+          "seed": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+          "seed_ppl": 73.2752451147461,
+          "ppl_limit": 109.91286767211915
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "that might s an mystery charge for my card transactions, why did that happen to the <ACCOUNT_NUMBER_1>?",
+      "ppl": 295.5652141850402,
+      "origins": [
+        {
+          "slot": 13,
+          "seed": "There's an additional charge on my card transaction; why did it happen to account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 122.9913173095951,
+          "ppl_limit": 150.0
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "following up to my trouble with the pin to my <CREDIT_CARD_1>. can you getting me?",
+      "ppl": 136.7616450596596,
+      "origins": [
+        {
+          "slot": 11,
+          "seed": "I'm having trouble with the PIN for card <CREDIT_CARD_1>, can you help me?",
+          "seed_ppl": 32.51531305249939,
+          "ppl_limit": 48.772969578749084
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "it was <ACCOUNT_NUMBER_1> an invalid payment? credit cards <CREDIT_CARD_1> falls wasn't pending?",
+      "ppl": 370.99027238796566,
+      "origins": [
+        {
+          "slot": 4,
+          "seed": "My account <ACCOUNT_NUMBER_1> shows a payment made with card <CREDIT_CARD_1> that wasn't me.",
+          "seed_ppl": 65.16691393984188,
+          "ppl_limit": 97.75037090976281
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": ": > > please help to cancel the money from \" <ACCOUNT_NUMBER_1> \"",
+      "ppl": 169.4960573601182,
+      "origins": [
+        {
+          "slot": 12,
+          "seed": "Can you tell me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 29.395461789066903,
+          "ppl_limit": 44.09319268360036
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "where card mentioned didn't get yet. can you do that with account <ACCOUNT_NUMBER_1>?",
+      "ppl": 265.12113741862476,
+      "origins": [
+        {
+          "slot": 8,
+          "seed": "My card payment didn't go through. Can you explain why for account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 71.6222782065374,
+          "ppl_limit": 107.4334173098061
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "about to tell me why the money from account <ACCOUNT_NUMBER_1> hasn't gone exactly?",
+      "ppl": 141.29575617990437,
+      "origins": [
+        {
+          "slot": 3,
+          "seed": "Can you tell me why the transaction from account <ACCOUNT_NUMBER_1> hasn't gone through?",
+          "seed_ppl": 41.583901452840315,
+          "ppl_limit": 62.37585217926048
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "was that <ACCOUNT_NUMBER_1> an return payment? credit card <CREDIT_CARD_1> it wasn't yet?",
+      "ppl": 179.12470122365949,
+      "origins": [
+        {
+          "slot": 4,
+          "seed": "My account <ACCOUNT_NUMBER_1> shows a payment made with card <CREDIT_CARD_1> that wasn't me.",
+          "seed_ppl": 65.16691393984188,
+          "ppl_limit": 97.75037090976281
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "had the <CREDIT_CARD_1> is here. please help me.",
+      "ppl": 78.4339605451659,
+      "origins": [
+        {
+          "slot": 2,
+          "seed": "The card <CREDIT_CARD_1> is broken, please assist me.",
+          "seed_ppl": 137.52460583591193,
+          "ppl_limit": 150.0
+        }
+      ],
+      "ppl_pass_any_origin": true,
+      "readability_if_ppl_pass": false,
+      "category": "fails_local_readability",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "banking77",
+      "text": "~ please, wondering why the transfer from account <ACCOUNT_NUMBER_1> hasn't completed unfortunately.",
+      "ppl": 274.8225409274019,
+      "origins": [
+        {
+          "slot": 14,
+          "seed": "I'm wondering why the transfer from account <ACCOUNT_NUMBER_1> hasn't completed yet.",
+          "seed_ppl": 64.61681520608155,
+          "ppl_limit": 96.92522280912233
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": "also email for a seat pass to the <BOOKING_ID_1>. my id is <PERSON_1>.",
+      "ppl": 129.374887003829,
+      "origins": [
+        {
+          "slot": 2,
+          "seed": "Please send me my boarding pass for booking <BOOKING_ID_1>; my name is <PERSON_1>.",
+          "seed_ppl": 94.99438162131952,
+          "ppl_limit": 142.49157243197928
+        }
+      ],
+      "ppl_pass_any_origin": true,
+      "readability_if_ppl_pass": false,
+      "category": "fails_local_readability",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": "little next is <PERSON_1>. and i need you to one my account balance but id lastn ends in <SSN_LAST4_1>.",
+      "ppl": 375.9132814547544,
+      "origins": [
+        {
+          "slot": 1,
+          "seed": "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",
+          "seed_ppl": 40.974815448640044,
+          "ppl_limit": 61.462223172960066
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": ". s there is <CARD_NUMBER_1>, and i mis my credit card. this is <PERSON_1>.",
+      "ppl": 132.8405037949039,
+      "origins": [
+        {
+          "slot": 4,
+          "seed": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+          "seed_ppl": 34.41502204566336,
+          "ppl_limit": 51.622533068495045
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": "Can you help me find out the status of my claim? The claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>.",
+      "ppl": 15.394216106048857,
+      "origins": [
+        {
+          "slot": 6,
+          "seed": "Can you help me find out the status of my claim? The claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>.",
+          "seed_ppl": 15.394216106048857,
+          "ppl_limit": 23.091324159073285
+        }
+      ],
+      "ppl_pass_any_origin": true,
+      "readability_if_ppl_pass": true,
+      "category": "passes_local_quality",
+      "in_final_screened_set": true
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": "* want help fixing bitch iphone because its screen was just cracked. my phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+      "ppl": 75.59793460007963,
+      "origins": [
+        {
+          "slot": 7,
+          "seed": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+          "seed_ppl": 24.75593943302927,
+          "ppl_limit": 37.1339091495439
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": "* card _ # <ACCOUNT_ID_LAST4_1> ) > i'd like to update my address as <STREET_ADDRESS_1>.",
+      "ppl": 296.30958987772533,
+      "origins": [
+        {
+          "slot": 10,
+          "seed": "My account ends in <ACCOUNT_ID_LAST4_1>, and I'd like to update my address to <STREET_ADDRESS_1>.",
+          "seed_ppl": 57.69280038670673,
+          "ppl_limit": 86.5392005800601
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": "> * help claim travel expenses. i'm <PERSON_1>?",
+      "ppl": 1553.1213887017861,
+      "origins": [
+        {
+          "slot": 8,
+          "seed": "I want to claim travel expenses; I'm <PERSON_1>.",
+          "seed_ppl": 121.37557172395196,
+          "ppl_limit": 150.0
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": "< for my and number orders <CARD_NUMBER_1> > product i'm down to <STREET_ADDRESS_1>. please send pizza address on.",
+      "ppl": 534.4318519429062,
+      "origins": [
+        {
+          "slot": 9,
+          "seed": "My card number is <CARD_NUMBER_1>, and I've moved to <STREET_ADDRESS_1>. Please update the address on my account.",
+          "seed_ppl": 18.814538908314724,
+          "ppl_limit": 28.221808362472085
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": "or that is <PERSON_1> ', i need help to do the account update. id last4 ends email <SSN_LAST4_1>.",
+      "ppl": 376.7051420059137,
+      "origins": [
+        {
+          "slot": 1,
+          "seed": "My name is <PERSON_1>, and I need you to check my account balance. My SSN ends in <SSN_LAST4_1>.",
+          "seed_ppl": 40.974815448640044,
+          "ppl_limit": 61.462223172960066
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_flu_32",
+      "dataset": "dogo",
+      "text": "i'at <PERSON_1>, and i'd like proof of insurance for one of my cars. my ssn february in <SSN_LAST4_1>.",
+      "ppl": 142.8837502652597,
+      "origins": [
+        {
+          "slot": 3,
+          "seed": "I'm <PERSON_1>, and I'd like proof of insurance for one of my cars; my SSN ends in <SSN_LAST4_1>.",
+          "seed_ppl": 77.25478386707914,
+          "ppl_limit": 115.88217580061871
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "annoyed potentially fumblegling why the money from account <ACCOUNT_NUMBER_1> hasn appear t now transactionstively",
+      "ppl": 1634.5139821004125,
+      "origins": [
+        {
+          "slot": 3,
+          "seed": "Can you tell me why the transaction from account <ACCOUNT_NUMBER_1> hasn't gone through?",
+          "seed_ppl": 41.583901452840315,
+          "ppl_limit": 62.37585217926048
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "none similarly alternatively perhaps miscellaneous charge covering my card transaction. tip weren it presumably to credit <ACCOUNT_NUMBER_1>?",
+      "ppl": 4024.1494682442935,
+      "origins": [
+        {
+          "slot": 13,
+          "seed": "There's an additional charge on my card transaction; why did it happen to account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 122.9913173095951,
+          "ppl_limit": 150.0
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "alternatively it thinks i withdrew cash presumably roughly atm accountths i didn'outcome. can anyone issue me with card <CREDIT_CARD_1>?",
+      "ppl": 1005.6057114602173,
+      "origins": [
+        {
+          "slot": 5,
+          "seed": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+          "seed_ppl": 37.68266672302851,
+          "ppl_limit": 56.52400008454276
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "because card <CREDIT_CARD_1> temporarily broken, please advice me.",
+      "ppl": 446.99808982802705,
+      "origins": [
+        {
+          "slot": 2,
+          "seed": "The card <CREDIT_CARD_1> is broken, please assist me.",
+          "seed_ppl": 137.52460583591193,
+          "ppl_limit": 150.0
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "unablearound somebody provide against ] transfer money doesnpel to anyway <ACCOUNT_NUMBER_1>?",
+      "ppl": 25402.18626597527,
+      "origins": [
+        {
+          "slot": 7,
+          "seed": "Could you tell me why a transfer fee was applied to account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 67.0219987157816,
+          "ppl_limit": 100.53299807367242
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "please could handle me moreoverilly cancel something avail towards account <ACCOUNT_NUMBER_1> especially",
+      "ppl": 10409.011976376223,
+      "origins": [
+        {
+          "slot": 12,
+          "seed": "Can you tell me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 29.395461789066903,
+          "ppl_limit": 44.09319268360036
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "guessing returning <ACCOUNT_NUMBER_1> concerning still declines payment wasn with card <CREDIT_CARD_1> ou waiting pl jways",
+      "ppl": 2727.8647332166297,
+      "origins": [
+        {
+          "slot": 4,
+          "seed": "My account <ACCOUNT_NUMBER_1> shows a payment made with card <CREDIT_CARD_1> that wasn't me.",
+          "seed_ppl": 65.16691393984188,
+          "ppl_limit": 97.75037090976281
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "since card <CREDIT_CARD_1> temporarily broken, please activate me.",
+      "ppl": 554.8389559733076,
+      "origins": [
+        {
+          "slot": 2,
+          "seed": "The card <CREDIT_CARD_1> is broken, please assist me.",
+          "seed_ppl": 137.52460583591193,
+          "ppl_limit": 150.0
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "previously card information somewhere seemed damn todsive. can you deliver wat eventualinate <ACCOUNT_NUMBER_1>?",
+      "ppl": 2773.7715870406114,
+      "origins": [
+        {
+          "slot": 8,
+          "seed": "My card payment didn't go through. Can you explain why for account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 71.6222782065374,
+          "ppl_limit": 107.4334173098061
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "aye dem transactions or rates misleading having given <ACCOUNT_NUMBER_1> somewhere",
+      "ppl": 5043.709115748881,
+      "origins": [
+        {
+          "slot": 1,
+          "seed": "I sent money to an incorrect account number <ACCOUNT_NUMBER_1>.",
+          "seed_ppl": 79.24858741366496,
+          "ppl_limit": 118.87288112049745
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "pleasegles me wondering about the transfer from account <ACCOUNT_NUMBER_1> seems't sent until.",
+      "ppl": 4528.638633934683,
+      "origins": [
+        {
+          "slot": 14,
+          "seed": "I'm wondering why the transfer from account <ACCOUNT_NUMBER_1> hasn't completed yet.",
+          "seed_ppl": 64.61681520608155,
+          "ppl_limit": 96.92522280912233
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "bro hmm customersnio verification my id surrounding despite <ACCOUNT_NUMBER_1> bother",
+      "ppl": 34727.72559487769,
+      "origins": [
+        {
+          "slot": 6,
+          "seed": "How do I reactivate my card for account <ACCOUNT_NUMBER_1>?",
+          "seed_ppl": 86.84800212478625,
+          "ppl_limit": 130.27200318717937
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "myself <STREET_ADDRESS_1> othersrsa i register received phones stolen needing said numbering for missed <ACCOUNT_NUMBER_1>",
+      "ppl": 3899.584388545352,
+      "origins": [
+        {
+          "slot": 9,
+          "seed": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+          "seed_ppl": 91.69093847209562,
+          "ppl_limit": 137.53640770814343
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "alt ; hopefully asking experimentinghering aiming temporarily wrong with the top - up from mine <ACCOUNT_NUMBER_1> despite available <CREDIT_CARD_1> nothing",
+      "ppl": 2399.8777661280296,
+      "origins": [
+        {
+          "slot": 10,
+          "seed": "I'm trying to understand what went wrong with the top-up from account <ACCOUNT_NUMBER_1> using card <CREDIT_CARD_1>.",
+          "seed_ppl": 34.81036940210697,
+          "ppl_limit": 52.21555410316046
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    },
+    {
+      "method": "gaslite_32",
+      "dataset": "banking77",
+      "text": "reertlessly seated me situation regarding pin for having <CREDIT_CARD_1>, can anyone aids me nearby",
+      "ppl": 2504.2620950206947,
+      "origins": [
+        {
+          "slot": 11,
+          "seed": "I'm having trouble with the PIN for card <CREDIT_CARD_1>, can you help me?",
+          "seed_ppl": 32.51531305249939,
+          "ppl_limit": 48.772969578749084
+        }
+      ],
+      "ppl_pass_any_origin": false,
+      "readability_if_ppl_pass": null,
+      "category": "fails_ppl",
+      "in_final_screened_set": false
+    }
+  ]
+}

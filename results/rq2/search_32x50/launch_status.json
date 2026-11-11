@@ -1,0 +1,32 @@
+{
+  "launched_at_utc": "2026-10-30T11:44:45.576484+00:00",
+  "remote_root": "/root/autodl-tmp/ykx_32x50_20261030",
+  "remote_host": "connect.nmb2.seetacloud.com:31447",
+  "runs": {
+    "abcd": {
+      "pid": 22177,
+      "remote_out": "/root/autodl-tmp/ykx_32x50_20261030/runs/abcd",
+      "status": "complete",
+      "resume_log": "resume2.log",
+      "completed_slots": 5,
+      "test_covered": 308,
+      "test_total": 476
+    },
+    "banking77": {
+      "pid": 2445,
+      "remote_out": "/root/autodl-tmp/ykx_32x50_20261030/runs/banking77",
+      "status": "complete",
+      "test_covered": 1109,
+      "test_total": 1485
+    },
+    "dogo": {
+      "pid": 2510,
+      "remote_out": "/root/autodl-tmp/ykx_32x50_20261030/runs/dogo",
+      "status": "complete",
+      "test_covered": 888,
+      "test_total": 1094
+    }
+  },
+  "status": "partial_complete",
+  "checked_at_utc": "2026-10-31T03:21:16.149702+00:00"
+}

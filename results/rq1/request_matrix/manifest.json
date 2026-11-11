@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "expected_matrix_rows": 1080,
+  "actual_matrix_rows": 1080,
+  "primary_rows": 120,
+  "datasets": [
+    "banking77",
+    "abcd",
+    "multidogo"
+  ],
+  "models": [
+    "minilm",
+    "gte",
+    "e5",
+    "bge"
+  ],
+  "families": [
+    "dataset_fields",
+    "presidio"
+  ],
+  "methods": [
+    "generic",
+    "typed",
+    "typed_numbered",
+    "delete",
+    "mask_length"
+  ],
+  "fixed_thresholds": [
+    0.75,
+    0.775,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9
+  ],
+  "original_tail_targets": [
+    0.001,
+    0.01
+  ],
+  "input_sha256": "7aeae8f7036d74c381c8987764ccebba452137d579bf06deae8385205225c699",
+  "code_sha256": "30c9a1f687496cae6f3baa54359dceb5123f1155bcb51d53db70feec1123391e",
+  "filter": "Common <=256 tokens including special tokens/prefix, across all four tokenizers and 12 Test representations. Original calibration records jointly filtered across four tokenizers.",
+  "split": "Original benchmark Train for calibration; original Test for evaluation, no source overlap.",
+  "derived_field_provenance": "Exact original/placeholder materialization alignment, not human PII annotations.",
+  "uncertainty": "Pointwise source-record-delete jackknife normal 95% intervals conditional on calibration thresholds; no search/API calls; not simultaneous intervals.",
+  "numerics": "Unit-normalized float32 embeddings and float32 cosine dot products; TF32 disabled.",
+  "new_generation_calls": 0,
+  "new_judge_calls": 0,
+  "finished_utc": "2026-11-04T02:21:44.221529+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "might messed't distribute the item i purchasedishly successes so je'd like to return it and get a refund for order <ORDER_ID_1> . my worn situation is <USERNAME_1> .",
+    "full_cluster_mean_cosine": 0.8789612650871277,
+    "selected_at_iteration": 80
+  },
+  "accepted_updates": 14,
+  "active_seconds": 143.49229861795902,
+  "heldout_loaded": false
+}

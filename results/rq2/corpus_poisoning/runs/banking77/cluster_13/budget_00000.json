@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "The exchange rate applied to my transaction on account <ACCOUNT_NUMBER_1> was not right.",
+    "full_cluster_mean_cosine": 0.9180643558502197,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0006555318832397461,
+  "heldout_loaded": false
+}

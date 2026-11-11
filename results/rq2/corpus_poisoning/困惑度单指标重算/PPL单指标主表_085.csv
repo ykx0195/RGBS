@@ -1,0 +1,7 @@
+dataset,method,k_budget,threshold,test_total,raw_test_covered,raw_test_coverage,ppl_passed_texts,ppl_filtered_test_covered,ppl_filtered_test_coverage,ppl_limit
+banking77,CorpusPoisoning_adapted,15,0.85,1485,1243,0.837037037037037,0,0,0.0,150.0
+banking77,RKGB,15,0.85,1485,1109,0.7468013468013468,15,1109,0.7468013468013468,150.0
+abcd,CorpusPoisoning_adapted,5,0.85,476,380,0.7983193277310925,0,0,0.0,150.0
+abcd,RKGB,5,0.85,476,308,0.6470588235294118,5,308,0.6470588235294118,150.0
+dogo,CorpusPoisoning_adapted,10,0.85,1094,979,0.8948811700182815,2,232,0.21206581352833637,150.0
+dogo,RKGB,10,0.85,1094,888,0.8117001828153565,10,888,0.8117001828153565,150.0

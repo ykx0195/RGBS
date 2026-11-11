@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 1000,
+  "selected": {
+    "text": "ultimately credit card is lost previously so i'm <PERSON_1> . please report to somewhere close objectedname with <CARD_NUMBER_1> number",
+    "full_cluster_mean_cosine": 0.906854510307312,
+    "selected_at_iteration": 662
+  },
+  "accepted_updates": 35,
+  "active_seconds": 106.07110907882452,
+  "heldout_loaded": false
+}

@@ -1,0 +1,27 @@
+{
+  "natural_sample": "200 deidentified Train requests per dataset; fixed existing seed 20261031",
+  "generated": "all raw retained texts in Table III; current 83.09% MultiDoGO RKGB portfolio",
+  "model": {
+    "id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "path": "C:\\Users\\ykx01\\.cache\\huggingface\\hub\\models--Qwen--Qwen2.5-1.5B-Instruct\\snapshots\\989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+    "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+  },
+  "definition": "Expand <TYPE_N> to 'type n'; tokenizer default with truncation max_length=192; mean next-token cross-entropy; exp(min(loss,20)).",
+  "precision": "CPU float32; batch8; same scorer implementation as natural sample",
+  "sources": {
+    "C:\\Users\\ykx01\\Desktop\\results\\CorpusPoisoning_HotFlip对比_20261031\\困惑度单指标重算\\逐句PPL判定.csv": "42175de23a3237dd33fbd916d2b9f6d13499ef839d95364e16040a3ca4cdd1f1",
+    "C:\\Users\\ykx01\\Desktop\\results\\AdversarialDecoding对比_20261031\\evaluation\\advdec_sentences_and_ppl.csv": "ede40a018800458d6bc14f3e35ecb13d62cf73f4566b93af9494dcf35b3f3dec",
+    "C:\\Users\\ykx01\\Desktop\\results\\VLDB补充方法对比_20261102\\runs\\gaslite_flu_32\\mean_cosine\\banking77\\final_report.json": "0f42a2906d5b9f6586bb5cfd7924db798e9c65d22f7940a5a0e2e1a954f74ea8",
+    "C:\\Users\\ykx01\\Desktop\\results\\三数据集_脱敏_32x50_20261030\\runs\\banking77\\final_report.json": "7a5634256c630a457bc486b0c3c7993665b306fc4a5b5b5d5df48c4d1c2f30d6",
+    "C:\\Users\\ykx01\\Desktop\\results\\VLDB补充方法对比_20261102\\runs\\gaslite_flu_32\\mean_cosine\\abcd\\final_report.json": "c24c1d69cdc64106b1dd1364dc61bbc740f8d22c7ddefe5ad76a9003dbd930c5",
+    "C:\\Users\\ykx01\\Desktop\\results\\三数据集_脱敏_32x50_20261030\\runs\\abcd\\final_report.json": "d16385f9af12ee9ddc464f991af8b59394f49777c0fca2fa48ed05f960b50bf8",
+    "C:\\Users\\ykx01\\Desktop\\results\\VLDB补充方法对比_20261102\\runs\\gaslite_flu_32\\mean_cosine\\dogo\\final_report.json": "35e297dc16a78e45e3456d438cc0d6ce7d896247f372d266b16fe5405c87c39f",
+    "C:\\Users\\ykx01\\Desktop\\results\\MultiDoGO_8309_模块与重选_CPU_20261103\\train_frozen_selections.json": "dd867be03d6a4519f0a0580c7efeba0f2bb4cc18f08e3f0909d03cd42ef6c3cb",
+    "C:\\Users\\ykx01\\Desktop\\results\\原始问句与生成句_PPL对比_20261031\\sample_n200_delex_per_text.csv": "f36b53c00d258f287a68a37431163eb1feebe9e3a798f7c88f0ff158ac3e8bb4"
+  },
+  "seconds": 43.30853581428528,
+  "post_hoc": true,
+  "threshold_not_retuned": 150
+}

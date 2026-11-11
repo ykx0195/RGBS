@@ -1,0 +1,579 @@
+{
+  "pairs": [
+    {
+      "pair_id": "case-001892",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1>, and I'd like to check the status of my insurance claim, <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001894",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please let me know the status of my claim, <CLAIM_ID_1>, under policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-001895",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you give me the status of my claim, <CLAIM_ID_1>?"
+    },
+    {
+      "pair_id": "case-001896",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me the status of my claim, <CLAIM_ID_1>, on policy <POLICY_ID_1>?"
+    },
+    {
+      "pair_id": "case-001897",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you give me information about where my claim stands? It's under policy <POLICY_ID_1>, claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001900",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you tell me where my claim stands? It's under policy <POLICY_ID_1>, claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001901",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My name is <PERSON_1>, and I need an update on my claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001902",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please tell me the status of my claim under policy <POLICY_ID_1>, claim number <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001907",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>. Can you tell me the status of my claim?"
+    },
+    {
+      "pair_id": "case-001911",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1> and I need the status of my claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001912",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1> and I want to check the status of my claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001914",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please check the status of my claim <CLAIM_ID_1> for policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-001915",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I wanted to know the status of my claim, <CLAIM_ID_1>; I'm <PERSON_1>."
+    },
+    {
+      "pair_id": "case-001919",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me the status of my claim? My policy is <POLICY_ID_1> and the claim is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001921",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My bumper was damaged and I'd like to check my claim status; the policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001922",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please check the status of my claim <CLAIM_ID_1>; my name is <PERSON_1>."
+    },
+    {
+      "pair_id": "case-001925",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you check on my policy status? The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001926",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you give me a status update on my claim? The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001930",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>, and I want to know the status of my claim."
+    },
+    {
+      "pair_id": "case-001931",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>, and I need a copy of insurance."
+    },
+    {
+      "pair_id": "case-001932",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you tell me where things stand with my claim? The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001934",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1> and I need proof of insurance for my car today. Please send it to <EMAIL_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-001937",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I would like to check the status of my claim, which is <CLAIM_ID_1>, under policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-001943",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you tell me the status of my insurance claim <CLAIM_ID_1> on policy <POLICY_ID_1>?"
+    },
+    {
+      "pair_id": "case-001944",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need information about my claim. The claim number is <CLAIM_ID_1> and the policy number is <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-001945",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1> and I want the status of my claim. The claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001952",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1>, and I want to know the status of my claim under policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-001953",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you tell me my claim status? My claim ID is <CLAIM_ID_1> and my policy ID is <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-001957",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I want to know about my insurance claim. My policy ID is <POLICY_ID_1> and my claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001958",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "What is the status of my claim? The policy ID is <POLICY_ID_1> and the claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001959",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need a status of my claim. My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001963",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me the status of one of my claims? My policy ID is <POLICY_ID_1> and the claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001967",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you tell me the status of my policy <POLICY_ID_1> and claim <CLAIM_ID_1>?"
+    },
+    {
+      "pair_id": "case-001972",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1>, and I'd like to check the status of my claim."
+    },
+    {
+      "pair_id": "case-001976",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I want to check the status of my claim. My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001977",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you check on the status of my claim? The policy number is <POLICY_ID_1>, and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001979",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I was in an accident a few weeks ago that damaged my bumper, and I want to check on my claim. The policy ID is <POLICY_ID_1> and the claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001981",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'd like to check the status of my claim <CLAIM_ID_1> under policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-001982",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need to check the status of my claim. My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001983",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you give me an update on my claim? The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001985",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My claim number is <CLAIM_ID_1> and my policy number is <POLICY_ID_1>; I want to find out about my claim."
+    },
+    {
+      "pair_id": "case-001987",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My claim number is <CLAIM_ID_1>; this is <PERSON_1> and I need my claim status."
+    },
+    {
+      "pair_id": "case-001990",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you help me find out the status of my claim? My policy number is <POLICY_ID_1> and the claim number was <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001991",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need the status of my claim <CLAIM_ID_1> under policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-001992",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need to check my claim status. My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001993",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need to check my insurance claim status. The policy number is <POLICY_ID_1>, and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001994",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you tell me my claim status? The policy number is <POLICY_ID_1>, and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-001998",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you check the status of my insurance claim? My policy ID is <POLICY_ID_1>, and my claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002001",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need a status update on my claim. My policy ID is <POLICY_ID_1> and the claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002005",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1>, and I'd like to check the status of my policy. You can reach me at <EMAIL_ADDRESS_1>."
+    },
+    {
+      "pair_id": "case-002007",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need help checking my claim status. My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002009",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you give me the status of claim <CLAIM_ID_1>? <PERSON_1> here."
+    },
+    {
+      "pair_id": "case-002012",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I would like to check on my claim, with policy number <POLICY_ID_1> and claim number <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002021",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My bumper was damaged in an accident and I filed an insurance claim. I'd like to check the status of that claim, with policy number <POLICY_ID_1> and claim number <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002023",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I want to know the status of my claim and need help with that. My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002025",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I was in an accident and want to know the status of my claim. My policy ID is <POLICY_ID_1> and my claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002026",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you check on the status of my claim? It's under policy <POLICY_ID_1>, claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002029",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you check the status of an insurance claim I filed a few weeks ago? The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002030",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I just want to check on the status of my claim. My policy is <POLICY_ID_1> and the claim is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002031",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'd like an update on my claim <CLAIM_ID_1> for policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002034",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>; I want to know about my claim."
+    },
+    {
+      "pair_id": "case-002039",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I had an accident a few weeks ago and would like to check the status of my claim, policy number <POLICY_ID_1> and claim number <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002040",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you provide proof of insurance for one of my cars? My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002041",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you update me on the status of my claim? My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002042",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'd like an update on my claim with claim number <CLAIM_ID_1> under policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002046",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me the status of my claim? The claim number is <CLAIM_ID_1> and my policy is <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002047",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1>, and I need to know the status of my claim. My policy number is <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002048",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'd like to check on my insurance claim status, please. The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002050",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need the status of my insurance claim. My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002053",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please tell me the status of my claim. The policy number is <POLICY_ID_1> and the claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002055",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you help me check the status of my claim with policy <POLICY_ID_1> and claim <CLAIM_ID_1>?"
+    },
+    {
+      "pair_id": "case-002060",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>. I would like to find out the status of my claim."
+    },
+    {
+      "pair_id": "case-002062",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My name is <PERSON_1>, and I need proof of insurance. Can you help me?"
+    },
+    {
+      "pair_id": "case-002066",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'd like to check on my claim. The policy number is <POLICY_ID_1>, and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002067",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'd like an update on my claim. The policy number is <POLICY_ID_1>, and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002070",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'd like the status of one of my claims. The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002071",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I want the status of my claim. My policy is <POLICY_ID_1> and my claim is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002072",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please tell me the status of my auto insurance claim. My policy no is <POLICY_ID_1> and claim no is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002075",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I would like to check the status of my insurance claim. The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002077",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please check my insurance claim status. This is <PERSON_1>, and the claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002081",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I want to check on my claim status. My policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002082",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you tell me where things stand with my claim <CLAIM_ID_1>? This is <PERSON_1>."
+    },
+    {
+      "pair_id": "case-002084",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please tell me the status of my claim <CLAIM_ID_1>; my policy number is <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002086",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me the status of my claim? The claim ID is <CLAIM_ID_1> and my policy is <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002087",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I would like to check the status of my insurance claim, policy <POLICY_ID_1>, claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002090",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me the status of our claim? The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002102",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need the status of my claim; the policy number is <POLICY_ID_1>, and <PERSON_1> is the name on it."
+    },
+    {
+      "pair_id": "case-002103",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me about my claim? My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002104",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm checking on a claim I filed on June 15, 2018, under policy <POLICY_ID_1>, claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002113",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you tell me the status of my claim? My policy number is <POLICY_ID_1> and the claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002118",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm trying to get the status of my claim. The policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002124",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My claim number is <CLAIM_ID_1> and my policy number is <POLICY_ID_1>; I would like to know the status of my claim that I filed a few weeks ago for my damaged bumper."
+    },
+    {
+      "pair_id": "case-002125",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My claim number is <CLAIM_ID_1> and my policy number is <POLICY_ID_1>; I need a status update on my claim."
+    },
+    {
+      "pair_id": "case-002126",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1> and I'd like to check the status of my insurance claim, claim number <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002128",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me the status of my claim? My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002129",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me about the status of my claim? The claim number is <CLAIM_ID_1> and the policy number is <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002130",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I need to check the status of my claim, policy <POLICY_ID_1>, claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002133",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My policy number is <PHONE_NUMBER_1> and my claim number is <CLAIM_ID_1>; can you tell me the status of my claim?"
+    },
+    {
+      "pair_id": "case-002137",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you look up the status of my claim? The policy ID is <POLICY_ID_1> and the claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002138",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'd like an update on claim <CLAIM_ID_1> for policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002143",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "With policy <POLICY_ID_1> and claim <CLAIM_ID_1>, I need to know about the status of my claim."
+    },
+    {
+      "pair_id": "case-002149",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you tell me the status of claim <CLAIM_ID_1> on my policy <POLICY_ID_1>?"
+    },
+    {
+      "pair_id": "case-002150",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I filed an insurance claim after an accident last week. Please help me check the status of claim <CLAIM_ID_1> under policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002151",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Could you check the status of my claim from a few weeks ago? My claim is <CLAIM_ID_1> and my policy is <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002152",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "A few weeks ago I had an accident that damaged my bumper, and I need to claim the insurance. The policy number is <POLICY_ID_1>, and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002159",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "What is the status of my insurance claim <CLAIM_ID_1> under policy <POLICY_ID_1>?"
+    },
+    {
+      "pair_id": "case-002161",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you check my car insurance claim status for claim <CLAIM_ID_1> and policy <POLICY_ID_1>?"
+    },
+    {
+      "pair_id": "case-002163",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I want to check the status of my claim, which is under policy <POLICY_ID_1> and claim <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002164",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please check the status of my claim. The policy number is <POLICY_ID_1> and the claim ID is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002165",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "My name is <PERSON_1>, and I'm calling to check the status of my claim. My policy number is <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002166",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'm <PERSON_1> and I need to check the status of my insurance claim, <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002167",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "I'd like the status of my claim <CLAIM_ID_1> under policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002169",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please check the status of my claim <CLAIM_ID_1> under policy <POLICY_ID_1>."
+    },
+    {
+      "pair_id": "case-002174",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Can you help me find out my claim status? My policy number is <POLICY_ID_1> and the claim number is <CLAIM_ID_1>."
+    },
+    {
+      "pair_id": "case-002175",
+      "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+      "query_text": "Please update me on my claim status. My policy number is <POLICY_ID_1> and my claim number is <CLAIM_ID_1>."
+    }
+  ]
+}

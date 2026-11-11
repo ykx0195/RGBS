@@ -1,0 +1,7 @@
+{
+  "model": "bge",
+  "dataset": "multidogo",
+  "field": "presidio_mask_length",
+  "encoded": 49409,
+  "seconds": 134.4311306476593
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "dataset": "banking77",
+    "original": {
+      "same": 119,
+      "unresolved": 42,
+      "cross": 72,
+      "resolved": 191,
+      "ctr_percent": 37.696335078534034,
+      "missing": []
+    },
+    "deidentified": {
+      "same": 405,
+      "cross": 425,
+      "unresolved": 253,
+      "resolved": 830,
+      "ctr_percent": 51.204819277108435,
+      "missing": []
+    }
+  },
+  {
+    "dataset": "abcd",
+    "original": {
+      "unresolved": 15,
+      "same": 53,
+      "cross": 33,
+      "resolved": 86,
+      "ctr_percent": 38.372093023255815,
+      "missing": []
+    },
+    "deidentified": {
+      "cross": 152,
+      "unresolved": 47,
+      "same": 106,
+      "resolved": 258,
+      "ctr_percent": 58.91472868217054,
+      "missing": []
+    }
+  },
+  {
+    "dataset": "dogo",
+    "original": {
+      "same": 195,
+      "cross": 30,
+      "unresolved": 10,
+      "resolved": 225,
+      "ctr_percent": 13.333333333333334,
+      "missing": []
+    },
+    "deidentified": {
+      "cross": 245,
+      "same": 600,
+      "unresolved": 64,
+      "resolved": 845,
+      "ctr_percent": 28.994082840236686,
+      "missing": []
+    }
+  }
+]

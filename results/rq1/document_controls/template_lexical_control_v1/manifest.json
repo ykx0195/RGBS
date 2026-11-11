@@ -1,0 +1,28 @@
+{
+  "purpose": "Pre-redaction source-template and near-duplicate pair exclusions, followed by original-only threshold recalibration.",
+  "lexical_representation": "Remove all gold PII spans, lowercase, normalize non-alphanumeric characters to spaces; hashing-vectorized binary character 5-grams, 2^20 dimensions, L2 norm, cosine.",
+  "lexical_near_duplicate_rule": "exclude if non-PII skeleton character 5-gram cosine >= each of (0.5, 0.8); 0.5 is the stricter sensitivity analysis",
+  "nemotron_type_rule": "exclude pairs with identical source document_type metadata",
+  "split": "Same deterministic 60/40 record-level split as prior calibrated experiment for each dataset; thresholds recalibrated using only eligible original calibration pairs for each universe.",
+  "targets": [
+    0.001,
+    0.01
+  ],
+  "encoders": [
+    "minilm",
+    "gte",
+    "e5",
+    "bge"
+  ],
+  "conditions": [
+    "generic",
+    "typed",
+    "typed_numbered",
+    "delete",
+    "star"
+  ],
+  "uncertainty": "Leave-one-record jackknife for filtered pair proportions; leave-one-document_type-group jackknife for Nemotron different-type universes. These intervals are approximate and do not establish semantic non-equivalence.",
+  "software": {
+    "numpy": "2.3.5"
+  }
+}

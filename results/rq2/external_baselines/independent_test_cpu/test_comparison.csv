@@ -1,0 +1,6 @@
+method,split,key_count,covered,total,coverage_pct,source_report_covered,exact_count_reproduced,delta_vs_main_pp,minimum_distance_from_threshold
+RKGB_main,test,5,308,476,64.70588235294117,308,True,0.0,0.00014001131057739258
+GASLITE_mean_cosine_raw,test,5,324,476,68.0672268907563,324,True,3.361344537815126,0.00030362606048583984
+GASLITE_mean_cosine_screened,test,0,0,476,0.0,0,True,-64.70588235294117,
+GASLITE_soft_threshold_raw,test,5,327,476,68.69747899159664,327,True,3.991596638655462,0.00010091066360473633
+GASLITE_soft_threshold_screened,test,0,0,476,0.0,0,True,-64.70588235294117,

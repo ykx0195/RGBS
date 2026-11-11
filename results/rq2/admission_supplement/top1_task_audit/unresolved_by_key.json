@@ -1,0 +1,147 @@
+[
+  {
+    "dataset": "banking77",
+    "key_text": "The card <CREDIT_CARD_1> had an issue, so please assist me.",
+    "unresolved_count": 84
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "Could you clarify why the transfer to <ACCOUNT_NUMBER_1> hasn't been received properly yet.",
+    "unresolved_count": 38
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "There's another charge concerning my card transactions; why did it appear in account <ACCOUNT_NUMBER_1>?",
+    "unresolved_count": 33
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "I'm trying to figure out what went wrong with the top-up on account <ACCOUNT_NUMBER_1> via payment card <CREDIT_CARD_1> currently.",
+    "unresolved_count": 25
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "Still, could you guide me in reactivating a card for the account <ACCOUNT_NUMBER_1>?",
+    "unresolved_count": 21
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "I'm stuck with the PIN for my account <CREDIT_CARD_1>, can you please assist me?",
+    "unresolved_count": 14
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "Could you clarify whether the currency exchange fee happened on my account <ACCOUNT_NUMBER_1>?",
+    "unresolved_count": 12
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "Can you advise me how to cancel this transaction for account <ACCOUNT_NUMBER_1>?",
+    "unresolved_count": 5
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "Your transaction <ACCOUNT_NUMBER_1> shows a refund pending with card <CREDIT_CARD_1> and I still haven't got it.",
+    "unresolved_count": 5
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "Could you tell me why the cheque in account <ACCOUNT_NUMBER_1> hasn't appeared yet?",
+    "unresolved_count": 4
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "At <STREET_ADDRESS_1>, I still haven't received the card for account <ACCOUNT_NUMBER_1>.",
+    "unresolved_count": 3
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "The app says I withdrew cash from an ATM, but I didn't. Can you help me with card <CREDIT_CARD_1>?",
+    "unresolved_count": 3
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "How do I unblock my card for account <ACCOUNT_NUMBER_1>?",
+    "unresolved_count": 3
+  },
+  {
+    "dataset": "banking77",
+    "key_text": "The cash withdrawal from account <ACCOUNT_NUMBER_1> gave me the wrong amount.",
+    "unresolved_count": 3
+  },
+  {
+    "dataset": "abcd",
+    "key_text": "I'm on the premium subscription and my ongoing fee was charged yesterday, so I'd like to take care of this now. My account ID is <ACCOUNT_ID_1>.",
+    "unresolved_count": 13
+  },
+  {
+    "dataset": "abcd",
+    "key_text": "I'd like to change shipping for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after buying it, and my account username is <USERNAME_1>.",
+    "unresolved_count": 11
+  },
+  {
+    "dataset": "abcd",
+    "key_text": "Could you check the status of order <ORDER_ID_1> for my account <ACCOUNT_ID_1>? The delivery cost was a weird surprise, and I'm wondering if I could reverse this charge now.",
+    "unresolved_count": 9
+  },
+  {
+    "dataset": "abcd",
+    "key_text": "Yeah, I need to return my order <ORDER_ID_1> because the prior clothes arrived in the wrong shade, and I want to send them back for a refund. My account username is <USERNAME_1>.",
+    "unresolved_count": 9
+  },
+  {
+    "dataset": "abcd",
+    "key_text": "I can't access my account since I forgot my password, and I don't know my username. I gave my phone number <PHONE_NUMBER_1> and postal code <ZIP_CODE_1> to verify, so could you help me back into my account?",
+    "unresolved_count": 5
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "<PERSON_1>, could you please update me on the status of my claim with insurance id <POLICY_ID_1>? thank you.",
+    "unresolved_count": 15
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+    "unresolved_count": 9
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+    "unresolved_count": 8
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+    "unresolved_count": 8
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "I want to claim travel expenses; I'm <PERSON_1>.",
+    "unresolved_count": 7
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+    "unresolved_count": 6
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+    "unresolved_count": 5
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+    "unresolved_count": 4
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+    "unresolved_count": 1
+  },
+  {
+    "dataset": "dogo",
+    "key_text": "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>.",
+    "unresolved_count": 1
+  }
+]

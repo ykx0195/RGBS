@@ -1,0 +1,42 @@
+{
+  "remote_host": "connect.nmb2.seetacloud.com:31447",
+  "remote_root": "/root/autodl-tmp/ykx_32x50_20261030",
+  "encoder": "bge-small-en-v1.5",
+  "threshold": 0.85,
+  "representation": "desensitized",
+  "seed": 42,
+  "steps_per_slot": 32,
+  "beam_width": 50,
+  "datasets": {
+    "abcd": {
+      "k": 5,
+      "train": 3834,
+      "validation": 480,
+      "test": 476,
+      "manifest_sha256": "af88617131d8b69bd83e58dc997cd88de5912242705e2ffd0eb5f8c66c64a659"
+    },
+    "banking77": {
+      "k": 15,
+      "train": 4924,
+      "validation": 875,
+      "test": 1485,
+      "manifest_sha256": "f5c365957796f3b17b524c51d6c836eb79662425576b49b6f4acd83b04f34c4c"
+    },
+    "multidogo": {
+      "k": 10,
+      "train": 3993,
+      "validation": 535,
+      "test": 1094,
+      "manifest_sha256": "cfd33255f62d4d45065195a76106251d5030208d3ed032aec5585f766d87ed0f"
+    }
+  },
+  "code_sha256": {
+    "run_configurable.py": "93804979549888d94df0d03332b0190766141440b812cec7f16782a1ea7b6c80",
+    "hybrid_search.py": "f95794d62cd08b99a6f8cd317f9193de6be2609dd486408f41a2785363b8deb9",
+    "portfolio.py": "dfcbd1e789d15dcd8c3e524f7729a48eb359c1ceb1bedf31b36e34137909be8f",
+    "riemann_common.py": "587b0e7927a03e682780c9cbb32bcac17ad68108a4f2a0183ba9f41e4d5fee44",
+    "target_generation.py": "0e114c3a3cb2a0c8a27237108d1f51bd72f0f67956fe2065d881f292558025c4"
+  },
+  "abcd_resume_code_sha256": "baa20dcb46f40b25395e8587ecfbc7389ef7cb759daeea4c51e05250bf88c304",
+  "abcd_resume_change": "Invalid domain verdicts are rejected after three retries; accepted candidates still require both API approvals."
+}

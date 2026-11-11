@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 100,
+  "selected": {
+    "text": "accidentally'm having dealing with the pin for having <CREDIT_CARD_1> , couldn location give anybody suggesting",
+    "full_cluster_mean_cosine": 0.8856894969940186,
+    "selected_at_iteration": 67
+  },
+  "accepted_updates": 18,
+  "active_seconds": 9.858159616589546,
+  "heldout_loaded": false
+}

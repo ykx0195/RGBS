@@ -1,0 +1,15 @@
+{
+  "pid": "9866",
+  "command": [
+    "/root/autodl-tmp/corpus_hotflip_baseline_20261031/venv/bin/python",
+    "-u",
+    "/root/autodl-tmp/advdec_baseline_20261031/code/advdec_worker.py",
+    "--dataset",
+    "abcd",
+    "--cluster",
+    "2",
+    "--smoke",
+    "--smoke-small-model"
+  ],
+  "server_port": 35564
+}

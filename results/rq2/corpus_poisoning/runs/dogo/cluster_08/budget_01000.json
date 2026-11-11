@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 1000,
+  "selected": {
+    "text": "i need its issuing travel expenses came i teinated <PERSON_1> .",
+    "full_cluster_mean_cosine": 0.9217727184295654,
+    "selected_at_iteration": 655
+  },
+  "accepted_updates": 16,
+  "active_seconds": 87.52078180015087,
+  "heldout_loaded": false
+}

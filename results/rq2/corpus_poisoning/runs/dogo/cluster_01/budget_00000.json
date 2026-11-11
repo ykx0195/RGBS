@@ -1,0 +1,11 @@
+{
+  "iteration_budget": 0,
+  "selected": {
+    "text": "I'd like a boarding pass for booking <BOOKING_ID_1>, please send it to <EMAIL_ADDRESS_1>.",
+    "full_cluster_mean_cosine": 0.898425817489624,
+    "selected_at_iteration": 0
+  },
+  "accepted_updates": 0,
+  "active_seconds": 0.0005756020545959473,
+  "heldout_loaded": false
+}
