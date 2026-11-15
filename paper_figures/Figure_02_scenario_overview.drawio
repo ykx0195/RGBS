@@ -92,7 +92,7 @@
             <mxPoint as="targetPoint" x="105" y="133" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n26" value="RKGB" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#D4304B;fillColor=#FFDCE2;fontColor=#263441;fontSize=25;fontFamily=Arial;align=center;verticalAlign=middle;strokeWidth=1.8;fillOpacity=100;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="n26" value="RGBS" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeColor=#D4304B;fillColor=#FFDCE2;fontColor=#263441;fontSize=25;fontFamily=Arial;align=center;verticalAlign=middle;strokeWidth=1.8;fillOpacity=100;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="215" y="105" width="105" height="70" />
         </mxCell>
         <mxCell id="e27" style="edgeStyle=none;rounded=0;html=1;strokeColor=#D4304B;strokeWidth=1.8;endArrow=block;endFill=1;endSize=8;exitX=1.0;exitY=0.4791666666666667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="n12" target="n26">

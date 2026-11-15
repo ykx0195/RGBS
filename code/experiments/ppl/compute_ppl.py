@@ -22,7 +22,7 @@ for ds in ['banking77','abcd','dogo']:
  else:
   p=ROOT/'MultiDoGO_8309_模块与重选_CPU_20261103'/'train_frozen_selections.json';sources[str(p)]=sc.sha(p)
   texts=json.loads(p.read_text(encoding='utf-8'))['variants']['full_main']
- for i,text in enumerate(texts):inputs.append({'dataset':ds,'method':'RKGB','split':'generated','representation':'deidentified','source_id':str(i),'variant_id':'','text':text})
+ for i,text in enumerate(texts):inputs.append({'dataset':ds,'method':'RGBS','split':'generated','representation':'deidentified','source_id':str(i),'variant_id':'','text':text})
 assert len(inputs)==120
 natural_path=prior/'sample_n200_delex_per_text.csv';sources[str(natural_path)]=sc.sha(natural_path)
 natural=[r for r in csv.DictReader(natural_path.open(encoding='utf-8-sig')) if r['split']=='train' and r['representation']=='delex']
@@ -48,10 +48,10 @@ for a in range(0,len(inputs),8):
 summary=[]
 for ds in ['banking77','abcd','dogo']:
  nat=np.array([float(r['ppl']) for r in natural if r['dataset']==ds]);assert len(nat)==200
- for method in ['Corpus poisoning','Adversarial Decoding','GASLITE-Flu','RKGB']:
+ for method in ['Corpus poisoning','Adversarial Decoding','GASLITE-Flu','RGBS']:
   val=np.array([float(r['ppl']) for r in scores if r['dataset']==ds and r['method']==method])
   summary.append({'dataset':ds,'method':method,'natural_n':len(nat),'natural_median':float(np.median(nat)),'natural_q1':float(np.quantile(nat,.25)),'natural_q3':float(np.quantile(nat,.75)),'natural_q95':float(np.quantile(nat,.95)),'natural_le150_count':int((nat<=150).sum()),'generated_n':len(val),'generated_median':float(np.median(val)),'generated_q1':float(np.quantile(val,.25)),'generated_q3':float(np.quantile(val,.75)),'generated_mean':float(val.mean()),'generated_le150_count':int((val<=150).sum())})
 sc.save_csv(OUT/'ppl_summary.csv',summary)
-(OUT/'provenance.json').write_text(json.dumps({'natural_sample':'200 deidentified Train requests per dataset; fixed existing seed 20261031','generated':'all raw retained texts in Table III; current 83.09% MultiDoGO RKGB portfolio','model':provenance['model'],'definition':provenance['ppl_definition'],'precision':'CPU float32; batch8; same scorer implementation as natural sample','sources':sources,'seconds':time.time()-start,'post_hoc':True,'threshold_not_retuned':150},ensure_ascii=False,indent=2),encoding='utf-8')
+(OUT/'provenance.json').write_text(json.dumps({'natural_sample':'200 deidentified Train requests per dataset; fixed existing seed 20261031','generated':'all raw retained texts in Table III; current 83.09% MultiDoGO RGBS portfolio','model':provenance['model'],'definition':provenance['ppl_definition'],'precision':'CPU float32; batch8; same scorer implementation as natural sample','sources':sources,'seconds':time.time()-start,'post_hoc':True,'threshold_not_retuned':150},ensure_ascii=False,indent=2),encoding='utf-8')
 print('FINISHED',flush=True)
 for r in summary:print(r['dataset'],r['method'],'Natural',round(r['natural_median'],2),'Generated',round(r['generated_median'],2),'pass',r['generated_le150_count'],r['generated_n'],flush=True)

@@ -1,7 +1,7 @@
 """Reproducible request-only extension of the RQ1 collision matrix.
 
 Source-aligned derived fields and pinned Presidio are separate PII pipelines.
-No generation, judge API, RKGB selection, or test-dependent threshold tuning.
+No generation, judge API, RGBS selection, or test-dependent threshold tuning.
 """
 import os
 for _k in ('OMP_NUM_THREADS','MKL_NUM_THREADS','OPENBLAS_NUM_THREADS'):

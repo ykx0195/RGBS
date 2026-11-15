@@ -64,15 +64,15 @@
     "source_sha256": "94040804e83da4979ae9f9a4981a5b82184e4992f95a1b1c16527503e4b16111"
   },
   {
-    "path": "paper_figures/Figure_03_RKGB_method.drawio",
+    "path": "paper_figures/Figure_03_RGBS_method.drawio",
     "source_sha256": "7bd5ad9475e892fc9d61121cf071b80ab7b2361dde17e5c6e1a66bc56f9706a0"
   },
   {
-    "path": "paper_figures/Figure_03_RKGB_method.pdf",
+    "path": "paper_figures/Figure_03_RGBS_method.pdf",
     "source_sha256": "587304a63f2c2cd4dbc3730bb68db4b1f1325f6b0e10c93197db138b215e13f4"
   },
   {
-    "path": "paper_figures/Figure_03_RKGB_method.svg",
+    "path": "paper_figures/Figure_03_RGBS_method.svg",
     "source_sha256": "72f209f64b9c0d65578a07253de7c84fc9da3890b17e4c1ced997229719ab4ef"
   },
   {
@@ -148,7 +148,7 @@
     "source_sha256": "b99416b735621005dad39609a372b488a27afec0cf4814886a1d1629744e4a1c"
   },
   {
-    "path": "results/frozen_sets/banking77/raw_RKGB.json",
+    "path": "results/frozen_sets/banking77/raw_RGBS.json",
     "source_sha256": "184b9c2d664eb86d18950e3b0896321de87e4ec802d65c783d1556db5e31d683"
   },
   {
@@ -156,7 +156,7 @@
     "source_sha256": "33a27ae9cf49230b9288655b8fef438ad74f8b634b91a412cf172dc5cb282a40"
   },
   {
-    "path": "results/frozen_sets/banking77/delex_RKGB.json",
+    "path": "results/frozen_sets/banking77/delex_RGBS.json",
     "source_sha256": "46294178905ee0477186ce720e066640d5ff365891fa5aa23358b253f20f200b"
   },
   {
@@ -164,7 +164,7 @@
     "source_sha256": "7d113b2a47dd44c3b6a0040708350810385795211e90daaed86e2655ada8b224"
   },
   {
-    "path": "results/frozen_sets/abcd/raw_RKGB.json",
+    "path": "results/frozen_sets/abcd/raw_RGBS.json",
     "source_sha256": "a49eb84086a190df9028f23077bdd73cf0bf20162afccedb685b40a6ddfe5f77"
   },
   {
@@ -172,7 +172,7 @@
     "source_sha256": "2bdab6f33b03cb7bf2b6c1b344c750c121bb2f3fd7e9cfcbbb5f203a44a84a0b"
   },
   {
-    "path": "results/frozen_sets/abcd/delex_RKGB.json",
+    "path": "results/frozen_sets/abcd/delex_RGBS.json",
     "source_sha256": "944a3992e5c6b429fff8f8d3785f1ba7ce2bb5adbc0fcb88f65548f8a73a125d"
   },
   {
@@ -180,7 +180,7 @@
     "source_sha256": "72ac1bfabbf4087458b1d560d65eff3243b12f63c0c5a3fd55e07c7ec1f10b22"
   },
   {
-    "path": "results/frozen_sets/dogo/raw_RKGB.json",
+    "path": "results/frozen_sets/dogo/raw_RGBS.json",
     "source_sha256": "5bde34d49c64d654e10c3004960198de5baa3632333bc713c01278edc2ca56bd"
   },
   {
@@ -188,7 +188,7 @@
     "source_sha256": "f6051f97c8e417f444553ea07ee3c0b29ded185e082a7030b97616ea46814cda"
   },
   {
-    "path": "results/frozen_sets/dogo/delex_RKGB.json",
+    "path": "results/frozen_sets/dogo/delex_RGBS.json",
     "source_sha256": "05ad6be5c6cecfca9507ac2668c0b4bf8cb2b9481c56e5a68af7c96205a3ee41"
   },
   {

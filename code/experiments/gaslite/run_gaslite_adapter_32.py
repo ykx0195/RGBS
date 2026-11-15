@@ -1,6 +1,6 @@
 """Official GASLITE token search adapted to whole cache queries.
 
-Train-only common RKGB initialization. Two explicit objective variants.
+Train-only common RGBS initialization. Two explicit objective variants.
 Raw and quality-screened portfolios are frozen separately before Test access.
 No claim of reproducing the original retrieval/ranking protocol unchanged.
 """

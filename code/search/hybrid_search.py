@@ -52,7 +52,7 @@ def texts_from_jsonl(path: Path) -> list[str]:
 
 
 def target_for_slots(selected: list[dict]) -> list[int]:
-    """Use each frozen target once; v10's duplicate round 14 fills missing 7."""
+    """Use each frozen target exactly once."""
     assigned: list[int | None] = [None] * len(selected)
     unused = set(range(15))
     for slot, row in enumerate(selected):

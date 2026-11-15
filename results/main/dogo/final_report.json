@@ -11,7 +11,6 @@
   "reports": [
     {
       "budget": 10,
-      "route": "original__gradient_residual_retention",
       "text_test": {
         "covered": 909,
         "total": 1094,

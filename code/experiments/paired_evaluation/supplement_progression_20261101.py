@@ -191,7 +191,7 @@ def main():
         pp={}
         for representation in ['raw','delex']:
             train=trains[representation];tr=dd[representation]['train']
-            keysets={'RKGB':texts_from_selected(raw_report['selected']) if representation=='raw' else maintexts}
+            keysets={'RGBS':texts_from_selected(raw_report['selected']) if representation=='raw' else maintexts}
             for method in ['greedy_train','greedy_train_swap4']:
                 inds=rawindices[method] if representation=='raw' else [x['train_index'] for x in basef['methods'][method]]
                 keysets[method]=[tr[i]['text'] for i in inds]
@@ -214,7 +214,7 @@ def main():
         save(OUT/ds/'stage_definition.json',{'targets_source':str(LONG/'01_targets/target_vectors.npy') if ds=='dogo' else str(BASE/f'优先补充实验_20261031/baselines/{ds}/frozen_target_vectors.npy'),
              'nearest_train_indices':nearest,'nearest_is_actual_initialization':False,'available_stages':list(stages)+['final_text'],
              'scope':'Same encoder, Test split, K and threshold. Diagnostic nearest anchors are not claimed to be actual initial sentences.'})
-        stages['final_text']=pp[('delex','RKGB')]['vectors']
+        stages['final_text']=pp[('delex','RGBS')]['vectors']
         bundles[ds]={'trains':trains,'paired':paired,'mainpath':mainpath,'stages':stages,'raw_expected':raw_report['metrics']['test']['covered']}
         pools[ds]=pp
     save(OUT/'TRAIN_SELECTIONS_FROZEN.json',{'datasets':list(DS),'all_prefix_orders_use_train_only':True,'frozen_at':datetime.now(timezone(timedelta(hours=8))).isoformat()})
@@ -227,7 +227,7 @@ def main():
         source_ids=[r['source_id'] for r in dd['delex']['test']];n=len(source_ids)
         for (rep,method),p in pp.items():
             p['test_sim']=tv[rep]@p['vectors'].T
-            if method=='RKGB':assert int((p['test_sim']>=.85).any(axis=1).sum())==(expected if rep=='delex' else bundle['raw_expected']), (ds,rep)
+            if method=='RGBS':assert int((p['test_sim']>=.85).any(axis=1).sum())==(expected if rep=='delex' else bundle['raw_expected']), (ds,rep)
             np.savez_compressed(OUT/ds/f'{rep}_{method}_similarities.npz',train=p['train_sim'],test=p['test_sim'])
             for m in range(k+1):
                 idx=p['order'][:m];a=(p['test_sim'][:,idx]>=.85).any(axis=1);b=(p['train_sim'][:,idx]>=.85).any(axis=1)
@@ -249,14 +249,14 @@ def main():
                 calibration.append({'dataset':ds,'representation':rep,'method':method,'validation_recall_target':target,'validation_pairs':len(val),
                     'threshold':tau,'validation_recall':float((np.array(val)>=tau).mean()),'normal_test_pairs':len(ntest),'normal_test_recall':float((ntest>=tau).mean()),
                     'portfolio_test_covered':int(hit.sum()),'portfolio_test_total':n,'portfolio_test_coverage':float(hit.mean()),'reoptimized_at_calibrated_threshold':False})
-        main=pp[('delex','RKGB')];sr=tv['raw']@main['vectors'].T;sd=main['test_sim']
+        main=pp[('delex','RGBS')];sr=tv['raw']@main['vectors'].T;sd=main['test_sim']
         np.savez_compressed(OUT/ds/'main_fixed_key_paired_similarities.npz',raw=sr,delex=sd)
         for tau in plan['fixed_thresholds']:
             a=(sr>=tau).any(axis=1);b=(sd>=tau).any(axis=1)
             fixed.append({'dataset':ds,'threshold':tau,'k':k,'total':n,'raw_covered':int(a.sum()),'delex_covered':int(b.sum()),
                 'gained_queries':int((~a&b).sum()),'lost_queries':int((a&~b).sum()),'delta_pp':float((b.mean()-a.mean())*100),
                 'added_pairs':int(((sr<tau)&(sd>=tau)).sum()),'lost_pairs':int(((sr>=tau)&(sd<tau)).sum())})
-        for method in ['RKGB','greedy_train','greedy_train_swap4']:
+        for method in ['RGBS','greedy_train','greedy_train_swap4']:
             a=(pp[('raw',method)]['test_sim']>=.85).any(axis=1);b=(pp[('delex',method)]['test_sim']>=.85).any(axis=1)
             ci=ci_paired(a,b,source_ids)
             pairedresults.append({'dataset':ds,'method':method,'threshold':.85,'raw_covered':int(a.sum()),'delex_covered':int(b.sum()),'total':n,
@@ -302,7 +302,7 @@ def prepare_audit(pools,datasets,test_vectors):
                 'deepseek_label':r.get('deepseek_label',''),'source_csv':str(path),'source_pair_id':r.get('pair_id','')})
     summary=[];pending=[];allpairs=[]
     for ds,(_,k,_) in DS.items():
-        p=pools[ds][('delex','RKGB')];sr=test_vectors[ds]['raw']@p['vectors'].T;sd=p['test_sim'];dd=datasets[ds]
+        p=pools[ds][('delex','RGBS')];sr=test_vectors[ds]['raw']@p['vectors'].T;sd=p['test_sim'];dd=datasets[ds]
         union=(sr>=.85)|(sd>=.85); judged=np.zeros_like(union);diff=np.zeros_like(union);same=np.zeros_like(union)
         for i,j in np.argwhere(union):
             i,j=int(i),int(j);key=p['texts'][j];query=dd['delex']['test'][i]['text'];prior=cache.get((key,query),[])
@@ -340,7 +340,7 @@ def plot_results(budget,thresholds,calibration,paired,stages):
     plt.rcParams.update({'font.size':10,'svg.fonttype':'none'})
     fig,axs=plt.subplots(1,3,figsize=(13,3.8))
     for ax,ds in zip(axs,DS):
-        for method,color in [('RKGB','#b54d37'),('greedy_train_swap4','#27659a')]:
+        for method,color in [('RGBS','#b54d37'),('greedy_train_swap4','#27659a')]:
             for rep,style in [('raw','--'),('delex','-')]:
                 rr=[r for r in budget if (r['dataset'],r['method'],r['representation'])==(ds,method,rep)]
                 ax.plot([r['texts'] for r in rr],[r['test_coverage']*100 for r in rr],style,color=color,label=method+' '+rep)
@@ -350,13 +350,13 @@ def plot_results(budget,thresholds,calibration,paired,stages):
     fig,axs=plt.subplots(1,3,figsize=(13,3.8))
     for ax,ds in zip(axs,DS):
         for rep,color in [('raw','#27659a'),('delex','#b54d37')]:
-            rr=[r for r in thresholds if r['dataset']==ds and r['method']=='RKGB' and r['representation']==rep]
+            rr=[r for r in thresholds if r['dataset']==ds and r['method']=='RGBS' and r['representation']==rep]
             ax.plot([r['threshold'] for r in rr],[r['coverage']*100 for r in rr],'o-',color=color,label=rep)
             for target in [.9,.95]:
-                row=next(r for r in calibration if r['dataset']==ds and r['method']=='RKGB' and r['representation']==rep and r['validation_recall_target']==target)
+                row=next(r for r in calibration if r['dataset']==ds and r['method']=='RGBS' and r['representation']==rep and r['validation_recall_target']==target)
                 ax.scatter(row['threshold'],row['portfolio_test_coverage']*100,marker='x' if target==.9 else 'D',s=45,color=color)
         ax.axvline(.85,color='gray',ls=':',lw=1);ax.set(title=ds,xlabel='Matching threshold',ylim=(0,100));ax.grid(alpha=.2)
-    axs[0].set_ylabel('Frozen RKGB query coverage (%)');axs[-1].legend();fig.tight_layout()
+    axs[0].set_ylabel('Frozen RGBS query coverage (%)');axs[-1].legend();fig.tight_layout()
     fig.savefig(OUT/'threshold_coverage.png',dpi=190);fig.savefig(OUT/'threshold_coverage.svg');plt.close(fig)
     fig,axs=plt.subplots(1,3,figsize=(13,3.8))
     for ax,ds in zip(axs,DS):
@@ -375,7 +375,7 @@ def make_report(paired,calibration,budget,stages):
        '| 数据集 | 目标召回 | 原文阈值 | 脱敏阈值 | 原文正常Test召回 | 脱敏正常Test召回 | 原文集合覆盖 | 脱敏集合覆盖 |','|---|---:|---:|---:|---:|---:|---:|---:|']
     for ds in DS:
         for target in [.9,.95]:
-            rr={r['representation']:r for r in calibration if r['dataset']==ds and r['method']=='RKGB' and r['validation_recall_target']==target};a,b=rr['raw'],rr['delex']
+            rr={r['representation']:r for r in calibration if r['dataset']==ds and r['method']=='RGBS' and r['validation_recall_target']==target};a,b=rr['raw'],rr['delex']
             lines.append(f"| {ds} | {target:.0%} | {a['threshold']:.4f} | {b['threshold']:.4f} | {a['normal_test_recall']:.2%} | {b['normal_test_recall']:.2%} | {a['portfolio_test_coverage']:.2%} | {b['portfolio_test_coverage']:.2%} |")
     lines+=['','## 连续目标到实际文本','', 'stage_coverage.csv在相同Test划分、K和阈值下记录各阶段覆盖。最近自然Train锚点是独立诊断对照，不冒称实际初始化；若实际初始化可取得则另列。各阶段集合不保证包含关系，连续覆盖不是所有可能文本集合的理论上界。','',
         '| 数据集 | 阶段 | 覆盖 |','|---|---|---:|']

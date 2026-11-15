@@ -1,4 +1,4 @@
-"""Post-search PPL-only screen with the same local model used for HotFlip/RKGB."""
+"""Post-search PPL-only screen with the same local model used for HotFlip/RGBS."""
 from pathlib import Path
 import hashlib
 import json

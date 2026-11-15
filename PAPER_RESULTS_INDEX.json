@@ -29,8 +29,8 @@
       "results/rq2/stage_coverage.csv",
       "results/rq2/vector_validation.json"
     ],
-    "tab:rkgb-ablations": [
-      "paper_tables/06_tab_rkgb-ablations.tex"
+    "tab:rgbs-ablations": [
+      "paper_tables/06_tab_rgbs-ablations.tex"
     ],
     "tab:cross-encoder-calibrated": [
       "paper_tables/07_tab_cross-encoder-calibrated.tex",
@@ -48,10 +48,10 @@
       "paper_figures/Figure_02_scenario_overview.drawio",
       "paper_figures/Figure_02_scenario_overview.pdf"
     ],
-    "Figure_03_RKGB_method": [
-      "paper_figures/Figure_03_RKGB_method.drawio",
-      "paper_figures/Figure_03_RKGB_method.pdf",
-      "paper_figures/Figure_03_RKGB_method.svg"
+    "Figure_03_RGBS_method": [
+      "paper_figures/Figure_03_RGBS_method.drawio",
+      "paper_figures/Figure_03_RGBS_method.pdf",
+      "paper_figures/Figure_03_RGBS_method.svg"
     ],
     "Figure_04_RQ1_threshold_sensitivity": [
       "paper_figures/Figure_04_RQ1_threshold_sensitivity.pdf",
@@ -62,17 +62,17 @@
       "paper_figures/Figure_05_coverage_comparison.pdf",
       "paper_figures/Figure_05_coverage_comparison.svg",
       "results/rq2/representation_comparison.csv",
-      "results/frozen_sets/banking77/raw_RKGB.json",
+      "results/frozen_sets/banking77/raw_RGBS.json",
       "results/frozen_sets/banking77/raw_greedy_train.json",
-      "results/frozen_sets/banking77/delex_RKGB.json",
+      "results/frozen_sets/banking77/delex_RGBS.json",
       "results/frozen_sets/banking77/delex_greedy_train.json",
-      "results/frozen_sets/abcd/raw_RKGB.json",
+      "results/frozen_sets/abcd/raw_RGBS.json",
       "results/frozen_sets/abcd/raw_greedy_train.json",
-      "results/frozen_sets/abcd/delex_RKGB.json",
+      "results/frozen_sets/abcd/delex_RGBS.json",
       "results/frozen_sets/abcd/delex_greedy_train.json",
-      "results/frozen_sets/dogo/raw_RKGB.json",
+      "results/frozen_sets/dogo/raw_RGBS.json",
       "results/frozen_sets/dogo/raw_greedy_train.json",
-      "results/frozen_sets/dogo/delex_RKGB.json",
+      "results/frozen_sets/dogo/delex_RGBS.json",
       "results/frozen_sets/dogo/delex_greedy_train.json"
     ],
     "Figure_06_budget_coverage": [
