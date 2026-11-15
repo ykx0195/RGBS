@@ -14,7 +14,7 @@ These are cosine-threshold union coverage results with BGE-small-en-v1.5 at thre
 
 ## Results in the paper
 
-[`PAPER_RESULTS_INDEX.json`](PAPER_RESULTS_INDEX.json) maps manuscript tables, figures and body analyses to the included data. [`paper_tables`](paper_tables) contains all eight tables extracted directly from the current manuscript. [`paper_figures`](paper_figures) contains only figures cited by that manuscript, their available editable sources, and plotting data.
+[`PAPER_RESULTS_INDEX.json`](PAPER_RESULTS_INDEX.json) maps manuscript tables, figures and body analyses to the included data. [`paper_tables`](paper_tables) contains the eight manuscript tables in SVG format. [`paper_figures`](paper_figures) contains the manuscript figures in PDF format. Plotting data is stored in `results/figure_data/`.
 
 | Paper content | Data |
 |---|---|
@@ -26,7 +26,7 @@ These are cosine-threshold union coverage results with BGE-small-en-v1.5 at thre
 | Module ablations | `paper_tables/06_*` |
 | Calibrated cross-encoder evaluation | `paper_tables/07_*`, `results/rq2/cross_encoder_calibrated.csv` |
 | Sequential admission | `paper_tables/08_*`, `results/rq2/sequential_admission.csv` |
-| Fixed-key Top-1 and offline cross-task rates | `paper_figures/Figure_09_task_relationships_data.json`, `paper_figures/Figure_RQ3_offline_cross_task_rates_data.json`, `results/rq3/` |
+| Fixed-key Top-1 and offline cross-task rates | `results/figure_data/Figure_09_task_relationships_data.json`, `results/figure_data/Figure_RQ3_offline_cross_task_rates_data.json`, `results/rq3/` |
 
 Tables preserve the reported rounded values; separate source-data files retain available counts and precision. Coverage, cross-task pair proportions and Top-1 return proportions have different denominators. Unresolved audit judgments are excluded where indicated in the paper's figure data. The artifact does not infer answer correctness from a task-relation label.
 

@@ -33,5 +33,8 @@ for name in hashes:
     assert not secret.search((root / name).read_bytes()), f'Credential pattern in {name}'
 for name in ['code/search/run_configurable.py','code/search/run_configurable_resume.py','code/experiments/paired_evaluation/remote_fixed_task_audit.py']:
     assert 'key_file' not in (root / name).read_text(encoding='utf-8'),name
-assert len(list((root / 'paper_tables').glob('*.tex'))) == 8
+assert len(list((root / 'paper_tables').glob('*.svg'))) == 8
+assert all(p.suffix=='.svg' for p in (root / 'paper_tables').iterdir() if p.is_file())
+assert len(list((root / 'paper_figures').glob('*.pdf'))) == 9
+assert all(p.suffix=='.pdf' for p in (root / 'paper_figures').iterdir() if p.is_file())
 print(f'PASS: {len(hashes)} checksums; syntax; main reports/frozen sets; paper references; credential-pattern and environment-only loading checks.')

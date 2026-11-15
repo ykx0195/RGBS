@@ -48,43 +48,23 @@
     "source_sha256": "a9098beda005f6b0282f16628263d8cd1b29748ae7dd46be1d7594ee21a482e4"
   },
   {
-    "path": "paper_figures/Figure_01_threshold_matching.drawio",
-    "source_sha256": "561224c3190e51e373b3b119f3679d240a72517b370a5c9002d6255c502c384b"
-  },
-  {
     "path": "paper_figures/Figure_01_threshold_matching.pdf",
     "source_sha256": "a3e179ec25186ad3f5b3f4598e2bd14dde44f2eac9bd448c17ad2fba8a1b19c7"
-  },
-  {
-    "path": "paper_figures/Figure_02_scenario_overview.drawio",
-    "source_sha256": "e418c0631225f9ce2b991998a96c73ce60b76ebdcc42806fb5fc8337a425c588"
   },
   {
     "path": "paper_figures/Figure_02_scenario_overview.pdf",
     "source_sha256": "94040804e83da4979ae9f9a4981a5b82184e4992f95a1b1c16527503e4b16111"
   },
   {
-    "path": "paper_figures/Figure_03_RGBS_method.drawio",
-    "source_sha256": "7bd5ad9475e892fc9d61121cf071b80ab7b2361dde17e5c6e1a66bc56f9706a0"
-  },
-  {
     "path": "paper_figures/Figure_03_RGBS_method.pdf",
     "source_sha256": "587304a63f2c2cd4dbc3730bb68db4b1f1325f6b0e10c93197db138b215e13f4"
-  },
-  {
-    "path": "paper_figures/Figure_03_RGBS_method.svg",
-    "source_sha256": "72f209f64b9c0d65578a07253de7c84fc9da3890b17e4c1ced997229719ab4ef"
   },
   {
     "path": "paper_figures/Figure_04_RQ1_threshold_sensitivity.pdf",
     "source_sha256": "644633cf1042b10103e4f78c88021f36456430d5b211466a1c1fed3cad6209ee"
   },
   {
-    "path": "paper_figures/Figure_04_RQ1_threshold_sensitivity.svg",
-    "source_sha256": "b5b98b2621a75369a21e2c330aef183909d0a928ea554b94427ed226fa3e7475"
-  },
-  {
-    "path": "paper_figures/Figure_04_RQ1_threshold_sensitivity_data.json",
+    "path": "results/figure_data/Figure_04_RQ1_threshold_sensitivity_data.json",
     "source_sha256": "97ba267380ddde73c78fdd25dfd8ef85766c9a1583cd5d7f75735d39bbe30a2e"
   },
   {
@@ -92,27 +72,15 @@
     "source_sha256": "078ea24c4730a7eb8720e629e225832231dc6e870a34dcf96872bbfb5a488e8e"
   },
   {
-    "path": "paper_figures/Figure_05_coverage_comparison.svg",
-    "source_sha256": "aa2abc2d6d4c68d48e1b1e50cd1c6a60695a0c9b38a16b12e7f2cf222c888e39"
-  },
-  {
     "path": "paper_figures/Figure_06_budget_coverage.pdf",
     "source_sha256": "dad20bca2eb694397a9cabd90808e3d8696f0258c9c4fd9752f7bd1290510663"
-  },
-  {
-    "path": "paper_figures/Figure_06_budget_coverage.svg",
-    "source_sha256": "106f5f1efc05b4d06addb6cd8cf9786e8d1dd71d544ec0ecf7603f3f3d0b0c0b"
   },
   {
     "path": "paper_figures/Figure_07_RQ2_threshold_sensitivity.pdf",
     "source_sha256": "1d99281c44336b6a769ea8a448d2515e995a1d8918a418a3d7cc7315e3570a20"
   },
   {
-    "path": "paper_figures/Figure_07_RQ2_threshold_sensitivity.svg",
-    "source_sha256": "f0e1fd30244a23dc1ab44f20d2c3dc951c92511700c91c16f0c30bc0fae00915"
-  },
-  {
-    "path": "paper_figures/Figure_07_RQ2_threshold_sensitivity_data.csv",
+    "path": "results/figure_data/Figure_07_RQ2_threshold_sensitivity_data.csv",
     "source_sha256": "899bfd0c475e70b574b2895ab95498bbfb47febca77e31e8983f3b3829149d03"
   },
   {
@@ -120,11 +88,7 @@
     "source_sha256": "a780d29814cae1a697c8a2ded01edddb16423b9b659a6bec517e1fd111b86cfb"
   },
   {
-    "path": "paper_figures/Figure_09_task_relationships.svg",
-    "source_sha256": "c3b75dc99ca6a6e08945bec9109158016a006da893d9001425db8a64625d65fb"
-  },
-  {
-    "path": "paper_figures/Figure_09_task_relationships_data.json",
+    "path": "results/figure_data/Figure_09_task_relationships_data.json",
     "source_sha256": "d6102ef124d5b7517e2b27d2e0cf27d263d2402427038c223a18065e14107ca9"
   },
   {
@@ -132,11 +96,7 @@
     "source_sha256": "a841cb5d3751bda6422854651d83e39873357e07f85e687d3065222731e674fa"
   },
   {
-    "path": "paper_figures/Figure_RQ3_offline_cross_task_rates.svg",
-    "source_sha256": "9d5caf81bcf96a509b9f5f60c616bf751eb20e783d9199f74d7094a7c0103cde"
-  },
-  {
-    "path": "paper_figures/Figure_RQ3_offline_cross_task_rates_data.json",
+    "path": "results/figure_data/Figure_RQ3_offline_cross_task_rates_data.json",
     "source_sha256": "738c1e49e5d75735165e74177dd3aa9c1f21f7d5575b8cff433ad15167c18f0b"
   },
   {
