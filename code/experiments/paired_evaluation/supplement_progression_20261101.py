@@ -19,7 +19,7 @@ DATA = Path(r'/path/to/user/Desktop/ykx/data')
 MODEL = Path(r'/path/to/user/Desktop/ykx/bge-small-en-v1.5')
 CODE = BASE/'newcode/src'
 DS = {'banking77':('banking77',15,1109), 'abcd':('abcd',5,308), 'dogo':('multidogo',10,909)}
-LONG = BASE/'ykx现行实验/v10_current/multidogo/results/runs/multidogo_riemann_k10_t0p85_s42_dataset_scope_v1'
+LONG = BASE/'ykx现行实验/RGBS/multidogo/results/runs/multidogo_riemann_k10_t0p85_s42_dataset_scope_v1'
 INPUTS = {}
 ENC = None
 START = time.monotonic()
@@ -168,9 +168,7 @@ def main():
             mainpath=BASE/f'三数据集_脱敏_32x50_20261030/runs/{ds}/final_report.json';maintexts=texts_from_selected(full['selected'])
             targets=loadnp(BASE/f'优先补充实验_20261031/baselines/{ds}/frozen_target_vectors.npy')
         assert len(maintexts)==k and len(set(maintexts))==k
-        save(OUT/ds/'main_frozen_texts.json',{'texts':maintexts,'source':str(mainpath),'source_sha256':sha(mainpath),'expected_test_covered':expected,
-             'author_confirmed_search_settings':{'seed':42,'rounds':32,'beam_width':50},
-             'machine_verified_source':'Exact saved text set and Test coverage; original source path and hash retained'})
+        save(OUT/ds/'main_frozen_texts.json',{'texts':maintexts,'source_sha256':sha(mainpath),'expected_test_covered':expected})
         paired=BASE/('固定文本_原文脱敏配对_20261031/ABCD补充/abcd' if ds=='abcd' else f'固定文本_原文脱敏配对_20261031/{ds}')
         ident=read(paired/'embedding_identity.json');tid=read(BASE/f'优先补充实验_20261031/baselines/{ds}/train_vectors_identity.json')
         assert ident['model_sha256']==tid['model_sha256']==sha(MODEL/'model.safetensors')
@@ -179,7 +177,7 @@ def main():
         assert ident['delex_test_sha256']==sha(DATA/folder/'desensitized/test.jsonl')
         train_delex=loadnp(BASE/f'优先补充实验_20261031/baselines/{ds}/train_vectors.npy')
         assert tid['train_sha256']==sha(DATA/folder/'desensitized/train.jsonl')
-        # Small consistency probe verifies locally loaded encoder against archived vectors.
+        # Small consistency probe verifies locally loaded encoder against stored vectors.
         probe=[0,len(train_delex)//2,len(train_delex)-1]
         fresh=encode_cached(f'{ds}_consistency_probe',[dd['delex']['train'][i]['text'] for i in probe])
         assert np.max(np.abs(fresh-train_delex[probe]))<2e-5
@@ -369,7 +367,7 @@ def make_report(paired,calibration,budget,stages):
     lines=['# 递进主线补充实验','', '日期：2026年11月1日。研究范围为阈值匹配、固定预算覆盖及任务关系。全部新增计算使用本地CPU；未启动文本生成搜索，未使用GPU。本报告为已有冻结产物的事后分析，Test结果此前已经观察。新增选择及排序仅使用Train。','',
       '## 原文与脱敏分别构造的冻结集合','', '| 数据集 | 方法 | 原文覆盖 | 脱敏覆盖 | 差值pp | 来源配对bootstrap区间 |','|---|---|---:|---:|---:|---|']
     for r in paired:lines.append(f"| {r['dataset']} | {r['method']} | {r['raw_covered']}/{r['total']} ({r['raw_covered']/r['total']:.2%}) | {r['delex_covered']}/{r['total']} ({r['delex_covered']/r['total']:.2%}) | {r['delta_pp']:.2f} | [{r['source_bootstrap_low_pp']:.2f}, {r['source_bootstrap_high_pp']:.2f}] |")
-    lines+=['','区间仅描述当前冻结集合上来源配对Test的不确定性，不包含搜索随机性。MultiDoGO采用作者指定且已验证的909/1094文本集合；具体来源路径和哈希保存在main_frozen_texts.json。方法和旧组件结果必须按具体文本集合对齐，不能仅凭种子及轮数相同合并。','',
+    lines+=['','区间仅描述当前冻结集合上来源配对Test的不确定性，不包含搜索随机性。','',
        '## 文本数量与匹配结构','', 'budget_coverage.csv 给出每个冻结完整K集合内部的Train贪心前缀。它不是每个K独立搜索，也不是全局最小文本预算。per_key_neighborhoods.csv给出每键覆盖、独占覆盖；neighborhood_summary.csv给出键间重叠和每查询匹配数。all_natural_train_anchor_degrees.csv比较同一来源Train文本在两种表示下的Test匹配度数，属于描述性结构分析。','',
        '## 同任务匹配目标下的阈值诊断','', '复用已有双模型验证的合成同任务改写。分别在原文和脱敏Validation正例上确定90%与95%召回阈值，固定后评价Test正例和冻结文本覆盖。不同表示的Test召回未被强行调成相等；具体实测值公开。此处没有在新阈值重新搜索，不据此断言适应新阈值的方法无效。','',
        '| 数据集 | 目标召回 | 原文阈值 | 脱敏阈值 | 原文正常Test召回 | 脱敏正常Test召回 | 原文集合覆盖 | 脱敏集合覆盖 |','|---|---:|---:|---:|---:|---:|---:|---:|']

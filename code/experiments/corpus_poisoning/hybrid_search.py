@@ -62,7 +62,7 @@ def target_for_slots(selected: list[dict]) -> list[int]:
             assigned[slot] = index
             unused.remove(index)
     if len(unused) != assigned.count(None):
-        raise ValueError("Cannot map 15 v10 sentences to 15 frozen targets")
+        raise ValueError("Cannot map 15 selected sentences to 15 frozen targets")
     fill = iter(sorted(unused))
     return [int(next(fill) if value is None else value) for value in assigned]
 
@@ -330,10 +330,10 @@ def run(args: argparse.Namespace) -> None:
     train_path = args.data_dir / "train.jsonl"
     targets_path = args.freeze_dir / "frozen_riemann_targets.npy"
     if sha256(train_path) != TRAIN_SHA256 or sha256(targets_path) != TARGET_SHA256:
-        raise ValueError("Train split or frozen Riemann targets differ from v10's verified inputs")
+        raise ValueError("Train split or frozen Riemann targets do not match the expected input hashes")
     selected = json.loads(args.seeds_file.read_text(encoding="utf-8"))["selected"]
     if len(selected) != 15:
-        raise ValueError("Expected v10's 15 selected sentences")
+        raise ValueError("Expected 15 selected sentences")
     targets = np.load(targets_path)
     records = [json.loads(line) for line in (args.freeze_dir / "frozen_riemann_targets.jsonl")
                .read_text(encoding="utf-8").splitlines()]
@@ -391,7 +391,7 @@ def run(args: argparse.Namespace) -> None:
         portfolio.append(row)
         archive[text] = row
     baseline_covered = int(union_mask([row["mask"] for row in portfolio]).sum())
-    print(f"v10 baseline={baseline_covered}/{len(train)}; device={device}; PPL={fluency is not None}", flush=True)
+    print(f"Seed baseline={baseline_covered}/{len(train)}; device={device}; PPL={fluency is not None}", flush=True)
     state_path = args.out_dir / "state.json"
     start_slot = 0
     if state_path.exists():
@@ -494,7 +494,7 @@ def run(args: argparse.Namespace) -> None:
     greedy = greedy_portfolio(pool, 15)
     greedy = swap_portfolio(greedy, pool, args.swap_passes)
     alternatives = [
-        ("v10_baseline", [archive[text] for text in original_texts]),
+        ("seed_baseline", [archive[text] for text in original_texts]),
         ("coordinate_beam", portfolio),
         ("global_greedy_swap", greedy),
     ]
@@ -528,7 +528,7 @@ def main() -> None:
     parser.add_argument("--data-dir", type=Path, default=ROOT / "data/banking77/desensitized")
     parser.add_argument("--model-dir", type=Path, default=ROOT / "bge-small-en-v1.5")
     parser.add_argument("--freeze-dir", type=Path, default=ROOT / "kmeans_riemann_hotflip_aggd")
-    parser.add_argument("--seeds-file", type=Path, default=ROOT / "v10_kmeans_riemann_beam/best_k15_selection.json")
+    parser.add_argument("--seeds-file", type=Path, default=ROOT / "inputs/best_k15_selection.json")
     parser.add_argument("--out-dir", type=Path, default=HERE / "results/full")
     parser.add_argument("--lm-dir", type=Path, help="Local causal LM used for PPL and periodic fluency repair")
     parser.add_argument("--allow-no-lm", action="store_true", help="Ablation only: disable PPL and repair")

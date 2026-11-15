@@ -16,7 +16,7 @@ from riemann_common import Settings, density_weights, greedy_order, optimize_one
 def anchor_indices(guide: np.ndarray, train: np.ndarray, threshold: float,
                    count: int = 20, retrieval_pool: int = 256,
                    alignment_weight: float = 0.05) -> list[int]:
-    """Same diverse natural-anchor selection as v10_current/dataset_pipeline.py."""
+    """Select diverse natural anchors using Train coverage and guide alignment."""
     similarity = train @ guide
     pool = np.argsort(-similarity, kind="stable")[:retrieval_pool]
     count = min(count, len(pool))

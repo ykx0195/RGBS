@@ -194,7 +194,7 @@ def main():
             write_rows(args.output_dir/'collision_results.csv',rows);write_rows(args.output_dir/'presidio_vs_gold_contrasts.csv',contrasts)
             write_rows(args.output_dir/'dose_increment_contrasts.csv',dose_contrasts)
             print('completed',domain,key,'elapsed_min',round((time.time()-started)/60,1),flush=True)
-    manifest={'design':'All previous main records; common <=256 token filter over all 36 versions and four tokenizers. Parent 60/40 membership retained after filtering.',
+    manifest={'design':'Common <=256 token filter across 36 text representations and four tokenizers; 60/40 split membership retained after filtering.',
         'dose':'Same >=3-gold-span records for one, ceil(n/2), all; nested hash-ranked spans; deterministic seed '+SEED,
         'type':'One hash-ranked eligible span per type; only records containing that group evaluated; full-domain original thresholds shared; cohorts differ, so cross-type magnitude is descriptive.',
         'groups':{k:sorted(v) for k,v in GROUPS.items()},'thresholds':{'tail_targets':TARGETS,'fixed':FIXED},

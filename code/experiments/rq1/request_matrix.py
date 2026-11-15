@@ -242,7 +242,7 @@ def analyze(job):
         'uncertainty':'Pointwise source-record-delete jackknife normal 95% intervals conditional on calibration thresholds; no search/API calls; not simultaneous intervals.',
         'numerics':'Unit-normalized float32 embeddings and float32 cosine dot products; TF32 disabled.',
         'new_generation_calls':0,'new_judge_calls':0,'finished_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()})
-    md=['# 三请求集 RQ1 完整矩阵（新实验）','','固定阈值 0.85；数值为碰撞率变化，单位百分点。','',
+    md=['# 三请求集 RQ1 碰撞率矩阵','','固定阈值 0.85；数值为碰撞率变化，单位百分点。','',
         '| 数据集 | 编码器 | PII 来源 | Generic | Type | Type+index | Delete | Length mask |',
         '|---|---|---|---:|---:|---:|---:|---:|']
     for ds in DATASETS:
@@ -253,7 +253,7 @@ def analyze(job):
     md+=['','完整矩阵 1080 行，0.85 主表 120 行。原始/脱敏碰撞率、匹配数量和记录级区间见 CSV。',
         '', 'dataset_fields 来自派生请求的原文/占位符严格对齐，不是新增人工标注。Presidio 使用独立的自动识别结果。',
         '', '校准沿用 benchmark Train，评价沿用 Test；文档数据使用其原有 60/40 划分。两组分组展示，不合并为同一总体。',
-        '', '新规则采用方括号占位符，与旧角括号脱敏表示不同。旧表示另列 legacy_delex_comparison.csv，不覆盖旧结果。']
+        '', '方括号占位符与角括号占位符分别计算、分别报告。']
     (out/'table_tau085.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
     print('ANALYSIS_COMPLETE',len(rows),flush=True)
 

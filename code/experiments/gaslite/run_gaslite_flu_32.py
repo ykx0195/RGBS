@@ -158,7 +158,7 @@ def main():
                      'note':'Author fluency loss and token filter active. Auxiliary GPT2 scorer methods unchanged; local loading and scoring batch size are technical adaptations.'}
             save_json(slot,payload)
         pool.extend(row['text'] for row in payload['archive']);originals.append(payload['seed'])
-        print(f"slot={index+1}/{k} archived={len(payload['archive'])} seconds={payload['seconds']:.1f}",flush=True)
+        print(f"slot={index+1}/{k} candidates={len(payload['archive'])} seconds={payload['seconds']:.1f}",flush=True)
         if a.smoke:print('Smoke complete; Test not opened',flush=True);return
     if AUTHOR_FLUENCY is not None:
         AUTHOR_FLUENCY.model.to('cpu')

@@ -1,4 +1,4 @@
-"""Shared geometry, coverage scoring, and the original v3 sphere optimizer."""
+"""Shared geometry, coverage scoring, and spherical target optimization."""
 
 from __future__ import annotations
 
@@ -60,7 +60,7 @@ def greedy_order(vectors: np.ndarray, train: np.ndarray, threshold: float) -> tu
 
 
 def density_weights(train: np.ndarray, k: int, floor: float, chunk: int = 256) -> np.ndarray:
-    """Global Train k-neighbor density weights from the original v3 optimizer."""
+    """Global Train k-neighbor density weights from spherical target optimization."""
     if len(train) < 2:
         return np.ones(len(train), dtype=np.float32)
     k = min(k, len(train) - 1)

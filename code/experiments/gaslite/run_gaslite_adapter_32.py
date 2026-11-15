@@ -144,7 +144,7 @@ def main():
                      'note':'Logging-only fluency disabled; PPL measured separately. Official token search unchanged.'}
             save_json(slot,payload)
         pool.extend(row['text'] for row in payload['archive']);originals.append(payload['seed'])
-        print(f"slot={index+1}/{k} archived={len(payload['archive'])} seconds={payload['seconds']:.1f}",flush=True)
+        print(f"slot={index+1}/{k} candidates={len(payload['archive'])} seconds={payload['seconds']:.1f}",flush=True)
         if a.smoke:print('Smoke complete; Test not opened',flush=True);return
     # Train ranking freezes raw selection before any Test reads.
     unique=list(dict.fromkeys(pool));vectors=enc.encode(unique,64)

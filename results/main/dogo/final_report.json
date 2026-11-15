@@ -1,5 +1,5 @@
 {
-  "dataset": "MultiDoGO Synthetic PII Single-Turn Query Pairs v2",
+  "dataset": "MultiDoGO Synthetic PII Single-Turn Query Pairs",
   "representation": "delexed",
   "selection_split": "train",
   "final_evaluation_split": "test",
