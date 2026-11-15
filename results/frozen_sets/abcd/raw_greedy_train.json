@@ -1,0 +1,21 @@
+{
+  "texts": [
+    "I'd like a refund for order 8737473365, which hasn't arrived yet. I changed my mind right after placing it, and my username is normanb0.",
+    "I forgot my password and can't access my account history. I don't have an email address, but I can give you my PIN 306871 and ZIP code 31778 to verify my identity.",
+    "I'd like to change the shipping on my order 6286689229 so I can receive it faster. My account ID is RVJTWZKAP6.",
+    "I'd like to return my order 0368883358 because the Guess Jeans arrived in the wrong color, and I want to send them back by mail. My username is rodriguezdomingo698.",
+    "I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is FTSCHKAFXK."
+  ],
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_split": "train",
+  "test_used_for_selection": false,
+  "selection_threshold": 0.85,
+  "pool_size": 5,
+  "train_covered": 1382
+}

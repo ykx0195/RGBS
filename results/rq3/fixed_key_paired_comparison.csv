@@ -1,0 +1,4 @@
+dataset,threshold,k,total,raw_covered,delex_covered,gained_queries,lost_queries,delta_pp,added_pairs,lost_pairs
+banking77,0.85,15,1485,267,1109,842,0,56.70033670033669,1529,0
+abcd,0.85,5,476,96,308,212,0,44.537815126050425,246,0
+dogo,0.85,10,1094,249,909,660,0,60.3290676416819,696,0

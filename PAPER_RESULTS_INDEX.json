@@ -1,0 +1,105 @@
+{
+  "manuscript_sha256": "d020ca271e310fad50589cf74592612df2f456a9810b99d787f2dbe19723361b",
+  "results": {
+    "Main coverage": [
+      "results/main/coverage.csv",
+      "results/main/banking77/frozen_texts.json",
+      "results/main/abcd/frozen_texts.json",
+      "results/main/dogo/frozen_texts.json"
+    ],
+    "tab:derived-request-collections": [
+      "paper_tables/01_tab_derived-request-collections.tex"
+    ],
+    "tab:eval-collision-fixed085": [
+      "paper_tables/02_tab_eval-collision-fixed085.tex",
+      "results/rq1/collision_tau085.csv"
+    ],
+    "tab:rq1-controls": [
+      "paper_tables/03_tab_rq1-controls.tex",
+      "results/rq1/matched_nonpii_fixed085.csv",
+      "results/rq1/filtered_pairs_fixed085.csv",
+      "results/rq1/control_summary.json"
+    ],
+    "tab:external-generation": [
+      "paper_tables/04_tab_external-generation.tex",
+      "results/rq2/ppl_medians.csv"
+    ],
+    "tab:stage-coverage": [
+      "paper_tables/05_tab_stage-coverage.tex",
+      "results/rq2/stage_coverage.csv",
+      "results/rq2/vector_validation.json"
+    ],
+    "tab:rkgb-ablations": [
+      "paper_tables/06_tab_rkgb-ablations.tex"
+    ],
+    "tab:cross-encoder-calibrated": [
+      "paper_tables/07_tab_cross-encoder-calibrated.tex",
+      "results/rq2/cross_encoder_calibrated.csv"
+    ],
+    "tab:sequential-admission": [
+      "paper_tables/08_tab_sequential-admission.tex",
+      "results/rq2/sequential_admission.csv"
+    ],
+    "Figure_01_threshold_matching": [
+      "paper_figures/Figure_01_threshold_matching.drawio",
+      "paper_figures/Figure_01_threshold_matching.pdf"
+    ],
+    "Figure_02_scenario_overview": [
+      "paper_figures/Figure_02_scenario_overview.drawio",
+      "paper_figures/Figure_02_scenario_overview.pdf"
+    ],
+    "Figure_03_RKGB_method": [
+      "paper_figures/Figure_03_RKGB_method.drawio",
+      "paper_figures/Figure_03_RKGB_method.pdf",
+      "paper_figures/Figure_03_RKGB_method.svg"
+    ],
+    "Figure_04_RQ1_threshold_sensitivity": [
+      "paper_figures/Figure_04_RQ1_threshold_sensitivity.pdf",
+      "paper_figures/Figure_04_RQ1_threshold_sensitivity.svg",
+      "paper_figures/Figure_04_RQ1_threshold_sensitivity_data.json"
+    ],
+    "Figure_05_coverage_comparison": [
+      "paper_figures/Figure_05_coverage_comparison.pdf",
+      "paper_figures/Figure_05_coverage_comparison.svg",
+      "results/rq2/representation_comparison.csv",
+      "results/frozen_sets/banking77/raw_RKGB.json",
+      "results/frozen_sets/banking77/raw_greedy_train.json",
+      "results/frozen_sets/banking77/delex_RKGB.json",
+      "results/frozen_sets/banking77/delex_greedy_train.json",
+      "results/frozen_sets/abcd/raw_RKGB.json",
+      "results/frozen_sets/abcd/raw_greedy_train.json",
+      "results/frozen_sets/abcd/delex_RKGB.json",
+      "results/frozen_sets/abcd/delex_greedy_train.json",
+      "results/frozen_sets/dogo/raw_RKGB.json",
+      "results/frozen_sets/dogo/raw_greedy_train.json",
+      "results/frozen_sets/dogo/delex_RKGB.json",
+      "results/frozen_sets/dogo/delex_greedy_train.json"
+    ],
+    "Figure_06_budget_coverage": [
+      "paper_figures/Figure_06_budget_coverage.pdf",
+      "paper_figures/Figure_06_budget_coverage.svg",
+      "results/rq2/budget_coverage.csv"
+    ],
+    "Figure_07_RQ2_threshold_sensitivity": [
+      "paper_figures/Figure_07_RQ2_threshold_sensitivity.pdf",
+      "paper_figures/Figure_07_RQ2_threshold_sensitivity.svg",
+      "paper_figures/Figure_07_RQ2_threshold_sensitivity_data.csv"
+    ],
+    "Figure_09_task_relationships": [
+      "paper_figures/Figure_09_task_relationships.pdf",
+      "paper_figures/Figure_09_task_relationships.svg",
+      "paper_figures/Figure_09_task_relationships_data.json"
+    ],
+    "Figure_RQ3_offline_cross_task_rates": [
+      "paper_figures/Figure_RQ3_offline_cross_task_rates.pdf",
+      "paper_figures/Figure_RQ3_offline_cross_task_rates.svg",
+      "paper_figures/Figure_RQ3_offline_cross_task_rates_data.json"
+    ],
+    "RQ3 body: fixed-key cross-task coverage": [
+      "results/rq3/threshold_task_coverage.csv"
+    ],
+    "RQ3 body: newly matched requests": [
+      "results/rq3/fixed_key_paired_comparison.csv"
+    ]
+  }
+}

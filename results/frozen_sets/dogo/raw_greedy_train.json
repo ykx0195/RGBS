@@ -1,0 +1,31 @@
+{
+  "texts": [
+    "My name is Alicia Shaw, and I'm requesting proof of insurance for one of my cars. My SSN ends in 5306.",
+    "My booking confirmation number is BOO80071801, and I'm Patrick Mitchell. I'd like to change my seat assignment.",
+    "My booking is BOO13112387 and I'd like to get my boarding pass; you can reach me at customer9958601@example.test.",
+    "I need the status of my claim, with policy ID POL35208143 and claim ID CLA28346767.",
+    "My phone screen just got cracked. You can reach me at 2025554990 or customer1546436@example.test.",
+    "My address has changed, so please update it to 6472 Cedar Avenue for my card 4111117998083979.",
+    "My credit card is lost, and I'm Robert Mclean. Please report it; the card number is 4111115306090850.",
+    "Please place an order for pizzas. You can reach me at 2025550021 and deliver to 3411 Cedar Avenue.",
+    "Hi, my name is Brian Roberts. My credit card bill shows an error, and I'd like help getting the charge removed. My card number is 4111117193094151.",
+    "I'm James Hernandez, and I'm having a problem with Skype. My account ends in 3816."
+  ],
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "selection_split": "train",
+  "test_used_for_selection": false,
+  "selection_threshold": 0.85,
+  "pool_size": 10,
+  "train_covered": 2498
+}

@@ -7,9 +7,6 @@
   "test_used_for_selection": false,
   "test_rows": 1094,
   "test_sha256": "1f9bd20a2dff467e2f6ea9d6a7f86d604009a9db705643f1256b46dcbc3c18fc",
-  "frozen_validation_report_sha256": "3995dd47b90eb314bcff19aa39e800828699719958b56df38e6420ed4aa2ff5f",
-  "encoder_path": "/root/autodl-tmp/liman/models/bge-small-en-v1.5",
-  "encoder_device": "cuda",
   "threshold": 0.85,
   "reports": [
     {
@@ -31,7 +28,6 @@
         "mean_pairwise_coverage_jaccard": 0.013845061108388006,
         "max_pairwise_coverage_jaccard": 0.20233463035019456
       },
-      "test_textization_retention": 0.861611374407583,
       "selected": [
         {
           "text": "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",

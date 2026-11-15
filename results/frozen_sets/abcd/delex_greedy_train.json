@@ -1,0 +1,21 @@
+{
+  "texts": [
+    "I'd like a refund for order <ORDER_ID_1>, which hasn't arrived yet. I changed my mind right after placing it, and my username is <USERNAME_1>.",
+    "I forgot my password and can't access my account history. I don't have an email address, but I can give you my PIN <PIN_NUMBER_1> and ZIP code <ZIP_CODE_1> to verify my identity.",
+    "Can you check the status of order <ORDER_ID_1> for account <ACCOUNT_ID_1>? The shipping cost was high, and I'm wondering if I could cancel it instead.",
+    "I'm on the premium subscription and my annual payment was due yesterday, so I'd like to pay it right now. My account ID is <ACCOUNT_ID_1>.",
+    "I'd like to change the shipping on my order <ORDER_ID_1> so I can receive it faster. My account ID is <ACCOUNT_ID_1>."
+  ],
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_split": "train",
+  "test_used_for_selection": false,
+  "selection_threshold": 0.85,
+  "pool_size": 5,
+  "train_covered": 2030
+}

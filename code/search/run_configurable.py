@@ -178,12 +178,6 @@ class APIRewriter:
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         key = next((os.environ[name].strip() for name in spec.get("key_envs", [])
                     if os.environ.get(name, "").strip()), "")
-        if not key and spec.get("key_file"):
-            key_path = Path(spec["key_file"])
-            if not key_path.is_absolute():
-                key_path = config_dir / key_path
-            if key_path.is_file():
-                key = key_path.read_text(encoding="utf-8").strip()
         if not key:
             raise RuntimeError(f"Missing API credential for {self.name}")
         from openai import OpenAI

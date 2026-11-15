@@ -1,0 +1,21 @@
+{
+  "texts": [
+    "I'd want a fee refund for order 8737473365, which hasn't arrived yet. I changed my mind right after I paid, and my account user ID is tristanb0.",
+    "I'd like to return my order 0368883358 because the figured apparel came in the wrong color, and I want to send them back by mail. My username is giantname698.",
+    "I've forgotten my username and can't access my account. Can you help me recover it? I can verify with my phone number (768) 599-6783 and zip code 68626.",
+    "I'm on the premium site and my recurring subscription fee was due today, so I'd like to handle the charges right now. My account ID is FThhKAFXK.",
+    "I have to change the shipping status for order 6286689229 so I can get it sooner. My account ID is RVJTWZKAP6."
+  ],
+  "order": [
+    0,
+    4,
+    1,
+    2,
+    3
+  ],
+  "selection_split": "train",
+  "test_used_for_selection": false,
+  "selection_threshold": 0.85,
+  "pool_size": 5,
+  "train_covered": 1795
+}

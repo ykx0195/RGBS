@@ -1,0 +1,31 @@
+{
+  "texts": [
+    "Could you send me a boarding pass for booking <BOOKING_ID_1>? You can reach me at <EMAIL_ADDRESS_1>.",
+    "This is <PERSON_1>, and I need a copy of insurance for my car. My SSN ends in <SSN_LAST4_1>.",
+    "The card number is <CARD_NUMBER_1>, and I lost my credit card. This is <PERSON_1>.",
+    "i'm <PERSON_1> and i need the status of my claims. my insurance number is <POLICY_ID_1>.",
+    "I want help fixing my iPhone because its screen was just cracked. My phone number is <PHONE_NUMBER_1> and my email is <EMAIL_ADDRESS_1>.",
+    "My card number is <CARD_NUMBER_1>, and I need the address on my account changed to <STREET_ADDRESS_1>.",
+    "I'm <PERSON_1> and my application isn't working as expected, so I need help. My account number ends in <ACCOUNT_ID_LAST4_1>.",
+    "I want to claim travel expenses; I'm <PERSON_1>.",
+    "I am <PERSON_1> and I would like my seat number for booking <BOOKING_ID_1>.",
+    "Please place an order for a pizza. You can reach me at <PHONE_NUMBER_1> and my address is <STREET_ADDRESS_1>."
+  ],
+  "order": [
+    8,
+    1,
+    2,
+    3,
+    6,
+    4,
+    0,
+    5,
+    7,
+    9
+  ],
+  "selection_split": "train",
+  "test_used_for_selection": false,
+  "selection_threshold": 0.85,
+  "pool_size": 10,
+  "train_covered": 3316
+}

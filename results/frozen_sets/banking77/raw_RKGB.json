@@ -1,0 +1,41 @@
+{
+  "texts": [
+    "A transfer from account 8100057961 doesn't seem to have been handled correctly. Can you clarify the issue?",
+    "I tried to get cash from the ATM with my card on account 63-0011-5881, but the amount I withdrew was wrong.",
+    "My top-up with card 4510 7219 6205 3316 hasn't finished, and it involves account 902000062381.",
+    "I think an extra charge appears to be on the card, and I'd like to clarify why it happened to my account 63-0012-5821.",
+    "I tried a card payment using 4708 1103 5577 8782, and that transaction got declined for account 902000111751.",
+    "I believe my recent abroad cash transaction got the incorrect exchange rate for account 63-0008-4301.",
+    "I just deposited cash this morning to account 70032781, and the balance still isn't shown.",
+    "Could you let me know why the card refund to account 902000108351 still hasn't shown up?",
+    "I believe there's an unknown direct debit from account 8100047671, definitely help me with this.",
+    "I was caught after all past attempts using my card 3460 616903 78935. Could you assist me in changing the PIN?",
+    "I am seeing a card transaction still pending for the account number 63-0008-1171, please check.",
+    "I believe a fee was charged on my card transaction for account 902000033561; could you indicate the exact reason.",
+    "The transaction regarding account 70045891 went through incorrectly; I'd like to cancel that now, thanks.",
+    "I'm trying to figure out why the transfer from account 63-0008-9921 now hasn't been completed properly yet.",
+    "My phone registered under phone number (202) 555-0182 is either lost or stolen."
+  ],
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "selection_split": "train",
+  "test_used_for_selection": false,
+  "selection_threshold": 0.85,
+  "pool_size": 15,
+  "train_covered": 2320
+}
